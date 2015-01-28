@@ -1,0 +1,88 @@
+LOCUS       AAW90023                 582 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90023
+VERSION     AAW90023.1  GI:59718618
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 582)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 582)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..582
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..582
+                     /product="conserved hypothetical protein"
+     Region          2..582
+                     /db_xref="CDD:226483"
+                     /note="Predicted protease with the C-terminal PDZ domain
+                     [General function prediction only]"
+                     /region_name="COG3975"
+     Region          <167..443
+                     /db_xref="CDD:265459"
+                     /note="Peptidase Gluzincin family (thermolysin-like
+                     proteinases, TLPs) includes peptidases M1, M2, M3, M4, M13,
+                     M32 and M36 (fungalysins); cl14813"
+                     /region_name="GluZincin"
+     Region          259..377
+                     /db_xref="CDD:114047"
+                     /note="M61 glycyl aminopeptidase; pfam05299"
+                     /region_name="Peptidase_M61"
+     Site            order(268,272,302)
+                     /site_type="other"
+                     /note="Zn binding site [ion binding]"
+                     /db_xref="CDD:189001"
+     Region          482..>522
+                     /db_xref="CDD:260201"
+                     /note="PDZ domain, also called DHR (Dlg homologous region)
+                     or GLGF (after a conserved sequence motif). Many PDZ
+                     domains bind C-terminal polypeptides, though binding to
+                     internal (non-C-terminal) polypeptides and even to lipids
+                     has been demonstrated; cl00117"
+                     /region_name="PDZ"
+     Site            order(483..486,488)
+                     /site_type="other"
+                     /note="protein binding site [polypeptide binding]"
+                     /db_xref="CDD:238080"
+     CDS             1..582
+                     /locus_tag="NGO1375"
+                     /coded_by="AE004969.1:1339678..1341426"
+                     /note="Best Blastp Hit: pir||E81048 conserved hypothetical
+                     protein NMB1726 [imported] - Neisseria meningitidis (group
+                     B strain MD58) >gi|7226981|gb|AAF42071.1| (AE002523)
+                     conserved hypothetical protein [Neisseria meningitidis
+                     MC58]; COG0265 Trypsin-like serine proteases, typically"
+                     /transl_table=11
+ORIGIN
+        1 mihykiapsp ldhewhillk ftqdndfpie islpnwvpgs ylirdfsrhi tsihascngt
+       61 smpleqiakn rwhtaavrge wqirytvyaf dlsvrgsflt tergffdgsc lflkvegtet
+      121 lphrleltgi ppewriattl petgrlvfqt asydelidrp vemgliefld feaagiphti
+      181 alngiypdfd rdrlvsdikk icetelamfs spapfekylf llhvgdhiyg glehtdstal
+      241 ladrhslppy gmtdaddayt tllglfshey fhawnvksik paafapydld kenyteqlwa
+      301 fegitsyydd lflarsrtis pefylnllaq gitrvqqtrg rlrqtlaess ftawnkfykp
+      361 denspnaivs yyqkgalaal cldliirnrs ngrhsldtvm dklyrewrdt hsgipekhwq
+      421 ircqeitgld ltdffqtaly stedlplaec lattgvkltf lplprqhggg yaehifpipp
+      481 tgdfgarfkq nadhivlthv fnggsaesaa lcpqdkiial dgyactdfaa qwaryhvrak
+      541 inihffragi lrqtvltvqa taadtailhi tdrnllenwl fg
+//

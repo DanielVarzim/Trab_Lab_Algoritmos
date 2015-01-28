@@ -1,0 +1,100 @@
+LOCUS       AAW90095                 503 aa                     BCT 31-JAN-2014
+DEFINITION  putative lysyl-tRNA synthetase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90095
+VERSION     AAW90095.1  GI:59718690
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 503)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 503)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..503
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..503
+                     /note="LysRS"
+                     /product="putative lysyl-tRNA synthetase"
+     Region          14..503
+                     /db_xref="CDD:234778"
+                     /note="lysyl-tRNA synthetase; Reviewed; PRK00484"
+                     /region_name="lysS"
+     Region          68..173
+                     /db_xref="CDD:239817"
+                     /note="LysRS_N: N-terminal, anticodon recognition domain of
+                     lysyl-tRNA synthetases (LysRS). These enzymes are
+                     homodimeric class 2b aminoacyl-tRNA synthetases (aaRSs).
+                     This domain is a beta-barrel domain (OB fold) involved in
+                     binding the tRNA anticodon stem-loop; cd04322"
+                     /region_name="LysRS_N"
+     Site            order(72..73,90..91,120,146,149..151)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239817"
+     Site            order(76,78..79,85,96,98,116,130,136)
+                     /site_type="other"
+                     /note="putative anticodon binding site"
+                     /db_xref="CDD:239817"
+     Region          176..502
+                     /db_xref="CDD:238398"
+                     /note="Lys_tRNA synthetase (LysRS) class II core domain.
+                     Class II LysRS is a dimer which attaches a lysine to the 3'
+                     OH group of ribose of the appropriate tRNA. Its assignment
+                     to class II aaRS is based upon its structure and the
+                     presence of three...; cd00775"
+                     /region_name="LysRS_core"
+     Site            208..212
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238398"
+     Site            order(240,262,264,270,274,414,421,424,428,480)
+                     /site_type="active"
+                     /db_xref="CDD:238398"
+     Site            261..264
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238398"
+     Site            477..480
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238398"
+     CDS             1..503
+                     /locus_tag="NGO1454"
+                     /coded_by="complement(AE004969.1:1419715..1421226)"
+                     /note="Best Blastp Hit: pir||C81086 lysyl-tRNA synthetase,
+                     heat inducible NMB1425 [imported] - Neisseria meningitidis
+                     (group B strain MD58) >gi|7226664|gb|AAF41786.1| (AE002491)
+                     lysyl-tRNA synthetase, heat inducible [Neisseria
+                     meningitidis MC58]; COG1190 Lysyl-tRNA synthetases"
+                     /transl_table=11
+ORIGIN
+        1 mseqnhpqte pqldenqiia lrreklnnir qqrnaypndf krdsfaadlq aqygeigkee
+       61 ldpqavpvki agrmmlkrqm gkasfatiqd vtgqiqlyln nkgvsqevld dfnhwdlgdi
+      121 vgaegtlfkt nhgeltvrvs dirllskslr plpdkhkgls dqetkyrqry vdlianeesr
+      181 ntfikrsqii qsvrnfmvge hylevetpmm hpipggatak pfvthhnald iplylriape
+      241 lylkrlvvgg lervfeinrs frnegmsvrh npeftmiefy eafsdyermm qmaediirna
+      301 srtvngtani tyngkevdle spferltile aikkynphyt deqlndaewl kkeivkhges
+      361 lppspgigsl qlalfegcae gklwnptfiv dypvevspla rasdtkqglt erfelfvvgr
+      421 elangyseln dpedqaerfk sqvaqkdagd deamhydady iramefglpp tggcgigidr
+      481 lvmlltdlqt irdvilfpqm rpe
+//

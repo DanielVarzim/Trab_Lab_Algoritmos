@@ -1,0 +1,68 @@
+LOCUS       AAW89987                 358 aa                     BCT 31-JAN-2014
+DEFINITION  putative peptide chain release factor I [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89987
+VERSION     AAW89987.1  GI:59718582
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 358)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 358)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..358
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..358
+                     /product="putative peptide chain release factor I"
+     Region          2..358
+                     /db_xref="CDD:234801"
+                     /note="peptide chain release factor 1; Validated; PRK00591"
+                     /region_name="prfA"
+     Region          67..178
+                     /db_xref="CDD:214923"
+                     /note="This domain is found in peptide chain release
+                     factors; smart00937"
+                     /region_name="PCRF"
+     Region          208..321
+                     /db_xref="CDD:249886"
+                     /note="RF-1 domain; pfam00472"
+                     /region_name="RF-1"
+     CDS             1..358
+                     /locus_tag="NGO1337"
+                     /coded_by="complement(AE004969.1:1296661..1297737)"
+                     /note="Best Blastp Hit: pir||G81822 translation releasing
+                     factor RF-1 prfA NMA1945 [similarity] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380577|emb|CAB85165.1| (AL162757) peptide chain
+                     release factor I [Neisseria meningitidis]; COG0216 protein
+                     chain release factor A"
+                     /transl_table=11
+ORIGIN
+        1 mkpsileklq qlgdrleevt hllgqpeats dmdnyrkltr ehaeltpvve vfqnyrlaqs
+       61 dladaeemls dpemkdfaae eieaakakid eldtelqkll lpkdadddkn ifieiragtg
+      121 gdeaalfagd llrmysryae rnrwqveivs aneselggyk eviarivglg aysrlkfesg
+      181 ghrvqrvpat esqgrihtsa ctvavmpead eledielnpa dlrtdtfras gaggqhinkt
+      241 dsavrithlp tgmvvecqdg rsqhankaqa mkvlaarlnd aqkrevqake aaerksligs
+      301 gdrserirty nypqgrvtdh rinltlhkld fvmdgdlaei tdaliaehqa ellaamgd
+//

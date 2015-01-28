@@ -1,0 +1,92 @@
+LOCUS       AAW90079                 729 aa                     BCT 31-JAN-2014
+DEFINITION  putative primosomal protein N' [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90079
+VERSION     AAW90079.1  GI:59718674
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 729)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 729)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..729
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..729
+                     /product="putative primosomal protein N'"
+     Region          1..728
+                     /db_xref="CDD:224119"
+                     /note="Primosomal protein N' (replication factor Y) -
+                     superfamily II helicase [DNA replication, recombination,
+                     and repair]; COG1198"
+                     /region_name="PriA"
+     Region          216..358
+                     /db_xref="CDD:238005"
+                     /note="DEAD-like helicases superfamily. A diverse family of
+                     proteins involved in ATP-dependent RNA or DNA unwinding.
+                     This domain contains the ATP-binding region; cd00046"
+                     /region_name="DEXDc"
+     Site            225..229
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+     Site            319..322
+                     /site_type="other"
+                     /note="putative Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238005"
+     Region          <443..480
+                     /db_xref="CDD:268082"
+                     /note="Predicted Zn-ribbon RNA-binding protein with a
+                     function in translation [Translation, ribosomal structure
+                     and biogenesis]; cl19729"
+                     /region_name="COG2888"
+     Region          492..588
+                     /db_xref="CDD:197757"
+                     /note="helicase superfamily c-terminal domain; smart00490"
+                     /region_name="HELICc"
+     Site            order(547,580,584,587)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     CDS             1..729
+                     /locus_tag="NGO1437"
+                     /coded_by="complement(AE004969.1:1399954..1402143)"
+                     /note="Best Blastp Hit: gb|AAF40980.1| (AE002411)
+                     primosomal protein n` [Neisseria meningitidis MC58];
+                     COG1198 Primosomal protein N' (replication factor Y)"
+                     /transl_table=11
+ORIGIN
+        1 miyhriavnv plsdglltys hseplppgtr vlvpfrnktv vgmvwetdia pdmdaarils
+       61 vqtvfveekp lsqswrdlla ftsryyhypt gqavfaalpq glketravem pqpplfyaln
+      121 eagraqtppp arfnkkaalw dallsgemtm aalkqanaqa akliedwaeq gwietteaak
+      181 pvlrpyrgqa shsefvlntg qqkasdeiqt algrfrsfll ygitgsgkte vyfdamakvl
+      241 aqgrqvlfll peinltpqll krvenrfadv ptavlhsrma agrrtqdylr amlgqaklvi
+      301 gtrlavftpl pdvglivvde ehdgsfkqdn elryhardla vwrakqggcp vvlgsatpsl
+      361 eswhkaqsga yrllqltera hasaqlpqvd ilnigrlkld ngfspqalql lkqnfeaggm
+      421 slvylnrrgf apalfcgdcg htfgcpncsa kmvlhqrarq lrchhcdhre pipfkcpdcg
+      481 nqdltavghg tqrveetlra flpkaavvrv drdstahknd wadlyrrian deidilvgtq
+      541 mlakghdfar lnlvivlnad gslysadfra perlfaelmq vsgragradk pgkvliqtql
+      601 pehpvfaavk aqdyavfaen elnerqmfam ppfgfqtavr adaprvadam eflnaaketl
+      661 apllpesvsr fgaapmlmvr laereraqvf lestsrqdlh ravslwvqvl qqnrdgkirw
+      721 svdvdpqea
+//

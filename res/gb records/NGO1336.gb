@@ -1,0 +1,77 @@
+LOCUS       AAW89986                 332 aa                     BCT 31-JAN-2014
+DEFINITION  putative dehydrogenase, lactate [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89986
+VERSION     AAW89986.1  GI:59718581
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 332)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 332)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..332
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..332
+                     /product="putative dehydrogenase, lactate"
+     Region          1..330
+                     /db_xref="CDD:223980"
+                     /note="Lactate dehydrogenase and related dehydrogenases
+                     [Energy production and conversion / Coenzyme metabolism /
+                     General function prediction only]; COG1052"
+                     /region_name="LdhA"
+     Region          1..328
+                     /db_xref="CDD:240659"
+                     /note="D-Lactate and related Dehydrogenases, NAD-binding
+                     and catalytic domains; cd12183"
+                     /region_name="LDH_like_2"
+     Site            order(76..78,100,234,295,298)
+                     /site_type="other"
+                     /note="putative ligand binding site [chemical binding]"
+                     /db_xref="CDD:240659"
+     Site            order(100,105,151,153..156,173..175,204..207,211,214,
+                     232..234,258..259,295,297..298)
+                     /site_type="other"
+                     /note="putative NAD binding site [chemical binding]"
+                     /db_xref="CDD:240659"
+     Site            order(234,263,295)
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:240659"
+     CDS             1..332
+                     /locus_tag="NGO1336"
+                     /coded_by="complement(AE004969.1:1295538..1296536)"
+                     /note="Best Blastp Hit: pir||F81053 D-lactate dehydrogenase
+                     NMB1685 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226939|gb|AAF42033.1| (AE002519) D-lactate
+                     dehydrogenase [Neisseria meningitidis MC58]; COG1052
+                     Lactate dehydrogenase and related"
+                     /transl_table=11
+ORIGIN
+        1 mkiaiygtks ydrehftran rhfgfeleff dfmldaktak maegaeaaci fvnddasrpv
+       61 leklaqigvk tvalrcagfn nvdlkaaeel glkvvrvpay spesvaehtv glmltlnrri
+      121 hkayqrtrda nfslegltgf nmygktagvi gtgkigiatm rilkgfgmnl laydpfcnpe
+      181 veklggryvd ldelyarsdi itlhcpatpe nhymlneaaf dkmkdgvmii ntsrgglids
+      241 aaaiealkcr kigalgmdvy enerelffed ksndvitddv frrlsschnv lftghqaflt
+      301 eealgnisev tlsnirevgq tgdcgnavra dg
+//

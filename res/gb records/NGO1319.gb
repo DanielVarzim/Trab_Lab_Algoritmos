@@ -1,0 +1,74 @@
+LOCUS       AAW89970                 434 aa                     BCT 31-JAN-2014
+DEFINITION  putative paraquot-inducible protein A [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89970
+VERSION     AAW89970.1  GI:59718565
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 434)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 434)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..434
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..434
+                     /note="PqiA"
+                     /product="putative paraquot-inducible protein A"
+     Region          5..429
+                     /db_xref="CDD:225542"
+                     /note="Uncharacterized paraquat-inducible protein A
+                     [Function unknown]; COG2995"
+                     /region_name="PqiA"
+     Region          <15..>54
+                     /db_xref="CDD:258494"
+                     /note="Transposase zinc-binding domain; pfam14319"
+                     /region_name="Zn_Tnp_IS91"
+     Region          62..219
+                     /db_xref="CDD:252573"
+                     /note="Paraquat-inducible protein A; pfam04403"
+                     /region_name="PqiA"
+     Region          264..419
+                     /db_xref="CDD:252573"
+                     /note="Paraquat-inducible protein A; pfam04403"
+                     /region_name="PqiA"
+     CDS             1..434
+                     /locus_tag="NGO1319"
+                     /coded_by="AE004969.1:1276589..1277893"
+                     /note="Best Blastp Hit: pir||F81820 hypothetical integral
+                     membrane protein NMA1928 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380560|emb|CAB85148.1| (AL162757) hypothetical
+                     integral membrane protein [Neisseria meningitidis]"
+                     /transl_table=11
+ORIGIN
+        1 mkpfaeniph slrgncrdea lpphtvdcpe cgcrtdvpql dkgeaafcpr cghklfrvgs
+       61 hpfsgppaya aaslilmafa ysmtyievgi pgaasvlslp emmrlmvfqd ygflaevmfv
+      121 ltfgapvlfl llclyvyaal irkqaypalr latrvmvrlr qammvdvffv stlvayikls
+      181 svakvrfgpa fylmfalsvm lirtsvsvpq hwvyfqigrl tgnnavqtas egktccsrcl
+      241 yfrdsaespc gvcgaelyrr rpkslsissa fltaavvlyf panilpimis snpaateant
+      301 ifsgiaymwd egdrliaavi fsasilvpvl kiaamsvlia aarfalpaga kklshlyrit
+      361 eavgrwsmid ifviiilmcs fhtyaarvip gsaavyfclv viltmlsayy fdprllwdkr
+      421 asdgiafnet ekyd
+//

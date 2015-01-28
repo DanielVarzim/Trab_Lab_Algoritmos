@@ -1,0 +1,65 @@
+LOCUS       AAW90082                 392 aa                     BCT 31-JAN-2014
+DEFINITION  putative ABC transporter, periplasmic protein [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW90082
+VERSION     AAW90082.1  GI:59718677
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..392
+                     /product="putative ABC transporter, periplasmic protein"
+     Region          21..373
+                     /db_xref="CDD:183211"
+                     /note="macrolide transporter subunit MacA; Provisional"
+                     /region_name="PRK11578"
+     Region          59..106
+                     /db_xref="CDD:257852"
+                     /note="Biotin-lipoyl like; pfam13533"
+                     /region_name="Biotin_lipoyl_2"
+     Region          182..300
+                     /db_xref="CDD:257762"
+                     /note="HlyD family secretion protein; pfam13437"
+                     /region_name="HlyD_3"
+     CDS             1..392
+                     /locus_tag="NGO1440"
+                     /coded_by="complement(AE004969.1:1405167..1406345)"
+                     /note="Best Blastp Hit: emb|CAB84012.1| (AL162754) putative
+                     periplasmic protein [Neisseria meningitidis]; COG0845
+                     Membrane permeases, predicted cation efflux"
+                     /transl_table=11
+ORIGIN
+        1 makmmkwaav aavaaaavwg gwsylkpepq aayitetvrr gdisrtvsat geispsnlvs
+       61 vgaqasgqik klyvklgqqv kkgdliaein sttqtntidm ekskletyqa klvsaqialg
+      121 saekkykrqa alwkddatsk edlesaqdal aaakanvael kalirqskis intaesdlgy
+      181 tritatmdgt vvaipveegq tvnaaqstpt ivqlanldmm lnkmqiaegd itkvkagqdi
+      241 sftilsepdt pikakldsvd pglttmssgg ynsstdtasn avyyyarsfv pnpdgklatg
+      301 mttqntveid gvknvllips ltvknrggka fvrvlgadgk avereirtgm kdsmntevks
+      361 glkegdkvvi seitaaeqqe sgeralggpp rr
+//

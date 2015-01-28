@@ -1,0 +1,75 @@
+LOCUS       AAW89873                 383 aa                     BCT 31-JAN-2014
+DEFINITION  putative tRNA methyltransferase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89873
+VERSION     AAW89873.1  GI:59718468
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 383)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 383)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..383
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..383
+                     /product="putative tRNA methyltransferase"
+     Region          25..375
+                     /db_xref="CDD:223558"
+                     /note="Predicted tRNA(5-methylaminomethyl-2-thiouridylate)
+                     methyltransferase, contains the PP-loop ATPase domain
+                     [Translation, ribosomal structure and biogenesis]; COG0482"
+                     /region_name="TrmU"
+     Region          25..372
+                     /db_xref="CDD:238956"
+                     /note="tRNA methyl transferase. This family represents
+                     tRNA(5-methylaminomethyl-2-thiouridine)-methyltransferase
+                     which is involved in the biosynthesis of the modified
+                     nucleoside 5-methylaminomethyl-2-thiouridine present in the
+                     wobble position of some tRNAs; cd01998"
+                     /region_name="tRNA_Me_trans"
+     Site            order(29..31,33..36,54,56)
+                     /site_type="other"
+                     /note="Ligand Binding Site [chemical binding]"
+                     /db_xref="CDD:238956"
+     CDS             1..383
+                     /locus_tag="NGO1214"
+                     /coded_by="complement(AE004969.1:1164441..1165592)"
+                     /note="Best Blastp Hit: pir||H81798 tRNA
+                     (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC
+                     2.1.1.61) NMA1744 [imported] - Neisseria meningitidis
+                     (group A strain Z2491) >gi|7380386|emb|CAB84972.1|
+                     (AL162757) tRNA
+                     (5-methylaminomethyl-2-thiouridylate)-methyltransferase
+                     [Neisseria meningitidis]; COG0482 Predicted ATPase of the
+                     PP-family"
+                     /transl_table=11
+ORIGIN
+        1 mlksafknrr fqailrmntt sntsniivgl sggvdssvta allkqqgyqv rgvfmqnwen
+       61 ddndeycsik qdsfdaiava divgididiv nfaaqykdkv fayflqeysa grtpnpdvlc
+      121 naeikfkcfl dyavgqgadt iatghyarke arngvhyllk gldrnkdqsy flyrlkpfql
+      181 eraifplggl ekpevrrlaa efnlptaakk dstgicfige rpfreflqky lptdngkmvt
+      241 pegktigehv glmfytlgqr kglgiggage pwfvaakdlt knelivvqgh dhpllytrsl
+      301 vmndlsftlp erpkagrytc ktryrmadap celcylddet aelvfdepqw avtpgqsavl
+      361 ydvdiclggg iiqttdkpvi itr
+//

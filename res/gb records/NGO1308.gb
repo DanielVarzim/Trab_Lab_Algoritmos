@@ -1,0 +1,115 @@
+LOCUS       AAW89960                 718 aa                     BCT 31-JAN-2014
+DEFINITION  putative guanosine-3',5'-bis(diphosphate)3'-pyrophosphohydrolase
+            [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89960
+VERSION     AAW89960.1  GI:59718555
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 718)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 718)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..718
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..718
+                     /EC_number="3.1.7.2"
+                     /product="putative
+                     guanosine-3',5'-bis(diphosphate)3'-pyrophosphohydrolase"
+     Region          15..717
+                     /db_xref="CDD:223394"
+                     /note="Guanosine polyphosphate
+                     pyrophosphohydrolases/synthetases [Signal transduction
+                     mechanisms / Transcription]; COG0317"
+                     /region_name="SpoT"
+     Region          56..179
+                     /db_xref="CDD:238032"
+                     /note="Metal dependent phosphohydrolases with conserved
+                     'HD' motif; cd00077"
+                     /region_name="HDc"
+     Site            order(61,85..86,152)
+                     /site_type="other"
+                     /note="Zn2+ binding site [ion binding]"
+                     /db_xref="CDD:238032"
+     Site            86
+                     /site_type="other"
+                     /note="Mg2+ binding site [ion binding]"
+                     /db_xref="CDD:238032"
+     Region          228..345
+                     /db_xref="CDD:143389"
+                     /note="Nucleotidyltransferase (NT) domain of RelA- and
+                     SpoT-like ppGpp synthetases and hydrolases; cd05399"
+                     /region_name="NT_Rel-Spo_like"
+     Site            order(249,251,272..273,277,305,307,312,314,316,320,332,334,
+                     336,344..345)
+                     /site_type="active"
+                     /note="synthetase active site [active]"
+                     /db_xref="CDD:143389"
+     Site            order(249,305,307,312,314,316,320,332,334,344)
+                     /site_type="other"
+                     /note="NTP binding site [chemical binding]"
+                     /db_xref="CDD:143389"
+     Site            order(272,332)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:143389"
+     Region          401..460
+                     /db_xref="CDD:133438"
+                     /note="TGS_RelA_SpoT: The RelA (SpoT) protein, also
+                     referred to as ppGpp hydrolase/synthetase, is a
+                     ribosome-associated protein that is activated during amino
+                     acid starvation and thought to mediate the stringent
+                     response. RelA contains a TGS domain, named after...;
+                     cd01668"
+                     /region_name="TGS_RelA_SpoT"
+     Region          643..717
+                     /db_xref="CDD:153148"
+                     /note="ACT  domain found C-terminal of the RelA/SpoT
+                     domains; cd04876"
+                     /region_name="ACT_RelA-SpoT"
+     CDS             1..718
+                     /locus_tag="NGO1308"
+                     /coded_by="complement(AE004969.1:1265171..1267327)"
+                     /note="Best Blastp Hit: pir||B81058
+                     guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase
+                     NMB1659 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226911|gb|AAF42008.1| (AE002516)
+                     guanosine-3`,5`-bis(diphosphate) 3`-pyrophosphohydrolase
+                     [Neisseria meningitidis MC58]; COG0317 Guanosine
+                     polyphosphate"
+                     /transl_table=11
+ORIGIN
+        1 mpapqpsapy dpltaeartl lfhtasylkp eqqaelekav ayafrahdgq trksgdpyit
+       61 hpiavatqla lwhmdiqglc agvmhdvled tgvtkgemaa vfgntvaemv dglskleklk
+      121 fedhaehqae sfrklilamt kdvrvivvkl adrlhnmrtl gsmrpdkrrr iaretleiya
+      181 qianriglnn ayrelqdlsf qnlhpnryet lkkamdksrk nrqdvvgkvl rafgqrlvga
+      241 nieakikgre knlygihqkm makklrfaev mdiygfrviv nsipacyaal gtlhtlyqpk
+      301 pgrfkdyiai pksngyqslh tilvgpyglp ievqirtrem davaeggivg hwsyksdskt
+      361 vdqavlhtnq wlknildlqa ssanaiefle hvkvdlfpne iyiltpkgki ltlpkgatpv
+      421 dfayavhtdi ghktvaarvn nvmmplrtkl ktgdsveiit sehakpnpaw lnfavsgrar
+      481 sairqyiknl nrhdavvlge sllqkalssl lpkdvllsdg ikekyladln dkqtsfeevl
+      541 ynvgmghtlp vyvamhiael agehfgsevr lssikvdgqe sghihfaecc hpvpgdsirl
+      601 llvkgkgmii hrdtcptllk sdpeqqldad wenmngqnyr vglqvqseds hgllalmaqa
+      661 isdsgadies vetpsksqsg tegfvefkfl lkvknldqln qiiqnlhsip yirkvirs
+//

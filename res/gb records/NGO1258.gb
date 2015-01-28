@@ -1,0 +1,64 @@
+LOCUS       AAW89917                 227 aa                     BCT 31-JAN-2014
+DEFINITION  putative phosphoglycerate mutase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89917
+VERSION     AAW89917.1  GI:59718512
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 227)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 227)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..227
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..227
+                     /EC_number="5.4.2.1"
+                     /note="PgmA"
+                     /product="putative phosphoglycerate mutase"
+     Region          2..227
+                     /db_xref="CDD:132718"
+                     /note="Histidine phosphatase domain found in
+                     phosphoglycerate mutases and related proteins, mostly
+                     phosphatases; contains a His residue which is
+                     phosphorylated during the reaction; cd07067"
+                     /region_name="HP_PGM_like"
+     Site            order(7..8,59,181..182)
+                     /site_type="active"
+                     /note="catalytic core [active]"
+                     /db_xref="CDD:132718"
+     CDS             1..227
+                     /locus_tag="NGO1258"
+                     /coded_by="complement(AE004969.1:1209692..1210375)"
+                     /note="Best Blastp Hit: pir||F81064 phosphoglycerate mutase
+                     NMB1604 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226853|gb|AAF41956.1| (AE002510)
+                     phosphoglycerate mutase [Neisseria meningitidis MC58];
+                     COG0588 Phosphoglycerate mutase 1"
+                     /transl_table=11
+ORIGIN
+        1 melvfirhgq sewnaknlft gwrdvklseq glaeaaaagk klkengyefd iaftsvltra
+       61 iktcnivlee sdqlfvpqik twrlnerhyg rlqgldkkqt aekygdeqvr iwrrsydtlp
+      121 plldkddafs ahkdrryahl padvvpdgen lkvtlervlp fwedqiapai lsgkrvlvaa
+      181 hgnslralak hiegisdedi mgleiptgqp lvyklddnlk viekfyl
+//

@@ -1,0 +1,66 @@
+LOCUS       AAW89884                 272 aa                     BCT 31-JAN-2014
+DEFINITION  putative peptidyl-prolylisomerase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89884
+VERSION     AAW89884.1  GI:59718479
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 272)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 272)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..272
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..272
+                     /product="putative peptidyl-prolylisomerase"
+     Region          42..252
+                     /db_xref="CDD:223619"
+                     /note="FKBP-type peptidyl-prolyl cis-trans isomerases 1
+                     [Posttranslational modification, protein turnover,
+                     chaperones]; COG0545"
+                     /region_name="FkpA"
+     Region          43..155
+                     /db_xref="CDD:250550"
+                     /note="Domain amino terminal to FKBP-type peptidyl-prolyl
+                     isomerase; pfam01346"
+                     /region_name="FKBP_N"
+     Region          162..250
+                     /db_xref="CDD:249719"
+                     /note="FKBP-type peptidyl-prolyl cis-trans isomerase;
+                     pfam00254"
+                     /region_name="FKBP_C"
+     CDS             1..272
+                     /locus_tag="NGO1225"
+                     /coded_by="complement(AE004969.1:1174729..1175547)"
+                     /note="Best Blastp Hit: gb|AAF41921.1| (AE002507)
+                     macrophage infectivity potentiator [Neisseria meningitidis
+                     MC58]; COG0545 FKBP-type peptidyl-prolyl cis-trans"
+                     /transl_table=11
+ORIGIN
+        1 mntifkisal tlsaalalsa cgkkeaapas asepaaasaa qgdtssigst mqqasyamgv
+       61 digrslkqmk eqgaeidlkv ftdamqavyd gkeikmteeq aqevmmkflq eqqakavekh
+      121 kadakankek geaflkenaa kdgvkttasg lqykitkqge gkqptkddiv tveyegrlid
+      181 gtvfdsskan ggpatfplsq vipgwtegvr llkeggeatf yipsnlayre qgagekigpn
+      241 atlvfdvklv kigapenapa kqpdqvdikk vn
+//

@@ -1,0 +1,66 @@
+LOCUS       AAW89921                 320 aa                     BCT 31-JAN-2014
+DEFINITION  putative invertase related gene 5, putative phage associated protein
+            [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89921
+VERSION     AAW89921.1  GI:59718516
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 320)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 320)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..320
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..320
+                     /note="Irg5"
+                     /product="putative invertase related gene 5, putative phage
+                     associated protein"
+     Region          5..308
+                     /db_xref="CDD:226077"
+                     /note="Transposase and inactivated derivatives [DNA
+                     replication, recombination, and repair]"
+                     /region_name="COG3547"
+     Region          5..149
+                     /db_xref="CDD:250699"
+                     /note="Transposase; pfam01548"
+                     /region_name="DEDD_Tnp_IS110"
+     Region          193..273
+                     /db_xref="CDD:251256"
+                     /note="Transposase IS116/IS110/IS902 family; pfam02371"
+                     /region_name="Transposase_20"
+     CDS             1..320
+                     /locus_tag="NGO1262"
+                     /coded_by="complement(AE004969.1:1215967..1216929)"
+                     /note="Best Blastp Hit: gb|AAC82509.1| (U65994) pilin gene
+                     inverting protein homolog PivNG [Neisseria gonorrhoeae]"
+                     /transl_table=11
+ORIGIN
+        1 mrntvgldis kltfdatamv gktehsakfd ndskgldqfs drlkslgyqn lhicmeatgs
+       61 yyeevadyfa qyysvyvvnp lkiskyaesr fkrtktdkqd akliaqycrs akeselvkrq
+      121 kptdeqyrls rmtaayaqik secaamknrh haakdeeaak ayaqiikamn eqlevlkeki
+      181 keqtekpnck egvkrletip aigrmtaavl fhhltsskfe tsnkfaafag lspqqkesgt
+      241 svrgkgkltk fgnrklravl fmpamvayri rafpdfikrl eekkkpkkvi iaalmrklav
+      301 iayhvhkkgg dydpsryksa
+//

@@ -1,0 +1,74 @@
+LOCUS       AAW89878                 257 aa                     BCT 31-JAN-2014
+DEFINITION  putative DeoR-family transcriptional regulator [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89878
+VERSION     AAW89878.1  GI:59718473
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 257)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 257)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..257
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..257
+                     /product="putative DeoR-family transcriptional regulator"
+     Region          4..255
+                     /db_xref="CDD:224268"
+                     /note="Transcriptional regulators of sugar metabolism
+                     [Transcription / Carbohydrate transport and metabolism];
+                     COG1349"
+                     /region_name="GlpR"
+     Region          7..59
+                     /db_xref="CDD:116806"
+                     /note="DeoR-like helix-turn-helix domain; pfam08220"
+                     /region_name="HTH_DeoR"
+     Site            order(22..24,33..36,38..39,42..43,45..46,52..54)
+                     /site_type="other"
+                     /note="putative DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238042"
+     Site            order(22,25)
+                     /site_type="other"
+                     /note="putative Zn2+ binding site [ion binding]"
+                     /db_xref="CDD:238042"
+     Region          73..234
+                     /db_xref="CDD:249873"
+                     /note="DeoR C terminal sensor domain; pfam00455"
+                     /region_name="DeoRC"
+     CDS             1..257
+                     /locus_tag="NGO1219"
+                     /coded_by="complement(AE004969.1:1169664..1170437)"
+                     /note="Best Blastp Hit: gb|AAF41915.1| (AE002506)
+                     transcriptional regulator, DeoR family [Neisseria
+                     meningitidis MC58]; COG1349 Transcriptional regulators of
+                     sugar"
+                     /transl_table=11
+ORIGIN
+        1 mkpkiqrhge ilslvrrhqf msvdelaaal dvtpqtircd ireleeggsl krhhggassg
+       61 gnlpeglpad rqtrcqnekn aiarliaehi pdgsslfvsi gttmeaaase lvkrrsslri
+      121 itnnihvasv vsartdytvi itsgvvrpld ggitgvatvd finqfkvdya vmsthgvesd
+      181 gslldydyke vsvmqamian arvrflgvdh skfrsnalvr lggitafdkv ftdrlpdtam
+      241 qkmlkeagve cliadav
+//

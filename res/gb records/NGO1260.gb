@@ -1,0 +1,82 @@
+LOCUS       AAW89919                 574 aa                     BCT 31-JAN-2014
+DEFINITION  putative transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89919
+VERSION     AAW89919.1  GI:59718514
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 574)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 574)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..574
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..574
+                     /note="Rsp"
+                     /product="putative transcriptional regulator"
+     Region          <324..409
+                     /db_xref="CDD:99707"
+                     /note="The AAA+ (ATPases Associated with a wide variety of
+                     cellular Activities) superfamily represents an ancient
+                     group of ATPases belonging to the ASCE (for additional
+                     strand, catalytic E) division of the P-loop NTPase fold.
+                     The ASCE division also includes ABC; cd00009"
+                     /region_name="AAA"
+     Region          <335..574
+                     /db_xref="CDD:225114"
+                     /note="Response regulator containing CheY-like receiver,
+                     AAA-type ATPase, and DNA-binding domains [Signal
+                     transduction mechanisms]; COG2204"
+                     /region_name="AtoC"
+     Site            340..345
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:99707"
+     Site            405
+                     /site_type="other"
+                     /note="arginine finger"
+                     /db_xref="CDD:99707"
+     Region          530..571
+                     /db_xref="CDD:251640"
+                     /note="Bacterial regulatory protein, Fis family; pfam02954"
+                     /region_name="HTH_8"
+     CDS             1..574
+                     /locus_tag="NGO1260"
+                     /coded_by="AE004969.1:1212847..1214571"
+                     /note="Best Blastp Hit: gb|AAC82507.1| (U65994) Rsp
+                     [Neisseria gonorrhoeae]; COG2204 AAA superfamily ATPases
+                     with N-terminal"
+                     /transl_table=11
+ORIGIN
+        1 mvisnprele klkdripnli niirvaivfp lmimhilgle tgsranlhas wtawafylwl
+       61 aiacwliffs tlnpqwqwqw qalripsfsa vaditmigvl tylfggidsg fgililpfvg
+      121 sscllsygry pllyasyasi llifnalads ninmyplild aktvtntfvv vagsyfvami
+      181 aslsvryidr agklahenhv ayrrirglnq ivlnrvqeav vvinvehqti lfnkkakdll
+      241 pmleigqhts lfdpvailwd ktssrtfehh idtpeltari ravpmnkkqn kllilyirpq
+      301 seiqaealsv klaalgqlta nlaheirnpm sairhadggt lfldevadlp lsmqvkllra
+      361 iqekavrrig dateqpvdvr ivcathknle alvesgafrq dlyyrlnvvs lnmpslremr
+      421 enlklptpyl lykhshnnrp ytlspaaqqm llnysypgnf relenilera valcvgytvq
+      481 iddlqiqdvh hkpvrtetav pvadtlpsei aaapsrllpf dpdtmqiqdy ldkierdiig
+      541 qvlkqtegnr tqaakrlgis frsmryrmer lnid
+//

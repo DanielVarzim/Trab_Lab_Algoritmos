@@ -1,0 +1,63 @@
+LOCUS       AAW90016                 522 aa                     BCT 31-JAN-2014
+DEFINITION  antibiotic resistance efflux pump component [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW90016
+VERSION     AAW90016.1  GI:59718611
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 522)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 522)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..522
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..522
+                     /product="antibiotic resistance efflux pump component"
+     Region          1..522
+                     /db_xref="CDD:276314"
+                     /note="Anion permease ArsB/NhaD.  These permeases have been
+                     shown to translocate sodium, arsenate, antimonite, sulfate
+                     and organic anions across biological membranes in all three
+                     kingdoms of life.  A typical anion permease contains 8-13
+                     transmembrane helices...; cl21473"
+                     /region_name="ArsB_NhaD_permease"
+     CDS             1..522
+                     /locus_tag="NGO1368"
+                     /coded_by="AE004969.1:1329067..1330635"
+                     /note="Best Blastp Hit: gb|AAD51362.2|AF176820_1 (AF176820)
+                     putative efflux pump component MtrF [Neisseria
+                     gonorrhoeae]"
+                     /transl_table=11
+ORIGIN
+        1 msqtdarrsg rflrtvewlg nmlphpvtlf iifivlllia savgayfgls vpdprpvgak
+       61 graddglihv vslldadgli kilthtvknf tgfaplgtvl vsllgvgiae ksglisalmr
+      121 llltksprkl ttfmvvftgi lsntaselgy vvliplsavi fhslgrhpla glaaafagvs
+      181 ggysanlflg tidpllagit qqaaqiihpd yvvgpeanwf fmaastfvia ligyfvteki
+      241 vepqlgpyqs dlsqeekdir hsneitpley kgliwagvvf valsallaws ivpadgilrh
+      301 petglvagsp flksivvfif llfalpgivy gritrslrge revvnamaes mstlglylvi
+      361 iffaaqfvaf fnwtnigqyi avkgavflke vglggsvlfi gfilicafin lmigsasaqw
+      421 avtapifvpm lmlagyapev iqaayrigds vtniitpmms yfglimatvi kykkdagvgt
+      481 lismmlpysa ffliawialf ciwvfvlglp vgpgtptfyp vp
+//

@@ -1,0 +1,74 @@
+LOCUS       AAW90006                 444 aa                     BCT 31-JAN-2014
+DEFINITION  putative glutamate dehydrogenase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90006
+VERSION     AAW90006.1  GI:59718601
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 444)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 444)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..444
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..444
+                     /product="putative glutamate dehydrogenase"
+     Region          1..443
+                     /db_xref="CDD:181834"
+                     /note="glutamate dehydrogenase; Provisional"
+                     /region_name="PRK09414"
+     Region          54..184
+                     /db_xref="CDD:251546"
+                     /note="Glu/Leu/Phe/Val dehydrogenase, dimerization domain;
+                     pfam02812"
+                     /region_name="ELFV_dehydrog_N"
+     Region          192..443
+                     /db_xref="CDD:133455"
+                     /note="NAD(P) binding domain of glutamate dehydrogenase,
+                     subgroup 2; cd05313"
+                     /region_name="NAD_bind_2_Glu_DH"
+     Site            order(238..240,260..261,320..321,344..346)
+                     /site_type="other"
+                     /note="NAD(P) binding site [chemical binding]"
+                     /db_xref="CDD:133455"
+     CDS             1..444
+                     /locus_tag="NGO1358"
+                     /coded_by="AE004969.1:1318344..1319678"
+                     /note="Best Blastp Hit: pir||B81825 glutamate dehydrogenase
+                     (NADP+) (EC 1.4.1.4) NMA1964 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380596|emb|CAB85184.1| (AL162757) glutamate
+                     dehydrogenase [Neisseria meningitidis]; COG0334 Glutamate
+                     dehydrogenase/leucine"
+                     /transl_table=11
+ORIGIN
+        1 mtdlntlfan lkqrnpnqep fhqaveevfm sldpflaknp kytqqsller ivepervvmf
+       61 rvtwqddkgq vqvnrgyrvq mssaigpykg glrfhptvdl gvlkflafeq vfknalttlp
+      121 mgggkggsdf dpkgksdaev mrfcqafmte lyrhigadtd vpagdigvgg reigylfgqy
+      181 kkirneftsv ltgkglewgg slirpeatgy gcvyfaqaml qtrndsfegk rvlisgsgnv
+      241 aqyaaekaiq lgakvltvsd sdgfvlfpdi gmteaqlaal ielkevrrer vatyakeqgl
+      301 qyfenqkpwg vaaeialpca tqneldeeaa ktllangcyv vaeganmpst lgaveqfika
+      361 gilyapgkas naggvatsgl emsqnairls wareevdsrl fgimqsihes clkygkvgdk
+      421 vnyvngania gfvkvadaml aqgf
+//

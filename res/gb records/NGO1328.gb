@@ -1,0 +1,59 @@
+LOCUS       AAW89978                 279 aa                     BCT 31-JAN-2014
+DEFINITION  putative cytochrome [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89978
+VERSION     AAW89978.1  GI:59718573
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 279)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 279)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..279
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..279
+                     /product="putative cytochrome"
+     Region          45..152
+                     /db_xref="CDD:225784"
+                     /note="Cytochrome c5 [Energy production and conversion];
+                     COG3245"
+                     /region_name="CycB"
+     Region          154..276
+                     /db_xref="CDD:225784"
+                     /note="Cytochrome c5 [Energy production and conversion];
+                     COG3245"
+                     /region_name="CycB"
+     CDS             1..279
+                     /locus_tag="NGO1328"
+                     /coded_by="complement(AE004969.1:1286026..1286865)"
+                     /note="Best Blastp Hit: gb|AAF42025.1| (AE002518)
+                     cytochrome c5 [Neisseria meningitidis MC58]"
+                     /transl_table=11
+ORIGIN
+        1 mkqlrdnkaq gsalftlvsg iviviavlyf liklagsgsf gdvdatteaa tqtriqpvgq
+       61 ltmgdgipvg erqgeqifgk iciqchaads nvpnapkleh ngdwapriaq gfdtlfqhal
+      121 ngfnampakg gaadltdqel kraitymank sggsfpnpde aapadnaasg tasapadsaa
+      181 paeakaedkg aaapavgvdg kkvfeatcqv chggsipgip gigkkddwap rikkgketlh
+      241 khalegfnam pakggnagls ddevkaavdy manqsgakf
+//

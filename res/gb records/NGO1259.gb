@@ -1,0 +1,85 @@
+LOCUS       AAW89918                 767 aa                     BCT 31-JAN-2014
+DEFINITION  DNA topoisomerase IV subunit A [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89918
+VERSION     AAW89918.1  GI:59718513
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 767)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 767)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..767
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..767
+                     /note="ParC"
+                     /product="DNA topoisomerase IV subunit A"
+     Region          17..755
+                     /db_xref="CDD:235503"
+                     /note="DNA topoisomerase IV subunit A; Validated"
+                     /region_name="PRK05561"
+     Region          35..496
+                     /db_xref="CDD:238111"
+                     /note="DNA Topoisomerase, subtype IIA; domain A'; bacterial
+                     DNA topoisomerase IV (C subunit, ParC), bacterial DNA
+                     gyrases (A subunit, GyrA),mammalian DNA toposiomerases II.
+                     DNA topoisomerases are essential enzymes that regulate the
+                     conformational changes...; cd00187"
+                     /region_name="TOP4c"
+     Site            order(35..61,66..115,117..135,137..160,163)
+                     /site_type="other"
+                     /note="CAP-like domain"
+                     /db_xref="CDD:238111"
+     Site            126
+                     /site_type="active"
+                     /db_xref="CDD:238111"
+     Site            order(413..415,418..421,429..430,444..460)
+                     /site_type="other"
+                     /note="primary dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238111"
+     CDS             1..767
+                     /locus_tag="NGO1259"
+                     /coded_by="AE004969.1:1210524..1212827"
+                     /note="Best Blastp Hit: pir||H81805 DNA topoisomerase IV
+                     subunit A (EC 5.99.1.-) NMA1802 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380442|emb|CAB85028.1| (AL162757) DNA topoisomerase IV
+                     subunit A [Neisseria meningitidis]; COG0188 DNA gyrase
+                     (topoisomerase II) A subunit"
+                     /transl_table=11
+ORIGIN
+        1 mntqphasht dsntlmlgry aerayleyam svvkgralpe vsdgqkpvqr rilfamrdmg
+       61 ltagakpvks arvvgeilgk yhphgdssay eamvrmaqdf tlryplidgi gnfgsrdgdg
+      121 aaamrytear ltpiaellls einqgtvdfm pnydgafdep lhlparlpmv llngasgiav
+      181 gmateipshn lnevtqaaia llkkptleta dlmqyipapd fagggqiitp adelrriyet
+      241 gkgsvrvrar yeieklargq wrvivtelpp nansakilae ieeqtnpkpk agkkqlnqdr
+      301 lntkklmldl idrvrdesdg ehpvrlvfep kssridtdtf intlmaqtsl egnvsmnlvm
+      361 mgldnrpaqk nlktilqewl dfrvvtvtrr lkfrlnqvek rlhilegrlk vflhidevik
+      421 viresddpka dlmavfglte iqaedileir lrqlarlegf klekelnelr eeqgrlnifl
+      481 gdenekrkli ikemqadmkq fgdarrtlve eagravltqt aadepitlil sekgwirsra
+      541 ghnldlsqta fkegdrlkqt legrtvlpvv ildssgrtys idaaeipggr gdgvpvssli
+      601 elqngakpva mltglpeqhy llsssggygf iaklgdmvgr vkagkvvmta dsgetvlppv
+      661 avyassfinp dckiiaatsq nralafpige lkimakgkgl qiiglnages mthtavssep
+      721 eiliesegrr gaahkdrlpv alieakrgkk grllpisgsl kqlsspk
+//

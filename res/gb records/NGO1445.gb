@@ -1,0 +1,59 @@
+LOCUS       AAW90087                 222 aa                     BCT 31-JAN-2014
+DEFINITION  hypothetical protein NGO1445 [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90087
+VERSION     AAW90087.1  GI:59718682
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 222)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 222)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..222
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..222
+                     /product="hypothetical protein"
+     Region          <116..207
+                     /db_xref="CDD:248061"
+                     /note="Left-handed beta-roll, including virulence factors
+                     and various other proteins; cl17507"
+                     /region_name="LbR-like"
+     Site            order(117,119..121,129,131,133..135,143,145,147,149,157,
+                     159,161,163,171,173,175..177,185,187)
+                     /site_type="other"
+                     /note="trimer interface [polypeptide binding]"
+                     /db_xref="CDD:240610"
+     CDS             1..222
+                     /locus_tag="NGO1445"
+                     /coded_by="AE004969.1:1412494..1413162"
+                     /note="Best Blastp Hit: gb|AAG01335.1|AF288222_1 (AF288222)
+                     putative outer membrane protein XadA [Xanthomonas oryzae
+                     pv. oryzae]"
+                     /transl_table=11
+ORIGIN
+        1 mglrqklrgi ipnlatsigt saeanapgal alggsseask kfsiaegyla ssdgygaiai
+       61 gsaakikqle kgtinhivgn dnkglyvdad gnvtkitvrt esekdilsry gqtygavalg
+      121 frssshnlfa ssfgafstat aieslavgds sqstgyrsat fgshsralae eslalgyetr
+      181 anaygsvalg aesvaneent vsvssdtlkr kivnvadgte dl
+//

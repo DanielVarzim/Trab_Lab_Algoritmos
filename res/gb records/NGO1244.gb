@@ -1,0 +1,59 @@
+LOCUS       AAW89903                 143 aa                     BCT 31-JAN-2014
+DEFINITION  putative MarR-family transcriptional regulator [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89903
+VERSION     AAW89903.1  GI:59718498
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 143)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 143)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..143
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..143
+                     /product="putative MarR-family transcriptional regulator"
+     Region          20..117
+                     /db_xref="CDD:197670"
+                     /note="helix_turn_helix multiple antibiotic resistance
+                     protein; smart00347"
+                     /region_name="HTH_MARR"
+     Region          27..93
+                     /db_xref="CDD:257787"
+                     /note="Winged helix DNA-binding domain; pfam13463"
+                     /region_name="HTH_27"
+     CDS             1..143
+                     /locus_tag="NGO1244"
+                     /coded_by="AE004969.1:1195870..1196301"
+                     /note="Best Blastp Hit: gb|AAF41938.1| (AE002509)
+                     transcriptional regulator, MarR family [Neisseria
+                     meningitidis MC58]; COG1846 Transcriptional regulators,
+                     MarR/EmrR"
+                     /transl_table=11
+ORIGIN
+        1 mnrldqlgir inlicnvfdk wigqqdlnyn lftvlytlat egsrtqkhig eewslpkqtv
+       61 sgvcktlagq gliewqegeq drrerllslt ekgkvhaapl tenaqefsdk vfstfgdkrt
+      121 trlfadldal aevmektise nkk
+//

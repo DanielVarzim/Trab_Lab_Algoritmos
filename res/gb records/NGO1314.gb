@@ -1,0 +1,64 @@
+LOCUS       AAW89966                 451 aa                     BCT 31-JAN-2014
+DEFINITION  putative protease [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89966
+VERSION     AAW89966.1  GI:59718561
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 451)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 451)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..451
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..451
+                     /product="putative protease"
+     Region          1..450
+                     /db_xref="CDD:237969"
+                     /note="putative protease; Provisional"
+                     /region_name="PRK15452"
+     Region          1..398
+                     /db_xref="CDD:223896"
+                     /note="Collagenase and related proteases [Posttranslational
+                     modification, protein turnover, chaperones]"
+                     /region_name="COG0826"
+     CDS             1..451
+                     /locus_tag="NGO1314"
+                     /coded_by="AE004969.1:1270187..1271542"
+                     /note="Best Blastp Hit: pir||B81056 proteinase, probable
+                     NMB1664 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226917|gb|AAF42013.1| (AE002517) protease,
+                     putative [Neisseria meningitidis MC58]; COG0826 Protease
+                     related to collagenase"
+                     /transl_table=11
+ORIGIN
+        1 mkapelllpa gglermraay dygadavyag spryslrarn nefakldvle qgikeahern
+       61 kkffltvntl phnsklktfv admepliamk pdalimadpg limtvrekwp empihlsvqa
+      121 nttnywgvkf wqnigverii lsrelgmeei aeirqecpdi elevfihgal ciaysgrcll
+      181 sgyfnhrdpn qgtctnscrw dykvhnates eagdaqllqg fnfekaqeea nqnfegingq
+      241 krhpyadkvf lieesnrpge mmpimedehg tyimnskdlr gievveklak igvdslkveg
+      301 rtkslyyvar vaqsyrkaih davagrpfdy sllselegla nrgytsgfle rhqtqdyqny
+      361 lsghstakqs qyvghvteid engwatievk nrfavgdsle iihpsgnqti kleqmtrkgq
+      421 pvdvapgngi qvkipnmqgk ekaliarvln p
+//

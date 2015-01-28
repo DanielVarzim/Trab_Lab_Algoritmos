@@ -1,0 +1,93 @@
+LOCUS       AAW89933                 392 aa                     BCT 31-JAN-2014
+DEFINITION  nitrite reductase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89933
+VERSION     AAW89933.1  GI:59718528
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 392)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 392)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..392
+                     /EC_number="1.7.2.1"
+                     /note="AniA"
+                     /product="nitrite reductase"
+     Region          52..361
+                     /db_xref="CDD:131429"
+                     /note="nitrite reductase, copper-containing; TIGR02376"
+                     /region_name="Copper-containing_nitrite_reductase"
+     Region          78..197
+                     /db_xref="CDD:259864"
+                     /note="Cupredoxin domain 1 of  Copper-containing nitrite
+                     reductase and two-domain laccase; cd04201"
+                     /region_name="CuRO_1_CuNIR_like"
+     Site            order(134,175,188)
+                     /site_type="other"
+                     /note="Type 1 (T1) Cu binding site [ion binding]"
+                     /db_xref="CDD:259864"
+     Site            order(137,139..143,161..164,166..167,170..172,174,184)
+                     /site_type="other"
+                     /note="trimer interface [polypeptide binding]"
+                     /db_xref="CDD:259864"
+     Site            order(139,174)
+                     /site_type="other"
+                     /note="Type II Cu binding site [ion binding]"
+                     /db_xref="CDD:259864"
+     Region          203..346
+                     /db_xref="CDD:259871"
+                     /note="Cupredoxin domain 2 of Copper-containing nitrite
+                     reductase; cd04208"
+                     /region_name="CuRO_2_CuNIR"
+     Site            order(235..236,273,278,280,282..285,287,298..303,305,
+                     307..309,324,329..333,337)
+                     /site_type="other"
+                     /note="trimer interface [polypeptide binding]"
+                     /db_xref="CDD:259871"
+     Site            329
+                     /site_type="other"
+                     /note="Cu binding site [ion binding]"
+                     /db_xref="CDD:259871"
+     CDS             1..392
+                     /locus_tag="NGO1276"
+                     /coded_by="AE004969.1:1228725..1229903"
+                     /note="Best Blastp Hit: sp|Q02219|ANIA_NEIGO major outer
+                     membrane protein PAN 1 precursor >gi|477564|pir||A49208
+                     outer membrane protein Pan 1 - Neisseria gonorrhoeae
+                     >gi|150277|gb|AAA25462.1| (M97926) major anaerobically
+                     induced outer membrane protein [Neisseria gonorrhoeae]
+                     >gi|258387|gb|AAB23836.1| Pan 1=outer membrane protein
+                     [Neisseria gonorrhoeae, Peptide, 392 aa]"
+                     /transl_table=11
+ORIGIN
+        1 mkrqalaami aslfalaacg gepaaqapae tpaasaeaas saaqataetp agelpvidav
+       61 tthapevppa idrdypakvr vkmetvektm kmddgveyry wtfdgdvpgr mirvregdtv
+      121 evefsnnpss tvphnvdfha atgqgggaaa tftapgrtst fsfkalqpgl yiyhcavapv
+      181 gmhiangmyg lilvepkegl pkvdkefyiv qgdfytkgkk gaqglqpfdm dkavaeqpey
+      241 vvfnghvgai agdnalkaka getvrmyvgn ggpnlvssfh vigeifdkvy veggklinen
+      301 vqstivpagg saivefkvdi pgnytlvdhs ifrafnkgal gqlkvegaen peimtqklsd
+      361 tayagsgaas apaasapaas apaasaseks vy
+//

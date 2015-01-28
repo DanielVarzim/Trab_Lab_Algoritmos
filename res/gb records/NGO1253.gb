@@ -1,0 +1,73 @@
+LOCUS       AAW89912                 376 aa                     BCT 31-JAN-2014
+DEFINITION  putative ABC transporter, periplasmic binding protein, polyamine
+            [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89912
+VERSION     AAW89912.1  GI:59718507
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 376)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 376)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..376
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..376
+                     /product="putative ABC transporter, periplasmic binding
+                     protein, polyamine"
+     Region          37..369
+                     /db_xref="CDD:270377"
+                     /note="The periplasmic substrate-binding component of an
+                     ABC putrescine transport system and related proteins;
+                     contains the type 2 periplasmic-binding fold; cd13659"
+                     /region_name="PBP2_PotF"
+     Site            order(43,250,253,282,284,320)
+                     /site_type="other"
+                     /note="chemical substrate binding site [chemical binding]"
+                     /db_xref="CDD:270377"
+     Site            order(54,57..58,308..309)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:270377"
+     CDS             1..376
+                     /locus_tag="NGO1253"
+                     /coded_by="complement(AE004969.1:1203301..1204431)"
+                     /note="Best Blastp Hit: pir||D81066 spermidine/putrescine
+                     ABC transporter, periplasmic spermidine/putrescine-binding
+                     protein NMB1594 [imported] - Neisseria meningitidis (group
+                     B strain MD58) >gi|7226843|gb|AAF41947.1| (AE002509)
+                     spermidine/putrescine ABC transporter, periplasmic
+                     spermidine/putrescine-binding protein [Neisseria
+                     meningitidis MC58]; COG0687 Spermidine/putrescine-binding
+                     periplasmic"
+                     /transl_table=11
+ORIGIN
+        1 mvkhlplavl talllaacgg sdkppaekpa paenqnvlki ynwseyvdpe tvadfekkng
+       61 ikvtydvyds detleskvlt gksgydivap snafvgrqik agayqkidks mipnykhlnp
+      121 emmrlmdgvd pdheyavpfy wgtntfaint ervkkalgtd klpdnqwdlv fnpeytfklk
+      181 qcgisyldsa aeiypmvlny lgknpnssnt edireatall kknrpnikrf tssgfiddla
+      241 rgdtcvtigf ggdlniakrr aeeaggkeki rvmmpkegvg iwvdsfvipk daknvanahk
+      301 yindfldpev sakngnfvty apsskpardl medefkndnt ifpsgedlkn sfimvpirpa
+      361 alkfmvrqwq dvkagk
+//

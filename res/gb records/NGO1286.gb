@@ -1,0 +1,141 @@
+LOCUS       AAW89940                 943 aa                     BCT 31-JAN-2014
+DEFINITION  putative translation initiation factor IF-2 [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW89940
+VERSION     AAW89940.1  GI:59718535
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 943)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 943)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..943
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..943
+                     /product="putative translation initiation factor IF-2"
+     Region          1..53
+                     /db_xref="CDD:252785"
+                     /note="Translation initiation factor IF-2, N-terminal
+                     region; pfam04760"
+                     /region_name="IF2_N"
+     Region          212..942
+                     /db_xref="CDD:235401"
+                     /note="translation initiation factor IF-2; Validated;
+                     PRK05306"
+                     /region_name="infB"
+     Region          366..416
+                     /db_xref="CDD:252785"
+                     /note="Translation initiation factor IF-2, N-terminal
+                     region; pfam04760"
+                     /region_name="IF2_N"
+     Region          446..609
+                     /db_xref="CDD:206674"
+                     /note="Initiation Factor 2 (IF2)/ eukaryotic Initiation
+                     Factor 5B (eIF5B) family; cd01887"
+                     /region_name="IF2_eIF5B"
+     Site            452..459
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206674"
+     Site            order(453,455,459..460,463,466..467,483..484,502..503,
+                     526..527,562,566)
+                     /site_type="other"
+                     /note="putative GEF interaction site [polypeptide binding]"
+                     /db_xref="CDD:206674"
+     Site            order(454..460,503,552..553,555..556,588..590)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206674"
+     Site            477..483
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206674"
+     Site            479
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206674"
+     Site            498..501
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206674"
+     Site            500..518
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206674"
+     Site            552..555
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206674"
+     Site            588..590
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206674"
+     Region          619..712
+                     /db_xref="CDD:239673"
+                     /note="This family represents the domain II of bacterial
+                     Initiation Factor 2 (IF2) and its eukaryotic mitochondrial
+                     homologue mtIF2. IF2, the largest initiation factor is an
+                     essential GTP binding protein. In E. coli three natural
+                     forms of IF2 exist in the cell; cd03702"
+                     /region_name="IF2_mtIF2_II"
+     Region          726..834
+                     /db_xref="CDD:256778"
+                     /note="Translation-initiation factor 2; pfam11987"
+                     /region_name="IF-2"
+     Region          850..933
+                     /db_xref="CDD:239663"
+                     /note="mtIF2_IVc: this family represents the C2 subdomain
+                     of domain IV of mitochondrial translation initiation factor
+                     2 (mtIF2) which adopts a beta-barrel fold displaying a high
+                     degree of structural similarity with domain II of the
+                     translation elongation factor...; cd03692"
+                     /region_name="mtIF2_IVc"
+     CDS             1..943
+                     /locus_tag="NGO1286"
+                     /coded_by="AE004969.1:1238490..1241321"
+                     /note="Best Blastp Hit: pir||C81060 translation initiation
+                     factor IF-2 NMB1643 [imported] - Neisseria meningitidis
+                     (group B strain MD58) >gi|7226893|gb|AAF41992.1| (AE002514)
+                     translation initiation factor IF-2 [Neisseria meningitidis
+                     MC58]; COG0532 Translation initiation factor 2 (GTPase)"
+                     /transl_table=11
+ORIGIN
+        1 msnttveqfa aelkrpvedl lkqlkeagvs knsgsdsltl ddkqllnayl tkkngsnggt
+       61 isirrtktev stvdgvkvet rkrgrtvnip saeelaaqvk aaqtqaapvq peqtaedavk
+      121 araeaaarae arakaeaeaa klkaakagnk akpaaqkpte akaetapvaa etkpaepkek
+      181 avkpkherng kgkdakkpak paapavpqpv vsaeeqaqrd eearraaalr ahqeallkek
+      241 qerqarream kqqaeqqaka aqeaktgrqr pakpaekpqa aapavenkpv npakakkedr
+      301 rnrddegqgr nakgkgakgg rdrnnarngg dervrggkkg kklklepnqh afqaptepvv
+      361 hevlvpetit vadlahkmav kgvemvkalm kkgmmvtinq sidqdtaliv vkklghigkp
+      421 aaaddpeafl gegaeaeeae alprppvvtv mghvdhgkts lldyirrakv vqgeaggitq
+      481 higayhvktp rgvitfldtp gheaftamra rgakatdivi lvvaaddgvm pqtieaiaha
+      541 kaagvpivva vnkidkdtan perirqeltq hevipddwgg tvqfidvsak kgtnidalle
+      601 avlleaevle ltapvdapak giivearldk grgavatllv qngtlkkgdm llagtafgki
+      661 ramvdengks iteagpsipv eilglsdvpn agedamvlad ekkareialf rqgkyrdvrl
+      721 akqqaaklen mfnnmgetqa qslsviikad vqgsyealag slkklsadev kvnvlhsgvg
+      781 gitesdvnla iasgafiigf nvradassrk laenenveir yyniiydaid dvkaamsgml
+      841 spekkeqvtg tveirqvisv skvgniagcm vtdgvvkrds hirlirnnvv ihtgelaslk
+      901 rykddvkevr mgfecglmlk gyneimegdq lecfdiveva rtl
+//

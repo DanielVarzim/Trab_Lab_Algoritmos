@@ -1,0 +1,71 @@
+LOCUS       AAW89880                 238 aa                     BCT 31-JAN-2014
+DEFINITION  putative GntR-family transcriptional regulator [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89880
+VERSION     AAW89880.1  GI:59718475
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 238)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 238)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..238
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..238
+                     /product="putative GntR-family transcriptional regulator"
+     Region          10..238
+                     /db_xref="CDD:224715"
+                     /note="Transcriptional regulators [Transcription]; COG1802"
+                     /region_name="GntR"
+     Region          29..88
+                     /db_xref="CDD:153418"
+                     /note="Winged helix-turn-helix (WHTH) DNA-binding domain of
+                     the GntR family of transcriptional regulators; cd07377"
+                     /region_name="WHTH_GntR"
+     Site            order(51..52,60..64,66..67,70,80..81,83..86)
+                     /site_type="DNA binding"
+                     /note="DNA-binding site [nucleotide binding]"
+                     /db_xref="CDD:153418"
+     Region          98..227
+                     /db_xref="CDD:214892"
+                     /note="This entry represents the C-terminal ligand binding
+                     domain of many members of the GntR family; smart00895"
+                     /region_name="FCD"
+     CDS             1..238
+                     /locus_tag="NGO1221"
+                     /coded_by="complement(AE004969.1:1171531..1172247)"
+                     /note="Best Blastp Hit: gb|AAF41917.1| (AE002506)
+                     transcriptional regulator, GntR family [Neisseria
+                     meningitidis MC58] >gi|7380393|emb|CAB84979.1| (AL162757)
+                     putative gntR-family transcriptional regulator [Neisseria
+                     meningitidis]; COG1802 Transcriptional regulators, GntR
+                     family"
+                     /transl_table=11
+ORIGIN
+        1 mnfenddiih apttsslile erhdselfrv yalildgitd qvllpgkklt eselcrqmvc
+       61 srntvrgals llahdkivdl qpnrgafvhv pdlkemqdvf nariemetmi lnilaglpdl
+      121 etrlkplyam irceeeasgr gdrvgwnrls nafhvelarl vgndvlfdim ntlcarssli
+      181 vavagvhrek khainthths ehreildlll agrrnrvvki lrrhlgncme rlektled
+//

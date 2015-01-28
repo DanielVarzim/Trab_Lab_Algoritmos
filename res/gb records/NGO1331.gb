@@ -1,0 +1,74 @@
+LOCUS       AAW89981                 366 aa                     BCT 31-JAN-2014
+DEFINITION  putative chorismate synthase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89981
+VERSION     AAW89981.1  GI:59718576
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 366)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 366)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..366
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..366
+                     /EC_number="4.2.3.5"
+                     /note="AroC"
+                     /product="putative chorismate synthase"
+     Region          10..343
+                     /db_xref="CDD:143612"
+                     /note="Chorismase synthase, the enzyme catalyzing the final
+                     step of the shikimate pathway; cd07304"
+                     /region_name="Chorismate_synthase"
+     Site            order(11..17,24,26,28,32..33,66..67,69..70,77..78,80,82,84,
+                     111..115,125..126,134,196,201..206,217,219..221,225,
+                     227..228,231..233,235..236,238,241..245,248..249,251..252,
+                     256..257,273,276..278,280..282,289,291..294,297,335)
+                     /site_type="other"
+                     /note="Tetramer interface [polypeptide binding]"
+                     /db_xref="CDD:143612"
+     Site            order(19,48,105..106,126..129,132,238..239,292..293,
+                     295..297,324,328)
+                     /site_type="active"
+                     /db_xref="CDD:143612"
+     Site            order(105..107,125,127,237..239,293,295..297,321,324,327)
+                     /site_type="other"
+                     /note="FMN-binding site [chemical binding]"
+                     /db_xref="CDD:143612"
+     CDS             1..366
+                     /locus_tag="NGO1331"
+                     /coded_by="AE004969.1:1289738..1290838"
+                     /note="Best Blastp Hit: possibly phase variable - 9A
+                     residue homopolymer repeat in the coding sequence (ON);
+                     COG0082 Chorismate synthase"
+                     /transl_table=11
+ORIGIN
+        1 magntfgqif tvttfgeshg aglgciidgc ppglelsead iqfdldrrkp gtsrhvtqrr
+       61 eadqveilsg vfegkttgtp iallirntdq rskdygniat afrpghadyt ywhkygtrdy
+      121 rgggrssare taarvaagav akkwlkekfg teitayvtqv gekkirfegs ehisqnpffa
+      181 anqsqiaele hymdgvrksl dsvgaklhie aanvpvglge pvfdrldaei ayammginav
+      241 kgveigagfd svtqrgsehg deltpqgfls nhsggilggi stgqdicvni aikptssiat
+      301 prrsidihgn pvelatrgrh dpcvglrtap iaeamlalvl idhalrhraq nadvaadtpd
+      361 isrsdk
+//

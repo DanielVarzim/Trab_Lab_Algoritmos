@@ -1,0 +1,61 @@
+LOCUS       AAW90061                 197 aa                     BCT 31-JAN-2014
+DEFINITION  putative Na(+)-translocating NADH-ubiquinone reductase subunit E
+            [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90061
+VERSION     AAW90061.1  GI:59718656
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 197)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 197)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..197
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..197
+                     /note="NqrE"
+                     /product="putative Na(+)-translocating NADH-ubiquinone
+                     reductase subunit E"
+     Region          1..197
+                     /db_xref="CDD:235074"
+                     /note="Na(+)-translocating NADH-quinone reductase subunit
+                     E; Provisional"
+                     /region_name="PRK02830"
+     CDS             1..197
+                     /locus_tag="NGO1417"
+                     /coded_by="AE004969.1:1381021..1381614"
+                     /note="Best Blastp Hit: pir||E81918 probable
+                     Na(+)-translocating NADH-ubiquinone reductase subunit E (EC
+                     1.6.5.-) NMA0748 [imported] - Neisseria meningitidis (group
+                     A strain Z2491) >gi|7379469|emb|CAB84031.1| (AL162754)
+                     putative Na(+)-translocating NADH-ubiquinone reductase
+                     subunit E [Neisseria meningitidis]; COG2209
+                     Na+-translocating NADH-quinone"
+                     /transl_table=11
+ORIGIN
+        1 mehylslfik svfienmals fflgmctfla vskkvstafg lgvavifvlg lsvpanqlvy
+       61 sllkdgaive gvdltflkfi tfigviaalv qilemfldkf vpalynalgi ylplitvnca
+      121 ifgavsfmaq reydfgesvv ygfgaglgwm laivalagit ekmkysdapk glkglgitfi
+      181 aaglmamafm sfsgiql
+//

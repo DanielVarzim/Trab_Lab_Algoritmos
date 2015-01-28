@@ -1,0 +1,107 @@
+LOCUS       AAW90081                 644 aa                     BCT 31-JAN-2014
+DEFINITION  putative ABC transporter, ATP-binding protein [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW90081
+VERSION     AAW90081.1  GI:59718676
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 644)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 644)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..644
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..644
+                     /product="putative ABC transporter, ATP-binding protein"
+     Region          2..644
+                     /db_xref="CDD:182528"
+                     /note="macrolide transporter ATP-binding /permease protein;
+                     Provisional"
+                     /region_name="PRK10535"
+     Region          4..220
+                     /db_xref="CDD:213222"
+                     /note="ATP-binding cassette domain of the transporters
+                     involved in export of lipoprotein and macrolide, and cell
+                     division protein; cd03255"
+                     /region_name="ABC_MJ0796_LolCDE_FtsE"
+     Site            40..47
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213222"
+     Site            order(43..44,46..48,92,168..169,201)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213222"
+     Site            89..92
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213222"
+     Site            144..153
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213222"
+     Site            164..169
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213222"
+     Site            172..175
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213222"
+     Site            197..203
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213222"
+     Region          254..488
+                     /db_xref="CDD:257236"
+                     /note="MacB-like periplasmic core domain; pfam12704"
+                     /region_name="MacB_PCD"
+     Region          522..637
+                     /db_xref="CDD:251477"
+                     /note="FtsX-like permease family; pfam02687"
+                     /region_name="FtsX"
+     CDS             1..644
+                     /locus_tag="NGO1439"
+                     /coded_by="complement(AE004969.1:1403167..1405101)"
+                     /note="Best Blastp Hit: pir||C81187 ABC transporter,
+                     ATP-binding protein NMB0549 [imported] - Neisseria
+                     meningitidis (group B strain MD58)
+                     >gi|7225775|gb|AAF40978.1| (AE002410) ABC transporter,
+                     ATP-binding protein [Neisseria meningitidis MC58]; COG0577
+                     Predicted permease"
+                     /transl_table=11
+ORIGIN
+        1 msliecknin rcfgsgenrv hilkdislsi ekgdfvaiig qsgsgkstlm nilgcldtag
+       61 sgsyridgie takmqpdela alrrerfgfi fqrynllssl tardnvalpa vymgmggker
+      121 saradkllqd lglaskegnk pgelsggqqq rvsiaralmn ggeiifadep tgaldtasgk
+      181 nvmeiirrlh eaghtvimvt hdpgiaanan rvieirdgei isdtsknpei pasnvgrire
+      241 kaswsfyydq fveafrmsvq avlahkmrsl ltmlgiiigi asvvsvvalg ngsqkkiled
+      301 issmgtntis ifpgrgfgdr rsgkiktlti ddakiiakqs yvasatpmts sggtltyrnt
+      361 dltaslygvg eqyfdvrglk letgrlfden dvkedaqvvv idqnvkdklf adsdplgkti
+      421 lfrkrpltvi gvmkkdenaf gnsdvlmlws pyttvmhqit geshtnsitv kikdnantrv
+      481 aekglaellk arhgtedffm nnsdsirqmv esttgtmkll issialislv vggigvmnim
+      541 lvsvtertke igirmaigar rgnilqqfli eavliciigg lvgvglsaav slvfnhfvtd
+      601 fpmdisaasv igavacstgi giafgfmpan kaaklnpida laqd
+//

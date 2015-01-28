@@ -1,0 +1,81 @@
+LOCUS       AAW89894                 163 aa                     BCT 31-JAN-2014
+DEFINITION  putative acetolactatesynthase isozyme III small subunit [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89894
+VERSION     AAW89894.1  GI:59718489
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 163)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 163)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..163
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..163
+                     /EC_number="2.2.1.6"
+                     /note="IlvH"
+                     /product="putative acetolactatesynthase isozyme III small
+                     subunit"
+     Region          1..161
+                     /db_xref="CDD:183365"
+                     /note="acetolactate synthase 3 regulatory subunit;
+                     Reviewed; PRK11895"
+                     /region_name="ilvH"
+     Region          3..74
+                     /db_xref="CDD:153150"
+                     /note="N-terminal ACT domain of the Escherichia coli
+                     IlvH-like regulatory subunit of acetohydroxyacid synthase
+                     (AHAS); cd04878"
+                     /region_name="ACT_AHAS"
+     Site            order(9,11,16,29..30,35,44)
+                     /site_type="other"
+                     /note="putative valine binding site [chemical binding]"
+                     /db_xref="CDD:153150"
+     Site            order(13..14,17,24,27,31..35,45)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:153150"
+     Region          83..157
+                     /db_xref="CDD:255942"
+                     /note="Small subunit of acetolactate synthase; pfam10369"
+                     /region_name="ALS_ss_C"
+     CDS             1..163
+                     /locus_tag="NGO1235"
+                     /coded_by="complement(AE004969.1:1185681..1186172)"
+                     /note="Best Blastp Hit: pir||H81066 acetolactate synthase
+                     (EC 4.1.3.18) III small chain NMA1765 [imported] -
+                     Neisseria meningitidis (group B strain MD58, group A strain
+                     Z2491) >gi|7226824|gb|AAF41929.1| (AE002508) acetolactate
+                     synthase III, small subunit [Neisseria meningitidis MC58]
+                     >gi|7380407|emb|CAB84993.1| (AL162757) acetolactate
+                     synthase isozyme III small subunit [Neisseria
+                     meningitidis]; COG0440 Acetolactate synthase, small
+                     subunit"
+                     /transl_table=11
+ORIGIN
+        1 mrhilsvlie nesgamsrvv glfsardyni dslavapted ktlsrmtivt hgdeqvieqi
+       61 tkqlnkliev ikvvdlnesr fverelmlvk vraagkdrde flrlteiyrg siidvtdrsy
+      121 tieitgstdk ldsfletvgr aqiletvrtg aagigrgeri lki
+//

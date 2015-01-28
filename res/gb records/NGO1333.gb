@@ -1,0 +1,125 @@
+LOCUS       AAW89983                 661 aa                     BCT 31-JAN-2014
+DEFINITION  putative DNA topoisomerase IV subunit B [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89983
+VERSION     AAW89983.1  GI:59718578
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 661)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 661)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..661
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..661
+                     /note="ParE"
+                     /product="putative DNA topoisomerase IV subunit B"
+     Region          1..660
+                     /db_xref="CDD:235501"
+                     /note="DNA topoisomerase IV subunit B; Reviewed"
+                     /region_name="PRK05559"
+     Region          36..140
+                     /db_xref="CDD:238030"
+                     /note="Histidine kinase-like ATPases; This family includes
+                     several ATP-binding proteins for example: histidine kinase,
+                     DNA gyrase B, topoisomerases, heat shock protein HSP90,
+                     phytochrome-like ATPases and DNA mismatch repair proteins;
+                     cd00075"
+                     /region_name="HATPase_c"
+     Site            order(40,44,47,69,71,73,75..76,119..122,134,136)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238030"
+     Site            44
+                     /site_type="other"
+                     /note="Mg2+ binding site [ion binding]"
+                     /db_xref="CDD:238030"
+     Site            order(73,75,119,121)
+                     /site_type="other"
+                     /note="G-X-G motif"
+                     /db_xref="CDD:238030"
+     Region          227..405
+                     /db_xref="CDD:238419"
+                     /note="TopoIIA_Trans_DNA_gyrase: Transducer domain, having
+                     a ribosomal S5 domain 2-like fold, of the type found in
+                     proteins of the type IIA family of DNA topoisomerases
+                     similar to the B subunits of E. coli DNA gyrase and E. coli
+                     Topoisomerase IV which are; cd00822"
+                     /region_name="TopoII_Trans_DNA_gyrase"
+     Site            286
+                     /site_type="other"
+                     /note="anchoring element"
+                     /db_xref="CDD:238419"
+     Site            order(343,346..347,349,394..395,399,403)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238419"
+     Site            order(349,351)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238419"
+     Region          430..545
+                     /db_xref="CDD:271516"
+                     /note="Topoisomerase-primase domain. This is a nucleotidyl
+                     transferase/hydrolase domain found in type IA, type IIA and
+                     type IIB topoisomerases, bacterial DnaG-type primases,
+                     small primase-like proteins from bacteria and archaea, OLD
+                     family nucleases from...; cl00718"
+                     /region_name="TOPRIM"
+     Site            order(435..436,439,511,513,515)
+                     /site_type="active"
+                     /db_xref="CDD:173773"
+     Site            order(435,511)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:173773"
+     Region          585..651
+                     /db_xref="CDD:250273"
+                     /note="DNA gyrase B subunit, carboxyl terminus; pfam00986"
+                     /region_name="DNA_gyraseB_C"
+     CDS             1..661
+                     /locus_tag="NGO1333"
+                     /coded_by="complement(AE004969.1:1291428..1293413)"
+                     /note="Best Blastp Hit: pir||C81822 topoisomerase IV
+                     subunit B (EC 5.99.1.-) NMA1941 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380573|emb|CAB85161.1| (AL162757) topoisomerase IV
+                     subunit B [Neisseria meningitidis]; COG0187 DNA gyrase
+                     (topoisomerase II) B subunit"
+                     /transl_table=11
+ORIGIN
+        1 maknnqyses sitvlkglep vkerpgmytr tdspthicqe vidnaadeal ggfateidvq
+       61 ihedgslsvr dngrgipvgl hpeegvpvve lvftrlhagg kfnkkdggsa yafsgglhgv
+      121 gvsvtnalst rlevsvkrdg kvhrivfagg dvveplaqvg kcavkdsgte vrvwpdgkyf
+      181 espnysipel erllrakavl lpgvrvsltr pvkgedeaht qtwhypdglk syltdliada
+      241 qeavplfsce nyisdghngd fsigegaafa ltwleegsca nesyvnlipt slggtheagl
+      301 kqavfnavnn finlhnllpr gvkvqsddvf gktafvlsar vldpqfqgqt kdkltnrdal
+      361 klvaavsgdp lelwlnqnvd fgkkiaelai rqaqarirsv kkiekkkgsg vailpgkltd
+      421 cesedirene lflvegdsag gsaklardka tqailplrgk vlnsfevhpd qlfgnaeihd
+      481 isvavgvdph aindhpdlsg lrygkiails dadvdgshiq vllltlfyrh fpklvadghi
+      541 yvaqpplfrv dvnaqgkskp arkfyaldqn eldgilerlq kegvketays isrfkglgem
+      601 npdqlkdttm hpdtrrllqv qipegaddet rdifvklmgk geaaarrawm eregdtaqld
+      661 i
+//

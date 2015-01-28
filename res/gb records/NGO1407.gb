@@ -1,0 +1,74 @@
+LOCUS       AAW90052                 160 aa                     BCT 31-JAN-2014
+DEFINITION  putative AsnC-family transcriptional regulator [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW90052
+VERSION     AAW90052.1  GI:59718647
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 160)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 160)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..160
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..160
+                     /product="putative AsnC-family transcriptional regulator"
+     Region          1..154
+                     /db_xref="CDD:224439"
+                     /note="Transcriptional regulators [Transcription]; COG1522"
+                     /region_name="Lrp"
+     Region          7..>55
+                     /db_xref="CDD:238042"
+                     /note="Arsenical Resistance Operon Repressor and similar
+                     prokaryotic, metal regulated homodimeric repressors. ARSR
+                     subfamily of helix-turn-helix bacterial transcription
+                     regulatory proteins (winged helix topology). Includes
+                     several proteins that appear to...; cd00090"
+                     /region_name="HTH_ARSR"
+     Site            order(8..10,24..26,35..38,40..41,44..45,47..48,54..55)
+                     /site_type="other"
+                     /note="putative DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238042"
+     Site            order(24,27)
+                     /site_type="other"
+                     /note="putative Zn2+ binding site [ion binding]"
+                     /db_xref="CDD:238042"
+     Region          72..145
+                     /db_xref="CDD:250314"
+                     /note="AsnC family; pfam01037"
+                     /region_name="AsnC_trans_reg"
+     CDS             1..160
+                     /locus_tag="NGO1407"
+                     /coded_by="AE004969.1:1372809..1373291"
+                     /note="Best Blastp Hit: gb|AAF41001.1| (AE002413)
+                     transcriptional regulator, AsnC family [Neisseria
+                     meningitidis MC58]; COG1522 Transcriptional regulators, Lrp
+                     family"
+                     /transl_table=11
+ORIGIN
+        1 mpqltldktd ikilqvlqen grltnvelse rvalspspcl rrlkqledag ivrqyaalls
+       61 pesvnlglqa firvsirkak daredfaasv rkwpevlscf altgetdyll qafftdmnaf
+      121 shfvldtlls hhgvqdaqss fvlkeikhtt slplnhllke
+//

@@ -1,0 +1,82 @@
+LOCUS       AAW89991                 445 aa                     BCT 31-JAN-2014
+DEFINITION  putative phosphoglucomutase protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89991
+VERSION     AAW89991.1  GI:59718586
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 445)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 445)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..445
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..445
+                     /EC_number="5.4.2.2"
+                     /note="MrsA"
+                     /product="putative phosphoglucomutase protein"
+     Region          4..442
+                     /db_xref="CDD:236787"
+                     /note="phosphoglucosamine mutase; Provisional; PRK10887"
+                     /region_name="glmM"
+     Region          6..439
+                     /db_xref="CDD:100095"
+                     /note="GlmM is a bacterial phosphoglucosamine mutase (PNGM)
+                     that belongs to the alpha-D-phosphohexomutase superfamily.
+                     It is required for the interconversion of
+                     glucosamine-6-phosphate and glucosamine-1-phosphate in the
+                     biosynthetic pathway of...; cd05802"
+                     /region_name="GlmM"
+     Site            order(8,10,13,105..107,115,244,246,248..249,288,309..311,
+                     328,330,332,411,413..415,420)
+                     /site_type="active"
+                     /db_xref="CDD:100095"
+     Site            order(10,105,249,288,309,311,328,330,332,411,413..415,420)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:100095"
+     Site            order(105,244,246,248)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:100095"
+     CDS             1..445
+                     /locus_tag="NGO1341"
+                     /coded_by="complement(AE004969.1:1300531..1301868)"
+                     /note="Best Blastp Hit: pir||C81054
+                     phosphoglucomutase/phosphomannomutase family protein
+                     NMB1690 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226944|gb|AAF42038.1| (AE002519)
+                     phosphoglucomutase/phosphomannomutase family protein
+                     [Neisseria meningitidis MC58]; COG1109 Phosphomannomutase"
+                     /transl_table=11
+ORIGIN
+        1 mmakkyfgtd gvrgevgqfp itpdfvlklg yaagqvlvqh dtdqkptvli gkdtrisgym
+       61 leaalvagft aagvnvvqtg plptpgvayl tralrlsagv misashntys dngikffaeg
+      121 gvklsdevel eieakideem ktqpsarlgr arrisgaddr yiefckstfp ghsdlrglkl
+      181 vidtangagy gvapkvfhel gaqvvsigne pngyninekc gathtktlqa avlqneadyg
+      241 ialdgdgdrl mmvdknrqvy dgdsliyvia kararegini ggvvgtvmtn mameialkeq
+      301 gvdfcrakvg dryvleqlnq rgwliggeas ghilcmdkhn tgdgiisalq vlaalqilnq
+      361 dlatvcadwq pypqtminvr iqkgqkwqea skdvlaevek elegkgrvvl rasgtepvvr
+      421 vmvearqadw ardgaeriaa aiggi
+//

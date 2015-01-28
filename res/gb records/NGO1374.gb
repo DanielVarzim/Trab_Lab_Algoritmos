@@ -1,0 +1,91 @@
+LOCUS       AAW90022                 481 aa                     BCT 31-JAN-2014
+DEFINITION  putative cytochrome c oxidase subunit [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW90022
+VERSION     AAW90022.1  GI:59718617
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 481)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 481)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..481
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..481
+                     /EC_number="1.9.3.1"
+                     /note="CcoN"
+                     /product="putative cytochrome c oxidase subunit"
+     Region          10..462
+                     /db_xref="CDD:238831"
+                     /note="Cytochrome cbb3 oxidase subunit I.  Cytochrome cbb3
+                     oxidase, the terminal oxidase in the respiratory chains of
+                     proteobacteria, is a multi-chain transmembrane protein
+                     located in the cell membrane. Like other cytochrome
+                     oxidases, it catalyzes the reduction...; cd01661"
+                     /region_name="cbb3_Oxidase_I"
+     Region          13..446
+                     /db_xref="CDD:249600"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /region_name="COX1"
+     Site            order(17,350,354,398,435)
+                     /site_type="other"
+                     /note="Low-spin heme binding site [chemical binding]"
+                     /db_xref="CDD:238831"
+     Site            order(197,202..203,336,340..341,413)
+                     /site_type="other"
+                     /note="Putative water exit pathway"
+                     /db_xref="CDD:238831"
+     Site            order(210,260..261,348)
+                     /site_type="active"
+                     /note="Binuclear center (active site) [active]"
+                     /db_xref="CDD:238831"
+     Site            order(261,340..341,413..414)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238831"
+     CDS             1..481
+                     /locus_tag="NGO1374"
+                     /coded_by="complement(AE004969.1:1337919..1339364)"
+                     /note="Best Blastp Hit: pir||E81050 cytochrome-c oxidase
+                     (EC 1.9.3.1) fixN chain NMB1725 [similarity] - Neisseria
+                     meningitidis (group B strain MD58, group A strain Z2491)
+                     >gi|7226979|gb|AAF42070.1| (AE002522) cytochrome c oxidase,
+                     subunit I [Neisseria meningitidis MC58]
+                     >gi|7380611|emb|CAB85200.1| (AL162757) cytochrome c oxidase
+                     subunit [Neisseria meningitidis]; COG0843 Cytochrome c
+                     oxidase, heme b and"
+                     /transl_table=11
+ORIGIN
+        1 metlmdtqty nykvvrqfai mtvvwgivgm lvgvivaaql fapaldlsni gpwfhfgrlr
+       61 plhtnavifa fggcgligts yyvvqrtcnt rlfggwlpaf tfwgwqaviv aavvsfpmgw
+      121 tqgkeyaele wpidilitlv wvayaivffg tiakrkvkhi yvanwfyggf ilavallhiv
+      181 nnisipaglm ksypvysgai damvqwwygh navgffltag flgmmyyfvp kqaarpvysy
+      241 rlsvvhfwal iftymwagph hlhytalpdw tqslgmvlsl ilfapswggm ingimtlsga
+      301 wdklrtdpil kflivslsfy gmstfegpmm siktvnalsh ytdwtvahvh agalgwvgfv
+      361 tigsvyymip rlfgkeqmhs tklveahfwi atigvvlyia amwiagvmqg lmwsslnddg
+      421 tltysfvesv krtmpyymir faggllylsg mcimaynvyr taiggkavda eipavsqtqh
+      481 h
+//

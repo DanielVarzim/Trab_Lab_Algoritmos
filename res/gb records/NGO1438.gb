@@ -1,0 +1,78 @@
+LOCUS       AAW90080                 261 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90080
+VERSION     AAW90080.1  GI:59718675
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 261)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 261)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..261
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..261
+                     /product="conserved hypothetical protein"
+     Region          38..261
+                     /db_xref="CDD:224565"
+                     /note="Protein-disulfide isomerase [Posttranslational
+                     modification, protein turnover, chaperones]; COG1651"
+                     /region_name="DsbG"
+     Region          60..256
+                     /db_xref="CDD:239318"
+                     /note="DsbA family, DsbC and DsbG subfamily; V-shaped
+                     homodimeric proteins containing a redox active CXXC motif
+                     imbedded in a TRX fold. They function as protein disulfide
+                     isomerases and chaperones in the bacterial periplasm to
+                     correct non-native disulfide bonds...; cd03020"
+                     /region_name="DsbA_DsbC_DsbG"
+     Site            order(60..68,71..80,82..99)
+                     /site_type="other"
+                     /note="dimerization domain [polypeptide binding]"
+                     /db_xref="CDD:239318"
+     Site            92..99
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239318"
+     Site            order(148,151)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:239318"
+     CDS             1..261
+                     /locus_tag="NGO1438"
+                     /coded_by="AE004969.1:1402283..1403068"
+                     /note="Best Blastp Hit: gb|AAF40979.1| (AE002411)
+                     thiol:disulfide interchange protein DsbC [Neisseria
+                     meningitidis MC58] >gi|7379452|emb|CAB84014.1| (AL162754)
+                     putative thiol:disulphide interchange protein [Neisseria
+                     meningitidis]; COG1651 protein-disulfide isomerases
+                     DsbC/DsbG"
+                     /transl_table=11
+ORIGIN
+        1 mktklikilt pftvlpllac gqtpvsnana esavkaesag ksvaaslkar lektysaqdl
+       61 kvlsvsetpv kgiyevvvsg rqiiytdaeg gymfvgelin idtrknltee raadlnkidf
+      121 aslpldkaik evrgngklkv avfsdpdcpf ckrlehefek mtdvtvysfm mpiaglhpda
+      181 arkaqilwcq pdrakawtdw mrkgkfpvgg sicdnpvaet tslgeqfgfn gtptlvfpng
+      241 rtqsgyspmp qleeiirknq q
+//

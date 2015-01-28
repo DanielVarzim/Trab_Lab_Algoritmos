@@ -1,0 +1,96 @@
+LOCUS       AAW89890                 861 aa                     BCT 31-JAN-2014
+DEFINITION  putative aconitate hydratase 2 [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89890
+VERSION     AAW89890.1  GI:59718485
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 861)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 861)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..861
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..861
+                     /note="Aco2"
+                     /product="putative aconitate hydratase 2"
+     Region          1..846
+                     /db_xref="CDD:236424"
+                     /note="bifunctional aconitate hydratase
+                     2/2-methylisocitrate dehydratase; Validated"
+                     /region_name="PRK09238"
+     Region          4..156
+                     /db_xref="CDD:256624"
+                     /note="Aconitate B N-terminal domain; pfam11791"
+                     /region_name="Aconitase_B_N"
+     Region          171..311
+                     /db_xref="CDD:238808"
+                     /note="Aconitase B swivel domain. Aconitate hydratase B is
+                     involved in energy metabolism as part of the TCA cycle. It
+                     catalyses the formation of cis-aconitate from citrate. This
+                     is the aconitase swivel domain, which undergoes swivelling
+                     conformational change in...; cd01576"
+                     /region_name="AcnB_Swivel"
+     Site            244..246
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238808"
+     Region          382..820
+                     /db_xref="CDD:153131"
+                     /note="Aconitate hydratase B catalyses the formation of
+                     cis-aconitate from citrate as part of the TCA cycle;
+                     cd01581"
+                     /region_name="AcnB"
+     Site            order(415,418,498..499,773,791,796)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:153131"
+     Site            order(500,711,769,772..773,790)
+                     /site_type="other"
+                     /note="ligand binding site [chemical binding]"
+                     /db_xref="CDD:153131"
+     CDS             1..861
+                     /locus_tag="NGO1231"
+                     /coded_by="AE004969.1:1180387..1182972"
+                     /note="Best Blastp Hit: emb|CAB84989.1| (AL162757)
+                     aconitate hydratase [Neisseria meningitidis]; COG1049
+                     Aconitase B"
+                     /transl_table=11
+ORIGIN
+        1 mleayrkaaa eraalgipal plnaqqtadl vellknppag egeflvella hrvppgvdda
+       61 akvkasflaa vaegsasspl vspkyatell gtmlggynih alielldddk lapiaakglk
+      121 htllmfdsfh dvqekaekgn kyaqevlqsw adaewfasra kvpekitvtv fkvdgetntd
+      181 dlspapdaws rpdiplhala mlknprdgit pdkpgevgpi klleelkakg hpvayvgdvv
+      241 gtgssrksat nsviwhtged ipfvpnkrfg gvclggkiap iffntqedsg alpievdvsa
+      301 lkmgdvvnil pyegkivkng etvaefelks qvlldevqag grinliigrg ltakarealk
+      361 lpastafrlp qapaeskvgf tlaqkmvgra cglpegqgvr pgtyceprmt tvgsqdttgp
+      421 mtrdelkdla clgfsadmvm qsfchtaayp kpvdvkthke lpafistrgg vslrpgdgvi
+      481 hswlnrlllp dtvgtggdsh trfpigisfp agsglvafaa atgvipldmp esvlvrfsgk
+      541 lqpgvtlrdl vnaiplyaik qglltvakag kknifsgril eieglpdlkv eqafeltdas
+      601 aersaagctv klnkepiiey mksnvvlmkn miangyqdpr alerrikame kwlanpelle
+      661 adkdaeyaav ieinmddike piiacpndpd dvcfmsersg tkidevfigs cmtnighfra
+      721 askllegksd ipvrlwvapp tkmdakelsd eghygvlgra garmempgcs lcmgnqaqvr
+      781 egatvmstst rnfpnrlgkn tfvylgsael aaicsklgki ptveeyqani giineqgdki
+      841 yrymnfneid synevaetvn v
+//

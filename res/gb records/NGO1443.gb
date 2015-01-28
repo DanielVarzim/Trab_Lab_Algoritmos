@@ -1,0 +1,112 @@
+LOCUS       AAW90085                1161 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90085
+VERSION     AAW90085.1  GI:59718680
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 1161)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1161)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1161
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..1161
+                     /product="conserved hypothetical protein"
+     Region          1..1158
+                     /db_xref="CDD:224117"
+                     /note="Chromosome segregation ATPases [Cell division and
+                     chromosome partitioning]; COG1196"
+                     /region_name="Smc"
+     Region          3..>156
+                     /db_xref="CDD:213245"
+                     /note="ATP-binding cassette domain of barmotin, a member of
+                     the SMC protein family; cd03278"
+                     /region_name="ABC_SMC_barmotin"
+     Site            31..38
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213245"
+     Site            order(34..35,37..39,146)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213245"
+     Site            143..146
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213245"
+     Region          519..615
+                     /db_xref="CDD:214944"
+                     /note="SMC proteins Flexible Hinge Domain; smart00968"
+                     /region_name="SMC_hinge"
+     Region          <1052..1145
+                     /db_xref="CDD:213245"
+                     /note="ATP-binding cassette domain of barmotin, a member of
+                     the SMC protein family; cd03278"
+                     /region_name="ABC_SMC_barmotin"
+     Site            1062..1071
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213245"
+     Site            1086..1091
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213245"
+     Site            1094..1097
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213245"
+     Site            1118..1124
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213245"
+     CDS             1..1161
+                     /locus_tag="NGO1443"
+                     /coded_by="complement(AE004969.1:1408581..1412066)"
+                     /note="Best Blastp Hit: gb|AAF40974.1| (AE002410) conserved
+                     hypothetical protein [Neisseria meningitidis MC58]; COG1196
+                     Chromosome segregation ATPases"
+                     /transl_table=11
+ORIGIN
+        1 mrlthiklsg fksftdptti hvpgqlvavi gpngcgksnv idavrwvlge asakqlrges
+       61 mqdvifngaa trrpaprasv elvfdnsdhs lqgawgqyae vsikrqltrq gestyfinnq
+      121 tvrrrditdl flgtgvgarg yavieqgmis riiearpeel rayieeaagv skykerrket
+      181 egrlkdtreh lqrlgdlqne larqveklek qaetaeryks ltaqlnqqqd lldyaqwqqs
+      241 laaadkataq hqslqaqqde taaqvqalnn evhalqtaeq sqqqavhels nkrgvlreqi
+      301 arleeqirhr qnlhqrierd kqaaqaqlqr irqeqqqirv qleenelqve ekqtelaewa
+      361 mqvaeheerl peleevqatl naafqtqqde anrirrelal kqqqlahaeq tvakheerkg
+      421 rlkqenqaln lpdeaetaaa qeaaallqsr qehyeeqiia aeealhaare afqtasnrfq
+      481 slkqqhitlq aqqqalsqil sqqqeaadfw qatdhaaapq lwqhitapae wqhalsvila
+      541 erlharsvpn sfvppaplpq gqaawlsdgl sggikkslpv qallnqiqaq ppfqtalhhw
+      601 ldgvlcapdl syalahqndl gthqiwltpe ghqvdkvsvl lyakpaqesl iaqkarldgi
+      661 aaelenlapg lsaaeaafkq teaavcssev qhknlmqqqq qhtrqysqaq qrtaellart
+      721 nqgqirrehi erelaqlaee qtvlqhtsdg lsddiatlqe aaaelehqqq ttahsrqeqq
+      781 grlkqaqlal leanrqygla evavhklnqq kqnyrqqiar leqqtldwqe rrqelalaye
+      841 tefqndeqhi kldeltetvh tldeeyiavq eklaqiqeqg reqyarvqtl qtklpqlqaa
+      901 tqtallqqqe alinakryhq nlteraadld vlealakesa kvlnssigsl trqiealgav
+      961 nlaalqelee arerdgyyrs qsedvqaaia lleeaiaqid dktkarfket fdavngkvqt
+     1021 ffptlfggge atlkmigddl ltagvsimar ppgkknstih llsggekalt amslvfalfs
+     1081 lnpapfclld evdaplddan tsrfcklvke msvqtqflyi shnrltmema eqlvgvtmqe
+     1141 kgvsrvvavd ikqalemaea v
+//

@@ -1,0 +1,108 @@
+LOCUS       AAW89895                 575 aa                     BCT 31-JAN-2014
+DEFINITION  putative acetolactate synthase isozyme III large subunit [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89895
+VERSION     AAW89895.1  GI:59718490
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 575)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 575)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..575
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..575
+                     /EC_number="2.2.1.6"
+                     /note="IlvI"
+                     /product="putative acetolactate synthase isozyme III large
+                     subunit"
+     Region          2..565
+                     /db_xref="CDD:180780"
+                     /note="acetolactate synthase 3 catalytic subunit;
+                     Validated"
+                     /region_name="PRK06965"
+     Region          7..162
+                     /db_xref="CDD:132918"
+                     /note="Pyrimidine (PYR) binding domain of POX and related
+                     proteins; cd07035"
+                     /region_name="TPP_PYR_POX_like"
+     Site            order(20,25..26,30,34,43..49,52,55..56,59..60,62..64,76,83,
+                     87,90..91)
+                     /site_type="other"
+                     /note="PYR/PP interface [polypeptide binding]"
+                     /db_xref="CDD:132918"
+     Site            order(25..27,30,34,44,46..49,51,76,79..80,82..83,86,120,
+                     123)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:132918"
+     Site            order(25,50,76,80)
+                     /site_type="other"
+                     /note="TPP binding site [chemical binding]"
+                     /db_xref="CDD:132918"
+     Region          194..330
+                     /db_xref="CDD:249676"
+                     /note="Thiamine pyrophosphate enzyme, central domain;
+                     pfam00205"
+                     /region_name="TPP_enzyme_M"
+     Region          371..557
+                     /db_xref="CDD:238973"
+                     /note="Thiamine pyrophosphate (TPP) family,
+                     Acetohydroxyacid synthase (AHAS) subfamily, TPP-binding
+                     module; composed of proteins similar to the large catalytic
+                     subunit of AHAS. AHAS catalyzes the condensation of two
+                     molecules of pyruvate to give the...; cd02015"
+                     /region_name="TPP_AHAS"
+     Site            order(394..397,420,422,447..449,452,474)
+                     /site_type="other"
+                     /note="TPP-binding site [chemical binding]"
+                     /db_xref="CDD:238973"
+     Site            order(417,420,422,451..452,454..455,462,501..502,506,509)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238973"
+     CDS             1..575
+                     /locus_tag="NGO1236"
+                     /coded_by="complement(AE004969.1:1186183..1187910)"
+                     /note="Best Blastp Hit: pir||F81801 acetolactate synthase
+                     (EC 4.1.3.18) III large chain NMA1766 [imported] -
+                     Neisseria meningitidis (group A strain Z2491)
+                     >gi|7380408|emb|CAB84994.1| (AL162757) acetolactate
+                     synthase isozyme III large subunit [Neisseria
+                     meningitidis]; COG0028 Thiamine pyrophosphate-requiring
+                     enzymes"
+                     /transl_table=11
+ORIGIN
+        1 mqlsgaqiiv qslkaegvey vfgypggavi eiydalfqln kfkhiltrhe qaavhaaday
+       61 arvsgkvgva lvtsgpgvtn altgiatayt dsipmvvisg qvgnsligtd afqevdtvgi
+      121 trpcvkhnfl vtdinelvet ikkafqiaas grpgpvvldv pkdvtqamak fsypqedifi
+      181 rsyqpvvqgh igqikkavqm lasakrpvvy fgggvvlgna seeltrfvrm tgapctgtlm
+      241 glgaypsgdr qflgmlgmhg tyeanlamqn advvlavgar fddrvvsvps kffekakkvi
+      301 hidvdpssia krvkadipiv gdvknilsem valwqkqesv psedalgkww ktieewrsrd
+      361 clwfdngsei ikpqyviqkl aeitgnsaii tsdvgqhqmf aaqyypferp rqwlnsgglg
+      421 tmgvglpyai gaklaapdqd vfcitgdgsi qmniqelstc fqyripvnvi tlnngylgmv
+      481 rqwqeiyygg resetyfdsl pdfvklaeay ghigirvdnk sdvegallea lnqkdrlvfi
+      541 dfltdqkqnv mpmvgngkgl demvlpphmr tdgka
+//

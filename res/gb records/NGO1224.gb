@@ -1,0 +1,74 @@
+LOCUS       AAW89883                 208 aa                     BCT 31-JAN-2014
+DEFINITION  putative phosphoribosylglycinamidetransformylase [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89883
+VERSION     AAW89883.1  GI:59718478
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 208)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 208)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..208
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..208
+                     /product="putative phosphoribosylglycinamidetransformylase"
+     Region          3..182
+                     /db_xref="CDD:187714"
+                     /note="Phosphoribosylglycinamide formyltransferase (GAR
+                     transformylase, GART); cd08645"
+                     /region_name="FMT_core_GART"
+     Site            order(8,13..15,83..90,95,104..107,115,135,137..138,
+                     141..142,171)
+                     /site_type="active"
+                     /db_xref="CDD:187714"
+     Site            order(13..14,84..85,105,107,171)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:187714"
+     Site            order(83,86,88..90,95,104,137..138,141..142)
+                     /site_type="other"
+                     /note="cosubstrate binding site"
+                     /db_xref="CDD:187714"
+     Site            order(104,106,142)
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:187714"
+     CDS             1..208
+                     /locus_tag="NGO1224"
+                     /coded_by="complement(AE004969.1:1173996..1174622)"
+                     /note="Best Blastp Hit: pir||C81800
+                     phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)
+                     NMA1755 [imported] - Neisseria meningitidis (group A strain
+                     Z2491) >gi|7380397|emb|CAB84983.1| (AL162757)
+                     phosphoribosylglycinamide transformylase [Neisseria
+                     meningitidis]; COG0299 Folate-dependent"
+                     /transl_table=11
+ORIGIN
+        1 mknivilisg rgsnmqaivn aaipnvriaa vlsnsetaag lqwaaergip tdslnhknfe
+       61 srlafdtamm ekidayqpdl vvlagfmril tpefcahyeg rlmnihpsil psftglhthe
+      121 raleagcrva gctihfvtae ldcgpivsqg ivpildgdta ddvaarvlav ehklypkava
+      181 dvaagrliie gnrvrnsena daarflta
+//

@@ -1,0 +1,60 @@
+LOCUS       AAW89904                 288 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89904
+VERSION     AAW89904.1  GI:59718499
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 288)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 288)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..288
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..288
+                     /product="conserved hypothetical protein"
+     Region          2..>277
+                     /db_xref="CDD:224055"
+                     /note="ABC-type multidrug transport system, ATPase and
+                     permease components [Defense mechanisms]; COG1132"
+                     /region_name="MdlB"
+     Region          5..241
+                     /db_xref="CDD:258041"
+                     /note="ABC transporter transmembrane region; pfam13748"
+                     /region_name="ABC_membrane_3"
+     CDS             1..288
+                     /locus_tag="NGO1245"
+                     /coded_by="AE004969.1:1196312..1197178"
+                     /note="Best Blastp Hit: pir||D81065 hypothetical protein
+                     NMB1586 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226835|gb|AAF41939.1| (AE002509) hypothetical
+                     protein [Neisseria meningitidis MC58]"
+                     /transl_table=11
+ORIGIN
+        1 mwkmlkhiak thrkrligtf spvglenllm lgypvfggwa inaviagrvw qallyalvvf
+       61 lmwlvgaarr iadtrtftri yteiavpvvl eqrqrqvphs avtarvalsr efvsffeehl
+      121 piaatsvvsi fgacimllvl efwvgvsavg ilalflwllp rfaaisenly frlnnslerd
+      181 nhfirkgder qlyrhyglvs rlrvlisnre afgylcvgaa mgilfgfafv mmtlkgygsa
+      241 ghiysvgtyl wmfamslddv prlveqysnl kdigqriews ernikagt
+//

@@ -1,0 +1,80 @@
+LOCUS       AAW90004                 445 aa                     BCT 31-JAN-2014
+DEFINITION  putative sodium dependent ion transport protein [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW90004
+VERSION     AAW90004.1  GI:59718599
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 445)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 445)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..445
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..445
+                     /product="putative sodium dependent ion transport protein"
+     Region          6..442
+                     /db_xref="CDD:271367"
+                     /note="solute carrier 6 subfamily, Fusobacterium nucleatum
+                     Tyt1-like; solute-binding domain; cd10336"
+                     /region_name="SLC6sbd_Tyt1-Like"
+     Site            order(19,22,312,315..316)
+                     /site_type="other"
+                     /note="Na binding site 2 [ion binding]"
+                     /db_xref="CDD:271367"
+     Site            order(20..21,23..26,103,222..223,228,230,316,319..320)
+                     /site_type="other"
+                     /note="putative substrate binding site 1 [chemical
+                     binding]"
+                     /db_xref="CDD:271367"
+     Site            order(21,26,223,255)
+                     /site_type="other"
+                     /note="Na binding site 1 [ion binding]"
+                     /db_xref="CDD:271367"
+     Site            order(28..29,102,106,109,281,285)
+                     /site_type="other"
+                     /note="putative substrate binding site 2 [chemical
+                     binding]"
+                     /db_xref="CDD:271367"
+     CDS             1..445
+                     /locus_tag="NGO1355"
+                     /coded_by="AE004969.1:1314593..1315930"
+                     /note="Best Blastp Hit: pir||F81050 sodium- and
+                     chloride-dependent transporter NMB1707 [imported] -
+                     Neisseria meningitidis (group B strain MD58)
+                     >gi|7226963|gb|AAF42055.1| (AE002521) sodium- and
+                     chloride-dependent transporter [Neisseria meningitidis
+                     MC58]; COG0733 Sodium-dependent transporters (SNF family)"
+                     /transl_table=11
+ORIGIN
+        1 msnhtswssk igfvlaaags aiglgaiwkf pytagtngga vffllflift vlvalpvqla
+       61 efyigrtggk navdsfrvlr pgtqwlwvgr mgvaacfill sfysvvggwv lnyvvhsftg
+      121 aihagadfea lfgttisnpa gslsyqalfm litvwvvkgg isdgiekanr ylmpglfilf
+      181 ialavrsltl pdamegvsfl lkpnwsyfka dtmitalgqa ffalsigvsa mityasylgk
+      241 dqdmfrsght imwmnllvsl laglvifpav fafgfepnqg pglifivlpa vfmkmpfgtv
+      301 lfavfmllvv fatltsafsm letviastir qderkrkkht wligtaifiv gipsalsfga
+      361 wgefkvfgkt ifdlwdyvis avimpigals vsiftawiqd kqsvlkdaga gstvpravll
+      421 lwlntlryla piaiiivfvn slgil
+//

@@ -1,0 +1,62 @@
+LOCUS       AAW89963                 199 aa                     BCT 31-JAN-2014
+DEFINITION  putative adenine phosphoribosyltransferase [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89963
+VERSION     AAW89963.1  GI:59718558
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 199)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 199)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..199
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..199
+                     /EC_number="2.4.2.7"
+                     /product="putative adenine phosphoribosyltransferase"
+     Region          57..191
+                     /db_xref="CDD:206754"
+                     /note="Phosphoribosyl transferase (PRT)-type I domain;
+                     cd06223"
+                     /region_name="PRTases_typeI"
+     Site            order(77,79,139..141,143..147,171)
+                     /site_type="active"
+                     /db_xref="CDD:206754"
+     CDS             1..199
+                     /locus_tag="NGO1311"
+                     /coded_by="AE004969.1:1268429..1269028"
+                     /note="Best Blastp Hit: pir||H81819 adenine
+                     phosphoribosyltransferase (EC 2.4.2.7) NMA1920 [imported] -
+                     Neisseria meningitidis (group A strain Z2491)
+                     >gi|7380554|emb|CAB85141.1| (AL162757) adenine
+                     phosphoribosyltransferase [Neisseria meningitidis]; COG0503
+                     Adenine/guanine phosphoribosyltransferases"
+                     /transl_table=11
+ORIGIN
+        1 malktsnleh amlvhpeams vgaladkirk ienwpqkgil fhditpvlqs aeyfrllvdl
+       61 lvyrymdqki divagldarg fiigaalayq lnvgfvpirk kgklpfetvs qsyaleygea
+      121 aveihtdavk pgsrvllvdd lvatggtmla glelirklgg eiveaaaile ftdlqggkni
+      181 rasgaplftl lqnegcmkg
+//

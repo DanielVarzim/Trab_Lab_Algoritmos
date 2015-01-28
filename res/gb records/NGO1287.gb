@@ -1,0 +1,87 @@
+LOCUS       AAW89941                 446 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89941
+VERSION     AAW89941.1  GI:59718536
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 446)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 446)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..446
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..446
+                     /product="conserved hypothetical protein"
+     Region          9..>86
+                     /db_xref="CDD:206648"
+                     /note="Rat sarcoma (Ras)-like superfamily of small
+                     guanosine triphosphatases (GTPases); cd00882"
+                     /region_name="Ras_like_GTPase"
+     Site            12..19
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206648"
+     Site            order(14..20,64)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206648"
+     Site            41
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206648"
+     Site            45..47
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206648"
+     Site            61..64
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206648"
+     Site            order(63..64,84..85)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206648"
+     Region          162..443
+                     /db_xref="CDD:256774"
+                     /note="Domain of unknown function (DUF3482); pfam11981"
+                     /region_name="DUF3482"
+     CDS             1..446
+                     /locus_tag="NGO1287"
+                     /coded_by="complement(AE004969.1:1241481..1242821)"
+                     /note="Best Blastp Hit: pir||C81058 hypothetical protein
+                     NMB1644 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226895|gb|AAF41993.1| (AE002515) hypothetical
+                     protein [Neisseria meningitidis MC58]"
+                     /transl_table=11
+ORIGIN
+        1 mnkqplslav vghtntgkts llrtllrdsg fgevrnapst trhveeaais dgadmlvfly
+       61 dtpgledagg vlewlenhtd nrsdgierlq qflgshgahh dfnqeakvlr qvlqsdmamy
+      121 vidarepvld kyrdeltils wcakpvmpvf nftggqlpes wttmlarrnl hvfagfdtva
+      181 fdfegelrlw enlatmlper stldrltamr rrewqrldgg arreiadfll daaafrqevd
+      241 enedtatvlq tmqaeirqle rqmqqrlfal yrfyhseidg gdwmpqafrq dpfdsellkq
+      301 ygirtgtgaa tgaliglgld iatlggslgl gtaiggflgg ilpntrtisd klagrqtlht
+      361 dpetltllaa raldllhvlq trghaaqsdi elhsrkapwd aaklppelnk arshwkwssl
+      421 nthrpetsra erreyaekig irlagk
+//

@@ -1,0 +1,70 @@
+LOCUS       AAW89931                 393 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89931
+VERSION     AAW89931.1  GI:59718526
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 393)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 393)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..393
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..393
+                     /product="conserved hypothetical protein"
+     Region          63..343
+                     /db_xref="CDD:132882"
+                     /note="LD-Carboxypeptidase, a serine protease, includes
+                     microcin C7 self immunity protein; cd07025"
+                     /region_name="Peptidase_S66"
+     Site            order(139..140,241..242,244..245,267..268,270..271,
+                     274..275,314..315)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:132882"
+     Site            order(165,260,331)
+                     /site_type="active"
+                     /note="catalytic triad [active]"
+                     /db_xref="CDD:132882"
+     CDS             1..393
+                     /locus_tag="NGO1274"
+                     /coded_by="AE004969.1:1224813..1225994"
+                     /note="Best Blastp Hit: pir||H81807 conserved hypothetical
+                     protein NMA1819 [imported] - Neisseria meningitidis (group
+                     A strain Z2491) >gi|6900400|emb|CAB72012.1| (AJ391256)
+                     hypothetical protein [Neisseria meningitidis]
+                     >gi|7380458|emb|CAB85044.1| (AL162757) conserved
+                     hypothetical protein [Neisseria meningitidis]; COG1619
+                     Uncharacterized proteins, homologs of"
+                     /transl_table=11
+ORIGIN
+        1 mteptsrrrf lktctaagag llqacgtsat svpplpsshs vvkartvplq tprrqssdgn
+       61 llrvvassgf aedtnrvnta ltrlynagft vtnqqagsrr fqrfagtdaq raadfqevas
+      121 grvatpkvlm glrggygaar ilphidfasl garmrehgtl ffgfsdvcav qlallakgnm
+      181 msfagpmays dfgkpapgaf tmdafikgat qnrltvdvpy iqradveteg tlwggnlsvl
+      241 aslagtpymp didggilfle dvgeqpyrie rmlntlylsg ilgkqraivf gdfrmekird
+      301 lydssydfsa vakhisrtak ipvltgfpfg hiadkitfpl gahtrirmng nggysvafeg
+      361 yptldasalt ldtllpppdl pifpesgvad ise
+//

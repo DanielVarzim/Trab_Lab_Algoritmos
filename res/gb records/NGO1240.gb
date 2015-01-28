@@ -1,0 +1,101 @@
+LOCUS       AAW89899                 429 aa                     BCT 31-JAN-2014
+DEFINITION  putative histidinol dehydrogenase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89899
+VERSION     AAW89899.1  GI:59718494
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 429)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 429)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..429
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..429
+                     /EC_number="1.1.1.23"
+                     /note="HisX"
+                     /product="putative histidinol dehydrogenase"
+     Region          1..429
+                     /db_xref="CDD:223219"
+                     /note="Histidinol dehydrogenase [Amino acid transport and
+                     metabolism]; COG0141"
+                     /region_name="HisD"
+     Region          30..420
+                     /db_xref="CDD:119329"
+                     /note="Histidinol dehydrogenase, HisD, E.C 1.1.1.23.
+                     Histidinol dehydrogenase catalyzes the last two steps in
+                     the L-histidine biosynthesis pathway, which is conserved in
+                     bacteria, archaea, fungi, and plants. These last two steps
+                     are (i) the NAD-dependent...; cd06572"
+                     /region_name="Histidinol_dh"
+     Site            order(55,130,132..133,141,162,188..189,191,212..214,
+                     216..217,262)
+                     /site_type="other"
+                     /note="NAD binding site [chemical binding]"
+                     /db_xref="CDD:119329"
+     Site            order(83..84,87..88,90,93..94,97..98,101..102,109,111,
+                     115..119,122,124,136..140,207,222,226,250..251,254..255,
+                     257..259,261..262,332,337,340..341,343..351,353,355..356,
+                     358..362,364,366,376..377,379..383,385..386,389..396,
+                     411..412,414..420)
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:119329"
+     Site            order(138,140,237,262,327..328,357,361..362,368,415,417,
+                     420)
+                     /site_type="other"
+                     /note="product binding site"
+                     /db_xref="CDD:119329"
+     Site            order(140,237,259,262,327..328,357,361..362,368,415,417,
+                     420)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:119329"
+     Site            order(259,262,361,420)
+                     /site_type="other"
+                     /note="zinc binding site [ion binding]"
+                     /db_xref="CDD:119329"
+     Site            327..328
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:119329"
+     CDS             1..429
+                     /locus_tag="NGO1240"
+                     /coded_by="AE004969.1:1191348..1192637"
+                     /note="Best Blastp Hit: pir||E81067 histidinol
+                     dehydrogenase NMB1581 [imported] - Neisseria meningitidis
+                     (group B strain MD58) >gi|7226829|gb|AAF41934.1| (AE002508)
+                     histidinol dehydrogenase [Neisseria meningitidis MC58];
+                     COG0141 Histidinol dehydrogenase"
+                     /transl_table=11
+ORIGIN
+        1 mkklntqspd fqaglkalla fetaqnpete rivadicadv qkrgdaalie ytnkfdqtna
+       61 ksiddliltq adlnaaferi pndvqtalqt aarrvesyhq rqkmeswsyt dedgtllgqq
+      121 itpldrvgiy vpggkaayps svimnampah vagvkeiimv vptpkgernd ivlaaayvag
+      181 vtkvftvgga qaiaalaygt etipqvdkit gpgnafvaaa krrvfgvvgi dmvagpseil
+      241 viadgttpad wvamdlfsqa ehdeiaqail igtsqaylde veaamdrlie tmprrdiiea
+      301 slgnrgamil vkdlneacei snyispehle lsvenpqewa kkirhagaif mgrytgeslg
+      361 dycagpnhvl ptsrtarfss plgtydfqkr ssliqvseqg aqklgetasv lahgesltah
+      421 araaefrmk
+//

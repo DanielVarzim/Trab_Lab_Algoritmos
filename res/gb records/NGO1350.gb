@@ -1,0 +1,66 @@
+LOCUS       AAW90000                 188 aa                     BCT 31-JAN-2014
+DEFINITION  hypothetical protein NGO1350 [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90000
+VERSION     AAW90000.1  GI:59718595
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 188)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 188)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..188
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..188
+                     /product="hypothetical protein"
+     Region          2..112
+                     /db_xref="CDD:275609"
+                     /note="The hotdog fold was initially identified in the E.
+                     coli FabA (beta-hydroxydecanoyl-acyl carrier protein
+                     (ACP)-dehydratase) structure and subsequently in 4HBT
+                     (4-hydroxybenzoyl-CoA thioesterase) from Pseudomonas. A
+                     number of other seemingly unrelated...; cl00509"
+                     /region_name="hot_dog"
+     Site            order(41..42,81..84)
+                     /site_type="active"
+                     /note="active site 2 [active]"
+                     /db_xref="CDD:239524"
+     Site            order(47,50..51,54,72..74)
+                     /site_type="active"
+                     /note="active site 1 [active]"
+                     /db_xref="CDD:239524"
+     CDS             1..188
+                     /locus_tag="NGO1350"
+                     /coded_by="AE004969.1:1309781..1310347"
+                     /note="Best Blastp Hit: pir||G81052 hypothetical protein
+                     NMB1701 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226956|gb|AAF42049.1| (AE002520) hypothetical
+                     protein [Neisseria meningitidis MC58]"
+                     /transl_table=11
+ORIGIN
+        1 mlphsgrmvl idritrygdd fveagaqvkp dhillaggml pytafielma qavgayagiq
+       61 arknarpvrl gflpgtrkle ifaqsvpvgt hlpatahmsi qdagvwacpt ancvgrmrrk
+      121 lrpehsfqta fwhaphstct apntmteqlt pseqahirrt tmtetvlitg snrgigkaaa
+      181 lgfggrrl
+//

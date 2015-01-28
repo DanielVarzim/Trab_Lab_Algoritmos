@@ -1,0 +1,73 @@
+LOCUS       AAW90012                1067 aa                     BCT 31-JAN-2014
+DEFINITION  antibiotic resistance efflux pump component [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW90012
+VERSION     AAW90012.1  GI:59718607
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 1067)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1067)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1067
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..1067
+                     /product="antibiotic resistance efflux pump component"
+     Region          1..1053
+                     /db_xref="CDD:273335"
+                     /note="The (Largely Gram-negative Bacterial)
+                     Hydrophobe/Amphiphile Efflux-1 (HAE1) Family; TIGR00915"
+                     /region_name="Probable_aminoglycoside_efflux_pump"
+     Region          <341..533
+                     /db_xref="CDD:276353"
+                     /note="MMPL family; cl21543"
+                     /region_name="MMPL"
+     CDS             1..1067
+                     /locus_tag="NGO1364"
+                     /coded_by="complement(AE004969.1:1323095..1326298)"
+                     /note="Best Blastp Hit: gb|AAC45560.1| (U60099) RND protein
+                     [Neisseria gonorrhoeae]; COG0841 Cation efflux system
+                     protein"
+                     /transl_table=11
+ORIGIN
+        1 makffidrpi fawvisifii aagifgiksl pvsqypsvaa ptitlhaiyp gasaqvmegs
+       61 vlsviernmn gvegldymst sadssgsgsv sltftpdtde nlaqvevqnk lsevlstlpa
+      121 tvqqygvtvs karsnflmiv mlssdvqste emndyaqrnv vpelqriegv gqvrlfgaqr
+      181 amriwvdpkk lqnynlsfad vgsalsaqni qisagsigsl pavrgqtvta tvtaqgqlgt
+      241 aeefgnvilr antdgsniyl kdvakvglgm edyssstrln gvnttgmavm lsnsgnamat
+      301 akavkerlav lekyfpqgms wktpydtskf veisiekvih tlieamvlvf vvmylflqni
+      361 rytliptivv pisllggfaf isymgmsinv ltmfamilvi givvddaivv venverimag
+      421 eglppkeatk kamgqisgav igitavlisv fvplamfsga agniykqfal tmassiafsa
+      481 flaltltpal catmlktipk ghheekkgff gwfnkkfdsw thgyegrvak vlrktfrmmv
+      541 vyiglavvgv flfmrlptsf lptedqgfvm vsvqlpagat kertdatlaq vtqlaksipe
+      601 ieniitvsgf sfsgsgqnma mgfailkdwn ertasgsdav avagkltgmm mgtlkdgfgi
+      661 svvpppilel gngsglsinl qdrnntghta llakrneliq kmrasglfdp stvraggled
+      721 spqlkidinr aaaaaqgisf adirtalasa lsssyvsdfp nqgrlqrvmv qadedarmqp
+      781 adilnltvpn ksgvavplst iatvswengt eqsvrfngyp smklsaspat gvstgqamaa
+      841 vqkmvdelgg gysfewggqs reeakggsqt lilyglavaa vflvlaalye swsiplavil
+      901 viplgligaa agvtgrnlfe gllgsvpsfa ndiyfqvgfv tvmglsakna iliiefakdl
+      961 qaqgksavea aleaarlrfr piimtsfafi lgvvplyiaa gassasqrai gttvfwgmlv
+     1021 gtllsvflvp lfyvvvrkff ketahehema vrhaskagit gsddkqy
+//

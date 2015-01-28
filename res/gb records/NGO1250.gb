@@ -1,0 +1,72 @@
+LOCUS       AAW89909                 280 aa                     BCT 31-JAN-2014
+DEFINITION  mtrCDE transcriptional regulator, activator [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW89909
+VERSION     AAW89909.1  GI:59718504
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 280)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 280)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..280
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..280
+                     /product="mtrCDE transcriptional regulator, activator"
+     Region          14..158
+                     /db_xref="CDD:257350"
+                     /note="Cupin; pfam12852"
+                     /region_name="Cupin_6"
+     Region          184..225
+                     /db_xref="CDD:249644"
+                     /note="Bacterial regulatory helix-turn-helix proteins, AraC
+                     family; pfam00165"
+                     /region_name="HTH_AraC"
+     Region          191..274
+                     /db_xref="CDD:197666"
+                     /note="helix_turn_helix, arabinose operon control protein;
+                     smart00342"
+                     /region_name="HTH_ARAC"
+     Region          238..275
+                     /db_xref="CDD:249644"
+                     /note="Bacterial regulatory helix-turn-helix proteins, AraC
+                     family; pfam00165"
+                     /region_name="HTH_AraC"
+     CDS             1..280
+                     /locus_tag="NGO1250"
+                     /coded_by="AE004969.1:1200818..1201660"
+                     /note="Best Blastp Hit: gb|AAD44696.1|AF128630_1 (AF128630)
+                     MtrA [Neisseria gonorrhoeae]
+                     >gi|7228474|gb|AAF42471.1|AF133676_1 (AF133676) MtrA
+                     [Neisseria gonorrhoeae]; COG2207 AraC-type DNA-binding
+                     domain-containing"
+                     /transl_table=11
+ORIGIN
+        1 mcsafwadnd etlqreglvh ivtagsgylc idgetsprpv gtgdivffpr glghvlshdg
+       61 kygeslqpdi rqngtfmvkq cgngldmslf carfrydtha dlmnglpetv flniahpslq
+      121 yvvsmlqles ekpltgtvsv vnalpsvllv lilrayleqd kdvelsgvlk gwqdkrlghl
+      181 iqkvidkped ewnidkmvaa anmsraqlmr rfksqvglsp hafvnhirlq kgalllkktp
+      241 dsvlevalsv gfqsethfgk afkrqyhvsp gqyrkeggqk
+//

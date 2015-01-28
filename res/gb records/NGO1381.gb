@@ -1,0 +1,94 @@
+LOCUS       AAW90029                 213 aa                     BCT 31-JAN-2014
+DEFINITION  putative glutaredoxin 2 [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90029
+VERSION     AAW90029.1  GI:59718624
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 213)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 213)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..213
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..213
+                     /note="Glr2"
+                     /product="putative glutaredoxin 2"
+     Region          1..213
+                     /db_xref="CDD:225545"
+                     /note="Glutaredoxin 2 [Posttranslational modification,
+                     protein turnover, chaperones]; COG2999"
+                     /region_name="GrxB"
+     Region          1..71
+                     /db_xref="CDD:239335"
+                     /note="GST_N family, Glutaredoxin 2 (GRX2) subfamily;
+                     composed of bacterial proteins similar to E. coli GRX2, an
+                     atypical GRX with a molecular mass of about 24kD, compared
+                     with other GRXs which are 9-12kD in size. GRX2 adopts a GST
+                     fold containing an N-terminal...; cd03037"
+                     /region_name="GST_N_GRX2"
+     Site            order(6..8,10,13..14,16..18,20..21,30..34,36,46,63,66..67,
+                     70..71)
+                     /site_type="other"
+                     /note="C-terminal domain interface [polypeptide binding]"
+                     /db_xref="CDD:239335"
+     Site            order(9,11,47..49,61..62)
+                     /site_type="other"
+                     /note="GSH binding site (G-site) [chemical binding]"
+                     /db_xref="CDD:239335"
+     Site            order(9,12)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:239335"
+     Site            order(47,60..61,63..64,67)
+                     /site_type="other"
+                     /note="putative dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239335"
+     Region          80..208
+                     /db_xref="CDD:198308"
+                     /note="C-terminal, alpha helical domain of Glutaredoxin 2;
+                     cd03199"
+                     /region_name="GST_C_GRX2"
+     Site            order(102,107..112,114..115,118..119,122,166,168,170..172,
+                     174..175,178..179,199,202..203,205)
+                     /site_type="other"
+                     /note="N-terminal domain interface [polypeptide binding]"
+                     /db_xref="CDD:198308"
+     CDS             1..213
+                     /locus_tag="NGO1381"
+                     /coded_by="complement(AE004969.1:1345402..1346043)"
+                     /note="Best Blastp Hit: pir||E81049 glutaredoxin 2 NMA1990
+                     [imported] - Neisseria meningitidis  (group B strain MD58,
+                     group A strain Z2491) >gi|7226989|gb|AAF42079.1| (AE002523)
+                     glutaredoxin [Neisseria meningitidis MC58]
+                     >gi|7380621|emb|CAB85210.1| (AL162757) glutaredoxin 2
+                     [Neisseria meningitidis]; COG0695 Glutaredoxin and related
+                     proteins"
+                     /transl_table=11
+ORIGIN
+        1 mklyiydhcp fcvrarmaag lfgadveevv landdeatpi gmigakqvpv lqkedgsfmg
+       61 esldivchfd regrlkdevr peiqawldkv ggynnklvqp rlikiglpef vtpeavkyft
+      121 dkkeksigsf sanlnktaqy lerinadlqe lenlmdgtsd ginggigmed ilvfpvlrnl
+      181 tvvrgiafpr ktmdyligms eksgvplyfd ral
+//

@@ -1,0 +1,94 @@
+LOCUS       AAW89976                 950 aa                     BCT 31-JAN-2014
+DEFINITION  putative glycine dehydrogenase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89976
+VERSION     AAW89976.1  GI:59718571
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 950)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 950)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..950
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..950
+                     /EC_number="1.4.4.2"
+                     /note="GcsP"
+                     /product="putative glycine dehydrogenase"
+     Region          3..949
+                     /db_xref="CDD:235432"
+                     /note="glycine dehydrogenase; Provisional"
+                     /region_name="PRK05367"
+     Region          6..443
+                     /db_xref="CDD:223480"
+                     /note="Glycine cleavage system protein P
+                     (pyridoxal-binding), N-terminal domain [Amino acid
+                     transport and metabolism]; COG0403"
+                     /region_name="GcvP"
+     Site            order(148..149,152,212,240,243,263,266)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     Site            266
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     Region          446..921
+                     /db_xref="CDD:223935"
+                     /note="Glycine cleavage system protein P
+                     (pyridoxal-binding), C-terminal domain [Amino acid
+                     transport and metabolism]; COG1003"
+                     /region_name="GcvP"
+     Site            order(562..563,566,642,671,674,695,698)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     Site            698
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     CDS             1..950
+                     /locus_tag="NGO1325"
+                     /coded_by="AE004969.1:1281812..1284664"
+                     /transl_table=11
+ORIGIN
+        1 mklselfnpn efaarhlsfg deaallaavg eksmdefvgn tlpqsirmps eldlpealte
+       61 adalaklkgi asknvinksy iglgyyptrv pnvilrnvle npgwytaytp yqaeiaqgrl
+      121 eallnfqqvc idltgfpvag aslldeataa aeamamahrv gkvkserffv darvypqtld
+      181 vmktrakyfg felvvsdfaq adegeyfgal fqyvgkdgdv qdlqdvigrl kakgtivava
+      241 adimslvllk spaelgadia lgntqrfgvp mgfggphaay fafkdefkrs apgriigvsk
+      301 dasgkpalrm alstreqhir rekatsnict aqallanlag myavyhgpkg vkrianriht
+      361 lasvfadalv sdglkvvhev ffdtvtvdfg skekadqvfa aalesgynlr svnntqvaaa
+      421 fhetsvyedl adlyraftgk dtftfaddvk grlnaellrq ddilqhpvyn syhtehemlr
+      481 ylkkledrdl amnrsmislg sctmklnata emlpitwtef sdihpyapea qtagyrella
+      541 dmenslkait gfdaisfqpn sgaqgeysgm lairryqeaq geahrnicli pksahgtnpa
+      601 taamlglkvv vvdtdehgnv niddlkakae qhrdalsaim itypsthgvy eegirdicri
+      661 ihenggqvym dganlnaqig imqpaevgad vlhmnlhktf ciphggggpg mgpiglkahl
+      721 apfapghtlt dthsasagqt svaaaafgsa silpitwmyl tmmgkqgmeq atrwallnan
+      781 yvakrlsedy pilytgkngr iahecivdlr plkaesgite tdiakrlmdy gfhaptvsfp
+      841 vagtlmiept eseskaeldr fiaalksirr evqkvidgew pkddnplvna phtaaditge
+      901 wahpysreea vfplpfvreh kfwpfvnrvd dvygdrnlvc scppmenyed
+//

@@ -1,0 +1,87 @@
+LOCUS       AAW90044                 602 aa                     BCT 31-JAN-2014
+DEFINITION  putative electron transfer flavoprotein-ubiquinone oxidoreductase
+            [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90044
+VERSION     AAW90044.1  GI:59718639
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 602)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 602)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..602
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..602
+                     /EC_number="1.5.5.1"
+                     /product="putative electron transfer
+                     flavoprotein-ubiquinone oxidoreductase"
+     Region          58..516
+                     /db_xref="CDD:223717"
+                     /note="Dehydrogenases (flavoproteins) [Energy production
+                     and conversion]; COG0644"
+                     /region_name="FixC"
+     Region          60..443
+                     /db_xref="CDD:276298"
+                     /note="Short-chain dehydrogenases/reductases (SDR);
+                     cl21454"
+                     /region_name="SDR"
+     Region          450..559
+                     /db_xref="CDD:218485"
+                     /note="Electron transfer flavoprotein-ubiquinone
+                     oxidoreductase; pfam05187"
+                     /region_name="ETF_QO"
+     Region          <523..599
+                     /db_xref="CDD:276229"
+                     /note="The HCP family of iron-sulfur proteins includes
+                     hybrid cluster protein (HCP), acetyl-CoA synthase (ACS),
+                     and carbon monoxide dehydrogenase (CODH), all of which
+                     contain [Fe4-S4] metal clusters at their active sites.
+                     These proteins have a conserved...; cl19102"
+                     /region_name="HCP_like"
+     Region          545..594
+                     /db_xref="CDD:257339"
+                     /note="4Fe-4S dicluster domain; pfam12838"
+                     /region_name="Fer4_7"
+     CDS             1..602
+                     /locus_tag="NGO1396"
+                     /coded_by="AE004969.1:1358282..1360090"
+                     /note="Best Blastp Hit: emb|CAB84049.1| (AL162754) putative
+                     electron transfer flavoprotein-ubiquinone oxidoreductase
+                     [Neisseria meningitidis]; COG0644 Dehydrogenases
+                     (flavoproteins)"
+                     /transl_table=11
+ORIGIN
+        1 mvacllkfrq rssenrkhgf rrpllylvti csrciitdlq fnnkytgtam tesitrdsmq
+       61 ydvvivgagp sglsaaiklk qlaeqngrei svcvvekgse agahslagav idpialneli
+      121 pdwkekgapl trtvtqdkvl fltekkafnl pitpnfdnhg nyivslgevv rwlaeqaenm
+      181 gveiypgfaa aevlyhedgs vkgiatgnmg vgkdggptds fqpgmelwar qtlfaegcrg
+      241 slskqiierf qldqnsqpqt yglgikevwe vpseqhqpgl vvhsagwpld sktyggafiy
+      301 hfddnkvavg fvvgldyqnp ylspfeefqr fkthpeirkt feggrriayg arsliegglq
+      361 slpklsfkgg vligdaagfl nmprikgiht smksamlaae avfpllenfe evesfdsgke
+      421 agnyqklfeq swlyqelyaa rnvrpsfkwg vylgslytgi dqmifrgkap wtlkhhgkdn
+      481 eqlkkaavck pidypkpdgv ltfdrlssvf lanlaheenq pdhlvlnnpq tmidvnykey
+      541 aspetrycpa gvyeiieeng sprlqinaan cvhcktcdik dptqnitwic pegasgpnyg
+      601 gm
+//

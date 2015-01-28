@@ -1,0 +1,116 @@
+LOCUS       AAW89939                 505 aa                     BCT 31-JAN-2014
+DEFINITION  putative N utilisation substance protein A [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89939
+VERSION     AAW89939.1  GI:59718534
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 505)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 505)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..505
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..505
+                     /product="putative N utilisation substance protein A"
+     Region          6..487
+                     /db_xref="CDD:236410"
+                     /note="transcription elongation factor NusA; Validated;
+                     PRK09202"
+                     /region_name="nusA"
+     Region          9..135
+                     /db_xref="CDD:254856"
+                     /note="NusA N-terminal domain; pfam08529"
+                     /region_name="NusA_N"
+     Region          144..212
+                     /db_xref="CDD:239902"
+                     /note="S1_NusA: N-utilizing substance A protein (NusA),
+                     S1-like RNA-binding domain. S1-like RNA-binding domains are
+                     found in a wide variety of RNA-associated proteins. NusA is
+                     a transcription elongation factor containing an N-terminal
+                     catalytic domain and three...; cd04455"
+                     /region_name="S1_NusA"
+     Site            order(153,161,172,174)
+                     /site_type="other"
+                     /note="RNA binding site [nucleotide binding]"
+                     /db_xref="CDD:239902"
+     Site            order(155,159,170,172,207)
+                     /site_type="other"
+                     /note="homodimer interface [polypeptide binding]"
+                     /db_xref="CDD:239902"
+     Region          235..287
+                     /db_xref="CDD:239049"
+                     /note="NusA_K homology RNA-binding domain (KH). NusA is an
+                     essential multifunctional transcription elongation factor
+                     that is universally conserved among prokaryotes and
+                     archaea. NusA anti-termination function plays an important
+                     role in the expression of...; cd02134"
+                     /region_name="NusA_KH"
+     Site            266..269
+                     /site_type="other"
+                     /note="G-X-X-G motif"
+                     /db_xref="CDD:239049"
+     Region          293..352
+                     /db_xref="CDD:239049"
+                     /note="NusA_K homology RNA-binding domain (KH). NusA is an
+                     essential multifunctional transcription elongation factor
+                     that is universally conserved among prokaryotes and
+                     archaea. NusA anti-termination function plays an important
+                     role in the expression of...; cd02134"
+                     /region_name="NusA_KH"
+     Site            332..335
+                     /site_type="other"
+                     /note="G-X-X-G motif"
+                     /db_xref="CDD:239049"
+     Region          378..427
+                     /db_xref="CDD:273894"
+                     /note="transcription termination factor NusA, C-terminal
+                     duplication; TIGR01954"
+                     /region_name="nusA_Cterm_rpt"
+     Region          451..500
+                     /db_xref="CDD:273894"
+                     /note="transcription termination factor NusA, C-terminal
+                     duplication; TIGR01954"
+                     /region_name="nusA_Cterm_rpt"
+     CDS             1..505
+                     /locus_tag="NGO1285"
+                     /coded_by="AE004969.1:1236961..1238478"
+                     /note="Best Blastp Hit: pir||H81816 N utilisation substance
+                     protein A NMA1896 [imported] - Neisseria meningitidis
+                     (group A strain Z2491) >gi|7380530|emb|CAB85117.1|
+                     (AL162757) N utilisation substance protein A [Neisseria
+                     meningitidis]; COG0195 Transcription terminator NusA"
+                     /transl_table=11
+ORIGIN
+        1 memfkmsrem lqlaealase knvdaevvfq alefalstaa kkkadrehmd vrvqinrdtg
+       61 eyqtfrrwli vadedytypd vektieeiqe eipdttiqig eyyeeqlpne gfgrqaaqta
+      121 kqiilqrird aereqnlnef lavkedivsg tvkrverhgi ivevvagkld aliprdqmip
+      181 renfrsgdri ralflrveei gntgrkqiil srtsgdflvk lyanevpeia dgmleirava
+      241 rdpgqrakva vkandqridp qgtcigvrgs rvnavsnels geridvvlws pepaqfvmsa
+      301 lspaevsriv idedkhavdv ivaedrlala igrggqnvrl asdltgwqln imtsaeader
+      361 naaedaairr lfmnhlnvde etadvlvqeg fatleevayv paaellaieg fdeeivdmlr
+      421 nrardailtm aiaaeeklge vsddmrnleg vdadmllsla eagittrddl aelavdelie
+      481 itgvneetak aviltarehw ftedk
+//

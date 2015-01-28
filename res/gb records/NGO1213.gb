@@ -1,0 +1,86 @@
+LOCUS       AAW89872                 556 aa                     BCT 31-JAN-2014
+DEFINITION  putative long-chain-fatty-acid--CoA-ligase [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89872
+VERSION     AAW89872.1  GI:59718467
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 556)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 556)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..556
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..556
+                     /EC_number="6.2.1.3"
+                     /product="putative long-chain-fatty-acid--CoA-ligase"
+     Region          1..551
+                     /db_xref="CDD:236359"
+                     /note="long-chain-fatty-acid--CoA ligase; Validated"
+                     /region_name="PRK08974"
+     Region          25..551
+                     /db_xref="CDD:213302"
+                     /note="Prokaryotic long-chain fatty acid CoA synthetases
+                     similar to Escherichia coli FadD; cd05936"
+                     /region_name="FC-FACS_FadD_like"
+     Site            order(211,214..219,221..222)
+                     /site_type="other"
+                     /note="acyl-activating enzyme (AAE) consensus motif"
+                     /db_xref="CDD:213302"
+     Site            order(214,333..334,355..360,439,451,454,465,544)
+                     /site_type="other"
+                     /note="putative AMP binding site [chemical binding]"
+                     /db_xref="CDD:213302"
+     Site            order(214,257..258,306,308..309,312,333..334,355..360,439,
+                     451,454,462..465,525)
+                     /site_type="active"
+                     /note="putative active site [active]"
+                     /db_xref="CDD:213302"
+     Site            order(257,308..309,312,333,462..464,519,525)
+                     /site_type="other"
+                     /note="putative CoA binding site [chemical binding]"
+                     /db_xref="CDD:213302"
+     CDS             1..556
+                     /locus_tag="NGO1213"
+                     /coded_by="complement(AE004969.1:1162700..1164370)"
+                     /note="Best Blastp Hit: pir||H81068
+                     long-chain-fatty-acid--CoA ligase (EC 6.2.1.3) NMB1555
+                     [similarity] - Neisseria meningitidis (group B strain MD58)
+                     >gi|7226802|gb|AAF41909.1| (AE002506)
+                     long-chain-fatty-acid--CoA ligase [Neisseria meningitidis
+                     MC58]; COG0318 Acyl-CoA synthetases (AMP-forming)/AMP-acid"
+                     /transl_table=11
+ORIGIN
+        1 mekiwlesye kgvsaeidit qynsvsdvfr qsvekfarlp afqnmgktlt yaetgklatd
+       61 fasylqnvlk lprgervaim mpnvlqypia lfgilqaglv avntnplytp relehqlkds
+      121 gataiivlen fantlelvlp rtqikhviva svgemfgllk gslinfiirk ikkmvpeyri
+      181 retvsfqtal kegakhvfqp valnredtal lqytggttgv argavlshgn icanmlqake
+      241 wiknqlregk etviaalply hifaltvnlm ifanagskiv lianprdmkg figelkkqrv
+      301 nvfigvntlf namvnrpdfa evdfsglrlt lgggmatqka vaekwkkitg tpiveayglt
+      361 easpgvccnp lniesysgsi glpvpsteve lrdangkevp vgqpgelwvk gpqvmqgywn
+      421 rpeetakaid acgfletgdi avmdekgrlk lvdrkkdlvv vsgfnvypne ieefiahhek
+      481 vmevacigvp nektgealkv fvvkkdpslt keeltafcrt gltaykvpkd iefrdelpks
+      541 nvgkilrrel rqsagk
+//

@@ -1,0 +1,88 @@
+LOCUS       AAW90084                 348 aa                     BCT 31-JAN-2014
+DEFINITION  putative alcohol dehydrogenase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90084
+VERSION     AAW90084.1  GI:59718679
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 348)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 348)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..348
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..348
+                     /EC_number="1.1.1.1"
+                     /note="AdhA"
+                     /product="putative alcohol dehydrogenase"
+     Region          3..340
+                     /db_xref="CDD:181842"
+                     /note="ethanol-active dehydrogenase/acetaldehyde-active
+                     reductase; Provisional"
+                     /region_name="PRK09422"
+     Region          3..338
+                     /db_xref="CDD:176257"
+                     /note="Cinnamyl alcohol dehydrogenases (CAD); cd08297"
+                     /region_name="CAD3"
+     Site            order(41..43,46,149,153,173,175..176,177,196..197,202,
+                     239..242,245,262..264,286..288,333)
+                     /site_type="other"
+                     /note="NAD binding site [chemical binding]"
+                     /db_xref="CDD:176257"
+     Site            order(41,43,52,62,88,149,264,288)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:176257"
+     Site            order(41,62,149)
+                     /site_type="other"
+                     /note="catalytic Zn binding site [ion binding]"
+                     /db_xref="CDD:176257"
+     Site            order(52,95,97..98,106..108,164..166,187..188,190,192,204,
+                     207..208,246,254,256,261,263..264,273..274,279..287,
+                     291..292,296,300,303)
+                     /site_type="other"
+                     /note="tetramer interface [polypeptide binding]"
+                     /db_xref="CDD:176257"
+     Site            order(93,96,99,107)
+                     /site_type="other"
+                     /note="structural Zn binding site [ion binding]"
+                     /db_xref="CDD:176257"
+     CDS             1..348
+                     /locus_tag="NGO1442"
+                     /coded_by="AE004969.1:1407234..1408280"
+                     /note="Best Blastp Hit: pir||H81186 alcohol dehydrogenase,
+                     propanol-preferring NMB0546 [imported] - Neisseria
+                     meningitidis (group B strain MD58)
+                     >gi|7225772|gb|AAF40975.1| (AE002410) alcohol
+                     dehydrogenase, propanol-preferring [Neisseria meningitidis
+                     MC58]; COG1064 Zn-dependent alcohol dehydrogenases"
+                     /transl_table=11
+ORIGIN
+        1 mkmqavvvnk nvagdvevve revrpleyge alveveycgv chtdlhvaag dygekpgrvl
+       61 ghegiglvke vadgvknlkv gdrvsiawlf qscgsceycn tgretlcrsv lnagytadgg
+      121 mathcivsad yavkvpegld paqassitca gvttykaikv sgvrpgqwia iygagglgnl
+      181 gvqyakkvfg thvvaidind dklafaketg adlvvnaake daakviqekt ggahaavvta
+      241 vsaaafnsav ncvraggrvv avglppesmd lsiprlvldg ievvgslvgt rkdleeafqf
+      301 gaeglvvpkv qlraldeapa ifqemregki tgrmvidmkk ecgcdhhh
+//

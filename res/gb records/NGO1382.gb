@@ -1,0 +1,103 @@
+LOCUS       AAW90030                 737 aa                     BCT 31-JAN-2014
+DEFINITION  putative GTP pyrophosphokinase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90030
+VERSION     AAW90030.1  GI:59718625
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 737)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 737)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..737
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..737
+                     /EC_number="2.7.6.5"
+                     /product="putative GTP pyrophosphokinase"
+     Region          10..737
+                     /db_xref="CDD:223394"
+                     /note="Guanosine polyphosphate
+                     pyrophosphohydrolases/synthetases [Signal transduction
+                     mechanisms / Transcription]; COG0317"
+                     /region_name="SpoT"
+     Region          40..201
+                     /db_xref="CDD:257658"
+                     /note="HD domain; pfam13328"
+                     /region_name="HD_4"
+     Region          239..358
+                     /db_xref="CDD:143389"
+                     /note="Nucleotidyltransferase (NT) domain of RelA- and
+                     SpoT-like ppGpp synthetases and hydrolases; cd05399"
+                     /region_name="NT_Rel-Spo_like"
+     Site            order(261,263,284..285,289,317,319,324,326,328,332,344,346,
+                     348,356..357)
+                     /site_type="active"
+                     /note="synthetase active site [active]"
+                     /db_xref="CDD:143389"
+     Site            order(261,317,319,324,326,328,332,344,346,356)
+                     /site_type="other"
+                     /note="NTP binding site [chemical binding]"
+                     /db_xref="CDD:143389"
+     Site            order(284,344)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:143389"
+     Region          414..473
+                     /db_xref="CDD:133438"
+                     /note="TGS_RelA_SpoT: The RelA (SpoT) protein, also
+                     referred to as ppGpp hydrolase/synthetase, is a
+                     ribosome-associated protein that is activated during amino
+                     acid starvation and thought to mediate the stringent
+                     response. RelA contains a TGS domain, named after...;
+                     cd01668"
+                     /region_name="TGS_RelA_SpoT"
+     Region          667..736
+                     /db_xref="CDD:153148"
+                     /note="ACT  domain found C-terminal of the RelA/SpoT
+                     domains; cd04876"
+                     /region_name="ACT_RelA-SpoT"
+     CDS             1..737
+                     /locus_tag="NGO1382"
+                     /coded_by="AE004969.1:1346186..1348399"
+                     /note="Best Blastp Hit: pir||F81049 GTP pyrophosphokinase
+                     NMB1735 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226990|gb|AAF42080.1| (AE002523) GTP
+                     pyrophosphokinase [Neisseria meningitidis MC58]; COG0317
+                     Guanosine"
+                     /transl_table=11
+ORIGIN
+        1 mtaispiqdt qsatlqelre wfdsycaalp dndknligta wslaqehypa daatpygepl
+       61 pdhflgaaqm vdeldllpda vaatlladig ryvpdwnllv sercnstvae lvkgvdevqk
+      121 lthfarvdsl atpeeraqqa etmrkmllam vtdirvvlik lamrtrtlqf lsnapdspek
+      181 ravaketldi faplanrlgv wqlkwqledl gfrhqepeky reiallldek rterleyien
+      241 fldilrtelk kynihfevag rpkhiysiyk kmvkkklsfd glfdiravri lvdtvpecyt
+      301 tlgivhslwq pipgefddyi anpkgngyks lhtvivgped kgvevqirtf dmhqfnefgv
+      361 aahwrykegg kgdsayeqki awlrqlldwr enmaesgked laaafktelf ndtiyvltph
+      421 gkvlslptga tpidfayalh ssigdrcrga kvegqivpls tplengqrve iitakeghps
+      481 vnwlyegwvk sgkaigkira yirqqnadtv reegrvqldk qlakltpkpn lqelaenlgy
+      541 kkpedlytav gqgeisnrai qkacgtlnep ppvpvsatti vkqskikkgg ktgvlidged
+      601 glmttlakcc kpappddiag fvtrergisv hrktcpsfrh laehapekvl daswaalqeg
+      661 qvfavdieir aqdrsgllrd vsdalarhkl nvtavqtqsr dleasmrftl evkqvndlpr
+      721 vlaglgdvkg vlsvtrl
+//

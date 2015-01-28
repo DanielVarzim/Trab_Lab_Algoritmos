@@ -1,0 +1,82 @@
+LOCUS       AAW90040                 605 aa                     BCT 31-JAN-2014
+DEFINITION  putative MafB-like protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90040
+VERSION     AAW90040.1  GI:59718635
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 605)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 605)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..605
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..605
+                     /note="MafB3"
+                     /product="putative MafB-like protein"
+     Region          33..352
+                     /db_xref="CDD:191481"
+                     /note="Protein of unknown function (DUF1020); pfam06255"
+                     /region_name="DUF1020"
+     Region          347..488
+                     /db_xref="CDD:238035"
+                     /note="Hedgehog/Intein domain, found in Hedgehog proteins
+                     as well as proteins which contain inteins and undergo
+                     protein splicing (e.g. DnaB, RIR1-2, GyrA and Pol). In
+                     protein splicing an intervening polypeptide sequence - the
+                     intein - is excised from a protein; cd00081"
+                     /region_name="Hint"
+     Site            order(347,419,487..488)
+                     /site_type="other"
+                     /note="protein-splicing catalytic site"
+                     /db_xref="CDD:238035"
+     Site            order(347,416,419)
+                     /site_type="other"
+                     /note="thioester formation/cholesterol transfer"
+                     /db_xref="CDD:238035"
+     Region          353..489
+                     /db_xref="CDD:148935"
+                     /note="Pretoxin HINT domain; pfam07591"
+                     /region_name="PT-HINT"
+     CDS             1..605
+                     /locus_tag="NGO1392"
+                     /coded_by="complement(AE004969.1:1354097..1355914)"
+                     /note="Best Blastp Hit: pir||H81782 adhesin MafB2 NMA2113
+                     [imported] - Neisseria meningitidis  (group A strain Z2491)
+                     >gi|7380736|emb|CAB85327.1| (AL162758) adhesin MafB2
+                     [Neisseria meningitidis]"
+                     /transl_table=11
+ORIGIN
+        1 mkplrrltnl laacavaava liqpalaadl aqdpfitdnt qrqhyepggk yhlfgdprgs
+       61 vsdrtgkinv iqdythqmgn lliqqaaiqg nlgytvrfsg hgheehapfd nhaadsasee
+      121 kgnvddgftv yrlnwegheh hpadaydgpk ggnypkptga rdeytyhvng tarsiklnpt
+      181 dtrsirqrif dnynnlgsnf sdradeanrk mfehnakldr wgnsmefvng vaagalnpfi
+      241 sagealgigd ilygtryaid kaamrniapl paegkfaaig glgsaagfek ntreavdrwi
+      301 qenpnaaetv ealvnvlpfa kvknltkaak pgkaavsgdf sksytcsfhg stlvktadgy
+      361 kaiahiqagd rvlskdeasg etgykpvtar ygnpyqetvy ievsdgigns qtlisnrihp
+      421 fysdgkwika edlkagsrll sesgktqtvr nivvkpkplk aynltvadwh tyfvkgdkae
+      481 tegvwvhndc ptklkptery nrqthyggsq tdgaraqaar qagegkpcpt cgriqifgtk
+      541 tapspqhepp lvkhyyehgg hsmsnadrak haresikgtq cltcqrkega mmsrysreqa
+      601 kkhgl
+//

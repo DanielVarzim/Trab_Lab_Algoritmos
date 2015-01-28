@@ -1,0 +1,64 @@
+LOCUS       AAW90075                 325 aa                     BCT 31-JAN-2014
+DEFINITION  hypothetical protein NGO1432 [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW90075
+VERSION     AAW90075.1  GI:59718670
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 325)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 325)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..325
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /strain="FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..325
+                     /product="hypothetical protein"
+     Region          3..318
+                     /db_xref="CDD:223787"
+                     /note="ABC-type nitrate/sulfonate/bicarbonate transport
+                     systems, periplasmic components [Inorganic ion transport
+                     and metabolism]; COG0715"
+                     /region_name="TauA"
+     Region          42..198
+                     /db_xref="CDD:276300"
+                     /note="Type 2 periplasmic binding fold superfamily;
+                     cl21456"
+                     /region_name="Periplasmic_Binding_Protein_Type_2"
+     CDS             1..325
+                     /locus_tag="NGO1432"
+                     /coded_by="AE004969.1:1394680..1395657"
+                     /note="Best Blastp Hit: pir||D72405 hypothetical protein -
+                     Thermotoga maritima (strain MSB8)
+                     >gi|4980699|gb|AAD35294.1|AE001705_5 (AE001705)
+                     hypothetical protein [Thermotoga maritima]; COG0715
+                     Putative taurine-binding periplasmic"
+                     /transl_table=11
+ORIGIN
+        1 mdmkrrdflk mtaalaaagv spsllaagke qftvygapam psvtiavaal qgklakqadv
+       61 slkiwrspdq lragvasgqf kvmmspsnvg vnlrnqgqkv gmvniltngi tqlvckgsai
+      121 aspqdlvgkk ilvpfkndmp divlqallkk lkidahkvsi tyaatppeav glfpskgyha
+      181 vilpepmata sllkgktigi nvvhgfdlvk awgqafdtkp lipmagiian eeyfhahkaq
+      241 fdifhqdlkn alnwilanrq naakigknyl papepalvmg ldgarltvsk gsevkneilk
+      301 fyeilmqfnp ellggklpdn gffla
+//
