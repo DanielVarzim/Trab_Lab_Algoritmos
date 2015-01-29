@@ -63,15 +63,15 @@ FEATURES             Location/Qualifiers
                      /note="putative CoA binding site [chemical binding]"
                      /db_xref="CDD:213302"
      CDS             1..556
-                     /locus_tag="NGO1213"
-                     /coded_by="complement(AE004969.1:1162700..1164370)"
+                     /transl_table=11
                      /note="Best Blastp Hit: pir||H81068
                      long-chain-fatty-acid--CoA ligase (EC 6.2.1.3) NMB1555
                      [similarity] - Neisseria meningitidis (group B strain MD58)
                      >gi|7226802|gb|AAF41909.1| (AE002506)
                      long-chain-fatty-acid--CoA ligase [Neisseria meningitidis
                      MC58]; COG0318 Acyl-CoA synthetases (AMP-forming)/AMP-acid"
-                     /transl_table=11
+                     /locus_tag="NGO1213"
+                     /coded_by="complement(AE004969.1:1162700..1164370)"
 ORIGIN
         1 mekiwlesye kgvsaeidit qynsvsdvfr qsvekfarlp afqnmgktlt yaetgklatd
        61 fasylqnvlk lprgervaim mpnvlqypia lfgilqaglv avntnplytp relehqlkds
