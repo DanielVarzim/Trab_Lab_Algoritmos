@@ -31,14 +31,17 @@ def blast(record,filename):
 
 
 def teste1():
-    
+    #Efectua o blast de um ficheiro
     #C:\Users\Daniel Varzim\Documents\GitHub\Trab_Lab_Algoritmos\Resultados\gb records\NGO1213
+    
     #filename= input("Introduza o nome do ficheiro a efectuar o blast:")
     #record = SeqIO.read(filename+".gb", format="genbank")
     #blast(record, filename)
     
 
     #tentativa de efectuar o blast de todos os ficheiros genbank gerados
+    #não pode ser um intervalo entre 1213 e 1456 uma vez que alguns valores não existem
+    #arranjar outra forma
     
     for i in range(1213,1456):
         a=str(i)
