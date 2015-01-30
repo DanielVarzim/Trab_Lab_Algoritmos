@@ -31,19 +31,21 @@ def blast(record,filename):
 
 
 def teste1():
-    #C:\Users\Daniel Varzim\Documents\GitHub\Trab_Lab_Algoritmos\Resultados\gb records\NGO1213
-    filename= input("Introduza o nome do ficheiro a efectuar o blast:")
-    record = SeqIO.read(filename+".gb", format="genbank")
-    blast(record, filename)
     
+    #C:\Users\Daniel Varzim\Documents\GitHub\Trab_Lab_Algoritmos\Resultados\gb records\NGO1213
+    #filename= input("Introduza o nome do ficheiro a efectuar o blast:")
+    #record = SeqIO.read(filename+".gb", format="genbank")
+    #blast(record, filename)
+    
+
     #tentativa de efectuar o blast de todos os ficheiros genbank gerados
-    """
+    
     for i in range(1213,1456):
         a=str(i)
         filename= ("C:\\Users\\Daniel Varzim\\Documents\\GitHub\\Trab_Lab_Algoritmos\\Resultados\\gb records\\NGO"+a)
         record = SeqIO.read(filename+".gb", format="genbank")
         blast(record, filename)
-    """
+    
 
     
 if __name__ == '__main__':
