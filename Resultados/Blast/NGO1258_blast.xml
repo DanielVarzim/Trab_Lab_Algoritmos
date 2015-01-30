@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>47331</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1639</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>47331</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1639</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75432447|sp|Q5F7C0.1|GPMA_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Neisseria gonorrhoeae FA 1090] &gt;gi|226735735|sp|B4RIY7.1|GPMA_NEIG2 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F7C0</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.649</Hsp_bit-score>
+      <Hsp_score>1254</Hsp_score>
+      <Hsp_evalue>1.34435e-158</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|189042174|sp|A9M1A2.1|GPMA_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9M1A2</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.641</Hsp_bit-score>
+      <Hsp_score>1241</Hsp_score>
+      <Hsp_evalue>1.00939e-156</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGQLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDEFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVLEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYG+LQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDD FSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKV+EKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|27151543|sp|Q9JYF7.1|GPMA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JYF7</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.871</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>1.99176e-156</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGQLQGLDKKQTAEQYGDEQVRIWRRSYDTLPPLLDKDDEFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYG+LQGLDKKQTAE+YGDEQVRIWRRSYDTLPPLLDKDD FSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|27151542|sp|Q9JTF2.1|GPMA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JTF2</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.715</Hsp_bit-score>
+      <Hsp_score>1236</Hsp_score>
+      <Hsp_evalue>5.75105e-156</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEQYGDEQVRIWRRSYDTLPPLLDKDDEFSAHKDRRYAHLPADVIPDGENLQVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAE+YGDEQVRIWRRSYDTLPPLLDKDD FSAHKDRRYAHLPADV+PDGENL+VTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|166991337|sp|A1KV25.1|GPMA_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KV25</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.715</Hsp_bit-score>
+      <Hsp_score>1236</Hsp_score>
+      <Hsp_evalue>5.93141e-156</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGQLQGLDKKQTAEQYGDEQVRIWRRSYDTLPPLLDKDDEFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDKDIMGLEIPTGQPLVYKLDDNLKVLEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYG+LQGLDKKQTAE+YGDEQVRIWRRSYDTLPPLLDKDD FSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISD+DIMGLEIPTGQPLVYKLDDNLKV+EKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|27151541|sp|Q9CKU9.1|GPMA_PASMU</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CKU9</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>7.99663e-129</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGIEEAKSAGKKLLEAGFEFDIAFTSVLTRAIKTCNIVLEESNQLWIPQVKNWRLNERHYGALQGLDKKATAEQYGDEQVHIWRRSYDISPPDLDPQDPHSAHNDRRYAHLPSDVVPDAENLKITLERVLPFWEDQIAPALLAGKRVLVTAHGNSLRALAKHIEGISDADIMDLEIPTGQPLVYKLDDNLKVVEKYYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA +AGKKL E G+EFDIAFTSVLTRAIKTCNIVLEES+QL++PQ+K WRLNERHYG LQGLDKK TAE+YGDEQV IWRRSYD  PP LD  D  SAH DRRYAHLP+DVVPD ENLK+TLERVLPFWEDQIAPA+L+GKRVLV AHGNSLRALAKHIEGISD DIM LEIPTGQPLVYKLDDNLKV+EK+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|171704194|sp|A6VLV0.1|GPMA_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VLV0</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>2.98624e-127</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MQLVFIRHGLSEWNALNLFTGWRDVNLSEKGVEEAKEAGRKLKAAGFEFDIAFTSVLTRAIKTCNLVLEESDQLWVPQIKTWRLNERHYGGLQGLNKAEAAAEHGDEQVRIWRRSYDVLPPVLDPKDPNSAHNDRRYAHLPADVVPDCENLKVTLDRVLPFWEDQIAPAIKAGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYELDDNLKVLSKRYL</Hsp_hseq>
+      <Hsp_midline>M+LVFIRHG SEWNA NLFTGWRDV LSE+G+ EA  AG+KLK  G+EFDIAFTSVLTRAIKTCN+VLEESDQL+VPQIKTWRLNERHYG LQGL+K + A ++GDEQVRIWRRSYD LPP+LD  D  SAH DRRYAHLPADVVPD ENLKVTL+RVLPFWEDQIAPAI +GKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVY+LDDNLKV+ K YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81609348|sp|Q65Q32.1|GPMA_MANSM</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65Q32</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.201</Hsp_bit-score>
+      <Hsp_score>1014</Hsp_score>
+      <Hsp_evalue>7.71432e-125</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGLSEWNALNLFTGWRDVNLSEKGVEEAKEAGRKLKAAGFEFDIAFTSVLTRAIKTCNLVLEESNQLWVPQIKTWRLNERHYGGLQGLNKAEAAAEHGDEQVRIWRRSYDVLPPVLDPKDPNSAHNDRRYAHLPADVVPDCENLKVTLERVLPFWEDQIAPAIKAGKRVLVAAHGNSLRALAKHIEGISDADIMDLEIPTGQPLVYTLDDNLKVVSKRYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNA NLFTGWRDV LSE+G+ EA  AG+KLK  G+EFDIAFTSVLTRAIKTCN+VLEES+QL+VPQIKTWRLNERHYG LQGL+K + A ++GDEQVRIWRRSYD LPP+LD  D  SAH DRRYAHLPADVVPD ENLKVTLERVLPFWEDQIAPAI +GKRVLVAAHGNSLRALAKHIEGISD DIM LEIPTGQPLVY LDDNLKV+ K YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|50400430|sp|Q7VL28.1|GPMA_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VL28</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.815</Hsp_bit-score>
+      <Hsp_score>1013</Hsp_score>
+      <Hsp_evalue>1.00678e-124</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGVEEAKAAGQKLLAAGYEFDIAFTSVLTRAIKTCNIVLEESNQLWIPQVKHWRLNERHYGELQGLDKKATAEKYGDEQVHIWRRSYDTLPPLLAPSDPNSAHNDRRYAHLPKEVVPNGENLKVTLERVLPFWEDQIAPALLSGKRVLVTAHGNSLRALAKHIIGISDAEIMDFEIPTGQPLVLKLDSKLNFIEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA AAG+KL   GYEFDIAFTSVLTRAIKTCNIVLEES+QL++PQ+K WRLNERHYG LQGLDKK TAEKYGDEQV IWRRSYDTLPPLL   D  SAH DRRYAHLP +VVP+GENLKVTLERVLPFWEDQIAPA+LSGKRVLV AHGNSLRALAKHI GISD +IM  EIPTGQPLV KLD  L  IEKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|254799068|sp|B8F5J4.1|GPMA_HAEPS</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus parasuis SH0165]</Hit_def>
+  <Hit_accession>B8F5J4</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.815</Hsp_bit-score>
+      <Hsp_score>1013</Hsp_score>
+      <Hsp_evalue>1.2023e-124</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGIEEAKAAGKKLLDAGYEFDIAFTSVLTRAIKTCNIVLEESNQLWIPQVKNWRLNERHYGALQGLDKKATAEQYGDEQVHIWRRSYDISPPDLDPQDPNSAHNDRRYAHLPKDVVPNAENLKITLERVLPFWEDQIAPALLSGKRVLVTAHGNSLRALAKHIIGISDEEIMDFEIPTGQPLVLKLDDKLNFVEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA AAGKKL + GYEFDIAFTSVLTRAIKTCNIVLEES+QL++PQ+K WRLNERHYG LQGLDKK TAE+YGDEQV IWRRSYD  PP LD  D  SAH DRRYAHLP DVVP+ ENLK+TLERVLPFWEDQIAPA+LSGKRVLV AHGNSLRALAKHI GISDE+IM  EIPTGQPLV KLDD L  +EKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123031403|sp|Q0I4D8.1|GPMA_HISS1</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus somnus 129PT] &gt;gi|189042173|sp|B0US27.1|GPMA_HISS2 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus somnus 2336]</Hit_def>
+  <Hit_accession>Q0I4D8</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>5.17162e-123</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGIEEAKAAGKKLLEAGYEFDIAFTSVLTRAIKTCNIVLEESNQLWIPQVKHWRLNERHYGALQGLDKKATAEQYGDEQVHIWRRSYDVSPPDLDPQDPNSAHNDRRYALLPKDVVPNAENLKITLERVLPFWEDQIAPALLSGKRVLVTAHGNSLRALAKHIIGISDEEIMAFEIPTGQPLVLKLDEQLNFVEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA AAGKKL E GYEFDIAFTSVLTRAIKTCNIVLEES+QL++PQ+K WRLNERHYG LQGLDKK TAE+YGDEQV IWRRSYD  PP LD  D  SAH DRRYA LP DVVP+ ENLK+TLERVLPFWEDQIAPA+LSGKRVLV AHGNSLRALAKHI GISDE+IM  EIPTGQPLV KLD+ L  +EKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|166990548|sp|A3N0J2.1|GPMA_ACTP2</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Actinobacillus pleuropneumoniae serovar 5b str. L20] &gt;gi|226735687|sp|B3H1G9.1|GPMA_ACTP7 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Actinobacillus pleuropneumoniae serovar 7 str. AP76] &gt;gi|226735688|sp|B0BPB3.1|GPMA_ACTPJ RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Actinobacillus pleuropneumoniae serovar 3 str. JL03]</Hit_def>
+  <Hit_accession>A3N0J2</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.808</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>6.61305e-123</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGIEEAKSAGQKLKAAGYEFDIAFTSVLTRAIKTCNIVLEESNQLWIPQVKNWRLNERHYGALQGLDKKATAEQYGDEQVHIWRRSYDISPPDLDAADPNSAHNDRRYAHLPKDVIPNAENLKITLERVLPFWEDQIAPALLSGKRVLVTAHGNSLRALAKHIIGISDAEIMDFEIPTGQPLVLKLDDKLNFVEKFYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA +AG+KLK  GYEFDIAFTSVLTRAIKTCNIVLEES+QL++PQ+K WRLNERHYG LQGLDKK TAE+YGDEQV IWRRSYD  PP LD  D  SAH DRRYAHLP DV+P+ ENLK+TLERVLPFWEDQIAPA+LSGKRVLV AHGNSLRALAKHI GISD +IM  EIPTGQPLV KLDD L  +EKFYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166991326|sp|A5UHR1.1|GPMA_HAEIG</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus influenzae PittGG]</Hit_def>
+  <Hit_accession>A5UHR1</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>9.53706e-120</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGVEEAKAAGKKLLDKGYEFDIAFTSVLTRAIKTCNIVLEESHQLWIPQVKNWRLNERHYGALQGLDKKATAEQYGDEQVHIWRRSYDISPPDLDPQDPNSAHNDRRYANIPFDVVPNAENLKLTLERALPFWEDQIAPAMLSGKRVLVVAHGNSLRALAKHIIGISDAEIMDFEIPTGQPLVLKLDDKLNYVEHYYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA AAGKKL + GYEFDIAFTSVLTRAIKTCNIVLEES QL++PQ+K WRLNERHYG LQGLDKK TAE+YGDEQV IWRRSYD  PP LD  D  SAH DRRYA++P DVVP+ ENLK+TLER LPFWEDQIAPA+LSGKRVLV AHGNSLRALAKHI GISD +IM  EIPTGQPLV KLDD L  +E +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81336222|sp|Q4QME2.1|GPMA_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus influenzae 86-028NP] &gt;gi|166991325|sp|A5UDW8.1|GPMA_HAEIE RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus influenzae PittEE]</Hit_def>
+  <Hit_accession>Q4QME2</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>1.17172e-119</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGVEEAKAAGKKLLDKGYEFDIAFTSVLTRAIKTCNIVLEESHQLWIPQVKNWRLNERHYGALQGLDKKATAEQYGDEQVHIWRRSYDISPPDLDPQDPNSAHNDRRYANIPSDVVPNAENLKLTLERALPFWEDQIAPAMLSGKRVLVVAHGNSLRALAKHIIGISDAEIMDFEIPTGQPLVLKLDDKLNYVEHYYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA AAGKKL + GYEFDIAFTSVLTRAIKTCNIVLEES QL++PQ+K WRLNERHYG LQGLDKK TAE+YGDEQV IWRRSYD  PP LD  D  SAH DRRYA++P+DVVP+ ENLK+TLER LPFWEDQIAPA+LSGKRVLV AHGNSLRALAKHI GISD +IM  EIPTGQPLV KLDD L  +E +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1172539|sp|P44865.1|GPMA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44865</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.022</Hsp_bit-score>
+      <Hsp_score>972</Hsp_score>
+      <Hsp_evalue>4.6216e-119</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MELVFIRHGFSEWNAKNLFTGWRDVNLTERGVEEAKTAGKKLLDKGYEFDIAFTSVLTRAIKTCNIVLEESHQLWIPQVKNWRLNERHYGALQGLDKKATAEQYGDEQVHIWRRSYDISPPDLDPQDPNSAHNDRRYANIPSDVVPNAENLKLTLERALPFWEDQIAPAMLSGKRVLVVAHGNSLRALAKHIIGISDAEIMDFEIPTGQPLVLKLDDKLNYVEHYYL</Hsp_hseq>
+      <Hsp_midline>MELVFIRHG SEWNAKNLFTGWRDV L+E+G+ EA  AGKKL + GYEFDIAFTSVLTRAIKTCNIVLEES QL++PQ+K WRLNERHYG LQGLDKK TAE+YGDEQV IWRRSYD  PP LD  D  SAH DRRYA++P+DVVP+ ENLK+TLER LPFWEDQIAPA+LSGKRVLV AHGNSLRALAKHI GISD +IM  EIPTGQPLV KLDD L  +E +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|50400470|sp|Q839H4.1|GPMA_ENTFA</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Enterococcus faecalis V583]</Hit_def>
+  <Hit_accession>Q839H4</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>3.85471e-108</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KLVFSRHGLSEWNALNQFTGWADVDLAPEGVEEAKEGGRKIKEAGIEFDVAYTSVLTRAIKTCNYLLEYSDQLWVPQIKSWRLNERHYGKLQGLNKKETAEKYGDEQVHIWRRSYDTLPPLMEATDEGSAANDRRYAMLDQRDIPGGENLKVTLERALPFWQDEIAPALKDNKTVLVAAHGNSLRALAKHIEGISDEDIMDLEIPTGKPLVYELNDDLTVKEKYYL</Hsp_hseq>
+      <Hsp_midline>+LVF RHG SEWNA N FTGW DV L+ +G+ EA   G+K+KE G EFD+A+TSVLTRAIKTCN +LE SDQL+VPQIK+WRLNERHYG+LQGL+KK+TAEKYGDEQV IWRRSYDTLPPL++  D  SA  DRRYA L    +P GENLKVTLER LPFW+D+IAPA+   K VLVAAHGNSLRALAKHIEGISDEDIM LEIPTG+PLVY+L+D+L V EK+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|50400495|sp|Q88T35.1|GPMA2_LACPL</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase 2; Short=BPG-dependent PGAM 2; Short=PGAM 2; Short=Phosphoglyceromutase 2; Short=dPGM 2 [Lactobacillus plantarum WCFS1]</Hit_def>
+  <Hit_accession>Q88T35</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>7.02651e-107</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1636</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEK</Hsp_qseq>
+      <Hsp_hseq>KLVLIRHGQSEWNLSNQFTGWVDVDLSEKGVEEAKAAGQKVKEAGLEFDYAFTSVLTRAIKTLHYVLEESDQLWIPETKTWRLNERHYGALQGLNKKETAEKYGDDQVHIWRRSYDVLPPLLSADDEGSAVNDRRYADLDPNIVPGGENLKVTLERVMPFWEDQIAPKLLDGKNVIIAAHGNSLRALSKYIEQISDDDIMDLEMATGEPVVYDFDEKLKVLGK</Hsp_hseq>
+      <Hsp_midline>+LV IRHGQSEWN  N FTGW DV LSE+G+ EA AAG+K+KE G EFD AFTSVLTRAIKT + VLEESDQL++P+ KTWRLNERHYG LQGL+KK+TAEKYGD+QV IWRRSYD LPPLL  DD  SA  DRRYA L  ++VP GENLKVTLERV+PFWEDQIAP +L GK V++AAHGNSLRAL+K+IE ISD+DIM LE+ TG+P+VY  D+ LKV+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|27151532|sp|Q929G8.1|GPMA_LISIN</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q929G8</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>1.02565e-103</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MKLVLIRHGQSEWNKLNLFTGWHDVDLSEEGVVEAMTAGKRIKEAGLEFDVAFTSVLTRAIKTLNYVLEESDQMWVPVHKSWRLNERHYGALQGLNKQETAEKYGADQVQKWRRSYDTLPPLLEENDERQAKNDRRYQLLDTHAIPSGENLKVTLERVIPYWMDTIAPEIKAGRRVVIAAHGNSLRALVKFLEGISDDEIMELEIPTGVPLVYELNDDLKPVNKYYL</Hsp_hseq>
+      <Hsp_midline>M+LV IRHGQSEWN  NLFTGW DV LSE+G+ EA  AGK++KE G EFD+AFTSVLTRAIKT N VLEESDQ++VP  K+WRLNERHYG LQGL+K++TAEKYG +QV+ WRRSYDTLPPLL+++D   A  DRRY  L    +P GENLKVTLERV+P+W D IAP I +G+RV++AAHGNSLRAL K +EGISD++IM LEIPTG PLVY+L+D+LK + K+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|254799069|sp|B8DFA5.1|GPMA_LISMH</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Listeria monocytogenes HCC23]</Hit_def>
+  <Hit_accession>B8DFA5</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>1.74297e-103</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MKLVLIRHGQSEWNKLNLFTGWHDVDLSQEGVVEAMTAGKRIKEAGLEFDVAFTSVLTRAIKTLNYVLEESDQMWVPVHKSWRLNERHYGALQGLNKQETAEKYGADQVQKWRRSYDTLPPLLEENDERQAKNDRRYQLLDTHAIPSGENLKVTLERVIPYWMDTIAPEIKEGRRVVIAAHGNSLRALVKFLEGISDDEIMDLEIPTGVPLVYELNDDLKPVNKYYL</Hsp_hseq>
+      <Hsp_midline>M+LV IRHGQSEWN  NLFTGW DV LS++G+ EA  AGK++KE G EFD+AFTSVLTRAIKT N VLEESDQ++VP  K+WRLNERHYG LQGL+K++TAEKYG +QV+ WRRSYDTLPPLL+++D   A  DRRY  L    +P GENLKVTLERV+P+W D IAP I  G+RV++AAHGNSLRAL K +EGISD++IM LEIPTG PLVY+L+D+LK + K+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|50400342|sp|Q71XG0.1|GPMA_LISMF</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Listeria monocytogenes serotype 4b str. F2365] &gt;gi|259647625|sp|C1KXG0.1|GPMA_LISMC RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Listeria monocytogenes serotype 4b str. CLIP 80459]</Hit_def>
+  <Hit_accession>Q71XG0</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>3.17675e-103</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MKLVLIRHGQSEWNKLNLFTGWHDVDLSQEGVVEAMTAGKRIKEAGLEFDVAFTSVLTRAIKTLNYVLEESDQMWVPVHKSWRLNERHYGALQGLNKQETAEKYGADQVQKWRRSYDTLPPLLEENDERQAKNDRRYQLLDTHAIPAGENLKVTLERVIPYWMDTIAPEIKEGRRVVIAAHGNSLRALVKFLEGIGDDEIMDLEIPTGVPLVYELNDDLKPVNKYYL</Hsp_hseq>
+      <Hsp_midline>M+LV IRHGQSEWN  NLFTGW DV LS++G+ EA  AGK++KE G EFD+AFTSVLTRAIKT N VLEESDQ++VP  K+WRLNERHYG LQGL+K++TAEKYG +QV+ WRRSYDTLPPLL+++D   A  DRRY  L    +P GENLKVTLERV+P+W D IAP I  G+RV++AAHGNSLRAL K +EGI D++IM LEIPTG PLVY+L+D+LK + K+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123461366|sp|A0AKV8.1|GPMA_LISW6</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Listeria welshimeri serovar 6b str. SLCC5334]</Hit_def>
+  <Hit_accession>A0AKV8</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>3.58194e-103</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MKLVLIRHGQSEWNKLNLFTGWHDVDLSEEGVVEAMTAGKRIKEAGLEFDVAFTSVLTRAIKTLNYVLEESDQMWVPVNKSWRLNERHYGALQGLNKQETAEKYGADQVQKWRRSYDTLPPLLEENDERQAKNDRRYQLLDTHAIPSGENLKVTLERVIPYWMDTIAPEIKEGRRVVIAAHGNSLRALVKFLEGISDDEIMELEIPTGVPLVYELNDDLKPVNKYYL</Hsp_hseq>
+      <Hsp_midline>M+LV IRHGQSEWN  NLFTGW DV LSE+G+ EA  AGK++KE G EFD+AFTSVLTRAIKT N VLEESDQ++VP  K+WRLNERHYG LQGL+K++TAEKYG +QV+ WRRSYDTLPPLL+++D   A  DRRY  L    +P GENLKVTLERV+P+W D IAP I  G+RV++AAHGNSLRAL K +EGISD++IM LEIPTG PLVY+L+D+LK + K+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|27151527|sp|Q8Y571.1|GPMA_LISMO</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>Q8Y571</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>2.32493e-102</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>MKLVLIRHGQSEWNKLNLFTGWHDVDLSQEGVVEAMTAGKRIKEAGLEFDVAFTSVLTRAIKTLNYVLEESDQMWVPVHKSWRLNERHYGALQGLNKQETAEKYGADQVQKWRRSYDTLPPLLEENDERQAKNDRRYQLLDTHAIPSGENLKVTLERVIPYWMDTIAPEIKEGRRVVIAAHGNSLRALVKFLEGISDDEIMDLEIPTGVPLVYELNADLKPVNKYYL</Hsp_hseq>
+      <Hsp_midline>M+LV IRHGQSEWN  NLFTGW DV LS++G+ EA  AGK++KE G EFD+AFTSVLTRAIKT N VLEESDQ++VP  K+WRLNERHYG LQGL+K++TAEKYG +QV+ WRRSYDTLPPLL+++D   A  DRRY  L    +P GENLKVTLERV+P+W D IAP I  G+RV++AAHGNSLRAL K +EGISD++IM LEIPTG PLVY+L+ +LK + K+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|27151513|sp|P59161.1|GPMA_STRMU</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus mutans UA159]</Hit_def>
+  <Hit_accession>P59161</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>2.63158e-98</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEEGTQQAIDAGKLIKEADIKFDLAFTSVLTRAIKTTNLALEYSDQLWVPVEKSWRLNERHYGGLTGKNKAEAAEKFGDEQVHIWRRSYDVLPPAMAKDDPYSAHTDRRYANLDDTVIPDAENLKVTLERALPYWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKQLSDDDIMGVEIPNFPPLVFEFDENLNVTAEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE   +FD+AFTSVLTRAIKT N+ LE SDQL+VP  K+WRLNERHYG L G +K + AEK+GDEQV IWRRSYD LPP + KDD +SAH DRRYA+L   V+PD ENLKVTLER LP+WED+IAPA+  GK V V AHGNS+RAL KHI+ +SD+DIMG+EIP   PLV++ D+NL V  ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|54037224|sp|P65711.1|GPMA_STRP8</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS8232] &gt;gi|73919700|sp|Q5XB88.1|GPMA_STRP6 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS10394] &gt;gi|91206788|sp|Q48SP2.1|GPMA_STRPM RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS6180] &gt;gi|166991347|sp|Q1JAX0.1|GPMA_STRPB RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS2096] &gt;gi|166991348|sp|Q1JL20.1|GPMA_STRPC RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS9429] &gt;gi|166991349|sp|Q1JG44.1|GPMA_STRPD RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS10270] &gt;gi|166991350|sp|Q1J5W1.1|GPMA_STRPF RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS10750] &gt;gi|166991351|sp|A2RDV4.1|GPMA_STRPG RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes str. Manfredo] &gt;gi|226735761|sp|B5XM69.1|GPMA_STRPZ RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes NZ131] &gt;gi|342162618|sp|P0DD06.1|GPMA_STRP3 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes MGAS315] &gt;gi|342162619|sp|P0DD07.1|GPMA_STRPQ RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes SSI-1]</Hit_def>
+  <Hit_accession>P65711</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>6.79885e-98</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDLAFTSVLTRAIKTTNLALENAGQLWVPTEKSWRLNERHYGALTGKNKAEAAEQFGDEQVHIWRRSYDVLPPAMAKDDEYSAHKDRRYADLDPALIPDAENLKVTLERAMPYWEEKIAPALLDGKNVFVGAHGNSIRALVKHIKGLSDDEIMDVEIPNFPPLVFELDEKLNIVKEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD+AFTSVLTRAIKT N+ LE + QL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP + KDD +SAHKDRRYA L   ++PD ENLKVTLER +P+WE++IAPA+L GK V V AHGNS+RAL KHI+G+SD++IM +EIP   PLV++LD+ L +++++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|27151525|sp|Q8VVB5.1|GPMA_STRT2</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus thermophilus LMG 18311] &gt;gi|81559295|sp|Q5LZF1.1|GPMA_STRT1 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus thermophilus CNRZ1066] &gt;gi|122267464|sp|Q03KA9.1|GPMA_STRTD RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus thermophilus LMD-9]</Hit_def>
+  <Hit_accession>Q8VVB5</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>9.59042e-98</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDKAYTSVLKRAIKTTNLALEASDQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPKMDRDDEYSAHKDRRYASLDDSVIPDAENLKVTLERALPFWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKKLSDDEIMDVEIPNFPPLVFEFDEKLNVVSEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD A+TSVL RAIKT N+ LE SDQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP +D+DD +SAHKDRRYA L   V+PD ENLKVTLER LPFWED+IAPA+  GK V V AHGNS+RAL KHI+ +SD++IM +EIP   PLV++ D+ L V+ ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|50400373|sp|Q74LL9.1|GPMA1_LACJO</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase 1; Short=BPG-dependent PGAM 1; Short=PGAM 1; Short=Phosphoglyceromutase 1; Short=dPGM 1 [Lactobacillus johnsonii NCC 533]</Hit_def>
+  <Hit_accession>Q74LL9</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>1.96188e-97</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1636</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEK</Hsp_qseq>
+      <Hsp_hseq>KLVLIRHGQSEWNLSNQFTGWVDVNLSEKGVEEAKKAGRLIKEHGLEFDQAYTSLLTRAIKTLHYALEESDQLWIPETKTWRLNERHYGALQGLNKKDTAEKYGDEQVHIWRRSYDVLPPAIDDDNEYSQAHDRRYANLDPHIVPKAENLHVTLDRVMPFWEDHIAPDLLDGKNVIIAAHGNSLRALTKYIENISDDDIMDLEMKTGEPVVYTFDDKLDVVNK</Hsp_hseq>
+      <Hsp_midline>+LV IRHGQSEWN  N FTGW DV LSE+G+ EA  AG+ +KE+G EFD A+TS+LTRAIKT +  LEESDQL++P+ KTWRLNERHYG LQGL+KK TAEKYGDEQV IWRRSYD LPP +D D+ +S   DRRYA+L   +VP  ENL VTL+RV+PFWED IAP +L GK V++AAHGNSLRAL K+IE ISD+DIM LE+ TG+P+VY  DD L V+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|75433059|sp|Q5FMJ3.1|GPMA_LACAC</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Lactobacillus acidophilus NCFM]</Hit_def>
+  <Hit_accession>Q5FMJ3</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.34616e-97</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1636</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEK</Hsp_qseq>
+      <Hsp_hseq>KLVLIRHGQSEWNLSNQFTGWVDVNLSEKGVEEAKKAGRLIKEHGLEFDQAYTSLLTRAIKTLHYALEESDQLWIPETKTWRLNERHYGALQGLNKKATAEKYGDEQVHIWRRSYDVLPPAIDDDNEFSQAHDRRYANLDPHIVPKAENLHVTLDRVMPFWEDNIAPDLLDGKNVIIAAHGNSLRALTKYIENISDDDIMDLEMKTGEPVVYTFDENLDVVNK</Hsp_hseq>
+      <Hsp_midline>+LV IRHGQSEWN  N FTGW DV LSE+G+ EA  AG+ +KE+G EFD A+TS+LTRAIKT +  LEESDQL++P+ KTWRLNERHYG LQGL+KK TAEKYGDEQV IWRRSYD LPP +D D+ FS   DRRYA+L   +VP  ENL VTL+RV+PFWED IAP +L GK V++AAHGNSLRAL K+IE ISD+DIM LE+ TG+P+VY  D+NL V+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|27151540|sp|Q9CIM0.1|GPMA_LACLA</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q9CIM0</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>2.86808e-97</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KLVFARHGESEWNLANLFTGWADVDLSENGTKQAIEAGKLIKEAGIEFDIAYTSVLKRAIKTTNLALEYSDQLWVPVVKSWRLNERHYGGLTGLNKADAAAKHGDEQVHIWRRSYDVLPPAMDHDDKYTAHGDRRYAGLEDSLIPDAENLKVTLERALPFWEDQIAPALKEGKNVFVGAHGNSIRALVKQIKKLSDDEIMDVEIPNFPPLVFEFDDNLNVQNEYYL</Hsp_hseq>
+      <Hsp_midline>+LVF RHG+SEWN  NLFTGW DV LSE G  +A  AGK +KE G EFDIA+TSVL RAIKT N+ LE SDQL+VP +K+WRLNERHYG L GL+K   A K+GDEQV IWRRSYD LPP +D DD ++AH DRRYA L   ++PD ENLKVTLER LPFWEDQIAPA+  GK V V AHGNS+RAL K I+ +SD++IM +EIP   PLV++ DDNL V  ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|123320631|sp|Q031Y3.1|GPMA_LACLS</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Lactococcus lactis subsp. cremoris SK11] &gt;gi|166991329|sp|A2RI67.1|GPMA_LACLM RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>Q031Y3</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>3.13635e-97</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KLVFARHGESEWNLANLFTGWADVDLSENGTKQAIEAGKLIKEAGIEFDIAYTSVLKRAIKTTNLALEFSDQLWVPVVKSWRLNERHYGGLTGLNKADAAAKHGDEQVHIWRRSYDVLPPAMDHDDKYTAHGDRRYAGLEDSLIPDAENLKVTLERALPFWEDQIAPALKEGKNVFVGAHGNSIRALVKQIKKLSDDEIMDVEIPNFPPLVFEFDDNLNVQNEYYL</Hsp_hseq>
+      <Hsp_midline>+LVF RHG+SEWN  NLFTGW DV LSE G  +A  AGK +KE G EFDIA+TSVL RAIKT N+ LE SDQL+VP +K+WRLNERHYG L GL+K   A K+GDEQV IWRRSYD LPP +D DD ++AH DRRYA L   ++PD ENLKVTLER LPFWEDQIAPA+  GK V V AHGNS+RAL K I+ +SD++IM +EIP   PLV++ DDNL V  ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|91206767|sp|Q38Z74.1|GPMA2_LACSS</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase 2; Short=BPG-dependent PGAM 2; Short=PGAM 2; Short=Phosphoglyceromutase 2; Short=dPGM 2 [Lactobacillus sakei subsp. sakei 23K]</Hit_def>
+  <Hit_accession>Q38Z74</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>9.86361e-97</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1636</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEK</Hsp_qseq>
+      <Hsp_hseq>KLVFIRHGQSEWNLSNQFTGWVDVNLSEEGVRQAQNAGALLKKEGILFDQAYTSVLTRAIKTLHYALEGSDQLWIPETKSWRLNERHYGALQGQNKAEAAEKWGDEQVHIWRRSYDTLPPLLDASDEGSAANDRRYAHLDPKAIPGGENLKVTLERVIPFWEDEIAPKLIDGQNIIVAAHGNSLRALTKYIENISDEDIMDVEMATGEPVVYDLDENLNVVSK</Hsp_hseq>
+      <Hsp_midline>+LVFIRHGQSEWN  N FTGW DV LSE+G+ +A  AG  LK+ G  FD A+TSVLTRAIKT +  LE SDQL++P+ K+WRLNERHYG LQG +K + AEK+GDEQV IWRRSYDTLPPLLD  D  SA  DRRYAHL    +P GENLKVTLERV+PFWED+IAP ++ G+ ++VAAHGNSLRAL K+IE ISDEDIM +E+ TG+P+VY LD+NL V+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|226735754|sp|B4U1Y5.1|GPMA_STREM</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus equi subsp. zooepidemicus MGCS10565] &gt;gi|254799485|sp|C0M8R8.1|GPMA_STRE4 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus equi subsp. equi 4047] &gt;gi|259647627|sp|C0MCW5.1|GPMA_STRS7 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Steptococcus equi subsp. zooepidemicus H70]</Hit_def>
+  <Hit_accession>B4U1Y5</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.849</Hsp_bit-score>
+      <Hsp_score>808</Hsp_score>
+      <Hsp_evalue>1.75074e-96</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIAFDLAFTSVLKRAIKTTNLALEYSDQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPDMAKDDEHSAHTDRRYAHLDHSVIPDAENLKVTLERALPFWEDKIAPALVDGKNVFVGAHGNSIRALVKHIKQLSDDEIMNVEIPNFPPLVFEFDDKLNLTAEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G  FD+AFTSVL RAIKT N+ LE SDQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP + KDD  SAH DRRYAHL   V+PD ENLKVTLER LPFWED+IAPA++ GK V V AHGNS+RAL KHI+ +SD++IM +EIP   PLV++ DD L +  ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|61225461|sp|P0A3Y3.1|GPMA_STRPN</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae TIGR4] &gt;gi|61225462|sp|P0A3Y4.1|GPMA_STRR6 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae R6] &gt;gi|122278230|sp|Q04JB4.1|GPMA_STRP2 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae D39] &gt;gi|226735758|sp|B5E706.1|GPMA_STRP4 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae G54] &gt;gi|226735759|sp|B1I720.1|GPMA_STRPI RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae Hungary19A-6] &gt;gi|254799486|sp|C1C8P5.1|GPMA_STRP7 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae 70585] &gt;gi|254799489|sp|C1CFM7.1|GPMA_STRZJ RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae JJA]</Hit_def>
+  <Hit_accession>P0A3Y3</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>2.34822e-96</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDQAYTSVLKRAIKTTNLALEASDQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPNMDRDDEHSAHTDRRYASLDDSVIPDAENLKVTLERALPFWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKGLSDDEIMDVEIPNFPPLVFEFDEKLNVVSEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD A+TSVL RAIKT N+ LE SDQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP +D+DD  SAH DRRYA L   V+PD ENLKVTLER LPFWED+IAPA+  GK V V AHGNS+RAL KHI+G+SD++IM +EIP   PLV++ D+ L V+ ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|166991352|sp|A4W369.1|GPMA_STRS2</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus suis 98HAH33]</Hit_def>
+  <Hit_accession>A4W369</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>2.54217e-96</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDLAFTSVLKRAIKTTNLALEAADQLWVPVEKSWRLNERHYGGLTGLNKAEAAAEFGDEQVHIWRRSYDTLPPEMAKDHEHSAHTDRRYAHLDDSVIPDAENLKVTLERALPFWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKQLSDDEIMDVEIPNFPPLVFELDENLNIVKEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD+AFTSVL RAIKT N+ LE +DQL+VP  K+WRLNERHYG L GL+K + A ++GDEQV IWRRSYDTLPP + KD   SAH DRRYAHL   V+PD ENLKVTLER LPFWED+IAPA+  GK V V AHGNS+RAL KHI+ +SD++IM +EIP   PLV++LD+NL +++++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|226735760|sp|B2IRR1.1|GPMA_STRPS</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae CGSP14] &gt;gi|254799487|sp|B8ZM52.1|GPMA_STRPJ RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae ATCC 700669] &gt;gi|254799490|sp|C1CLZ5.1|GPMA_STRZP RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae P1031] &gt;gi|254799491|sp|C1CSS1.1|GPMA_STRZT RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pneumoniae Taiwan19F-14]</Hit_def>
+  <Hit_accession>B2IRR1</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>2.75213e-96</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIKFDQAYTSVLKRAIKTTNLALEASDQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPNMDRDDEHSAHTDRRYASLDDSVIPDAENLKVTLERALPFWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKGLSDDEIMDVEIPNFPPLVFEFDEKLNVVSEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G +FD A+TSVL RAIKT N+ LE SDQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP +D+DD  SAH DRRYA L   V+PD ENLKVTLER LPFWED+IAPA+  GK V V AHGNS+RAL KHI+G+SD++IM +EIP   PLV++ D+ L V+ ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|254799488|sp|B9DUS6.1|GPMA_STRU0</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus uberis 0140J]</Hit_def>
+  <Hit_accession>B9DUS6</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>2.9209e-96</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDLAFTSVLKRAIKTTNLALEYSDQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPDMAKDDEHSAHTDRRYAHLDSSVIPDAENLKVTLERALPFWEDKIAPALVDGKNVFIGAHGNSIRALVKHIKRLNDDEIMDVEIPNFPPLVFEFDEKLNVTAEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD+AFTSVL RAIKT N+ LE SDQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP + KDD  SAH DRRYAHL + V+PD ENLKVTLER LPFWED+IAPA++ GK V + AHGNS+RAL KHI+ ++D++IM +EIP   PLV++ D+ L V  ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|27151538|sp|Q99Z29.1|GPMA_STRP1</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus pyogenes serotype M1]</Hit_def>
+  <Hit_accession>Q99Z29</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>3.75792e-96</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDLAFTSVLTRAIKTTNLALENAGQLWVPTEKSWRLNERHYGALTGKNKAEAAEQFCDEQVHIWRRSYDVLPPAMAKDDEYSAHKDRRYADLDPALIPDAENLKVTLERAMPYWEEKIAPALLDGKNVFVGAHGNSIRALVKHIKGLSDDEIMDVEIPNFPPLVFELDEKLNIVKEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD+AFTSVLTRAIKT N+ LE + QL+VP  K+WRLNERHYG L G +K + AE++ DEQV IWRRSYD LPP + KDD +SAHKDRRYA L   ++PD ENLKVTLER +P+WE++IAPA+L GK V V AHGNS+RAL KHI+G+SD++IM +EIP   PLV++LD+ L +++++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|189042181|sp|A8AW46.1|GPMA_STRGC</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus gordonii str. Challis]</Hit_def>
+  <Hit_accession>A8AW46</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>4.79584e-96</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDQAYTSVLKRAIKTTNLALEAADQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPAMPHDDEYSAHTDRRYASLDDSVIPDAENLKVTLERALPFWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKHLSDDEIMGVEIPNFPPLVFEFDEKLNVVKEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD A+TSVL RAIKT N+ LE +DQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP +  DD +SAH DRRYA L   V+PD ENLKVTLER LPFWED+IAPA+  GK V V AHGNS+RAL KHI+ +SD++IMG+EIP   PLV++ D+ L V++++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|166991353|sp|A3CLS0.1|GPMA_STRSV</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus sanguinis SK36]</Hit_def>
+  <Hit_accession>A3CLS0</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>1.97848e-95</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIKEAGIEFDQAYTSVLKRAIKTTNLALEASDQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPNMDRDDEHSAHTDRRYASLDDSVIPDAENLKVTLERALPFWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKQLSDDEIMDVEIPNFPPLVFEFDEKLNVVKEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK +KE G EFD A+TSVL RAIKT N+ LE SDQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP +D+DD  SAH DRRYA L   V+PD ENLKVTLER LPFWED+IAPA+  GK V V AHGNS+RAL KHI+ +SD++IM +EIP   PLV++ D+ L V++++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|50400521|sp|Q8E0G9.1|GPMA_STRA5</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus agalactiae 2603V/R] &gt;gi|50400522|sp|Q8E643.1|GPMA_STRA3 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus agalactiae NEM316] &gt;gi|91206787|sp|Q3K1U2.1|GPMA_STRA1 RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Streptococcus agalactiae A909]</Hit_def>
+  <Hit_accession>Q8E0G9</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>4.16704e-94</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>VKLVFARHGESEWNKANLFTGWADVDLSEKGTQQAIDAGKLIQAAGIEFDLAFTSVLKRAIKTTNLALEAADQLWVPVEKSWRLNERHYGGLTGKNKAEAAEQFGDEQVHIWRRSYDVLPPDMAKDDEHSAHTDRRYASLDDSVIPDAENLKVTLERALPFWEDKIAPALKDGKNVFVGAHGNSIRALVKHIKQLSDDEIMDVEIPNFPPLVFEFDEKLNLVSEYYL</Hsp_hseq>
+      <Hsp_midline>++LVF RHG+SEWN  NLFTGW DV LSE+G  +A  AGK ++  G EFD+AFTSVL RAIKT N+ LE +DQL+VP  K+WRLNERHYG L G +K + AE++GDEQV IWRRSYD LPP + KDD  SAH DRRYA L   V+PD ENLKVTLER LPFWED+IAPA+  GK V V AHGNS+RAL KHI+ +SD++IM +EIP   PLV++ D+ L ++ ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|226735689|sp|B4RZM6.1|GPMA_ALTMD</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Alteromonas macleodii str. &apos;Deep ecotype&apos;]</Hit_def>
+  <Hit_accession>B4RZM6</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.967</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>1.01647e-87</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KLVLIRHGESQWNLENRFTGWHDVDLTDTGVAQAKTAGQLLKDAGFTFDQAYTSVLLRAIKTLNIALEEMGQHYLPVERHWRLNERHYGALTGLDKAETAAKHGEEQVKIWRRSFDIPPPAVEDDSEHFPGHDPRYNNVDADILPRGESLKLTIERVLPYWHDVIRPDIQAGKRVIIAAHGNSLRALVKYLDGMSDEEVLGLNIPTGVPLVYELDENLKPISKEYL</Hsp_hseq>
+      <Hsp_midline>+LV IRHG+S+WN +N FTGW DV L++ G+A+A  AG+ LK+ G+ FD A+TSVL RAIKT NI LEE  Q ++P  + WRLNERHYG L GLDK +TA K+G+EQV+IWRRS+D  PP ++ D       D RY ++ AD++P GE+LK+T+ERVLP+W D I P I +GKRV++AAHGNSLRAL K+++G+SDE+++GL IPTG PLVY+LD+NLK I K YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|226735708|sp|B3QPN8.1|GPMA_CHLP8</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Chlorobaculum parvum NCIB 8327]</Hit_def>
+  <Hit_accession>B3QPN8</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>1.84113e-87</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KLVLLRHGESQWNRENRFTGWVDIDLSEKGREEAKAAGQLLKDEGFVFDMAYASVLKRAIRTLWTVLDQMDLMWIPVTKSWRLNERHYGALQGLNKTETAQRHGDEQVLIWRRSYDTPPPALDADDERHPSKDRRYAALTPEELPATECLKDTVARFLPYWHETIAPQIMDGKRVIITAHGNSLRALVKYLDNISDEDIVGLNIPTGIPLVYELDDDLKPIRSYYL</Hsp_hseq>
+      <Hsp_midline>+LV +RHG+S+WN +N FTGW D+ LSE+G  EA AAG+ LK+ G+ FD+A+ SVL RAI+T   VL++ D +++P  K+WRLNERHYG LQGL+K +TA+++GDEQV IWRRSYDT PP LD DD     KDRRYA L  + +P  E LK T+ R LP+W + IAP I+ GKRV++ AHGNSLRAL K+++ ISDEDI+GL IPTG PLVY+LDD+LK I  +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|254799484|sp|B9DL85.1|GPMA_STACT</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>B9DL85</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>2.64036e-87</Hsp_evalue>
+      <Hsp_query-from>1415</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>LVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>LILCRHGQSVWNAENLFTGWTDVDLSDQGVEEATTSGDRLKQEGIEIDVAFTSVLQRAIKTTYHLLERSNQLFVPLYKSWRLNERHYGGLQGLNKDAAREEFGEEQVHIWRRSYDIAPPDATAEQREADLADRKYQGLDERVIPTSESLKDTLERVIPYWNDAIAPELLTGKTVLVSAHGNSLRALIKHIEGVSDEDIVGYEIKTGAPLIYELDDNLGFVSKHYL</Hsp_hseq>
+      <Hsp_midline>L+  RHGQS WNA+NLFTGW DV LS+QG+ EA  +G +LK+ G E D+AFTSVL RAIKT   +LE S+QLFVP  K+WRLNERHYG LQGL+K    E++G+EQV IWRRSYD  PP    +   +   DR+Y  L   V+P  E+LK TLERV+P+W D IAP +L+GK VLV+AHGNSLRAL KHIEG+SDEDI+G EI TG PL+Y+LDDNL  + K YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|226735729|sp|B5EC38.1|GPMA_GEOBB</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Geobacter bemidjiensis Bem]</Hit_def>
+  <Hit_accession>B5EC38</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>4.49545e-87</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>QLVLLRHGESVWNKENLFTGWTDVELSPRGEEESRNAGLLLKEHGFVFDLAFTSLLKRAIKTLWIVLEQMDLMWIPEHKEWRLNERHYGALQGLNKAQTAQEYGDEQVKLWRRSYKVRPPALAEGDQRHPSFDPRYHSLSRDLLPDTECLQDTVERVLPFWQQQAVPALQQGKRILIAAHGNSLRGLIKYLDQIPDDDIVGLEIPTGSPLVYELDRDLKPVRRYYL</Hsp_hseq>
+      <Hsp_midline>+LV +RHG+S WN +NLFTGW DV+LS +G  E+  AG  LKE+G+ FD+AFTS+L RAIKT  IVLE+ D +++P+ K WRLNERHYG LQGL+K QTA++YGDEQV++WRRSY   PP L + D      D RY  L  D++PD E L+ T+ERVLPFW+ Q  PA+  GKR+L+AAHGNSLR L K+++ I D+DI+GLEIPTG PLVY+LD +LK + ++YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|82592887|sp|Q49ZZ2.1|GPMA_STAS1</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49ZZ2</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>6.76233e-87</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KLILCRHGQSVWNAENLFTGWADVDLSEQGENEAITSGKKLKAQGIEIDIVYTSLLERAIKTTYHLLNESNQLFIPIIKSWRLNERHYGGLQGLNKDDARKKFGEDQVHIWRRSYDVAPPKQDEAQRESYLNDRKYEHLDRRVMPESESLKDTLVRVIPYWNDQISQQLLDGKTVLVSAHGNSLRALIKYLENVSDEDIVGYEIKTGAPLIYELTDDLQVIDKYYL</Hsp_hseq>
+      <Hsp_midline>+L+  RHGQS WNA+NLFTGW DV LSEQG  EA  +GKKLK  G E DI +TS+L RAIKT   +L ES+QLF+P IK+WRLNERHYG LQGL+K    +K+G++QV IWRRSYD  PP  D+    S   DR+Y HL   V+P+ E+LK TL RV+P+W DQI+  +L GK VLV+AHGNSLRAL K++E +SDEDI+G EI TG PL+Y+L D+L+VI+K+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189042176|sp|A4SDM0.1|GPMA_PROVI</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Chlorobium phaeovibrioides DSM 265]</Hit_def>
+  <Hit_accession>A4SDM0</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.656</Hsp_bit-score>
+      <Hsp_score>740</Hsp_score>
+      <Hsp_evalue>7.6171e-87</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>IKLVLLRHGESQWNLDNRFTGWHDIDLTDKGRREASNAGKLLCEAGFEFDVAYVSVLKRAIRTLWNVLDEMNLMWIPVIRNWRLNERHYGALQGLNKAETAQKYGDEQVLVWRRSYDTPPPPLERTDERWPGSDRRYAALDADEVPLTECLKDTVARFLPFWHETIAPEISKGRNVLIVAHGNSLRALVKYLDGISEEDIVGLNIPTGIPLVYELDDNLKPLKSYYL</Hsp_hseq>
+      <Hsp_midline>++LV +RHG+S+WN  N FTGW D+ L+++G  EA+ AGK L E G+EFD+A+ SVL RAI+T   VL+E + +++P I+ WRLNERHYG LQGL+K +TA+KYGDEQV +WRRSYDT PP L++ D      DRRYA L AD VP  E LK T+ R LPFW + IAP I  G+ VL+ AHGNSLRAL K+++GIS+EDI+GL IPTG PLVY+LDDNLK ++ +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|226735732|sp|B1Y3R5.1|GPMA_LEPCP</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Leptothrix cholodnii SP-6]</Hit_def>
+  <Hit_accession>B1Y3R5</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.03179e-86</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KLVLIRHGESTWNLENRFTGWTDVELTPTGVSQAQQAGRLLKEGGYEFDIAYTSVLKRAIWTLWHALDQMDRTWLPVAHSWRLNERHYGALQGLNKGDMAKQYGDAQVLIWRRSYDTPPPALEADDPRGQRQDVRYAKLDAEQVPLTECLKDTVARVLPFWNDSIAPAILSGKRVLIAAHGNSIRAMVKYLDGISDADIVNLNIPNGVPLVYELDADLKPIRSYYL</Hsp_hseq>
+      <Hsp_midline>+LV IRHG+S WN +N FTGW DV+L+  G+++A  AG+ LKE GYEFDIA+TSVL RAI T    L++ D+ ++P   +WRLNERHYG LQGL+K   A++YGD QV IWRRSYDT PP L+ DD     +D RYA L A+ VP  E LK T+ RVLPFW D IAPAILSGKRVL+AAHGNS+RA+ K+++GISD DI+ L IP G PLVY+LD +LK I  +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|229463024|sp|P82612.3|PMGY_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Phosphoglycerate mutase; Short=PGAM; AltName: Full=BPG-dependent PGAM; AltName: Full=MPGM; AltName: Full=Phosphoglyceromutase [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>P82612</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>1.19922e-86</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1638</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFY</Hsp_qseq>
+      <Hsp_hseq>KLVLVRHGQSEWNEKNLFTGWVDVRLSETGQKEAKRAGELLKEAGINVDVLHTSKLSRAIQTANIALDAADQLYVPVKRSWRLNERHYGALQGKDKAQTLEAYGQEKFQIWRRSFDVPPPKIDPKDEYSQVGDRRYADVDPAVVPLTESLALVIDRLLPYWQDEIAGDLLAGKVVLIAAHGNSLRALVKHLDNISDEDIAGLNIPTGIPLVYELDENLKPTKPSY</Hsp_hseq>
+      <Hsp_midline>+LV +RHGQSEWN KNLFTGW DV+LSE G  EA  AG+ LKE G   D+  TS L+RAI+T NI L+ +DQL+VP  ++WRLNERHYG LQG DK QT E YG E+ +IWRRS+D  PP +D  D +S   DRRYA +   VVP  E+L + ++R+LP+W+D+IA  +L+GK VL+AAHGNSLRAL KH++ ISDEDI GL IPTG PLVY+LD+NLK  +  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|166991301|sp|A1K9B9.1|GPMA_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K9B9</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>1.53709e-86</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>KIVLLRHGESTWNKENRFTGWTDVDLTELGVGEARAAGQLLKREGYSFDLAFTSVLKRANKTLNIVLEELDALWLPVEHSWRLNERHYGALQGLNKAETAAKFGDDQVLVWRRSYDIPPPALEEGDERLNYDDPRYGSLPRARFPRTECLADTVARVVPYWETVIVPQILSGRRILIAAHGNSLRALIKYLDGISDGDIVGLNIPTAQPLVYELDVNLKPVKSYYL</Hsp_hseq>
+      <Hsp_midline>++V +RHG+S WN +N FTGW DV L+E G+ EA AAG+ LK  GY FD+AFTSVL RA KT NIVLEE D L++P   +WRLNERHYG LQGL+K +TA K+GD+QV +WRRSYD  PP L++ D    + D RY  LP    P  E L  T+ RV+P+WE  I P ILSG+R+L+AAHGNSLRAL K+++GISD DI+GL IPT QPLVY+LD NLK ++ +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|259647623|sp|C6E639.1|GPMA_GEOSM</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Geobacter sp. M21]</Hit_def>
+  <Hit_accession>C6E639</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>7.39218e-86</Hsp_evalue>
+      <Hsp_query-from>1414</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>ELVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>QLVLLRHGESVWNKENLFTGWTDVELSPSGEEESRKAGLLLKEHGFVFDMAFTSLLKRAIKTLWIVLEQMDLMWIPERKEWRLNERHYGALQGLNKAQTAEQYGDEQVKLWRRSYKVRPPALAEGDRRHPSFDPRYHSLQGELLPSTECLQDTVERVLPFWRQQAVPALRQGKRILIAAHGNSLRGLIKYLDQVSDEDIVGLEIPTGSPLVYELDSDLKPMRHYYL</Hsp_hseq>
+      <Hsp_midline>+LV +RHG+S WN +NLFTGW DV+LS  G  E+  AG  LKE+G+ FD+AFTS+L RAIKT  IVLE+ D +++P+ K WRLNERHYG LQGL+K QTAE+YGDEQV++WRRSY   PP L + D      D RY  L  +++P  E L+ T+ERVLPFW  Q  PA+  GKR+L+AAHGNSLR L K+++ +SDEDI+GLEIPTG PLVY+LD +LK +  +YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|400804|sp|P30798.1|GPMA_ZYMMO</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-dependent phosphoglycerate mutase; Short=BPG-dependent PGAM; Short=PGAM; Short=Phosphoglyceromutase; Short=dPGM [Zymomonas mobilis subsp. mobilis ZM4 = ATCC 31821]</Hit_def>
+  <Hit_accession>P30798</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>8.79173e-86</Hsp_evalue>
+      <Hsp_query-from>1415</Hsp_query-from>
+      <Hsp_query-to>1639</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>LVFIRHGQSEWNAKNLFTGWRDVKLSEQGLAEAAAAGKKLKENGYEFDIAFTSVLTRAIKTCNIVLEESDQLFVPQIKTWRLNERHYGRLQGLDKKQTAEKYGDEQVRIWRRSYDTLPPLLDKDDAFSAHKDRRYAHLPADVVPDGENLKVTLERVLPFWEDQIAPAILSGKRVLVAAHGNSLRALAKHIEGISDEDIMGLEIPTGQPLVYKLDDNLKVIEKFYL</Hsp_qseq>
+      <Hsp_hseq>LVLSRHGQSEWNLENRFTGWWDVNLTEQGVQEATAGGKALAEKGFEFDIAFTSVLTRAIKTTNLILEAGKTLWVPTEKDWRLNERHYGGLTGLNKAETAAKHGEEQVHIWRRSYDVPPPPMEKGSKFDLSGDRRYDGVK---IPETESLKDTVARVLPYWEERIAPELKAGKRVLIGAHGNSLRALVKHLSKLSDEEIVKFELPTGQPLVYELNDDLTPKDRYFL</Hsp_hseq>
+      <Hsp_midline>LV  RHGQSEWN +N FTGW DV L+EQG+ EA A GK L E G+EFDIAFTSVLTRAIKT N++LE    L+VP  K WRLNERHYG L GL+K +TA K+G+EQV IWRRSYD  PP ++K   F    DRRY  +    +P+ E+LK T+ RVLP+WE++IAP + +GKRVL+ AHGNSLRAL KH+  +SDE+I+  E+PTGQPLVY+L+D+L   ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 36, 40, 51, 66, 68, 72, 85, 95, 110, 113, 125, 140, 145, 146, 160, 162,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

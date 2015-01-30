@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>48341</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1911</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>48341</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1911</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|33112642|sp|P00894.3|ILVH_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase isozyme 3 small subunit; AltName: Full=ALS-III; AltName: Full=Acetohydroxy-acid synthase III small subunit; Short=AHAS-III [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P00894</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>6.0165e-56</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1910</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETV-GRAQILETVRTGAAGIGRGERILK</Hsp_qseq>
+      <Hsp_hseq>MRRILSVLLENESGALSRVIGLFSQRGYNIESLTVAPTDDPTLSRMTIQTVGDEKVLEQIEKQLHKLVDVLRVSELGQGAHVEREIMLVKIQASGYGRDEVKRNTEIFRGQIIDVTPSLYTVQLAGTSGKLDAFLASIRDVAKIVEVARSGVVGLSRGDKIMR</Hsp_hseq>
+      <Hsp_midline>MR ILSVL+ENESGA+SRV+GLFS R YNI+SL VAPT+D TLSRMTI T GDE+V+EQI KQL+KL++V++V +L +   VERE+MLVK++A+G  RDE  R TEI+RG IIDVT   YT+++ G++ KLD+FL ++   A+I+E  R+G  G+ RG++I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20141514|sp|P21622.2|ILVH_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase isozyme 3 small subunit; AltName: Full=ALS-III; AltName: Full=Acetohydroxy-acid synthase III small subunit; Short=AHAS-III [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P21622</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>1.29057e-55</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1910</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETV-GRAQILETVRTGAAGIGRGERILK</Hsp_qseq>
+      <Hsp_hseq>MRRILSVLLENESGALSRVIGLFSQRGYNIESLTVAPTDDPTLSRMTIQTVGDEKVLEQIEKQLHKLVDVLRVSELGQGAHVEREIMLVKIQASGYGREEVKRNTEIFRGQIIDVTPTLYTVQLAGTSDKLDAFLASLRDVAKIVEVARSGVVGLSRGDKIMR</Hsp_hseq>
+      <Hsp_midline>MR ILSVL+ENESGA+SRV+GLFS R YNI+SL VAPT+D TLSRMTI T GDE+V+EQI KQL+KL++V++V +L +   VERE+MLVK++A+G  R+E  R TEI+RG IIDVT   YT+++ G++DKLD+FL ++   A+I+E  R+G  G+ RG++I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1170547|sp|P45260.1|ILVH_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45260</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>9.6655e-52</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1907</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVG-RAQILETVRTGAAGIGRGER</Hsp_qseq>
+      <Hsp_hseq>MRRILSVLLENESGALSRVVGLFSQRAFNIESLTVAPTDDPTLSRMTIEAVGDAQALEQIEKQLHKLVDVFKVVNLSEQEHIEREIVLAKVRAVGSSRDEIKRLADIFRGQIVDVTPKSYTIQLSGTNDKVDAFISALKEETTLLEIVRSGLISVSRGEK</Hsp_hseq>
+      <Hsp_midline>MR ILSVL+ENESGA+SRVVGLFS R +NI+SL VAPT+D TLSRMTI   GD Q +EQI KQL+KL++V KVV+L+E   +ERE++L KVRA G  RDE  RL +I+RG I+DVT +SYTI+++G+ DK+D+F+  +     +LE VR+G   + RGE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|11386879|sp|P57320.1|ILVH_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57320</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>1.12228e-46</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1905</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGR-AQILETVRTGAAGIGRG</Hsp_qseq>
+      <Hsp_hseq>MRRILSILLENESGALSRVIGLFSQRGYNIETITLAPTEDPTLSKMTIQTVGNEKAIEQIEKQLHKLIDVLRVVQIGQSSHIEREIVLLKVQINNHRRDDIKHITEVFRGQIVDITSATYILQLSGTTKKIDAFLKIIRNFSEIIEVTRSGIVGISRG</Hsp_hseq>
+      <Hsp_midline>MR ILS+L+ENESGA+SRV+GLFS R YNI+++ +APTED TLS+MTI T G+E+ IEQI KQL+KLI+V++VV + +S  +ERE++L+KV+     RD+   +TE++RG I+D+T  +Y ++++G+T K+D+FL+ +   ++I+E  R+G  GI RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|4033416|sp|O85294.1|ILVH_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>O85294</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>4.2026e-46</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1905</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETV-GRAQILETVRTGAAGIGRG</Hsp_qseq>
+      <Hsp_hseq>MRRILSVLLENESGALSRVIGLFSQRGYNIETITVAPTEDPSLSKMTIQTIGNEKSIEQIEKQLHKLIDVLRVIKVGQNSHIEREIMLLKVQTNNCKKDDVKHITEVFRGQIVDITSTTYVLQITGTAKKLDSFLKIIRNTTEIIEMTRSGIVGIARG</Hsp_hseq>
+      <Hsp_midline>MR ILSVL+ENESGA+SRV+GLFS R YNI+++ VAPTED +LS+MTI T G+E+ IEQI KQL+KLI+V++V+ + ++  +ERE+ML+KV+     +D+   +TE++RG I+D+T  +Y ++ITG+  KLDSFL+ +    +I+E  R+G  GI RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2501332|sp|Q57625.1|ILVH_METJA</Hit_id>
+  <Hit_def>RecName: Full=Probable acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57625</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.18364e-39</Hsp_evalue>
+      <Hsp_query-from>1750</Hsp_query-from>
+      <Hsp_query-to>1910</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>RHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKD-RDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGERILK</Hsp_qseq>
+      <Hsp_hseq>RHVISALVLNKPGVLQRISGLFTRRGFNISSITVGITENPQISRVTIVVNGDDKILEQVIKQLNKLIDVIKVSELEEKKSVQRELCLIKIYAPTESAKSQVIQYTSIFRGNVVDLSPESLIVEITGSEDKINAFIDLVKPLGIKEMARTGITALARGPKILK</Hsp_hseq>
+      <Hsp_midline>RH++S L+ N+ G + R+ GLF+ R +NI S+ V  TE+  +SR+TIV +GD++++EQ+ KQLNKLI+VIKV +L E + V+REL L+K+ A  +  + + ++ T I+RG+++D++  S  +EITGS DK+++F++ V    I E  RTG   + RG +ILK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|6225558|sp|O28555.1|ILVH_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Probable acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O28555</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.33094e-39</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1907</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGER</Hsp_qseq>
+      <Hsp_hseq>MKHTIAVLVENKPGVLARVAGLFRRRGFNIESLTVGTTERDDLSRMTIVVEGDDKVVEQVIKQLNKLIETIKVSEITESS-VERELCLIRVHAPPEKRGEIVELTNIFRARIVDVSRDSFIIEVTGDEDKVSAFIDLMRQYGIKELARTGKVAMVRGNK</Hsp_hseq>
+      <Hsp_midline>M+H ++VL+EN+ G ++RV GLF  R +NI+SL V  TE   LSRMTIV  GD++V+EQ+ KQLNKLIE IKV ++ ES  VEREL L++V A  + R E + LT I+R  I+DV+  S+ IE+TG  DK+ +F++ + +  I E  RTG   + RG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|6225559|sp|O27492.1|ILVH_METTH</Hit_id>
+  <Hit_def>RecName: Full=Probable acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Methanothermobacter thermautotrophicus str. Delta H]</Hit_def>
+  <Hit_accession>O27492</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.97574e-38</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1909</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGK-DRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGERIL</Hsp_qseq>
+      <Hsp_hseq>HIISALVEHKPGVLQRVAGLFTRRGFNIENITVGESETPGIARMTIIARGDDRVLEQITKQLNKLIDVIKVRDLEPAATVKRELCMVKVHAPSESERSEIIQYTNIFRGRIVDVSPDALTVEVTGDSEKIDAFLELLRNFGIKELARTGPTAMSRGSRTM</Hsp_hseq>
+      <Hsp_midline>HI+S L+E++ G + RV GLF+ R +NI+++ V  +E   ++RMTI+  GD++V+EQITKQLNKLI+VIKV DL  +  V+REL +VKV A  + +R E ++ T I+RG I+DV+  + T+E+TG ++K+D+FLE +    I E  RTG   + RG R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|6225562|sp|Q55141.2|ILVH_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55141</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>5.19751e-38</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>MKHTLSVLVEDEAGVLTRIAGLFARRGFNIESLAVGSAEQGDVSRITMVVPGDENTIEQLTKQLYKLVNVIKVQDITETPCVERELMLVKVSANAPNRAEVIELAQVFRARIVDISEDTVTIEVVGDPGKMVAILQMLAKFGIKEVARTGKIALVR</Hsp_hseq>
+      <Hsp_midline>M+H LSVL+E+E+G ++R+ GLF+ R +NI+SLAV   E   +SR+T+V  GDE  IEQ+TKQL KL+ VIKV D+ E+  VERELMLVKV A   +R E + L +++R  I+D+++ + TIE+ G   K+ + L+ + +  I E  RTG   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|14194879|sp|Q9TLY1.1|ILVH_CYACA</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS (chloroplast) [Cyanidium caldarium]</Hit_def>
+  <Hit_accession>Q9TLY1</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>1.08538e-35</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1908</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGERI</Hsp_qseq>
+      <Hsp_hseq>MKYTLSVLVEDEAGVLTRIAGLFARRGFNIESLAVGPAEQKGISRITMVVPGDDRTVEQLTKQLYKLVNILKVDNITEIPCVERELILVKINASTSSRPEILSILQVFRAKVVDLSENLLVLELTGDPGKVAAIQQLLQKFGIIEIARTGKIALTRTSKV</Hsp_hseq>
+      <Hsp_midline>M++ LSVL+E+E+G ++R+ GLF+ R +NI+SLAV P E K +SR+T+V  GD++ +EQ+TKQL KL+ ++KV ++ E   VEREL+LVK+ A+   R E L + +++R  ++D+++    +E+TG   K+ +  + + +  I+E  RTG   + R  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|6225557|sp|O67703.1|ILVH_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67703</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>3.19276e-35</Hsp_evalue>
+      <Hsp_query-from>1744</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>RIGINMRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRA-AGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>RKGQVRKHIITVKVRNEMGVLARIATLIAGKGYNIEGLSVGETHEKGISRMTIEVIGDDIVIEQVVKQLRRLIDTLKVSDLTDVPHVERELALIKVYTPSSRARDEVLRITEIFRGKVVDVSPDTYTIEVTGDEDKINAMIELLKPFGIKEMARTGKVAMRR</Hsp_hseq>
+      <Hsp_midline>R G   +HI++V + NE G ++R+  L + + YNI+ L+V  T +K +SRMTI   GD+ VIEQ+ KQL +LI+ +KV DL +   VEREL L+KV   + + RDE LR+TEI+RG ++DV+  +YTIE+TG  DK+++ +E +    I E  RTG   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|302425087|sp|A0QUX7.1|ILVH_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QUX7</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>5.65548e-35</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1907</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGER</Hsp_qseq>
+      <Hsp_hseq>HTLSVLVEDKPGVLARVSSLFSRRGFNIQSLAVGATEQKDMSRMTIVVSVEDSPLEQITKQLNKLINVIKIVEQEEDNSVSRELALIKVRADATTRGQIIEAVNLFRAKVVDVSTESLTIEATGTPEKLEALLRVLEPYGIREIAQSGVVSVSRGPR</Hsp_hseq>
+      <Hsp_midline>H LSVL+E++ G ++RV  LFS R +NI SLAV  TE K +SRMTIV   ++  +EQITKQLNKLI VIK+V+  E   V REL L+KVRA    R + +    ++R  ++DV+  S TIE TG+ +KL++ L  +    I E  ++G   + RG R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6016366|sp|O78451.1|ILVH_GUITH</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS (chloroplast) [Guillardia theta]</Hit_def>
+  <Hit_accession>O78451</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>6.11385e-35</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>MKHTLSVLVEDESGVLTRIAGLFARRGFNIESLAVGPTEKLGISRITMVVPSDERTIEQLTKQLYKLVNILKVEDITNLPTVERELMLIKLRVSTFERTEALDIINIFRAKVVDLSEDFLIIEVTGDPGKIVAIEQILSKFTISEIVRTGKISLVR</Hsp_hseq>
+      <Hsp_midline>M+H LSVL+E+ESG ++R+ GLF+ R +NI+SLAV PTE   +SR+T+V   DE+ IEQ+TKQL KL+ ++KV D+     VERELML+K+R +  +R E L +  I+R  ++D+++    IE+TG   K+ +  + + +  I E VRTG   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|14194872|sp|Q9MS98.1|ILVH_GALSU</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS (chloroplast) [Galdieria sulphuraria]</Hit_def>
+  <Hit_accession>Q9MS98</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>8.72573e-35</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1908</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGERI</Hsp_qseq>
+      <Hsp_hseq>MKHTLSVLVEDESGVLTRISGLFARRGFNIDSLAVGPAEKAGISRITMVIRGDNRIIEQITKHLYKLVNVLKIQDITNIPCVERELMLIKVKTGENKRNEILEIANIFRARVVDLSESFIILEITGDPGKIAAIEKLLEKYGICEIARTGKIALTRESKI</Hsp_hseq>
+      <Hsp_midline>M+H LSVL+E+ESG ++R+ GLF+ R +NIDSLAV P E   +SR+T+V  GD ++IEQITK L KL+ V+K+ D+     VERELML+KV+     R+E L +  I+R  ++D+++    +EITG   K+ +  + + +  I E  RTG   + R  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1708470|sp|P51230.1|ILVH_PORPU</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS (chloroplast) [Porphyra purpurea]</Hit_def>
+  <Hit_accession>P51230</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>8.53089e-34</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1908</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGERI</Hsp_qseq>
+      <Hsp_hseq>MKHTLSVLVQDEAGVLSRISGLFARRGFNIASLAVGPAEQIGVSRITMVVQGDNRTIEQLTKQLYKLVNILNVQDVTNIPSVERELMLIKIQVNSQNRIEALEIVKIFRANVVDIAEDLIIVEVTGDPGKIVAIEQLLTKFGIIEIARTGKISLVRTSKI</Hsp_hseq>
+      <Hsp_midline>M+H LSVL+++E+G +SR+ GLF+ R +NI SLAV P E   +SR+T+V  GD + IEQ+TKQL KL+ ++ V D+     VERELML+K++   ++R E L + +I+R +++D+ +    +E+TG   K+ +  + + +  I+E  RTG   + R  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|38372342|sp|Q89AP8.1|ILVH_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AP8</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>8.80566e-34</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1902</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MRH-ILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGR-AQILETVRTGAAGI</Hsp_qseq>
+      <Hsp_hseq>MKHRILSILLENESGALSRVVGLFSQRGYNIESITVAPTEDLSISKITIQTFGDKKVIEQIGKQLHKLIDVLKVTEIEDEEHFKREIMLIKINNTYDQYRKVQDITNAFRGYIISATSNISIIQLSGTNKNLDTYIEIMKKLTNIIEISRSGIISI</Hsp_hseq>
+      <Hsp_midline>M+H ILS+L+ENESGA+SRVVGLFS R YNI+S+ VAPTED ++S++TI T GD++VIEQI KQL+KLI+V+KV ++ +    +RE+ML+K+        +   +T  +RG II  T     I+++G+   LD+++E + +   I+E  R+G   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|122194725|sp|Q1XDQ7.1|ILVH_PYRYE</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS (chloroplast) [Pyropia yezoensis]</Hit_def>
+  <Hit_accession>Q1XDQ7</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.41667e-33</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1908</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGERI</Hsp_qseq>
+      <Hsp_hseq>MKHTLSVLVQDEAGVLSRISGLFARRGFNIASLAVGPAEQIGVSRITMVVQGDNRTIEQLTKQLYKLVNILNVQDVTNIPSVERELMLIKIQINSQTRTEALEIVRIFRAKIVDIAEDLLIIEVTGDPGKIVAIEQLLTKFGIIEIARTGKILLVRTSKI</Hsp_hseq>
+      <Hsp_midline>M+H LSVL+++E+G +SR+ GLF+ R +NI SLAV P E   +SR+T+V  GD + IEQ+TKQL KL+ ++ V D+     VERELML+K++   + R E L +  I+R  I+D+ +    IE+TG   K+ +  + + +  I+E  RTG   + R  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|6225560|sp|O33113.1|ILVH_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>O33113</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.58739e-33</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1907</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGER</Hsp_qseq>
+      <Hsp_hseq>HTLSVLVEDTPGVLARVAALFSRRGFNIESLAVGATECKTMSRMTIVVSAEETPLEQVTKQLHKLINVIKVVEQEADNSLSRELALIKVRAEAGTRSQVIEAVHLFRARVIDVSLESLTVEATGDCSKIEALLRVLEPFGVREIVQSGVVSLSRGPR</Hsp_hseq>
+      <Hsp_midline>H LSVL+E+  G ++RV  LFS R +NI+SLAV  TE KT+SRMTIV   +E  +EQ+TKQL+KLI VIKVV+      + REL L+KVRA    R + +    ++R  +IDV+  S T+E TG   K+++ L  +    + E V++G   + RG R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|54037422|sp|P65162.1|ILVH_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Mycobacterium bovis AF2122/97] &gt;gi|614084721|sp|P9WKJ2.1|ILVH_MYCTO RecName: Full=Putative acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Mycobacterium tuberculosis CDC1551] &gt;gi|614084730|sp|P9WKJ3.1|ILVH_MYCTU RecName: Full=Putative acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P65162</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>2.00071e-33</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1907</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGER</Hsp_qseq>
+      <Hsp_hseq>HTLSVLVEDKPGVLARVAALFSRRGFNIESLAVGATECKDRSRMTIVVSAEDTPLEQITKQLNKLINVIKIVEQDDEHSVSRELALIKVQADAGSRSQVIEAVNLFRANVIDVSPESLTVEATGNRGKLEALLRVLEPFGIREIAQSGMVSLSRGPR</Hsp_hseq>
+      <Hsp_midline>H LSVL+E++ G ++RV  LFS R +NI+SLAV  TE K  SRMTIV   ++  +EQITKQLNKLI VIK+V+ ++   V REL L+KV+A    R + +    ++R ++IDV+  S T+E TG+  KL++ L  +    I E  ++G   + RG R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2501329|sp|Q59499.1|ILVH_MYCAV</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Mycobacterium avium]</Hit_def>
+  <Hit_accession>Q59499</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.87008e-31</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1886</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETV</Hsp_qseq>
+      <Hsp_hseq>HTLSVLVEAKPGVLARVAALFSRRGFNIESLAVGATEQKDMSRMTIVVSAEETPLEQITKQLNKLINVIKIVELEDGNSVSRELALIKVRADAGTRSQVIEAVNLFRAKVIDVSPEALTIEATGDRGKIEALLRVL</Hsp_hseq>
+      <Hsp_midline>H LSVL+E + G ++RV  LFS R +NI+SLAV  TE K +SRMTIV   +E  +EQITKQLNKLI VIK+V+L +   V REL L+KVRA    R + +    ++R  +IDV+  + TIE TG   K+++ L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|75271992|sp|Q9FFF4.1|ILVH1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit 1, chloroplastic; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS; AltName: Full=Protein valine-tolerant 1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FFF4</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.99352e-30</Hsp_evalue>
+      <Hsp_query-from>1750</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>RHTISVFVGDESGIINRIAGVFARRGYNIESLAVGLNEDKAL--FTIVVLGTDKVLQQVVEQLNKLVNVIKVEDLSKEPHVERELMLIKLNADPSTRSEIMWLVDIFRAKIVDTSEQSLTIEVTGDPGKMVALTTNLEKFGIKEIARTGKIALRR</Hsp_hseq>
+      <Hsp_midline>RH +SV + +ESG ++R+ G+F+ R YNI+SLAV   EDK L   TIV  G ++V++Q+ +QLNKL+ VIKV DL++   VERELML+K+ A    R E + L +I+R  I+D +++S TIE+TG   K+ +    + +  I E  RTG   + R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>1.15386e-24</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>HTLSLLVANVPGVLNLITGAISRRGYNIQSLAVGPAEKEGLSRITTVIPGTDENIDKLVRQLQKLIDLQEIQNITHMPFAERELMLIKVAADTSARRDVLDIAQVFRAKAIDVSDHTITLEVTGDLRKMSALQTQLEAYGICEVARTGRVALVR</Hsp_hseq>
+      <Hsp_midline>H LS+L+ N  G ++ + G  S R YNI SLAV P E + LSR+T V  G ++ I+++ +QL KLI++ ++ ++    F ERELML+KV A    R + L + +++R   IDV+D + T+E+TG   K+ +    +    I E  RTG   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|251757463|sp|P37252.3|ILVH_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P37252</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>2.91715e-29</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1907</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGD-EQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGER</Hsp_qseq>
+      <Hsp_hseq>MKRIITLTVVNRSGVLNRITGLFTKRHYNIESITVGHTETAGVSRITFVVHVEGENDVEQLTKQLNKQIDVLKVTDITNQSIVQRELALIKVVSAPSTRTEINGIIEPFRASVVDVSRDSIVVQVTGESNKIEALIELLKPYGIKEIARTGTTAFARGTQ</Hsp_hseq>
+      <Hsp_midline>M+ I+++ + N SG ++R+ GLF+ R YNI+S+ V  TE   +SR+T V H + E  +EQ+TKQLNK I+V+KV D+     V+REL L+KV +A   R E   + E +R S++DV+  S  +++TG ++K+++ +E +    I E  RTG     RG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|75249445|sp|Q93YZ7.1|ILVH2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit 2, chloroplastic; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q93YZ7</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>4.89433e-29</Hsp_evalue>
+      <Hsp_query-from>1750</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>KHTISVFVGDESGMINRIAGVFARRGYNIESLAVGLNRDKAL--FTIVVCGTERVLQQVIEQLQKLVNVLKVEDISSEPQVERELMLVKVNAHPESRAEIMWLVDTFRARVVDIAEHALTIEVTGDPGKMIAVERNLKKFQIREIVRTGKIALRR</Hsp_hseq>
+      <Hsp_midline>+H +SV + +ESG ++R+ G+F+ R YNI+SLAV    DK L   TIV  G E+V++Q+ +QL KL+ V+KV D++    VERELMLVKV A  + R E + L + +R  ++D+ + + TIE+TG   K+ +    + + QI E VRTG   + R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>2.90867e-23</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>HTLSLLVNDIPGVLNIVTGVFARRGYNIQSLAVGHAETKGISRITTVIPATDESVSKLVQQLYKLVDVHEVHDLTHLPFSERELMLIKIAVNAAARRDVLDIASIFRAKAVDVSDHTITLQLTGDLDKMVALQRLLEPYGICEVARTGRVALAR</Hsp_hseq>
+      <Hsp_midline>H LS+L+ +  G ++ V G+F+ R YNI SLAV   E K +SR+T V    ++ + ++ +QL KL++V +V DL    F ERELML+K+      R + L +  I+R   +DV+D + T+++TG  DK+ +    +    I E  RTG   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|75266083|sp|Q9SMC2.1|ILVH_NICPL</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit 1, chloroplastic; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS; Flags: Precursor [Nicotiana plumbaginifolia]</Hit_def>
+  <Hit_accession>Q9SMC2</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.07589e-25</Hsp_evalue>
+      <Hsp_query-from>1764</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>MSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>INRIAGVFARRGYNIESLAVGLNKDKAL--FTIVVSGTERVLQQVMEQLQKLVNVIKVEDLSKEPQVERELMLIKISADPKYRAEVMWLVDVFRAKIVDISDQSLTIEVTGDPGKMVAVQRNLSKFGIREIARTGKIALRR</Hsp_hseq>
+      <Hsp_midline>++R+ G+F+ R YNI+SLAV   +DK L   TIV  G E+V++Q+ +QL KL+ VIKV DL++   VERELML+K+ A  K R E + L +++R  I+D++D+S TIE+TG   K+ +    + +  I E  RTG   + R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>6.12642e-21</Hsp_evalue>
+      <Hsp_query-from>1751</Hsp_query-from>
+      <Hsp_query-to>1897</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>HILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDK---LDSFLETVGRAQILETVRT</Hsp_qseq>
+      <Hsp_hseq>HTLSMLVNDTPGVLNIVTGVFARRGYNIQSLAVGHAEVEGLSRITTVVPGTDESVSKLVQQLYKLVDIHEVRDITHLPFAERELMLIKIAVNAAARRNVLDIASIFRAKAVDVSDHTITLELTGDLHKMVRLQRLLEPYG---ICEVART</Hsp_hseq>
+      <Hsp_midline>H LS+L+ +  G ++ V G+F+ R YNI SLAV   E + LSR+T V  G ++ + ++ +QL KL+++ +V D+    F ERELML+K+      R   L +  I+R   +DV+D + T+E+TG   K   L   LE  G   I E  RT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74626793|sp|O60086.2|ILV6_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Probable acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O60086</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>2.59396e-24</Hsp_evalue>
+      <Hsp_query-from>1744</Hsp_query-from>
+      <Hsp_query-to>1906</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>RIGINMRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKD--RDEFLR--------------------------------------LTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRGE</Hsp_qseq>
+      <Hsp_hseq>RVQRPKRHVFNCLVQNEPGVLSRLSGILAARGFNIDSLVVCATEVENLSRMTIVLRGADEVVEQAKRQIEDIVSVWAVLDYTGTSMVERELLLAKVSLLGPDHFQEHFERSEKVAESTNAKAKSDGEGVMNANAALQLRASQLAAINQLTTLFHGRVADISTETIILELTATPDRVDNFLSLLRPYGVLEACRTGTSAMTRAP</Hsp_hseq>
+      <Hsp_midline>R+    RH+ + L++NE G +SR+ G+ +AR +NIDSL V  TE + LSRMTIV  G ++V+EQ  +Q+  ++ V  V+D   +  VEREL+L KV   G D  ++ F R                                      LT ++ G + D++  +  +E+T + D++D+FL  +    +LE  RTG + + R  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|19862310|sp|Q02140.2|ILVH_LACLA</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS [Lactococcus lactis subsp. lactis Il1403]</Hit_def>
+  <Hit_accession>Q02140</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>6.09419e-23</Hsp_evalue>
+      <Hsp_query-from>1749</Hsp_query-from>
+      <Hsp_query-to>1905</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MRHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVT---HGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDRDEFLRLTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGRG</Hsp_qseq>
+      <Hsp_hseq>MRRMIIAKLHNVTGIMNRFTAVLNRRQVNILSITAGVTESQDLTHTTFVIEVDHLDE--VEQIIKQLNRLIDVIEVADITDLPHVEREVVLIKVSAPPTIRAEIFTMIEPFRVNVVDVNLENVTIQLTGDSAKIEALIDVVSPYGILNMARTGSAGFERG</Hsp_hseq>
+      <Hsp_midline>MR ++   + N +G M+R   + + R  NI S+    TE + L+  T V    H DE  +EQI KQLN+LI+VI+V D+ +   VERE++L+KV A    R E   + E +R +++DV   + TI++TG + K+++ ++ V    IL   RTG+AG  RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|3041696|sp|P25605.2|ILV6_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase small subunit, mitochondrial; AltName: Full=Acetohydroxy-acid synthase small subunit; Short=AHAS; Short=ALS; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P25605</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>7.45586e-20</Hsp_evalue>
+      <Hsp_query-from>1750</Hsp_query-from>
+      <Hsp_query-to>1904</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>RHILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKVVDLNESRFVERELMLVKVRAAGKDR--------------------------------------DEFLR-----------LTEIYRGSIIDVTDRSYTIEITGSTDKLDSFLETVGRAQILETVRTGAAGIGR</Hsp_qseq>
+      <Hsp_hseq>QHVLNCLVQNEPGVLSRVSGTLAARGFNIDSLVVCNTEVKDLSRMTIVLQGQDGVVEQARRQIEDLVPVYAVLDYTNSEIIKRELVMARISLLGTEYFEDLLLHHHTSTNAGAADSQELVAEIREKQFHPANLPASEVLRLKHEHLNDITNLTNNFGGRVVDISETSCIVELSAKPTRISAFLKLVEPFGVLECARSGMMALPR</Hsp_hseq>
+      <Hsp_midline>+H+L+ L++NE G +SRV G  +AR +NIDSL V  TE K LSRMTIV  G + V+EQ  +Q+  L+ V  V+D   S  ++REL++ ++   G +                                        E LR           LT  + G ++D+++ S  +E++    ++ +FL+ V    +LE  R+G   + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|83309004|sp|P0ADG0.1|ILVN_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Acetolactate synthase isozyme 1 small subunit; AltName: Full=Acetohydroxy-acid synthase I small subunit; Short=AHAS-I; Short=ALS-I [Escherichia coli O157:H7] &gt;gi|83309005|sp|P0ADF9.1|ILVN_ECOL6 RecName: Full=Acetolactate synthase isozyme 1 small subunit; AltName: Full=Acetohydroxy-acid synthase I small subunit; Short=AHAS-I; Short=ALS-I [Escherichia coli CFT073] &gt;gi|83309006|sp|P0ADF8.1|ILVN_ECOLI RecName: Full=Acetolactate synthase isozyme 1 small subunit; AltName: Full=Acetohydroxy-acid synthase I small subunit; Short=AHAS-I; Short=ALS-I [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0ADG0</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.17087e-06</Hsp_evalue>
+      <Hsp_query-from>1752</Hsp_query-from>
+      <Hsp_query-to>1821</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ILSVLIENESGAMSRVVGLFSARDYNIDSLAVAPTEDKTLSRMTIVTHGDEQVIEQITKQLNKLIEVIKV</Hsp_qseq>
+      <Hsp_hseq>ILELTVRNHPGVMTHVCGLFARRAFNVEGILCLPIQDSDKSHIWLLVN-DDQRLEQMISQIDKLEDVVKV</Hsp_hseq>
+      <Hsp_midline>IL + + N  G M+ V GLF+ R +N++ +   P +D   S + ++ + D+Q +EQ+  Q++KL +V+KV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 56, 70, 72, 86, 88, 92, 105, 115, 130, 133, 145, 160, 165, 166, 180,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

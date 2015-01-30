@@ -1,0 +1,939 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>61247</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1684</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>61247</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1684</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6136615|sp|O25832.1|Y1234_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter HP_1234 [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25832</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>4.61942e-16</Hsp_evalue>
+      <Hsp_query-from>1392</Hsp_query-from>
+      <Hsp_query-to>1675</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>ILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVL-----RRDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATL-------TGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSIRPIAFKQ</Hsp_qseq>
+      <Hsp_hseq>LFGVSMILLANLCFGIMSAFVKITADYFS--PMENVFYRSI--TMTLLLLLIYPFKPYRLKSYKQGGFKKLAFRVVVGGLAMLAFFYNIEKISLATATAFSQCAPIYTVLLSPLLLKEKLKRSTLISACIGIVGVVLISDPSVENVGPVEIFMGILSGIFVSLAYITLRDLREYYDK--QAVILAFAFGMSLLGLVGMFIDIPFLSTGIHVPRKEDILWISLIGISGTLGQYFLTYAYMNAPAGIIAPIEYTRIVWGLLFGLYLGDTFLDLKSSLGVALILCSGLLIAL-PALLKE</Hsp_hseq>
+      <Hsp_midline>+ G   +L+A  CF +M+  +K  +  F+    E VF+R +  T+TL    +      R  +++   +K    R +VG  AML  FY +  + L T    S  + I+  + S L+LKE++   T     +G  GVVL+ +PS  +        G+  G     AY+ +R+L    +   + V    A G+++  +           TG H       +++S IG+S  + Q  +T AY       +A + Y  +V+  L   +     L  +  LG+ +I+ SG+L ++ P   K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|11387376|sp|Q9ZJZ2.1|YC34_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter jhp_1155 [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZJZ2</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.47954e-15</Hsp_evalue>
+      <Hsp_query-from>1392</Hsp_query-from>
+      <Hsp_query-to>1675</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>ILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVL-----RRDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVREL-SLAGEPGWRVVFYLSATGVAMSSVWATL----TGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSIRPIAFKQ</Hsp_qseq>
+      <Hsp_hseq>LFGVSMILLANLCFGIMSAFVKITADYFS--PMENVFYRSI--TMTLLLLLIYPFKPYRLKSYKQGGFKKLAFRVVVGGLAMLAFFYNIEKISLATATAFSQCAPIYTVLLSPLLLKEKLKRSALISACIGLVGVVLISDPSVENVGLVEIIMGILSGIFVSLAYITLRDLREYYDKQAVILAFAFGMSLLGLAGMFIDIPFLSTGVHIPRKEDILWISLIGISGTLGQYFLTYAYMNAPAGIIAPIEYTRIVWGLLFGLYLGDTFLDLKSSLGVALILCSGLLIAL-PALLKE</Hsp_hseq>
+      <Hsp_midline>+ G   +L+A  CF +M+  +K  +  F+    E VF+R +  T+TL    +      R  +++   +K    R +VG  AML  FY +  + L T    S  + I+  + S L+LKE++         +G  GVVL+ +PS  +      + G+  G     AY+ +R+L     +    + F    + + ++ ++  +    TG H       +++S IG+S  + Q  +T AY       +A + Y  +V+  L   +     L  +  LG+ +I+ SG+L ++ P   K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|109895215|sp|Q2M3R5.1|S35G1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 35 member G1; AltName: Full=Partner of STIM1; AltName: Full=Transmembrane protein 20 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q2M3R5</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.91348e-13</Hsp_evalue>
+      <Hsp_query-from>1393</Hsp_query-from>
+      <Hsp_query-to>1669</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>LGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLRRDTFRTPHWKN--HLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSF-----RSGQEPAALAGLAGG-AMSGWAYLKVRELSLAGEPGWRVVFYLS-----ATGVAMSSVWATLTGWHTLSFP--SAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSIR</Hsp_qseq>
+      <Hsp_hseq>LGLFYTLLSAFLFSVGSLFVKKVQDVHAV---EISAFRCVFQMLVVIPCLIYRKTGFIGPKGQRIFLILRGVLGSTAMMLIYYAYQTMSLADATVITFSSPVFTSIFAWICLKEKYSPWDALFTVFTITGVILIVRPPFLFGSDTSGMEESYSGHLKGTFAAIGSAVFAASTLVILRKMGKSVDYFLSIWYYVVLGLVESVIILSVLGEWSLPYCGLDRLFLIFIGLFGLGGQIFITKALQIEKAGPVAIMKTMDVVFAFIFQIIFFNNVPTWWTVGGALCVVASNVGAAIR</Hsp_hseq>
+      <Hsp_midline>LG  + L++A  F+V ++ +K+     A+   E+  +R +F  + +    + R+  F  P  +    + R ++G+ AM+L++YA   + L     ++++S +F ++F+++ LKE+ S +     +    GV+L++ P F      SG E +    L G  A  G A      L +  + G  V ++LS       G+  S +  ++ G  +L +     ++L  IG+  L  Q+ +T+A ++     VA +  M VVF+ +    F      W  + G   ++ S + ++IR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81390288|sp|Q68XV0.1|SAM_RICTY</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine uptake transporter [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XV0</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.46845e-13</Hsp_evalue>
+      <Hsp_query-from>1386</Hsp_query-from>
+      <Hsp_query-to>1646</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>DTAKKDILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLR-RDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGE</Hsp_qseq>
+      <Hsp_hseq>DALKTYLKGICWFLLSLVTSSVNDVISKYLGTR--LHSFEVAFFRFLFSSIVLLPFVVYYGKSTLKTRHPVIHVLRGLLLFFGMTSWTYGLTIAPVTTATVISFSIPLFTLILAVFILNENIIWQRWVVTVVGFIGLVVMLKPHTKDFNPEILYLILA--AIS-FAMLDIINKKFVVKESMLSMLFYSAIVTAIVSLPVSMEYWITPSSFELTLLFVLGSSGSFILFFLLKAFTMVDATATAPYRYLELVISAIAAYFIFNE</Hsp_hseq>
+      <Hsp_midline>D  K  + G  W L++    +V +V+ K    +  L S E+ F+R LFS++ L    V   + T +T H   H+ R ++    M    Y +T  P+TT   +S++  +F  + +  IL E I      V ++GF G+V++L P  +          LA  A+S +A L +       +     + + SA   A+ S+  ++  W T S      L  +G S       + +A+ + D    A   Y+ +V SA++A F   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122426146|sp|Q1RKL2.1|SAM_RICBR</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine uptake transporter [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RKL2</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.33784e-08</Hsp_evalue>
+      <Hsp_query-from>1386</Hsp_query-from>
+      <Hsp_query-to>1665</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>DTAKKDILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLR-RDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGIL</Hsp_qseq>
+      <Hsp_hseq>DALKTYSIGIGWFLLSLVSSSANDVMSKYLGTR--LHSFEVAFFRFFFSSIVLLPFVVYYGKNTLKTSRPFVHILRGLLLFFGMTSWTYGLSIAPVTTATVISFSIPLFTLILAVFFLNENIIWQRWVVTIVGFVGLVITLKPHAEDFNPEMLYFVLA--AIS-FAMLDIINKKFVVKESMISMLFYSAIVTAVVSIPAAANYWLTPTLFELALLFILGSSGSLILFLLLKAFSMVDATATAPYRYLELVISAI-AAYFIFNEFPDKSTLHGAVIIIPATL</Hsp_hseq>
+      <Hsp_midline>D  K   +G GW L++    +  +V+ K    +  L S E+ F+R  FS++ L    V   ++T +T     H+ R ++    M    Y ++  P+TT   +S++  +F  + +   L E I      V ++GF G+V+ L P             LA  A+S +A L +       +     + + SA   A+ S+ A    W T +      L  +G S  +    + +A+ + D    A   Y+ +V SA+ AA+F+  E   +  L   +II+   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81554923|sp|Q9ZE70.1|SAM_RICPR</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine uptake transporter [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZE70</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.43444e-08</Hsp_evalue>
+      <Hsp_query-from>1386</Hsp_query-from>
+      <Hsp_query-to>1660</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>DTAKKDILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLR-RDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIII</Hsp_qseq>
+      <Hsp_hseq>DALKTYLNGICWFLLSLVTSSINDVMSKYLGTR--LHSFEVAFFRFFFSSIVLLPFVVYYGKNALKTSRPFVHVLRGLLLFFGMTSWTYGLTIAPVTTATVVSFAIPLFTLILAVFILNENIIWQRWVVTVVGFIGLVVMLKPHTKDFNPEILYLILA--AIS-FAMLDIINKKFVVKESMLSMLFYSAIVTAMVSLPVAMQYWITPSSFELALLFVLGSSGSFILFFLLKAFSIVDATATAPYRYLELVISAIAAYFIFNEFPDKSTVHGAVIII</Hsp_hseq>
+      <Hsp_midline>D  K  + G  W L++    ++ +V+ K    +  L S E+ F+R  FS++ L    V   ++  +T     H+ R ++    M    Y +T  P+TT   +S+   +F  + +  IL E I      V ++GF G+V++L P  +          LA  A+S +A L +       +     + + SA   AM S+   +  W T S      L  +G S       + +A+ + D    A   Y+ +V SA++A F   E      + G  III</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81875705|sp|Q8BY79.1|S35G1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 35 member G1; AltName: Full=Transmembrane protein 20 [Mus musculus]</Hit_def>
+  <Hit_accession>Q8BY79</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.84071e-08</Hsp_evalue>
+      <Hsp_query-from>1393</Hsp_query-from>
+      <Hsp_query-to>1538</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>LGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLRRDTFRTPHWKNHLN--RSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAAL</Hsp_qseq>
+      <Hsp_hseq>LGLFYTVLSAFLFSVASLFVKKVQGVHAV---EISAFRCVVQMLVIIPCLIYRKTGFIGPKGQRLFLFLRGVFGSSAMILMYYAFQTTSLADATVIAFSCPVFTSIFAWIFLKEKYSLWDAFFTLFAIAGVILIVRPPFIFGSDTSGM</Hsp_hseq>
+      <Hsp_midline>LG  + +++A  F+V ++ +K+     A+   E+  +R +   + +    + R+  F  P  +      R + G+ AM+L++YA     L     ++++  +F ++F+++ LKE+ S++     L   AGV+L++ P F  G + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75537077|sp|Q4UNE6.1|SAM_RICFE</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine uptake transporter [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UNE6</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>4.27501e-07</Hsp_evalue>
+      <Hsp_query-from>1386</Hsp_query-from>
+      <Hsp_query-to>1665</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>DTAKKDILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLR-RDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGIL</Hsp_qseq>
+      <Hsp_hseq>DALKTYLTGIGWFLLSLVSSSANDVMSKYLGTR--LHSFEVAFFRFFFSSIVLLPFVFYHGKNTLKTSRPFVHILRGLLLFFGMTSWTYGLTIAPVTTATVVSFSIPLFTLILAVFFLNENIIWQRWVVTVVGFIGLVVTLKPHTEDFNPEILYFVLA--AIS-FAMLDIINKKFVIKESMISMLFYSAIVTAVVSLPVASQYWLTPSGFELALLFVLGSSGSLILFFLLKAFSMVDATATAPYRYLELVISAI-AAYFIFSEFPDKSTLHGAVIIIPATL</Hsp_hseq>
+      <Hsp_midline>D  K  + G GW L++    +  +V+ K    +  L S E+ F+R  FS++ L        ++T +T     H+ R ++    M    Y +T  P+TT   +S++  +F  + +   L E I      V ++GF G+V+ L P             LA  A+S +A L +       +     + + SA   A+ S+      W T S      L  +G S  +    + +A+ + D    A   Y+ +V SA+ AA+F+  E   +  L   +II+   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81528548|sp|Q92JG1.1|SAM_RICCN</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine uptake transporter [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92JG1</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>8.10793e-07</Hsp_evalue>
+      <Hsp_query-from>1386</Hsp_query-from>
+      <Hsp_query-to>1660</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>DTAKKDILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLR-RDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIII</Hsp_qseq>
+      <Hsp_hseq>DALKTYLTGIGWFLLSLVSSSANDVISKYLGTR--LHSFEVAFFRFFFSSIVLLPFVVYYGKNTLKTSRPFVHILRGLLLFFGMTSWTYGLTIAPVTTATVVSFSIPLFTLILAVFFLNENIIWPRWVVTVVGFIGLVVTLKPHAEDFNPEILYFVLA--AIS-FAMLDIINKKFVIKESMISMLFYSAIVTAIVSLPVASQYWLTPSSFELALLFVLGSSGSLILFFLLKAFSMVDATATAPYRYLELVISVIAAYFIFNEFPDKSTLHGAVIII</Hsp_hseq>
+      <Hsp_midline>D  K  + G GW L++    +  +V+ K    +  L S E+ F+R  FS++ L    V   ++T +T     H+ R ++    M    Y +T  P+TT   +S++  +F  + +   L E I      V ++GF G+V+ L P             LA  A+S +A L +       +     + + SA   A+ S+      W T S      L  +G S  +    + +A+ + D    A   Y+ +V S ++A F   E      + G  III</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|565830524|sp|Q1MIM3.1|RIBN_RHIL3</Hit_id>
+  <Hit_def>RecName: Full=Riboflavin transporter [Rhizobium leguminosarum bv. viciae 3841]</Hit_def>
+  <Hit_accession>Q1MIM3</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000336039</Hsp_evalue>
+      <Hsp_query-from>1390</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>KDILGSGWMLVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTV-------TLGAAAVLRRDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEP</Hsp_qseq>
+      <Hsp_hseq>RAVVGALWMVLAGIAFSLLNVVTQWLTMKLAFPSASAAFWQYGFAFLFSLPFLKRLGLAAM------RTHYPWRHLTRVVLAALGVEAWVAGLAAVPIWQAIALVMTSPFFIILGARLFLGERVGPARWAATAAGFTGAMIILQP-WSDGIGWAALLPVLSALLWGASSLITKSLTGIERP</Hsp_hseq>
+      <Hsp_midline>+ ++G+ WM++A   F+++NV+ +  + K A  S    FW+  F+ +        LG AA+      RT +   HL R ++    +      +  +P+   + L  TS  F+ + + L L ER+     A    GF G +++L P +  G   AAL  +    + G + L  + L+    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|731339|sp|P38943.1|Y3017_CLOK5</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter CKL_3017; AltName: Full=ORFY [Clostridium kluyveri DSM 555]</Hit_def>
+  <Hit_accession>P38943</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00231324</Hsp_evalue>
+      <Hsp_query-from>1467</Hsp_query-from>
+      <Hsp_query-to>1528</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>AMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPS</Hsp_qseq>
+      <Hsp_hseq>SMSMLQFAVTYTKASTAAVLFCTNAVFTIPFAYFILKEKIKGITIVSIIVSLIGVVIIFNPA</Hsp_hseq>
+      <Hsp_midline>+M +L +AVT+   +T   L  T+++F   F++ ILKE+I   T   +++   GVV++ NP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|76365079|sp|P0AA73.1|YHBE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized inner membrane transporter YhbE [Escherichia coli K-12] &gt;gi|85700300|sp|P0AA74.1|YHBE_ECO57 RecName: Full=Uncharacterized inner membrane transporter YhbE [Escherichia coli O157:H7] &gt;gi|85700301|sp|P0AA75.1|YHBE_SHIFL RecName: Full=Uncharacterized inner membrane transporter YhbE [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AA73</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00460873</Hsp_evalue>
+      <Hsp_query-from>1399</Hsp_query-from>
+      <Hsp_query-to>1668</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>LVAAACFTVMNVLIKEASAKFALGSGELVFWRMLFSTVTLGAAAVLRRD-----TFRTPHWKNHLNRSMVGT-GAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPS----FRSGQEPAALAGLAGGAMSGWAYLKVRE---LSLAGEPGWRVVFYLSAT----GVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAA----FFLGEELFWQEILGMCIIILSGILSSI</Hsp_qseq>
+      <Hsp_hseq>LTTAICWGALPIAMKQVLE--VMEPPTIVFYRFLMASIGLGAILAVKKRLPPLRVFRKPRWLILLAVATAGLFGNFILFSSSLQYLSPTASQVIGQLSPVGMMVASVFILKEKMRSTQVVGALMLLSGLVMFFNTSLVEIFTKLTDYTWGVIFGVGAATVWVSYGVAQKVLLRRLASPQILFLLYTLCTIALFPLAKPGVIAQLSHWQLACLIFCGLNTLVGYGALAEAMARWQAAQVSAIITLTPL--FTLFFSDLLSLAWPDFFARPMLNLLGYLGAFVVVAGAMYSAI</Hsp_hseq>
+      <Hsp_midline>L  A C+  + + +K+      +    +VF+R L +++ LGA   +++       FR P W   L  +  G  G  +L   ++ +L  T    +   S + + V S  ILKE++        L+  +G+V+  N S    F    +         GA + W    V +   L     P    + Y   T     +A   V A L+ W           + +G  AL   ++  +A +V    T+  L   T+ FS L +     FF    L     LG  +++   + S+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6137290|sp|O32256.1|YVBV_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter YvbV [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32256</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00659771</Hsp_evalue>
+      <Hsp_query-from>1469</Hsp_query-from>
+      <Hsp_query-to>1646</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>LLLFYAV-----THLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWA----YLKVRELSLAGEPGWRV-VFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSAL--IAQLSMTRAYKV-------GDKFTVASLSYMTVVFSALSAAFFLGE</Hsp_qseq>
+      <Hsp_hseq>ITLFYGLQTIGLNYLPAGLFSAIVFFQPVLMGVFSWLWLGESMFVMKVIGLILGFAGVAVISAAGF-GGHISVIGVLLALGSAVSWALGTVYMK--------KTGSRVDSIWMVALQLTIGSVFLLISGFWTESF-SAIQWTAPFITSLLFISVFVIALGWLVFFTLVGSGEASKVASYTFLIPLISIVASSIFLHE</Hsp_hseq>
+      <Hsp_midline>+ LFY +      +LP      + +   + + VFS+L L E + V     L+LGFAGV ++    F  G        LA G+   WA    Y+K        + G RV   ++ A  + + SV+  ++G+ T SF SA+  +   +++L  I+   +   + V       G+   VAS +++  + S ++++ FL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|74676488|sp|Q08980.1|YP264_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Probable transport protein YPL264C [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q08980</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.014186</Hsp_evalue>
+      <Hsp_query-from>1460</Hsp_query-from>
+      <Hsp_query-to>1534</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>RSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQE</Hsp_qseq>
+      <Hsp_hseq>RGIMGFFGVFGMYFSLMYLSISDAVLITFMSPTLTIFLSFLLLGEPFSKLEALGSLISFSGVVLIIRPTFLFGEQ</Hsp_hseq>
+      <Hsp_midline>R ++G   +  +++++ +L ++  V +++ S       SFL+L E  S       L+ F+GVVL++ P+F  G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2497208|sp|Q04835.1|YM87_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized membrane protein YMR253C [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q04835</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.029124</Hsp_evalue>
+      <Hsp_query-from>1460</Hsp_query-from>
+      <Hsp_query-to>1669</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>RSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSG--------------QEP-----AALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTL-----SFPSA----VYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELF--WQEI---LGMCIIILSGILSSIR</Hsp_qseq>
+      <Hsp_hseq>RGCTGFFGVFGMYYSLMYLTISDAVLITFLAPSLTIFLSWVILRERFTKVEALGSLISLLGVVLIVRPSFLFGTPELTDSSSQIVESSDPKSRLIATLVGLWGVLGMSCVYIIIRYI------GKRAHAIMSVSYFSLITAIVSFIGINTIPSMKFQIPHSKKQWILFGNLGVSGFIFQLLLTMGIQ---RERAGRGSLMT--YTQLLYAVFWDVALYKHWPNIWSWIGM-IIIISATLWVIR</Hsp_hseq>
+      <Hsp_midline>R   G   +  ++Y++ +L ++  V +++ +       S++IL+ER +       L+   GVVL++ PSF  G               +P     A L GL G       Y+ +R +      G R    +S +  ++ +   +  G +T+       P +    +    +GVS  I QL +T   +   +      S MT  ++ L  A F    L+  W  I   +GM III+S  L  IR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|78113648|sp|P0ABT9.1|YIJE_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized inner membrane transporter yiJE [Escherichia coli CFT073] &gt;gi|78113659|sp|P0ABT8.1|YIJE_ECOLI RecName: Full=Uncharacterized inner membrane transporter yiJE [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0ABT9</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.04795</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1667</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>LGSGELVFWRMLFSTVTLGAAAVLRRDTFRTPHWKNHLNRSMVGTGAML-LLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNP---SFRSGQEP--AALAGLAGGAMSGWA---YLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTV-VFSALSAAFFLGEELFWQEILGMCIIILSGILSS</Hsp_qseq>
+      <Hsp_hseq>IGAFDFTALRCIFGALVLFIVLLLRGRGMRPTPFKYTLAIALLQTCGMVGLAQWALVSGGAGKVAILSYTMPFWVVIFAALFLGERLRRGQYFAILIAAFGLFLVLQPWQLDFSSMKSAMLAILSGVSWGASAIVAKRLYARHPRVDLLSLTSWQMLYAALVMSVVALLVPQREIDWQPTVFWALAY-SAILATALAWSLWLFVLKNL--PASIASLSTLAVPVCGVLFSWWLLGENPGAVEGSGIVLIVLALALVS</Hsp_hseq>
+      <Hsp_midline>+G+ +    R +F  + L    +LR    R   +K  L  +++ T  M+ L  +A+          LSYT   ++ +F+ L L ER+       +L+   G+ L+L P    F S +    A L+G++ GA +  A   Y +   + L     W++++      V    V      W    F +  Y S I  +AL   L +     +    ++ASLS + V V   L + + LGE     E  G+ +I+L+  L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|267467|sp|P29939.1|YCB6_PSEDE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter in cobO 3&apos;region; AltName: Full=ORF6 [Pseudomonas denitrificans]</Hit_def>
+  <Hit_accession>P29939</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0502185</Hsp_evalue>
+      <Hsp_query-from>1599</Hsp_query-from>
+      <Hsp_query-to>1668</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>LSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSI</Hsp_qseq>
+      <Hsp_hseq>LSGLATGA--SWLAYFRALKLGDAARVAPLDKLSIVMVAIFGVLFLGEKLNLMNWLGVAFIAAGALLLAV</Hsp_hseq>
+      <Hsp_midline>LSG+   A  + L+  RA K+GD   VA L  +++V  A+    FLGE+L     LG+  I    +L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|6136694|sp|O28720.1|Y1552_ARCFU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter AF_1552 [Archaeoglobus fulgidus DSM 4304]</Hit_def>
+  <Hit_accession>O28720</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0892716</Hsp_evalue>
+      <Hsp_query-from>1474</Hsp_query-from>
+      <Hsp_query-to>1669</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>AVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALA-GLAGGAMSGWAYLKVRELSLAGEPG---WRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAA----FFLGEELFWQEILGMCIIILSGILSSIR</Hsp_qseq>
+      <Hsp_hseq>AIQSTEVAMAALLLYMAPVYVIPLSVL-MGERVEVKTLLALPLGLIGLYLMLTPY-------AELTFGIIFGIVSGLSYAIVFVLSKEARKKHSPWRITFYNLGLGSAALLPYFLMFG----RVGSWLWAIGLGVVPTAVPFVL---FSYGMKYVKVQRAPILALIEPLCAGLVGYFYFGETLTLTQLIGGA-MILAGVLIAWR</Hsp_hseq>
+      <Hsp_midline>A+    +     L Y + +++   S L + ER+ V T   L LG  G+ L+L P        A L  G+  G +SG +Y  V  LS         WR+ FY    G A    +  + G       S ++  G+GV        +   +  G K+     + +  +   L A     F+ GE L   +++G   +IL+G+L + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|6137261|sp|O34416.1|YOAV_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter YoaV [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34416</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.266176</Hsp_evalue>
+      <Hsp_query-from>1431</Hsp_query-from>
+      <Hsp_query-to>1665</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MLFSTVTLGAAAV---------LRRDTFRTPHWKNHLNRSMV-GTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLL-------LNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTV---------ASLSYMTVVFSALSAAFF----LGEELFWQEILGMCIIILSGIL</Hsp_qseq>
+      <Hsp_hseq>LLFSGLRLFIGAVPLFLILFIQRKKLSIQKEHLKSYIIMSLLMGLGYMGILTYGMQFVDSGKTSVLVYTMPIFVTVISHFSLNEKMNVYKTMGLVCGLFGLLFIFGKEMLNIDQSALFGELCVLVAALSWGIANVFSKLQFKHIDIIHMNAWHLM---------MGAVMLLVFSFIFEAVPSAEWTYQAVWSLLFNGLLST-----GFTFVVWFWVLNQIQASKASMALMFVPVLALFFGWLQLHEQITINIILG-ALLICCGIF</Hsp_hseq>
+      <Hsp_midline>+LFS + L   AV          ++ + +  H K+++  S++ G G M +L Y +  +       L YT  IF+ V S   L E+++VY    L+ G  G++ +       ++ S   G+    +A L+ G  + ++ L+ + + +     W ++         M +V   +  +   + PSA +      S L   L  T     G  F V         AS + M ++F  + A FF    L E++    ILG  ++I  GI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|6136518|sp|P74436.1|Y355_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter sll0355 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P74436</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.507981</Hsp_evalue>
+      <Hsp_query-from>1394</Hsp_query-from>
+      <Hsp_query-to>1507</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GSGWMLVAAACFTVMNVLIKEASAKF--ALGSGELVFWRMLFSTVTLGAAAVLRRD----TFRTPHWKNHLNRSMVGTG-AMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERIS</Hsp_qseq>
+      <Hsp_hseq>GELWMLLASLSMAVGTVLIPFVSRRVDPVVATG----WHMIIGGLPLLAIALVQDSEPWQNIDLWGWGNLAYATVFGSAIAYGIFFYLASKGNLTSLSSLTFLTPIFALSFSNLILEEQLS</Hsp_hseq>
+      <Hsp_midline>G  WML+A+    V  VLI   S +    + +G    W M+   + L A A+++            W N    ++ G+  A  + FY  +   LT+  +L++ + IF   FS LIL+E++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|74582239|sp|O59785.1|YCN8_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized solute carrier family 35 member C320.08 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O59785</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.707176</Hsp_evalue>
+      <Hsp_query-from>1393</Hsp_query-from>
+      <Hsp_query-to>1502</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>LGSGWMLVAAACFTVMNVLIKEASAKFALGS--GELVFWRMLFSTVTLGAAAVLRRDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLIL</Hsp_qseq>
+      <Hsp_hseq>LGDGYMIIGATCYGVSNTLEEYFASKLPLYVVIGQLSLYGSIISIIQ---TFIFDRHHLYTLHWTSEMGGYLAGFILVMFLLYSLAPILFRMSSATFYNISLLTSDFWSLVI</Hsp_hseq>
+      <Hsp_midline>LG G+M++ A C+ V N L +  ++K  L    G+L  +  + S +      +  R    T HW + +   + G   ++ L Y++  +         Y  S+  + F  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|75173385|sp|Q9FZ95.1|PUP3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Purine permease 3; Short=AtPUP3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FZ95</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.716796</Hsp_evalue>
+      <Hsp_query-from>1470</Hsp_query-from>
+      <Hsp_query-to>1523</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYT-QAVLLLGFAGVVL</Hsp_qseq>
+      <Hsp_hseq>LYAYGIAYLPVSTAALIIASQLAFIAIFSFFMVKHKFTPFTINAVVLLTVGAAVL</Hsp_hseq>
+      <Hsp_midline>L  Y + +LP++T   +  +   F+A+FSF ++K + + +T  AV+LL     VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|76363502|sp|P0AA67.1|RHTA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Threonine/homoserine exporter RhtA [Escherichia coli K-12] &gt;gi|85700283|sp|P0AA69.1|RHTA_ECO57 RecName: Full=Threonine/homoserine exporter RhtA [Escherichia coli O157:H7] &gt;gi|85700284|sp|P0AA68.1|RHTA_ECOL6 RecName: Full=Threonine/homoserine exporter RhtA [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>P0AA67</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>1.05927</Hsp_evalue>
+      <Hsp_query-from>1463</Hsp_query-from>
+      <Hsp_query-to>1668</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>VGTGAMLLLFY-AVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATG----VAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSI</Hsp_qseq>
+      <Hsp_hseq>VSLGGMNYLFYLSIQTVPLGIAVALEFTGPLAVALFS----SRRPVDFVWVVLAV--LGLWFLLPLGQDVSHVDLTGCALALGAGACWAIYILSGQRAGAEHGPATVAIGSLIAALIFVPIGALQAGEALWHWSVIPLGLAVA-ILSTALPYSLEMIALTRLPTR-TFGTLMSMEPALAAVSGMIFLGETLTPIQLLALGAIIAASMGSTL</Hsp_hseq>
+      <Hsp_midline>V  G M  LFY ++  +PL   V L +T  + +A+FS      R   +   VL +   G+  LL               LA GA + WA   +       E G   V   S       V + ++ A    WH    P  + ++ I  +AL   L M    ++  + T  +L  M    +A+S   FLGE L   ++L +  II + + S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|325530226|sp|E1W9W8.1|RHTA_SALTS</Hit_id>
+  <Hit_def>RecName: Full=Threonine/homoserine exporter RhtA [Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344] &gt;gi|325530227|sp|P0CL04.1|RHTA_SALTY RecName: Full=Threonine/homoserine exporter RhtA [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>E1W9W8</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.31768</Hsp_evalue>
+      <Hsp_query-from>1466</Hsp_query-from>
+      <Hsp_query-to>1668</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>GAMLLLFY-AVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATG----VAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSI</Hsp_qseq>
+      <Hsp_hseq>GGMNYLFYLSIQTVPLGIAVALEFTGPLAVALFSSRRPVDFIWV------VLAVLGLWFLLPLGQDMSHVDLTGAALALGAGACWAVYILTGQRAGAEHGPATVAVGSLIAAIIFVPIGAVQAGDALWHWSILPLGLAVAVLS-TALPYSLEMIALTRLPTR-TFGTLMSMEPALAAVSGMIFLGETLTGIQILALCAIIAASMGSTL</Hsp_hseq>
+      <Hsp_midline>G M  LFY ++  +PL   V L +T  + +A+FS     + I V      +L   G+  LL             A LA GA + WA   +       E G   V   S       V + +V A    WH    P  + ++ +  +AL   L M    ++  + T  +L  M    +A+S   FLGE L   +IL +C II + + S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|6136665|sp|P72732.1|Y1319_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter sll1319 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P72732</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>1.3401</Hsp_evalue>
+      <Hsp_query-from>1468</Hsp_query-from>
+      <Hsp_query-to>1551</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAY</Hsp_qseq>
+      <Hsp_hseq>LVLLYISISFIPTGIAITLFFTYPIFTALLAWRLFNDVPSLLRWLVIGLTLIGTFLTI-PYAYGGEQQTLVLGVSTGIASGIVY</Hsp_hseq>
+      <Hsp_midline>++LL+ +++ +P    +TL +T  IF A+ ++ +  +  S+    V+ L   G  L + P    G++   + G++ G  SG  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|729474|sp|P15029.2|FECD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Fe(3+) dicitrate transport system permease protein FecD; AltName: Full=Iron(III) dicitrate transport system permease protein FecD [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P15029</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.20489</Hsp_evalue>
+      <Hsp_query-from>1523</Hsp_query-from>
+      <Hsp_query-to>1597</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAV</Hsp_qseq>
+      <Hsp_hseq>LLLMPSLPVMVLP--LLAFAGG-MAGLILLKM--LAKTHQP-----MKLALTGVALSACWASLTDYLMLSRPQDV</Hsp_hseq>
+      <Hsp_midline>LLL PS      P  L   AGG M+G   LK+  L+   +P       L+ TGVA+S+ WA+LT +  LS P  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|75165707|sp|Q94GB1.1|PUP2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Purine permease 2; Short=AtPUP2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q94GB1</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.71241</Hsp_evalue>
+      <Hsp_query-from>1470</Hsp_query-from>
+      <Hsp_query-to>1679</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>LLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYT-QAVLLLGFAGVVLLLNP---SFRSGQEPAALAGLA---GGAMSGWAYLKVRELSLAGEPGWRVVFYLS---ATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALS-AAFFLGEELFWQEILGMCII---ILSGIL-SSIRP-------IAFKQRLQA</Hsp_qseq>
+      <Hsp_hseq>LYSYGLAYIPVSTASLIISAQLGFTALFAFFMVKQKFTPFTINAIVLLTGGAVVLALNSDSDKLANETHKEYVVGFIMTLGAALLYGFILPLVELSYK-KSGQRITYTLALEFQMVLCFAATCVCLVGMLAAGDFKVKHALFIFKNRVIA--GEARDFKLGE-----SLYYVVIVFTAIIWQAFFVGA-------IGLIFCASSLVSGIMVSALLPVTVILAVICFQEKFQA</Hsp_hseq>
+      <Hsp_midline>L  Y + ++P++T   +      F A+F+F ++K++ + +T  A++LL    VVL LN       +      + G     G A+     L + ELS   + G R+ + L+      +  ++    L G          +   I  + +IA     R +K+G+     SL Y+ +VF+A+   AFF+G        +G+      ++SGI+ S++ P       I F+++ QA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|81555892|sp|O31444.1|YBFB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized MFS-type transporter YbfB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31444</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.34366</Hsp_evalue>
+      <Hsp_query-from>1428</Hsp_query-from>
+      <Hsp_query-to>1613</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>FWRMLFSTVTLGAAAVLRRDTFRTPHWKNHLNRSMVGTGAMLLLFYAVTHLPLTTGVTLSYTSS--IFLAVFSFLILKERISVYT-QAVLLLGFAGVVLLLNPSFRSGQEPAA---LAGLAGGAMSGWAYLKVRELSLAGEPGWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSM</Hsp_qseq>
+      <Hsp_hseq>FWFLIFPFLICGFTTVGLMDTHLIPFSHDHGFSTTVTSAAVSLLAGFNIAGILLSGIVADRWSSRKILCILYAVRALSIVILIYSHEPYLLLAFAILFGLVDFATVAPTQMLATQYFQNYSIGLMIGW-------LSLAHQIG-------SALGAYVPGVIYTVTGEYTLAF----YLS-IGMLVLASVMNV</Hsp_hseq>
+      <Hsp_midline>FW ++F  +  G   V   DT   P   +H   + V + A+ LL        L +G+     SS  I   +++   L   I +Y+ +  LLL FA +  L++ +  +  +  A       + G M GW       LSLA + G       SA G  +  V  T+TG +TL+F    YLS IG+  L + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|75273452|sp|Q9LIR9.1|NIPA1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable magnesium transporter NIPA1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LIR9</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>5.23606</Hsp_evalue>
+      <Hsp_query-from>1604</Hsp_query-from>
+      <Hsp_query-to>1680</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VSALIAQLSMTRAYKVGDKFTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSIRPIAFKQRLQAL</Hsp_qseq>
+      <Hsp_hseq>ITMIVGEVANFAAYAFAPAILVTPLGALSIIFSAVLAHFILKEKLHMFGILG-CILCVVGSTTIVLHAPHEQKIESV</Hsp_hseq>
+      <Hsp_midline>++ ++ +++   AY       V  L  ++++FSA+ A F L E+L    ILG CI+ + G  + +     +Q+++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|732379|sp|P39649.1|YWFM_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized transporter YwfM [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39649</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>6.34785</Hsp_evalue>
+      <Hsp_query-from>1470</Hsp_query-from>
+      <Hsp_query-to>1670</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>LLFYAVTHLPLTTGVTLSYTSS-IFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKVRELSLAGEP---GWRVVFYLSATGVAMSSVWATLTGWHTLSFPSAVYLSGIGVSALIAQLSMTRAYKVGDK-------FTVASLSYMTVVFSALSAAFFLGEELFWQEILGMCIIILSGILSSIRP</Hsp_qseq>
+      <Hsp_hseq>LFFTAVKETGIAVGTVIAIGSAPIIAGTLEWAVLKKRPRNSWWIATVLALAGCWLLFSDSSNVRIDVAGVLMALGAGASFAGYTLISKAMMKTQPPRATSAVVFMISAI-LLTPLLWQLDISW-------ILTPRGLGTSLYIGLIATCAAYFLFAKGLTGVPASAAVTLSLAEPLTASLLGVFFIGEMLSPSSWLGIALMMLGLLVISAAP</Hsp_hseq>
+      <Hsp_midline>L F AV    +  G  ++  S+ I      + +LK+R         +L  AG  LL + S     + A +    G   S   Y  + +  +  +P      VVF +SA  +    +W     W        +   G+G S  I  ++   AY +  K           +LS    + ++L   FF+GE L     LG+ +++L  ++ S  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|288559060|sp|A5GD16.1|NUON_GEOUR</Hit_id>
+  <Hit_def>RecName: Full=NADH-quinone oxidoreductase subunit N; AltName: Full=NADH dehydrogenase I subunit N; AltName: Full=NDH-1 subunit N [Geobacter uraniireducens Rf4]</Hit_def>
+  <Hit_accession>A5GD16</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>8.13876</Hsp_evalue>
+      <Hsp_query-from>1517</Hsp_query-from>
+      <Hsp_query-to>1554</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>GFAGVVLLLNPSFRSGQEPAALAGLAGGAMSGWAYLKV</Hsp_qseq>
+      <Hsp_hseq>GFIGKFFIFYAAFRGGEIPLAIVGILAAAVSAYYYLRV</Hsp_hseq>
+      <Hsp_midline>GF G   +   +FR G+ P A+ G+   A+S + YL+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|74856993|sp|Q550A6.1|CRTP2_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Crt homolog 2; AltName: Full=Chloroquine resistance transporter paralog 2; Short=DdCRTp2 [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q550A6</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>8.22488</Hsp_evalue>
+      <Hsp_query-from>1424</Hsp_query-from>
+      <Hsp_query-to>1532</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>GELVFWRMLFSTVTLGAAAVLRRDTFRTPHWKNHLNRSMVG-TGAMLLLFYAVTHLPLTTGVTLSYTSSIFLAVFSFLILKERISVYTQAVLLLGFAGVVLLLNPSFRSG</Hsp_qseq>
+      <Hsp_hseq>GAIVLYKILFTND-------IPKDTRSFPQWKFVIMGALDAVTGYFVVIGGIKTTGPLQQ--LLNQSVIPFTMLLSFIFLKERYSLIQLGGALIIIGGVVVSLIPSLTGG</Hsp_hseq>
+      <Hsp_midline>G +V +++LF+         + +DT   P WK  +  ++   TG  +++    T  PL     L+ +   F  + SF+ LKER S+      L+   GVV+ L PS   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 49, 64, 66, 70, 83, 93, 108, 111, 123, 138, 143, 144, 158, 160, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,883 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>31753</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1893</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>31753</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1893</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1174392|sp|P45315.1|SOHB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable protease SohB [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45315</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>3.64913e-120</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1877</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>MWKEILLNYGIFLLELLTVFGAIALIVLAIVQSKKQSES--GSVVLTDFSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRLFVLDFDGDLYAHAVESLRHEITAVLLIAKPEDEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQVIEVKYQEKRSLIQRIGLQAEAS</Hsp_qseq>
+      <Hsp_hseq>MLNDILTGYGIFILEILTILLLILAVVGLIISYRQHNKSKVGELEIKDLSEEFNEQVRLLRDFNLSEEEQKQRTKAEKKAEKQNAKKRKEKLKKG-ETLEDEKKACVYVLDFCGDISASETTALREEISAILNVAKSEDEVLLRLESPGGIVHNYGFAASQLSRLKQKGIKLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSIGVVAQIPNVHRLLKKHDVDVDVMTAGEFKRTVTVLGENTEKGKQKFQQELEETHKLFKQFVSQNRPCLDIDKIATGEHWFGQQAIALQLVDEISTSDDLILEKMKEKQVLNVKYRLKKSLIKKFGRQAEES</Hsp_hseq>
+      <Hsp_midline>M  +IL  YGIF+LE+LT+   I  +V  I+  ++ ++S  G + + D SE + +Q +    F LSEEE K + K EKK EK  AK  K++LK+G E   + +K+ ++VLDF GD+ A    +LR EI+A+L +AK EDEVLLRLESPGG+VH YG AASQL RL+++ I LTVAVDKVAASGGYMMACVADKIVSAPFAVIGS+GVVA++PN+HRLLKKHD+DVDVMTAGEFKRTVT +GENTEKGKQKF+QELEETH+LFKQFVS+NRP LDI+KIATGEHWFG+QA+AL L+DEISTSDDL+L+  + KQV+ VKY+ K+SLI++ G QAE S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|84028736|sp|P0AG14.1|SOHB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Probable protease SohB [Escherichia coli K-12] &gt;gi|84028737|sp|P0AG15.1|SOHB_SHIFL RecName: Full=Probable protease SohB [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AG14</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>2.6046e-101</Hsp_evalue>
+      <Hsp_query-from>1547</Hsp_query-from>
+      <Hsp_query-to>1888</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>EILLNYGIFLLELLTVFGAIALIVLAIVQ--SKKQSESGSVVLTDFSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRLFVLDFDGDLYAHAVESLRHEITAVLLIAKPEDEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQVIEVKYQEKRSLIQRIGLQAEASVEKLFAKLVNR</Hsp_qseq>
+      <Hsp_hseq>ELLSEYGLFLAKIVTVVLAIAAIAAIIVNVAQRNKRQRGELRVNNLSEQYKEMKEELAAALMDSHQQKQWHKAQKKKHKQEAKAAKAKAKLG--EVATDSKPRVWVLDFKGSMDAHEVNSLREEITAVLAAFKPQDQVVLRLESPGGMVHGYGLAASQLQRLRDKNIPLTVTVDKVAASGGYMMACVADKIVSAPFAIVGSIGVVAQMPNFNRFLKSKDIDIELHTAGQYKRTLTLLGENTEEGREKFREELNETHQLFKDFVKRMRPSLDIEQVATGEHWYGQQAVEKGLVDEINTSDEVILSLMEGREVVNVRYMQRKRLIDRFTGSAAESADRLLLRWWQR</Hsp_hseq>
+      <Hsp_midline>E+L  YG+FL +++TV  AIA I   IV    + + + G + + + SE YK+ ++      +   + K   K +KKK K EAKA K + K G  + A   K R++VLDF G + AH V SLR EITAVL   KP+D+V+LRLESPGG+VHGYGLAASQL+RLR++NIPLTV VDKVAASGGYMMACVADKIVSAPFA++GS+GVVA++PN +R LK  DID+++ TAG++KRT+T +GENTE+G++KFR+EL ETHQLFK FV   RP LDIE++ATGEHW+G+QA+   L+DEI+TSD+++L   E ++V+ V+Y +++ LI R    A  S ++L  +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2499883|sp|Q44600.1|SOHB_BUCSC</Hit_id>
+  <Hit_def>RecName: Full=Probable protease SohB, partial [Buchnera aphidicola (Schlechtendalia chinensis)]</Hit_def>
+  <Hit_accession>Q44600</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>2.28227e-84</Hsp_evalue>
+      <Hsp_query-from>1547</Hsp_query-from>
+      <Hsp_query-to>1847</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>EILLNYGIFLLELLTVFGAIALIVLAIV-----QSKKQSESGSVVLTDFSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRLFVLDFDGDLYAHAVESLRHEITAVLLIAKPEDEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLL</Hsp_qseq>
+      <Hsp_hseq>DFILNYALFFFKIFTLFALILTIFLIIVNVARHKSKKKYELDIVSLNSYYEHVKNK---IILSTMSTYEKKIWNKSNKLFKKTRSKINMTFLKKN-KYYLNQNNPILYVLDFKGNVSASEVTSLREEISAIILAAKENDEVLLRLESGGGVIHGYGLASSQLSRLREKNIRLTVSVDKIAASGGYMMACVANYIIAAPFSVIGSIGVVAQIPNFNKLLKKNNVDMELHTSGLYKRTLTVFGENTKEAREKFCKDLNFTHVLFKEFVHSMRPSLNIDEVSTGEHWFGTTALEKKLIDKIETSDDFII</Hsp_hseq>
+      <Hsp_midline>+ +LNY +F  ++ T+F  I  I L IV     +SKK+ E   V L  + E+ K +        +S  E K   K  K  +K  +K     LK+  +         L+VLDF G++ A  V SLR EI+A++L AK  DEVLLRLES GGV+HGYGLA+SQL RLRE+NI LTV+VDK+AASGGYMMACVA+ I++APF+VIGS+GVVA++PN ++LLKK+++D+++ T+G +KRT+T  GENT++ ++KF ++L  TH LFK+FV   RP L+I++++TGEHWFG  AL   LID+I TSDD ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|11387171|sp|P57370.1|SOHB_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Probable protease SohB [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57370</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>7.03235e-84</Hsp_evalue>
+      <Hsp_query-from>1649</Hsp_query-from>
+      <Hsp_query-to>1869</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>FVLDFDGDLYAHAVESLRHEITAVLLIAKPEDEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQVIEVKYQEKRSLIQR</Hsp_qseq>
+      <Hsp_hseq>FVLDFKGDVYANEVVGLREEISAILLVANKHDEVLLRLESSGGVIHGYGLAASQLNRLRQKGIRLIVSVDKIAASGGYMMACVADYIVSAPFAIIGSIGVVGQIPNFNKLLKKCNIDFELHTAGDYKRTLTMFGNNTESTRKKFCDELNTTHKLFKSFIKEMRPSLDIEDVSNGEHWFGTIALEKKLVDQIGTSDDILISKMEEYTLLRIQYIYRKKILER</Hsp_hseq>
+      <Hsp_midline>FVLDF GD+YA+ V  LR EI+A+LL+A   DEVLLRLES GGV+HGYGLAASQL RLR++ I L V+VDK+AASGGYMMACVAD IVSAPFA+IGS+GVV ++PN ++LLKK +ID ++ TAG++KRT+T  G NTE  ++KF  EL  TH+LFK F+ E RP LDIE ++ GEHWFG  AL   L+D+I TSDD+L+   E   ++ ++Y  ++ +++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|25009272|sp|Q8K9P8.1|SOHB_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Probable protease SohB [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K9P8</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>4.75331e-80</Hsp_evalue>
+      <Hsp_query-from>1644</Hsp_query-from>
+      <Hsp_query-to>1864</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>QKSRLFVLDFDGDLYAHAVESLRHEITAVLLIAKPEDEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQV---IEVKYQEKR</Hsp_qseq>
+      <Hsp_hseq>KKKTLFVLDFKGGIHAHEVIGLREEISAILLAANKDDEVLLRLESSGGVIHGYGLAAAQLERLRQNKIRLIISIDKIAASGGYMMACVADYIISAPFAIIGSIGVVGQLPNFNKLLKKCNIDVELHTAGDYKRTLTMFGQNTELTRKKFCQELNLTHEIFKKFIKKMRPCLDIENISNGEHWFGTIAFKKNLVDEINTSDNILMSKMKEKYTLLNIQYIYKNKK</Hsp_hseq>
+      <Hsp_midline>+K  LFVLDF G ++AH V  LR EI+A+LL A  +DEVLLRLES GGV+HGYGLAA+QL RLR+  I L +++DK+AASGGYMMACVAD I+SAPFA+IGS+GVV ++PN ++LLKK +IDV++ TAG++KRT+T  G+NTE  ++KF QEL  TH++FK+F+ + RP LDIE I+ GEHWFG  A   NL+DEI+TSD++L+   + K     I+  Y+ K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|46396886|sp|Q89AL0.1|SOHB_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Putative protease SohB [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AL0</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>2.11597e-77</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1889</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>LFVLDFDGDLYAHAVESLRHEITAVLLIAKPEDEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQVIEVKYQEKRSLIQRIGLQAEASVEKLFAKLVNRR</Hsp_qseq>
+      <Hsp_hseq>LYVIDFKGGIAAHEVKSLREEISSIISVAQKHDEVLLRLESSGGTIHGYGLAAVQLQRLRSRKIFLTISIDKIATSGGYMMACVANYIIATPFSIIGSIGVVAQFPNIHKFLKKNNIDVELHTAGVHKRTLTIFGENTPEDRKKFVEELNVAHDLFKKFVKTMRPSLNIEKLSNGECWFGSIALKKKLVDDINTSDDFIISRIRKFNILHVKFKYNESIIKALFYKKLKTINNLIYKYLNNK</Hsp_hseq>
+      <Hsp_midline>L+V+DF G + AH V+SLR EI++++ +A+  DEVLLRLES GG +HGYGLAA QL+RLR R I LT+++DK+A SGGYMMACVA+ I++ PF++IGS+GVVA+ PNIH+ LKK++IDV++ TAG  KRT+T  GENT + ++KF +EL   H LFK+FV   RP L+IEK++ GE WFG  AL   L+D+I+TSDD ++       ++ VK++   S+I+ +  +   ++  L  K +N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|3915936|sp|Q58067.2|Y651_METJA</Hit_id>
+  <Hit_def>RecName: Full=Putative protease MJ0651 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58067</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>1.43835e-18</Hsp_evalue>
+      <Hsp_query-from>1636</Hsp_query-from>
+      <Hsp_query-to>1866</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>GGEKSAETQKSRLFVLDFD-GD-LYAHAVESLRHEITAVLLIAKPED--EVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIE---KIATGEHWFGRQALALNLIDEISTSDDLL-----LKAFENKQVIEVKYQEKRSL</Hsp_qseq>
+      <Hsp_hseq>GGEKIAKVYLCNEIYFDYNQGDGIFPQQKKDARYYINLLDDLEKDDSVKGVLLVVNSPGGEVIASEKLARKVEELAKKK-PVVVYVEGLDASGAYMVSAPADYIVAEKHSIVGSIGVRMDLMHYYGLMKKLGINVTTIKAGKYKDIGSPFRPMTKEEKEYLQKMINETYMDFVKWVAEHR-HLSINYTLKIADGKIYSGEDAKKVGLVDEVGTEEDALKKLEQLANVSNPEIVEYGLEENKGL</Hsp_hseq>
+      <Hsp_midline>GGEK A+         D++ GD ++    +  R+ I  +  + K +    VLL + SPGG V      A ++  L ++  P+ V V+ + ASG YM++  AD IV+   +++GS+GV  ++ + + L+KK  I+V  + AG++K   +     T++ K+  ++ + ET+  F ++V+E+R  L I    KIA G+ + G  A  + L+DE+ T +D L     L    N +++E   +E + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|14548269|sp|O34525.1|SPPA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative signal peptide peptidase SppA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34525</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>2.76629e-18</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1866</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRLR-ERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENR--PGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLL------KAFENKQVIEVKYQEKRSL</Hsp_qseq>
+      <Hsp_hseq>IVLKVNSPGGGVYESAEIHKKLEEIKKETKKPIYVSMGSMAASGGYYISTAADKIFATPETLTGSLGVIMESVNYSKLADKLGISFETIKSGAHKDIMSPSREMTKEEKNIMQSMVDNSYEGFVDVISKGRGMPKAEVKKIADGRVYDGRQAKKLNLVDELGFYDDTITAMKKDHKDLKNASVIS--YEESFGL</Hsp_hseq>
+      <Hsp_midline>++L++ SPGG V+       +L  ++ E   P+ V++  +AASGGY ++  ADKI + P  + GS+GV+ E  N  +L  K  I  + + +G  K  ++   E T++ K   +  ++ +++ F   +S+ R  P  +++KIA G  + GRQA  LNL+DE+   DD +       K  +N  VI   Y+E   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1174428|sp|P45243.1|SPPA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Protease 4; AltName: Full=Endopeptidase IV; AltName: Full=Protease IV; AltName: Full=Signal peptide peptidase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45243</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>9.6126e-14</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1849</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>532</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENR--PGLDIEKIATGEHWFGRQALALNLIDEISTSDDLLLKA</Hsp_qseq>
+      <Hsp_hseq>VILRVNSPGGSAFASEIIRQETENLQKIGKPVIVSMGAMAASGGYWISSTADYIIADSNTITGSIGIFTMFPTFENSIKKIGVHADGVSTTELANTSAF-SPLAKPVQDIYQTEIEHGYDRFLEIVSKGRQLSKTQVDKLAQGQVWLGSDAFQNGLVDEIGSFNEAVNKA</Hsp_hseq>
+      <Hsp_midline>V+LR+ SPGG      +   +   L++   P+ V++  +AASGGY ++  AD I++    + GS+G+    P     +KK  +  D ++  E   T  F     +  +  ++ E+E  +  F + VS+ R      ++K+A G+ W G  A    L+DEI + ++ + KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|189029213|sp|Q2YMB3.2|NHAA_BRUA2</Hit_id>
+  <Hit_def>RecName: Full=Na(+)/H(+) antiporter NhaA; AltName: Full=Sodium/proton antiporter NhaA [Brucella abortus 2308]</Hit_def>
+  <Hit_accession>Q2YMB3</Hit_accession>
+  <Hit_len>736</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>4.15511e-13</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1869</Hsp_query-to>
+      <Hsp_hit-from>507</Hsp_hit-from>
+      <Hsp_hit-to>696</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQL--RRLRERNI----PLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTV-TFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGL--DIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQVIEVKYQEKRSLIQR</Hsp_qseq>
+      <Hsp_hseq>VAISINSPGGAP-----VQSRLIYRRIRDLAVEHQKKVFVFVEDVAASGGYMIALAGDEIIADPSSIVGSIGVVSASFGFPELLKKIGVERRVYTAGSNKVTLDPFQPEKAED-IERLKALQLEIHATFIDMVKERRAGKLGDNPDLFSGLFWTGTTAASLGLIDGLGDMRSFLRKTYGDKVKLKL-IQPQRGLLGR</Hsp_hseq>
+      <Hsp_midline>V + + SPGG         S+L  RR+R+  +     + V V+ VAASGGYM+A   D+I++ P +++GS+GVV+       LLKK  ++  V TAG  K T+  F  E  E   ++ +    E H  F   V E R G   D   + +G  W G  A +L LID +      L K + +K  +++  Q +R L+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|189029205|sp|Q8YFI5.2|NHAA_BRUME</Hit_id>
+  <Hit_def>RecName: Full=Na(+)/H(+) antiporter NhaA; AltName: Full=Sodium/proton antiporter NhaA [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>Q8YFI5</Hit_accession>
+  <Hit_len>736</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>7.54675e-13</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1869</Hsp_query-to>
+      <Hsp_hit-from>507</Hsp_hit-from>
+      <Hsp_hit-to>696</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRLR-ERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTV-TFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGL--DIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQVIEVKYQEKRSLIQR</Hsp_qseq>
+      <Hsp_hseq>VAISINSPGGAPVQSRLIYRRIRDLAAEHQKKVFVFVEDVAASGGYMIALAGDEIIADPSSIVGSIGVVSASFGFPELLKKIGVERRVYTAGSNKVTLDPFQPEKAED-IERLKALQLEIHATFIDMVKERRAGKLGDNPDLFSGLFWTGTTAASLGLIDGLGDMLSFLRKTYGDKVKLKL-IQPQRGLLGR</Hsp_hseq>
+      <Hsp_midline>V + + SPGG      L   ++R L  E    + V V+ VAASGGYM+A   D+I++ P +++GS+GVV+       LLKK  ++  V TAG  K T+  F  E  E   ++ +    E H  F   V E R G   D   + +G  W G  A +L LID +      L K + +K  +++  Q +R L+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2499885|sp|Q55682.1|Y021_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Putative protease slr0021 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55682</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>8.21221e-13</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1844</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKI---ATGEHWFGRQALALNLIDEISTSDD</Hsp_qseq>
+      <Hsp_hseq>LLVRIDSPGGTVVDSQEIYTKLKQLSEK-IKVVASFGNISASGGVYIAMGCPHIMANSGTITGSIGVILRGNNLERLLEKVGVSFKVIKSGPYKDILSFDRELLPEEQSILQALIDDSYGQFVSTVAAGR-NLAVEKVKEFADGRIFTGQQALELGLVDRLGTEED</Hsp_hseq>
+      <Hsp_midline>+L+R++SPGG V       ++L++L E+ I +  +   ++ASGG  +A     I++    + GS+GV+    N+ RLL+K  +   V+ +G +K  ++F  E   + +   +  +++++  F   V+  R  L +EK+   A G  + G+QAL L L+D + T +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2499882|sp|P73689.1|SPPA_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Protease 4; AltName: Full=Endopeptidase IV; AltName: Full=Protease IV homolog; AltName: Full=Signal peptide peptidase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P73689</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.64751e-12</Hsp_evalue>
+      <Hsp_query-from>1612</Hsp_query-from>
+      <Hsp_query-to>1839</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>519</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>KHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRLFVLDFDGDLY--AHAVESLRHEITAVLLIAKPEDE----VLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFV--SENRPGLDIEKIATGEHWFGRQALALNLIDEI</Hsp_qseq>
+      <Hsp_hseq>KIEEQEEDKEFRKISLAEYHRL-QNWETENHDQDPKIAIVYLEGSIVNGRGTWENIGGDRYGELLRTIRQDDDIKAVVLRINSPGGSASAADIIWREVELLQAQK-PVIISMGNVAASGGYWIATAGEKIVAQPNTVTGSIGVFSILFNVENLGDRLGLNWDEVATGELANVGSSIKPKTELELAIFQRSVDQVYEIFLDKVGRARNLSPTALDSVAQGRVWTGLAAQKVGLVDQL</Hsp_hseq>
+      <Hsp_midline>K +E++E K+ +  + AE  RL +  E     Q  ++ ++  +G +       E++  +    LL    +D+    V+LR+ SPGG      +   ++  L+ +  P+ +++  VAASGGY +A   +KIV+ P  V GS+GV + + N+  L  +  ++ D +  GE     + +   TE     F++ +++ +++F   V  + N     ++ +A G  W G  A  + L+D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|14548273|sp|Q9X480.1|SPPA_ENTFC</Hit_id>
+  <Hit_def>RecName: Full=Putative signal peptide peptidase SppA [Enterococcus faecium]</Hit_def>
+  <Hit_accession>Q9X480</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>2.77264e-12</Hsp_evalue>
+      <Hsp_query-from>1569</Hsp_query-from>
+      <Hsp_query-to>1859</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>IVLAIVQSKKQSESGSVVLTDFSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRLFVLDFDGDLYAHAVESLRHEITAVLLIAKPEDE----VLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLD---IEKIATGEHWFGRQALALNLIDEISTSDDLL-----LKAFENKQVIEVK</Hsp_qseq>
+      <Hsp_hseq>IIVALIPGKDKEEASNTTLTGINK----------IFYGSNEIT------EETLEEGASNKKIVKLSVNG-VIADTGESNLF-----------SREQYNHQNFLTQLKKIQEDKAVKGVLLEVNSPGGGIYESAEIAKEMAKIKKLDIPIYTAFKNTAASGGYYISAGSDKIFATEETTTGSIGVIISGLNYSGLLEKLGVTDATYKSGALKDMMSPQHKPSEEENKVIQEFVMSAYDRFVNVVAKGR-NMDTNAVKELADGRIYDGNQAVENGLVDQIGYSEDALDSLKKEKKLTDATVIEYK</Hsp_hseq>
+      <Hsp_midline>I++A++  K + E+ +  LT  ++           F+ S E T      E+  E+  +  +  +L   G   A+T +S LF           + E   H+     L    ED+    VLL + SPGG ++     A ++ ++++ +IP+  A    AASGGY ++  +DKI +      GS+GV+    N   LL+K  +      +G  K  ++   + +E+  +  ++ +   +  F   V++ R  +D   ++++A G  + G QA+   L+D+I  S+D L      K   +  VIE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|14548271|sp|Q9K809.1|SPPA_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Putative signal peptide peptidase SppA [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K809</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>2.68889e-11</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1846</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRL-RERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENR--PGLDIEKIATGEHWFGRQALALNLIDEISTSDDLL</Hsp_qseq>
+      <Hsp_hseq>IILQVNTPGGGVLESAEIHKQVEEIVQDSEKPVYVSMGNMAASGGYYISAPATKIYAHPQTITGSIGVIMQSIDISGLAENLGIEFNTFKSGPYKDILSQTREVTDEEEDILQTLVDEMYDEFVRVIVDGRGMSETEVRELADGRIYTGSQAVATGLVDELGGLDDVI</Hsp_hseq>
+      <Hsp_midline>++L++ +PGG V        Q+  + ++   P+ V++  +AASGGY ++  A KI + P  + GS+GV+ +  +I  L +   I+ +   +G +K  ++   E T++ +   +  ++E +  F + + + R     ++ ++A G  + G QA+A  L+DE+   DD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81514303|sp|Q8Z6F3.1|SPPA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Protease 4; AltName: Full=Endopeptidase IV; AltName: Full=Protease IV; AltName: Full=Signal peptide peptidase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z6F3</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>5.95375e-10</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1851</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>538</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGL--DIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFE</Hsp_qseq>
+      <Hsp_hseq>IVLRVNSPGGSVNASEVIRAELAAARAAGKPVVVSMGGMAASGGYWISTPANYIVASPSTLTGSIGIFGVINTVENSLSSIGVHSDGVSTSPLA-DISMTKALSPEVQQMMQLSIEYGYKRFITLVADARKRTPEQIDKIAQGHVWTGEDAKANGLVDSLGDFDDAVAKAAE</Hsp_hseq>
+      <Hsp_midline>++LR+ SPGG V+   +  ++L   R    P+ V++  +AASGGY ++  A+ IV++P  + GS+G+   +  +   L    +  D ++       ++     + + +Q  +  +E  ++ F   V++ R      I+KIA G  W G  A A  L+D +   DD + KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|34395936|sp|P08395.2|SPPA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Protease 4; AltName: Full=Endopeptidase IV; AltName: Full=Protease IV; AltName: Full=Signal peptide peptidase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P08395</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.33889e-09</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1855</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>542</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGL--DIEKIATGEHWFGRQALALNLIDEISTSDDLLLKAFENKQV</Hsp_qseq>
+      <Hsp_hseq>IVLRVNSPGGSVTASEVIRAELAAARAAGKPVVVSMGGMAASGGYWISTPANYIVANPSTLTGSIGIFGVITTVENSLDSIGVHTDGVSTSPLA-DVSITRALPPEAQLMMQLSIENGYKRFITLVADARHSTPEQIDKIAQGHVWTGQDAKANGLVDSLGDFDDAVAKAAELAKV</Hsp_hseq>
+      <Hsp_midline>++LR+ SPGG V    +  ++L   R    P+ V++  +AASGGY ++  A+ IV+ P  + GS+G+   +  +   L    +  D ++       V+       + +   +  +E  ++ F   V++ R      I+KIA G  W G+ A A  L+D +   DD + KA E  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|75169679|sp|Q9C9C0.1|SPPA1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Serine protease SPPA, chloroplastic; AltName: Full=Signal peptide peptidase SPPA; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9C9C0</Hit_accession>
+  <Hit_len>677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.74454e-09</Hsp_evalue>
+      <Hsp_query-from>1676</Hsp_query-from>
+      <Hsp_query-to>1840</Hsp_query-to>
+      <Hsp_hit-from>414</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>AKPEDEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGK----QKFRQELEETHQLF--KQFVSENRPGLDIEKIATGEHWFGRQALALNLIDEIS</Hsp_qseq>
+      <Hsp_hseq>SKKYKAAIIRIDSPGGDALASDLMWREIKLLAETK-PVIASMSDVAASGGYYMAMAANAIVAENLTLTGSIGVVTARFTLAKLYEKIGFNKETISRGKY---AELLGAEERPLKPEEAELFEKSAQHAYQLFRDKAALSRSMPVDKMEEVAQGRVWTGKDAHSRGLIDAVG</Hsp_hseq>
+      <Hsp_midline>+K     ++R++SPGG      L   +++ L E   P+  ++  VAASGGY MA  A+ IV+    + GS+GVV     + +L +K   + + ++ G++      +G      K    + F +  +  +QLF  K  +S + P   +E++A G  W G+ A +  LID + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2499884|sp|Q48513.1|PFAP_LEPBO</Hit_id>
+  <Hit_def>RecName: Full=Putative peptidase PfaP; AltName: Full=PF-associated peptidase; AltName: Full=Periplasmic flagella-associated protein; Flags: Precursor [Leptospira borgpetersenii]</Hit_def>
+  <Hit_accession>Q48513</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.0256e-06</Hsp_evalue>
+      <Hsp_query-from>1702</Hsp_query-from>
+      <Hsp_query-to>1846</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>QLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGL--DIEKIATGEHWFGRQALALNLIDEISTSDDLL</Hsp_qseq>
+      <Hsp_hseq>RLRKTRK----IVVSMKDMAASGGYYIASSADKIFALSGTITGSIGVLQWL-RYQRAFGSLGVKMRTYKEGKYKDSLSLFRDSTPEEDEMIQKMLSDTYNEFVQDVAKGRNQTVKSVQNLAEGRIYSGQDAFRNKLVDEIGGRKEAL</Hsp_hseq>
+      <Hsp_midline>+LR+ R+    + V++  +AASGGY +A  ADKI +    + GS+GV+  +    R      + +     G++K +++   ++T +  +  ++ L +T+  F Q V++ R      ++ +A G  + G+ A    L+DEI    + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|137565|sp|P03711.1|ASSMB_LAMBD</Hit_id>
+  <Hit_def>RecName: Full=Capsid assembly protease C; AltName: Full=Gene product C; Short=GPC; AltName: Full=Minor capsid protein C [Enterobacteria phage lambda]</Hit_def>
+  <Hit_accession>P03711</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>6.23492e-06</Hsp_evalue>
+      <Hsp_query-from>1680</Hsp_query-from>
+      <Hsp_query-to>1846</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>DEVLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEH--WFGRQALALNLIDEISTSDDLL</Hsp_qseq>
+      <Hsp_hseq>DGILLDMDTPGGMVAGAFDCADIIARVRDIK-PVWALANDMNCSAGQLLASAASRRLVTQTARTGSIGVMMAHSNYGAALEKQGVEITLIYSGSHKVDGNPYSHLPDDVRETLQSRMDATRQMFAQKVSA-YTGLSVQVVLDTEAAVYSGQEAIDAGLADELVNSTDAI</Hsp_hseq>
+      <Hsp_midline>D +LL +++PGG+V G    A  + R+R+   P+    + +  S G ++A  A + +    A  GS+GV+    N    L+K  +++ ++ +G  K          +  ++  +  ++ T Q+F Q VS    GL ++ +   E   + G++A+   L DE+  S D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|549296|sp|P36273.1|VG05_BPP21</Hit_id>
+  <Hit_def>RecName: Full=Head-tail preconnector protein GP5; AltName: Full=Putative peptidase GP5; Contains: RecName: Full=Scaffold protein GP6; AltName: Full=Head protein GP6 [Enterobacteria phage P21]</Hit_def>
+  <Hit_accession>P36273</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0219216</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>1846</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VLLRLESPGGVVHGYGLAASQLRRLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSVGVVAEVPNIHRLLKKHDIDVDVMTAGEFKRTVTFMGENTEKGKQKFRQELEETHQLFKQFVSENRPGLDIEKIATGEH--WFGRQALALNLIDEISTSDDLL</Hsp_qseq>
+      <Hsp_hseq>VLLDIDSPGGQAAGAFDCADMIYRLRQQK-PVWALCNDTACSAAMLLASACSRRLVTQTSRIGSIGVMMSHVSYAGHLAQAGVDITLIYSGAHKVDGNQFEALPAEVRQDMQQRIDAARRMFAEKVAM-YTGLSVDAVTGTEAAVFEGQSGIEAGLADELINASDAI</Hsp_hseq>
+      <Hsp_midline>VLL ++SPGG   G    A  + RLR++  P+    +  A S   ++A    + +    + IGS+GV+    +    L +  +D+ ++ +G  K           + +Q  +Q ++   ++F + V+    GL ++ +   E   + G+  +   L DE+  + D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2495823|sp|Q57601.1|Y137_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0137 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57601</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.219937</Hsp_evalue>
+      <Hsp_query-from>1676</Hsp_query-from>
+      <Hsp_query-to>1746</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AKPEDEVL-LRLESPGGVVHGYGLAASQLRR-LRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSV</Hsp_qseq>
+      <Hsp_hseq>AAPKDKPIDLIIHTPGGLV----LAATQIAKALKAHPAETRVIVPHYAMSGGTLIALAADKIIMDENAVLGPV</Hsp_hseq>
+      <Hsp_midline>A P+D+ + L + +PGG+V    LAA+Q+ + L+       V V   A SGG ++A  ADKI+    AV+G V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|125890|sp|P28048.1|LAA_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Lupus La protein homolog A; AltName: Full=La autoantigen homolog A; AltName: Full=La ribonucleoprotein A [Xenopus laevis]</Hit_def>
+  <Hit_accession>P28048</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>1.26363</Hsp_evalue>
+      <Hsp_query-from>1590</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>FSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRLF------VLDFDGDL</Hsp_qseq>
+      <Hsp_hseq>FLENRNLKYKDNDMTVLSREEYHAKKNEERKLNKSEEKAKSKQVKKEAQKQAEDAERKLVEERVGSLLKFSGDL</Hsp_hseq>
+      <Hsp_midline>F EN   + +  +   LS EE   ++ +E+K  K+E KA+ K++K+  +K AE  + +L       +L F GDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2496184|sp|Q58890.1|Y1495_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ1495 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58890</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.89165</Hsp_evalue>
+      <Hsp_query-from>1678</Hsp_query-from>
+      <Hsp_query-to>1746</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>PED-EVLLRLESPGGVVHGYGLAASQLR-RLRERNIPLTVAVDKVAASGGYMMACVADKIVSAPFAVIGSV</Hsp_qseq>
+      <Hsp_hseq>PEDMPIDLIIHTPGGL----ALASEQIALALKEHKAKTTVIIPHYAMSGGSLIALAADEIIMDKNAVMGPV</Hsp_hseq>
+      <Hsp_midline>PED  + L + +PGG+     LA+ Q+   L+E     TV +   A SGG ++A  AD+I+    AV+G V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|125892|sp|P28049.1|LAB_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Lupus La protein homolog B; AltName: Full=La autoantigen homolog B; AltName: Full=La ribonucleoprotein B [Xenopus laevis]</Hit_def>
+  <Hit_accession>P28049</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.77822</Hsp_evalue>
+      <Hsp_query-from>1590</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>FSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRLF------VLDFDGDL</Hsp_qseq>
+      <Hsp_hseq>FLEDKNLKYKDNDMIILSREEYFAKKNEERKLNKSEEKAKSKQEKEEAQKQAEDAERKLMEERVGCLLKFSGDL</Hsp_hseq>
+      <Hsp_midline>F E+   + +  +   LS EE   ++ +E+K  K+E KA+ K+ KE  +K AE  + +L       +L F GDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|121738823|sp|Q0CP15.1|NST1_ASPTN</Hit_id>
+  <Hit_def>RecName: Full=Stress response protein nst1 [Aspergillus terreus NIH2624]</Hit_def>
+  <Hit_accession>Q0CP15</Hit_accession>
+  <Hit_len>1129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.04434</Hsp_evalue>
+      <Hsp_query-from>1586</Hsp_query-from>
+      <Hsp_query-to>1635</Hsp_query-to>
+      <Hsp_hit-from>432</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VLTDFSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKE</Hsp_qseq>
+      <Hsp_hseq>VLTAYREKVAEQRQQKLIEELMEEQTRTEQKNAKKAREAEKRKEKKRLQK</Hsp_hseq>
+      <Hsp_midline>VLT + E   +QRQ      L EE+T+ ++K  KK  +AE + EKKRL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|12230440|sp|Q17827.1|PFD1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable prefoldin subunit 1 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q17827</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>4.02058</Hsp_evalue>
+      <Hsp_query-from>1575</Hsp_query-from>
+      <Hsp_query-to>1648</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>QSKKQSESGSVVLTDFSENYKKQRQSFETFFLSE---EETKHQEKKEKKKEKAEAKAEKKRLKEGGEKSAETQKSRL</Hsp_qseq>
+      <Hsp_hseq>QKMRISESTKKNLVDLDENLKYYRSVGRMFLLTDKPAEISRHEAEAKQSKEKIEAIEKQKDYLEKGLVEAETNLREL</Hsp_hseq>
+      <Hsp_midline>Q  + SES    L D  EN K  R     F L++   E ++H+ + ++ KEK EA  ++K   E G   AET    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|50401577|sp|Q8E1E4.1|Y413_STRA5</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized RNA methyltransferase SAG0413 [Streptococcus agalactiae 2603V/R]</Hit_def>
+  <Hit_accession>Q8E1E4</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.99781</Hsp_evalue>
+      <Hsp_query-from>1339</Hsp_query-from>
+      <Hsp_query-to>1424</Hsp_query-to>
+      <Hsp_hit-from>362</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>ESITERESIDUESACTIVEDBXREFCDDSITETY----PEACTIVECDSNOTEBESTBLASTPHITPOSSIBLYPHASEVARIABLEARE</Hsp_qseq>
+      <Hsp_hseq>EDIIPRWYSEGFRANALIVDPPRTGLDDKLLNTILKMPPEKMVYVSCNTSTLARDLVTLTKVYHVHYIQSVDMFPHTARTEAVVKLQRKE</Hsp_hseq>
+      <Hsp_midline>E I  R   +   A  ++ D  R   DD +  T     PE    V C+++    +   L    H+    S++++PH +    +  L+ +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|171704486|sp|A1D731.1|NST1_NEOFI</Hit_id>
+  <Hit_def>RecName: Full=Stress response protein nst1 [Neosartorya fischeri NRRL 181]</Hit_def>
+  <Hit_accession>A1D731</Hit_accession>
+  <Hit_len>1193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>6.22431</Hsp_evalue>
+      <Hsp_query-from>1586</Hsp_query-from>
+      <Hsp_query-to>1635</Hsp_query-to>
+      <Hsp_hit-from>487</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VLTDFSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKE</Hsp_qseq>
+      <Hsp_hseq>VLTAYREKVAEQRQQKLIEELMEEETRNEQRNAKKAREAQKRKDKKRLQK</Hsp_hseq>
+      <Hsp_midline>VLT + E   +QRQ      L EEET+++++  KK  +A+ + +KKRL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|74674291|sp|Q4WXQ7.1|NST1_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=Stress response protein nst1 [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4WXQ7</Hit_accession>
+  <Hit_len>1153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>6.46638</Hsp_evalue>
+      <Hsp_query-from>1586</Hsp_query-from>
+      <Hsp_query-to>1635</Hsp_query-to>
+      <Hsp_hit-from>486</Hsp_hit-from>
+      <Hsp_hit-to>535</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VLTDFSENYKKQRQSFETFFLSEEETKHQEKKEKKKEKAEAKAEKKRLKE</Hsp_qseq>
+      <Hsp_hseq>VLTAYREKVAEQRQQKLIEELMEEETRNEQRNAKKAREAQKRKDKKRLQK</Hsp_hseq>
+      <Hsp_midline>VLT + E   +QRQ      L EEET+++++  KK  +A+ + +KKRL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 42, 58, 60, 64, 77, 87, 102, 105, 117, 132, 137, 138, 152, 154, 158, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

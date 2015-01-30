@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>6461</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1550</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>6461</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1550</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81572554|sp|Q7N5C8.1|PGSA_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N5C8</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>3.88403e-55</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1549</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWKEI</Hsp_qseq>
+      <Hsp_hseq>MQLNIPTWLTLFRIALIPFFVLAFYLPFTW-----APMVCAIIFIVAAATDWFDGFLARLWKQTTRFGAFLDPVADKIMVAAALVLVSEHYHTWWITLPAATMIAREIIISSLREWMAELGKRSSVAVSWMGKVKTTAQMAALIALLWR-PN---FEFELGGFILLYVATVMTFWSMFQYINAAWSDL</Hsp_hseq>
+      <Hsp_midline>M  NIP +LT  R+ LIP  ++ FYLPF+W       +  A+IF VAA TDWFDGFLARLWKQT+ FGAFLDPVADK+MVA +L+L+ +   T+   L A  +I REI IS+LREWMA++GKRSSVAV+ +GK KT AQM A+  LL   P+   F   + G IL+++A+++T WSM  Y+  AW ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|75482714|sp|Q57N57.3|PGSA_SALCH</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67]</Hit_def>
+  <Hit_accession>Q57N57</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>2.35163e-54</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1545</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMA</Hsp_qseq>
+      <Hsp_hseq>MQFNIPTLLTLFRVILIPFLVVVFYLPFAW-----APMVSALIFCIAAITDWFDGFLARRWNQSTRFGAFLDPVADKVLVAIAMVLVTEHYHSWWVTLPAATMIAREIIISALREWMAELGKRSSVAVSWIGKVKTTAQMVALAWLLWR-PNIW---VEYAGIALFFVAAVLTLWSMLQYLSAA</Hsp_hseq>
+      <Hsp_midline>M +NIP  LT  RV+LIP L+V+FYLPF+W       + +A+IF +AA+TDWFDGFLAR W Q++ FGAFLDPVADK++VA++++L+ +   ++   L A  +I REI ISALREWMA++GKRSSVAV+ +GK KT AQM+A+ +LL   P+ +   +   G  L F+A++LT+WSML YL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|158512678|sp|A1JLU9.1|PGSA_YERE8</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JLU9</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>3.33205e-54</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1549</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWKEI</Hsp_qseq>
+      <Hsp_hseq>MQLNIPTWLTLFRVVLIPFFVLAFYLPFVW-----APMVCAIIFVFAAATDWFDGFLARRWKQTTRFGAFLDPVADKVMVAIALVLVAEHYHVWWITLPAATMIAREIIISSLREWMAEIGKRSSVAVSWIGKVKTTAQMGSLVGLLWR-PD---HNIELASFVLLYIAAVLTFWSMFQYLNAAWKDL</Hsp_hseq>
+      <Hsp_midline>M  NIP +LT  RV+LIP  ++ FYLPF W       +  A+IF  AA TDWFDGFLAR WKQT+ FGAFLDPVADK+MVA++L+L+ +    +   L A  +I REI IS+LREWMA++GKRSSVAV+ +GK KT AQM ++  LL   PD    N+ +   +L++IA++LT WSM  YL  AWK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81677924|sp|Q5PI18.3|PGSA_SALPA</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|81706890|sp|Q7CQB9.3|PGSA_SALTY RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|81766251|sp|Q8XFD0.3|PGSA_SALTI RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q5PI18</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>7.51288e-54</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1545</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMA</Hsp_qseq>
+      <Hsp_hseq>MQFNIPTLLTLFRVILIPFFVVVFYLPFAW-----APMVSALIFCIAAITDWFDGFLARRWNQSTRFGAFLDPVADKVLVAIAMVLVTEHYHSWWVTLPAATMIAREIIISALREWMAELGKRSSVAVSWIGKVKTTAQMVALAWLLWR-PNIW---VEYAGIALFFVAAVLTLWSMLQYLSAA</Hsp_hseq>
+      <Hsp_midline>M +NIP  LT  RV+LIP  +V+FYLPF+W       + +A+IF +AA+TDWFDGFLAR W Q++ FGAFLDPVADK++VA++++L+ +   ++   L A  +I REI ISALREWMA++GKRSSVAV+ +GK KT AQM+A+ +LL   P+ +   +   G  L F+A++LT+WSML YL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81724429|sp|Q83R47.3|PGSA_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Shigella flexneri] &gt;gi|116256769|sp|Q322L9.3|PGSA_SHIBS RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Shigella boydii Sb227] &gt;gi|123146949|sp|Q0T3L5.1|PGSA_SHIF8 RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q83R47</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>9.94709e-54</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1545</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMA</Hsp_qseq>
+      <Hsp_hseq>MQFNIPTLLTLFRVILIPFFVLVFYLPVTWSP-----FAAALIFCVAAVTDWFDGFLARRWNQSTRFGAFLDPVADKVLVAIAMVLVTEHYHSWWVTLPAATMIAREIIISALREWMAELGKRSSVAVSWIGKVKTTAQMVALAWLLWR-PNIW---VEYVGIALFFVAAVLTLWSMLQYLSAA</Hsp_hseq>
+      <Hsp_midline>M +NIP  LT  RV+LIP  +++FYLP +W        AAA+IF VAA+TDWFDGFLAR W Q++ FGAFLDPVADK++VA++++L+ +   ++   L A  +I REI ISALREWMA++GKRSSVAV+ +GK KT AQM+A+ +LL   P+ +   +  +G  L F+A++LT+WSML YL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|78100742|sp|P0ABG0.2|PGSA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Escherichia coli O157:H7] &gt;gi|78100743|sp|P0ABF9.2|PGSA_ECOL6 RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Escherichia coli CFT073] &gt;gi|78100744|sp|P0ABF8.2|PGSA_ECOLI RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Escherichia coli K-12] &gt;gi|116256770|sp|Q32HD9.3|PGSA_SHIDS RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Shigella dysenteriae Sd197] &gt;gi|116256771|sp|Q3Z2T6.3|PGSA_SHISS RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Shigella sonnei Ss046] &gt;gi|122423458|sp|Q1RAM8.1|PGSA_ECOUT RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Escherichia coli UTI89] &gt;gi|122958276|sp|Q0TGS6.1|PGSA_ECOL5 RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Escherichia coli 536] &gt;gi|158512545|sp|A1AC64.1|PGSA_ECOK1 RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>P0ABG0</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>3.67309e-53</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1545</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMA</Hsp_qseq>
+      <Hsp_hseq>MQFNIPTLLTLFRVILIPFFVLVFYLPVTWSP-----FAAALIFCVAAVTDWFDGFLARRWNQSTRFGAFLDPVADKVLVAIAMVLVTEHYHSWWVTLPAATMIAREIIISALREWMAELGKRSSVAVSWIGKVKTTAQMVALAWLLWR-PNIW---VEYAGIALFFVAAVLTLWSMLQYLSAA</Hsp_hseq>
+      <Hsp_midline>M +NIP  LT  RV+LIP  +++FYLP +W        AAA+IF VAA+TDWFDGFLAR W Q++ FGAFLDPVADK++VA++++L+ +   ++   L A  +I REI ISALREWMA++GKRSSVAV+ +GK KT AQM+A+ +LL   P+ +   +   G  L F+A++LT+WSML YL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|124053369|sp|Q2NTS8.1|PGSA_SODGM</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Sodalis glossinidius str. &apos;morsitans&apos;]</Hit_def>
+  <Hit_accession>Q2NTS8</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>5.78494e-52</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1545</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMA</Hsp_qseq>
+      <Hsp_hseq>MQLNIPTWLTLFRVVMIPFFVLAFYLPFKW-----APLCCALIFVLAAVTDWFDGFLARRWKQTTRFGAFLDPVADKVMVAMALVLVAEHFHSWWITLPAATMIAREIIISALREWMAEIGKRSSVAVSWIGKVKTTAQMLALVTLLWRPDDI----VSGIGIAALYVAAVLTFWSMFQYLYAA</Hsp_hseq>
+      <Hsp_midline>M  NIP +LT  RV++IP  ++ FYLPF W       +  A+IF +AA+TDWFDGFLAR WKQT+ FGAFLDPVADK+MVA++L+L+ +   ++   L A  +I REI ISALREWMA++GKRSSVAV+ +GK KT AQMLA+  LL    D     +  IG   +++A++LT WSM  YL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81594178|sp|Q8ZF51.1|PGSA_YERPE</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Yersinia pestis] &gt;gi|81639680|sp|Q66BN4.1|PGSA_YERPS RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Yersinia pseudotuberculosis IP 32953] &gt;gi|122980090|sp|Q1CHE5.1|PGSA_YERPN RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Yersinia pestis Nepal516] &gt;gi|123245850|sp|Q1C8L0.1|PGSA_YERPA RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Yersinia pestis Antiqua] &gt;gi|158514075|sp|A4TK40.1|PGSA_YERPP RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Yersinia pestis Pestoides F]</Hit_def>
+  <Hit_accession>Q8ZF51</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>7.38179e-49</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1549</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWKEI</Hsp_qseq>
+      <Hsp_hseq>MQLNIPTWLTLFRVVLIPFFVLAFYLPFVW-----APMVCAIIFVFAAATDWFDGFLARRWKQTTRFGAFLDPVADKVMVAVALVLVAEHYHSWWITLPAATMIAREIIISSLREWMAEIGKRSSVAVSWVGKVKTMAQMGSLVGLLWR-PD---HNVELASFVLLYIAAVLTFWSMFQYLNAAWSDL</Hsp_hseq>
+      <Hsp_midline>M  NIP +LT  RV+LIP  ++ FYLPF W       +  A+IF  AA TDWFDGFLAR WKQT+ FGAFLDPVADK+MVAV+L+L+ +   ++   L A  +I REI IS+LREWMA++GKRSSVAV+ VGK KT AQM ++  LL   PD    N+ +   +L++IA++LT WSM  YL  AW ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81644575|sp|Q6D364.3|PGSA_PECAS</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D364</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.07076e-47</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1545</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMA</Hsp_qseq>
+      <Hsp_hseq>MQFNIPTLLTLFRVALIPFFVLAFYLPFVW-----APLLCALIFVFAAVTDWFDGFLARRWKQTTRFGAFLDPVADKVMVAVALVLVAEYYHSWWITLPAATMIAREIIISALREWMAEIGKRSSVAVSWIGKVKTTAQMMALFALLWR-PERI---VEGIGVAALYIAAVLTFWSMFQYLNAA</Hsp_hseq>
+      <Hsp_midline>M +NIP  LT  RV LIP  ++ FYLPF W       +  A+IF  AA+TDWFDGFLAR WKQT+ FGAFLDPVADK+MVAV+L+L+ +   ++   L A  +I REI ISALREWMA++GKRSSVAV+ +GK KT AQM+A+F LL   P+     +  IG   ++IA++LT WSM  YL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1172466|sp|P44528.1|PGSA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44528</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>3.87281e-47</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1545</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMA</Hsp_qseq>
+      <Hsp_hseq>MKFNIPIFLTIFRVILIPFFVIAFYLPI-----ESSPFITTLIFFIAGVTDWLDGYLARKWKQTTRFGAFLDPVADKVMVVAALVLIVEHQHTFWITIPAIIMISREIIISALREWMAELGERSKIAVSWWGKWKTTAQMLALGGLLWRYNNY----MEIAAIILLYIAAILTIWSMIQYLQVA</Hsp_hseq>
+      <Hsp_midline>M +NIPIFLT  RV+LIP  ++ FYLP      E+      +IF +A +TDW DG+LAR WKQT+ FGAFLDPVADK+MV  +L+L+V+   T+   + A+I+I REI ISALREWMA++G+RS +AV+  GK+KT AQMLA+  LL  + ++    + +   IL++IA++LT+WSM+ YL++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1172467|sp|P45419.1|PGSA_PSEFL</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>P45419</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>1.51612e-45</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1549</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKL--DRTYVLFAMIIIGREITISALREWMAQMGK-RSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWKEI</Hsp_qseq>
+      <Hsp_hseq>NIPNLITVLRVLLIPIFILLFYLPYNW-----SYMAASSVFAFAAATDWLDGYLARRLEQSTPFGAFLDPVADKLMVAVALVLLVQEHGNLWLTLPAAVIIGREIVVSALREWMAELGRTRPGGRCPTWANRKTAAQMLALVILLANPPAFTFW--VLLGYAFLLIAGGLTLWSMLQYLRAAWPHL</Hsp_hseq>
+      <Hsp_midline>NIP  +T LRVLLIP+ I+LFYLP++W       +AA+ +FA AA TDW DG+LAR  +Q++ FGAFLDPVADKLMVAV+L+LLV+   +    L A +IIGREI +SALREWMA++G+ R      T    KTAAQMLA+  LL N P F  +  V++G   + IA  LT+WSML YL+ AW  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|115304319|sp|Q492P7.1|PGSA_BLOPB</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Candidatus Blochmannia pennsylvanicus str. BPEN]</Hit_def>
+  <Hit_accession>Q492P7</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>3.12711e-40</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1542</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYL</Hsp_qseq>
+      <Hsp_hseq>NIPTYLTLLRVVMVPFFTVMFYLPVRW-----APMICTIMFFVAAVTDWFDGFLARRWKQTTSFGKFLDPVADKVMIVAALVLIAEHFHTWWVTLPASIIIIREVIILALREWVAAIGSRNGIGVLWISKIKTFVQMLALTALLWSSDEW----IVIIGIVALYVSVLLTFWSMCLYL</Hsp_hseq>
+      <Hsp_midline>NIP +LT LRV+++P   V+FYLP  W       +   ++F VAA+TDWFDGFLAR WKQT+ FG FLDPVADK+M+  +L+L+ +   T+   L A III RE+ I ALREW+A +G R+ + V  + K KT  QMLA+  LL +  ++    +V+IG + ++++ LLT WSM  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81713115|sp|Q7VR12.1|PGSA_BLOFL</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Candidatus Blochmannia floridanus]</Hit_def>
+  <Hit_accession>Q7VR12</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>1.4513e-38</Hsp_evalue>
+      <Hsp_query-from>1366</Hsp_query-from>
+      <Hsp_query-to>1542</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>WNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMI--IIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYL</Hsp_qseq>
+      <Hsp_hseq>FNIPMYLTLFRIIMVPCFVAVFYWPIYWSP-----MLCTLIFFIAAITDWFDGFLARRWNQTSRIGGFLDPIADKIMIITALILISEHFHVWWMTLPISSIIIREILISSLRECIARVDNKNNISVIWLSKVKTFAQMLALIALLCRLNEW----TVIMGVISLYTAMLLTLWSMCYYV</Hsp_hseq>
+      <Hsp_midline>+NIP++LT  R++++P  + +FY P  W       +   +IF +AA+TDWFDGFLAR W QTS  G FLDP+ADK+M+  +L+L+ +    + +   I  II REI IS+LRE +A++  +++++V  + K KT AQMLA+  LL    ++     V++G I ++ A LLT+WSM YY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81741723|sp|Q8D2N9.1|PGSA_WIGBR</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis]</Hit_def>
+  <Hit_accession>Q8D2N9</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>3.19489e-35</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1549</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY--VLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWKEI</Hsp_qseq>
+      <Hsp_hseq>MRLNIPTCLTLFRLIIVPFFIIVFYLPFS-----NASFYSAIIFILAALTDWFDGFLARKLNQTTCFGAFLDPVADKIIVVIGLILIIEYFHSFWITIPSLIMIIREIIISSLREWMAEIGKNNLLSVSLISKLKTSIQMLAIFSLLWK----ETYIIIIIGILSLYVSSILAFLSMLKYFYIAWRDL</Hsp_hseq>
+      <Hsp_midline>M  NIP  LT  R++++P  I++FYLPFS       +  +A+IF +AALTDWFDGFLAR   QT+ FGAFLDPVADK++V + L+L+++   ++   + ++I+I REI IS+LREWMA++GK + ++V+ + K KT+ QMLAIF LL        + +++IG + ++++S+L   SML Y  +AW+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75311813|sp|Q9M2W3.1|PGPS2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase 2; AltName: Full=Phosphatidylglycerophosphate synthase 2; Short=PGP synthase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9M2W3</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>1.57423e-34</Hsp_evalue>
+      <Hsp_query-from>1368</Hsp_query-from>
+      <Hsp_query-to>1547</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>IPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLF----------AMIIIGREITISALREWMA-QMGKRS-SVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWK</Hsp_qseq>
+      <Hsp_hseq>LPTVLTLGRVAAVPILVATFYVDCWWG-----RTATTSIFIAAAITDWLDGYIARKMRLGSEFGAFLDPVADKLMVAATLILLCTKPMVAVVLGPVPWLVTVPSIAIIGREITMSAVREWAASQNGKLSEAVAVNSLGKWKTATQMIALTILLASRDSSFE-RLLPSGIGLLYVSAGLSIWSLVVYMRKIWR</Hsp_hseq>
+      <Hsp_midline>+P  LT  RV  +P+L+  FY+   W        A   IF  AA+TDW DG++AR  +  S+FGAFLDPVADKLMVA +L+LL       V+           ++ IIGREIT+SA+REW A Q GK S +VAV ++GK+KTA QM+A+  LL +    +   L+  G  L+++++ L++WS++ Y++  W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|75220015|sp|O80952.1|PGPS1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase 1, chloroplastic; AltName: Full=Phosphatidylglycerophosphate synthase 1; Short=PGP synthase 1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O80952</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>4.34219e-34</Hsp_evalue>
+      <Hsp_query-from>1368</Hsp_query-from>
+      <Hsp_query-to>1547</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>IPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVK----------LDRTYVLFAMIIIGREITISALREWMA-QMGK-RSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWK</Hsp_qseq>
+      <Hsp_hseq>LPTVLTLGRVAAVPLLVATFYVD-SWWG----TTATTSIFIAAAITDWLDGYLARKMRLGSAFGAFLDPVADKLMVAATLILLCTKPIQVAELGPLPWLLTVPSIAIIGREITMSAVREWAASQNGKLLEAVAVNNLGKWKTATQMTALTILLASRDSNVGW-LVASGAGLLYVSAGLSVWSLAVYMRKIWK</Hsp_hseq>
+      <Hsp_midline>+P  LT  RV  +P+L+  FY+  SW+       A   IF  AA+TDW DG+LAR  +  S FGAFLDPVADKLMVA +L+LL            L     + ++ IIGREIT+SA+REW A Q GK   +VAV  +GK+KTA QM A+  LL +     G+ LV  G  L+++++ L+VWS+  Y++  WK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75299940|sp|Q8H8U0.1|CLS_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase, mitochondrial; Short=CLS; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q8H8U0</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>3.01566e-30</Hsp_evalue>
+      <Hsp_query-from>1372</Hsp_query-from>
+      <Hsp_query-to>1547</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVK--------LDRTYVLF--AMIIIGREITISALREWMAQMGKR--SSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFN--LVVIGNILMFIASLLTVWSMLYYLKMAWK</Hsp_qseq>
+      <Hsp_hseq>LTIGRVAAVPLLISTFYMEGPWAA-----TATTGIFLAAAVTDWLDGYIARKMQLGTPFGAFLDPVADKLMVAATLVLLCTKPLEISLLRDGPWLLTVPAIAIIGREITMSAVREWAASQNTKVLEAVAVNNLGKWKTATQMTALTILLASRDKSLPAQDALVTSGIALLYVSAGLAIWSLVVYMRKIWR</Hsp_hseq>
+      <Hsp_midline>LT  RV  +P+LI  FY+   W +      A   IF  AA+TDW DG++AR  +  + FGAFLDPVADKLMVA +L+LL           D  ++L   A+ IIGREIT+SA+REW A    +   +VAV  +GK+KTA QM A+  LL +          LV  G  L+++++ L +WS++ Y++  W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|239938868|sp|P46322.3|PGSA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P46322</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.32317e-28</Hsp_evalue>
+      <Hsp_query-from>1366</Hsp_query-from>
+      <Hsp_query-to>1549</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>WNIPIFLTWLRVLLIPVLIVLFYLPFSW----FSEEAVNVA---AAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLL-NFPDFYGFNLVV--IGNILMFIASLLTVWSMLYYLKMAWKEI</Hsp_qseq>
+      <Hsp_hseq>FNLPNKITLARIALIPIFMIIMLAPFDWGRLEVGDESIPVAHLAGAILFIIASTTDWVDGYYARKLNLVTNFGKFLDPLADKLLVSAALIILVQFDLAPAWMVIVIISREFAVTGLRLVLAGTGE--VVAANMLGKIKTWAQIIAVSALLLHNLP----FELVSFPFADLALWVAVFFTVVSGWEYFSKNWEAL</Hsp_hseq>
+      <Hsp_midline>+N+P  +T  R+ LIP+ +++   PF W      +E++ VA    A++F +A+ TDW DG+ AR     ++FG FLDP+ADKL+V+ +L++LV+ D       ++II RE  ++ LR  +A  G+   VA   +GK KT AQ++A+  LLL N P    F LV     ++ +++A   TV S   Y    W+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|22001833|sp|Q92JJ2.1|PGSA_RICCN</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92JJ2</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.81406e-28</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1547</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWK</Hsp_qseq>
+      <Hsp_hseq>NLPNYLTIARIMVIPVIILVFYI-----NNSLARTLGALLFVLASITDFFDGYIARKYNLVTSFGKMFDPIADKLLVGCVIIMLLKKDNVDEIPCLLILAREFLVSGLREFLALV--KVSVPVSRLAKVKTFLQMFALSILILGSKGSGIIYLDIVGEIILWIAAFLTIITGYSYFKACKK</Hsp_hseq>
+      <Hsp_midline>N+P +LT  R+++IPV+I++FY+     +        A++F +A++TD+FDG++AR +   + FG   DP+ADKL+V   +++L+K D    +  ++I+ RE  +S LRE++A +  + SV V+ + K KT  QM A+  L+L         L ++G I+++IA+ LT+ +   Y K   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81692327|sp|Q68XS5.1|PGSA_RICTY</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68XS5</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>4.66866e-28</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1543</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLK</Hsp_qseq>
+      <Hsp_hseq>NLPNYLTIARIMVIPVIILLFYI-----NNSLARKLGALLFVLASITDFFDGYIARKYNLVTSFGKMFDPIADKLLVGCVTIMLLKKDNVDEIPCLLILAREFLVSGLREFLALV--KVSVPVSRLAKLKTFLQMFALSILILGSKGSGIIYLDIVGEIILWIAAFLTIITGYSYFK</Hsp_hseq>
+      <Hsp_midline>N+P +LT  R+++IPV+I+LFY+     +        A++F +A++TD+FDG++AR +   + FG   DP+ADKL+V    ++L+K D    +  ++I+ RE  +S LRE++A +  + SV V+ + K KT  QM A+  L+L         L ++G I+++IA+ LT+ +   Y K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|6225845|sp|Q9ZE96.1|PGSA_RICPR</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZE96</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>5.02809e-28</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1543</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLK</Hsp_qseq>
+      <Hsp_hseq>NLPNYLTIARIMVIPVIILLFYI-----NNSLARKLGALLFVLASITDFFDGYIARKYNLVTSFGKMFDPIADKLLVGCVTIMLLKKDNVDEIPCLLILAREFLVSGLREFLALV--KVSVPVSRLAKLKTFLQMFALSILILGSKGSGIIYLDIVGEIILWIAAFLTIITGYSYFK</Hsp_hseq>
+      <Hsp_midline>N+P +LT  R+++IPV+I+LFY+     +        A++F +A++TD+FDG++AR +   + FG   DP+ADKL+V    ++L+K D    +  ++I+ RE  +S LRE++A +  + SV V+ + K KT  QM A+  L+L         L ++G I+++IA+ LT+ +   Y K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|75537011|sp|Q4UN77.1|PGSA_RICFE</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UN77</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>2.53863e-27</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1547</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWK</Hsp_qseq>
+      <Hsp_hseq>NLPNYLTIARIMVIPVIILAFYI-----NNSLARKLGALLFVLASITDFFDGYIARKYNLVTSFGKMFDPIADKLLIGCVIIMLLKKDNVDEIPCLLILAREFLVSGLREFLALV--KVSVPVSRLAKVKTFLQMFALSILILGSKGSGIIYLDIVGEIILWIAAFLTIITGYSYFKACKK</Hsp_hseq>
+      <Hsp_midline>N+P +LT  R+++IPV+I+ FY+     +        A++F +A++TD+FDG++AR +   + FG   DP+ADKL++   +++L+K D    +  ++I+ RE  +S LRE++A +  + SV V+ + K KT  QM A+  L+L         L ++G I+++IA+ LT+ +   Y K   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|122426156|sp|Q1RKM3.1|PGSA_RICBR</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RKM3</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>6.96239e-27</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1547</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWK</Hsp_qseq>
+      <Hsp_hseq>NLPNYLTIARIAAIPVIILTFYI-----NSPLARMLGALLFVLASITDFFDGYIARKYNLVTSFGKMLDPIADKLLVGCVIIMLLKKSDVDEIPCLLILAREFLVSGLREFLALV--KVSVPVSTLAKTKTFLQMFALSILVLGSKGSNIIYLDLVGEIILWIAAFLTIITGYSYFKACKK</Hsp_hseq>
+      <Hsp_midline>N+P +LT  R+  IPV+I+ FY+     +     +  A++F +A++TD+FDG++AR +   + FG  LDP+ADKL+V   +++L+K      +  ++I+ RE  +S LRE++A +  + SV V+T+ K KT  QM A+  L+L         L ++G I+++IA+ LT+ +   Y K   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|54038833|sp|P63756.1|PGSA_STAAN</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus aureus subsp. aureus N315] &gt;gi|54038834|sp|P63757.1|PGSA_STAAW RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|54041643|sp|P63755.1|PGSA_STAAM RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|60390421|sp|Q6G9T0.1|PGSA_STAAS RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|60390435|sp|Q6GHF2.1|PGSA_STAAR RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81694621|sp|Q5HGE8.1|PGSA_STAAC RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>P63756</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>8.38347e-27</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1542</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPF-----SWFSEEAVNVA---AAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFP--DFYGFNLVVIGNILMFIASLLTVWSMLYYL</Hsp_qseq>
+      <Hsp_hseq>NIPNQITVFRVVLIPVFILFALVDFGFGNVSFLGGYEIRIELLISGFIFILASLSDFVDGYLARKWNLVTNMGKFLDPLADKLLVASALIVLVQLGLTNSVVAIIIIAREFAVTGLRLLQIEQGFVS--AAGQLGKIKTAVTMVAITWLLLGDPLATLIGLSL---GQILLYIGVIFTILSGIEYF</Hsp_hseq>
+      <Hsp_midline>NIP  +T  RV+LIPV I+   + F     S+     + +    +  IF +A+L+D+ DG+LAR W   ++ G FLDP+ADKL+VA +L++LV+L  T  + A+III RE  ++ LR    + G  S  A   +GK KTA  M+AI +LLL  P     G +L   G IL++I  + T+ S + Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|38605277|sp|Q8CPF7.1|PGSA_STAES</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus epidermidis ATCC 12228] &gt;gi|81674882|sp|Q5HPQ8.1|PGSA_STAEQ RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CPF7</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.07776e-26</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1542</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVN--------VAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYL</Hsp_qseq>
+      <Hsp_hseq>NIPNQITVFRVILIPFFILFALVDFGFGQISILGGNHIRIEILISAIIFVVASLSDFADGYLARKWQLVTNMGKFLDPLADKLLVASALIVMVQLGFTNSVVAIIIIAREFAVTGLRLLQIEQGFVS--AAGQLGKIKTAVTMVAIIWILLGDP-FVHYLRFPIGVWLLYIGVFFTILSGIEYF</Hsp_hseq>
+      <Hsp_midline>NIP  +T  RV+LIP  I+   + F +     +         + +A+IF VA+L+D+ DG+LAR W+  ++ G FLDP+ADKL+VA +L+++V+L  T  + A+III RE  ++ LR    + G  S  A   +GK KTA  M+AI ++LL  P F  +    IG  L++I    T+ S + Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|124053368|sp|Q3IYX7.1|PGSA_RHOS4</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Rhodobacter sphaeroides 2.4.1]</Hit_def>
+  <Hit_accession>Q3IYX7</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.10248e-26</Hsp_evalue>
+      <Hsp_query-from>1364</Hsp_query-from>
+      <Hsp_query-to>1509</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MPWNIPIFLTWLRVLLIP---VLIVLFYLPFS-WFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLV---KLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLL</Hsp_qseq>
+      <Hsp_hseq>MNWSIPNILTVLRLLAAPGVAVMFLYFHRPWADWF--------ALTLFILAAVTDFFDGYLARLWKQESKFGAMLDPIADKAMVVIALVIITGYSGMNPWLILPVTLILFREVFVSGLREFLG--AKASLLKVTKLAKWKTTAQMVAIAILFL</Hsp_hseq>
+      <Hsp_midline>M W+IP  LT LR+L  P   V+ + F+ P++ WF        A  +F +AA+TD+FDG+LARLWKQ S FGA LDP+ADK MV ++L+++     ++   +L   +I+ RE+ +S LRE++    K S + V  + K+KT AQM+AI  L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|614108110|sp|P9WPG2.1|PGSA2_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Putative CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyl-transferase 2; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Mycobacterium tuberculosis CDC1551] &gt;gi|614108115|sp|P9WPG3.1|PGSA2_MYCTU RecName: Full=Putative CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyl-transferase 2; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WPG2</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.04853e-16</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1550</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPV-LIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAI--FFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLKMAWKEIA</Hsp_qseq>
+      <Hsp_hseq>NLANILTLLRLVMVPVFLLALFY---GGGHHSAARVVAWAIFATACITDRFDGLLARNYGMATEFGAFVDPIADKTLIGSALIGLSMLGDLPWWVTVLILTRELGVTVLR--LAVI-RRGVIPASWGGKLKTFVQAVAIGLFVLPLSGP------LHVAAVVVMAAAILLTVITGVDYVARALRDIG</Hsp_hseq>
+      <Hsp_midline>N+   LT LR++++PV L+ LFY         A  V A  IFA A +TD FDG LAR +   ++FGAF+DP+ADK ++  +L+ L  L        ++I+ RE+ ++ LR  +A + +R  +  +  GK KT  Q +AI  F L L+ P      L V   ++M  A LLTV + + Y+  A ++I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|37537765|sp|Q80ZM8.1|CRLS1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CLS [Mus musculus]</Hit_def>
+  <Hit_accession>Q80ZM8</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>8.39008e-13</Hsp_evalue>
+      <Hsp_query-from>1365</Hsp_query-from>
+      <Hsp_query-to>1473</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>PWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLW-KQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISA</Hsp_qseq>
+      <Hsp_hseq>PWTIPNLLSMTRIGLAPVLGYLIL-------EEDFNVALGV-FALAGLTDLLDGFIARNWANQKSALGSALDPLADKVLISILYISLTYADLIPVPLTYMIISRDVMLIA</Hsp_hseq>
+      <Hsp_midline>PW IP  L+  R+ L PVL  L         EE  NVA  V FA+A LTD  DGF+AR W  Q S  G+ LDP+ADK+++++  + L   D   V    +II R++ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|81889659|sp|Q5U2V5.1|CRLS1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CLS [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5U2V5</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.11081e-12</Hsp_evalue>
+      <Hsp_query-from>1365</Hsp_query-from>
+      <Hsp_query-to>1473</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>PWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLW-KQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISA</Hsp_qseq>
+      <Hsp_hseq>PWTIPNLLSMTRIGLAPVLGYLIL-------EEDFNVALGV-FALAGLTDLLDGFIARNWANQKSALGSALDPLADKVLISILYISLTYADLIPVPLTYMIISRDVMLIA</Hsp_hseq>
+      <Hsp_midline>PW IP  L+  R+ L PVL  L         EE  NVA  V FA+A LTD  DGF+AR W  Q S  G+ LDP+ADK+++++  + L   D   V    +II R++ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|37537857|sp|Q9UJA2.1|CRLS1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CLS; AltName: Full=Protein GCD10 homolog [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UJA2</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.73354e-12</Hsp_evalue>
+      <Hsp_query-from>1365</Hsp_query-from>
+      <Hsp_query-to>1473</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>PWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLW-KQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISA</Hsp_qseq>
+      <Hsp_hseq>PWTIPNMLSMTRIGLAPVLGYLII-------EEDFNIALGV-FALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSLTYADLIPVPLTYMIISRDVMLIA</Hsp_hseq>
+      <Hsp_midline>PW IP  L+  R+ L PVL  L         EE  N+A  V FA+A LTD  DGF+AR W  Q S  G+ LDP+ADK+++++  + L   D   V    +II R++ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|6093706|sp|O66076.1|PGSA_TREPA</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O66076</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.02205e-11</Hsp_evalue>
+      <Hsp_query-from>1371</Hsp_query-from>
+      <Hsp_query-to>1543</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>FLTWLRVLLIPVLIVLFYLP---FSWFSE----EAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLV---------VIGNILMFIASLLTVWSMLYYLK</Hsp_qseq>
+      <Hsp_hseq>FYTALRLALVLPFFALYHMSRWVVMYFPAANVGRVVSIASVLLFLFIACTDFLDGYYARKSGKYSSFGKVFDPFADVIANVTVMLCLVADNFMPVFLFLCILYREFGMMFLR--MLACGEGHVVGAQRMGKLKTASYMGAVLFSLL-LKALYAFELAGADWYERMRAVGRLVYVVPVVLALASFFSYLK</Hsp_hseq>
+      <Hsp_midline>F T LR+ L+     L+++      +F        V++A+ ++F   A TD+ DG+ AR   + S FG   DP AD +     +L LV  +   V   + I+ RE  +  LR  M   G+   V    +GK KTA+ M A+ F LL     Y F L           +G ++  +  +L + S   YLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2493568|sp|P75520.1|PGSA_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75520</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.53873e-11</Hsp_evalue>
+      <Hsp_query-from>1403</Hsp_query-from>
+      <Hsp_query-to>1505</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIF</Hsp_qseq>
+      <Hsp_hseq>GGVLFITAVISDYLDGYWARKWRVVSNFGKLWDPLADKVIINGVLIALVAYGYFHFSFLIVIVLRDLVLDGLRFYAQE--KQLIIPANQWGKWKTTWQMIAIL</Hsp_hseq>
+      <Hsp_midline>  V+F  A ++D+ DG+ AR W+  S+FG   DP+ADK+++   L+ LV     +  F ++I+ R++ +  LR +  +  K+  +     GK+KT  QM+AI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1346707|sp|P47360.1|PGSA_MYCGE</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Mycoplasma genitalium G37]</Hit_def>
+  <Hit_accession>P47360</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>5.09507e-11</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1541</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>IFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFF--LLLNFPDF------YGFNLVVIGNILMFIASLLTVWSMLYY</Hsp_qseq>
+      <Hsp_hseq>LFLTAVISDYLDGYLARKWLAVSNFGKLWDPIADKVIINGVLIALAINGYFHFSLLIVFIVRDLVLDGMRIYAYE--KKVVIAANWLGKWKTIMQMVGIVFSCFVWSFKQSEIASLNSGLFFWLLTQLPYYLAAVFSIWSFIVY</Hsp_hseq>
+      <Hsp_midline>+F  A ++D+ DG+LAR W   S+FG   DP+ADK+++   L+ L      +    ++ I R++ +  +R +  +  K+  +A   +GK+KT  QM+ I F   + +F          G    ++  +  ++A++ ++WS + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|54038832|sp|P63754.1|PGSA_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Putative CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyl-transferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Mycobacterium bovis AF2122/97] &gt;gi|614108100|sp|P9WPG4.1|PGSA1_MYCTO RecName: Full=Putative CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyl-transferase 1; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Mycobacterium tuberculosis CDC1551] &gt;gi|614108105|sp|P9WPG5.1|PGSA1_MYCTU RecName: Full=Putative CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyl-transferase 1; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P63754</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.36405e-06</Hsp_evalue>
+      <Hsp_query-from>1363</Hsp_query-from>
+      <Hsp_query-to>1542</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>NMPWNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKL-MVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYL</Hsp_qseq>
+      <Hsp_hseq>NRVLTVPNMLSVIRLALIPAFV---YVVLSAHA----NGWGVAILVFSGVSDWADGKIARLLNQSSRLGALLDPAVDRLYMVTVPIVFGLSGIVPW-WFVLTLLTRDALLAGTLPLLWSRG-LSALPVTYVGKAATFGFMVGFPTILLGQCD------PLWSHVLLACGWAFLIWGMYAYL</Hsp_hseq>
+      <Hsp_midline>N    +P  L+ +R+ LIP  +   Y+  S  +    N     I   + ++DW DG +ARL  Q+S  GA LDP  D+L MV V ++  +     +  F + ++ R+  ++     +   G  S++ V  VGK  T   M+    +LL   D       +  ++L+       +W M  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|6225844|sp|O67908.1|PGSA_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase; AltName: Full=Phosphatidylglycerophosphate synthase; Short=PGP synthase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67908</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>2.72811e-06</Hsp_evalue>
+      <Hsp_query-from>1411</Hsp_query-from>
+      <Hsp_query-to>1548</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>ALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLL--LLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFN-LVVIGNILMFIASLLTVWSMLYY----LKMAWKE</Hsp_qseq>
+      <Hsp_hseq>ALMDFLDGFFARKLNQSTRMGKILDPLADKVFTFFSLLSYTFFSKERLNPLIFFLLLGRDITL--IIGGIFLIKRKFTPEPSIYGKFTTL--FVSLSLLSVGILNVYDVNFLRILTNVLEIVSLILILVSWVDYTLKGFKMIFKE</Hsp_hseq>
+      <Hsp_midline>AL D+ DGF AR   Q++  G  LDP+ADK+    SLL       +R   L   +++GR+IT+  +   +  + ++ +   +  GKF T    +++  L +   + Y  N L ++ N+L  ++ +L + S + Y     KM +KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|75249440|sp|Q93YW7.1|CLS_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase, mitochondrial; Short=CLS; AltName: Full=Phosphatidylglycerophosphate synthase 3; Short=PGP synthase 3; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q93YW7</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.32678e-06</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1471</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITI</Hsp_qseq>
+      <Hsp_hseq>NVPNMISMARLVSGPVLW--------WMISNEMYSSAFLGLAVSGASDWLDGYVARRMKINSVVGSYLDPLADKVLIGCVAVAMVQKDLLHPGLVGIVLLRDVAL</Hsp_hseq>
+      <Hsp_midline>N+P  ++  R++  PVL         W     +  +A +  AV+  +DW DG++AR  K  S  G++LDP+ADK+++    + +V+ D  +     I++ R++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|74654577|sp|O13899.1|YF38_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized CDP-alcohol phosphatidyltransferase class-I family protein C22A12.08c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O13899</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>3.65568e-05</Hsp_evalue>
+      <Hsp_query-from>1366</Hsp_query-from>
+      <Hsp_query-to>1478</Hsp_query-to>
+      <Hsp_hit-from>399</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>WNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADK-LMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWM</Hsp_qseq>
+      <Hsp_hseq>FTLPNLLTFSRLLSAPLIAYLYIYDYT--------KAAACFFLYAGFTDLVDGYIARKFDLGSIAGTVLDPLADKTLMTCLTICLAVR-ETMPLTLASLIIGRDVLLVSAVSYL</Hsp_hseq>
+      <Hsp_midline>+ +P  LT+ R+L  P++  L+   ++         AAA  F  A  TD  DG++AR +   S  G  LDP+ADK LM  +++ L V+ +   +  A +IIGR++ + +   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|7674412|sp|O58215.1|Y460_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein PH0460 [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O58215</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>5.31847e-05</Hsp_evalue>
+      <Hsp_query-from>1401</Hsp_query-from>
+      <Hsp_query-to>1543</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>VAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKL-----MVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDFYGFNLVVIGNILMFIASLLTVWSMLYYLK</Hsp_qseq>
+      <Hsp_hseq>ILAGIILAVGAFLDALDGALARATGKVSKFGGFLDSTIDRLSDASILFGIALGGLVRWD---VTFLTLIGSYMVSYSRCRAELAGSG------TLAIGIAERGERIIIIFIASL-------FNAVKIGVYLVAILSWITFIQRVYEAK</Hsp_hseq>
+      <Hsp_midline>+ A +I AV A  D  DG LAR   + S FG FLD   D+L     +  ++L  LV+ D   V F  +I    ++ S  R  +A  G         +G  +   +++ IF   L       FN V IG  L+ I S +T    +Y  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|7387591|sp|Q07560.1|CRD1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Cardiolipin synthase; Short=CLS [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q07560</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>5.70499e-05</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1474</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>NIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAV-IFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVL---FAMIIIGREI--TISAL</Hsp_qseq>
+      <Hsp_hseq>NIPNILTLSRIGCTP-FIGLFII--------TNNLTPALGLFAFSSITDFMDGYIARKYGLKTIAGTILDPLADKLLMITTTLALSVPSGPQIIPVSIAAIILGRDVLLAISAL</Hsp_hseq>
+      <Hsp_midline>NIP  LT  R+   P  I LF +          N+  A+ +FA +++TD+ DG++AR +   +  G  LDP+ADKL++  + L L       ++    A II+GR++   ISAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|38257658|sp|Q8MZC4.1|CRLS1_DROME</Hit_id>
+  <Hit_def>RecName: Full=Probable cardiolipin synthase; Short=CLS [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q8MZC4</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>7.38984e-05</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1469</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>IFAVAALTDWFDGFLARLW-KQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREI</Hsp_qseq>
+      <Hsp_hseq>LLAFAGITDLLDGQIARRWPSQASKFGSFLDPMADKLLMGSLVISLCYTDLLPMWLMGIVVFRDV</Hsp_hseq>
+      <Hsp_midline>+ A A +TD  DG +AR W  Q S FG+FLDP+ADKL++   ++ L   D   +    I++ R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|75251136|sp|Q5N9A1.1|PGPS1_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase 1, chloroplastic; AltName: Full=Phosphatidylglycerophosphate synthase 1; Short=PGP synthase 1; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q5N9A1</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000190206</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1454</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLD</Hsp_qseq>
+      <Hsp_hseq>LALSGASDWLDGFLARKMGINSVFGSYLDPLADKVLIGCVAIAMVEKD</Hsp_hseq>
+      <Hsp_midline> A++  +DW DGFLAR     S FG++LDP+ADK+++    + +V+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|38257351|sp|O01916.1|CRLS1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable cardiolipin synthase 1; Short=CLS [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>O01916</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000288615</Hsp_evalue>
+      <Hsp_query-from>1403</Hsp_query-from>
+      <Hsp_query-to>1541</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>AAVIFAVAALTDWFDGFLAR-LWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITI---------------SALREWMAQMGKRSSVAVATVGKFKTAAQMLAIFFLLLNFPDF---YGFNLVVIGNILMFIASLLTVWSMLYY</Hsp_qseq>
+      <Hsp_hseq>AFVLFTVAGATDLLDGFIARNVPGQKSLLGSVLDPVADKLLISTMFITMTYAGLIPLPLTSVVILRDICLIGGGFYKRYQVMSPPYSLSRFFNPQVSSMQVVPTMMSKINTVLQ-ITLVALSLSSPVFDFSTGANDVIVG--LGCITGFTTIYSGLQY</Hsp_hseq>
+      <Hsp_midline>A V+F VA  TD  DGF+AR +  Q S  G+ LDPVADKL+++   + +       +    ++I R+I +                +L  +         V    + K  T  Q + +  L L+ P F    G N V++G  L  I    T++S L Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|71153053|sp|Q8LBA6.2|PIS1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--inositol 3-phosphatidyltransferase 1; AltName: Full=Phosphatidylinositol synthase 1; Short=AtPIS1; Short=PI synthase 1; Short=PtdIns synthase 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LBA6</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00569583</Hsp_evalue>
+      <Hsp_query-from>1368</Hsp_query-from>
+      <Hsp_query-to>1486</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>IPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWMAQMGKRSS</Hsp_qseq>
+      <Hsp_hseq>IPNIVGYMRVLLNCVAFAVCFSNKPLFS---------VLYFFSFCCDAVDGWVARRFNQVSTFGAVLDMVTDRVSTACLLVILSQIYRPSLVF-LSLLALDIASHWLQMYSTFLAGKSS</Hsp_hseq>
+      <Hsp_midline>IP  + ++RVLL  V   + +     FS         V++  +   D  DG++AR + Q S FGA LD V D++  A  L++L ++ R  ++F + ++  +I    L+ +   +  +SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1723230|sp|Q10153.1|PIS_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--inositol 3-phosphatidyltransferase; AltName: Full=Phosphatidylinositol synthase; Short=PI synthase; Short=PtdIns synthase [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q10153</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0140422</Hsp_evalue>
+      <Hsp_query-from>1372</Hsp_query-from>
+      <Hsp_query-to>1469</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREI</Hsp_qseq>
+      <Hsp_hseq>LGFTRVFL--VLISLYFM--SWHPN-----YCTIVYLYSSLLDAFDGWAARKLHQATNFGAILDMVTDRCATSCLLCFLCAAYPKYAIIFQLLVSLDL</Hsp_hseq>
+      <Hsp_midline>L + RV L  VLI L+++  SW           +++  ++L D FDG+ AR   Q ++FGA LD V D+   +  L  L      Y +   +++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|71153054|sp|Q8GUK6.2|PIS2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable CDP-diacylglycerol--inositol 3-phosphatidyltransferase 2; AltName: Full=Phosphatidylinositol synthase 2; Short=AtPIS2; Short=PI synthase 2; Short=PtdIns synthase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8GUK6</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0373129</Hsp_evalue>
+      <Hsp_query-from>1368</Hsp_query-from>
+      <Hsp_query-to>1464</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>IPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMII</Hsp_qseq>
+      <Hsp_hseq>IPNIVGYMRVLLNCIAFSVCFSNKTLFS---------LLYFFSFCCDAVDGWCARKFNQVSTFGAVLDMVTDRVSTACLLVILSQIYRPSLVFLSLL</Hsp_hseq>
+      <Hsp_midline>IP  + ++RVLL  +   + +   + FS         +++  +   D  DG+ AR + Q S FGA LD V D++  A  L++L ++ R  ++F  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|130240|sp|P06197.1|PIS_YEAST</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--inositol 3-phosphatidyltransferase; AltName: Full=Phosphatidylinositol synthase; Short=PI synthase; Short=PtdIns synthase [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P06197</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.047704</Hsp_evalue>
+      <Hsp_query-from>1366</Hsp_query-from>
+      <Hsp_query-to>1470</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>WNIPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREIT</Hsp_qseq>
+      <Hsp_hseq>WYIPNKIGYVRVITAAL---------SFFVMKNHPTAFTWLYSTSCLLDALDGTMARKYNQVSSLGAVLDMVTDRSSTAGLMCFLCVQYPQWCVFFQLMLGLDIT</Hsp_hseq>
+      <Hsp_midline>W IP  + ++RV+   +         S+F  +    A   +++ + L D  DG +AR + Q S  GA LD V D+   A  +  L      + +F  +++G +IT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|71153849|sp|Q8VDP6.1|CDIPT_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--inositol 3-phosphatidyltransferase; AltName: Full=Phosphatidylinositol synthase; Short=PI synthase; Short=PtdIns synthase [Mus musculus]</Hit_def>
+  <Hit_accession>Q8VDP6</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.160507</Hsp_evalue>
+      <Hsp_query-from>1368</Hsp_query-from>
+      <Hsp_query-to>1478</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>IPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWM</Hsp_qseq>
+      <Hsp_hseq>VPNLIGYARIVF--AIISFYFMPCCPFT-------ASSFYLLSGLLDAFDGHAARALNQGTRFGAMLDMLTDR---CATMCLLVNLALLYPR-ATLLFQLSMSLDVASHWL</Hsp_hseq>
+      <Hsp_midline>+P  + + R++    +I  +++P   F+       A+  + ++ L D FDG  AR   Q + FGA LD + D+     ++ LLV L   Y   A ++    +++     W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|7674155|sp|P70500.1|CDIPT_RAT</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--inositol 3-phosphatidyltransferase; AltName: Full=Phosphatidylinositol synthase; Short=PI synthase; Short=PtdIns synthase [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P70500</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.167889</Hsp_evalue>
+      <Hsp_query-from>1368</Hsp_query-from>
+      <Hsp_query-to>1478</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>IPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTYVLFAMIIIGREITISALREWM</Hsp_qseq>
+      <Hsp_hseq>VPNLIGYARIVF--AIISFYFMPCCPFT-------ASSFYLLSGLLDAFDGHAARALNQGTRFGAMLDMLTDR---CATMCLLVNLALLYPR-ATLLFQLSMSLDVASHWL</Hsp_hseq>
+      <Hsp_midline>+P  + + R++    +I  +++P   F+       A+  + ++ L D FDG  AR   Q + FGA LD + D+     ++ LLV L   Y   A ++    +++     W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|74536282|sp|Q8U1Z6.1|DIPPS_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional IPC transferase and DIPP synthase; Includes: RecName: Full=1L-myo-inositol-1-phosphate cytidylyltransferase; Short=IPCT; Includes: RecName: Full=CDP-L-myo-inositol myo-inositolphosphotransferase; Short=DIPP synthase; AltName: Full=Di-myo-inositol-1,3&apos;-phosphate-1&apos;-phosphate synthase [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8U1Z6</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.256199</Hsp_evalue>
+      <Hsp_query-from>1403</Hsp_query-from>
+      <Hsp_query-to>1450</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLL</Hsp_qseq>
+      <Hsp_hseq>AAILYQISSIFDGVDGEIARARMQTSKFGGFFDSILDRYVDFTYLLTL</Hsp_hseq>
+      <Hsp_midline>AA+++ ++++ D  DG +AR   QTS FG F D + D+ +    LL L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|3914340|sp|O14735.1|CDIPT_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=CDP-diacylglycerol--inositol 3-phosphatidyltransferase; AltName: Full=Phosphatidylinositol synthase; Short=PI synthase; Short=PtdIns synthase [Homo sapiens]</Hit_def>
+  <Hit_accession>O14735</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.605028</Hsp_evalue>
+      <Hsp_query-from>1368</Hsp_query-from>
+      <Hsp_query-to>1457</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>IPIFLTWLRVLLIPVLIVLFYLPFSWFSEEAVNVAAAVIFAVAALTDWFDGFLARLWKQTSDFGAFLDPVADKLMVAVSLLLLVKLDRTY</Hsp_qseq>
+      <Hsp_hseq>VPNLIGYARIVF--AIISFYFMP-------CCPLTASSFYLLSGLLDAFDGHAARALNQGTRFGAMLDMLTDR---CSTMCLLVNLALLY</Hsp_hseq>
+      <Hsp_midline>+P  + + R++    +I  +++P          + A+  + ++ L D FDG  AR   Q + FGA LD + D+     ++ LLV L   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 49, 72, 74, 78, 91, 101, 116, 119, 131, 146, 151, 152, 166, 168, 172, 178,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

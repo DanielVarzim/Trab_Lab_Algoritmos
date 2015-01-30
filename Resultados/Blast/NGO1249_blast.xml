@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>40325</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1390</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>40325</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1390</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2495685|sp|Q57498.1|Y1053_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1053 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q57498</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.58655e-27</Hsp_evalue>
+      <Hsp_query-from>1280</Hsp_query-from>
+      <Hsp_query-to>1390</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MFKDWKEHTALVKKSFGELGKAHPKILQAYGALEQAAA-AEALDAKTRELIAIAVAITTRCESCISVHAAAAAKAGATDSEIAGALATAIALNAGAAYTYALRALEAVETQK</Hsp_qseq>
+      <Hsp_hseq>MFTDWKEHTSHVKKSFGELGKQYPKMLQAYQALGAAAAEGNVLDAKTRELIALAVAVTTRCESCISAHAEEAVKAGASEAEVAAALATAIALNAGAAYTYSLRALEAYSVQK</Hsp_hseq>
+      <Hsp_midline>MF DWKEHT+ VKKSFGELGK +PK+LQAY AL  AAA    LDAKTRELIA+AVA+TTRCESCIS HA  A KAGA+++E+A ALATAIALNAGAAYTY+LRALEA   QK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|140169|sp|P27749.1|Y4147_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein H16_B0147; AltName: Full=ORF 7 [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>P27749</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>5.58148e-11</Hsp_evalue>
+      <Hsp_query-from>1280</Hsp_query-from>
+      <Hsp_query-to>1383</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MFKDWKEHTALVKKSFGELGKAHPKILQAYGALEQAAAAE-ALDAKTRELIAIAVAITTRCESCISVHAAAAAKAGATDSEIAGALATAIALNAGAAYTYALRAL</Hsp_qseq>
+      <Hsp_hseq>MTTDLKTRLTEINRQFGALGQAQPAAMSAFQGVMKAATQDGSLPAAVKELIAVALAVQKGCDDCVLFHTSQALRHRATREQLAEVLAINIEMGGGPGAMYASKAL</Hsp_hseq>
+      <Hsp_midline>M  D K     + + FG LG+A P  + A+  + +AA  + +L A  +ELIA+A+A+   C+ C+  H + A +  AT  ++A  LA  I +  G    YA +AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|140443|sp|P08304.1|YCO4_PARDE</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein 4 in cox locus [Paracoccus denitrificans]</Hit_def>
+  <Hit_accession>P08304</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.11811e-10</Hsp_evalue>
+      <Hsp_query-from>1294</Hsp_query-from>
+      <Hsp_query-to>1387</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SFGELGKAHPKILQAYGALEQAAAAE-ALDAKTRELIAIAVAITTRCESCISVHAAAAAKAGATDSEIAGALATAIALNAGAAYTYALRALEAVE</Hsp_qseq>
+      <Hsp_hseq>ALGETSRAGASIDDAFLALSKVVFADGALDKRTKQLIAVAVAHVTQCPWCIEGHVKGARREGATNEQIMEAIWVAAEMRAGAAYAHANKALAVLD</Hsp_hseq>
+      <Hsp_midline>+ GE  +A   I  A+ AL +   A+ ALD +T++LIA+AVA  T+C  CI  H   A + GAT+ +I  A+  A  + AGAAY +A +AL  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2833560|sp|Q58152.1|Y742_METJA</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein MJ0742 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q58152</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.205606</Hsp_evalue>
+      <Hsp_query-from>1318</Hsp_query-from>
+      <Hsp_query-to>1386</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>AEALDAKTRELIAIAVAITTRC-ESCISVHAAAAAKA-GATDSEIAGALATAIALNAGAAYTYALRALEAV</Hsp_qseq>
+      <Hsp_hseq>GKTLDYKTQKLIAIGI-VASRCDEVAIEKQMKSAMKELGITKEEIADVLRVVLLTSGMPAFTKAMKILEKL</Hsp_hseq>
+      <Hsp_midline> + LD KT++LIAI + + +RC E  I     +A K  G T  EIA  L   +  +   A+T A++ LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81345945|sp|P96684.1|YDFG_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YdfG [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96684</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.659368</Hsp_evalue>
+      <Hsp_query-from>1303</Hsp_query-from>
+      <Hsp_query-to>1360</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PKILQAYGALEQAAAAEALDAKTRELIAIAVAITTRCESCISVHAAAAAKAGATDSEI</Hsp_qseq>
+      <Hsp_hseq>PEGMKIMMDMEKYTKQSSINRTTRELIKIRVSQMNGCAFCIDMHTSDARKMGETEQRI</Hsp_hseq>
+      <Hsp_midline>P+ ++    +E+     +++  TRELI I V+    C  CI +H + A K G T+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81342167|sp|O32166.1|YURZ_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YurZ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32166</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>5.00912</Hsp_evalue>
+      <Hsp_query-from>1313</Hsp_query-from>
+      <Hsp_query-to>1365</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>EQAAAAEALDAKTRELIAIAVAITTRCESCISVHAAAAAKAGATDSEIAGALA</Hsp_qseq>
+      <Hsp_hseq>EQCFAGNSLTEREKQLIALGIAINAQDEYCMIYHTKGCLDQGASEENILEAVS</Hsp_hseq>
+      <Hsp_midline>EQ  A  +L  + ++LIA+ +AI  + E C+  H       GA++  I  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|221222563|sp|B4UA87.1|AHPD_ANASK</Hit_id>
+  <Hit_def>RecName: Full=Alkyl hydroperoxide reductase AhpD; AltName: Full=Alkylhydroperoxidase AhpD [Anaeromyxobacter sp. K]</Hit_def>
+  <Hit_accession>B4UA87</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>5.67041</Hsp_evalue>
+      <Hsp_query-from>1327</Hsp_query-from>
+      <Hsp_query-to>1374</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>ELIAIAVAITTRCESCISVHAAAAAKAGATDSEIAGALATAIALNAGA</Hsp_qseq>
+      <Hsp_hseq>ELFALAVSAVNGCETCVRSHEQVVVAGGLSEDQVHEAVRIAAVLHAAA</Hsp_hseq>
+      <Hsp_midline>EL A+AV+    CE+C+  H       G ++ ++  A+  A  L+A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254802200|sp|B8J9Z2.1|AHPD_ANAD2</Hit_id>
+  <Hit_def>RecName: Full=Alkyl hydroperoxide reductase AhpD; AltName: Full=Alkylhydroperoxidase AhpD [Anaeromyxobacter dehalogenans 2CP-1]</Hit_def>
+  <Hit_accession>B8J9Z2</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>5.8786</Hsp_evalue>
+      <Hsp_query-from>1327</Hsp_query-from>
+      <Hsp_query-to>1374</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>ELIAIAVAITTRCESCISVHAAAAAKAGATDSEIAGALATAIALNAGA</Hsp_qseq>
+      <Hsp_hseq>ELFALAVSAVNGCETCVRSHEQVVVAGGLSEDQVHEAVRIAAVLHAAA</Hsp_hseq>
+      <Hsp_midline>EL A+AV+    CE+C+  H       G ++ ++  A+  A  L+A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81628711|sp|Q83BM5.3|AHPD_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Alkyl hydroperoxide reductase AhpD; AltName: Full=Alkylhydroperoxidase AhpD [Coxiella burnetii RSA 493] &gt;gi|221222579|sp|A9N917.1|AHPD_COXBR RecName: Full=Alkyl hydroperoxide reductase AhpD; AltName: Full=Alkylhydroperoxidase AhpD [Coxiella burnetii RSA 331] &gt;gi|221222641|sp|A9KBI4.3|AHPD_COXBN RecName: Full=Alkyl hydroperoxide reductase AhpD; AltName: Full=Alkylhydroperoxidase AhpD [Coxiella burnetii Dugway 5J108-111] &gt;gi|254802203|sp|B6IZ19.1|AHPD_COXB2 RecName: Full=Alkyl hydroperoxide reductase AhpD; AltName: Full=Alkylhydroperoxidase AhpD [Coxiella burnetii CbuG_Q212]</Hit_def>
+  <Hit_accession>Q83BM5</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>8.8664</Hsp_evalue>
+      <Hsp_query-from>1317</Hsp_query-from>
+      <Hsp_query-to>1374</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AAEALDAKTRELIAIAVAITTRCESCISVHAAAAAKAGATDSEIAGALATAIALNAGA</Hsp_qseq>
+      <Hsp_hseq>ANPGIDKKDFELYSLAVSAINGCGLCIDAHANTLIKAGFSKHSIQHVIRIAAVLNGLA</Hsp_hseq>
+      <Hsp_midline>A   +D K  EL ++AV+    C  CI  HA    KAG +   I   +  A  LN  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 49, 64, 66, 70, 83, 93, 108, 111, 123, 138, 143, 144, 158, 160, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

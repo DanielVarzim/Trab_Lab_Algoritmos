@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>46517</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1836</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>46517</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1836</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75355795|sp|Q5F7E5.1|ILVC_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F7E5</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>687.567</Hsp_bit-score>
+      <Hsp_score>1773</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_hseq>
+      <Hsp_midline>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|18203134|sp|Q9JTI3.1|ILVC_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JTI3</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.33</Hsp_bit-score>
+      <Hsp_score>1762</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRQGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVVELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGAQLRAMMPWITANKLVDQDKN</Hsp_hseq>
+      <Hsp_midline>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLR GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGV ELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGA+LRAMMPWITANKLVDQDKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|18203147|sp|Q9JYI2.1|ILVC_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Neisseria meningitidis MC58] &gt;gi|166233600|sp|A1KUZ8.1|ILVC_NEIMF RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Neisseria meningitidis FAM18] &gt;gi|189045066|sp|A9M177.1|ILVC_NEIM0 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>Q9JYI2</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>334</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRQGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVTANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVVELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGAQLRAMMPWITANKLVDQDKN</Hsp_hseq>
+      <Hsp_midline>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLR GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEV ANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGV ELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGA+LRAMMPWITANKLVDQDKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|50400408|sp|Q7P0H9.1|ILVC_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7P0H9</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.964</Hsp_bit-score>
+      <Hsp_score>1530</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDADLSIIKGKKVAIIGYGSQGHAHAQNLKESGVDVIVGLRKDGASWKKAEAAGHKVKEVAEAVKKADVVMILLPDESQPEVYHKDIAPNLKKGAALAFAHGFNIHYNQIVPPADVDVIMVAPKGPGHTVRSEYLKGGGVPTLIAVYQDKTGKARDVALSYAAANGGTKGGVIETNFREETETDLFGEQAVLCGGAVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVVTAATKEAMKKALYRIQSGEYAKMFILEGKTNYPSMTARRRLTAAHPIEKVGAELRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKDADLS+IKGK VAIIGYGSQGHAHA NLK+SGV+V++GLR  G+SWKKAEAAGH VK VAEA K+ADVVM+LLPDE+ P VYH ++A NLK+GA LAFAHGFN+HYNQIVP AD+DVIMVAPKGPGHTVRSEY +GGGVP+LIAVYQD +GKA+D+ALSYAAANGGTKGGVIET FREETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEVV A++KEAM+ AL RIQ+GEYAKMFI EG  NY SMTARRRL A H +EKVGA LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|254803574|sp|C1DA41.1|ILVC_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DA41</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>587.415</Hsp_bit-score>
+      <Hsp_score>1513</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDADLSIIRDKKVAIIGYGSQGHAHAQNLKESGVDVIVGLRKDGASWKKAEAAGHTVKEVGEAVKTADVVMILLPDETQPDVYRNDIAPNLKKGAALAFAHGFNIHYNQIVPPADIDVIMIAPKGPGHTVRSEFLKGGGVPSLIAVYQDHSGRARDVALSYAAANGGTKGGVIETSFREETETDLFGEQAVLCGGAVELVKAGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVITAASKEAMKKALYRIQSGEYAKMFILEGKTNYPSMTARRRLTADHPIEKVGAELRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKDADLS+I+ K VAIIGYGSQGHAHA NLK+SGV+V++GLR  G+SWKKAEAAGH VK V EA K ADVVM+LLPDET P VY  ++A NLK+GA LAFAHGFN+HYNQIVP AD+DVIM+APKGPGHTVRSE+ +GGGVPSLIAVYQD+SG+A+D+ALSYAAANGGTKGGVIET+FREETETDLFGEQAVLCGG  EL+KAGFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+ A+SKEAM+ AL RIQ+GEYAKMFI EG  NY SMTARRRL ADH +EKVGA LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|90110775|sp|Q47BH8.1|ILVC_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47BH8</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.096</Hsp_bit-score>
+      <Hsp_score>1494</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>299</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDADLSLIKGKKVTIVGYGSQGHAHAQNLKDSGVKVTVGLRKDGASWKKAEAAGLKVEEIAKAVKGADVVMILLPDENIPQVYNEEVAPNLKKGAALAFAHGFNVHYNQVVPRADVDVIMVAPKGPGHTVRSEYLKGGGVPSLIAVYQDVTKKAKDIALSYAAANGGTKGGVIETNFREETETDLFGEQAVLCGGAVELVKMGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGTEVINEQSRVAMRNALKRIQTGEYAKMFIQEGKTNYPSMTARRRLNAVHPIETVGGQLRDMMPWIRKNKLVDQTKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKDADLSLIKGK V I+GYGSQGHAHA NLKDSGV V +GLR  G+SWKKAEAAG  V+ +A+A K ADVVM+LLPDE +P VY+ EVA NLK+GA LAFAHGFNVHYNQ+VPRAD+DVIMVAPKGPGHTVRSEY +GGGVPSLIAVYQD + KAKDIALSYAAANGGTKGGVIET FREETETDLFGEQAVLCGG  EL+K GFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTG EV+N  S+ AMRNALKRIQTGEYAKMFIQEG  NY SMTARRRLNA H +E VG +LR MMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81356119|sp|Q5NXP4.1|ILVC_AROAE</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5NXP4</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.17</Hsp_bit-score>
+      <Hsp_score>1489</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>299</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDADLSLIKGKQITIVGYGSQGHAHAQNLKDSGCKVTVGLRKSGASWKKAEAAGLDVREVAEAVSNADIVMILLPDENIPGVYYNDVEPNIKQGATLAFAHGFNVHYNQVVPRDDLDVIMVAPKGPGHTVRSEYLKGGGVPSLIAVHQDRSGKAKDIALSYAAANGGTKGGVIETNFREETETDLFGEQAVLCGGAVELVKMGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINEQSREAMRAALKRIQTGEYAKMFIQEGRTNYPSMTARRRLNAAHPIEQVGGQLRDMMPWIKKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKDADLSLIKGK + I+GYGSQGHAHA NLKDSG  V +GLR  G+SWKKAEAAG  V+ VAEA   AD+VM+LLPDE +P VY+ +V  N+K+GATLAFAHGFNVHYNQ+VPR DLDVIMVAPKGPGHTVRSEY +GGGVPSLIAV+QD SGKAKDIALSYAAANGGTKGGVIET FREETETDLFGEQAVLCGG  EL+K GFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+N  S+EAMR ALKRIQTGEYAKMFIQEG  NY SMTARRRLNA H +E+VG +LR MMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166233545|sp|A1KAB7.1|ILVC_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1KAB7</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>577.785</Hsp_bit-score>
+      <Hsp_score>1488</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>299</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDADLSLIKGKKVTIVGYGSQGHAHAQNLNDSGVKVTVAVRKGGASWDKAKAAGLKVEEIAKAVKTADLVMILLPDENIPQVYKEEVEPNIKKGATLAFAHGFNVHYNQVVPREDLDVIMVAPKGPGHTVRSEYLRGGGVPSLIAVYQDKSGKAKDIALSYAAANGGTKGGVIETNFKEETETDLFGEQAVLCGGAVELVKMGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINAQSREAMRNALKRIQTGEYAKMFIQEGKTNYPSMTARRRLNAEHPIEQVGGQLRDMMPWIKAKALVDKSKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKDADLSLIKGK V I+GYGSQGHAHA NL DSGV V + +R G +SW KA+AAG  V+ +A+A K AD+VM+LLPDE +P VY  EV  N+K+GATLAFAHGFNVHYNQ+VPR DLDVIMVAPKGPGHTVRSEY RGGGVPSLIAVYQD SGKAKDIALSYAAANGGTKGGVIET F+EETETDLFGEQAVLCGG  EL+K GFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+NA S+EAMRNALKRIQTGEYAKMFIQEG  NY SMTARRRLNA+H +E+VG +LR MMPWI A  LVD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|226709861|sp|A9BME9.1|ILVC_DELAS</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Delftia acidovorans SPH-1]</Hit_def>
+  <Hit_accession>A9BME9</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>568.155</Hsp_bit-score>
+      <Hsp_score>1463</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>297</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLIKGKTVAIIGYGSQGHAHAQNLNESGVKVVVGLRKGGASWDKVAKAGLTVAEVDDAVKSADLVMILLPDENIPEVYNNNVAPNIKQGATLAFAHGFNIHYNQVVPRADLDVIMVAPKGPGHTVRSEYLKGGGVPSLIAVYQDKSGKARDLALSYAMANGGGKGGIIETNFKEETETDLFGEQAVLCGGAVELVKMGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGTEVINDKSREAMRAALKRIQTGEYAKMFIQEGRTNYPSMTARRRMNADHAIEKVGGQLRAMMPWISKNKLVDQSRN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSLIKGKTVAIIGYGSQGHAHA NL +SGV VV+GLR G +SW K   AG  V  V +A K AD+VM+LLPDE +P VY+  VA N+K+GATLAFAHGFN+HYNQ+VPRADLDVIMVAPKGPGHTVRSEY +GGGVPSLIAVYQD SGKA+D+ALSYA ANGG KGG+IET F+EETETDLFGEQAVLCGG  EL+K GFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTG EV+N  S+EAMR ALKRIQTGEYAKMFIQEG  NY SMTARRR+NADH +EKVG +LRAMMPWI+ NKLVDQ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|116248136|sp|Q1GZE9.1|ILVC_METFK</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1GZE9</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.51</Hsp_bit-score>
+      <Hsp_score>1412</Hsp_score>
+      <Hsp_evalue>2.65972e-178</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLR-HGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDADLSLIKKLKVTIVGYGSQGHAHAQNLKDSGVNVTIGARKEGSSFAKAVNAGHEVKEIKEAVTGADVVMVLLPDETMAEIYHAEIEPNLKKGAALAFAHGFNIHYNQIVPSKDLDVIMIAPKGPGHTVRSEYLKGGGVPSLIAVYQDASGKAKDIALSYAAANGGTKGGVIETNFREETETDLFGEQAVLCGGAVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPRVIADQARAAMKECLKNIQNGDYAKQFILEGRTGYPSMTARRRLNAAHPIEQVGSQLRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKDADLSLIK   V I+GYGSQGHAHA NLKDSGVNV IG R  GSS+ KA  AGH VK + EA   ADVVM+LLPDETM  +YHAE+  NLK+GA LAFAHGFN+HYNQIVP  DLDVIM+APKGPGHTVRSEY +GGGVPSLIAVYQD SGKAKDIALSYAAANGGTKGGVIET FREETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGP V+   ++ AM+  LK IQ G+YAK FI EG   Y SMTARRRLNA H +E+VG++LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166233538|sp|A1TRT6.1|ILVC_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TRT6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.354</Hsp_bit-score>
+      <Hsp_score>1409</Hsp_score>
+      <Hsp_evalue>7.7766e-178</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLIKGKTVAIIGYGSQGHAHAQNLNDSGVKVVVGLRKGGASWDKVGKAGLTVLEVNEAVKSADVVMILLPDEQIAEVYKNNVEPNIKQGASLAFAHGFNVHYNQVVPRADLDVWMVAPKAPGHTVRSTYSQGGGVPHLVAVHQDKSGKARDLALSYAMANGGGKAGIIETNFKEETETDLFGEQAVLCGGAVELIKMGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEFGEYVTGPEVINEQSRAAMRNALKRIQNGDYAKMFIQEGRLNYPSMTARRRNTADHKIEVVGAQLRAMMPWIAKNKLVDQSRN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSLIKGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW K   AG  V  V EA K ADVVM+LLPDE +  VY   V  N+K+GA+LAFAHGFNVHYNQ+VPRADLDV MVAPK PGHTVRS Y +GGGVP L+AV+QD SGKA+D+ALSYA ANGG K G+IET F+EETETDLFGEQAVLCGG  ELIK GFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAE+GEYVTGPEV+N  S+ AMRNALKRIQ G+YAKMFIQEG +NY SMTARRR  ADH++E VGA+LRAMMPWI  NKLVDQ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|166233540|sp|A1W6T4.1|ILVC_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acidovorax sp. JS42] &gt;gi|254803566|sp|B9MA35.1|ILVC_ACIET RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acidovorax ebreus TPSY]</Hit_def>
+  <Hit_accession>A1W6T4</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>1.10054e-176</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLIKGKTVAIIGYGSQGHAHAQNLNDSGVKVVVGLRKGGASWDKVGKAGLTVKEVNDAVKEADVVMILLPDEQIAEVYKNNVEPHIKQGASLAFAHGFNVHYNQVVPRADLDVWMVAPKAPGHTVRNTYTQGGGVPHLVAVHQDKSGKARDLALSYAMANGGGKAGIIETNFKEETETDLFGEQAVLCGGAVELIKMGYETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEFGEYVTGPEVINEQSRAAMRNALKRIQNGDYAKMFIQEGRLNYPSMTARRRNTADHSIEVVGAQLRAMMPWIAKNKLVDQTRN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSLIKGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW K   AG  VK V +A KEADVVM+LLPDE +  VY   V  ++K+GA+LAFAHGFNVHYNQ+VPRADLDV MVAPK PGHTVR+ Y +GGGVP L+AV+QD SGKA+D+ALSYA ANGG K G+IET F+EETETDLFGEQAVLCGG  ELIK G+ETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAE+GEYVTGPEV+N  S+ AMRNALKRIQ G+YAKMFIQEG +NY SMTARRR  ADH +E VGA+LRAMMPWI  NKLVDQ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|116248130|sp|Q2S9V9.1|ILVC_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2S9V9</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>4.55161e-173</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGS-SWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MQVYYDKDCDLSIIQGKKVAIIGYGSQGHAHANNLKDSGVDVCVGLRKGSGSWAKAENAGLAVKEVAEAVAGADVVMILTPDEFQAQLYKSEIEPNLKSGATLAFAHGFSIHYNQIVPRADLDVIMIAPKAPGHTVRSEFVKGGGIPDLIAIFQDASGSAKDLALSYASGVGGGRTGIIETTFKDETETDLFGEQAVLCGGAVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINDQSRAAMRNALKRIQDGEYAKMFIAEGAHNYPSMTAYRRNNAAHPIEQVGEKLRSMMPWIASNKIVDKSKN</Hsp_hseq>
+      <Hsp_midline>MQVYYDKD DLS+I+GK VAIIGYGSQGHAHA NLKDSGV+V +GLR GS SW KAE AG  VK VAEA   ADVVM+L PDE    +Y +E+  NLK GATLAFAHGF++HYNQIVPRADLDVIM+APK PGHTVRSE+ +GGG+P LIA++QD SG AKD+ALSYA+  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+N  S+ AMRNALKRIQ GEYAKMFI EG  NY SMTA RR NA H +E+VG +LR+MMPWI +NK+VD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123059883|sp|Q12B50.1|ILVC_POLSJ</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Polaromonas sp. JS666]</Hit_def>
+  <Hit_accession>Q12B50</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.946</Hsp_bit-score>
+      <Hsp_score>1369</Hsp_score>
+      <Hsp_evalue>3.1101e-172</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLIKGKTVAIIGYGSQGHAHAQNLNDSGVKVVVGLRKGGASWPKVEKAGLKVAEVADAVKAADVVMILLPDEQIGAVYANDVAPNIKQGASLVFAHGFNVHYGAVIPRADLDVWMVAPKAPGHTVRNTYTQGGGVPHLVAVHQDKSGKARDLALSYAMANGGGKAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPNIVTSATKEAMRKCLKDIQTGEYAKSFLLENRVGAPTLLSRRRLNAEHQIEIVGEKLRAMMPWIAKNKLVDQTRN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSLIKGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW K E AG  V  VA+A K ADVVM+LLPDE + AVY  +VA N+K+GA+L FAHGFNVHY  ++PRADLDV MVAPK PGHTVR+ Y +GGGVP L+AV+QD SGKA+D+ALSYA ANGG K G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP +V +++KEAMR  LK IQTGEYAK F+ E  V   ++ +RRRLNA+HQ+E VG +LRAMMPWI  NKLVDQ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|226709827|sp|B7H047.1|ILVC_ACIB3</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acinetobacter baumannii AB307-0294] &gt;gi|226709828|sp|B7I5I9.1|ILVC_ACIB5 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acinetobacter baumannii AB0057] &gt;gi|226709829|sp|B2HTC8.1|ILVC_ACIBC RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acinetobacter baumannii ACICU] &gt;gi|226709830|sp|B0VKP5.1|ILVC_ACIBS RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acinetobacter baumannii SDF] &gt;gi|226709831|sp|B0V5G8.1|ILVC_ACIBY RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acinetobacter baumannii AYE] &gt;gi|226709961|sp|A3M254.2|ILVC_ACIBT RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acinetobacter baumannii ATCC 17978]</Hit_def>
+  <Hit_accession>B7H047</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.635</Hsp_bit-score>
+      <Hsp_score>1363</Hsp_score>
+      <Hsp_evalue>2.55336e-171</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGS-SWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MQIFYDKDCDLSIIQSKKVAIIGYGSQGHAHALNLKDSGVDVTVGLRAGSASWKKAENAGLKVAEVPAAVKQADLVMILTPDEFQSQLYRDVIEPNIKEGATLAFAHGFSVLYNQVVPRKDLDVIMVAPKAPGHTVRSEFQRGSGVPDLIAIHQDASGNARNVALSYASGVGGGRTGIIETSFREETETDLFGEQAVLCGGAVELVKMGFETLVEAGYAPEMAYFECLHELKLIVDLMFEGGIADMNYSVSNNAEYGEYVTGPEVINEQSREAMRNALKRIQSGEYAKMFIQEGALNYPSMTARRRQNAAHGIEQTGAKLRAMMPWIQANKIVDKEKN</Hsp_hseq>
+      <Hsp_midline>MQ++YDKD DLS+I+ K VAIIGYGSQGHAHA NLKDSGV+V +GLR GS SWKKAE AG  V  V  A K+AD+VM+L PDE    +Y   +  N+KEGATLAFAHGF+V YNQ+VPR DLDVIMVAPK PGHTVRSE++RG GVP LIA++QD SG A+++ALSYA+  GG + G+IET+FREETETDLFGEQAVLCGG  EL+K GFETL EAGYAPEMAYFECLHE+KLIVDL+FEGGIA+MNYS+SNNAEYGEYVTGPEV+N  S+EAMRNALKRIQ+GEYAKMFIQEG +NY SMTARRR NA H +E+ GA+LRAMMPWI ANK+VD++KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|259491748|sp|C5CYN9.1|ILVC_VARPS</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Variovorax paradoxus S110]</Hit_def>
+  <Hit_accession>C5CYN9</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.25</Hsp_bit-score>
+      <Hsp_score>1362</Hsp_score>
+      <Hsp_evalue>4.09441e-171</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDADLSLIKGKTVAIIGYGSQGHAHAQNLNDSGVKVVVGLRKGGASWPKVEKAGLKVAEVADAVKAADVVMILLPDEQIASVYKNDVAPNIKEGASLVFAHGFNVHYGFVQPRADLDVWMVAPKAPGHTVRSTYTQGGGVPHLVAVHQDKSGKARDLALSYATANGGGKAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRIVTEETKKVMKQVLKDIQTGEYAKSFVLENAAGAPTLISRRRLNSEHQIEVVGEKLRAMMPWIKKNKLVDQTRN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKDADLSLIKGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW K E AG  V  VA+A K ADVVM+LLPDE + +VY  +VA N+KEGA+L FAHGFNVHY  + PRADLDV MVAPK PGHTVRS Y +GGGVP L+AV+QD SGKA+D+ALSYA ANGG K G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP +V   +K+ M+  LK IQTGEYAK F+ E      ++ +RRRLN++HQ+E VG +LRAMMPWI  NKLVDQ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166233604|sp|A1VN04.1|ILVC_POLNA</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Polaromonas naphthalenivorans CJ2]</Hit_def>
+  <Hit_accession>A1VN04</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.094</Hsp_bit-score>
+      <Hsp_score>1359</Hsp_score>
+      <Hsp_evalue>9.4022e-171</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLIKGKTVAIIGYGSQGHAHAQNLNDSGVKVVVGLRKGGASWPKVEKAGLQVAEVADAVKAADVVMILLPDEQIGAVYKNDVAPNIKQGASLVFAHGFNVHYGAVIPRDDLDVWMVAPKAPGHTVRNTYTQGGGVPHLVAVHQDKSGKARDLALSYAMANGGGKAGIIETNFREETETDLFGEQAVLCGGAVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRIVTEDTKNAMRAVLKDIQTGEYAKSFLLENIAGAPTLISRRRLNAEHQIEQVGGKLRAMMPWIAKNKLVDQTRN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSLIKGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW K E AG  V  VA+A K ADVVM+LLPDE + AVY  +VA N+K+GA+L FAHGFNVHY  ++PR DLDV MVAPK PGHTVR+ Y +GGGVP L+AV+QD SGKA+D+ALSYA ANGG K G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP +V   +K AMR  LK IQTGEYAK F+ E      ++ +RRRLNA+HQ+E+VG +LRAMMPWI  NKLVDQ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|50400589|sp|Q8XXN8.1|ILVC_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8XXN8</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.094</Hsp_bit-score>
+      <Hsp_score>1359</Hsp_score>
+      <Hsp_evalue>1.01024e-170</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLR-HGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKNVTIIGYGSQGHAHALNLNDSGVKVTVGLRKNGASWNKAVNAGLQVKEVAEAVKDADVVMILLPDEQIADVYKNEVHGNIKQGAALAFAHGFNVHYGAVIPRADLDVIMVAPKAPGHTVRGTYAQGGGVPHLIAVHQDKSGSARDIALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIGNMNYSISNNAEYGEYVTGPRVVTAETKQAMKQCLHDIQTGEYAKSFLLENKAGAPTLISRRRLTADHQIEQVGAKLRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NL DSGV V +GLR +G+SW KA  AG  VK VAEA K+ADVVM+LLPDE +  VY  EV  N+K+GA LAFAHGFNVHY  ++PRADLDVIMVAPK PGHTVR  Y +GGGVP LIAV+QD SG A+DIALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGI NMNYSISNNAEYGEYVTGP VV A +K+AM+  L  IQTGEYAK F+ E      ++ +RRRL ADHQ+E+VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|189045068|sp|A4SXR3.1|ILVC_POLSQ</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1]</Hit_def>
+  <Hit_accession>A4SXR3</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.094</Hsp_bit-score>
+      <Hsp_score>1359</Hsp_score>
+      <Hsp_evalue>1.10798e-170</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKKVTIIGYGSQGHAHALNLKDSGCNVTVGLRKGGASWSKAENAGLTVKEVGEAVKDADVVMMLLPDEQIADVYNKEVHGNIKQGAALAFAHGFNVHYGQVQPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVYQDKSGSARDVALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGAVDLIKTGFEVLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEDTKNAMRQCLKDIQTGEYAKSFILENKAGAPTLISRRRLNAEHEIEIVGAKLRAMMPWIAKNKLVDQTKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSG NV +GLR G +SW KAE AG  VK V EA K+ADVVM+LLPDE +  VY+ EV  N+K+GA LAFAHGFNVHY Q+ PRADLDVIM+APK PGHTVR  Y +GGGVP LIAVYQD SG A+D+ALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  +LIK GFE L EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K AMR  LK IQTGEYAK FI E      ++ +RRRLNA+H++E VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|116248146|sp|Q1LPX7.1|ILVC_RALME</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LPX7</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>525.783</Hsp_bit-score>
+      <Hsp_score>1353</Hsp_score>
+      <Hsp_evalue>6.73926e-170</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKNVTIIGYGSQGHAHALNLKDSGVNVTVGLRKSGASWNKAVNAGLQVKEVAEAVKGADVVMILLPDEQIADVYKNEVHANIKEGAALAFAHGFNVHYGAVIPRADLDVIMIAPKAPGHTVRSTYAQGGGVPHLIAVHQNKSGAARDIALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLKDIQTGEYAKSFLLENKAGAPTLISRRRLTAEHQIEEVGGKLRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR  G+SW KA  AG  VK VAEA K ADVVM+LLPDE +  VY  EV AN+KEGA LAFAHGFNVHY  ++PRADLDVIM+APK PGHTVRS Y +GGGVP LIAV+Q+ SG A+DIALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  LK IQTGEYAK F+ E      ++ +RRRL A+HQ+E+VG +LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|90110793|sp|Q4FUB6.1|ILVC_PSYA2</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Psychrobacter arcticus 273-4]</Hit_def>
+  <Hit_accession>Q4FUB6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>525.398</Hsp_bit-score>
+      <Hsp_score>1352</Hsp_score>
+      <Hsp_evalue>1.10247e-169</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGS-SWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MNVYYDKDCDLSIVQGKKVAIIGYGSQGHAHALNLQDSNVDVTVGLRADSGSWKKAENAGLKVAEVEEAVKAADIIMILTPDEFQKELYNDVIEPNIKQGATLAFAHGFAIHYNQVIPRSDLDVIMVAPKAPGHTVRSEFAKGGGIPDLIAIYQDASGQAKQLALSYAAGVGGGRSGIIETTFKDETETDLFGEQAVLCGGAVELVKMGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIADMNYSISNNAEYGEYVTGPEVINEQSREAMRNALKRIQSGEYAKMFISEGATNYPSMTARRRNNAEHQIEITGAKLRGMMPWIGGNKIIDKDKN</Hsp_hseq>
+      <Hsp_midline>M VYYDKD DLS+++GK VAIIGYGSQGHAHA NL+DS V+V +GLR  S SWKKAE AG  V  V EA K AD++M+L PDE    +Y+  +  N+K+GATLAFAHGF +HYNQ++PR+DLDVIMVAPK PGHTVRSE+ +GGG+P LIA+YQD SG+AK +ALSYAA  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+K GFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIA+MNYSISNNAEYGEYVTGPEV+N  S+EAMRNALKRIQ+GEYAKMFI EG  NY SMTARRR NA+HQ+E  GA+LR MMPWI  NK++D+DKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|116248145|sp|Q1QDE6.1|ILVC_PSYCK</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Psychrobacter cryohalolentis K5]</Hit_def>
+  <Hit_accession>Q1QDE6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>525.398</Hsp_bit-score>
+      <Hsp_score>1352</Hsp_score>
+      <Hsp_evalue>1.11383e-169</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGS-SWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MNVYYDKDCDLSIVQGKKVAIIGYGSQGHAHALNLQDSNVDVTVGLRANSGSWKKAENAGLKVAEVEEAVKAADIIMILTPDEFQKELYNDVIEPNIKQGATLAFAHGFAIHYNQVIPRSDLDVIMVAPKAPGHTVRSEFAKGGGIPDLIAIYQDASGQAKQLALSYAAGVGGGRSGIIETTFKDETETDLFGEQAVLCGGAVELVKMGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIADMNYSISNNAEYGEYVTGPEVINEQSREAMRNALKRIQSGEYAKMFISEGATNYPSMTARRRNNAEHQIEITGAKLRGMMPWIGGNKIIDKDKN</Hsp_hseq>
+      <Hsp_midline>M VYYDKD DLS+++GK VAIIGYGSQGHAHA NL+DS V+V +GLR  S SWKKAE AG  V  V EA K AD++M+L PDE    +Y+  +  N+K+GATLAFAHGF +HYNQ++PR+DLDVIMVAPK PGHTVRSE+ +GGG+P LIA+YQD SG+AK +ALSYAA  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+K GFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIA+MNYSISNNAEYGEYVTGPEV+N  S+EAMRNALKRIQ+GEYAKMFI EG  NY SMTARRR NA+HQ+E  GA+LR MMPWI  NK++D+DKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|116248123|sp|Q1R092.1|ILVC_CHRSD</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Chromohalobacter salexigens DSM 3043]</Hit_def>
+  <Hit_accession>Q1R092</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>525.013</Hsp_bit-score>
+      <Hsp_score>1351</Hsp_score>
+      <Hsp_evalue>1.14862e-169</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSW-KKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MRVYYDKDCDLSLIQAKNVTIVGYGSQGHAHAHNLKESGVDVTVALRPGSSSVAKAEAAGFKVASVPDACKTADVLMLLAPDENQKAIYEQDIAPNLKQGATLAFAHGFNIHYNQVTPRADLDVIMIAPKAPGHTVRSEFVRGAGVPDLIAVQQDATGQAKELALSYAAGVGGGRSGIIETTFKDETETDLFGEQAVLCGGAVELVKAGFETLTEAGYEPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINEQSREAMRNALKRIQNGEYAKMFISEGNSNYPSMHARRRLNAEHPVEQVGEKLRGMMPWIAANQLVDKSKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKD DLSLI+ K V I+GYGSQGHAHA NLK+SGV+V + LR GSS   KAEAAG  V +V +A K ADV+MLL PDE   A+Y  ++A NLK+GATLAFAHGFN+HYNQ+ PRADLDVIM+APK PGHTVRSE+ RG GVP LIAV QD +G+AK++ALSYAA  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETLTEAGY PEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+N  S+EAMRNALKRIQ GEYAKMFI EGN NY SM ARRRLNA+H VE+VG +LR MMPWI AN+LVD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|259491727|sp|C1DFH7.1|ILVC_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DFH7</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.242</Hsp_bit-score>
+      <Hsp_score>1349</Hsp_score>
+      <Hsp_evalue>2.63511e-169</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGS-SWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVYYDKDCDLSIIQSKKVAIIGYGSQGHAHACNLKDSGVDVYVGLRAGSASVAKAEAHGLTVKSVKDAVAAADVVMILTPDEFQGRLYKDEIEPNLKKGATLAFAHGFSIHYNQVVPRADLDVIMIAPKAPGHTVRSEFVRGGGIPDLIAVYQDASGNAKNLALSYACGVGGGRTGIIETTFKDETETDLFGEQAVLCGGCVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMFEGGIANMNYSISNNAEYGEYVTGPEVINEQSRQAMRNALKRIQDGEYAKMFITEGAANYPSMTAYRRNNAAHQIEVVGEKLRTMMPWIAANKIVDKTKN</Hsp_hseq>
+      <Hsp_midline>M+VYYDKD DLS+I+ K VAIIGYGSQGHAHA NLKDSGV+V +GLR GS S  KAEA G  VK+V +A   ADVVM+L PDE    +Y  E+  NLK+GATLAFAHGF++HYNQ+VPRADLDVIM+APK PGHTVRSE+ RGGG+P LIAVYQD SG AK++ALSYA   GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL+FEGGIANMNYSISNNAEYGEYVTGPEV+N  S++AMRNALKRIQ GEYAKMFI EG  NY SMTA RR NA HQ+E VG +LR MMPWI ANK+VD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|226710455|sp|B2U7S3.1|ILVC_RALPJ</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Ralstonia pickettii 12J]</Hit_def>
+  <Hit_accession>B2U7S3</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.857</Hsp_bit-score>
+      <Hsp_score>1348</Hsp_score>
+      <Hsp_evalue>4.13663e-169</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLR-HGSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKNVTIIGYGSQGHAHALNLNDSGVKVTVGLRKNGASWNKAVNAGLQVKEVAEAVKEADVVMILLPDEQIADVYKNEVHGNIKQGAALAFAHGFNVHYGAVIPRADLDVIMIAPKAPGHTVRGTYTQGGGVPHLIAVHQDKSGAARDIALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLKDIQTGEYAKSFLLEYKAGQPTLISRRRLTEEHQIEQVGAKLRAMMPWIAKNKLVDQTKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NL DSGV V +GLR +G+SW KA  AG  VK VAEA KEADVVM+LLPDE +  VY  EV  N+K+GA LAFAHGFNVHY  ++PRADLDVIM+APK PGHTVR  Y +GGGVP LIAV+QD SG A+DIALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  LK IQTGEYAK F+ E      ++ +RRRL  +HQ+E+VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|90110794|sp|Q473V5.1|ILVC_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q473V5</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.087</Hsp_bit-score>
+      <Hsp_score>1346</Hsp_score>
+      <Hsp_evalue>7.7288e-169</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKNVTIIGYGSQGHAHALNLKDSGVNVTVGLRKSGASWNKAVNAGLQVKEVAEAVKGADVVMILLPDEQIADVYKNEVHDNIKAGAALAFAHGFNVHYGAVVPRADVDVIMIAPKAPGHTVRATYTQGGGVPHLIAVYQDKSGSARDVALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRIVTEETKKAMKQCLKDIQTGEYAKSFLLENKAGAPTLSSRRRLNAEHQIEVVGEKLRAMMPWIAKNKMVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR  G+SW KA  AG  VK VAEA K ADVVM+LLPDE +  VY  EV  N+K GA LAFAHGFNVHY  +VPRAD+DVIM+APK PGHTVR+ Y +GGGVP LIAVYQD SG A+D+ALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP +V   +K+AM+  LK IQTGEYAK F+ E      ++++RRRLNA+HQ+E VG +LRAMMPWI  NK+VDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|81613037|sp|Q6F821.1|ILVC_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6F821</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.931</Hsp_bit-score>
+      <Hsp_score>1343</Hsp_score>
+      <Hsp_evalue>1.63267e-168</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGS-SWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MQIFYDKDCDLSIIQGKKVAIIGYGSQGHAHALNLKDSGVDVTVGLRANSASWKKAENAGLKVAEVPEAVKQADLVMILTPDEFQSQLYRDVIEPNIKEGATLAFAHGFSVLYNQVVPRQDLDVIMVAPKAPGHTVRSEFQRGSGVPDLIAIHQDASGNARNVALSYASGVGGGRTGIIETSFREETETDLFGEQAVLCGGAVELVKMGFETLVEAGYSPEMAYFECLHELKLIVDLMFEGGIADMNYSVSNNAEYGEYVTGVEVINEQSREAMRNALKRIQSGEYAKMFIQEGALNYPSMTARRRQNAAHGIEVTGSKLRAMMPWIQANKIVDKEKN</Hsp_hseq>
+      <Hsp_midline>MQ++YDKD DLS+I+GK VAIIGYGSQGHAHA NLKDSGV+V +GLR  S SWKKAE AG  V  V EA K+AD+VM+L PDE    +Y   +  N+KEGATLAFAHGF+V YNQ+VPR DLDVIMVAPK PGHTVRSE++RG GVP LIA++QD SG A+++ALSYA+  GG + G+IET+FREETETDLFGEQAVLCGG  EL+K GFETL EAGY+PEMAYFECLHE+KLIVDL+FEGGIA+MNYS+SNNAEYGEYVTG EV+N  S+EAMRNALKRIQ+GEYAKMFIQEG +NY SMTARRR NA H +E  G++LRAMMPWI ANK+VD++KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|226709901|sp|B1XUJ0.1|ILVC_POLNS</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Polynucleobacter necessarius subsp. necessarius STIR1]</Hit_def>
+  <Hit_accession>B1XUJ0</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.931</Hsp_bit-score>
+      <Hsp_score>1343</Hsp_score>
+      <Hsp_evalue>1.68362e-168</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKKVTIIGYGSQGHAHALNLKDSGVNVTVGLRKDGASWSKAANAGLTVKEVDEAVKDADVVMMLLPDEQIADVYNKEVHGNIKQGAALAFAHGFNVHYGQVQSRADLDVIMIAPKAPGHKVRGTYAQGGGVPHLIAVYQDKSGSARDVALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGAVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEDTKNAMRQCLKDIQTGEYAKSFILENKAGAPTLISRRRLNAEHDIEVVGAKLRAMMPWIAKNKLVDETKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR  G+SW KA  AG  VK V EA K+ADVVM+LLPDE +  VY+ EV  N+K+GA LAFAHGFNVHY Q+  RADLDVIM+APK PGH VR  Y +GGGVP LIAVYQD SG A+D+ALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K AMR  LK IQTGEYAK FI E      ++ +RRRLNA+H +E VGA+LRAMMPWI  NKLVD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|226709841|sp|A9IGJ3.1|ILVC_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9IGJ3</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.931</Hsp_bit-score>
+      <Hsp_score>1343</Hsp_score>
+      <Hsp_evalue>1.98344e-168</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLVKGKTVAIIGYGSQGHAHALNLHDSGVKVVVGLRKGGASWNKAANAGLEVKEVAEAVKVADVVMMLLPDENIAAVYRNEVHANIKAGAALAFAHGFNVHYGQVVPRDDIDVIMIAPKAPGHTVRSTYTQGGGVPHLVAVHQDKSGSARDVALSYASANGGGRAGIIETDFREETETDLFGEQAVLCGGTVELIKAGFDTLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEFGEYETGPKIVTEQTRQAMRDALVAIQTGEYAKKFILENAAGAPTLTSRRRINAESQIEQVGGKLRAMMPWIAANKLVDKSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSL+KGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW KA  AG  VK VAEA K ADVVM+LLPDE + AVY  EV AN+K GA LAFAHGFNVHY Q+VPR D+DVIM+APK PGHTVRS Y +GGGVP L+AV+QD SG A+D+ALSYA+ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGF+TL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAE+GEY TGP++V   +++AMR+AL  IQTGEYAK FI E      ++T+RRR+NA+ Q+E+VG +LRAMMPWI ANKLVD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|116248121|sp|Q2SZP8.1|ILVC_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SZP8</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.776</Hsp_bit-score>
+      <Hsp_score>1340</Hsp_score>
+      <Hsp_evalue>4.27552e-168</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKQVTIIGYGSQGHAHALNLKDSGVNVTVGLRRGGASWSKAENAGLAVKEVAEAVKGADVVMMLLPDEQIAAVYAQEVHANIKEGATLAFAHGFNVHYGQVIPRADLDVIMVAPKAPGHTVRGTYAQGGGVPHLIAVAQDKSGAARDIALSYAAANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLTDIQTGEYAKSFILENKAGAPTLQSRRRLTAEHQIEQVGSKLRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR G +SW KAE AG  VK VAEA K ADVVM+LLPDE + AVY  EV AN+KEGATLAFAHGFNVHY Q++PRADLDVIMVAPK PGHTVR  Y +GGGVP LIAV QD SG A+DIALSYAAANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  L  IQTGEYAK FI E      ++ +RRRL A+HQ+E+VG++LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|172048505|sp|A5WD25.1|ILVC_PSYWF</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Psychrobacter sp. PRwf-1]</Hit_def>
+  <Hit_accession>A5WD25</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.776</Hsp_bit-score>
+      <Hsp_score>1340</Hsp_score>
+      <Hsp_evalue>5.08845e-168</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGS-SWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MNVYYDKDCDLSIIQAKKVAIIGYGSQGHAHALNLQDSGVDVTVGLRKDSGSWKKAENAGLKVAEVAQAVQAADVVMILTPDEFQKSLYEDVIEPNIKEGATLAFAHGFAIHYNQVVPRKDLDVIMVAPKAPGHTVRSEFVKGGGIPDLIAIYQDASGQAKQVALSYASGVGGGRSGIIETTFKDETETDLFGEQAVLCGGAVELVKMGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIADMNYSISNNAEYGEYVTGPEVINEQSREAMRNALKRIQSGEYAKMFITEGATNYPSMTARRRNNADHEIEKTGAKLRSMMPWIGGNKIIDKEKN</Hsp_hseq>
+      <Hsp_midline>M VYYDKD DLS+I+ K VAIIGYGSQGHAHA NL+DSGV+V +GLR  S SWKKAE AG  V  VA+A + ADVVM+L PDE   ++Y   +  N+KEGATLAFAHGF +HYNQ+VPR DLDVIMVAPK PGHTVRSE+ +GGG+P LIA+YQD SG+AK +ALSYA+  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+K GFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIA+MNYSISNNAEYGEYVTGPEV+N  S+EAMRNALKRIQ+GEYAKMFI EG  NY SMTARRR NADH++EK GA+LR+MMPWI  NK++D++KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166233579|sp|A6SZZ1.1|ILVC_JANMA</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6SZZ1</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.005</Hsp_bit-score>
+      <Hsp_score>1338</Hsp_score>
+      <Hsp_evalue>8.75461e-168</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLIKGKNVAIIGYGSQGHAHAQNLNDSGVKVTVGLRKGGASWDKVKNAGLNVAEVNDAVKAADVIMILLPDENIAQVYNENVAPYAKQGAVLAFAHGFNVHYGQVVPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVYQDKSGVARDIALSYAMANGGGRAGIIETNFREETETDLFGEQAVLCGGAVELIKAGFETLTEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPKVVTEDTKNAMRQCLKDIQTGEYAKSFILENKAGAPTLISRRRLTAEHQIEEVGAKLRAMMPWIAKNKLVDQTKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSLIKGK VAIIGYGSQGHAHA NL DSGV V +GLR G +SW K + AG  V  V +A K ADV+M+LLPDE +  VY+  VA   K+GA LAFAHGFNVHY Q+VPRADLDVIM+APK PGHTVR  Y +GGGVP LIAVYQD SG A+DIALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETLTEAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP+VV   +K AMR  LK IQTGEYAK FI E      ++ +RRRL A+HQ+E+VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|226709858|sp|B3R3V4.1|ILVC_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B3R3V4</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.62</Hsp_bit-score>
+      <Hsp_score>1337</Hsp_score>
+      <Hsp_evalue>1.29171e-167</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKNVTIIGYGSQGHAHALNLKDSGVNVTVGLRKSGASWNKAVNAGLQVKEVAEAVKNADVVMILLPDEQIADVYKNEVHANIKEGAALAFAHGFNVHYGAVIPRADLDVIMIAPKAPGHTVRATYTQGGGVPHLIAVHQNKSGAARDIALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLKDIQTGEYAKSFLLENKAGAPTLISRRRLNAEHEIEVVGEKLRAMMPWIAKNKMVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR  G+SW KA  AG  VK VAEA K ADVVM+LLPDE +  VY  EV AN+KEGA LAFAHGFNVHY  ++PRADLDVIM+APK PGHTVR+ Y +GGGVP LIAV+Q+ SG A+DIALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  LK IQTGEYAK F+ E      ++ +RRRLNA+H++E VG +LRAMMPWI  NK+VDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81380053|sp|Q63VP6.1|ILVC_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia pseudomallei K96243] &gt;gi|81604644|sp|Q62IM0.1|ILVC_BURMA RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia mallei ATCC 23344] &gt;gi|90110770|sp|Q3JUC2.1|ILVC_BURP1 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia pseudomallei 1710b] &gt;gi|166233552|sp|A3MI87.1|ILVC_BURM7 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia mallei NCTC 10247] &gt;gi|166233553|sp|A2S472.1|ILVC_BURM9 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia mallei NCTC 10229] &gt;gi|166233554|sp|A1V2K2.1|ILVC_BURMS RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia mallei SAVP1] &gt;gi|166233555|sp|A3NT91.1|ILVC_BURP0 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia pseudomallei 1106a] &gt;gi|166233556|sp|A3N7K4.1|ILVC_BURP6 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>Q63VP6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.235</Hsp_bit-score>
+      <Hsp_score>1336</Hsp_score>
+      <Hsp_evalue>2.11112e-167</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKQVTIIGYGSQGHAHALNLKDSGVNVTVGLRRGGASWSKAENAGLAVKEVAEAVKGADVVMMLLPDEQIAAVYAQEVHANIKEGAALAFAHGFNVHYGQVIPRADLDVIMVAPKAPGHTVRGTYAQGGGVPHLIAVAQDKSGAARDIALSYAAANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLTDIQTGEYAKSFILENKAGAPTLQSRRRLTAEHQIEQVGSKLRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR G +SW KAE AG  VK VAEA K ADVVM+LLPDE + AVY  EV AN+KEGA LAFAHGFNVHY Q++PRADLDVIMVAPK PGHTVR  Y +GGGVP LIAV QD SG A+DIALSYAAANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  L  IQTGEYAK FI E      ++ +RRRL A+HQ+E+VG++LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|226709850|sp|B3PK17.1|ILVC_CELJU</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Cellvibrio japonicus Ueda107]</Hit_def>
+  <Hit_accession>B3PK17</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.85</Hsp_bit-score>
+      <Hsp_score>1335</Hsp_score>
+      <Hsp_evalue>2.59058e-167</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSW-KKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MHVYYDKDCDLSIIQSKKVAIIGYGSQGHAHACNLKDSGVDVVVGLRPGSATVKKAEAHGLKVTDVKSAVASADLVMILTPDEFQSKLYKEEIEPNIKKGAALAFAHGFAIHYNQVVPRADLDVIMIAPKAPGHTVRSEFVKGGGIPDLIAIYQDASGKAKDLALSYASGVGGGRTGIIETTFKDETETDLFGEQAVLCGGCVELVKAGFETLVDAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPRVINDESRKAMRQALKDIQDGEYAKKFVLEGQTNYASMTAYRRNNAAHQIEVVGAKLRAMMPWIQANKIVDKAKN</Hsp_hseq>
+      <Hsp_midline>M VYYDKD DLS+I+ K VAIIGYGSQGHAHA NLKDSGV+VV+GLR GS+  KKAEA G  V  V  A   AD+VM+L PDE    +Y  E+  N+K+GA LAFAHGF +HYNQ+VPRADLDVIM+APK PGHTVRSE+ +GGG+P LIA+YQD SGKAKD+ALSYA+  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETL +AGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGP V+N  S++AMR ALK IQ GEYAK F+ EG  NYASMTA RR NA HQ+E VGA+LRAMMPWI ANK+VD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|50400439|sp|Q7W566.1|ILVC_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Bordetella parapertussis 12822] &gt;gi|50400441|sp|Q7WCP6.1|ILVC_BORBR RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7W566</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.464</Hsp_bit-score>
+      <Hsp_score>1334</Hsp_score>
+      <Hsp_evalue>3.21157e-167</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLVKGKTVAIIGYGSQGHAHALNLHDSGVKVVVGLRKGGASWNKAANAGLEVAEVAEAVKRADIVMMLLPDENIAAVYRDEVHANIKAGAALAFAHGFNVHYGQVVPREDIDVIMVAPKAPGHTVRSTYSQGGGVPHLIAVYQDKSGSARDVALSYASANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFDTLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEFGEYETGPKVVTDATRQAMRECLTAIQTGEYAKKFILENAAGAPTLTSRRRINAESQIEQVGGKLRAMMPWIAANKLVDKAKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSL+KGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW KA  AG  V  VAEA K AD+VM+LLPDE + AVY  EV AN+K GA LAFAHGFNVHY Q+VPR D+DVIMVAPK PGHTVRS Y +GGGVP LIAVYQD SG A+D+ALSYA+ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGF+TL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAE+GEY TGP+VV  ++++AMR  L  IQTGEYAK FI E      ++T+RRR+NA+ Q+E+VG +LRAMMPWI ANKLVD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|123134266|sp|Q0KCU2.1|ILVC_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0KCU2</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.464</Hsp_bit-score>
+      <Hsp_score>1334</Hsp_score>
+      <Hsp_evalue>3.38015e-167</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKNVTIIGYGSQGHAHALNLKDSGVNVTVGLRKSGASWNKAANAGLQVKEVAEAVKGADVVMILLPDEQIADVYKNEVHDNIKEGAALAFAHGFNVHYGAVIPRADLDVIMIAPKAPGHTVRATYTQGGGVPHLIAVHQNKSGAARDIALSYATANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLTDIQTGEYAKSFLLENKAGAPTLISRRRLTAEHQIEEVGAKLRAMMPWIAKNKMVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR  G+SW KA  AG  VK VAEA K ADVVM+LLPDE +  VY  EV  N+KEGA LAFAHGFNVHY  ++PRADLDVIM+APK PGHTVR+ Y +GGGVP LIAV+Q+ SG A+DIALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  L  IQTGEYAK F+ E      ++ +RRRL A+HQ+E+VGA+LRAMMPWI  NK+VDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|166233610|sp|A6VCE7.1|ILVC_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6VCE7</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.538</Hsp_bit-score>
+      <Hsp_score>1329</Hsp_score>
+      <Hsp_evalue>1.61659e-166</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSW-KKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MRVFYDKDCDLSIIQGKKVAIIGYGSQGHAHACNLKDSGVDVTVGLRSGSATVAKAEAHGLKVADVKSAVAAADVVMILTPDEFQGRLYKEEIEPNLKKGATLAFAHGFSIHYNQVVPRADLDVIMIAPKAPGHTVRSEFVKGGGIPDLIAIYQDASGNAKNVALSYACGVGGGRTGIIETTFKDETETDLFGEQAVLCGGCVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINAESRAAMRNALKRIQDGEYAKMFITEGAANYPSMTAYRRNNAAHPIEQIGEKLRAMMPWIAANKIVDKSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLS+I+GK VAIIGYGSQGHAHA NLKDSGV+V +GLR GS+   KAEA G  V  V  A   ADVVM+L PDE    +Y  E+  NLK+GATLAFAHGF++HYNQ+VPRADLDVIM+APK PGHTVRSE+ +GGG+P LIA+YQD SG AK++ALSYA   GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+NA S+ AMRNALKRIQ GEYAKMFI EG  NY SMTA RR NA H +E++G +LRAMMPWI ANK+VD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|50400436|sp|Q7VZU4.1|ILVC_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VZU4</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.538</Hsp_bit-score>
+      <Hsp_score>1329</Hsp_score>
+      <Hsp_evalue>2.06623e-166</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLVKGKTVAIIGYGSQGHAHALNLHDSGVKVVVGLRKGGASWNKAANAGLEVAEVAEAVKRADIVMMLLPDENIAAVYRDEVHANIKAGAALAFAHGFNVHYGQVVPREDIDVIMAAPKAPGHTVRSTYSQGGGVPHLIAVYQDKSGSARDVALSYASANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFDTLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEFGEYETGPKVVTDATRQAMRECLTAIQTGEYAKKFILENAAGAPTLTSRRRINAESQIEQVGGKLRAMMPWIAANKLVDKAKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSL+KGKTVAIIGYGSQGHAHA NL DSGV VV+GLR G +SW KA  AG  V  VAEA K AD+VM+LLPDE + AVY  EV AN+K GA LAFAHGFNVHY Q+VPR D+DVIM APK PGHTVRS Y +GGGVP LIAVYQD SG A+D+ALSYA+ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGF+TL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAE+GEY TGP+VV  ++++AMR  L  IQTGEYAK FI E      ++T+RRR+NA+ Q+E+VG +LRAMMPWI ANKLVD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|18203001|sp|Q9HVA2.1|ILVC_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Pseudomonas aeruginosa PAO1] &gt;gi|122257149|sp|Q02FX9.1|ILVC_PSEAB RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Pseudomonas aeruginosa UCBPP-PA14] &gt;gi|226709905|sp|B7V1A6.1|ILVC_PSEA8 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>Q9HVA2</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.538</Hsp_bit-score>
+      <Hsp_score>1329</Hsp_score>
+      <Hsp_evalue>2.06623e-166</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSW-KKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MRVFYDKDCDLSIIQGKKVAIIGYGSQGHAHACNLKDSGVDVTVGLRSGSATVAKAEAHGLKVADVKTAVAAADVVMILTPDEFQGRLYKEEIEPNLKKGATLAFAHGFSIHYNQVVPRADLDVIMIAPKAPGHTVRSEFVKGGGIPDLIAIYQDASGNAKNVALSYACGVGGGRTGIIETTFKDETETDLFGEQAVLCGGCVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINAESRAAMRNALKRIQDGEYAKMFITEGAANYPSMTAYRRNNAAHPIEQIGEKLRAMMPWIAANKIVDKSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLS+I+GK VAIIGYGSQGHAHA NLKDSGV+V +GLR GS+   KAEA G  V  V  A   ADVVM+L PDE    +Y  E+  NLK+GATLAFAHGF++HYNQ+VPRADLDVIM+APK PGHTVRSE+ +GGG+P LIA+YQD SG AK++ALSYA   GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+NA S+ AMRNALKRIQ GEYAKMFI EG  NY SMTA RR NA H +E++G +LRAMMPWI ANK+VD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|116248119|sp|Q2KWH7.1|ILVC_BORA1</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Bordetella avium 197N]</Hit_def>
+  <Hit_accession>Q2KWH7</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.153</Hsp_bit-score>
+      <Hsp_score>1328</Hsp_score>
+      <Hsp_evalue>2.21953e-166</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLVKGKTVAIIGYGSQGHAHALNLHESGVKVVVGLRKGGASWNKAANAGLEVAEVAEAVKRADVVMMLLPDENIAAVYRDEVHANIKPGAALAFAHGFNVHYGQVVPREDIDVIMVAPKAPGHTVRSTYSQGGGVPHLVAVYQDKSGAARDVALSYASANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFDTLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEFGEYETGPKVVTDETRKAMRQCLTDIQTGEYAKRFILENAAGAPTLTSRRRINAESQIEVVGAKLRAMMPWIAANKLVDKSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSL+KGKTVAIIGYGSQGHAHA NL +SGV VV+GLR G +SW KA  AG  V  VAEA K ADVVM+LLPDE + AVY  EV AN+K GA LAFAHGFNVHY Q+VPR D+DVIMVAPK PGHTVRS Y +GGGVP L+AVYQD SG A+D+ALSYA+ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGF+TL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAE+GEY TGP+VV   +++AMR  L  IQTGEYAK FI E      ++T+RRR+NA+ Q+E VGA+LRAMMPWI ANKLVD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|166233578|sp|A4G4H8.1|ILVC_HERAR</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Herminiimonas arsenicoxydans]</Hit_def>
+  <Hit_accession>A4G4H8</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.768</Hsp_bit-score>
+      <Hsp_score>1327</Hsp_score>
+      <Hsp_evalue>3.81573e-166</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSLIKGKNVAIIGYGSQGHAHAQNLNDSGCKVTVGLRKGGASWDKVKNAGLNVAEVNDAVKAADVIMILLPDENIAQVYNENVAPHAKQGAVLAFAHGFNVHYGQVVPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVYQDKSGVARDIALSYAMANGGGRAGIIETNFREETETDLFGEQAVLCGGAVELIKAGFETLTEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRIVTEDTKNAMRQCLKDIQTGEYAKSFILENKAGAPTLISRRRLNAEHDIEQVGAKLRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLSLIKGK VAIIGYGSQGHAHA NL DSG  V +GLR G +SW K + AG  V  V +A K ADV+M+LLPDE +  VY+  VA + K+GA LAFAHGFNVHY Q+VPRADLDVIM+APK PGHTVR  Y +GGGVP LIAVYQD SG A+DIALSYA ANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETLTEAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP +V   +K AMR  LK IQTGEYAK FI E      ++ +RRRLNA+H +E+VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|116248122|sp|Q142I6.1|ILVC_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q142I6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.998</Hsp_bit-score>
+      <Hsp_score>1325</Hsp_score>
+      <Hsp_evalue>6.23235e-166</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKQVTIIGYGSQGHAHALNLKESGVNITVGLRKGGASWSKAENAGLQVKEVAEAVKGADVVMMLLPDEQIAEVYAKEVHANIKQGAALAFAHGFNVHYGQVIPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVAQDKSGAARDIALSYAAANGGGRAGIIETNFREETETDLFGEQAVLCGGTVDLIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRIVTAETKKAMKAVLTDIQTGEYAKSFILENKAGAPTLQSRRRLTAEHQIEQVGSKLRAMMPWIAKNKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLK+SGVN+ +GLR G +SW KAE AG  VK VAEA K ADVVM+LLPDE +  VY  EV AN+K+GA LAFAHGFNVHY Q++PRADLDVIM+APK PGHTVR  Y +GGGVP LIAV QD SG A+DIALSYAAANGG + G+IET FREETETDLFGEQAVLCGG  +LIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP +V A +K+AM+  L  IQTGEYAK FI E      ++ +RRRL A+HQ+E+VG++LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|226709848|sp|B2T2D1.1|ILVC_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2T2D1</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.612</Hsp_bit-score>
+      <Hsp_score>1324</Hsp_score>
+      <Hsp_evalue>8.91235e-166</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDADLSLIKGKQVTIIGYGSQGHAHALNLKESGVNITVGLRKGGASWSKAENAGLQVKEVAEAVKGADVVMMLLPDEQIAEVYAKEVHANIKQGAALAFAHGFNVHYGQVIPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVAQDKSGAARDIALSYAAANGGGRAGIIETNFREETETDLFGEQAVLCGGTVDLIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRIVTAETKKAMKAVLTDIQTGEYAKSFIIENKAGAPTLQSRRRLTAEHQIETVGAKLRSMMPWIAANKLVDQSKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKDADLSLIKGK V IIGYGSQGHAHA NLK+SGVN+ +GLR G +SW KAE AG  VK VAEA K ADVVM+LLPDE +  VY  EV AN+K+GA LAFAHGFNVHY Q++PRADLDVIM+APK PGHTVR  Y +GGGVP LIAV QD SG A+DIALSYAAANGG + G+IET FREETETDLFGEQAVLCGG  +LIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP +V A +K+AM+  L  IQTGEYAK FI E      ++ +RRRL A+HQ+E VGA+LR+MMPWI ANKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|166233583|sp|A1TZ11.1|ILVC_MARAV</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1TZ11</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.227</Hsp_bit-score>
+      <Hsp_score>1323</Hsp_score>
+      <Hsp_evalue>1.48549e-165</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSS-WKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MQVYYDKDCDLSIIQGKKVAILGFGSQGHAHACNLKDSGVDVVVGLRAGSSSIAKAEAYGLKTSDVASAVASADVVMVLTPDEFQAQLYREEIEPNLKQGATLAFAHGFAIHYNQIVPRKDLDVIMVAPKAPGHTVRTEFTKGGGIPDLIAIFQDASGNAKNVALSYASGIGGGRTGIIETTFKDETETDLFGEQAVLCGGAVELVKAGFETLTEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINEQSREAMRNALKRIQSGEYAKMFISEGALNYPSMTARRRQNAAHEIETVGEKLRSMMPWISANKIVDKDKN</Hsp_hseq>
+      <Hsp_midline>MQVYYDKD DLS+I+GK VAI+G+GSQGHAHA NLKDSGV+VV+GLR GSS   KAEA G     VA A   ADVVM+L PDE    +Y  E+  NLK+GATLAFAHGF +HYNQIVPR DLDVIMVAPK PGHTVR+E+ +GGG+P LIA++QD SG AK++ALSYA+  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETLTEAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+N  S+EAMRNALKRIQ+GEYAKMFI EG +NY SMTARRR NA H++E VG +LR+MMPWI+ANK+VD+DKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166233613|sp|A4VPI6.1|ILVC_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VPI6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.457</Hsp_bit-score>
+      <Hsp_score>1321</Hsp_score>
+      <Hsp_evalue>2.19012e-165</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSS-WKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVSYDKDCDLSIIQGKKVAIIGYGSQGHAHACNLKDSGVDVTVGLRPGSSSIAKAEAHGLKVSDVPAAVAAADLVMILTPDEFQGRLYKDEVEPNLKQGATLAFAHGFSIHYNQVVPRADLDVIMIAPKAPGHTVRSEFVKGGGIPDLIAIYQDASGNARNVALSYACGVGGGRTGIIETTFKDETETDLFGEQAVLCGGCVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMFEGGIANMNYSISNNAEYGEYVTGPEVINAESRAAMRNALKRIQDGEYAKMFITEGAANYPSMTAYRRNNAAHGIEVVGEKLRAMMPWIAANKIVDKSKN</Hsp_hseq>
+      <Hsp_midline>M+V YDKD DLS+I+GK VAIIGYGSQGHAHA NLKDSGV+V +GLR GSS   KAEA G  V  V  A   AD+VM+L PDE    +Y  EV  NLK+GATLAFAHGF++HYNQ+VPRADLDVIM+APK PGHTVRSE+ +GGG+P LIA+YQD SG A+++ALSYA   GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL+FEGGIANMNYSISNNAEYGEYVTGPEV+NA S+ AMRNALKRIQ GEYAKMFI EG  NY SMTA RR NA H +E VG +LRAMMPWI ANK+VD+ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|116248120|sp|Q1BUZ9.1|ILVC_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia cenocepacia AU 1054] &gt;gi|166233551|sp|A0K937.1|ILVC_BURCH RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia cenocepacia HI2424] &gt;gi|166233557|sp|A4JGE3.1|ILVC_BURVG RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia vietnamiensis G4] &gt;gi|226709844|sp|B1JVQ4.1|ILVC_BURCC RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia cenocepacia MC0-3]</Hit_def>
+  <Hit_accession>Q1BUZ9</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.686</Hsp_bit-score>
+      <Hsp_score>1319</Hsp_score>
+      <Hsp_evalue>5.06051e-165</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MNVFYDKDADLSLIKGKQVTIIGYGSQGHAHALNLKDSGVNVTVGLRKGGASWSKAENAGLSVKEVAEAVKGADVVMMLLPDEQIADVYAKEVHANIKQGAALAFAHGFNVHYGQVIPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVAQNKSGAARDIALSYAAANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLTDIQTGEYAKSFILENKAGAPTLQSRRRLTAEHQIEQVGAKLRAMMPWIAKNKLVDQTKN</Hsp_hseq>
+      <Hsp_midline>M V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR G +SW KAE AG  VK VAEA K ADVVM+LLPDE +  VY  EV AN+K+GA LAFAHGFNVHY Q++PRADLDVIM+APK PGHTVR  Y +GGGVP LIAV Q+ SG A+DIALSYAAANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  L  IQTGEYAK FI E      ++ +RRRL A+HQ+E+VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|226709846|sp|A9AJN1.1|ILVC_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>A9AJN1</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.531</Hsp_bit-score>
+      <Hsp_score>1316</Hsp_score>
+      <Hsp_evalue>1.09951e-164</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHG-SSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MNVFYDKDADLSLIKGKQVTIIGYGSQGHAHALNLKDSGVNVTVGLRKGGASWSKAENAGLAVKEVAEAVKGADVVMMLLPDEQIADVYAKEVHANIKQGAALAFAHGFNVHYGQVIPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVAQNKSGAARDIALSYAAANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLTDIQTGEYAKSFILENKAAAPTLQSRRRLTAEHQIEQVGAKLRAMMPWIAKNKLVDQTKN</Hsp_hseq>
+      <Hsp_midline>M V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR G +SW KAE AG  VK VAEA K ADVVM+LLPDE +  VY  EV AN+K+GA LAFAHGFNVHY Q++PRADLDVIM+APK PGHTVR  Y +GGGVP LIAV Q+ SG A+DIALSYAAANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  L  IQTGEYAK FI E      ++ +RRRL A+HQ+E+VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|122322630|sp|Q0BDB6.1|ILVC_BURCM</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia ambifaria AMMD] &gt;gi|226709843|sp|B1YTS0.1|ILVC_BURA4 RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>Q0BDB6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.531</Hsp_bit-score>
+      <Hsp_score>1316</Hsp_score>
+      <Hsp_evalue>1.25555e-164</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRH-GSSWKKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MNVFYDKDADLSLIKGKQVTIIGYGSQGHAHALNLKDSGVNVTVGLRKDGASWSKAENAGLSVKEVAEAVKGADVVMMLLPDEQIADVYAKEVHANIKQGAALAFAHGFNVHYGQVIPRADLDVIMIAPKAPGHTVRGTYSQGGGVPHLIAVAQNKSGAARDIALSYAAANGGGRAGIIETNFREETETDLFGEQAVLCGGTVELIKAGFETLVEAGYAPEMAYFECLHELKLIVDLIYEGGIANMNYSISNNAEYGEYVTGPRVVTEETKKAMKQCLTDIQTGEYAKSFILENKAGAPTLQSRRRLTAEHQIEQVGAKLRAMMPWIAKNKLVDQTKN</Hsp_hseq>
+      <Hsp_midline>M V+YDKDADLSLIKGK V IIGYGSQGHAHA NLKDSGVNV +GLR  G+SW KAE AG  VK VAEA K ADVVM+LLPDE +  VY  EV AN+K+GA LAFAHGFNVHY Q++PRADLDVIM+APK PGHTVR  Y +GGGVP LIAV Q+ SG A+DIALSYAAANGG + G+IET FREETETDLFGEQAVLCGG  ELIKAGFETL EAGYAPEMAYFECLHE+KLIVDLI+EGGIANMNYSISNNAEYGEYVTGP VV   +K+AM+  L  IQTGEYAK FI E      ++ +RRRL A+HQ+E+VGA+LRAMMPWI  NKLVDQ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|31563086|sp|Q888N4.1|ILVC_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Ketol-acid reductoisomerase; AltName: Full=Acetohydroxy-acid isomeroreductase; AltName: Full=Alpha-keto-beta-hydroxylacyl reductoisomerase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q888N4</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.146</Hsp_bit-score>
+      <Hsp_score>1315</Hsp_score>
+      <Hsp_evalue>1.5878e-164</Hsp_evalue>
+      <Hsp_query-from>1500</Hsp_query-from>
+      <Hsp_query-to>1836</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MQVYYDKDADLSLIKGKTVAIIGYGSQGHAHAANLKDSGVNVVIGLRHGSSW-KKAEAAGHVVKTVAEATKEADVVMLLLPDETMPAVYHAEVAANLKEGATLAFAHGFNVHYNQIVPRADLDVIMVAPKGPGHTVRSEYKRGGGVPSLIAVYQDNSGKAKDIALSYAAANGGTKGGVIETTFREETETDLFGEQAVLCGGVAELIKAGFETLTEAGYAPEMAYFECLHEMKLIVDLIFEGGIANMNYSISNNAEYGEYVTGPEVVNASSKEAMRNALKRIQTGEYAKMFIQEGNVNYASMTARRRLNADHQVEKVGARLRAMMPWITANKLVDQDKN</Hsp_qseq>
+      <Hsp_hseq>MKVFYDKDCDLSIIQGKKVAIIGYGSQGHAQACNLKDSGVDVTVGLRKGSATVAKAEAHGLKVTDVASAVAAADLVMILTPDEFQSQLYKNEVEPNLKKGATLAFSHGFAIHYNQVVPRADLDVIMIAPKAPGHTVRTEFVKGGGIPDLIAVYQDASGNAKNVALSYASGVGGGRTGIIETTFKDETETDLFGEQAVLCGGTVELVKAGFETLVEAGYAPEMAYFECLHELKLIVDLMYEGGIANMNYSISNNAEYGEYVTGPEVINAESRQAMRNALKRIQDGEYAKMFITEGATGYPSMTAKRRNNAEHGIEVIGEKLRSMMPWIAANKIVDKDKN</Hsp_hseq>
+      <Hsp_midline>M+V+YDKD DLS+I+GK VAIIGYGSQGHA A NLKDSGV+V +GLR GS+   KAEA G  V  VA A   AD+VM+L PDE    +Y  EV  NLK+GATLAF+HGF +HYNQ+VPRADLDVIM+APK PGHTVR+E+ +GGG+P LIAVYQD SG AK++ALSYA+  GG + G+IETTF++ETETDLFGEQAVLCGG  EL+KAGFETL EAGYAPEMAYFECLHE+KLIVDL++EGGIANMNYSISNNAEYGEYVTGPEV+NA S++AMRNALKRIQ GEYAKMFI EG   Y SMTA+RR NA+H +E +G +LR+MMPWI ANK+VD+DKN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 37, 46, 49, 52, 69, 71, 75, 88, 98, 113, 116, 128, 143, 148, 149, 163,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

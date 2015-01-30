@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>92495</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1586</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>92495</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1586</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75536222|sp|Q4UKW2.1|SCO22_RICFE</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RF_0960 [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UKW2</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>7.61349e-34</Hsp_evalue>
+      <Hsp_query-from>1428</Hsp_query-from>
+      <Hsp_query-to>1578</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEVAIFSPYGSEPETI</Hsp_qseq>
+      <Hsp_hseq>IGGDFELIDQNGEIFNSDELKGNLSLIYFGFTSCPDICPTSLNKMTEIVEILNKHKIDILPVFITIDPKRDTPIVLKEYLKHFHPKFIGLTGN-EQQIKGVTDKFKVFYARVNGDDDDPNYMLDHSSFTYLIDANGKYLKHFYLDSSPKEI</Hsp_hseq>
+      <Hsp_midline>IGGDF L D  G+ F+  +LKG + ++ FGFT CPD+CPT L   ++ ++ L     D+  VF++IDP+RDTP ++ +Y K F+P FIGLT    Q +  +  +++V  A++N  DD  NY++DHSS  YLID NG+        S P+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20455278|sp|Q9ZCW7.1|SCO22_RICPR</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RP587 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZCW7</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>2.96951e-32</Hsp_evalue>
+      <Hsp_query-from>1425</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>KEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>KIKIGGPFELIDQNGEIFNSDKLRGHLSLIYFGFTSCPDICPTSLNKITNIVEILHQNKIDIIPVFITVDPKRDTPEVLKEYIKNFHPKFISLTGNEHQ-IKDVTDKFKVFYARVNSDNDDQNYMIDHSSFTYLIDKNG</Hsp_hseq>
+      <Hsp_midline>K  IGG F L D  G+ F+   L+G + ++ FGFT CPD+CPT L   ++ ++ L     D+  VF+++DP+RDTPE++ +Y K F+P FI LT    Q +  +  +++V  A++N  +D +NY++DHSS  YLIDKNG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20455251|sp|Q92H76.1|SCO22_RICCN</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RC0895 [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92H76</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>4.10624e-32</Hsp_evalue>
+      <Hsp_query-from>1428</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>IGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>IGGDFELIDQNGEIFNSDKLKGNLSLIYFGFTSCPDICPTSLNKMTEIVEILNKHKIDILPVFITIDPKRDTPIALKEYLKHFHPKFIGLTGN-EQQIKDVTDKFKVFYARVHGDDDDPNYMLDHSSFTYLIDANGK</Hsp_hseq>
+      <Hsp_midline>IGGDF L D  G+ F+   LKG + ++ FGFT CPD+CPT L   ++ ++ L     D+  VF++IDP+RDTP  + +Y K F+P FIGLT    Q +  +  +++V  A+++  DD  NY++DHSS  YLID NG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122990916|sp|Q1RIN4.1|SCO22_RICBR</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RBE_0699 [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RIN4</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.64113e-31</Hsp_evalue>
+      <Hsp_query-from>1427</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>DIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK-INQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>EIGGDFELIDQNGELFNSDELKGKLSLIYFGFTSCPDICPTSLNKITKAVEILSENKIDIVPVFITIDPSRDTPAVLKEYLKHFHPKFIGLTGDEKQ-IREVADKFKVYYAKAASENDNDQDYMLDHSSFTYLMDKNGK</Hsp_hseq>
+      <Hsp_midline>+IGGDF L D  G+ F+  +LKGK+ ++ FGFT CPD+CPT L   +  ++ L     D+  VF++IDP RDTP ++ +Y K F+P FIGLT    Q +  +  +++V  AK  ++ D+ ++Y++DHSS  YL+DKNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|215274637|sp|A6H784.1|SCO2_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO2 homolog, mitochondrial; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>A6H784</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>4.66165e-26</Hsp_evalue>
+      <Hsp_query-from>1409</Hsp_query-from>
+      <Hsp_query-to>1583</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>AAENAAKPQTRGTDMRKEDIG-GDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQA--KDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEVAIFSPYGSEPETIAADVR</Hsp_qseq>
+      <Hsp_hseq>AEKERGRQQQRTEALRQAAVGQGDFSLLDHRGRVRCKADFRGQWVLLYFGFTHCPDICPDELEKLVQVVRQLEAEPGLPPVQPLFITVDPERDTVAAMARYVQDFHPRLLGLTGSAEQ-IAQVSRSYRVYYSA-GPKDEDQDYIVDHSIAIYLLSPDGLFTDYYSRARSAEQITDSVR</Hsp_hseq>
+      <Hsp_midline>A +   + Q R   +R+  +G GDF+L D  G+    +D +G+ V+L FGFTHCPD+CP  L      ++QL  +     V+ +F+++DPERDT   + +Y + F+P  +GLT +  Q +  + + YRV  +    KD+ ++Y+VDHS   YL+  +G    +       E I   VR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|585972|sp|P38072.1|SCO2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO2, mitochondrial; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38072</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.2125e-25</Hsp_evalue>
+      <Hsp_query-from>1428</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>IGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAK-DVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>LGGPFNLTDFNGKPFTEENLKGKFSILYFGFSHCPDICPEELDRLTYWISELDDKDHIKIQPLFISCDPARDTPDVLKEYLSDFHPAIIGLTGTYDQVKSVCK-KYKVYFSTPRDVKPNQDYLVDHSIFFYLIDPEGQ</Hsp_hseq>
+      <Hsp_midline>+GG F LTD  GKPF+  +LKGK  IL FGF+HCPD+CP  L   +  + +L  +    ++ +F+S DP RDTP+++ +Y   F+P  IGLT T  Q   V K +Y+V  +       +++YLVDHS   YLID  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81879244|sp|Q8VCL2.1|SCO2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO2 homolog, mitochondrial; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q8VCL2</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.28558e-25</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1583</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>SAPAAENAAKPQTRGTDMRKEDIG-GDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAK--DVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEVAIFSPYGSEPETIAADVR</Hsp_qseq>
+      <Hsp_hseq>AARAEKEQWRQQQRTEALRQAAVGQGDFSLLDHKGQPRCKADFRGQWVLMYFGFTHCPDICPDELEKLVQVVRKLEAEPDLPLVQPVFITVDPERDDVAAMARYVQEFHPRLLGLTGSTEQ-VAHASRNYRVYYSA-GPKDEDQDYIVDHSIAIYLLNPDGLFTDYYGRSRSAEQIVESIR</Hsp_hseq>
+      <Hsp_midline>+A A +   + Q R   +R+  +G GDF+L D +G+P   +D +G+ V++ FGFTHCPD+CP  L      +++L  +     V+ VF+++DPERD    + +Y ++F+P  +GLT +  Q +    + YRV  +    KD+ ++Y+VDHS   YL++ +G    +       E I   +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|8134662|sp|O43819.3|SCO2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO2 homolog, mitochondrial; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>O43819</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.15236e-24</Hsp_evalue>
+      <Hsp_query-from>1409</Hsp_query-from>
+      <Hsp_query-to>1583</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>AAENAAKPQTRGTDMRKEDIG-GDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQA--KDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEVAIFSPYGSEPETIAADVR</Hsp_qseq>
+      <Hsp_hseq>AEKERLQQQKRTEALRQAAVGQGDFHLLDHRGRARCKADFRGQWVLMYFGFTHCPDICPDELEKLVQVVRQLEAEPGLPPVQPVFITVDPERDDVEAMARYVQDFHPRLLGLTGSTKQ-VAQASHSYRVYY-NAGPKDEDQDYIVDHSIAIYLLNPDGLFTDYYGRSRSAEQISDSVR</Hsp_hseq>
+      <Hsp_midline>A +   + Q R   +R+  +G GDF L D  G+    +D +G+ V++ FGFTHCPD+CP  L      ++QL  +     V+ VF+++DPERD  E + +Y + F+P  +GLT +  Q +      YRV       KD+ ++Y+VDHS   YL++ +G    +       E I+  VR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|134035033|sp|Q68WF1.2|SCO22_RICTY</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RT0576 [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68WF1</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.28579e-24</Hsp_evalue>
+      <Hsp_query-from>1415</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>KPQTRGTDMRKEDI--GGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>KPLAGQVNIYKDNIKIGEAFELIDQNGEIFNSNKLRGHLSLIYFGFTSCPDICPTFLNKMTNIVEILHQNQIDIIPIFITIDPKRDTPEVLKEYIKNFHPKFICLTGNEHQ-IKDVTDKFKILYARVNGYDDDQNYMIDHSSFTYLIDKNGK</Hsp_hseq>
+      <Hsp_midline>KP     ++ K++I  G  F L D  G+ F+ + L+G + ++ FGFT CPD+CPT L   ++ ++ L     D+  +F++IDP+RDTPE++ +Y K F+P FI LT    Q +  +  +++++ A++N  DD +NY++DHSS  YLIDKNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81862458|sp|Q5SUC9.1|SCO1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO1 homolog, mitochondrial; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q5SUC9</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>4.61542e-24</Hsp_evalue>
+      <Hsp_query-from>1419</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>RGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGG--QAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>RHRSIGKPLLGGPFSLTTHNGEPKTDKDYLGQWVLIYFGFTHCPDICPEELEKMIEVVEEIDSIPSLPNLTPLFITIDPERDTKEAIATYVKEFSPKLVGLTGT-KEEIDGVARAYRVYYSP-GPKDEDEDYIVDHTIIMYLIGPDGE</Hsp_hseq>
+      <Hsp_midline>R   + K  +GG F+LT   G+P +  D  G+ V++ FGFTHCPD+CP  L    + ++++       ++  +F++IDPERDT E I  Y K+F+P  +GLT T  + +  + + YRV  +    KD+ E+Y+VDH+   YLI  +GE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|134035032|sp|A1A4J8.1|SCO1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO1 homolog, mitochondrial; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>A1A4J8</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>2.1482e-23</Hsp_evalue>
+      <Hsp_query-from>1419</Hsp_query-from>
+      <Hsp_query-to>1584</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>RGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGG--QAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGE-VAIFSPYGSEPE---TIAADVRT</Hsp_qseq>
+      <Hsp_hseq>RHRSIGKPLLGGPFSLTTHTGEPKTDKDYLGQWVLIYFGFTHCPDICPEELEKMIQVVDEIDSIPTLPNLTPLFITIDPERDTKEAIANYVKEFSPKLIGLTGT-KEEIDQVARAFRVYYSP-GPKDEDEDYIVDHTIIMYLIGPDGEFLDYFGQNKKNAEIAGSIAAHMRT</Hsp_hseq>
+      <Hsp_midline>R   + K  +GG F+LT   G+P +  D  G+ V++ FGFTHCPD+CP  L      + ++       ++  +F++IDPERDT E I  Y K+F+P  IGLT T  + +  + + +RV  +    KD+ E+Y+VDH+   YLI  +GE +  F       E   +IAA +RT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|8134663|sp|O75880.1|SCO1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO1 homolog, mitochondrial; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>O75880</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.00111e-23</Hsp_evalue>
+      <Hsp_query-from>1419</Hsp_query-from>
+      <Hsp_query-to>1584</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>RGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGG--QAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEVAIFSPYGSEPETIAADVRT</Hsp_qseq>
+      <Hsp_hseq>RQRHIGKPLLGGPFSLTTHTGERKTDKDYLGQWLLIYFGFTHCPDVCPEELEKMIQVVDEIDSITTLPDLTPLFISIDPERDTKEAIANYVKEFSPKLVGLTGT-REEVDQVARAYRVYYSP-GPKDEDEDYIVDHTIIMYLIGPDGEFLDYFGQNKRKGEIAASIAT</Hsp_hseq>
+      <Hsp_midline>R   + K  +GG F+LT   G+  +  D  G+ +++ FGFTHCPDVCP  L      + ++       D+  +F+SIDPERDT E I  Y K+F+P  +GLT T  + +  + + YRV  +    KD+ E+Y+VDH+   YLI  +GE   +         IAA + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|75161513|sp|Q8VYP0.1|SCO11_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO1 homolog 1, mitochondrial; AltName: Full=Homolog of the copper chaperone SCO1 member 1; Short=HCC1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8VYP0</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>5.8236e-23</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1559</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYS---DTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLI</Hsp_qseq>
+      <Hsp_hseq>GPSAGKAAIGGPFSLIRDDGKRVTEKNLMGKWTILYFGFTHCPDICPDELIKLAAAIDKIKENSGV--DVVPVFISVDPERDTVQQVHEYVKEFHPKLIGLTGS-PEEIKSVARSYRVYYMKTEEED--SDYLVDHSIVMYLM</Hsp_hseq>
+      <Hsp_midline>G    K  IGG F+L   +GK  +  +L GK  IL FGFTHCPD+CP  L+  +   D +K+  G   DV  VF+S+DPERDT + + +Y K+F+P  IGLT +  + +  + + YRV   K  ++D   +YLVDHS   YL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|8928327|sp|O42899.1|SCO1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Protein sco1 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O42899</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.06473e-19</Hsp_evalue>
+      <Hsp_query-from>1425</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>KEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKV-VFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRV-VSAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>RPQLGGAFSLIDHHGNRVTDNDFKGKFSLIYFGFTRCPDICPDELDKMSAAIDIVNNVVGDVVYPIFITCDPARDPPQEMAEYLEDFNPKIVGLTGS-YEEIKDICKKFRVYFSTPKNIDPKKDDYLVDHSVFFYLMDPEGK</Hsp_hseq>
+      <Hsp_midline>+  +GG F+L D  G   + +D KGK  ++ FGFT CPD+CP  L   S  +  +     DV   +F++ DP RD P+ + +Y + FNP  +GLT +  + +  I +++RV  S   N     ++YLVDHS   YL+D  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|82077900|sp|Q5RH02.1|SCO2_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO2 homolog, mitochondrial; Flags: Precursor [Danio rerio]</Hit_def>
+  <Hit_accession>Q5RH02</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.50435e-19</Hsp_evalue>
+      <Hsp_query-from>1419</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>RGTDMRKEDIG-GDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAK--DVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYR--VVSAKINQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>RLEQLRKVALGQGDFHLLDHTGQRRTKRDFLGHWVLLYFGFTHCPDICPDELEKLTSVVHILDKDPSLPSVQPLFITVDPERDDVSAMARYVKDFHPRLVGLTGSAEE----VKQAGRDFRVYASNGPKDEDGDYIVDHSIVIYLVNPDG</Hsp_hseq>
+      <Hsp_midline>R   +RK  +G GDF L D  G+  +  D  G  V+L FGFTHCPD+CP  L   +  +  L        V+ +F+++DPERD    + +Y K F+P  +GLT +  +    +KQ  R   V A    KD+  +Y+VDHS   YL++ +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|75154808|sp|Q8LAL0.1|SCO12_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO1 homolog 2, mitochondrial; AltName: Full=Homolog of the copper chaperone SCO1 member 2; Short=HCC2; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LAL0</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>2.76163e-19</Hsp_evalue>
+      <Hsp_query-from>1409</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>AAENAAKPQTRGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKD-VKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>ASSNSGCGCGSNTTVKGPIIGGPFTLVSTENKIVTENDFCGKWVLLYFGYSFSPDVGPEQLKMMSKAVDKLESKHNEKILPVFVTLDPQRDTPSHLHAYLKEFDSRILGLTGTASA-MRQMAQEYRVYFKKV--QEDGEDYLVDTSHNMYLINPKMEI</Hsp_hseq>
+      <Hsp_midline>A+ N+       T ++   IGG FTL   E K  + +D  GK V+L FG++  PDV P  L   S  + +L  +  + +  VFV++DP+RDTP  +  Y K+F+   +GLT T    +  + Q+YRV   K+  ++D E+YLVD S   YLI+   E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|134307|sp|P23833.1|SCO1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Protein SCO1, mitochondrial; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P23833</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.99207e-18</Hsp_evalue>
+      <Hsp_query-from>1425</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>KEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQ-AKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>KPSLGGPFHLEDMYGNEFTEKNLLGKFSIIYFGFSNCPDICPDELDKLGLWLNTLSSKYGITLQPLFITCDPARDSPAVLKEYLSDFHPSILGLTGTFDEVKNACK-KYRVYFSTPPNVKPGQDYLVDHSIFFYLMDPEGQ</Hsp_hseq>
+      <Hsp_midline>K  +GG F L D  G  F+  +L GK  I+ FGF++CPD+CP  L      L  L  +    ++ +F++ DP RD+P ++ +Y   F+P  +GLT T  +     K +YRV  +        ++YLVDHS   YL+D  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|338817940|sp|Q52720.2|SENC_RHOCB</Hit_id>
+  <Hit_def>RecName: Full=Protein SenC [Rhodobacter capsulatus SB 1003]</Hit_def>
+  <Hit_accession>Q52720</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>3.46596e-18</Hsp_evalue>
+      <Hsp_query-from>1419</Hsp_query-from>
+      <Hsp_query-to>1586</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>RGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEVAIFSPYGSEPETIAADVRTLL</Hsp_qseq>
+      <Hsp_hseq>KGTGSASAQIGGPFTLISETGATVTDRDVITKPSLVYFGYSYCPDVCPIDSTRNAAAVDLLAERGHDVTPVFISVDAARDTPPVLTEFTDLMSPKMIGLTGTPEQIDAAVK-AYRAYYLIRNPGDPAT--LVDHSTQTYLMDPKLGFLDFYDRDATPEMVADSVGCFL</Hsp_hseq>
+      <Hsp_midline>+GT      IGG FTL    G   +  D+  K  ++ FG+++CPDVCP      +  +  L  +  DV  VF+S+D  RDTP ++ ++    +P  IGLT T  Q    +K  YR      N  D +   LVDHS+  YL+D       F    + PE +A  V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|34978394|sp|P47206.2|SCOP_PSEST</Hit_id>
+  <Hit_def>RecName: Full=Putative copper-binding protein [Pseudomonas stutzeri]</Hit_def>
+  <Hit_accession>P47206</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>7.97113e-15</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKD-VKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSE-NYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>LVDQNDQPFSTETLKGRWHILFFGFTACPDICPTTLSEMRRLFGQLPAETREQLQLVLITADPARDTPQQLKTYLSYYRAGFIGLTG----NMEQLQRLSKALGLPFVPATETEGDYSVSHSGNLALVGPDGSL</Hsp_hseq>
+      <Hsp_midline>L D   +PFS   LKG+  IL FGFT CPD+CPT L        QL  + ++ +++V ++ DP RDTP+ +  Y   +   FIGLT     N+  +++  + +        ++E +Y V HS    L+  +G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|20455279|sp|Q9ZEB4.1|SCO21_RICPR</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RP031 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZEB4</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.17333e-12</Hsp_evalue>
+      <Hsp_query-from>1432</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVV-SAKINQKDDSENYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>FTLIEQQGKKFDSTNLQGYLSLIYFGTTYSL-YDNQALKRVEDIIKILKRENILLQVVFITLDPEHDTSEVLKKYLEKIDSNFIGLTGR-VQDIEQLAQQFKVFYTSKIFDVKTNE-YALQHSNFVYLISSDGKI</Hsp_hseq>
+      <Hsp_midline>FTL + +GK F  ++L+G + ++ FG T+        L    D +K L  +   ++VVF+++DPE DT E++ KY ++ + +FIGLT    Q++  + QQ++V  ++KI     +E Y + HS+  YLI  +G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|75537102|sp|Q4UNH4.1|SCO21_RICFE</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RF_0043 [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4UNH4</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>4.67825e-12</Hsp_evalue>
+      <Hsp_query-from>1432</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVV-SAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>FTLIDQEGKKFDSTHLQGHLSLIYFGTTYSL-YDNQALKRVEDIIKILKKENIVVQVVFITLDPQHDTSEVLKKYLEKIDDNFIGLTGR-VQDIEQLADQFKVFYTSKIFDVKTNE-YELQHSNFVYLISSQGK</Hsp_hseq>
+      <Hsp_midline>FTL D EGK F  + L+G + ++ FG T+        L    D +K L  +   V+VVF+++DP+ DT E++ KY ++ + +FIGLT    Q++  +  Q++V  ++KI     +E Y + HS+  YLI   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|251757333|sp|P54178.2|SCO1_BACSU</Hit_id>
+  <Hit_def>RecName: Full=SCO1 protein homolog; AltName: Full=BsSco; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54178</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.58582e-12</Hsp_evalue>
+      <Hsp_query-from>1432</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK-INQKDDSENYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>FTFQNQDGKNVSLESLKGEVWLADFIFTNCETICPPMTAHMTDLQKKLKAENIDVRIISFSVDPENDKPKQLKKFAANYPLSFDNWDFLTGYSQSEI-EEFALKSFKAIVKKPEGEDQVI-HQSSFYLVGPDGKV</Hsp_hseq>
+      <Hsp_midline>FT  + +GK  SL  LKG+V +  F FT+C  +CP      +D  K+L  +  DV+++  S+DPE D P+ + K+A  +   F       G +   I +++ + S K I +K + E+ ++ H S  YL+  +G+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123388159|sp|Q1RKK4.1|SCO21_RICBR</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RBE_0029 [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RKK4</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>8.52322e-12</Hsp_evalue>
+      <Hsp_query-from>1432</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>FALKDQKGKVFNDKDLKGHLSLIYFGVTYSLDD-ENALKKIEDIIKILQKENIVVQTVFITLDPINDTSEVLKKYLENIDNNFIGLTGT-IDDITQVANEFKVFYEPKTFDTETGKYELKHSNFVYLISSDGK</Hsp_hseq>
+      <Hsp_midline>F L D +GK F+  DLKG + ++ FG T+  D     L    D +K L  +   V+ VF+++DP  DT E++ KY +  + +FIGLT T   ++  +  +++V         ++  Y + HS+  YLI  +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|20455252|sp|Q92JM5.1|SCO21_RICCN</Hit_id>
+  <Hit_def>RecName: Full=SCO2-like protein RC0042 [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92JM5</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.65495e-10</Hsp_evalue>
+      <Hsp_query-from>1432</Hsp_query-from>
+      <Hsp_query-to>1564</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSEN-YLVDHSSGAYLIDKNGE</Hsp_qseq>
+      <Hsp_hseq>FTLIDQEGKKFDSTHLQGHLSLIYFGTTYSLYDNQT-LKRVEDIIKILKKENILVQVVFITLDSEHDTSEVLKKYLEKIDDNFIGLTGR-VEDIEQLADQFKVFFYTSKIFDVKTNKYELQHSNFVYLISSQGK</Hsp_hseq>
+      <Hsp_midline>FTL D EGK F  + L+G + ++ FG T+      T L    D +K L  +   V+VVF+++D E DT E++ KY ++ + +FIGLT    +++  +  Q++V        D   N Y + HS+  YLI   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2507171|sp|P30048.3|PRDX3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-dependent peroxide reductase, mitochondrial; AltName: Full=Antioxidant protein 1; Short=AOP-1; AltName: Full=HBC189; AltName: Full=Peroxiredoxin III; Short=Prx-III; AltName: Full=Peroxiredoxin-3; AltName: Full=Protein MER5 homolog; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P30048</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00836566</Hsp_evalue>
+      <Hsp_query-from>1390</Hsp_query-from>
+      <Hsp_query-to>1494</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>CKPQDNSAAQAASSSASAPAAENAAKPQTRGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSID</Hsp_qseq>
+      <Hsp_hseq>CSGSSQAKLFSTSSSCHAPAVTQHA-PYFKGT-----------AVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEF--HDVNCEVVAVSVD</Hsp_hseq>
+      <Hsp_midline>C     +   + SSS  APA    A P  +GT            + +GE K  SL D KGK ++L F       VCPT ++ +SD   +      + +VV VS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|75070966|sp|Q5REY3.1|PRDX3_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-dependent peroxide reductase, mitochondrial; AltName: Full=Peroxiredoxin-3; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5REY3</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.009305</Hsp_evalue>
+      <Hsp_query-from>1390</Hsp_query-from>
+      <Hsp_query-to>1494</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>CKPQDNSAAQAASSSASAPAAENAAKPQTRGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSID</Hsp_qseq>
+      <Hsp_hseq>CSGSSQAKLFSTSSSYHAPAVTQHA-PYFKGT-----------AVVNGEFKDLSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEF--HDVNCEVVAVSVD</Hsp_hseq>
+      <Hsp_midline>C     +   + SSS  APA    A P  +GT            + +GE K  SL D KGK ++L F       VCPT ++ +SD   +      + +VV VS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|158517782|sp|P0C5D4.1|PRXQ_ORYSI</Hit_id>
+  <Hit_def>RecName: Full=Putative peroxiredoxin Q, chloroplastic; AltName: Full=Thioredoxin reductase; Flags: Precursor [Oryza sativa Indica Group] &gt;gi|158517783|sp|P0C5D5.1|PRXQ_ORYSJ RecName: Full=Peroxiredoxin Q, chloroplastic; AltName: Full=Thioredoxin reductase; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>P0C5D4</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0175272</Hsp_evalue>
+      <Hsp_query-from>1390</Hsp_query-from>
+      <Hsp_query-to>1510</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>CKPQDNSAAQAASSSASAPAAENAAKPQTRGTD------MRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQF</Hsp_qseq>
+      <Hsp_hseq>CTPSTAAFRRGALSATTTPTPARAALPSTTGRNRIVCGKVSKGSAAPNFTLRDQDGRAVSLSKFKGRPVVVYFYPADETPGCTKQACAFRDSYEKF--KKAGAEVIGISGDDAASHKEFKKKYKLPF</Hsp_hseq>
+      <Hsp_midline>C P   +  + A S+ + P    AA P T G +      + K     +FTL D +G+  SLS  KG+ V++ F        C      + D+ ++   +    +V+ +S D      E   KY   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2507170|sp|P35705.2|PRDX3_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-dependent peroxide reductase, mitochondrial; AltName: Full=Antioxidant protein 1; Short=AOP-1; AltName: Full=Peroxiredoxin-3; AltName: Full=Protein SP-22; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>P35705</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.020382</Hsp_evalue>
+      <Hsp_query-from>1398</Hsp_query-from>
+      <Hsp_query-to>1494</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>AQAASSSASAPAAENAAKPQTRGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSID</Hsp_qseq>
+      <Hsp_hseq>AFSTSSSYHAPAVTQHA-PYFKGT-----------AVVSGEFKEISLDDFKGKYLVLFFYPLDFTFVCPTEIIAFSDKASEF--HDVNCEVVAVSVD</Hsp_hseq>
+      <Hsp_midline>A + SSS  APA    A P  +GT            +  GE K  SL D KGK ++L F       VCPT ++ +SD   +      + +VV VS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|82236134|sp|Q6DV14.1|PRDX1_GECJA</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-1 [Gekko japonicus]</Hit_def>
+  <Hit_accession>Q6DV14</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0281672</Hsp_evalue>
+      <Hsp_query-from>1427</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>DIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK--INQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>DFQATAVMPDGQFKEIKLSDYKGKYVVLFFYPLDFTFVCPTEIIAFSDRSEEF--RKINCEVIGASVDSHFCHLAWINTPKKQ--------GGLGSMHIPLVSDTKRVIAKDYGILKEDEGISY-----RGLFIIDDKG</Hsp_hseq>
+      <Hsp_midline>D      + DG+ K   LSD KGK V+L F       VCPT ++ +SD  ++   +  + +V+  S+D        I    KQ           G  ++P++    RV++    I ++D+  +Y      G ++ID  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|118597399|sp|Q9Z0V6.2|PRDX3_RAT</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-dependent peroxide reductase, mitochondrial; AltName: Full=PRx III; AltName: Full=Peroxiredoxin-3; Short=PRX-3; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9Z0V6</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0331493</Hsp_evalue>
+      <Hsp_query-from>1388</Hsp_query-from>
+      <Hsp_query-to>1494</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>AACKPQDNSAAQAASSSASAPAAENAAKPQTRGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSID</Hsp_qseq>
+      <Hsp_hseq>SAC-PQAKFAF-STSSSFHTPAVTQHA-PHFKGT-----------AVVNGEFKELSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEF--HDVNCEVVAVSVD</Hsp_hseq>
+      <Hsp_midline>+AC PQ   A  + SSS   PA    A P  +GT            + +GE K  SL D KGK ++L F       VCPT ++ +SD   +      + +VV VS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|46576851|sp|Q9NL98.1|PRDX_ASCSU</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin; AltName: Full=AsPrx; AltName: Full=Thioredoxin peroxidase [Ascaris suum]</Hit_def>
+  <Hit_accession>Q9NL98</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0349655</Hsp_evalue>
+      <Hsp_query-from>1423</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MRKEDIGG---DFTLT---DGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSD---TLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK--INQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>MSKAMIGKPAPEFTATAVVDGDFKSISLSDYKGKYVVLFFYPMDFTFVCPTEIIAFSEHVGEFKKLG-----VEVLAASTDSQFSHLAWINTPRKQ--------GGLGEMKIPIISDNNHQISRDYGVLKEDDGIAY-----RGLFIIDPKG</Hsp_hseq>
+      <Hsp_midline>M K  IG    +FT T   DG+ K  SLSD KGK V+L F       VCPT ++ +S+     K+LG     V+V+  S D +      I    KQ           G   +P+I      +S    + ++DD   Y      G ++ID  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|126986|sp|P20108.1|PRDX3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin-dependent peroxide reductase, mitochondrial; AltName: Full=Antioxidant protein 1; Short=AOP-1; AltName: Full=PRX III; AltName: Full=Perioredoxin-3; AltName: Full=Protein MER5; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P20108</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0420825</Hsp_evalue>
+      <Hsp_query-from>1397</Hsp_query-from>
+      <Hsp_query-to>1494</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AAQAASSSASAPAAENAAKPQTRGTDMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSID</Hsp_qseq>
+      <Hsp_hseq>SAFSTSSSFHTPAVTQHA-PYFKGT-----------AVVNGEFKELSLDDFKGKYLVLFFYPLDFTFVCPTEIVAFSDKANEF--HDVNCEVVAVSVD</Hsp_hseq>
+      <Hsp_midline>+A + SSS   PA    A P  +GT            + +GE K  SL D KGK ++L F       VCPT ++ +SD   +      + +VV VS+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|75336180|sp|Q9MB35.1|PERQ_SEDLI</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin Q, chloroplastic; AltName: Full=Thioredoxin reductase; Flags: Precursor, partial [Sedum lineare]</Hit_def>
+  <Hit_accession>Q9MB35</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0483526</Hsp_evalue>
+      <Hsp_query-from>1432</Hsp_query-from>
+      <Hsp_query-to>1562</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKN</Hsp_qseq>
+      <Hsp_hseq>FTLKDQEGRPVSLSKFKGKPVVVYFYPADETPGCTKQACAFRDSYEKF--KKAGAEVVGIS----GDSSESHKAFAKKYKLPFTLLSDEGNK----VRKEWGVPSDLFGTLPGRETYVLDKNGVVQLVYNN</Hsp_hseq>
+      <Hsp_midline>FTL D EG+P SLS  KGK V++ F        C      + D+ ++   +    +VV +S     D+ E    +AK++   F  L+  G +    +++++ V S         E Y++D +    L+  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|75108545|sp|Q5S1S6.1|PRXQ_WHEAT</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin Q, chloroplastic; AltName: Full=Thioredoxin reductase; Flags: Precursor [Triticum aestivum]</Hit_def>
+  <Hit_accession>Q5S1S6</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0578757</Hsp_evalue>
+      <Hsp_query-from>1390</Hsp_query-from>
+      <Hsp_query-to>1456</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>CKPQDNSAAQAASSSASAPAAENAAKPQTRGT-----DMRKEDIGGDFTLTDGEGKPFSLSDLKGKVVILSF</Hsp_qseq>
+      <Hsp_hseq>CRPSTSAAFHGLRAPASAFALAPAPRRRAASTGIVCGKVSKGSVPPNFTLKDQDGKTVSLSKFKGKPVVLYF</Hsp_hseq>
+      <Hsp_midline>C+P  ++A     + ASA A   A + +   T      + K  +  +FTL D +GK  SLS  KGK V+L F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|3024714|sp|P91883.1|TDX_FASHE</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin peroxidase; AltName: Full=Peroxiredoxin; AltName: Full=Thiol-specific antioxidant protein; AltName: Full=Thioredoxin-dependent peroxide reductase [Fasciola hepatica]</Hit_def>
+  <Hit_accession>P91883</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0673106</Hsp_evalue>
+      <Hsp_query-from>1439</Hsp_query-from>
+      <Hsp_query-to>1494</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GKPF---SLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSID</Hsp_qseq>
+      <Hsp_hseq>GKEFETISLSDYKGKWVILAFYPLDFTFVCPTEIIAISDQMEQFA--QRNCAVIFCSTD</Hsp_hseq>
+      <Hsp_midline>GK F   SLSD KGK VIL+F       VCPT ++  SD ++Q     ++  V+F S D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|13959614|sp|Q9Y7F0.1|TSA1_CANAL</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin TSA1; AltName: Full=Thiol-specific antioxidant protein; AltName: Full=Thioredoxin peroxidase [Candida albicans SC5314]</Hit_def>
+  <Hit_accession>Q9Y7F0</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0732477</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1496</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSF---GFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPE</Hsp_qseq>
+      <Hsp_hseq>VVDGVFEEVTLEQYKGKWVLLAFIPLAFTF---VCPSEIIAYSEAVKKFA--EKDAQVLFASTDSE</Hsp_hseq>
+      <Hsp_midline>+ DG  +  +L   KGK V+L+F    FT    VCP+ ++ YS+ +K+     KD +V+F S D E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|263505112|sp|P0CB50.1|PRDX1_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-1 [Gallus gallus]</Hit_def>
+  <Hit_accession>P0CB50</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.101955</Hsp_evalue>
+      <Hsp_query-from>1431</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>DFTLT----DGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK--INQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>DFTATAVMPDGQFKDIKLSDYRGKYVVFFFYPLDFTFVCPTEIIAYSDRADEF--KKINCEIIGASVDSHFCHLAWINTPKKQ--------GGLGTMKIPLVSDTKRVIAKDYGVLKEDEGIAY-----RGLFIIDEKG</Hsp_hseq>
+      <Hsp_midline>DFT T    DG+ K   LSD +GK V+  F       VCPT ++ YSD   +   +  + +++  S+D        I    KQ           G   +P++    RV++    + ++D+   Y      G ++ID+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2499469|sp|Q61171.3|PRDX2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2; AltName: Full=Thiol-specific antioxidant protein; Short=TSA; AltName: Full=Thioredoxin peroxidase 1; AltName: Full=Thioredoxin-dependent peroxide reductase 1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q61171</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.103858</Hsp_evalue>
+      <Hsp_query-from>1431</Hsp_query-from>
+      <Hsp_query-to>1529</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>DFTLT---DGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSD---TLKQLGGQAKDVKVVFVSIDPER------DTPEIIGKYAKQFNPDFIGLTATGGQNLPVIK</Hsp_qseq>
+      <Hsp_hseq>DFTATAVVDGAFKEIKLSDYRGKYVVLFFYPLDFTFVCPTEIIAFSDHAEDFRKLG-----CEVLGVSVDSQFTHLAWINTPRKEGGLGPLNIPLLADVTKSLSQNYGVLK</Hsp_hseq>
+      <Hsp_midline>DFT T   DG  K   LSD +GK V+L F       VCPT ++ +SD     ++LG      +V+ VS+D +       +TP   G       P    +T +  QN  V+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2499475|sp|Q04120.3|TSA2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin TSA2; AltName: Full=Cytoplasmic thiol peroxidase 2; Short=cTPx 2; AltName: Full=Thiol-specific antioxidant protein 2; AltName: Full=Thioredoxin peroxidase 2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q04120</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.14711</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1496</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPE</Hsp_qseq>
+      <Hsp_hseq>VVDGIFEEISLEKYKGKYVVLAFVPLAFSFVCPTEIVAFSDAAKKFEDQG--AQVLFASTDSE</Hsp_hseq>
+      <Hsp_midline>+ DG  +  SL   KGK V+L+F       VCPT ++ +SD  K+   Q    +V+F S D E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|549132|sp|P35704.3|PRDX2_RAT</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-2; AltName: Full=Thiol-specific antioxidant protein; Short=TSA; AltName: Full=Thioredoxin peroxidase 1; AltName: Full=Thioredoxin-dependent peroxide reductase 1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P35704</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.207889</Hsp_evalue>
+      <Hsp_query-from>1431</Hsp_query-from>
+      <Hsp_query-to>1529</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>DFTLT---DGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSD---TLKQLGGQAKDVKVVFVSIDPER------DTPEIIGKYAKQFNPDFIGLTATGGQNLPVIK</Hsp_qseq>
+      <Hsp_hseq>DFTGTAVVDGAFKEIKLSDYRGKYVVLFFYPLDFTFVCPTEIIAFSDHAEDFRKLG-----CEVLGVSVDSQFTHLAWINTPRKEGGLGPLNIPLLADVTKSLSQNYGVLK</Hsp_hseq>
+      <Hsp_midline>DFT T   DG  K   LSD +GK V+L F       VCPT ++ +SD     ++LG      +V+ VS+D +       +TP   G       P    +T +  QN  V+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2499470|sp|Q63716.1|PRDX1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-1; AltName: Full=HBP23; AltName: Full=Heme-binding 23 kDa protein; AltName: Full=Thioredoxin peroxidase 2; AltName: Full=Thioredoxin-dependent peroxide reductase 2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q63716</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.213436</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK--INQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>MPDGQFKDISLSDYKGKYVVFFFYPLDFTFVCPTEIIAFSDRAEEF--KKLNCQVIGASVDSHFCHLAWINTPKKQ--------GGLGPMNIPLVSDPKRTIAQDYGVLKADEGISF-----RGLFIIDDKG</Hsp_hseq>
+      <Hsp_midline>+ DG+ K  SLSD KGK V+  F       VCPT ++ +SD  ++   +  + +V+  S+D        I    KQ           G  N+P++    R ++    + + D+  ++      G ++ID  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|75043305|sp|Q6B4U9.1|PRDX1_MYOLU</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-1 [Myotis lucifugus]</Hit_def>
+  <Hit_accession>Q6B4U9</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.229544</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK--INQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>MPDGQFKDISLSDYKGKYVVFFFYPLDFTFVCPTEIIAFSDRAEEF--KKINCQVIGASVDSHFCHLAWINTPKKQ--------GGLGPMNIPLVSDPKRTIAQDYGVLKADEGISF-----RGLFIIDDKG</Hsp_hseq>
+      <Hsp_midline>+ DG+ K  SLSD KGK V+  F       VCPT ++ +SD  ++   +  + +V+  S+D        I    KQ           G  N+P++    R ++    + + D+  ++      G ++ID  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|29337026|sp|Q8T6C4.1|TDX_ECHGR</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin peroxidase; AltName: Full=Peroxiredoxin; AltName: Full=TPx-Eg; AltName: Full=Thioredoxin-dependent peroxide reductase [Echinococcus granulosus]</Hit_def>
+  <Hit_accession>Q8T6C4</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.236939</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1474</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSD</Hsp_qseq>
+      <Hsp_hseq>LVDGELKDVSLSDYRGKYVILFFYPMDFTFVCPTEIIAFND</Hsp_hseq>
+      <Hsp_midline>L DGE K  SLSD +GK VIL F       VCPT ++ ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81346949|sp|Q5KXL9.1|RESA_GEOKA</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Geobacillus kaustophilus HTA426]</Hit_def>
+  <Hit_accession>Q5KXL9</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.253758</Hsp_evalue>
+      <Hsp_query-from>1431</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLP-VIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>DFVLTDLKGHEHRLSDYRGKGVFLNFWGTWCKP-CERE-MPYMNELYPI-YKKQGVEILAVNVGEPKLSVE---KFAERF-----GLT------FPIVIDRQDQVLNA----------YNVGPLPTTFLIDKNGEV</Hsp_hseq>
+      <Hsp_midline>DF LTD +G    LSD +GK V L+F  T C   C    + Y + L  +  + + V+++ V++   + + E   K+A++F     GLT       P VI +Q +V++A          Y V      +LIDKNGEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|59798172|sp|Q63DQ8.1|RESA_BACCZ</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus cereus E33L]</Hit_def>
+  <Hit_accession>Q63DQ8</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.277844</Hsp_evalue>
+      <Hsp_query-from>1422</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>DMRKEDIGGD---FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPV-IKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>DKEKMQIGKEAPNFVVTDLEGKKIELKDLKGKGVFLNFWGTWCKP-CEKEM----PYMNELYPKYKEKGVEIIALDAD-ETEIAVKNFVKQYDLKF-----------PVAIDKGTKIIG----------TYSVGPLPTSFLIDKDGKV</Hsp_hseq>
+      <Hsp_midline>D  K  IG +   F +TD EGK   L DLKGK V L+F  T C   C   +      + +L  + K+  V  +++D + +T   +  + KQ++  F           PV I +  +++            Y V     ++LIDK+G+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|160016262|sp|A4IQF5.1|RESA_GEOTN</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Geobacillus thermodenitrificans NG80-2]</Hit_def>
+  <Hit_accession>A4IQF5</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.300312</Hsp_evalue>
+      <Hsp_query-from>1431</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DFTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLP-VIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>DFVLSDLEGREHRLTDYRGKGVFLNFWGTWCKP-CERE-MPYMNELYPI-YQKQGVEILAVNVGEPKLNVE---KFAERF-----GLT------FPIVIDRQDQVLNA----------YGVGPLPTTFLIDKNGKV</Hsp_hseq>
+      <Hsp_midline>DF L+D EG+   L+D +GK V L+F  T C   C    + Y + L  +  Q + V+++ V++   +   E   K+A++F     GLT       P VI +Q +V++A          Y V      +LIDKNG+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|81396686|sp|Q6HL81.1|RESA_BACHK</Hit_id>
+  <Hit_def>RecName: Full=Thiol-disulfide oxidoreductase ResA [Bacillus thuringiensis serovar konkukian str. 97-27]</Hit_def>
+  <Hit_accession>Q6HL81</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.322753</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>TDMRKEDIGGD---FTLTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAKINQKDDSENYLVDHSSGAYLIDKNGEV</Hsp_qseq>
+      <Hsp_hseq>TKEEKMEIGKEAPNFVVTDLEGKKIELKDFKGKGVFLNFWGTWCKP-CEKEM----PYMNELYPKYKEKGVEIIALDAD-ETDIAVKNFVKQYDLKFPVAIDKGGE----IIKTYGVIPLPT----------------SFLIDKDGKV</Hsp_hseq>
+      <Hsp_midline>T   K +IG +   F +TD EGK   L D KGK V L+F  T C   C   +      + +L  + K+  V  +++D + +T   +  + KQ++  F      GG+    I + Y V+                    ++LIDK+G+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|66773956|sp|Q5E947.1|PRDX1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-1 [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E947</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.324149</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK--INQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>MPDGQFKDISLADYKGKYVVFFFYPLDFTFVCPTEIIAFSDRAEEF--KKLNCQVIGASVDSHFCHLAWINTPKKQ--------GGLGPMNIPLISDPKRTIAQDYGVLKADEGISF-----RGLFIIDDKG</Hsp_hseq>
+      <Hsp_midline>+ DG+ K  SL+D KGK V+  F       VCPT ++ +SD  ++   +  + +V+  S+D        I    KQ           G  N+P+I    R ++    + + D+  ++      G ++ID  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|548453|sp|Q06830.1|PRDX1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peroxiredoxin-1; AltName: Full=Natural killer cell-enhancing factor A; Short=NKEF-A; AltName: Full=Proliferation-associated gene protein; Short=PAG; AltName: Full=Thioredoxin peroxidase 2; AltName: Full=Thioredoxin-dependent peroxide reductase 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q06830</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.330083</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1494</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSID</Hsp_qseq>
+      <Hsp_hseq>MPDGQFKDISLSDYKGKYVVFFFYPLDFTFVCPTEIIAFSDRAEEF--KKLNCQVIGASVD</Hsp_hseq>
+      <Hsp_midline>+ DG+ K  SLSD KGK V+  F       VCPT ++ +SD  ++   +  + +V+  S+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2851423|sp|Q17172.2|TDX2_BRUMA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin peroxidase 2; AltName: Full=Peroxiredoxin 2; AltName: Full=Thiol-specific antioxidant protein 2; AltName: Full=Thioredoxin-dependent peroxide reductase 2 [Brugia malayi]</Hit_def>
+  <Hit_accession>Q17172</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.368023</Hsp_evalue>
+      <Hsp_query-from>1434</Hsp_query-from>
+      <Hsp_query-to>1563</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LTDGEGKPFSLSDLKGKVVILSFGFTHCPDVCPTGLLTYSDTLKQLGGQAKDVKVVFVSIDPERDTPEIIGKYAKQFNPDFIGLTATGGQNLPVIKQQYRVVSAK--INQKDDSENYLVDHSSGAYLIDKNG</Hsp_qseq>
+      <Hsp_hseq>VVNGDFKEISLGQFKGKYVVLLFYPLDFTFVCPTEIIAFSDRIAEF--KQLDVAVMACSTDSHFSHLAWVNTDRK--------MGGLGQMNIPILAYTNHVISRAYGVLKEDDGIAY-----RGLFIIDPKG</Hsp_hseq>
+      <Hsp_midline>+ +G+ K  SL   KGK V+L F       VCPT ++ +SD + +   +  DV V+  S D        +    K        +   G  N+P++     V+S    + ++DD   Y      G ++ID  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 49, 64, 66, 70, 83, 93, 108, 111, 123, 138, 143, 144, 158, 160, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

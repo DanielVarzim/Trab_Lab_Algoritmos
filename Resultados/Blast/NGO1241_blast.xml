@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>15715</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>2039</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>15715</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>2039</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75355790|sp|Q5F7D7.1|HIS8_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Neisseria gonorrhoeae FA 1090] &gt;gi|226702163|sp|B4RJ05.1|HIS8_NEIG2 RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F7D7</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.436</Hsp_bit-score>
+      <Hsp_score>1944</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2039</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLYR</Hsp_qseq>
+      <Hsp_hseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLYR</Hsp_hseq>
+      <Hsp_midline>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLYR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|21759212|sp|Q9JYH7.1|HIS8_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JYH7</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>702.975</Hsp_bit-score>
+      <Hsp_score>1813</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2038</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLY</Hsp_qseq>
+      <Hsp_hseq>MKSVRSFIRDDIQAMSAYQIADVPPGFAKLDSMESPVHPFAGHETLLQEWQARLAAAPIHLYPNPSGSGLQEALRSAFDIPDCADIALGNGSDELIQFITMLTAKPGAAMLAAEPSFVMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAVIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYAAGCPEVIGELQKILPPYNMNQLSLTTAKLALRHYGIISANIDSLKNERERMFAELGKICRLNTFSSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITVGSPAQNDAVLNIIRQLY</Hsp_hseq>
+      <Hsp_midline>MKSVRSFIR+DI AMSAY+I DVPPGFAKLD+MESP HPF GHE L++EW+A+LA+APIHLYPNPSG GLQEALRSAFDIPDCA +ALGNGSDELIQFITMLTAKPGAAMLAAEP F+MYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEA IEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYA GCPEVIGELQKILPPYNMNQLSLTTAKLAL+HYGIISANIDSLKNERERMFAELGKICRLN F SQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRIT+GS AQNDAVL++IR+LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|21759211|sp|Q9JTH8.1|HIS8_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Neisseria meningitidis Z2491] &gt;gi|167017107|sp|A1KV06.1|HIS8_NEIMF RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Neisseria meningitidis FAM18] &gt;gi|189043541|sp|A9M185.1|HIS8_NEIM0 RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>Q9JTH8</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>702.59</Hsp_bit-score>
+      <Hsp_score>1812</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2038</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLY</Hsp_qseq>
+      <Hsp_hseq>MKSVRSFIRDDIQAMSAYQIADVPPGFAKLDSMESPVHPFAGHETLLQEWQARLAAAPIHLYPNPSGSGLQEALRSAFDIPDCADIALGNGSDELIQFITMLTAKPGAAMLAAEPSFVMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAVIEASDGIVVVDEAYGAFNGDSFLPQAGSIPNLIVMRTVSKIGFAGLRIGYAAGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNTFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITVGSPAQNDAVLNIIRQLY</Hsp_hseq>
+      <Hsp_midline>MKSVRSFIR+DI AMSAY+I DVPPGFAKLD+MESP HPF GHE L++EW+A+LA+APIHLYPNPSG GLQEALRSAFDIPDCA +ALGNGSDELIQFITMLTAKPGAAMLAAEP F+MYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEA IEASDGIVVVDEAYGAFNGDSFLPQAG IPNLIV+RT+SKIGFAGLRIGYA GCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLN FPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRIT+GS AQNDAVL++IR+LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|39931355|sp|Q7P0F4.1|HIS8_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7P0F4</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.502</Hsp_bit-score>
+      <Hsp_score>872</Hsp_score>
+      <Hsp_evalue>9.58185e-103</Hsp_evalue>
+      <Hsp_query-from>1683</Hsp_query-from>
+      <Hsp_query-to>2038</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>SVRSFIRNDILAMSAYKITDVPPGFAKLDAMESP-AHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLY</Hsp_qseq>
+      <Hsp_hseq>TVQQLVRPEIAAIGAYHVA-AADGFIKLDAMENPWPLPIE----LQHELAAELAQVALNRYPDADGGGLKAALRAAFAIPAAAGIVLGNGSDELITLVTQALARPGAKLLALEPSFVMYKMNALFSGLQYVGVPLRADFTLDLPATLAAIEREQPAVVFVSYPNNPTGPRYGRDEVMAICRAAPGLVVVDEAYQSFASDSFMDLAGELDNLLVMRTLSKLGLAGIRLGYAAASPAWINELNKVRPPYNVNVLTIAAARFALKHLDVFNRQAAELRAERAKLSAALAALPQLAAFPSEANFVTVRAPDAPALFQHLKASGILIKQLHGSHPLLENCLRLTVGSPDENAALLSAIQRFF</Hsp_hseq>
+      <Hsp_midline>+V+  +R +I A+ AY +     GF KLDAME+P   P E    L  E  A+LA   ++ YP+  G GL+ ALR+AF IP  A + LGNGSDELI  +T   A+PGA +LA EP F+MY+ NA   G+ YVGVPL  DFTL+LPA L A+ + +PA+ F++YPNNPTG  + R E+ A   A+ G+VVVDEAY +F  DSF+  AG + NL+V+RTLSK+G AG+R+GYA   P  I EL K+ PPYN+N L++  A+ AL+H  + +     L+ ER ++ A L  + +L AFPS+ANF+T+R PDA  LF  LK + IL+K+LHG+HPLLE+CLR+T+GS  +N A+L  I+R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|91207024|sp|Q39K90.1|HIS81_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 1; AltName: Full=Imidazole acetol-phosphate transaminase 1 [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39K90</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>3.05892e-90</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2027</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEAS-DGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQN</Hsp_qseq>
+      <Hsp_hseq>MTTPQDIIRRDVLAMTSYPVPDAS-GFVKLDAMENP-YPLP--EPLAAALGERLAQVALNRYPAPRPAALLDKLRHAMGVPAGCEVLLGNGSDEIISMMSMACAKPGAKVLAPVPGFVMYELSAKLAQLEFVGVPLKADLTLDVDAMLAAIAEHRPAIVYLAYPNNPTGTLYDDADIERIVAAARHSLIVIDEAYQPFAVRSWLPRAAEFDNVVVMRTVSKLGLAGIRLGYLVGSPAWLTEFDKVRPPYNINVLTQATADFLLDHLDVLDAQAADLRAERTRLAQEVAALPGTTVFPSAGNFLLVRVPDAAAVFDALLTERVLVKNVSKMHPLLAECVRLTVGSPDEN</Hsp_hseq>
+      <Hsp_midline>M + +  IR D+LAM++Y + D   GF KLDAME+P +P    E L      +LA   ++ YP P    L + LR A  +P    V LGNGSDE+I  ++M  AKPGA +LA  PGF+MY  +A L  +++VGVPL  D TL++ A+L A+ +HRPA+ ++AYPNNPTG  +  A+IE  + A+   ++V+DEAY  F   S+LP+A    N++V+RT+SK+G AG+R+GY  G P  + E  K+ PPYN+N L+  TA   L H  ++ A    L+ ER R+  E+  +     FPS  NF+ +RVPDA  +FD L   R+LVK +   HPLL  C+R+T+GS  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|46576528|sp|Q845V2.1|HIS8_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>Q845V2</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>6.22618e-90</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2027</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEA-SDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQN</Hsp_qseq>
+      <Hsp_hseq>MTTPQDIIRRDVLAMTSYPVPDAS-GFVKLDAMENP-YPLP--EPLAAALGERLARVALNRYPAPRPAALLDKLRHAMGVPGTCDVLLGNGSDEIISMISVACAKPGAKVLAPVPGFVMYELSARFAQLDFVGVPLKADLTLDVDAMLAAIAEHRPAIVYLAYPNNPTGTLYDDADIERILRAATHSLIVIDEAYQPFAQHSWLPRAGEFDNVVVMRTVSKLGLAGIRLGYLVGRPAWLNEFDKVRPPYNINVLTQATADFLLDHLDVLDAQAAELRAERARLAQAVAALPGATVFPSAGNFLLVRVPDAAAVFDALLTERVLVKNVSKMHPLLAECVRLTVGSPDEN</Hsp_hseq>
+      <Hsp_midline>M + +  IR D+LAM++Y + D   GF KLDAME+P +P    E L      +LA   ++ YP P    L + LR A  +P    V LGNGSDE+I  I++  AKPGA +LA  PGF+MY  +A    +D+VGVPL  D TL++ A+L A+ +HRPA+ ++AYPNNPTG  +  A+IE  + A +  ++V+DEAY  F   S+LP+AG   N++V+RT+SK+G AG+R+GY  G P  + E  K+ PPYN+N L+  TA   L H  ++ A    L+ ER R+   +  +     FPS  NF+ +RVPDA  +FD L   R+LVK +   HPLL  C+R+T+GS  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|91207026|sp|Q2YAU6.1|HIS81_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 1; AltName: Full=Imidazole acetol-phosphate transaminase 1 [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2YAU6</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>6.25987e-89</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPP--GFAKLDAMESPAHPFEGHEALMREWRAQLA-SAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPD---ADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>IRPEILALSAYH---VPPACGMIKLDAMENP-YPLPPE---LRDEIAKLAGETPVNRYPDPDAAALKAALREALSIPDGMDIMLGNGSDEIIQIIALACGKPGAVLMSVEPAFVMFRMIATFASMNYVGVPLHPDFSLDAEAMLAAIARYQPAVIFIAYPNNPTGNLFDAVEISRIIDAAPGVVVVDEAYHAFADASFMDKLAHHPNLLLMRTLSKLGMAGLRLGLLAGKPEWLRQLEKLRLPYNVGIVTQRIAEKLLQHRDVLLQQAAAIKLERSSMSRRLAELEGIEVFPTDANFILFRLNQDHKATQVFQELKQRGILVKNLDGAHPLLKNCLRVTVGMPDENAQFLEVLQTL</Hsp_hseq>
+      <Hsp_midline>IR +ILA+SAY    VPP  G  KLDAME+P +P       +R+  A+LA   P++ YP+P    L+ ALR A  IPD   + LGNGSDE+IQ I +   KPGA +++ EP F+M+R  A    M+YVGVPL+ DF+L+  A+L A+ +++PA+ FIAYPNNPTG  F   EI   I+A+ G+VVVDEAY AF   SF+ +    PNL+++RTLSK+G AGLR+G   G PE + +L+K+  PYN+  ++   A+  LQH  ++     ++K ER  M   L ++  +  FP+ ANFI  R+     A  +F  LKQ  ILVK L GAHPLL++CLR+T+G   +N   L+V++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|91207030|sp|Q3JMZ7.1|HIS82_BURP1</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Burkholderia pseudomallei 1710b]</Hit_def>
+  <Hit_accession>Q3JMZ7</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>6.42395e-86</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2027</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDG-IVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQN</Hsp_qseq>
+      <Hsp_hseq>MTTPEDIIRRDVLAMTGYPVPDAT-GFVKLDAMENP---YSLPAPLAAELGERLAHVALNRYPAPRPAALIDRLRAVTGVPAACDVLLGNGSDELISMLAMACAKPGAKVLAPVPGFVMYELSAKFAQLEFVGVPLRADLTLDIDAMLAALAEHRPALVYLAYPNNPTGTLYPDEDVERIIAAAAASLVVIDEAYQPFAQRSWLPRAAQFDNVVVMRTMSKLGLAGIRLGYLVGLPAWLVQFDKVRPPYNVNVLTQAAAEFLLERVDVLDAQAAQLRDARTALAHAIGALPGATVFPSAGNFLLVRVPDAAAVFDVLLTERVLIKNVSKMHPLLANCVRVTVGSPEEN</Hsp_hseq>
+      <Hsp_midline>M +    IR D+LAM+ Y + D   GF KLDAME+P   +     L  E   +LA   ++ YP P    L + LR+   +P    V LGNGSDELI  + M  AKPGA +LA  PGF+MY  +A    +++VGVPL  D TL++ A+L A+ +HRPAL ++AYPNNPTG  +   ++E  I A+   +VV+DEAY  F   S+LP+A +  N++V+RT+SK+G AG+R+GY  G P  + +  K+ PPYN+N L+   A+  L+   ++ A    L++ R  +   +G +     FPS  NF+ +RVPDA  +FD L   R+L+K +   HPLL +C+R+T+GS  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|85541738|sp|Q3J7H2.1|HIS82_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3J7H2</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>1.71478e-85</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>354</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVP--DADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>VAQWIRPEIQRLSAYRVADAA-DLIKLDAMENP---YTWSPELIEAWLERLRQVSVNRYPDPQARSLKLRLRQYLALPEDMEMILGNGSDELIQMVLLAVAGPGRSVVAPEPTFVMYRQIAALLGLQYQGVALREDFSLDLPAMLQVIRERVPAVVFIAYPNNPTGNLFSAEELQAIIEASPGLVIVDEAYSVFAGETFMPRLEDYDHLLVMRTLSKIGLAGLRLGMLMGNPAWIKELEKVRLPYNINQLTQVSAEFALEQPGGLDEQARLICKARAQLQRALQQLPGIQVYPSDANFILFRTPPHQAEAIFTAIKERGVLIKNLSGQGGLLTDCLRVTVGTADENHAFLKALK</Hsp_hseq>
+      <Hsp_midline>V  +IR +I  +SAY++ D      KLDAME+P   +     L+  W  +L    ++ YP+P    L+  LR    +P+   + LGNGSDELIQ + +  A PG +++A EP F+MYR  AAL G+ Y GV L  DF+L+LPA+L+ +R+  PA+ FIAYPNNPTG  F+  E++A IEAS G+V+VDEAY  F G++F+P+     +L+V+RTLSKIG AGLR+G   G P  I EL+K+  PYN+NQL+  +A+ AL+  G +      +   R ++   L ++  +  +PS ANFI  R P   A+ +F  +K+  +L+K L G   LL  CLR+T+G++ +N A L  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81378976|sp|Q63Q87.1|HIS82_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Burkholderia pseudomallei K96243] &gt;gi|81604146|sp|Q62GE0.1|HIS81_BURMA RecName: Full=Histidinol-phosphate aminotransferase 1; AltName: Full=Imidazole acetol-phosphate transaminase 1 [Burkholderia mallei ATCC 23344]</Hit_def>
+  <Hit_accession>Q63Q87</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>1.94996e-85</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2027</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDG-IVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQN</Hsp_qseq>
+      <Hsp_hseq>MTTPEDIIRRDVLAMTGYPVPDAT-GFVKLDAMENP---YSLPAPLAAELGERLAHVALNRYPAPRPAALIDRLRAVTGVPAACDVLLGNGSDEIISMLAMACAKPGAKVLAPVPGFVMYELSAKFAQLEFVGVPLRADLTLDIDAMLAALAEHRPALVYLAYPNNPTGTLYPDEDVERIIAAAAASLVVIDEAYQPFAQRSWLPRAAQFDNVVVMRTMSKLGLAGIRLGYLVGLPAWLVQFDKVRPPYNVNVLTQAAAEFLLERVDVLDAQAAQLRDARTALAHAIGALPGATVFPSAGNFLLVRVPDAAAVFDVLLTERVLIKNVSKMHPLLANCVRVTVGSPEEN</Hsp_hseq>
+      <Hsp_midline>M +    IR D+LAM+ Y + D   GF KLDAME+P   +     L  E   +LA   ++ YP P    L + LR+   +P    V LGNGSDE+I  + M  AKPGA +LA  PGF+MY  +A    +++VGVPL  D TL++ A+L A+ +HRPAL ++AYPNNPTG  +   ++E  I A+   +VV+DEAY  F   S+LP+A +  N++V+RT+SK+G AG+R+GY  G P  + +  K+ PPYN+N L+   A+  L+   ++ A    L++ R  +   +G +     FPS  NF+ +RVPDA  +FD L   R+L+K +   HPLL +C+R+T+GS  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|21759164|sp|Q8XV80.1|HIS81_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 1; AltName: Full=Imidazole acetol-phosphate transaminase 1 [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8XV80</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.21627e-84</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2032</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDG-----IVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLD</Hsp_qseq>
+      <Hsp_hseq>VRDDVRAMGAYHVPDAS-GMVKLDAMENPYHLPAMLRDALGK----RLAEVALNRYPVPTADALKAQLKRVMRVPAGADVLLGNGSDEIISLIAIAAAKPGATVLAPVPGFVMYAMSAQLMGLKFVGVPLRADLTLDREAMLAAMAEHQPAVIYLAYPNNPTGNLFDAADMDALLRAARGPVCQSLVVVDEAYQPFAQHSWMPRLPEFDHLLVMRTVSKLGLAGIRLGYVAGHPKWIAELDKVRPPYNVNVLTEATAAFVLDHVDVLDAQAATLRAERTRLIDALSAQPGVTVFPSAANFLLLRVPDAAGLFERLLKRRVLVKNVSKMHPLLANCLRVTVSNPEENAQFLD</Hsp_hseq>
+      <Hsp_midline>+R+D+ AM AY + D   G  KLDAME+P H P    +AL +    +LA   ++ YP P+   L+  L+    +P  A V LGNGSDE+I  I +  AKPGA +LA  PGF+MY  +A L G+ +VGVPL  D TL+  A+L A+ +H+PA+ ++AYPNNPTG  F  A+++A + A+ G     +VVVDEAY  F   S++P+     +L+V+RT+SK+G AG+R+GY  G P+ I EL K+ PPYN+N L+  TA   L H  ++ A   +L+ ER R+   L     +  FPS ANF+ +RVPDA  LF+ L + R+LVK +   HPLL +CLR+T+ +  +N   LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|85541741|sp|Q46WL3.1|HIS82_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46WL3</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>9.39121e-84</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2032</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>354</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDG-----IVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLD</Hsp_qseq>
+      <Hsp_hseq>IERIIRDDVRAMGAYHVPD-SHGLVKLDAMENP---YRLPPALRSELAARLGEVALNRYPVPSSEALRAKLKEVMQVPAGMEVLLGNGSDEIISMLALAAARPGAKVMAPVPGFVMYAMSAQFAGLEFVGVPLRADFTLDRGAMLAAMAEHQPAIVYLAYPNNPTGNLFDAADMEAIVRAAQGSVCRSLVVVDEAYQPFAQESWMSRLTDFGNLLVMRTVSKLGLAGIRLGYVAGDPQWLEQLDKVRPPYNVNVLTEATALFALEHVAVLDEQAAQLRAERSRVAEGMAAHGGVTVFPSAANFLLARVPDAAQTFDRLLARKVLIKNVSKMHPLLANCLRVTVSTPEENAQFLE</Hsp_hseq>
+      <Hsp_midline>+   IR+D+ AM AY + D   G  KLDAME+P   +    AL  E  A+L    ++ YP PS   L+  L+    +P    V LGNGSDE+I  + +  A+PGA ++A  PGF+MY  +A   G+++VGVPL  DFTL+  A+L A+ +H+PA+ ++AYPNNPTG  F  A++EA + A+ G     +VVVDEAY  F  +S++ +     NL+V+RT+SK+G AG+R+GY  G P+ + +L K+ PPYN+N L+  TA  AL+H  ++      L+ ER R+   +     +  FPS ANF+  RVPDA   FD L   ++L+K +   HPLL +CLR+T+ +  +N   L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|123531296|sp|Q2SBJ7.1|HIS8_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SBJ7</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>8.94204e-82</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2034</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVP-DADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVI</Hsp_qseq>
+      <Hsp_hseq>ILQWVRPEVQALSAYHVADAS-GLIKLDAMENP---FDFPAALKAELGVDLRDAAINRYPDPDAGAIRTALRELYSLPASADMLFGNGSDEIIQILAMAVAGPGRTILSVEPSFVMYKMIATFIGAEYVGVPLNDDFQIDAQTTLDAIKRHQPALVFIAQPNNPTGNLFDDETLRQIVAASPGLVVIDEAYTAFTNADYMSWVSEYDNVVVMRTFSKVGLAGLRFGMLFGAQEWIEQLNKVRLPYNINCLTQNAVLTAIRHFPEFVKQTEALREQRSWLSAQLDGVAGVTVYPSEANFILVRVDLPAKSVFSEMKRRGVLIKLLDGGHPKLAGCLRLTVGSHEENEAMLKAL</Hsp_hseq>
+      <Hsp_midline>+  ++R ++ A+SAY + D   G  KLDAME+P   F+   AL  E    L  A I+ YP+P    ++ ALR  + +P  A +  GNGSDE+IQ + M  A PG  +L+ EP F+MY+  A   G +YVGVPLN DF ++    L+A+++H+PAL FIA PNNPTG  F    +   + AS G+VV+DEAY AF    ++       N++V+RT SK+G AGLR G   G  E I +L K+  PYN+N L+      A++H+       ++L+ +R  + A+L  +  +  +PS+ANFI +RV   A  +F  +K+  +L+K L G HP L  CLR+T+GS  +N+A+L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|172047235|sp|A5CVR5.1|HIS8_VESOH</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Candidatus Vesicomyosocius okutanii HA]</Hit_def>
+  <Hit_accession>A5CVR5</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>1.60794e-78</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2038</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLY</Hsp_qseq>
+      <Hsp_hseq>MSFINSWLRSDIKMINAYHVP-ISADMVKMDAMESP---FSLSDELTDQYLTYLVDAQLNRYPSPSSDKLNQTLRLLMNIPKEFGVLLGNGSDELIQLLA-LACNTGDTVLSVEPSFVMYGMITKFTRLNYQSVLLTDDFEIDDDTMQKAIKTYNPKLIFIAYPNNPTGNMFNREIIEHIISSTKAMVVLDEAYYAYTTDSFLTDIAKYPNLVLLRTVSKIGFAGLRLGLLIATQDTVNQLNKLRLPYNINILTQVSANFLLQEKNTINANVSVILAQRQVLFDALVKINVLKVYPSQANFILFKAPNTNILFDFLKENGVLIKNLSVKKKLI-NCLRVTIGTEEQNQKFINIVEKFY</Hsp_hseq>
+      <Hsp_midline>M  + S++R+DI  ++AY +  +     K+DAMESP   F   + L  ++   L  A ++ YP+PS   L + LR   +IP    V LGNGSDELIQ +  L    G  +L+ EP F+MY        ++Y  V L  DF ++   + +A++ + P L FIAYPNNPTG  F R  IE  I ++  +VV+DEAY A+  DSFL    + PNL++LRT+SKIGFAGLR+G      + + +L K+  PYN+N L+  +A   LQ    I+AN+  +  +R+ +F  L KI  L  +PSQANFI  + P+ ++LFD LK+N +L+K L     L+ +CLR+TIG+  QN   ++++ + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|171769863|sp|A2SE05.1|HIS8_METPP</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Methylibium petroleiphilum PM1]</Hit_def>
+  <Hit_accession>A2SE05</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>8.43777e-78</Hsp_evalue>
+      <Hsp_query-from>1687</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>FIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEA---SDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>FVRQDVQNMHAYAIQP-SDGFVKLDAMENP-HRLPA--ALQAELGRRLGALAINRYPGTRTDELRAALARHAGLPPGCALMLGNGSDELISLLSMACDVPGATVLAPLPGFVMYEMSARLQGLRFVGVPLTADFELDAAAMLAAVREHRPALTYLAYPNNPTANLWDDAVIERVVDAVREHGGLVVIDEAYQPFASRSYIDRLAHHDHVLLMRTLSKFGLAGVRLGYLMGPTALVAEIDKVRPPYNVSVLNCEAALFALEHEDEFARQAAVLRAERARLLDALRAMSGATPFPSEANMVLVRVPDAKAAFEGLKARGVLVKNVSGLHPLLANCLRLTVGLPEENDQMIAALK</Hsp_hseq>
+      <Hsp_midline>F+R D+  M AY I     GF KLDAME+P H      AL  E   +L +  I+ YP      L+ AL     +P   A+ LGNGSDELI  ++M    PGA +LA  PGF+MY  +A L G+ +VGVPL  DF L+  A+L AVR+HRPALT++AYPNNPT   +  A IE  ++A     G+VV+DEAY  F   S++ +     +++++RTLSK G AG+R+GY  G   ++ E+ K+ PPYN++ L+   A  AL+H    +     L+ ER R+   L  +     FPS+AN + +RVPDA   F+ LK   +LVK + G HPLL +CLR+T+G   +ND ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|39931496|sp|Q82WM3.1|HIS81_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 1; AltName: Full=Imidazole acetol-phosphate transaminase 1 [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82WM3</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>2.33712e-76</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2028</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPG--FAKLDAMESPAH--PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQND</Hsp_qseq>
+      <Hsp_hseq>IRQEILALSAYH---VPPAKDMVKLDAMENPYRLPPF-----LCEEISRIAADTSINRYPDPHAAALKEVLSTTLSVPAGMEIMLGNGSDEIIQIIMLAAAKPEAKLLTIEPGFAMFKMIATFANMQYIGIPLKPDFSLDIDRMLAAIERHQPSVIFLAYPNNPSGNLFDTSALEKIIEISPGLVVIDEAYHPFAGKSFIGRLADYPNLLVMRTLSKLGLAGLRLGLLAGRPEWLSHLEKLRLPYNVNVITQLVATKIMQHYDVLQQQADAIRQTRTRLRTFLENLNGIEVFPSNANFILFRLDGASQIFRLLQQHGILVKNLDNSHPLLKNCLRVTVGTPEEND</Hsp_hseq>
+      <Hsp_midline>IR +ILA+SAY    VPP     KLDAME+P    PF     L  E     A   I+ YP+P    L+E L +   +P    + LGNGSDE+IQ I +  AKP A +L  EPGF M++  A    M Y+G+PL  DF+L++  +L A+ +H+P++ F+AYPNNP+G  F  + +E  IE S G+VV+DEAY  F G SF+ +    PNL+V+RTLSK+G AGLR+G   G PE +  L+K+  PYN+N ++   A   +QHY ++    D+++  R R+   L  +  +  FPS ANFI  R+  A  +F  L+Q+ ILVK L  +HPLL++CLR+T+G+  +ND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|254801948|sp|B9MDV4.1|HIS8_ACIET</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Acidovorax ebreus TPSY]</Hit_def>
+  <Hit_accession>B9MDV4</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>9.67347e-75</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEAS---DGIVVVDEAYGAFNGDSFL----PQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLN-AFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>IRDDVRAMQAYVVADAT-GYLKMDAMENP---FGLPPALQAALGQRLGQLALNRYPGTRQNDLKAALAAYAGEPAGSAVLLGNGSDELISLVALACARAQATVLAPVPGFVMYAMSAQLQGLGFVGVPLTADFELDEAAMLDAIAQHRPAITFLAYPNNPTATLWDEAVVQRIIDAAGAQGGIVVMDEAYQPFASRSWIERMRAQPERNGHVLLMRTLSKFGLAGVRLGYMIGPAALVAEVDKVRPPYNVSVLNTEAALFALEHADVFAAQADELRAARTELLAALRAMPGIERVWDSQANMVLVRVPDAARAYEGMKARKVLVKNVSTMHPLLAGCLRLTVGSSADNAQMLTALQ</Hsp_hseq>
+      <Hsp_midline>IR+D+ AM AY + D   G+ K+DAME+P   F    AL      +L    ++ YP      L+ AL +    P  +AV LGNGSDELI  + +  A+  A +LA  PGF+MY  +A L G+ +VGVPL  DF L+  A+L+A+ +HRPA+TF+AYPNNPT   +  A ++  I+A+    GIVV+DEAY  F   S++     Q  R  +++++RTLSK G AG+R+GY  G   ++ E+ K+ PPYN++ L+   A  AL+H  + +A  D L+  R  + A L  +  +   + SQAN + +RVPDA   ++ +K  ++LVK +   HPLL  CLR+T+GSSA N  +L  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|39931449|sp|Q7WDY3.1|HIS82_BORBR</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7WDY3</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.47553e-74</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVP---DADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>VRADIRALTAYPVADAA-GCIKLDAMECPYELPAEVRDDIARAAR----ETPLNRYPAAANPALQAQVRQAFEVPAQAGLLFGNGSDELIHLIIQACCEPGDTVLSPWPSFVYFDMAARLSHARFVGVPLTAGLELDLPATLAAIEAHQPKVVFLALPNNPTGGLWPDAAVRAILDAAPGLVVLDEAYQPFAGHTWMPRIMDEPNAVVMRTVSKIGLAGLRFGYLAGHPAWIAEFDKVRPPYNMDVLSQAVLAAVLRHKPVLDAQADRLRADRQPLADGLAALPGVTVFPSAGNFVLARFCGKLDGNAVHLALKTRKILVRNFSNAHPLLADCLRISVGTPTENAAVLSALQ</Hsp_hseq>
+      <Hsp_midline>+R DI A++AY + D   G  KLDAME P   P E  + + R  R      P++ YP  +   LQ  +R AF++P  A +  GNGSDELI  I     +PG  +L+  P F+ +   A L    +VGVPL     L+LPA L A+  H+P + F+A PNNPTG  +  A + A ++A+ G+VV+DEAY  F G +++P+    PN +V+RT+SKIG AGLR GY  G P  I E  K+ PPYNM+ LS       L+H  ++ A  D L+ +R+ +   L  +  +  FPS  NF+  R     D + +   LK  +ILV+    AHPLL  CLRI++G+  +N AVL  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|167017079|sp|A1TKZ0.1|HIS8_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TKZ0</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.47642e-74</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESP-AHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPG----AAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEAS---DGIVVVDEAYGAFNGDSFLPQAGRIP----NLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLN-AFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>IRPDVRAMHAYAVQPAT-GVLKMDAMENPFPLPPELQEALGR----RLGALALNRYPGARLTDLKSALAAHIGMPEGFSMVLGNGSDEIITLLALACARPGTGERAAMLAPMPGFVMYPMSAQLQGLDFVAVPLTADFELDEPAMLAAIAQHRPAITYLAYPNNPTATLWDEGAVQRVIDAAGAQGGIVVMDEAYQPFASRTWLDRMRAEPVRNAHVLLMRTLSKFGLAGVRLGYLAGPAALVDEIEKVRPPYNVSVLNCEAALFALEHARVFAAQAAELRAVRTRLVAALRAMPGIERVWDSEANMVLVRVPDAARAFEGMKARKVLVKNVSTMHPLLARCLRLTVGSEADNAQMLDALQ</Hsp_hseq>
+      <Hsp_midline>IR D+ AM AY +     G  K+DAME+P   P E  EAL R    +L +  ++ YP      L+ AL +   +P+  ++ LGNGSDE+I  + +  A+PG    AAMLA  PGF+MY  +A L G+D+V VPL  DF L+ PA+L A+ +HRPA+T++AYPNNPT   +    ++  I+A+    GIVV+DEAY  F   ++L +    P    +++++RTLSK G AG+R+GY  G   ++ E++K+ PPYN++ L+   A  AL+H  + +A    L+  R R+ A L  +  +   + S+AN + +RVPDA   F+ +K  ++LVK +   HPLL  CLR+T+GS A N  +LD ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|39931437|sp|Q7W2Y3.1|HIS82_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>Q7W2Y3</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>4.67272e-74</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVP---DADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>VRADIRALTAYPVADAA-GCIKLDAMECPYELPAEVRDDIARAAR----ETPLNRYPAAANPALQAQVRQAFEVPAQAGLLFGNGSDELIHLIIQACCEPGDTVLSPWPSFVYFDMAARLSHARFVGVPLTAGLELDLPATLAAIEAHQPKVVFLALPNNPTGGLWPDAAVRAILDAAPGLVVLDEAYQPFAGHTWMPRIMDEPNAVVMRTVSKIGLAGLRFGYLAGHPAWIAEFDKVRPPYNMDVLSQAVLAAVLRHKPVLDAQADRLHADRQPLADGLAALPGVTVFPSAGNFVLARFCGKLDGNAVHLALKTRKILVRNFSNAHPLLADCLRISVGTPTENAAVLSALQ</Hsp_hseq>
+      <Hsp_midline>+R DI A++AY + D   G  KLDAME P   P E  + + R  R      P++ YP  +   LQ  +R AF++P  A +  GNGSDELI  I     +PG  +L+  P F+ +   A L    +VGVPL     L+LPA L A+  H+P + F+A PNNPTG  +  A + A ++A+ G+VV+DEAY  F G +++P+    PN +V+RT+SKIG AGLR GY  G P  I E  K+ PPYNM+ LS       L+H  ++ A  D L  +R+ +   L  +  +  FPS  NF+  R     D + +   LK  +ILV+    AHPLL  CLRI++G+  +N AVL  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|39931428|sp|Q7VSZ0.1|HIS82_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 2; AltName: Full=Imidazole acetol-phosphate transaminase 2 [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VSZ0</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>2.30101e-73</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVP---DADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>VRADIRALTAYPVADAA-GCIKLDAMECPYELPAEVRDDIARAAR----ETPLNRYPAAANPALQAQVRQAFEVPAQAGLLFGNGSDELIHLIIQACCEPGDTVLSPWPSFVYFDMAARLSHARFVGVPLTAGLELDLPATLAAIEAHQPKVVFLALPNNPTGDLWPDAAVRAILDAAPGLVVLDEAYQPFAGHTWMPRIMDEPNAVVMRTVSKIGLAGLRFGYLAGHPAWIAEFDKVRPPYNMDVLSQAVLAAVLRHKPVLDAQADRLRADRQPLADGLAALPGVTVFPSAGNFVLARFCGKLDGNAVHLAPKTRKILVRNFSNAHPLLADCLRISVGTPTENAAVLSALQ</Hsp_hseq>
+      <Hsp_midline>+R DI A++AY + D   G  KLDAME P   P E  + + R  R      P++ YP  +   LQ  +R AF++P  A +  GNGSDELI  I     +PG  +L+  P F+ +   A L    +VGVPL     L+LPA L A+  H+P + F+A PNNPTG  +  A + A ++A+ G+VV+DEAY  F G +++P+    PN +V+RT+SKIG AGLR GY  G P  I E  K+ PPYNM+ LS       L+H  ++ A  D L+ +R+ +   L  +  +  FPS  NF+  R     D + +    K  +ILV+    AHPLL  CLRI++G+  +N AVL  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|171769445|sp|A1W431.1|HIS8_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Acidovorax sp. JS42]</Hit_def>
+  <Hit_accession>A1W431</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>6.18768e-72</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEAS---DGIVVVDEAYGAFNGDSFL----PQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLN-AFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>IRDDVRAMQAYVVADAT-GYLKMDAMENP---FGLPPALQAALGQRLGQLALNRYPGTRQNDLKAALAAYAGAPAGSAVLLGNGSDELISLVALACARAQATVLAPVPGFVMYAMSAQLQGLGFVGVPLTADFELDEAAMLAAIAQHRPAITFLAYPNNPTATLWDEAVVQRIIDAAGAQGGIVVMDEAYQPFASRSWIERMRAQPERNGHVLLMRTLSKFGLAGVRLGYMIGPAALVAEVDKVRPPYNVSVLNTEAALFALEHADVFAAQADELRAARTELLAALRAMPGIERVWDSQANMVLVRVPDAARAYEGMKARKVLVKNVSTMHPLLAGCLRLTVGSSADNAQMLTALQ</Hsp_hseq>
+      <Hsp_midline>IR+D+ AM AY + D   G+ K+DAME+P   F    AL      +L    ++ YP      L+ AL +    P  +AV LGNGSDELI  + +  A+  A +LA  PGF+MY  +A L G+ +VGVPL  DF L+  A+L A+ +HRPA+TF+AYPNNPT   +  A ++  I+A+    GIVV+DEAY  F   S++     Q  R  +++++RTLSK G AG+R+GY  G   ++ E+ K+ PPYN++ L+   A  AL+H  + +A  D L+  R  + A L  +  +   + SQAN + +RVPDA   ++ +K  ++LVK +   HPLL  CLR+T+GSSA N  +L  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|171769287|sp|A1VK38.1|HIS8_POLNA</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Polaromonas naphthalenivorans CJ2]</Hit_def>
+  <Hit_accession>A1VK38</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>6.49624e-72</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2031</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEA---SDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVL</Hsp_qseq>
+      <Hsp_hseq>LKKLIRQDVQSMHAYAIQE-SSGMVKLDAMENPHRLPAGLQA---ELGQRLGALALNRYPDGRVNDLRRALADYAQMPEGFDIMLGNGSDELIALLALACDVPGGSVLAPLPGFVMYAMSAQLQGLKFIGVDLTPDFELDEAAMLAAIAEHKPSITYLAYPNNPTANLWDDAVIENIINAVGEQGGLVVIDEAYQPFASKSYAGRMARHSHVLLMRTLSKFGLAGVRLGYMMGPKALIAEIDKVRPPYNISVLNYECALFALEHREVFAAQAQDVVAQRAVLFNALSALPGVKAWHSDANMILIRVPDAARAFEGLRNRKVLIKNISKMHPLLANCLRLTVGTAEENAQLL</Hsp_hseq>
+      <Hsp_midline>++  IR D+ +M AY I +   G  KLDAME+P     G +A   E   +L +  ++ YP+     L+ AL     +P+   + LGNGSDELI  + +    PG ++LA  PGF+MY  +A L G+ ++GV L  DF L+  A+L A+ +H+P++T++AYPNNPT   +  A IE  I A     G+VV+DEAY  F   S+  +  R  +++++RTLSK G AG+R+GY  G   +I E+ K+ PPYN++ L+   A  AL+H  + +A    +  +R  +F  L  +  + A+ S AN I IRVPDA   F+ L+  ++L+K +   HPLL +CLR+T+G++ +N  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|226702179|sp|B0K735.1|HIS8_THEP3</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Thermoanaerobacter pseudethanolicus ATCC 33223]</Hit_def>
+  <Hit_accession>B0K735</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>2.07668e-56</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEAL-RSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVK---KLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>IENLVREEIKGFKNYEVHSIPYRY-KMDANETP---FELPEEVIKNIQEIVKSSQVNVYPDPTAEKLKEELARYCGVVP--TNIFVGNGSDEIIHLIMLAFINKGDVVAYPHPSFAMYSVYSKIAGAVEIPVRLREDYNYDVDSFIKVIEKYQPKLVFLCNPNNPTGSVIEREDIIKIIQKSNGIVVVDEAYFEFYGNTIVDVINEFENLIVLRTLSKAFGLAGLRVGYAVANENILKYLNLVKSPYNINSLSQVIA-LKVLRTGVLKERVNFILKERERLIKELSKIPGIKVYPSKTNFILVKFKDADYVYQGLLERGILVRDFSKVEG----LEGALRITVSSCEANDYLINGLKEL</Hsp_hseq>
+      <Hsp_midline>+ + +R +I     Y++  +P  + K+DA E+P   FE  E +++  +  + S+ +++YP+P+   L+E L R    +P    + +GNGSDE+I  I +     G  +    P F MY   + + G   + V L  D+  ++ + ++ + K++P L F+  PNNPTG    R +I   I+ S+GIVVVDEAY  F G++ +       NLIVLRTLSK  G AGLR+GYA     ++  L  +  PYN+N LS   A L +   G++   ++ +  ERER+  EL KI  +  +PS+ NFI ++  DAD ++  L +  ILV+   K+ G    LE  LRIT+ S   ND +++ ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|226702180|sp|B0K625.1|HIS8_THEPX</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Thermoanaerobacter sp. X514]</Hit_def>
+  <Hit_accession>B0K625</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>5.48757e-56</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEAL-RSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVK---KLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>IENLVREEIKGFKNYEVHSIPYRY-KMDANETP---FELPEEVIKNIQEIVKSSQVNVYPDPTAEKLKEELARYCGVVP--TNIFVGNGSDEIIHLIMLAFINKGDVVAYPHPSFAMYSVYSKIAGAVEIPVRLREDYNYDVDSFIKVIEKYQPKLVFLCNPNNPTGSVIEREDIIKIIQKSNGIVVVDEAYFEFYGNTIVDAINEFENLIVLRTLSKAFGLAGLRVGYAVANENILKYLNLVKSPYNINSLSQIIA-LKVLRTDVLKERINYILEERKRLIKELGKIPGVKVYPSKTNFILVKFKDADYVYQGLLERGILVRDFSKVEG----LEGALRITVSSCEANDYLINGLKEL</Hsp_hseq>
+      <Hsp_midline>+ + +R +I     Y++  +P  + K+DA E+P   FE  E +++  +  + S+ +++YP+P+   L+E L R    +P    + +GNGSDE+I  I +     G  +    P F MY   + + G   + V L  D+  ++ + ++ + K++P L F+  PNNPTG    R +I   I+ S+GIVVVDEAY  F G++ +       NLIVLRTLSK  G AGLR+GYA     ++  L  +  PYN+N LS   A L +    ++   I+ +  ER+R+  ELGKI  +  +PS+ NFI ++  DAD ++  L +  ILV+   K+ G    LE  LRIT+ S   ND +++ ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|21759156|sp|Q8R5Q4.1|HIS8_THETN</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8R5Q4</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>6.03597e-56</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>IENLLREEIKGFKNYEVENVPYKY-KMDANETP---FELPEEVMKNIGDIVKSIHVNIYPDPTAEKLREELARYCSVTP-KNIFVGNGSDEIIHLIMLAFVDKGDTVLYPHPSFAMYSIYSKIAGANEIAVNLNEDYTYNVERFAEAVERYKPKLVFLCNPNNPTGSVIDEEDIIRIIEKARGIVIVDEAYFEFYGKTLVPYIDRFENLIVLRTLSKAFGIAGLRVGYALSNGEIVKYLNLVKSPYNLNSLSQRIA-LEVLKSGVLKERVNYIINEREKLVKELNKINGIKVYPSHANFVLCKFENANDVHKRLVERGILVRNFSNVKG-LEGTLRITVSSSDANDYLINALREI</Hsp_hseq>
+      <Hsp_midline>+ + +R +I     Y++ +VP  + K+DA E+P   FE  E +M+     + S  +++YP+P+   L+E L     +     + +GNGSDE+I  I +     G  +L   P F MY   + + G + + V LN D+T N+    EAV +++P L F+  PNNPTG      +I   IE + GIV+VDEAY  F G + +P   R  NLIVLRTLSK  G AGLR+GYA    E++  L  +  PYN+N LS   A L +   G++   ++ + NERE++  EL KI  +  +PS ANF+  +  +A+ +   L +  ILV+        LE  LRIT+ SS  ND +++ +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|21759151|sp|O67857.1|HIS8_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O67857</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>1.49947e-50</Hsp_evalue>
+      <Hsp_query-from>1688</Hsp_query-from>
+      <Hsp_query-to>2034</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLAL-QHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVP-DADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVI</Hsp_qseq>
+      <Hsp_hseq>IPQRIKELEAYK-TEVTPASVRLSSNE---FPYDFPEEIKQRALEELKKVPLNKYPDPEAKELKAVLADFFGVKE-ENLVLGNGSDELIYYLSIAIGELYIPVYIPVPTFPMYEISAKVLGRPLVKVQLDENFDIDLERSIELIEKEKPVLGYFAYPNNPTGNLFSRGKIE-EIRNRGVFCVIDEAYYHYSGETFLEDALKREDTVVLRTLSKIGMASLRVGILIGKGEIVSEINKVRLPFNVTYPSQVMAKVLLTEGREFLMEKIQEVVKERERMYDEMKKIEGVEVFPSKANFLLFRTPYPAHEVYQELLKRDVLVRNVSYMEG-LQKCLRVSVGKPEENNKFLEAL</Hsp_hseq>
+      <Hsp_midline>I   I  + AYK T+V P   +L + E    P++  E + +    +L   P++ YP+P    L+  L   F + +   + LGNGSDELI ++++   +    +    P F MY  +A + G   V V L+ +F ++L   +E + K +P L + AYPNNPTG  F+R +IE  I       V+DEAY  ++G++FL  A +  + +VLRTLSKIG A LR+G   G  E++ E+ K+  P+N+   S   AK+ L +    +   I  +  ERERM+ E+ KI  +  FPS+ANF+  R P  A  ++  L +  +LV+ +      L+ CLR+++G   +N+  L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|254801963|sp|A5CZ78.1|HIS8_PELTS</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Pelotomaculum thermopropionicum SI]</Hit_def>
+  <Hit_accession>A5CZ78</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>3.22164e-49</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>2027</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>PGFAKLDAMESP-AHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVP-DADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQN</Hsp_qseq>
+      <Hsp_hseq>PEVVKLDANENPYGFPPEVLTAILSE----VGSREFSRYPDAAAGRLRESL-AGYTGVDPENIMVGNGADELILNI-MLTFGTGAKFAIATPTFSMYGIHGRIASCEKVEVPRLDGFRVDVEAMKRAAGEPGVKIAVICTPNNPTGNATPPEEIEEILKSTGAIVVVDEAYAEFGGRSCIPLLNRYPNLVILRTFSKAFALAGLRVGYLLAGRPVINELLKVKQPYNLNAFSQAAARVVMENLPPFKERIKKILEERERLFTELSALPGVEAFPSQANFILFRTPMPAGEVYGGLLERGVLVRNVDG--PGLSRCLRVAVGTAEEN</Hsp_hseq>
+      <Hsp_midline>P   KLDA E+P   P E   A++ E    + S     YP+ +   L+E+L + +   D   + +GNG+DELI  I MLT   GA    A P F MY  +  +   + V VP    F +++ A+  A  +    +  I  PNNPTG      EIE  ++++  IVVVDEAY  F G S +P   R PNL++LRT SK    AGLR+GY      VI EL K+  PYN+N  S   A++ +++       I  +  ERER+F EL  +  + AFPSQANFI  R P  A  ++  L +  +LV+ + G  P L  CLR+ +G++ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|189043542|sp|A4SE60.1|HIS8_PROVI</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Chlorobium phaeovibrioides DSM 265]</Hit_def>
+  <Hit_accession>A4SE60</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.40342e-48</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>2034</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>KSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFN-GDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVI</Hsp_qseq>
+      <Hsp_hseq>RDIMRYLNPSLRDIAAYSVEGGQQAAIKLNQNESPFDLPMWLKDAIVSEF----VREPWNRYPDILPYRGTKAYADFLGVP-AEGVMMGNGSNELLYTIFLACLGPGRKILVPDPSFSLYEKLALLLQASLVRVPLKASLDFDVDAIIQSAQEESVDFVVLSSPNNPTGKSITFDDIRRIASSCDALVLVDEAYIEFSRQDSALPLIEEFPNLVVLRTMSKALALAGMRIGFAIGRPELIAEIAKPKIPFASSRLAEITLMHVLENYAIVTDAVSYILNARDELYGELLSVQGVEPFMSDTNFLVIRVPDADAVFRKLIGRGILVRNVSGYH-LMKNCLRFNIGLPDENSRLLDAL</Hsp_hseq>
+      <Hsp_midline>+ +  ++   +  ++AY +        KL+  ESP   P    +A++ E+       P + YP+       +A      +P    V +GNGS+EL+  I +    PG  +L  +P F +Y   A L     V VPL      ++ A++++ ++       ++ PNNPTG   T  +I     + D +V+VDEAY  F+  DS LP     PNL+VLRT+SK +  AG+RIG+A G PE+I E+ K   P+  ++L+  T    L++Y I++  +  + N R+ ++ EL  +  +  F S  NF+ IRVPDAD +F  L    ILV+ + G H L+++CLR  IG   +N  +LD +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|21759217|sp|Q9L6I2.1|HIS8_THIRO</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase, partial [Thiocapsa roseopersicina]</Hit_def>
+  <Hit_accession>Q9L6I2</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>6.34374e-48</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>1871</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPL-NGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVD</Hsp_qseq>
+      <Hsp_hseq>ITQLIRPDIRALSAYHVPD-PAGLIKLDAMENP---YGWPDTLKAEWLEGMHDLALNRYPDPQGTAVQAALRQAMGIPSDMGLLLGNGSDELIQMLAIAVAQPGRKVLSLDPGFVMYRMIACFAGMDYVGVPLRSDDFSIDLPVMLDAIEREQPALIYLAYPNNPTGNRFDSDDMVRIIEAAPGLVIVD</Hsp_hseq>
+      <Hsp_midline>+   IR DI A+SAY + D P G  KLDAME+P   +   + L  EW   +    ++ YP+P G  +Q ALR A  IP    + LGNGSDELIQ + +  A+PG  +L+ +PGF+MYR  A   GMDYVGVPL + DF+++LP +L+A+ + +PAL ++AYPNNPTG  F   ++   IEA+ G+V+VD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|226702139|sp|B3ECG2.1|HIS8_CHLL2</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Chlorobium limicola DSM 245]</Hit_def>
+  <Hit_accession>B3ECG2</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>7.74477e-48</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>KSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGD-SFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>RDIKDLLNPALRNIAVYKVDGGQEAAVKLNQNESPFDLPFWMKEQILEEFRLE----PWNRYPDILPFRGMDAYADFLGVSR-DSVIMSNGSNEMLYTIFLACLSPGKKILIPEPSFSLYEKIALLLQADIVSVPMQPSLDFDADSLIERAKQEKVDFIVLSTPNNPTGKSLASPDIARIVRECDAIVLVDEAYIEFSREHSVLALIEECPNLIVLRTMSKALALAGMRIGFAIANPLLMAEIAKPKIPFASSRFAEITLQHVLRYYYLVTDAVSYILGERERIYAELEGIASLDVFQSDTNFLIIRVPDAQKVFHALVSSGILVRNVSG-YLLMENCLRFNIGLREENDQLLEKLKSL</Hsp_hseq>
+      <Hsp_midline>+ ++  +   +  ++ YK+        KL+  ESP   PF   E ++ E+R +    P + YP+       +A      +    +V + NGS+E++  I +    PG  +L  EP F +Y   A L   D V VP+      +  +++E  ++ +     ++ PNNPTG      +I   +   D IV+VDEAY  F+ + S L      PNLIVLRT+SK +  AG+RIG+A   P ++ E+ K   P+  ++ +  T +  L++Y +++  +  +  ERER++AEL  I  L+ F S  NF+ IRVPDA  +F  L  + ILV+ + G + L+E+CLR  IG   +ND +L+ ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|25453034|sp|Q8KD01.1|HIS8_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Chlorobium tepidum TLS]</Hit_def>
+  <Hit_accession>Q8KD01</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>2.0435e-47</Hsp_evalue>
+      <Hsp_query-from>1766</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>VALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGD-SFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>VIMSNGSNEMLYTIFMACLGAGRKVLIPEPSFSLYDKLARLQQAGVVEVPMHDDLSFDVDAIIEAARREKVDFIVLSTPNNPTSKSLSHDEIERIVEAADAIVLVDEAYVEFSREQSALDLIDRYPNLIVLRTMSKALALAGMRIGFAIANPELLAEISKPKIPFASSRLAEITLMAVLENYSLVTDAVQYILAERGRIEAELTEIPGIHTFESDTNFLIIRVANASEVFRKLKNAGVLVRNVSG-YPLMENCLRFNVGLREENDRLLELLKKL</Hsp_hseq>
+      <Hsp_midline>V + NGS+E++  I M     G  +L  EP F +Y   A L     V VP++ D + ++ A++EA R+ +     ++ PNNPT    +  EIE  +EA+D IV+VDEAY  F+ + S L    R PNLIVLRT+SK +  AG+RIG+A   PE++ E+ K   P+  ++L+  T    L++Y +++  +  +  ER R+ AEL +I  ++ F S  NF+ IRV +A  +F  LK   +LV+ + G +PL+E+CLR  +G   +ND +L+++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|226702140|sp|B3QP11.1|HIS8_CHLP8</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Chlorobaculum parvum NCIB 8327]</Hit_def>
+  <Hit_accession>B3QP11</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.19924e-46</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>KSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFN-GDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>RDFRALLNPALERIEAYKVEGGQDAEVKLNQNESPFDLPMWLKDKILDEFRRE----PWNRYPDILPYRGMATYASFLGVP-AESVIMSNGSNEMLYTIFMACVGAGRKVLIPEPSFSLYDKLAVLLQGEIVSVPLNPDLSFDVDAIIAAAEREKVDFIVLSTPNNPAGKSMSHDEVERIVSTCDAIVLADEAYIEFSQQESVVDLIDRYPNLIVLRTMSKALALAGMRIGFAITNPELMAEITKPKIPFASGRLAEITLANVLENYSLVTDAVHYILAERQRMEQELAGIAGVEVFESDTNFLIIRVGNAKEVFTKLREGGVLVRNVSG-YPLMQNCLRCNIGLIEENDRLLELLK</Hsp_hseq>
+      <Hsp_midline>+  R+ +   +  + AYK+        KL+  ESP   P    + ++ E+R +    P + YP+           S   +P   +V + NGS+E++  I M     G  +L  EP F +Y   A L   + V VPLN D + ++ A++ A  + +     ++ PNNP G   +  E+E  +   D IV+ DEAY  F+  +S +    R PNLIVLRT+SK +  AG+RIG+A   PE++ E+ K   P+   +L+  T    L++Y +++  +  +  ER+RM  EL  I  +  F S  NF+ IRV +A  +F  L++  +LV+ + G +PL+++CLR  IG   +ND +L++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|21759158|sp|Q8TH25.1|HIS8_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8TH25</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>3.17885e-46</Hsp_evalue>
+      <Hsp_query-from>1710</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>LDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>LDKNESP---YDLPPQLKEEILEELKRIEFNRYPHITSDPLREALAEFYGLKK-ENIAVGNGSDELINYLVKMFK--GKYIVVTSPTFGMYSFFAKLHGIPVKDIPLKEDFTIDGERIAEEGKA--ASAIFIASPNNPTGNSQPENEVLKVLD-SGRVVILDEAYSEFSGKSFIPKISEYENLVILRTFSKAFGLAGIRCGYMIANEKIIDALYRILPPYNLNSLTMTVAIKMLEHYDIVKRRIKLIVKERERIRREFIEY----SYPSEANFLLMKL-DA---YDYLLKKGIVVRKLSGR---LEGHIRVTIGKKWENDELIKALKEF</Hsp_hseq>
+      <Hsp_midline>LD  ESP   ++    L  E   +L     + YP+ +   L+EAL   + +     +A+GNGSDELI ++  +    G  ++   P F MY   A L+G+    +PL  DFT++   + E  +    +  FIA PNNPTG      E+   ++ S  +V++DEAY  F+G SF+P+     NL++LRT SK  G AG+R GY     ++I  L +ILPPYN+N L++T A   L+HY I+   I  +  ERER+  E  +     ++PS+ANF+ +++ DA   +D L +  I+V+KL G    LE  +R+TIG   +ND ++  ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|123163660|sp|Q11VM5.1|HIS8_CYTH3</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Cytophaga hutchinsonii ATCC 33406]</Hit_def>
+  <Hit_accession>Q11VM5</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>3.35972e-46</Hsp_evalue>
+      <Hsp_query-from>1739</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>IHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGA-AMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAF-NGDSFLPQAGRIPNLIVLRTLSKI-GFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGK--ICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>VNRYPDPLQRDVKTAL-SALKNVSAEHIFFGNGSDEPIDLLIRATCQPGKDSILILPPTYGMYEVSAGINDVDIISVPLTKAFDLDVDAILAAVKTH-TKIIFICSPNNPTGNLMSEDKVKRILNAFSGIVVVDEAYIDFADTKGFVPLLDQYPNMVVLQTFSKAWGMAALRLGTAFASKEIVSVLNKIKPPYNINLLTQEAALEALQNVSVKDEMVYKILKQRDWLREELSKLPVC-LELYPSDANFILMRTADGKKVYDYLVEH-IVITRDRSKIILCEGCVRITVGTEAENKRLLDVLK</Hsp_hseq>
+      <Hsp_midline>++ YP+P    ++ AL SA        +  GNGSDE I  +   T +PG  ++L   P + MY  +A +  +D + VPL   F L++ A+L AV+ H   + FI  PNNPTG   +  +++  + A  GIVVVDEAY  F +   F+P   + PN++VL+T SK  G A LR+G A    E++  L KI PPYN+N L+   A  ALQ+  +    +  +  +R+ +  EL K  +C L  +PS ANFI +R  D   ++D L ++ I++ +      L E C+RIT+G+ A+N  +LDV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|254801943|sp|B8I5V1.1|HIS8_CLOCE</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Clostridium cellulolyticum H10]</Hit_def>
+  <Hit_accession>B8I5V1</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>7.66648e-46</Hsp_evalue>
+      <Hsp_query-from>1684</Hsp_query-from>
+      <Hsp_query-to>2032</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>VRSFIRNDILAMSAYKITDVPPGFAKLDAMESP-AHPFEGHEALMREWRAQ--LASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYG---MDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEA-SDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLD</Hsp_qseq>
+      <Hsp_hseq>IEELIRSEIRSFIPYNANQQPYKI-KLDANESPFTLPPQ-----MRKKLAEYILEDPQLNLYPDTDSVQLRQALGEYWSV-DKENIIVGTGSDQLIQIIANVFLEKGDKVLYPTPSFGMYKDSCVIAGGRAVDYI-LDQNDNFSYSADKIIKTYELEQPKVIYICNPNNPTGNLMPQDEILRVLKACTKSVVVVDEAYAEFSDTTVIPFIKEYENLLILRTFSKAFGLAGIRCGYSIASEKLTRAVNLTRPPYNISSLSQFTAALILSYKEEIQNNIQYLVEERERVLSKLKEIDGLKVYSSAANFILIKVQNSKDIYRKLCEKGIFVRAF-SSSPLLSDCMRITIGTQEQNSILLD</Hsp_hseq>
+      <Hsp_midline>+   IR++I +   Y     P    KLDA ESP   P +     MR+  A+  L    ++LYP+     L++AL   + + D   + +G GSD+LIQ I  +  + G  +L   P F MY+ +  + G   +DY+ +  N +F+ +   +++     +P + +I  PNNPTG    + EI   ++A +  +VVVDEAY  F+  + +P      NL++LRT SK  G AG+R GY+    ++   +    PPYN++ LS  TA L L +   I  NI  L  ERER+ ++L +I  L  + S ANFI I+V ++  ++  L +  I V+    + PLL  C+RITIG+  QN  +LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|254801964|sp|B4S8L6.1|HIS8_PROA2</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Prosthecochloris aestuarii DSM 271]</Hit_def>
+  <Hit_accession>B4S8L6</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>8.79827e-46</Hsp_evalue>
+      <Hsp_query-from>1692</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>ILAMSAYKITDVPPGFAKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCA--AVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFN-GDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>LLKMSAYSVEGGQQAEIKLNQNESPFDLPLWLKDEIMDEFKHEAWNRYPDILPF-------RGMKAYADFLGIAPESVMMSNGSNEMLYTIFLACLSKGRKVVIPEPSFSLYEKLAVLLQADIVDVPMHDDLTFDVDAIIARTNQERAGFVVLSTPNNPTSQSLRLDDVRRIVSGVEALVLVDEAYVEFSREESALTLIDEFPNLIILRTMSKALALAGMRIGFAITNPQLLSEIAKPKIPFTSGRLAEITLQHVLRHYSLVDDAVAYILRERNRLLGELSSVSAIHTFPSDANFIIIRVDDARHVFHALQDEGILVRNVSG-YRLMENCLRFNIGLETENDLLLEKLHRM</Hsp_hseq>
+      <Hsp_midline>+L MSAY +        KL+  ESP   P    + +M E++ +  +    + P          +++  D    A  +V + NGS+E++  I +     G  ++  EP F +Y   A L   D V VP++ D T ++ A++    + R     ++ PNNPT       ++   +   + +V+VDEAY  F+  +S L      PNLI+LRT+SK +  AG+RIG+A   P+++ E+ K   P+   +L+  T +  L+HY ++   +  +  ER R+  EL  +  ++ FPS ANFI IRV DA  +F  L+   ILV+ + G + L+E+CLR  IG   +ND +L+ + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|167017131|sp|A5V022.1|HIS8_ROSS1</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Roseiflexus sp. RS-1]</Hit_def>
+  <Hit_accession>A5V022</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>2.09683e-44</Hsp_evalue>
+      <Hsp_query-from>1683</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>391</Hsp_align-len>
+      <Hsp_qseq>SVRSFIRNDILAMSAYKITDVPP-------------GFAKLDAMESP----AHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICR--------------LNAFPSQANFITIRVPD----ADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>SITGLLRPDIAALEPY--TPIVPLETLAERLGLPVERIIKLDANENPYGPSPHALAALAAVERDAPHRYA-----IYPDPDHVRLRAALSRYIGQPP-ERIICGAGSDELIDLLMRATLRPGDTMIDCPPTFAMYSFDAALYGARVVPVPRTDQFDVDIEGVAEAVEREGAKLLFLAAPNNPTGTPLARSDVERLLDLPI-ILAIDEAYAEFAGTSVVDMVGACPNLVVLRTFSKWAGLAGLRIGYAAMHEDVAAYVWKIKQPYNVNVAAEVAA-------------IASLDDLEERM-ATVARIVAERERLAAALAALPGFRVYPSAANFLLCRITGGAARARTICDGLAQRGILIRYFN--RPGLDDCIRISVGRPEQNDALLHALREL</Hsp_hseq>
+      <Hsp_midline>S+   +R DI A+  Y  T + P                KLDA E+P     H      A+ R+   + A     +YP+P    L+ AL      P    +  G GSDELI  +   T +PG  M+   P F MY  +AALYG   V VP    F +++  V EAV +    L F+A PNNPTG    R+++E  ++    I+ +DEAY  F G S +   G  PNL+VLRT SK  G AGLRIGYA    +V   + KI  PYN+N  +   A             I SL +  ERM A + +I                   +PS ANF+  R+      A  + D L Q  IL++  +   P L+ C+RI++G   QNDA+L  +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|91207042|sp|Q3B3L3.1|HIS8_PELLD</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Chlorobium luteolum DSM 273]</Hit_def>
+  <Hit_accession>Q3B3L3</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>9.26107e-44</Hsp_evalue>
+      <Hsp_query-from>1708</Hsp_query-from>
+      <Hsp_query-to>2039</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>AKLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNG-DSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLYR</Hsp_qseq>
+      <Hsp_hseq>VKLNQNESPFDVPMWLKEAITREF----VREPWNRYPDILPYRGIEAYAEFLGVP-AGRVIMGNGSNELLYTIFMACLGPGRRILIPEPSFSLYEKIALLMQADIVSVPMRRGLDFDADLILERAKAEAVDLIVLSTPNNPTGKSLSPDDIRRIATESGAIVLVDEAYIEFSRHPSALPLVDELPNVVILRTMSKALALAGMRIGFAIAPEALMAELTKPKIPFASNRLAEITLRHVLANYSIVKDSVSYILDERERMYSELEGMDGLQPFMSDTNFLIIRVADPRAVFQHLRGEGILVRNVSG-YPLMEGCLRCNIGLRDENRRLLDGLSRALR</Hsp_hseq>
+      <Hsp_midline> KL+  ESP   P    EA+ RE+       P + YP+       EA      +P    V +GNGS+EL+  I M    PG  +L  EP F +Y   A L   D V VP+      +   +LE  +     L  ++ PNNPTG   +  +I      S  IV+VDEAY  F+   S LP    +PN+++LRT+SK +  AG+RIG+A     ++ EL K   P+  N+L+  T +  L +Y I+  ++  + +ERERM++EL  +  L  F S  NF+ IRV D   +F  L+   ILV+ + G +PL+E CLR  IG   +N  +LD + R  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|167017094|sp|A1BGB4.1|HIS8_CHLPD</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Chlorobium phaeobacteroides DSM 266]</Hit_def>
+  <Hit_accession>A1BGB4</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.36189e-43</Hsp_evalue>
+      <Hsp_query-from>1682</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>KSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFN-GDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>RDIQELLNPALRDLKAYNVEGGQQAGIKLNQNESP---FDLPLWLKEEVLEAFEKEPWNRYPDILPFRGMRSYASFVGVP-ADAVMMSNGSNEMLYTIFLACLGPGKKILIPEPSFSLYEKIARLLHTEVVFVPMLPGLAFDADAIIRKAGEERVDFIVLSTPNNPTGMSLASEEVCRIAEAADALVLVDEAYIEFSRQKSVVAEIARLKNLIVLRTMSKALALAGMRIGFAIADPALMAEIAKPKIPFASSRLSEITLQRVLANYYLVTDAVSYILHERERLSTELKGIGGVELYESDTNFIIIRVRHAHELFCELSRRDILVRDVSG-YPLMENCLRFNIGLRDENDALLQQLRLL</Hsp_hseq>
+      <Hsp_midline>+ ++  +   +  + AY +        KL+  ESP   F+    L  E        P + YP+        +  S   +P   AV + NGS+E++  I +    PG  +L  EP F +Y   A L   + V VP+      +  A++    + R     ++ PNNPTG+     E+    EA+D +V+VDEAY  F+   S + +  R+ NLIVLRT+SK +  AG+RIG+A   P ++ E+ K   P+  ++LS  T +  L +Y +++  +  + +ERER+  EL  I  +  + S  NFI IRV  A  LF  L +  ILV+ + G +PL+E+CLR  IG   +NDA+L  +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|91207025|sp|Q3AD52.1|HIS81_CARHZ</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase 1; AltName: Full=Imidazole acetol-phosphate transaminase 1 [Carboxydothermus hydrogenoformans Z-2901]</Hit_def>
+  <Hit_accession>Q3AD52</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>2.24938e-43</Hsp_evalue>
+      <Hsp_query-from>1709</Hsp_query-from>
+      <Hsp_query-to>2031</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>328</Hsp_align-len>
+      <Hsp_qseq>KLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDI-PDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEA--AIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKI-GFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPD-ADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVL</Hsp_qseq>
+      <Hsp_hseq>KLDANENP---YLFPKSLLEEIFSKIGTRDFPLYPDPLAGRLRIRLSEKLGVLPE--NIVLGNGSDELILCLYLAFGGYGRIALSFSPSFVMYRHHAFVTQTEFFEVSYRDDFSLDLDETKKAIEKYQPHLVFLANPNNPTG---TLVDIETIKKLLAYDHLLVVDEAYVEFSGVSAIDLLKKYQNLVILRTFSKARALAGLRLGYLVASVDVVKEIIKVKNPYNVNVFSQIAGEVVLANEEVFQGEIKEIVAERERLYNQLASL-GLKPVKSHANFILVEFGEKAKKIHQELINHGILVRYLGGA---LANYLRITVGTPEENRQLL</Hsp_hseq>
+      <Hsp_midline>KLDA E+P   +   ++L+ E  +++ +    LYP+P    L+  L     + P+   + LGNGSDELI  + +     G   L+  P F+MYRH+A +   ++  V    DF+L+L    +A+ K++P L F+A PNNPTG   T  +IE    + A D ++VVDEAY  F+G S +    +  NL++LRT SK    AGLR+GY     +V+ E+ K+  PYN+N  S    ++ L +  +    I  +  ERER++ +L  +  L    S ANFI +   + A  +   L  + ILV+ L GA   L + LRIT+G+  +N  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|259709910|sp|C5A7A4.1|HIS8_THEGJ</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Thermococcus gammatolerans EJ3]</Hit_def>
+  <Hit_accession>C5A7A4</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>3.03021e-43</Hsp_evalue>
+      <Hsp_query-from>1709</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>KLDAMESPAH-PFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDI-PDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>RLDKNENPYDLPGEVKEEIFEELR----EVSFNRYPHITSMPAREAIADFYGVSPD--NVAVGNGSDELLSYLVRLFE--GNHIVITPPTFGMYSFYAKLNGVPVVEVPLREDFTLDGEAVAEKAKNAR--VVFIASPNNPTGNLQPEEEIIRVLETRRP-VVLDEAYAEFVGKSLWRLIEEYPNLVVLRTFSKAFGMAGIRAGYMLAGEEIVDALYRIKSPFSVGIMTMTAIRVALRHADLMEKTVRKIVEERERMRRKLGEL----AYPSDANFLLVRLN----AYEELLKRGIVVRKLSGR---LEGHIRVTVGRRWENDAFLEAVEEI</Hsp_hseq>
+      <Hsp_midline>+LD  E+P   P E  E +  E R        + YP+ +    +EA+   + + PD   VA+GNGSDEL+ ++  L    G  ++   P F MY   A L G+  V VPL  DFTL+  AV E  +  R  + FIA PNNPTG      EI   +E     VV+DEAY  F G S        PNL+VLRT SK  G AG+R GY     E++  L +I  P+++  +++T  ++AL+H  ++   +  +  ERERM  +LG++    A+PS ANF+ +R+      ++ L +  I+V+KL G    LE  +R+T+G   +NDA L+ +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|189043544|sp|A7NFV2.1|HIS8_ROSCS</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Roseiflexus castenholzii DSM 13941]</Hit_def>
+  <Hit_accession>A7NFV2</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>3.13183e-42</Hsp_evalue>
+      <Hsp_query-from>1683</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>SVRSFIRNDILAMSAYKITDVPP-------------GFAKLDAMESPAHPFEGHEALMREWRAQLASAPIH--------LYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPD-----ADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>SITGLLRPDIAALEPY--TPIVPLETLAERLGLPVERIIKLDANENPYGPSP---------RALAALAAVEHDAPHRYAIYPDPDHTRLRAALSRYVGQPP-ERIICGAGSDELIDLIMRAVLRPGDVMVDCPPTFAMYSFDAALYGARIVAVPRTEQFDVDVEGVAEAVERDGAKLLFLAAPNNPTGTPLARTTVERLLDLPI-ILAIDEAYAEFAGTSVIDLVGTRPNLVVLRTFSKWAGLAGLRIGYAAMHEDVITYLWKIKQPYNVNVAAEVAAVASLDDLDERLSTVARIVAERERLAAALAALPGIHVYPSAANFLLCRMTSGGAARARAIRDTLAQRGILIRYFN--RPGIDDCIRISVGRPEQNDALLDVLKEV</Hsp_hseq>
+      <Hsp_midline>S+   +R DI A+  Y  T + P                KLDA E+P  P           RA  A A +         +YP+P    L+ AL      P    +  G GSDELI  I     +PG  M+   P F MY  +AALYG   V VP    F +++  V EAV +    L F+A PNNPTG    R  +E  ++    I+ +DEAY  F G S +   G  PNL+VLRT SK  G AGLRIGYA    +VI  L KI  PYN+N  +   A  +L       + +  +  ERER+ A L  +  ++ +PS ANF+  R+       A  + DTL Q  IL++  +   P ++ C+RI++G   QNDA+LDV++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|226702164|sp|B4SGL8.1|HIS8_PELPB</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Pelodictyon phaeoclathratiforme BU-1]</Hit_def>
+  <Hit_accession>B4SGL8</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>3.85403e-42</Hsp_evalue>
+      <Hsp_query-from>1681</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>MKSVRSFIRNDILA-MSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPN--PSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGD-SFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>MKRDIQYLLNPALQNIATYRVEGGQQAEIKLNQNESP---FDVPMWLKEEITGEFIKEPWNRYPDILPYR-GMQVYADFLGISPD--SVMMSNGSNEMLYTIFLACLGPGRKVLIPDPSFSLYEKIALLLQSQIVTVPMLPDLDFDLEAILRTAHDEAVDFIVISTPNNPTGKSLTFEEVRLIAQSSDAIVLVDEAYIEFSRQRSVLELIDELPNLVVLRTMSKAIALAGIRIGFALANPLLMAEIAKPKIPFASSRLAEITLSMVLANYSLVTDAVSYILHEREKLYTAMLTIDGVEPFVSDTNFLIIRVSDAGSVFQNLQSQGILVRNVSG-YRLMENCLRFNVGLVDENQQLIAKLRQF</Hsp_hseq>
+      <Hsp_midline>MK    ++ N  L  ++ Y++        KL+  ESP   F+    L  E   +    P + YP+  P   G+Q         PD  +V + NGS+E++  I +    PG  +L  +P F +Y   A L     V VP+  D   +L A+L            I+ PNNPTG   T  E+    ++SD IV+VDEAY  F+   S L     +PNL+VLRT+SK I  AG+RIG+A   P ++ E+ K   P+  ++L+  T  + L +Y +++  +  + +ERE+++  +  I  +  F S  NF+ IRV DA  +F  L+   ILV+ + G + L+E+CLR  +G   +N  ++  +R+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|171460882|sp|A0PXP5.1|HIS8_CLONN</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Clostridium novyi NT]</Hit_def>
+  <Hit_accession>A0PXP5</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>5.78759e-42</Hsp_evalue>
+      <Hsp_query-from>1709</Hsp_query-from>
+      <Hsp_query-to>2035</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>KLDAMESPAHPFEGHEALMREWRAQLASAPIHL----YPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIR</Hsp_qseq>
+      <Hsp_hseq>KLDANES----FIG---LSKEIKNKIIRSLIELEFNNYPDPDATKLKKAYGDYIGI-DEKNIMVGNGSDELIQILTNAFLDKNEKIVTLNPDFSMYEVYTKVRGGKVSVFDLDEDFKLNVNKIIEYINEEKPKMFIFSNPNNPTGGVIPKYDIIKIIENVNCIVVVDEAYMEFYGDSILDYIKKYDNLIVLRTASKAIGSAALRLGFLITNDTLLREIKKVKPPFNVNSVSQVIGEIILKDKDFIRESIDKVLYERNYLLKELKKIDGLKVYETKSNFVLIYNENANEINESLIKIGIKVRSFTDEN--LKNFIRITVGSREQNIEVINCIK</Hsp_hseq>
+      <Hsp_midline>KLDA ES    F G   L +E + ++  + I L    YP+P    L++A      I D   + +GNGSDELIQ +T         ++   P F MY     + G       L+ DF LN+  ++E + + +P +   + PNNPTG    + +I   IE  + IVVVDEAY  F GDS L    +  NLIVLRT SK IG A LR+G+      ++ E++K+ PP+N+N +S    ++ L+    I  +ID +  ER  +  EL KI  L  + +++NF+ I   +A+ + ++L +  I V+     +  L++ +RIT+GS  QN  V++ I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|226702155|sp|B4U9L1.1|HIS8_HYDS0</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Hydrogenobaculum sp. Y04AAS1]</Hit_def>
+  <Hit_accession>B4U9L1</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.07651e-41</Hsp_evalue>
+      <Hsp_query-from>1692</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>ILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKIGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKN-------ERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>IKLLKAYK-TETTPCHIKLSSNENP---FDLEESVKLELLEVIKNIEFNRYPDPHATKLRQTLSKLYEV-EPENIMVCNGSDEAIQYLMLGIGELDEGVLIPRPTFPMYEVIANALGKPIYDVDLDENFQMNKQTLQKALEK-KPSIAFISNPNNPTGNLFRDEDI--ALIRKHTFTVVDEAYYDFCGKTYIKDAIKDDNMAVMRTLSKIGLASLRVGALIGTKEFIREISKLKMPFNVSYTSQAMADY------IISNHIDNIKNQIKVLIDERHRLKEALSDIKGIKVYDSCANFFLIKVNDADFIHKSLIQKGILTRNI-SYLPNLENHIRISIGKKEENDALINALKEI</Hsp_hseq>
+      <Hsp_midline>I  + AYK T+  P   KL + E+P   F+  E++  E    + +   + YP+P    L++ L   +++ +   + + NGSDE IQ++ +   +    +L   P F MY   A   G     V L+ +F +N   + +A+ K +P++ FI+ PNNPTG  F   +I  A+       VVDEAY  F G +++  A +  N+ V+RTLSKIG A LR+G   G  E I E+ K+  P+N++  S   A        IIS +ID++KN       ER R+   L  I  +  + S ANF  I+V DAD +  +L Q  IL + +    P LE+ +RI+IG   +NDA+++ ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|167017109|sp|A6LAM2.1|HIS8_PARD8</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Parabacteroides distasonis ATCC 8503]</Hit_def>
+  <Hit_accession>A6LAM2</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.13483e-41</Hsp_evalue>
+      <Hsp_query-from>1703</Hsp_query-from>
+      <Hsp_query-to>2037</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>VPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGA-AMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNG-DSFLPQAGRIPNLIVLRTLSKI-GFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGK-ICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRL</Hsp_qseq>
+      <Hsp_hseq>VRPNVWNLKPYSSARDEFHGDASVFLDANENPWNMPYNRYPDPLQWKLKDRL-AVLKGVDRSSIFLGNGSDEAIDLVIRAFCEPGLDSVVTISPSYGMYEVAANVNNVECRKVSLDENFDLDAEAVLESADEWTKVI-FLCSPNNPSGNSLDRGSIYKILKNYEGIVVIDEAYIDFSAYPSFLKELSGFPNLIVLQTLSKAWGAAGIRLGMAFASPEIIGVLNKIKYPYNVNQLTQEKALELLNDEATMKHQVNEILTERNRLEKILSEPPFSYQVYPSDANFLLVNVAKADAMYNGLVKKGIVVRNRSNVQK-CRGCLRITIGTPKENDSLLNAMKNM</Hsp_hseq>
+      <Hsp_midline>V P    L    S    F G  ++  +      + P + YP+P    L++ L +     D +++ LGNGSDE I  +     +PG  +++   P + MY   A +  ++   V L+ +F L+  AVLE+  +    + F+  PNNP+G    R  I   ++  +GIVV+DEAY  F+   SFL +    PNLIVL+TLSK  G AG+R+G A   PE+IG L KI  PYN+NQL+   A   L     +   ++ +  ER R+   L +       +PS ANF+ + V  AD +++ L +  I+V+           CLRITIG+  +ND++L+ ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|254801947|sp|B8FP20.1|HIS8_DESHD</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Desulfitobacterium hafniense DCB-2]</Hit_def>
+  <Hit_accession>B8FP20</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.50705e-41</Hsp_evalue>
+      <Hsp_query-from>1679</Hsp_query-from>
+      <Hsp_query-to>2039</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>INMKSVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHL--YPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPL-----NGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKI-GFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERER-MFAELGKICR-------LNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLYR</Hsp_qseq>
+      <Hsp_hseq>VDKMNLEEWMRPSIRTLKAYESKSIP-DCVRLDANENPLPWPPG----MIE---QLLGSAIAFNRYPDGGAQELKEALSRYTGVP-AEGILTGNGSDELIQLLMTTFGGEKGAVVIHPPTFSMYEAAARVTGTEVLEVPLLLTETSRDFRLDVEGILKAAAQPQVHMIVLCNPNNPTGTLFPREEILRIVAESGKIVIVDEAYGEFSGESVVDQIPYCPNLLVMKTFSKLFAMAALRLGYLLGQPSIIGALNRARQPFNVNSFS--------QKAGVIALNYGEEYAEQGRILIAELARIAEALTAFASVKVFATRANFLLFQPEDPDRVYQELIGKGFLIRTM-GNLPLVGKALRLSTGLPEENERLIKALGEILK</Hsp_hseq>
+      <Hsp_midline>++  ++  ++R  I  + AY+   +P    +LDA E+P     G    M E   QL  + I    YP+     L+EAL     +P    +  GNGSDELIQ +         A++   P F MY   A + G + + VPL     + DF L++  +L+A  + +  +  +  PNNPTG  F R EI   +  S  IV+VDEAYG F+G+S + Q    PNL+V++T SK+   A LR+GY  G P +IG L +   P+N+N  S        Q  G+I+ N      E+ R + AEL +I         +  F ++ANF+  +  D D ++  L     L++ + G  PL+   LR++ G   +N+ ++  +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|122481294|sp|Q24QJ1.1|HIS8_DESHY</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Desulfitobacterium hafniense Y51]</Hit_def>
+  <Hit_accession>Q24QJ1</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>4.39203e-41</Hsp_evalue>
+      <Hsp_query-from>1683</Hsp_query-from>
+      <Hsp_query-to>2039</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>SVRSFIRNDILAMSAYKITDVPPGFAKLDAMESPAHPFEGHEALMREWRAQLASAPIHL--YPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGAAMLAAEPGFIMYRHNAALYGMDYVGVPL-----NGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGDSFLPQAGRIPNLIVLRTLSKI-GFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNERERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRRLYR</Hsp_qseq>
+      <Hsp_hseq>NLEGWMRPSIRTLKAYESKSIP-DCVRLDANENPLPWPPG----MIE---QLLGSDIAFNRYPDGGAQELKEALSRYTGVP-AEGILTGNGSDELIQLLMTTFGGEKGAVVIHPPTFSMYEAAARVTGTGVLEVPLLLTETGRDFRLDVEGMLKAAAQPQVHMIVLCNPNNPTGTLFPREEILRIVAESGKIVIVDEAYGEFSGESVVDQIPYCPNLLVMKTFSKLFAMAALRLGYLLGQPSIIGALNRARQPFNVNSFSQKAGAIALNYGKEYAEQGRILTAELAKIVEALTAFASVKVFATRANFVLFQPEDPDRVYQELIGKGFLIRNM-GNLPLVGKALRLSAGSPEDNERLIKALGEILK</Hsp_hseq>
+      <Hsp_midline>++  ++R  I  + AY+   +P    +LDA E+P     G    M E   QL  + I    YP+     L+EAL     +P    +  GNGSDELIQ +         A++   P F MY   A + G   + VPL       DF L++  +L+A  + +  +  +  PNNPTG  F R EI   +  S  IV+VDEAYG F+G+S + Q    PNL+V++T SK+   A LR+GY  G P +IG L +   P+N+N  S     +AL +    +     L  E  ++   L     +  F ++ANF+  +  D D ++  L     L++ + G  PL+   LR++ GS   N+ ++  +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|81314441|sp|Q5LAZ9.1|HIS8_BACFN</Hit_id>
+  <Hit_def>RecName: Full=Histidinol-phosphate aminotransferase; AltName: Full=Imidazole acetol-phosphate transaminase [Bacteroides fragilis NCTC 9343]</Hit_def>
+  <Hit_accession>Q5LAZ9</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>7.0445e-41</Hsp_evalue>
+      <Hsp_query-from>1738</Hsp_query-from>
+      <Hsp_query-to>2036</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>PIHLYPNPSGCGLQEALRSAFDIPDCAAVALGNGSDELIQFITMLTAKPGA-AMLAAEPGFIMYRHNAALYGMDYVGVPLNGDFTLNLPAVLEAVRKHRPALTFIAYPNNPTGVCFTRAEIEAAIEASDGIVVVDEAYGAFNGD-SFLPQAGRIPNLIVLRTLSK-IGFAGLRIGYATGCPEVIGELQKILPPYNMNQLSLTTAKLALQHYGIISANIDSLKNER---ERMFAELGKICRLNAFPSQANFITIRVPDADLLFDTLKQNRILVKKLHGAHPLLEHCLRITIGSSAQNDAVLDVIRR</Hsp_qseq>
+      <Hsp_hseq>PHNRYPDPMQRDLKLELSKIKKVAP-AHIFLGNGSDEAIDLVFRAFCEPGRDNVVAIDPTYGMYQVCADVNDVEYRKVLLHDDFQFSADELL-AVADERTKMIFLCSPNNPTGNDLLRSEIIKVINDFEGLVILDEAYNDFSDEPSFLSELGKYPNLIILQTFSKAFGCAAIRLGMAFASEGIIGVLNKIKYPYNVNQLTQQQAIEMLHKYYEIERWVKTLKEERGYLEEAFVELPWV--LQVFPSNANFFLARVTDAVKIYNYLVGEGIIVRN-RNSISLCGNCLRVTVGTRAENAKLIGALKK</Hsp_hseq>
+      <Hsp_midline>P + YP+P    L+  L     +   A + LGNGSDE I  +     +PG   ++A +P + MY+  A +  ++Y  V L+ DF  +   +L AV   R  + F+  PNNPTG    R+EI   I   +G+V++DEAY  F+ + SFL + G+ PNLI+L+T SK  G A +R+G A     +IG L KI  PYN+NQL+   A   L  Y  I   + +LK ER   E  F EL  +  L  FPS ANF   RV DA  +++ L    I+V+    +  L  +CLR+T+G+ A+N  ++  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 42, 46, 57, 79, 81, 85, 98, 108, 123, 126, 138, 153, 158, 159, 173, 175,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

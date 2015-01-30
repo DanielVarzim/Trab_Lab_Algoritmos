@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>197455</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1573</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>197455</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1573</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3025186|sp|P72077.1|RSMJ_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Neisseria gonorrhoeae] &gt;gi|66774211|sp|Q5F7B7.1|RSMJ_NEIG1 RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>P72077</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.628</Hsp_bit-score>
+      <Hsp_score>1350</Hsp_score>
+      <Hsp_evalue>1.38972e-172</Hsp_evalue>
+      <Hsp_query-from>1324</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_hseq>
+      <Hsp_midline>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226701599|sp|B4RIY4.1|RSMJ_NEIG2</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>B4RIY4</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.242</Hsp_bit-score>
+      <Hsp_score>1349</Hsp_score>
+      <Hsp_evalue>2.17821e-172</Hsp_evalue>
+      <Hsp_query-from>1324</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVILLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_hseq>
+      <Hsp_midline>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEV+LLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|56404969|sp|Q9JTE9.1|RSMJ_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Neisseria meningitidis Z2491] &gt;gi|189038758|sp|A9M1A6.1|RSMJ_NEIM0 RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>Q9JTE9</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.745</Hsp_bit-score>
+      <Hsp_score>1288</Hsp_score>
+      <Hsp_evalue>1.45308e-163</Hsp_evalue>
+      <Hsp_query-from>1324</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>MTDILIDNTATETVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSSVIVDFASGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLAVTAFEQHPAVACLLSDGIRRALLNPETQDTAAHINLHFGNAAEQMPALVQTQGKPDIVYLDPMYPERRKSAAVKKEMTYFHRLVGEAQDEAALLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGTDKG</Hsp_hseq>
+      <Hsp_midline>MTDILID+TATE VRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKS+VIVDF SGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGL VTAFEQHPAVACLLSDGIRRALLNPETQDTAA INLHFGNAAEQMPALV+TQGKPDIVYLDPMYPERRKSAAVKKEM YFHRLVGEAQDE  LLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYG DKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|56404970|sp|Q9JYF4.1|RSMJ_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JYF4</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>1.30751e-161</Hsp_evalue>
+      <Hsp_query-from>1324</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>MTDILIDNTATETVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSSVIVDFASGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLAVTAFEQHPAVACLLSDGIRRALLNPETQNTAAHINLHFGNAAEQMPALVQTQGKPDIVYLDPMYPERRKSAAVKKEMTYFHRLVGEAQDEAALLHTARQTAKKRVVVKRPRLGEHLAGQDPAYQYTGKSTRFDVYLPYGTDKG</Hsp_hseq>
+      <Hsp_midline>MTDILID+TATE VRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKS+VIVDF SGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGL VTAFEQHPAVACLLSDGIRRALLNPETQ+TAA INLHFGNAAEQMPALV+TQGKPDIVYLDPMYPERRKSAAVKKEM YFHRLVGEAQDE  LLHTARQTAKKRVVVKRPRLGEHLAGQ PAYQYTGKSTRFDVYLPYG DKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|158513148|sp|A1KV29.1|RSMJ_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KV29</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>2.1524e-161</Hsp_evalue>
+      <Hsp_query-from>1324</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MTDILIDDTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>MTDILIDNTATEAVRALIQAFSLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSSVIVDFASGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGLAVTAFEQHPAVACLLSDGIRRALLNPETQDTAARITLHFGNAAVQMPALVQTQGKPDIVYLDPMYPERRKSAAVKKEMTYFHRLVGEAQDEAALLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGTDKG</Hsp_hseq>
+      <Hsp_midline>MTDILID+TATEAVR LI+AF LVPVSQPPEQGSYLLAEHDTVSLRLVGEKS+VIVDF SGAAQYRRTKGGGELIAKAVNHTAHPTVWDATAGLGRDSFVLASLGL VTAFEQHPAVACLLSDGIRRALLNPETQDTAARI LHFGNAA QMPALV+TQGKPDIVYLDPMYPERRKSAAVKKEM YFHRLVGEAQDE  LLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYG DKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|150416293|sp|A1SBL0.1|RSMJ_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1SBL0</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>2.4292e-48</Hsp_evalue>
+      <Hsp_query-from>1359</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>LLAEHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>LLFEEDILTLKKRDEPKLGGIMVDFVSGAVAHRRKFGGGRGQAIAKAVGLKAGATPTVVDGTAGLGRDAFVLASLGCRVLLIERHPVVAALLEDGLRRAYLDGEIGPWMQQRMQLVHGSSLE---ALDNLEDKPDVVYLDPMYPHREKSALVKKEMRVFQSLVGADTDADGLLAPALRLAQKRVVVKRPDYAEDLDGVRPSTRIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>LL E D ++L+   E     ++VDF SGA  +RR  GGG  + IAKAV     A PTV D TAGLGRD+FVLASLG  V   E+HP VA LL DG+RRA L+ E       R+ L  G++ E   AL   + KPD+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A + A+KRVVVKRP   E L G  P+ +   K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123030154|sp|Q0HPQ7.1|RSMJ_SHESR</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella sp. MR-7]</Hit_def>
+  <Hit_accession>Q0HPQ7</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>1.49391e-47</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDTLTLHKRDEPKLDGIIVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVTPKVVDGTAGLGRDAFVLASLGCTVTMVERHPVVAALLEDGLRRAYQDAEIGDWMRERMQLFHGSSLE---ALAKLEQEVDVVYLDPMYPHRDKSALVKKEMRVFQTLVGADLDADGLLAPAMALASKRVVVKRPDYAEDLAGVKPSMVIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E DT++L    E     +IVDF +GA  +RR  GGG  + IAKAV       P V D TAGLGRD+FVLASLG TVT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K + + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E LAG  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|510120850|sp|Q8E8K6.3|RSMJ_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8E8K6</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>2.22941e-47</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDTLSLHNRDEPKLDGIVVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVTPKVVDGTAGLGRDAFVLASLGCTVTMVERHPVVAALLEDGLRRAYQDAEIGDWMRERMQLFHGSSLE---ALAKLEQGVDVVYLDPMYPHRDKSALVKKEMRVFQTLVGADLDADGLLAPAMALASKRVVVKRPDYAEDLAGVKPSMVIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E DT+SL    E     ++VDF +GA  +RR  GGG  + IAKAV       P V D TAGLGRD+FVLASLG TVT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K +   D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E LAG  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|259645751|sp|B8GQ90.1|RSMJ_THISH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Thioalkalivibrio sulfidiphilus HL-EbGr7]</Hit_def>
+  <Hit_accession>B8GQ90</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>2.23339e-47</Hsp_evalue>
+      <Hsp_query-from>1379</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VDFTSGAAQYRRTKGG--GELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>VDFVTGRLGYRQARISLRSEPLARAVGIKDSERPSVVDATAGLGRDGFVLASLGCEVTLLEREPVIAALLADGLERAARDADLAQTIARMHLVTGNARDWLTALDEAP-RPDVIYLDPMYPHRDKSALVKKEMRVFRTLVGDDQDAPETLEAALAVAKRRVVVKRPARAEPLSGRKPSHQIPGKTTRFDVYV</Hsp_hseq>
+      <Hsp_midline>VDF +G   YR+ +     E +A+AV    +  P+V DATAGLGRD FVLASLG  VT  E+ P +A LL+DG+ RA  + +   T AR++L  GNA + + AL +   +PD++YLDPMYP R KSA VKKEM  F  LVG+ QD    L  A   AK+RVVVKRP   E L+G+ P++Q  GK+TRFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123029206|sp|Q0HDH6.1|RSMJ_SHESM</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella sp. MR-4]</Hit_def>
+  <Hit_accession>Q0HDH6</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>3.93394e-47</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDTLTLHKRDEPKLDGIMVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVTPKVVDGTAGLGRDAFVLASLGCTVTMVERHPVVAALLEDGLRRAYQDAEIGDWMRERMQLFHGSSLE---ALAKLEQEVDVVYLDPMYPHRDKSALVKKEMRVFQTLVGADLDADGLLAPAMALASKRVVVKRPDYAEDLAGVKPSMVIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E DT++L    E     ++VDF +GA  +RR  GGG  + IAKAV       P V D TAGLGRD+FVLASLG TVT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K + + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E LAG  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259647101|sp|C1DD01.1|RSMJ_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DD01</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>5.5392e-47</Hsp_evalue>
+      <Hsp_query-from>1331</Hsp_query-from>
+      <Hsp_query-to>1567</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>DTATEAVRTLIRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSNVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAE---QMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLP</Hsp_qseq>
+      <Hsp_hseq>DVSPATLERFAAGYGLSCLATPPDEGYWLAWRAGVLGLE-SPHHGAVTADFVGGAARHRREFGGGAGQPVARAIGLKGSQRPQVVDATAGLGRDAFVMASLGCRVTLVERSPVAAALLDDALARARLDPATHEIAARMQLVFADAADWLAQQPA-----GSVDVVYLDPMFPDTGKSAAAKKEMQAFQVVVGDDLDAGRLLLVARQVAGKRVVVKRPRLGALLTGEKPAGQQVGKSTRFDLYAP</Hsp_hseq>
+      <Hsp_midline>D +   +      + L  ++ PP++G +L      + L        V  DF  GAA++RR  GGG  + +A+A+    +  P V DATAGLGRD+FV+ASLG  VT  E+ P  A LL D + RA L+P T + AAR+ L F +AA+   Q PA     G  D+VYLDPM+P+  KSAA KKEM  F  +VG+  D   LL  ARQ A KRVVVKRPRLG  L G+ PA Q  GKSTRFD+Y P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|109896191|sp|Q48AK7.1|RSMJ_COLP3</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Colwellia psychrerythraea 34H]</Hit_def>
+  <Hit_accession>Q48AK7</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>6.84569e-47</Hsp_evalue>
+      <Hsp_query-from>1379</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>VDFVEGAVAHRRKFGGGRGQDIAKAVGLKHGFKPHVLDATAGLGRDAFVLASLGCKLTLLERMPVVAALLDDGIERAKLNHEVADIANNMQLIHGSSLEEVDLAIE----PDVVYLDPMYPHREKSAAVKKEMRIFQSLVGEDLDADDLLEPALALAKYRVVVKRPSYAPPLANKKPSMSINMKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>VDF  GA  +RR  GGG  + IAKAV   H   P V DATAGLGRD+FVLASLG  +T  E+ P VA LL DGI RA LN E  D A  + L  G++ E++   ++    PD+VYLDPMYP R KSAAVKKEM  F  LVGE  D   LL  A   AK RVVVKRP     LA + P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|150416298|sp|A0L2I5.1|RSMJ_SHESA</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella sp. ANA-3]</Hit_def>
+  <Hit_accession>A0L2I5</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>1.42082e-46</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDTLTLHKRDEPKLDGIVVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVTPKVVDGTAGLGRDAFVLASLGCTVIMVERHPVVAALLEDGLRRAYQDAEIGDWMRERMQLFHGSSLE---ALAKLEQEVDVVYLDPMYPHRDKSALVKKEMRVFQTLVGADLDADGLLAPAMALASKRVVVKRPDYAEDLAGVKPSMVIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E DT++L    E     ++VDF +GA  +RR  GGG  + IAKAV       P V D TAGLGRD+FVLASLG TV   E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K + + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E LAG  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|109896174|sp|Q3JC80.1|RSMJ_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3JC80</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>2.41242e-46</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1568</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAH--PTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPY</Hsp_qseq>
+      <Hsp_hseq>LFVDFVKGAMGYRRRQGEGRKQPLARAIGLKGNVCPDVLDATAGLGRDAFVLAMLGCPVRLIEQSPVIGALLEDGLARARKTPETAPIIAQMTLMQANAVDWMGTL-NAQDFPDVVYLDPMYPERTKSALVKKEMRLLRILAGKDENAPLLLEVALECARQRVVVKRPRPGVFLAGVKPDFSIESKTTRFDIYLTH</Hsp_hseq>
+      <Hsp_midline>+ VDF  GA  YRR +G G  + +A+A+    +  P V DATAGLGRD+FVLA LG  V   EQ P +  LL DG+ RA   PET    A++ L   NA + M  L   Q  PD+VYLDPMYPER KSA VKKEM     L G+ ++  +LL  A + A++RVVVKRPR G  LAG  P +    K+TRFD+YL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|109896203|sp|Q2SL17.1|RSMJ_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SL17</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>3.22624e-46</Hsp_evalue>
+      <Hsp_query-from>1341</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>IRAFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKSN----VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAHP---TVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>LRLVALEALPAKSDRAVYLLNFSDT-RVELVNWREQAPGPVFVDFVEGALAYRREHGGGRGEMVAKSVGLKGEVKCLNVLDATAGLGRDAYVLAALGCHVVMYERNPLVHALLADGLRRALECADAASVVSRMTLHLGEAFNTFPDGI------DVVYLDPMFPERRKSSAVKKEMQAFKDIVGADPDADELLAAALRQEVKRIVVKRPKGAPCLLGREPSFTVTGKSGRFDVY</Hsp_hseq>
+      <Hsp_midline>+R   L  +    ++  YLL   DT  + LV  +      V VDF  GA  YRR  GGG  E++AK+V          V DATAGLGRD++VLA+LG  V  +E++P V  LL+DG+RRAL   +     +R+ LH G A    P  +      D+VYLDPM+PERRKS+AVKKEM  F  +VG   D   LL  A +   KR+VVKRP+    L G+ P++  TGKS RFDVY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|150416285|sp|A1U2T9.1|RSMJ_MARAV</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1U2T9</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>7.38077e-45</Hsp_evalue>
+      <Hsp_query-from>1346</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>LVPVSQPPEQGSYLLAEHDTVSLRLVGEKSN--VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHP-TVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKP---DIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>VVAPKQVRDYGLLLFMDEHGLALQQTGKGAPGPVRAEFVSGKMGYRREHGGGAGQLVARAVGMQKTRAPLQVLDATAGLGQDAFVLASLGCQMTLFERNPIIHALLADGLYRASLNEACAPIVARMTLHSGNSLDWM-----NQAGPEAVDVVYLDPMFPHRDKSALVKKEMQVFRQVVGDDDDASQLLEAALGCARYRVVVKRPRKAPAIAGPEPAARVEGKSSRYDIY</Hsp_hseq>
+      <Hsp_midline>+V   Q  + G  L  +   ++L+  G+ +   V  +F SG   YRR  GGG  +L+A+AV    T  P  V DATAGLG+D+FVLASLG  +T FE++P +  LL+DG+ RA LN       AR+ LH GN+ + M      Q  P   D+VYLDPM+P R KSA VKKEM  F ++VG+  D   LL  A   A+ RVVVKRPR    +AG  PA +  GKS+R+D+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|259646444|sp|B4S2X7.1|RSMJ_ALTMD</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Alteromonas macleodii str. &apos;Deep ecotype&apos;]</Hit_def>
+  <Hit_accession>B4S2X7</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>1.30003e-44</Hsp_evalue>
+      <Hsp_query-from>1343</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>AFPLVPVSQPPEQGSYLLAEHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV----NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRR-ALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>GFPVVSHSEKPAEGFYLQIQNGVLGLADASEKKVLPVEVDFASPASLYRKQHGGGRKEPIVKAIGLKGNEGWH--VVDATPGLGRDAFVLVSVGCKVTMIERSPIVAALLEDGIRRLALSFPEL---AAKMSLQHGNSAEVMQYF--TGENVNAIYLDPMFPHKKKSALVKKEMRLFQQLLGHDPDADALLPPALKLATHRVVVKRPNSADVLAGEKPSMAIESKKHRFDVYL</Hsp_hseq>
+      <Hsp_midline> FP+V  S+ P +G YL  ++  + L    EK    V VDF S A+ YR+  GGG  E I KA+    N   H  V DAT GLGRD+FVL S+G  VT  E+ P VA LL DGIRR AL  PE    AA+++L  GN+AE M     T    + +YLDPM+P ++KSA VKKEM  F +L+G   D   LL  A + A  RVVVKRP   + LAG+ P+     K  RFDVYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|109896256|sp|Q47IZ2.1|RSMJ_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47IZ2</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>7.05939e-44</Hsp_evalue>
+      <Hsp_query-from>1379</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>VDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>VDFVRGPLAHRRLQGGGSGQMIAKAVGIQPGVRPDVLDATAGLGRDAFVLAQLGCNVRLIERHPVIAALLADGLQRARLDPDVRPIIERMHLQTGDAIQLMNAW--EGDPPQVIYVDPMFPHREKSSLVKKEMSMLRPLVGDDLDASSLLEAALKLATHRVVVKRPRKAPSVLGPKVGYVLEGKSSRFDIY</Hsp_hseq>
+      <Hsp_midline>VDF  G   +RR +GGG  ++IAKAV       P V DATAGLGRD+FVLA LG  V   E+HP +A LL+DG++RA L+P+ +    R++L  G+A + M A       P ++Y+DPM+P R KS+ VKKEM+    LVG+  D   LL  A + A  RVVVKRPR    + G    Y   GKS+RFD+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|150416301|sp|A4STK0.1|RSMJ_AERS4</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Aeromonas salmonicida subsp. salmonicida A449]</Hit_def>
+  <Hit_accession>A4STK0</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>8.01037e-44</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>VYVDFVEGAVAHRRKFGGGRGQSIAKAVGLKAGAMPTVVDATAGLGRDAFVLASLGCKVTLIERSPVVAALLQDGLMRAAQDPEIGPWVSERMRLLQGPAVDNLLALPE---RPDVIYLDPMFPHKQKSALVKKEMRVFQSLVGPDLDADALLPAALQMADKRVVVKRPDYAGWLNEHKPSMAIETKSNRFDVYV</Hsp_hseq>
+      <Hsp_midline>V VDF  GA  +RR  GGG  + IAKAV     A PTV DATAGLGRD+FVLASLG  VT  E+ P VA LL DG+ RA  +PE     + R+ L  G A + + AL +   +PD++YLDPM+P ++KSA VKKEM  F  LVG   D   LL  A Q A KRVVVKRP     L    P+     KS RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|259647065|sp|B8CV40.1|RSMJ_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella piezotolerans WP3]</Hit_def>
+  <Hit_accession>B8CV40</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>8.04404e-44</Hsp_evalue>
+      <Hsp_query-from>1359</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>LLAEHDTVSL--RLVGEKSNVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKP-DIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>LVFENNILSLIKRDEPKLKGISVDFVSGAVAHRRKFGGGRGQSIAKAVGLKQGVTPTVVDGTAGLGRDAFVLASLGCKVIMVERHPVVAALLEDGLRRAYEDSEIGEWMNARMSLFHGSSIDTLADAANAAGTEIDVVYLDPMYPHREKSALVKKEMRVFQSLVGADLDADGLLKPAMELASKRVVVKRPDYAEDLDGVKPSTVIATKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>L+ E++ +SL  R   +   + VDF SGA  +RR  GGG  + IAKAV       PTV D TAGLGRD+FVLASLG  V   E+HP VA LL DG+RRA  + E  +   AR++L  G++ + +       G   D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A + A KRVVVKRP   E L G  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|189040185|sp|A9KV34.1|RSMJ_SHEB9</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella baltica OS195]</Hit_def>
+  <Hit_accession>A9KV34</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>8.10351e-44</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDTLSLHKRDEPKLDGIVVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVMPSVVDGTAGLGRDAFVLASLGCTVTMVERHPVVAALLEDGLRRAYQDAEIGDWMRERMRLFHGSSLE---ALSKLAQEVDVVYLDPMYPHRDKSALVKKEMRVFQSLVGADLDADGLLAPALALATKRVVVKRPDYAEDLDGVKPNTVIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E DT+SL    E     ++VDF +GA  +RR  GGG  + IAKAV       P+V D TAGLGRD+FVLASLG TVT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K   + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P      K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|167012922|sp|A6WU68.1|RSMJ_SHEB8</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella baltica OS185]</Hit_def>
+  <Hit_accession>A6WU68</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>9.266e-44</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDTLSLHKRDEPKLDGIVVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVMPSVVDGTAGLGRDAFVLASLGCTVTMVERHPVVAALLEDGLRRAYQDAEIGDWMRERMRLFHGSSLE---ALSKLAQEIDVVYLDPMYPHRDKSALVKKEMRVFQSLVGADLDADGLLAPALALATKRVVVKRPDYAEDLDGVKPNTVIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E DT+SL    E     ++VDF +GA  +RR  GGG  + IAKAV       P+V D TAGLGRD+FVLASLG TVT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K   + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P      K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123356373|sp|Q12I41.1|RSMJ_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella denitrificans OS217]</Hit_def>
+  <Hit_accession>Q12I41</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.00999e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>IVVDFISGAVAHRRKFGGGRGQSIAKAVGLKQGVTPTVVDGTAGLGRDAFVLASLGCKVIMVERHPVVAALLEDGLRRAYDDAEIGAWMTERMSLFPGSSLE---ALAKITDAVDVVYLDPMYPHRDKSALVKKEMRVFQSLVGADLDADGLLTPAMTLATKRVVVKRPDYAEDLDGIKPSMVIATKKNRFDVYI</Hsp_hseq>
+      <Hsp_midline>++VDF SGA  +RR  GGG  + IAKAV       PTV D TAGLGRD+FVLASLG  V   E+HP VA LL DG+RRA  + E       R++L  G++ E   AL K     D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|166979854|sp|A6V1A8.1|RSMJ_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6V1A8</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.01935e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGK-PDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>VRVDFVEGASAHRRKFGGGSGQMIAKAVGIQPGVRPRVLDATAGLGRDGFVLASLGCEVTLVERQPLIAALLEDGLERARRDPDVAPIAARMRLLGGNAADLMRAW---EGEAPQVVYLDPMFPHRDKSALVKKEMRLFRPLVGDDLDAPALLEAALALASHRVVVKRPRKAPVIDGAKPGYSLDGKSSRYDIY</Hsp_hseq>
+      <Hsp_midline>V VDF  GA+ +RR  GGG  ++IAKAV       P V DATAGLGRD FVLASLG  VT  E+ P +A LL DG+ RA  +P+    AAR+ L  GNAA+ M A    +G+ P +VYLDPM+P R KSA VKKEM  F  LVG+  D   LL  A   A  RVVVKRPR    + G  P Y   GKS+R+D+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|254800514|sp|B1KLA4.1|RSMJ_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KLA4</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.05644e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMP-ALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ISVDFVSGAVAHRRKFGGGRGQSIAKAVGLKQGVNPSVVDGTAGLGRDAFVLASLGCNVTMVERHPVVAALLEDGLRRAYEDAEIGDWMRERMKLFHGSSIDSLADAAHSSNTEVDVVYLDPMYPHREKSALVKKEMRVFQSLVGADLDADGLLAPAMALASKRVVVKRPDYAEDLDGVKPSMVIATKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>+ VDF SGA  +RR  GGG  + IAKAV      +P+V D TAGLGRD+FVLASLG  VT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ + +  A   +  + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|259710183|sp|B3PLF9.1|RSMJ_CELJU</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Cellvibrio japonicus Ueda107]</Hit_def>
+  <Hit_accession>B3PLF9</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>1.11785e-43</Hsp_evalue>
+      <Hsp_query-from>1336</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>AVRTLIRAFPL-VPVSQPPE---QGSYLLAEHDT-VSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAVNHTA--HPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-----TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>AAQVLAQEFNLPIRVGEVPETIGDCEFVLVLDETGLALQQTGRKAPGAVRAEFTEGAVDHRRKFGGGKGQMIAKAVGVKAGFSPRVLDATAGLGRDAFVLATLGCRLQMIERSPLVFALLRDGLARAHAFAHAQDRELLQVVERMELAAQDSKTYLQGLAPEQ-FPDVIYLDPMFPERQKSADVKKEMRAFHSIVGTDEDADVLLPLALEHVRFRVVVKRPRKAPFLNNQIPSYQLEGKSSRYDIY</Hsp_hseq>
+      <Hsp_midline>A + L + F L + V + PE      ++L   +T ++L+  G K+   V  +FT GA  +RR  GGG  ++IAKAV   A   P V DATAGLGRD+FVLA+LG  +   E+ P V  LL DG+ RA      QD        R+ L   ++   +  L   Q  PD++YLDPM+PER+KSA VKKEM  FH +VG  +D  VLL  A +  + RVVVKRPR    L  Q P+YQ  GKS+R+D+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|6136776|sp|P44901.3|RSMJ_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44901</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.16548e-43</Hsp_evalue>
+      <Hsp_query-from>1359</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>LLAEHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>LVQTDDRLELRKLDEPKLGAVYVDFVGGTMAHRRKFGGGRGEAVAKAVGIKGSALPTVIDATAGLGRDAFVLAAIGCQVRLVERHPVVFLLLQDGLNRAYQDEEIGEMLQQ-NLHLLNV-QHINELDPNSDYADVVYLDPMYPHKQKSALVKKEMRVFQHLVGADLDADELLLPALQLAKKRVVVKRPDYAEFLCGKQPHFSHETKNHRFDIYM</Hsp_hseq>
+      <Hsp_midline>L+   D + LR + E     V VDF  G   +RR  GGG  E +AKAV    +A PTV DATAGLGRD+FVLA++G  V   E+HP V  LL DG+ RA  + E  +   + NLH  N  + +  L       D+VYLDPMYP ++KSA VKKEM  F  LVG   D   LL  A Q AKKRVVVKRP   E L G+ P + +  K+ RFD+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|226703783|sp|B2VHE7.1|RSMJ_ERWT9</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Erwinia tasmaniensis]</Hit_def>
+  <Hit_accession>B2VHE7</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>1.37957e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1567</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAH--PTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLP</Hsp_qseq>
+      <Hsp_hseq>IFVDFVSGAMAHRRKFGGGRGEAVAKAVGIKSGYLPDVVDATAGLGRDAFVLAALGCRVRMLERNPVVAALLDDGLRRGYADVEI-GPWLRENLTLLHAS-SLSALTDITPQPDVVYLDPMYPHKQKSALVKKEMRVFQSLVGADEDADGLLQPARTLAKKRVVVKRPDYAPPLAGLTTPNAVNTKSHRFDIYAP</Hsp_hseq>
+      <Hsp_midline>+ VDF SGA  +RR  GGG  E +AKAV   +   P V DATAGLGRD+FVLA+LG  V   E++P VA LL DG+RR   + E      R NL   +A+  + AL     +PD+VYLDPMYP ++KSA VKKEM  F  LVG  +D   LL  AR  AKKRVVVKRP     LAG         KS RFD+Y P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|150416297|sp|A1RQ25.1|RSMJ_SHESW</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella sp. W3-18-1] &gt;gi|166919119|sp|A4Y1K3.1|RSMJ_SHEPC RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella putrefaciens CN-32]</Hit_def>
+  <Hit_accession>A1RQ25</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.48736e-43</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDSLTLHKRDEPKLDGILVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVTPSVVDGTAGLGRDAFVLASLGCTVTMVERHPVVAALLEDGLRRAYQDAEIGDWMHERMQLFHGSSLE---ALSKLEQEVDVVYLDPMYPHRDKSALVKKEMRVFQSLVGADLDADGLLAPALALATKRVVVKRPDYAEDLDGVKPSMVIDTKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E D+++L    E     ++VDF +GA  +RR  GGG  + IAKAV       P+V D TAGLGRD+FVLASLG TVT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K + + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|254803881|sp|B8ECV6.1|RSMJ_SHEB2</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella baltica OS223]</Hit_def>
+  <Hit_accession>B8ECV6</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>1.55392e-43</Hsp_evalue>
+      <Hsp_query-from>1362</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>EHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ESDTLSLHKRDEPKLDGIVVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVMPSVVDGTAGLGRDAFVLASLGCTVTMVERHPVVAALLEDGLRRAYQDAEIGDWMRERMRLFHGSSLE---ALSKLALEVDVVYLDPMYPHRDKSALVKKEMRVFQSLVGADLDADGLLAPALALATKRVVVKRPDYAEDLDGVKPNTVIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>E DT+SL    E     ++VDF +GA  +RR  GGG  + IAKAV       P+V D TAGLGRD+FVLASLG TVT  E+HP VA LL DG+RRA  + E  D    R+ L  G++ E   AL K   + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P      K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|150416299|sp|A1JSQ2.1|RSMJ_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JSQ2</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.236</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>2.11301e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1567</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLP</Hsp_qseq>
+      <Hsp_hseq>IYVDFVAGTLAHRRKFGGGRGEAVAKAVGIKKGYLPRVVDATAGLGRDAFVLAALGCHVQMLERNPVVAALLDDGLRRGYQDAEIGPWLRERLTLLH---ASSLTALAEIEPRPEVVYLDPMYPHRQKSALVKKEMRVFQSLVGADEDADGLLAPARALATKRVVVKRPDYAEPLAGIAAQAAVTTKSHRFDLYMP</Hsp_hseq>
+      <Hsp_midline>+ VDF +G   +RR  GGG  E +AKAV       P V DATAGLGRD+FVLA+LG  V   E++P VA LL DG+RR   + E       R+ L     A  + AL + + +P++VYLDPMYP R+KSA VKKEM  F  LVG  +D   LL  AR  A KRVVVKRP   E LAG A     T KS RFD+Y+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|56404759|sp|Q65PY5.1|RSMJ_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65PY5</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>2.70983e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAH--PTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKP-----DIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>VYVDFVAGTMAHRRKFGGGRGEAIAKAVGVKGNELPSVIDATAGLGRDAFVLASIGCRVRLVERHPVVYLLLQDGLRRAYADPEIGEMMQK-NMQL------LPVHHITELNPFEDFADVVYLDPMYPHKQKSALVKKEMRVFQYLVGADSDSNLLLEPALKLAKKRVVVKRPDYAEFLAEKAPQFSRETKNHRFDIY</Hsp_hseq>
+      <Hsp_midline>V VDF +G   +RR  GGG  E IAKAV    +  P+V DATAGLGRD+FVLAS+G  V   E+HP V  LL DG+RRA  +PE  +   + N+        +P    T+  P     D+VYLDPMYP ++KSA VKKEM  F  LVG   D  +LL  A + AKKRVVVKRP   E LA +AP +    K+ RFD+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|73920486|sp|Q4QM52.2|RSMJ_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QM52</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>3.50055e-43</Hsp_evalue>
+      <Hsp_query-from>1359</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>LLAEHDTVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>LVQTDDRLELRKLDEPKLGAVYVDFVGGTMAHRRKFGGGRGEAVAKAVGIKGSALPTVIDATAGLGRDAFVLAAIGCQVRLVERHPVVFLLLQDGLNRAYQDEEIGEMLQQ-NLHLLNV-QHINELDPNSDYADVVYLDPMYPHKQKSALVKKEMRVFQHLVGADLDADELLLPALQLAKKRVVVKRPDYAEFLCGKQPHFSRETKNHRFDIYM</Hsp_hseq>
+      <Hsp_midline>L+   D + LR + E     V VDF  G   +RR  GGG  E +AKAV    +A PTV DATAGLGRD+FVLA++G  V   E+HP V  LL DG+ RA  + E  +   + NLH  N  + +  L       D+VYLDPMYP ++KSA VKKEM  F  LVG   D   LL  A Q AKKRVVVKRP   E L G+ P +    K+ RFD+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|56404959|sp|Q9HXW0.1|RSMJ_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HXW0</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>3.6002e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTA--HPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>VRVDFVEGASAHRRKFGGGSGQMIAKAVGVQPGIRPRVLDATAGLGRDGFVLASLGCEVTLVERQPLIAALLEDGLERARRDPDVAPIAARMRLLGGNSADLMRAW--DGEAPQVVYLDPMFPHRDKSALVKKEMRLFRPLVGDDLDAPALLQAALALASHRVVVKRPRKAPIIEGPKPGYSLEGKSSRYDIYPKKALGKG</Hsp_hseq>
+      <Hsp_midline>V VDF  GA+ +RR  GGG  ++IAKAV       P V DATAGLGRD FVLASLG  VT  E+ P +A LL DG+ RA  +P+    AAR+ L  GN+A+ M A       P +VYLDPM+P R KSA VKKEM  F  LVG+  D   LL  A   A  RVVVKRPR    + G  P Y   GKS+R+D+Y      KG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|226695915|sp|B7V2T3.1|RSMJ_PSEA8</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>B7V2T3</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>3.66968e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTA--HPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>VRVDFVEGASAHRRKFGGGSGQMIAKAVGVQPGIRPRVLDATAGLGRDGFVLASLGCEVTLVERQPLIAALLEDGLERARRDPDVAPIAARMRLLGGNSADLMRAW--DGEAPQVVYLDPMFPHRDKSALVKKEMRLFRPLVGDDLDAPALLQAALALASHRVVVKRPRKAPIIEGPKPGYSLEGKSSRYDIYPKKALGKG</Hsp_hseq>
+      <Hsp_midline>V VDF  GA+ +RR  GGG  ++IAKAV       P V DATAGLGRD FVLASLG  VT  E+ P +A LL DG+ RA  +P+    AAR+ L  GN+A+ M A       P +VYLDPM+P R KSA VKKEM  F  LVG+  D   LL  A   A  RVVVKRPR    + G  P Y   GKS+R+D+Y      KG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|167012930|sp|A6VLG0.1|RSMJ_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VLG0</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>4.79914e-43</Hsp_evalue>
+      <Hsp_query-from>1360</Hsp_query-from>
+      <Hsp_query-to>1567</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>LAEHD-TVSLRLVGEKS--NVIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAH--PTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHF---GNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLP</Hsp_qseq>
+      <Hsp_hseq>MGEHDWRLELRKLDEPKLGAVFVDFAGGVMAHRRKFGGGRGEAVAKAIGVKGEELPTVIDATAGLGRDAFVLASVGCRVRLVERHPVVRLLLQDGLRRAYDDSEIGESMRR-NMQLLTVNHIAELDPA----RDFADAVYLDPMYPHKQKSALVKKEMRVFQHLVGTDSDADALLEPARKLARKRVVVKRPDYAGFLAQTPPHFSRETKNHRFDIYLP</Hsp_hseq>
+      <Hsp_midline>+ EHD  + LR + E     V VDF  G   +RR  GGG  E +AKA+       PTV DATAGLGRD+FVLAS+G  V   E+HP V  LL DG+RRA  + E  ++  R N+      + AE  PA    +   D VYLDPMYP ++KSA VKKEM  F  LVG   D   LL  AR+ A+KRVVVKRP     LA   P +    K+ RFD+YLP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|259647144|sp|C1DSX1.2|RSMJ_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DSX1</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>5.61729e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>VRVDFVEGASAHRRLFGGGSGQMIAKAVGVQPGVRPRVLDATAGLGRDAFVLACLGCEVTLIERQPPIAALLEDGLARAVRDPEVAPIVARMRLLPGDAIARMRQW--PDEPPQVIYLDPMFPHRDKSALVKKEMRLFRPLVGDDPDAPALLEAALALASHRVVVKRPRKAPSVAGPRPGYSLEGKSSRYDIY</Hsp_hseq>
+      <Hsp_midline>V VDF  GA+ +RR  GGG  ++IAKAV       P V DATAGLGRD+FVLA LG  VT  E+ P +A LL DG+ RA+ +PE     AR+ L  G+A  +M         P ++YLDPM+P R KSA VKKEM  F  LVG+  D   LL  A   A  RVVVKRPR    +AG  P Y   GKS+R+D+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|109940180|sp|Q6LLM4.2|RSMJ_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LLM4</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>5.9944e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQG--KPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>VFVDLVSGAAAHRRKFGGGRGQAIAKAVGLKKGVMPRVLDGTAGLGRDAFVLASLGCTVQMVERHPVVAALLDDGLARAKQDPEIGGWITERLSLLHASSQDALVKLLEDPDFIAPDVVYLDPMYPHKKKSALVKKEMRVFQTLVGADNDADSLFAPAMALATKRVVVKRPDYAEFLANAKPSTAIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>V VD  SGAA +RR  GGG  + IAKAV       P V D TAGLGRD+FVLASLG TV   E+HP VA LL DG+ RA  +PE       R++L   ++ + +  L++      PD+VYLDPMYP ++KSA VKKEM  F  LVG   D   L   A   A KRVVVKRP   E LA   P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|122260820|sp|Q02RF2.1|RSMJ_PSEAB</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Pseudomonas aeruginosa UCBPP-PA14]</Hit_def>
+  <Hit_accession>Q02RF2</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>6.38762e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1573</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTA--HPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADKG</Hsp_qseq>
+      <Hsp_hseq>VRVDFVEGASAHRRKFGGGSGQMIAKAVGVQPGIRPRVLDATAGLGRDGFVLASLGCEVTLVERQPLIAALLEDGLERAGRDPDVAPIAARMRLLGGNSADLMRAW--DGEAPQVVYLDPMFPHRDKSALVKKEMRLFRPLVGDDLDAPALLQAALALASHRVVVKRPRKAPIIEGPKPGYSLEGKSSRYDIYPKKALGKG</Hsp_hseq>
+      <Hsp_midline>V VDF  GA+ +RR  GGG  ++IAKAV       P V DATAGLGRD FVLASLG  VT  E+ P +A LL DG+ RA  +P+    AAR+ L  GN+A+ M A       P +VYLDPM+P R KSA VKKEM  F  LVG+  D   LL  A   A  RVVVKRPR    + G  P Y   GKS+R+D+Y      KG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|109896247|sp|Q3IIA6.1|RSMJ_PSEHT</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Pseudoalteromonas haloplanktis TAC125]</Hit_def>
+  <Hit_accession>Q3IIA6</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>8.54026e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1572</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRAL----LNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYLPYGADK</Hsp_qseq>
+      <Hsp_hseq>ISVDFVTGAAAHRRKFGGGKGQAIAKAVGLNKGATPIVLDATAGLGRDGFVLASLGCKVILHERHPVVAALLYDGLQRAYNDIEIGPWMQQN---MSLIFGSSHT---LLAQCESMPDVVYLDPMFPHREKSALVKKEMRVFQDLVGADTDADDLLEFAYPLASKRVVVKRPDYAPFLNDKTPSMQIKTKKNRFDVYVKAAMKK</Hsp_hseq>
+      <Hsp_midline>+ VDF +GAA +RR  GGG  + IAKAV  N  A P V DATAGLGRD FVLASLG  V   E+HP VA LL DG++RA     + P  Q     ++L FG++      L + +  PD+VYLDPM+P R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP     L  + P+ Q   K  RFDVY+     K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|254800592|sp|A8FPK4.1|RSMJ_SHESH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>A8FPK4</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>8.65854e-43</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ISVDFVSGAVAHRRKFGGGRGQSIAKAVGLKQGVNPSVVDGTAGLGRDAFVLASLGCNVTMVERNPVVAALLEDGLRRAYESEEIGDWMRERMRLVHGSSLESVAELGE---EIDVVYLDPMYPHREKSALVKKEMRVFQSLVGADLDADGLLAPATALATKRVVVKRPDYAEDLDGVKPSMVISTKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>+ VDF SGA  +RR  GGG  + IAKAV      +P+V D TAGLGRD+FVLASLG  VT  E++P VA LL DG+RRA  + E  D    R+ L  G++ E +  L +   + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P+   + K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|166991031|sp|A4XXN9.2|RSMJ_PSEMY</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Pseudomonas mendocina ymp]</Hit_def>
+  <Hit_accession>A4XXN9</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>1.10418e-42</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTA--HPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGK-PDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>VRVDFVEGAAAHRRQFGGGSGQMIAKAVGVQSGIRPRILDATAGLGRDAFVLASLGCEMTLIERQPLIAALLEDGLQRAELDLEVAPIAARMRLLTGNAIDLMQ---NWQGEAPQVIYLDPMFPHRDKSALVKKEMRLFRPFVGDDLDAPALLAAALALASHRVVVKRPRKAPAIEGTKPGYVLEGKSSRYDVY</Hsp_hseq>
+      <Hsp_midline>V VDF  GAA +RR  GGG  ++IAKAV   +   P + DATAGLGRD+FVLASLG  +T  E+ P +A LL DG++RA L+ E    AAR+ L  GNA + M      QG+ P ++YLDPM+P R KSA VKKEM  F   VG+  D   LL  A   A  RVVVKRPR    + G  P Y   GKS+R+DVY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|259646590|sp|B0TN76.1|RSMJ_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella halifaxensis HAW-EB4]</Hit_def>
+  <Hit_accession>B0TN76</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>3.47377e-42</Hsp_evalue>
+      <Hsp_query-from>1359</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>LLAEHDTVSL--RLVGEKSNVIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMP-ALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>LVFENDILTLIKRDEPKLKGIFVDFVTGAVAHRRKFGGGRGQSIAKAVGLKQGVTPTVVDGTAGLGRDAFVLASLGCKVIMVERHPIVAALLEDGLRRGYEDTEIGDWMRERMSLFHGSSIDSLADAPQASNTEVDVVYLDPMYPHREKSALVKKEMRVFQSLVGADLDADGLLAPAMALASKRVVVKRPDYADDLDGVKPSMVIATKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>L+ E+D ++L  R   +   + VDF +GA  +RR  GGG  + IAKAV       PTV D TAGLGRD+FVLASLG  V   E+HP VA LL DG+RR   + E  D    R++L  G++ + +  A   +  + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   + L G  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|259646931|sp|C4LD58.1|RSMJ_TOLAT</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Tolumonas auensis DSM 9187]</Hit_def>
+  <Hit_accession>C4LD58</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>4.76453e-42</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>VFVDFVEGAVAHRRKFGGGRGQSIAKAVGLKAGANPTVVDATAGLGRDAFVLASLGCQVTMLERHPVVAALLADGLQRAQQDSEIGGWMRERMSLRSGPALENLQQLGFT---PDVVYLDPMFPHRQKSALVKKEMRVFQSLVGADLDADALLPAALAVAGKRVVVKRPDYAGYLNEMKPGMSIETKSNRFDVYV</Hsp_hseq>
+      <Hsp_midline>V VDF  GA  +RR  GGG  + IAKAV     A+PTV DATAGLGRD+FVLASLG  VT  E+HP VA LL+DG++RA  + E       R++L  G A E +  L  T   PD+VYLDPM+P R+KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP    +L    P      KS RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|150416294|sp|A3QJ65.1|RSMJ_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QJ65</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>5.94814e-42</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRAL----LNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>IFVDFVSGAVAHRRKFGGGRGQAIAKAVGLKQGVTPSVVDGTAGLGRDAFVLASLGCNVTMVERNPVVAALLEDGLRRAYEDADIGPWMQE---RMRLVHGSS---LTALAELGEQVDVVYLDPMYPHREKSALVKKEMRVFQSLVGADLDADGLLAPAMALASKRVVVKRPDYAEDLDGVKPNTRIETKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>+ VDF SGA  +RR  GGG  + IAKAV       P+V D TAGLGRD+FVLASLG  VT  E++P VA LL DG+RRA     + P  Q+   R+ L  G++   + AL +   + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P  +   K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|259647031|sp|A8H9X0.1|RSMJ_SHEPA</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>A8H9X0</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>6.65347e-42</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVK-TQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ISVDFVSGAVAHRRKFGGGRGQSIAKAVGLKQGVMPTVVDGTAGLGRDAFVLASLGCKVLMVERHPIVAALLEDGLRRAYEDAEIGGWMQQRMSLFHGSSIDSLADAAKASNTEVDVVYLDPMYPHREKSALVKKEMRVFQSLVGADLDADGLLAPAMALATKRVVVKRPDYADDLDGVKPSMVIATKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>+ VDF SGA  +RR  GGG  + IAKAV       PTV D TAGLGRD+FVLASLG  V   E+HP VA LL DG+RRA  + E       R++L  G++ + +    K +  + D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   + L G  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|150416292|sp|Q15Z03.2|RSMJ_PSEA6</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Pseudoalteromonas atlantica T6c]</Hit_def>
+  <Hit_accession>Q15Z03</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>6.68947e-42</Hsp_evalue>
+      <Hsp_query-from>1371</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>VGEKSNVIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAHPT--VWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGK--PDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>VGE---VLVDFASDALTFRRLHGGGKKEAVAKAVGLKGQSEWRVLDATAGLGRDAFVLASLGCRVDMIERSPVVAALLADGLERAHHSAELSAWLPQRMRLHHGIAVDLMANWCNEPANLAPDVVYLDPMFPHRKKSAAVKKEMRLFQQLLGPDEDADGLLAPALALAKKRVVVKRPAGAPFLAQQKPHIEMQGKANRFDVYL</Hsp_hseq>
+      <Hsp_midline>VGE   V+VDF S A  +RR  GGG  E +AKAV         V DATAGLGRD+FVLASLG  V   E+ P VA LL+DG+ RA  + E       R+ LH G A + M           PD+VYLDPM+P R+KSAAVKKEM  F +L+G  +D   LL  A   AKKRVVVKRP     LA Q P  +  GK+ RFDVYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|122298372|sp|Q07WD2.1|RSMJ_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q07WD2</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>1.42462e-41</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAV--NHTAHPTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKP-DIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>ISVDFVSGAVAHRRKFGGGRGQSIAKAVGLKQGVTPTVVDGTAGLGRDAFVLASLGCKVIMVERHPVVAALLEDGLRRAYEDAEIGEWMRDLMSLFHGSSISALADAAQSSGTEIDVVYLDPMYPHREKSALVKKEMRVFQTLVGADLDADGLLAPAMALATKRVVVKRPDYAEDLDGVKPSMVIATKKNRFDVYV</Hsp_hseq>
+      <Hsp_midline>+ VDF SGA  +RR  GGG  + IAKAV       PTV D TAGLGRD+FVLASLG  V   E+HP VA LL DG+RRA  + E  +     ++L  G++   +    ++ G   D+VYLDPMYP R KSA VKKEM  F  LVG   D   LL  A   A KRVVVKRP   E L G  P+     K  RFDVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|259646486|sp|B0UVN8.1|RSMJ_HISS2</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Haemophilus somnus 2336]</Hit_def>
+  <Hit_accession>B0UVN8</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>3.00174e-41</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1566</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAH--PTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQDTAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVYL</Hsp_qseq>
+      <Hsp_hseq>VYVDFVTGTMAHRRKFGGGRAEAVAKAVGIKGNYLPTVIDATAGLGRDAFVLAALGCKVRLVERHPVVHLLLQDGLKRAYADAEI-GTMMQANMQLLDIA-HIQELNSSEEGADVVYLDPMYPHKQKSALVKKEMRIFQHLIGADLDADMLLEPALLLAQKRAVVKRPDYADFLAKKTPHFSHQTKNHRFDIYL</Hsp_hseq>
+      <Hsp_midline>V VDF +G   +RR  GGG  E +AKAV    +  PTV DATAGLGRD+FVLA+LG  V   E+HP V  LL DG++RA  + E   T  + N+   + A  +  L  ++   D+VYLDPMYP ++KSA VKKEM  F  L+G   D  +LL  A   A+KR VVKRP   + LA + P + +  K+ RFD+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|226703667|sp|B4F016.1|RSMJ_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal RNA small subunit methyltransferase J; AltName: Full=16S rRNA m2G1516 methyltransferase; AltName: Full=rRNA (guanine-N(2)-)-methyltransferase [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4F016</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>3.14029e-41</Hsp_evalue>
+      <Hsp_query-from>1377</Hsp_query-from>
+      <Hsp_query-to>1565</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VIVDFTSGAAQYRRTKGGG--ELIAKAVNHTAH--PTVWDATAGLGRDSFVLASLGLTVTAFEQHPAVACLLSDGIRRALLNPETQD-TAARINLHFGNAAEQMPALVKTQGKPDIVYLDPMYPERRKSAAVKKEMAYFHRLVGEAQDEVVLLHTARQTAKKRVVVKRPRLGEHLAGQAPAYQYTGKSTRFDVY</Hsp_qseq>
+      <Hsp_hseq>IYVDFVAGTMAHRRKFGGGRGEAVAKAVGIKKDYLPDVVDATAGLGRDAFVLASIGCNVRMVERHPVVAALLEDGLKRAYLDADIGEWMQQRMKLIYASSAQ---ALTQISPTPDVVYLDPMYPHKTKSALVKKEMRVFQSLVGADEDADALLAPAMALAKKRVVVKRPDYAEPLNNQPAHASVTTKNHRFDIY</Hsp_hseq>
+      <Hsp_midline>+ VDF +G   +RR  GGG  E +AKAV       P V DATAGLGRD+FVLAS+G  V   E+HP VA LL DG++RA L+ +  +    R+ L + ++A+   AL +    PD+VYLDPMYP + KSA VKKEM  F  LVG  +D   LL  A   AKKRVVVKRP   E L  Q      T K+ RFD+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 49, 64, 66, 70, 83, 93, 108, 111, 123, 138, 143, 144, 158, 160, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

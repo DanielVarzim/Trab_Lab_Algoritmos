@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>24047</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1688</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>24047</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1688</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75274028|sp|Q9LSV0.1|GLYR1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Glyoxylate/succinic semialdehyde reductase 1; Short=AtGLYR1; Short=AtGR1; Short=SSA reductase 1; AltName: Full=Gamma-hydroxybutyrate dehydrogenase; Short=AtGHBDH [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LSV0</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>3.39938e-48</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>EVGFLGLGIMGKAMSMNLLKNGFKVTVWNRTLSKCDELVEHGASVCESPAEVIKKCKYTIAMLSDPCAALSVVFDKGGVLEQICEGKGYIDMSTVDAETSLKINEAITGKGGRFVEGPVSGSKKPAEDGQLIILAAGDKALFEESIPAFDVLGKRSFYLGQVGNGAKMKLIVNMIMGSMMNAFSEGLVLADKSGLSSDTLLDILDLGAMTNPMFKGKGPSMNKSSYPPAFPLKHQQKDMRLALALGDENAVSMPVAAAANEAFKKARSLGLGDLDFSAV</Hsp_hseq>
+      <Hsp_midline>++G++GLG MG  M   LL  G +V V+NR+  K   +   GA V  S AE+++ C     M+SD  A   ++    GV + +  GK  ++MST+    +L +   +   GG+F E PVSGS  PA +G L+IL  G +A+       F ++GK++F+ G VG G+  KL++N ++G    A+SE +++A + G+ +DT+++ +   AM +PMF+ K        +PPAF LKH  KD+ LA+   ++   ++P       +++KA   G G+ D S V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|449061823|sp|F4I907.1|GLYR2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Glyoxylate/succinic semialdehyde reductase 2, chloroplastic; Short=AtGLYR2; Short=AtGR2; Short=SSA reductase 2; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>F4I907</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>8.06708e-44</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>IGFLGMGIMGSPMAQNLIKAGCDVTVWNRTKSKCDPLVGLGAKYKSSPEEVTATCDLTFAMLADPESAIDVACGKNGAIFGISSGKGYVDVSTVDVASSILISKQIKDTGALFLEAPVSGSKKPAEDGQLIFLTAGDKPLYEKAAPFLDIMGKSKFYLGEVGNGAAMKLVVNMIMGSMMASFAEGILLSQKVGLDPNVLVEVVSQGAINAPMYSLKGPSMIKSVYPTAFPLKHQQKDMRLALGLAESVSQSTPIAAAANELYKVAKSYGLSDEDFSAV</Hsp_hseq>
+      <Hsp_midline>IG++G+G MG PM   L+  G +V V+NR+  K  P+   GAK   S  E+   C + F M++D  +  D+    NG   G++ GK  V++ST+    ++ +   ++  G  F EAPVSGS  PA +G L+ L  G + +         ++GK  F+ G+VG G+  KLV+N ++G    +++E +L++++ G+D + +VE +   A+++PM+  K        +P AF LKH  KD+ LA+   E    + P        Y+ A   G  ++D S V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|74933940|sp|Q8T079.1|GLYR1_DROME</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1 homolog; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 homolog [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q8T079</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>5.63574e-34</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1684</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNG------VRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLK</Hsp_qseq>
+      <Hsp_hseq>FGFLGLGMMGSTIVKDLIYTGHKVVVWNRTIDKCQPFAEAGAEVKDTPMDVVEAADVIFCCVSDPKGAKDLVFGNCGVLQLKD-LNNKAYVEMSTIDPDTSLDIGEGIKQCNGRYLEAQIHGSRQEAAEGMLIILAGGDRSVFEECHSCFKTIAKNTFFLGNIGNACKVNLILQTILGVSLVGLAEALALADRFSISLNDIIDIFDLTSMKSPMLLAKGKEMAKGDFNPQQPLSHMQRDLRLVLNMAENLDQSMPVTSITNEVFKHTKRLGYSEHDSSAVFVR</Hsp_hseq>
+      <Hsp_midline> G++GLG MG  +V  L+  G +V V+NR+ DK  P +  GA+V  +  ++V A  VIF  VSD     D++ G      ++D L  K  V MSTI P  +L +   ++   G++ EA + GS   A  G L+IL GG  +V       F  + K TF  G++G      L+L ++LG+     +EA+ +A +F I  + I++    ++M SPM   K    A  +F P   L H  +DL L +   E    ++P        ++     GY E D S V+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122094584|sp|Q175F8.1|GLYR1_AEDAE</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1 homolog; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 homolog [Aedes aegypti]</Hit_def>
+  <Hit_accession>Q175F8</Hit_accession>
+  <Hit_len>559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>5.65457e-34</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1684</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNG----VRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLK</Hsp_qseq>
+      <Hsp_hseq>KFGFLGLGIMGCGMVKNLLNSGHSVVVWNRTATKCRKFQEAGAEVADTPSDVIEMTDVTFSCVADPQVAKELVFGNCGVMSANLVGKGYVEMTGVDPETSHDIAEQIIAKGGRYLEAQIQGSKNQAEEGTLIILAAGERLLFEECQTCFEAISRNSFYMGDVGNATKMNLVLQMISGVMLAGIAEGLALADRAGLQQKDVLEVLELTSMSSELVMQKGNAIIKGEFPPQQALKHMQKDLKLALNMAEGLEQPLPITAASNEVYKHAKRLGYGSHDSSAVYVR</Hsp_hseq>
+      <Hsp_midline>+ G++GLG MG  MV  LL+ G  V V+NR+  K       GA+V  + ++++    V F  V+D     +++ G    +   L GK  V M+ + P  +  +   + A GG++ EA + GS   A  GTL+IL  G   +    Q  F  + + +F+ GDVG  +   LVL  + G+     +E + +A + G+    ++E +  ++M S +   K +     EFPP  ALKH  KDL LA+   E     LP        Y+ A   GYG  D S VY++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|123337705|sp|Q0QLF5.1|HMGD_EUBBA</Hit_id>
+  <Hit_def>RecName: Full=2-(hydroxymethyl)glutarate dehydrogenase [Eubacterium barkeri]</Hit_def>
+  <Hit_accession>Q0QLF5</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>5.75449e-34</Hsp_evalue>
+      <Hsp_query-from>1403</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>ETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGL----AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTK-KSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>EKSIKIGFIGLGAMGKPMAINLLKEGVTVYAFDLMEANVAAVVAQGAQACENNQKVAAASDIIFTSLPNAGIVETVMNGPGGVLSACKAGTVIVDMSSVSPSSTLKMAKVAAEKGIDYVDAPVSGGTKGAEAGTLTIMVGASEAVFEKIQPVLSVIGKDIYHVGDTGAGDAVKIVNNLLLGCNMASLAEALVLGVKCGLKPETMQEIIGKSSGRSYAMEAKMEKFIMSGDFAGGFAMDLQHKDLGLALEAGKEGNVPLPMTAMATQIFEGGRAMGLGREDMSAV</Hsp_hseq>
+      <Hsp_midline>E   +IG++GLG MG PM   LL  G+ V  ++      A + A+GA+   +  ++  A  +IF  + +   V  ++NG    L    AG +IV+MS++SP+  L +  +    G  + +APVSG    A  GTL I+ G SEAV   +Q + S++GK  +H GD G G   K+V N LLG    + +EA+++  + G+  +T+ E IG S+  S   + K +    + +F   FA+    KDL LA++  ++    LP        +      G G +D+S V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|82229918|sp|Q562D5.1|GLYR1_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>Q562D5</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>6.78703e-33</Hsp_evalue>
+      <Hsp_query-from>1367</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>529</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>SLTABLECODEDBYAELOCUSTAGNGOORIGINMSA-ETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>AITKRLKISEEDS------GSTSIQAADSTAINGNIIPTDKKIGFLGLGLMGSGIVSNLLKMGHTVTVWNRTAEKCDLFIQEGAHMGRTPAEVVSTCDITFACVADPKAAKDLVLGPSGVLQGIRPGKCYVDMSTVDPETVAELAQVIVSRGGRFLEAPVSGNQQLSNDGMLVILAAGDQGVYEDCSSCFLAMGKTSFFLGEVGNAARMMLILNMVQGSFMATIAEGMTLAQVTGQSQQTLLDILNQGQLASIFLDQKCQNILQGNFKPDFYLKYIQKDLRLAIALGDSVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>++T  L+  +ED        ST+        IN +   T  +IG++GLG MG  +V+ LL  G  V V+NR+ +K      +GA +  + AE+V  C + F  V+D  A  D++   +GV  G+  GK  V+MST+ P     +  ++ + GG+F EAPVSG+   + +G L+IL  G + V       F  +GK +F  G+VG  +   L+LN + G F    +E M +A+  G    T+++ +    + S     K        F P F LK+  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|82196478|sp|Q5RKN4.1|GLYR1_DANRE</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 [Danio rerio]</Hit_def>
+  <Hit_accession>Q5RKN4</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.96543e-32</Hsp_evalue>
+      <Hsp_query-from>1343</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>RATEDEHYDROGENASEANDTRANSLTABLECODEDBYAELOCUSTAGNGOORIGINMS-AETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHF-GDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>KIIEEDDEDAFKGGSSDKPASSMEPITKRLKIIEEDT------RSTSIQAADSTAINGSITPTDKRIGFLGLGLMGSGVVSNLLKMGHVVTVWNRTAEKCDLFIQEGARLGRTPAEVVSMCDITFSCVSDPKAARDLVLGPSGVLQGIRPGKCYVEMSTVDPETITELSQVITSRGGRFLEAPVSGSQQLSNDGMLVIVAAGDRSVYEDCSSCFQAMGKTSFFIAGEAGNAARMMLILNMVQGSFMATIAEGLTLAQATGQSQQTFLDILCQGQMASTFVDQKCQNILQGNFKPDYYLKHIQKDLRLAISMGDSVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>+  E++  D     +S+   +    +T  L+  +ED        ST+        IN S   T  +IG++GLG MG  +V+ LL  G  V V+NR+ +K      +GA++  + AE+V  C + F  VSD  A  D++   +GV  G+  GK  V MST+ P     +  ++ + GG+F EAPVSGS   + +G L+I+  G  +V       F  +GK +F   G+ G  +   L+LN + G F    +E + +A+  G    T ++ +    M S     K        F P + LKH  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|223590103|sp|Q29NG1.2|GLYR1_DROPS</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1 homolog; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 homolog [Drosophila pseudoobscura pseudoobscura]</Hit_def>
+  <Hit_accession>Q29NG1</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.53411e-32</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1684</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNG------VRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLK</Hsp_qseq>
+      <Hsp_hseq>FGFLGLGMMGSTIVKDLIYTGHKVVVWNRTIDKCQPFVEAGAEVKDTPMDVVEAADIIFCCVSDPKGAKDLVFGNCGVLQLKD-LRNKAYVEMSTVDPDTSLDIGEGIKQCNGRYLEAQIHGSRQEAADGMLIILAGGDRTVFEECHSCFKTIAKNTFFLGNVGNACKVNLILQTIQAVSLVGLAEALALADRFSISLNDIIDIFDLTSMKSPLLLAKGKEMAKGDFNPQQPLSHMQRDLRLVLNMAENLDQSMPVTSITNEVFKHTKRLGYSEHDSSAVFVR</Hsp_hseq>
+      <Hsp_midline> G++GLG MG  +V  L+  G +V V+NR+ DK  P    GA+V  +  ++V A  +IF  VSD     D++ G      ++D L  K  V MST+ P  +L +   ++   G++ EA + GS   A +G L+IL GG   V       F  + K TF  G+VG      L+L ++  +     +EA+ +A +F I  + I++    ++M SP+   K    A  +F P   L H  +DL L +   E    ++P        ++     GY E D S V+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81175322|sp|P0ABQ3.1|GARR_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxy-3-oxopropionate reductase; AltName: Full=Tartronate semialdehyde reductase; Short=TSAR [Escherichia coli CFT073] &gt;gi|81175323|sp|P0ABQ2.1|GARR_ECOLI RecName: Full=2-hydroxy-3-oxopropionate reductase; AltName: Full=Tartronate semialdehyde reductase; Short=TSAR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0ABQ3</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>6.66249e-32</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1687</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV---YLKLAE</Hsp_qseq>
+      <Hsp_hseq>KVGFIGLGIMGKPMSKNLLKAGYSLVVADRNPEAIADVIAAGAETASTAKAIAEQCDVIITMLPNSPHVKEVALGENGIIEGAKPGTVLIDMSSIAPLASREISEALKAKGIDMLDAPVSGGEPKAIDGTLSVMVGGDKAIFDKYYDLMKAMAGSVVHTGEIGAGNVTKLANQVIVALNIAAMSEALTLATKAGVNPDLVYQAIRGGLAGSTVLDAKAPMVMDRNFKPGFRIDLHIKDLANALDTSHGVGAQLPLTAAVMEMMQALRADGLGTADHSALACYYEKLAK</Hsp_hseq>
+      <Hsp_midline>++G++GLG MG PM   LL  G  + V +R+P+  A + A GA+   +   +   C VI  M+ +   V ++    NG+ +G   G ++++MS+I+P  +  +   ++A G    +APVSG    A +GTL ++ GG +A+ +    +   +     H G++G G+  KL    ++ +   A SEA+ +A + G++ D + +AI G    S +   K  +  +R F P F +    KDL  A+      G  LP    V    +     G G  D S +   Y KLA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|82233915|sp|Q5ZLS7.1|GLYR1_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZLS7</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.97235e-31</Hsp_evalue>
+      <Hsp_query-from>1347</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DEHYDROGENASEANDTRANSLTABLE-CODEDBYAELOCU-STAGNGOORIGINMSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>DPHFHHFLLSQTEKPAVCYQAITKKLKVCEEETGSTSIQAADSTAVNGSI-------TPTDKKIGFLGLGLMGSGIVSNLLKMGHTVTVWNRTAEKCDLFIQEGARLGRTPAEVVSTCDITFACVSDPKAAKDLVLGPSGVLQGIRPGKCYVDMSTVDADTVTELAQVIVSRGGRFLEAPVSGNQQLSNDGMLVILAAGDRGLYEDCSSCFQAMGKTSFFLGEVGNAAKMMLIVNMVQGSFMATIAEGLTLAQVTGQSQQTLLDILNQGQLASIFLDQKCQNILQGNFKPDFYLKYIQKDLRLAIALGDSVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>D H+     + +E       ++T  L+ C +E     +    STA NG           T  +IG++GLG MG  +V+ LL  G  V V+NR+ +K      +GA++  + AE+V  C + F  VSD  A  D++   +GV  G+  GK  V+MST+       +  ++ + GG+F EAPVSG+   + +G L+IL  G   +       F  +GK +F  G+VG  +   L++N + G F    +E + +A+  G    T+++ +    + S     K        F P F LK+  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|162416312|sp|Q7Q161.5|GLYR1_ANOGA</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1 homolog; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 homolog [Anopheles gambiae]</Hit_def>
+  <Hit_accession>Q7Q161</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.12384e-31</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1684</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNG----VRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLK</Hsp_qseq>
+      <Hsp_hseq>KFGFLGLGVMGCGIVKNLIKSGHSVVVWNRSAHKCRKFQEVGAEVADTPSDVVEMTDVTYSCVSDPQVAKDMVFGNCGVMSANLAGKGYVEMTGVDPETSNDINEAIISKGGRYLEAQIQGSKNQAEEGTLIILASGDRLLFEECQSCFEAISRNSFYLGDVGNATKMNLILQMISGITLAGVAEAMALADRAGLQQKDVLEVLELTNMSSEMMLQKGNAIIKGEFPTHHALKHMQKDLKLALSLADGLEQSLPITAASNEVYKHAKRLGYGSHDASAVYVR</Hsp_hseq>
+      <Hsp_midline>+ G++GLG MG  +V  L+  G  V V+NRS  K       GA+V  + +++V    V +  VSD     D++ G    +   LAGK  V M+ + P  +  +   + + GG++ EA + GS   A  GTL+IL  G   +    Q  F  + + +F+ GDVG  +   L+L  + GI     +EAM +A + G+    ++E +  + M S M   K +     EFP   ALKH  KDL LA+   +    +LP        Y+ A   GYG  D S VY++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|162416053|sp|A4FUF0.1|GLYR1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 [Bos taurus]</Hit_def>
+  <Hit_accession>A4FUF0</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.21077e-31</Hsp_evalue>
+      <Hsp_query-from>1347</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DEHYDROGENASEANDTRANSLTABLE-CODEDBYAELOCU-STAGNGOORIGINMSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>DPHFHHFLLSQTEKPAVCYQAITKKLKICEEETGSTSIQAADSTAVNGSV-------TPTDKKIGFLGLGLMGSGIVSNLLKMGHTVTVWNRTAEKCDLFIQEGARLGRTPAEVVSTCDITFACVSDPKAAKDLVLGPSGVLQGIRPGKCYVDMSTVDADTVTELAQVIVSRGGRFLEAPVSGNQQLSNDGMLVILAAGDRGLYEDCSSCFQAMGKTSFFLGEVGNAAKMMLIVNMVQGSFMATIAEGLTLAQVTGQSQQTLLDILNQGQLASIFLDQKCQNILQGNFKPDFYLKYIQKDLRLAIALGDAVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>D H+     + +E       ++T  L+ C +E     +    STA NG           T  +IG++GLG MG  +V+ LL  G  V V+NR+ +K      +GA++  + AE+V  C + F  VSD  A  D++   +GV  G+  GK  V+MST+       +  ++ + GG+F EAPVSG+   + +G L+IL  G   +       F  +GK +F  G+VG  +   L++N + G F    +E + +A+  G    T+++ +    + S     K        F P F LK+  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81910040|sp|Q5RKH0.1|GLYR1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5RKH0</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>3.50004e-31</Hsp_evalue>
+      <Hsp_query-from>1347</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DEHYDROGENASEANDTRANSLTABLE-CODEDBYAELOCU-STAGNGOORIGINMSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>DPHFHHFLLSQTEKPAVCYQAITKKLKICEEETGSTSIQAADSTAVNGSI-------TPTDKKIGFLGLGLMGSGIVSNLLKMGHTVTVWNRTAEKCDLFIQEGARLGRTPAEVVSTCDITFACVSDPKAAKDLVLGPSGVLQGIRPGKCYVDMSTVDADTVTELAQVIVSRGGRFLEAPVSGNQQLSNDGMLVILAAGDRGLYEDCSSCFQAMGKTSFFLGEVGNAAKMMLIVNMVQGSFMATIAEGLTLAQVTGQSQQTLLDILNQGQLASIFLDQKCQNILQGNFKPDFYLKYIQKDLRLAIALGDAVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>D H+     + +E       ++T  L+ C +E     +    STA NG           T  +IG++GLG MG  +V+ LL  G  V V+NR+ +K      +GA++  + AE+V  C + F  VSD  A  D++   +GV  G+  GK  V+MST+       +  ++ + GG+F EAPVSG+   + +G L+IL  G   +       F  +GK +F  G+VG  +   L++N + G F    +E + +A+  G    T+++ +    + S     K        F P F LK+  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|269849681|sp|Q49A26.3|GLYR1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=3-hydroxyisobutyrate dehydrogenase-like protein; AltName: Full=Cytokine-like nuclear factor N-PAC; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60; AltName: Full=Nuclear protein of 60 kDa [Homo sapiens]</Hit_def>
+  <Hit_accession>Q49A26</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>5.81455e-31</Hsp_evalue>
+      <Hsp_query-from>1347</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DEHYDROGENASEANDTRANSLTABLE-CODEDBYAELOCU-STAGNGOORIGINMSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>DPHFHHFLLSQTEKPAVCYQAITKKLKICEEETGSTSIQAADSTAVNGSI-------TPTDKKIGFLGLGLMGSGIVSNLLKMGHTVTVWNRTAEKCDLFIQEGARLGRTPAEVVSTCDITFACVSDPKAAKDLVLGPSGVLQGIRPGKCYVDMSTVDADTVTELAQVIVSRGGRFLEAPVSGNQQLSNDGMLVILAAGDRGLYEDCSSCFQAMGKTSFFLGEVGNAAKMMLIVNMVQGSFMATIAEGLTLAHVTGQSQQTLLDILNQGQLASIFLDQKCQNILQGNFKPDFYLKYIQKDLRLAIALGDAVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>D H+     + +E       ++T  L+ C +E     +    STA NG           T  +IG++GLG MG  +V+ LL  G  V V+NR+ +K      +GA++  + AE+V  C + F  VSD  A  D++   +GV  G+  GK  V+MST+       +  ++ + GG+F EAPVSG+   + +G L+IL  G   +       F  +GK +F  G+VG  +   L++N + G F    +E + +A   G    T+++ +    + S     K        F P F LK+  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|12585220|sp|Q9V8M5.2|3HIDH_DROME</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9V8M5</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>6.41509e-31</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVR-DGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>IGFVGLGNMGANMASNLIKAGHKLHVFDISKPACDGLAAKGATVYAKTSELAKNSDFVITMLPNNAIVDASYDEMTADGVNKDTIFIDSSTISPDLVKSLQKKISAKGARFIDAPVSGGVPGAEQATLTFMVGGTEAEYNAVKAVLECMGKKITHCGVYGMGQAAKLCNNMMLAISMIGVSEAMNLAVRQGLDANVFAEIINSSTGRCWASEIYNPVPGVCPSAPANRDYAGGFSSALITKDLGLASGVANASNSPIPLGSLAHKVYQSLCDKGLGNKDFSVVY</Hsp_hseq>
+      <Hsp_midline>IG+VGLG MG  M + L+  G ++ V++ S      ++AKGA VY  T+EL +    +  M+ + A V    + +  DG+    I ++ STISP    +++  + A G +F +APVSG V  A   TL  + GG+EA  N ++ +   +GKK  H G  G G  AKL  N +L I     SEAM +A + G+D +   E I  S        + +P+     S  ANR++   F+    +KDL LA      + + +P        Y+   + G G +D S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2494062|sp|P77161.1|GLXR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=2-hydroxy-3-oxopropionate reductase; AltName: Full=Tartronate semialdehyde reductase; Short=TSAR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77161</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>7.42621e-31</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNG----VRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>KLGFIGLGIMGTPMAINLARAGHQLHVTTIGPVADELLSL-GAVSVETARQVTEASDIIFIMVPDTPQVEEVLFGENGCTKASLKGKTIVDMSSISPIETKRFARQVNELGGDYLDAPVSGGEIGAREGTLSIMVGGDEAVFERVKPLFELLGKNITLVGGNGDGQTCKVANQIIVALNIEAVSEALLFASKAGADPVRVRQALMGGFASSRILEVHGERMIKRTFNPGFKIALHQKDLNLALQSAKALALNLPNTATCQELFNTCAANGGSQLDHSAL</Hsp_hseq>
+      <Hsp_midline>++G++GLG MG PM   L   G ++ V    P     +S  GA    +  ++  A  +IF+MV D   V ++L G     +  L GK IV+MS+ISP E       V   GG + +APVSG    A  GTL I+ GG EAV   ++ +F L+GK     G  G G   K+    ++ +  EA SEA+L A + G D   + +A+ G    S + +        R F P F +    KDLNLA++  +     LP   T    +      G  + D S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81902610|sp|Q922P9.1|GLYR1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 [Mus musculus]</Hit_def>
+  <Hit_accession>Q922P9</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>2.85998e-30</Hsp_evalue>
+      <Hsp_query-from>1347</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>541</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DEHYDROGENASEANDTRANSLTABLE-CODEDBYAELOCU-STAGNGOORIGINMSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>DPHFHHFLLSQTEKPAVCYQAITKKLKICEEETGSTSIQAADSTAVNGSI-------TPTDKKIGFLGLGLMGSGIVSNLLKMGHTVTVWNRTAEK------EGARLGRTPAEVVSTCDITFACVSDPKAAKDLVLGPSGVLQGIRPGKCYVDMSTVDADTVTELAQVIVSRGGRFLEAPVSGNQQLSNDGMLVILAAGDRGLYEDCSSCFQAMGKTSFFLGEVGNAAKMMLIVNMVQGSFMATIAEGLTLAQVTGQSQQTLLDILNQGQLASIFLDQKCQNILQGNFKPDFYLKYIQKDLRLAIALGDAVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>D H+     + +E       ++T  L+ C +E     +    STA NG           T  +IG++GLG MG  +V+ LL  G  V V+NR+ +K      +GA++  + AE+V  C + F  VSD  A  D++   +GV  G+  GK  V+MST+       +  ++ + GG+F EAPVSG+   + +G L+IL  G   +       F  +GK +F  G+VG  +   L++N + G F    +E + +A+  G    T+++ +    + S     K        F P F LK+  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|162416283|sp|Q5R7T2.2|GLYR1_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Putative oxidoreductase GLYR1; AltName: Full=Glyoxylate reductase 1 homolog; AltName: Full=Nuclear protein NP60 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R7T2</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>8.54129e-30</Hsp_evalue>
+      <Hsp_query-from>1347</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DEHYDROGENASEANDTRANSLTABLE-CODEDBYAELOCU-STAGNGOORIGINMSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGLAG----KIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>DPHFHHFLLSQTEKPAVCYQAITKKLKICEEETGSTSIQAADSTAVNGSI-------TPTDKKIGFLGLGLMGSGIVSNLLKMGHTVTVWDRTAEKCDLFIQEGARLGRTPAEVVSTCDITFACVSDPKAAKDLVLGPSGVLQGIRPRKCYVDMSTVDADTVTELAQVIVSRGGRFLEAPVSGNQQLSNDGMLVILAAGDRGLYEDCSSCFQAMGKTSFFLGEVGNAAKMMLIVNMVQGSFMATIAEGLTLAQVTGQSQQTLLDILNQGQLASIFLDQKCQNILQGNFKPDFYLKYIQKDLRLAIALGDAVNHPTPMAAAANEVYKRAKALDQSDNDMSAVY</Hsp_hseq>
+      <Hsp_midline>D H+     + +E       ++T  L+ C +E     +    STA NG           T  +IG++GLG MG  +V+ LL  G  V V++R+ +K      +GA++  + AE+V  C + F  VSD  A  D++ G    L G    K  V+MST+       +  ++ + GG+F EAPVSG+   + +G L+IL  G   +       F  +GK +F  G+VG  +   L++N + G F    +E + +A+  G    T+++ +    + S     K        F P F LK+  KDL LA+   +   +  P        Y++A      + D+S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|229890263|sp|O34969.2|YFJR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YfjR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34969</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>9.88878e-27</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1677</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGK-GSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPA-FALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQD</Hsp_qseq>
+      <Hsp_hseq>KIAVIGLGNMGQPIARNVLQAGYELTVYNRTKQKTEDLVTEGAQAADTPRLAAKSADIVITMLADDDSVSTVTFGEDGLLEGLAENGIHISMSTISVEFSEKLAAAHAEKGQFFLAAPVLGRPDAAAKAALRIITAGPAEAKQAAKPLLDSLSQQIFDVGEESKTANAAKISINFLLVSMLEALSESFLMMEKYGLEQKQFLE-IASALFGSPVYQNYGTIMAEQKFEPAGFKMSLGLKDTNLALAAAKRVSANLPLAELAKSHFESGIEKGFGDLD</Hsp_hseq>
+      <Hsp_midline>+I  +GLG MG P+   +L  G E+ VYNR+  KT  +  +GA+   +     ++  ++  M++D  +V  +    +G+ +GLA   I ++MSTIS   +  + A     G  F  APV G    A    L I+  G        + +   + ++ F  G+  K  + AK+ +N LL    EA SE+ LM  ++G++    +E I  +   SP++Q   ++ A ++F PA F +    KD NLA+   ++    LP  E   + +   +E G+G+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|75266757|sp|Q9SZE1.1|3HID1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase-like 1, mitochondrial; Short=HIBADH-like; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SZE1</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>2.37174e-26</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1685</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>TQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL----NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKL-----VLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLKL</Hsp_qseq>
+      <Hsp_hseq>TKIGWIGTGVMGRSMCGHLIKAGYTVTVFNRTISKAQTLIDMGANVADSPNSVAEQSDVVFTIVGYPSDVRHVLLDPKSGALSGLRQGGVLVDMTTSEPSLAEEIAKAASFKNCFSIDAPVSGGDLGAKNGKLSIFAGGDETTVKRLDPLFSLMGKVNF-MGTSGKGQFAKLANQITIASTMLGLV-----EGLIYAHKAGLDVKKFLEAISTGAAGSKSIDLYGDRILKRDFDPGFYVNHFVKDLGICLNECQRMGLALPGLALAQQLYLSLKAHGEGDLGTQALLLAL</Hsp_hseq>
+      <Hsp_midline>T+IGW+G G MG  M   L+  G  V V+NR+  K   +   GA V  S   +     V+F +V   + V  +L    +G   GL  G ++V+M+T  P+    +            +APVSG    A NG L I  GG E  +  L  +FSL+GK  F  G  GKG  AKL     + +++LG+      E ++ A + G+D    +EAI   A  S            R+F P F + H  KDL + + E ++ G  LP +      Y      G G+     + L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|3183454|sp|O34948.1|YKWC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YkwC [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34948</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.11922e-25</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMV---SDYAAVCDILNGV-RDGLAGKIIVNMSTISPTENLAVKALVEAAGGQ--FA-EAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLV--LNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>IGFIGLGVMGKSMASHILNDGHPVLVYTRTKEKAESILQKGAIWKDTVKDLSKEADVIITMVGYPSDVEEVYFGSNGIIENAKEGAYLIDMTTSKPS---LAKKIAEAAKEKALFALDAPVSGGDIGAQNGTLAIMVGGEKEAFEACMPIFSLMGENIQYQGPAGSGQHTKMCNQIAIAAGMIGVA--EAMAYAQKSGLEPENVLKSITTGAAGSWSLSNLAPRMLQGNFEPGFYVKHFIKDMGIALEEAELMGEEMPGLSLAKSLYDKLAAQGEENSGTQSIY</Hsp_hseq>
+      <Hsp_midline>IG++GLG MG  M + +L+ G  V VY R+ +K   I  KGA    +  +L +   VI  MV   SD   V    NG+  +   G  +++M+T  P+     K + EAA  +  FA +APVSG    A NGTL I+ GG +        IFSL+G+   + G  G G   K+   +    G+ G A  EAM  A++ G++ + ++++I   A  S              F P F +KH  KD+ +A++E E  G  +P +    + Y K    G        +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|71164845|sp|P0A9V8.1|SQUU_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=3-sulfolactaldehyde reductase; Short=SLA reductase [Escherichia coli K-12] &gt;gi|71164846|sp|P0A9V9.1|SQUU_SHIFL RecName: Full=3-sulfolactaldehyde reductase; Short=SLA reductase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0A9V8</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.98918e-24</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANR----EFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>IAFIGLGQMGSPMASNLLQQGHQLRVFDVNAEAVRHLVDKGATPAANPAQAAKDAEFIITMLPNGDLVRNVLFGENGVCEGLSTDALVIDMSTIHPLQTDKLIADMQAKGFSMMDVPVGRTSANAITGTLLLLAGGTAEQVERATPILMAMGSELINAGGPGMGIRVKLINNYMSIALNALSAEAAVLCEALNLPFDVAVKVMSGTAAGKGHFTTS---WPNKVLSGDLSPAFMIDLAHKDLGIALDVANQLHVPMPLGAASREVYSQARAAGRGRQDWSAI</Hsp_hseq>
+      <Hsp_midline>I ++GLGQMG PM + LL  G ++ V++ + +    +  KGA    + A+  +    I  M+ +   V ++L   NGV +GL+   ++++MSTI P +   + A ++A G    + PV  +   A  GTLL+L GG+   +     I   +G +  + G  G G   KL+ N +        +EA ++     +  D  V+ + G+A     F T    W N+    +  PAF +  A KDL +A+    Q    +P        Y +A  AG G QD S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|32363159|sp|Q99L13.1|3HIDH_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q99L13</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>3.81671e-24</Hsp_evalue>
+      <Hsp_query-from>1401</Hsp_query-from>
+      <Hsp_query-to>1687</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>SAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGLA----GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLKLAE</Hsp_qseq>
+      <Hsp_hseq>SMASKTPVGFIGLGNMGNPMAKNLMKHGYPLILYDVFPDVCKEFKEAGEQVASSPAEVAEKADRIITMLPSSMNAVEVYSGANGILKKVKKGSLLIDSSTIDPSVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVEDEFAAAQELLECMGSNVVYCGAVGTGQSAKICNNMLLAISMIGTAEAMNLGIRSGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMHGVPSSNNYQGGFGTTLMAKDLGLAQDSATSTKTPILLGSLAHQIYRMMCSKGYSKKDFSSVFQYLRE</Hsp_hseq>
+      <Hsp_midline>S  + T +G++GLG MG PM   L+  G  + +Y+  PD        G +V  S AE+      I  M+       ++ +G    L     G ++++ STI P+ +  +   VE  G  F +APVSG VG A +G L  + GG E      Q++   +G    + G VG G  AK+  N LL I     +EAM +  + G+D   + + +  S+         +P+      + ++  +   F     +KDL LA          +         YR     GY ++D S V+  L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|12643395|sp|P31937.2|3HIDH_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P31937</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>6.99909e-24</Hsp_evalue>
+      <Hsp_query-from>1401</Hsp_query-from>
+      <Hsp_query-to>1687</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>SAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLM-------VSDYAAVCDILNGVRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLKLAE</Hsp_qseq>
+      <Hsp_hseq>SVASKTPVGFIGLGNMGNPMAKNLMKHGYPLIIYDVFPDACKEFQDAGEQVVSSPADVAEKADRIITMLPTSINAIEAYSGANGILKKVKKG---SLLIDSSTIDPAVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVEDEFAAAQELLGCMGSNVVYCGAVGTGQAAKICNNMLLAISMIGTAEAMNLGIRLGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMDGVPSANNYQGGFGTTLMAKDLGLAQDSATSTKSPILLGSLAHQIYRMMCAKGYSKKDFSSVFQFLRE</Hsp_hseq>
+      <Hsp_midline>S  + T +G++GLG MG PM   L+  G  + +Y+  PD        G +V  S A++      I  M       +  Y+    IL  V+ G    ++++ STI P  +  +   VE  G  F +APVSG VG A +G L  + GG E      Q++   +G    + G VG G  AK+  N LL I     +EAM +  + G+D   + + +  S+         +P+      + +   +   F     +KDL LA        + +         YR     GY ++D S V+  L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|75054743|sp|Q5R5E7.1|3HIDH_PONAB</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R5E7</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>7.58329e-24</Hsp_evalue>
+      <Hsp_query-from>1401</Hsp_query-from>
+      <Hsp_query-to>1687</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>SAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLM-------VSDYAAVCDILNGVRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLKLAE</Hsp_qseq>
+      <Hsp_hseq>SVASKTPVGFIGLGNMGNPMAKNLMKHGYPLIIYDVFPDACKEFQDAGEQVVSSPADVAEKADRIITMLPTSINAIEAYSGANGILKKVKKG---SLLIDSSTIDPAVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVEDEFAAAQELLGCMGSNVVYCGAVGTGQAAKICNNMLLAISMIGTAEAMNLGIRLGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMDGVPSANNYQGGFGATLMAKDLGLAQDSATSTKSPILLGSLAHQIYRMMCAKGYSKKDFSSVFQFLRE</Hsp_hseq>
+      <Hsp_midline>S  + T +G++GLG MG PM   L+  G  + +Y+  PD        G +V  S A++      I  M       +  Y+    IL  V+ G    ++++ STI P  +  +   VE  G  F +APVSG VG A +G L  + GG E      Q++   +G    + G VG G  AK+  N LL I     +EAM +  + G+D   + + +  S+         +P+      + +   +   F     +KDL LA        + +         YR     GY ++D S V+  L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|12585554|sp|P29266.3|3HIDH_RAT</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P29266</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>8.9841e-24</Hsp_evalue>
+      <Hsp_query-from>1401</Hsp_query-from>
+      <Hsp_query-to>1687</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>SAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGLA----GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLKLAE</Hsp_qseq>
+      <Hsp_hseq>SMASKTPVGFIGLGNMGNPMAKNLIKHGYPLILYDVFPDVCKEFKEAGEQVASSPADVAEKADRIITMLPSSMNSIEVYSGANGILKKVKKGSLLIDSSTIDPSVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVENEFAAAQELLGCMGSNVLYCGAVGSGQSAKICNNMLLAISMIGTAEAMNLGIRSGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMDGVPSSNNYQGGFGTTLMAKDLGLAQDSATSTKTPILLGSVAHQIYRMMCSKGYSKKDFSSVFQYLRE</Hsp_hseq>
+      <Hsp_midline>S  + T +G++GLG MG PM   L+  G  + +Y+  PD        G +V  S A++      I  M+       ++ +G    L     G ++++ STI P+ +  +   VE  G  F +APVSG VG A +G L  + GG E      Q++   +G    + G VG G  AK+  N LL I     +EAM +  + G+D   + + +  S+         +P+      + ++  +   F     +KDL LA          +         YR     GY ++D S V+  L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|30316393|sp|Q9SUC0.3|3HIDH_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SUC0</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>2.83209e-23</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGLAGK------IIVNMSTISPTENLAVKALVEAAGGQ----------FAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>VGFIGLGNMGFRMVNNLIRAGYKVTVHDINRDVMKMFTEMGVSSRETPYEVAQDSEVVITMLPSSSHVMDVYTGTNGLLLGENDIRPALFIDSSTIDPQTTRKISLAVSNCNLKEKRDNWEKPVMLDAPVSGGVLAAEAGTLTFMVGGPEDAYLAARPILQSMGRTSIYCGGSGNGSAAKICNNLAMAVSMLGTSEALALGQSLGISASTLTEVLNTSSGRCWSSDAYNPVPGVMKGVPSSRDYNGGFASKLMAKDLNLAAASAEEVGHKSPLISKAQEIYKKMCEEGHETKDFSCVF</Hsp_hseq>
+      <Hsp_midline>+G++GLG MG  MV  L+  G +V V++ + D     +  G     +  E+ +   V+  M+   + V D+  G    L G+      + ++ STI P     +   V     +            +APVSG V  A  GTL  + GG E      + I   +G+ + + G  G GS AK+  N  + +     SEA+ + +  GI   T+ E +  S+         +P+    K + ++R++   FA K  +KDLNLA    E+ G+  P +      Y+K  E G+  +D S V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|122135732|sp|Q2HJD7.1|3HIDH_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q2HJD7</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>4.85487e-23</Hsp_evalue>
+      <Hsp_query-from>1401</Hsp_query-from>
+      <Hsp_query-to>1687</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>SAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLM-------VSDYAAVCDILNGVRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLKLAE</Hsp_qseq>
+      <Hsp_hseq>SMASKTPVGFIGVGNMGNPMAKNLMKHGYPLIIYDVFPDACKEFLDAGEQVVSSPADVAEKADRIITMLPTSINAIEAYSGANGILKKVKKG---SLLIDSSTIDPMVSKELAKEVEKMGAVFMDAPVSGGVGAARSGNLTFMVGGVEEEFAAAQELLGCMGSNVVYCGAVGTGQAAKICNNLLLAISMIGTAEAMNLGIRLGLDPKLLAKILNMSSGRCWSSDTYNPVPGVMDGVPSANNYQGGFGTTLMAKDLGLAQDSATSTKSPILLGSQAHQIYRMMCAKGYSKKDFSSVFQFLRE</Hsp_hseq>
+      <Hsp_midline>S  + T +G++G+G MG PM   L+  G  + +Y+  PD        G +V  S A++      I  M       +  Y+    IL  V+ G    ++++ STI P  +  +   VE  G  F +APVSG VG A +G L  + GG E      Q++   +G    + G VG G  AK+  N LL I     +EAM +  + G+D   + + +  S+         +P+      + +   +   F     +KDL LA        + +         YR     GY ++D S V+  L E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|17865685|sp|Q9L7S0.1|SQUU_SALTY</Hit_id>
+  <Hit_def>RecName: Full=3-sulfolactaldehyde reductase; Short=SLA reductase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q9L7S0</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.46629e-23</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLAGK-IIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANR----EFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>IAFIGLGQMGSPMASNLLKQGHQLSVFDVNPDAVQRLVDKGAQPASSPAQATIGAEFVITMLPNGDLVRSVLFGEQGVCETLSREALVIDMSTIHPLQTDNLIADMQSKGFSMMDVPIGRTSDNAITGTLLLLAGGTAEQVERATPVLMAMGNELVNTGGPGMGIRVKLINNYMSIALNALSAEAAVLCEALGLSFDVALKVMSGTAAGKGHFTTT---WPNKVMKGDLSPAFMIDLAHKDLGIALDVANQLHVPMPLGAASREVYNLARAAGRGREDWSAI</Hsp_hseq>
+      <Hsp_midline>I ++GLGQMG PM + LL  G ++ V++ +PD    +  KGA+   S A+       +  M+ +   V  +L    GV + L+ + ++++MSTI P +   + A +++ G    + P+  +   A  GTLL+L GG+   +     +   +G +  + G  G G   KL+ N +        +EA ++    G+  D  ++ + G+A     F T    W N+    +  PAF +  A KDL +A+    Q    +P        Y  A  AG G +D S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|74996477|sp|Q54CX6.1|3HIDH_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH; Flags: Precursor [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54CX6</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.14216e-22</Hsp_evalue>
+      <Hsp_query-from>1400</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>MSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>MSTSSSKTVGFIGLGNMGGHQAINLIKKGHNLIVFDMSKDNMNRLKEKGAKIANSPAEVAKEADVIVTMLPASAHVKNVYCGENGIFQTVRPGTLLLDSSTIDPATAREVASIAKKHQSTMLDCPVSGGTGGAEAGTLTFMVGGSEQDFNTAKTYLECMGKNIVHCGDVGTGQVAKVCNNLVLGISMIAVSEAMNLGVKQGMDPKKLAGIFNTSSARCWTSELYNPCPGVIETSPASRGYTGGFGSALMTKDLGLAVDSAKSIGEPLLLGNSAHQLYTLLVAKGDGQKDFSVVY</Hsp_hseq>
+      <Hsp_midline>MS  +   +G++GLG MG      L+  G  + V++ S D    +  KGAK+  S AE+ +   VI  M+   A V ++    NG+   +  G ++++ STI P     V ++ +       + PVSG  G A  GTL  + GGSE   N  +     +GK   H GDVG G  AK+  N +LGI   A SEAM +  + G+D   +      S+       + +P     ++  A+R +   F     +KDL LAV   +  G  L    +    Y   V  G G++D S VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|119370547|sp|O33730.2|Y1503_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase Sfri_1503 [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>O33730</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>5.30769e-22</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1685</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDK-TAPISAKGAKVYGSTAELVRACPVIFLMV---SDYAAVCDILNGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIG-GSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQ-DVSGVYLKL</Hsp_qseq>
+      <Hsp_hseq>KVAFIGLGVMGFPMAGHLVKQGHDVTVYNRTGAKATQWVEQYGGKKADTPKDAAQGQDIVFTCVGNDDDLRQVVLGEHGIVHGMHAGAILVDHTTASADVAREIAAYIEPLNIAFLDAPVSGGQAGAENGALTVMMGGDQAHFDTVKPVISAYSRCAELLGPVGAGQLTKMVNQICIAGVVQGLAEGLHFAKSAGLDGLKVIEVISKGAAQSWQMENRYKTMWQG-QYDFGFAIDWMRKDLGIALDEARRNGSHLPVAALVDQFYSE-VQAMKGNRWDTSSLLARL</Hsp_hseq>
+      <Hsp_midline>++ ++GLG MG PM   L+  G +V VYNR+  K T  +   G K   +  +  +   ++F  V    D   V    +G+  G+ AG I+V+ +T S      + A +E     F +APVSG    A NG L ++ GG +A  + ++ + S   +     G VG G   K+V    +    +  +E +  A+  G+D   ++E I  G+A    M    K++W   ++   FA+    KDL +A+ E  + G+ LP    V   Y + V+A  G + D S +  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|127211|sp|P28811.1|MMSB_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=3-hydroxyisobutyrate dehydrogenase; Short=HIBADH [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P28811</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.48968e-20</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>TQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGL----AGK-IIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELE--QAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>TDIAFLGLGNMGGPMAANLLKAGHRVNVFDLQPKAVLGLVEQGAQGADSALQCCEGAEVVISMLPAGQHVESLYLG-DDGLLARVAGKPLLIDCSTIAPETARKVAEAAAAKGLTLLDAPVSGGVGGARAGTLSFIVGGPAEGFARARPVLENMGRNIFHAGDHGAGQVAKICNNMLLGILMAGTAEALALGVKNGLDPAVLSEVMKQSSGGNWALNLYNPWPGVMPQAPASNGYAGGFQVRLMNKDLGLALANAQAVQASTPLGALARNLFSLHAQADAEHEGLDFSSI</Hsp_hseq>
+      <Hsp_midline>T I ++GLG MG PM   LL  G  V V++  P     +  +GA+   S  +      V+  M+     V  +  G  DGL    AGK ++++ STI+P     V     A G    +APVSG VG A  GTL  + GG        + +   +G+  FH GD G G  AK+  N LLGI     +EA+ +  + G+D   + E +  S+       + +P         A+  +   F ++  +KDL LA+   +  QA   L A+     S     +A +   D S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|3183220|sp|Q55702.1|Y229_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase slr0229 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55702</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.70916e-20</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1684</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>TQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAK--GAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGLA-----GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGVYLK</Hsp_qseq>
+      <Hsp_hseq>SKIAVFGLGVMGSPMAQNLVKNGYQTVGYNRTLERPSVQEAAKAGVKVVTSIAVAAANADIILTCVGDEKDVQQLILG-SGGIAEYAKPQALIIDCSTIGKTAAYELATNLKLQGLRFLDAPVTGGDVGAINGTLTIMVGGDISDFEEALPVLKSIGEKIVHCGPSGSGQAVKLCNQVLCGIHAIAAAEAIQLSEQLGIAPELVIDTCGSGAAGSWALTNLAPKMSEADFAPGFMVKHLLKDLRL-VREAAENG-PLPGV-TLAESLFTSVQLLGGEDQGSQAIIR</Hsp_hseq>
+      <Hsp_midline>++I   GLG MG PM   L+  G +   YNR+ ++ +   A   G KV  S A       +I   V D   V  ++ G   G+A       +I++ STI  T    +   ++  G +F +APV+G    A NGTL I+ GG  +       +   +G+K  H G  G G   KL    L GI   A +EA+ ++ Q GI  + +++  G  A  S          +  +F P F +KH  KDL L V+E  + G  LP V T+A S   +V+   GE   S   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|54037788|sp|P63936.1|MMSB_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase; Short=HIBADH [Mycobacterium bovis AF2122/97] &gt;gi|614093398|sp|P9WNY4.1|MMSB_MYCTO RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase; Short=HIBADH [Mycobacterium tuberculosis CDC1551] &gt;gi|614093403|sp|P9WNY5.1|MMSB_MYCTU RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase; Short=HIBADH [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P63936</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>6.19277e-20</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>TQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAV----CDILNGVRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSA-------MDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>TTIAFLGLGNMGAPMSANLVGAGHVVRGFDPAPTAASGAAAHGVAVFRSAPEAVAEADVVITMLPTGEVVRRCYTDVLAAAR---PATLFIDSSTISVTDAREVHALAESHGMLQLDAPVSGGVKGAAAATLAFMVGGDESTLRRARPVLEPMAGKIIHCGAAGAGQAAKVCNNMVLAVQQIAIAEAFVLAEKLGLSAQSLFDVITGATGNCWAVHTNCPVPGPVPTSPANNDFKPGFSTALMNKDLGLAMDAVAATGATAPLGSHAADIYAK-FAADHADLDFSAV</Hsp_hseq>
+      <Hsp_midline>T I ++GLG MG PM   L+  G  V  ++ +P   +  +A G  V+ S  E V    V+  M+     V     D+L   R      + ++ STIS T+   V AL E+ G    +APVSG V  A   TL  + GG E+ L   + +   +  K  H G  G G  AK+  N +L +   A +EA ++A + G+   ++ + I G+         + P+     +  AN +F P F+    +KDL LA+  +   G T P     A  Y K   A + + D S V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81622542|sp|Q9I5I6.1|SERDH_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=NAD-dependent L-serine dehydrogenase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I5I6</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>2.09209e-16</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGL-----AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAI-----GGSAMD--SPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>QIAFIGLGHMGAPMATNLLKAGYLLNVFDLVQSAVDGLVAAGASAARSARDAVQGADVVISMLPASQHV-EGLYLDDDGLLAHIAPGTLVLECSTIAPTSARKIHAAARERGLAMLDAPVSGGTAGAAAGTLTFMVGGDAEALEKARPLFEAMGRNIFHAGPDGAGQVAKVCNNQLLAVLMIGTAEAMALGVANGLEAKVLAEIMRRSSGGNWALEVYNPWPGVMENAPASRDYSGGFMAQLMAKDLGLAQEAAQASASSTPMGSLALSLYRLLLKQGYAERDFSVV</Hsp_hseq>
+      <Hsp_midline>QI ++GLG MG PM T LL  G  + V++        + A GA    S  + V+   V+  M+     V + L    DGL      G +++  STI+PT    + A     G    +APVSG    A  GTL  + GG    L   + +F  +G+  FH G  G G  AK+  N LL +     +EAM +    G++   + E +     G  A++  +P     ++  A+R++   F  +  +KDL LA +  + + ++ P      + YR  ++ GY E+D S V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|3183445|sp|Q46888.1|YGBJ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase YgbJ [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>Q46888</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>6.48808e-15</Hsp_evalue>
+      <Hsp_query-from>1400</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGA-KVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGLA-----GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFG-DVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>MKTGSEFHVGIVGLGSMGMGAALSYVRAGLSTWGADLNSNACATLKEAGACGVSDNAATFAEKLDALLVLVVNAAQVKQVLFG-ETGVAQHLKPGTAVMVSSTIASADAQEIATALAGFDLEMLDAPVSGGAVKAANGEMTVMASGSDIAFERLAPVLEAVAGKVYRIGAEPGLGSTVKIIHQLLAGVHIAAGAEAMALAARAGIPLDVMYDVVTNAAGNSWMFENRMRHVVDGDYTPHSAVDIFVKDLGLVADTAKALHFPLPLASTALNMFTSASNAGYGKEDDSAV</Hsp_hseq>
+      <Hsp_midline>M   +   +G VGLG MG+      +  G+     + + +  A +   GA  V  + A        + ++V + A V  +L G   G+A     G  ++  STI+  +   +   +     +  +APVSG    A NG + ++  GS+     L  +   V  K +  G + G GS  K++   L G+   A +EAM +A + GI  D + + +  +A +S MF+ +     + ++ P  A+    KDL L     +     LP   T    +  A  AGYG++D S V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|12585222|sp|Q9XTI0.1|3HIDH_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase, mitochondrial; Short=HIBADH [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q9XTI0</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.12989e-14</Hsp_evalue>
+      <Hsp_query-from>1409</Hsp_query-from>
+      <Hsp_query-to>1682</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>GWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGS-------TAELVRACPVIFLMVSDYAAVCDILNGVRDGLAGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFG-GSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDT---IVEAIGGSAMDSPMFQTKKSLWAN----REFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYR-KAVEAGYGEQDVSGVY</Hsp_qseq>
+      <Hsp_hseq>GFIGLGNMGGHMARNLIKNGKKLIVYDVNKAVVQEFKAEGCEVAAHPADIAAASKEIITVLPSSPHVKAVYQGEAGIFKTIQ---PGTLCMDSSTIDQIVSLEVAQAAALLKAEYIDAPISGGVTGAQQATLTFMVGAGNDATFKRAEAVLSLMGKNIVNLGAVGNGTAAKICNNMLLGIQMVAVAETMNLGISMGLDAKALAGIVNTSSGRCWSSDTYNPVPGVIENIPSCRGYAGGFGTTLMAKDLSLAQNASTNTQAPTPMGSLAHQIYRILARDPQYQAKDFGVVY</Hsp_hseq>
+      <Hsp_midline>G++GLG MG  M   L+  G ++ VY+ +        A+G +V          + E++   P    + + Y     I   ++    G + ++ STI    +L V         ++ +AP+SG V  A   TL  + G G++A     + + SL+GK   + G VG G+ AK+  N LLGI   A +E M +    G+D      IV    G    S  +     +  N    R +   F     +KDL+LA           P        YR  A +  Y  +D   VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|75164836|sp|Q949M8.1|3HID3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase-like 3, mitochondrial; Short=HIBADH-like [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q949M8</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.84847e-13</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1643</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>LGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFG-EAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNL</Hsp_qseq>
+      <Hsp_hseq>IGIMGSAMVSHIIAAGYSVTVYARDLRKTKDLQTKGARIANSPKELAEMSDVVFTIVGNFNDVRSLLLGDDGVLSGLTPGGVTVDMTSSKPGLAREIHAEARRRNCWAVDAPVSGGDAGAREGTLGIFAGGDSEIVEWLSPVMKNIGTVTY-MGEAGSGQSCK-IGNQIAGASNLVGLAEGIVFAEKAGLDTVKWLEAVKDGAAGSAVMRLFGEMIVKRDYRATGFAEYMVKDLGM</Hsp_hseq>
+      <Hsp_midline>+G MG  MV+ ++  G  V VY R   KT  +  KGA++  S  EL     V+F +V ++  V  +L   +GV  GL  G + V+M++  P     + A          +APVSG    A  GTL I  GG   ++  L  +   +G  T+  G+ G G   K + N + G       +E ++ A + G+DT   +EA+   A  S + +    +   R++      ++  KDL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|614102295|sp|P9WNY2.1|Y770_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase MT0794 [Mycobacterium tuberculosis CDC1551] &gt;gi|614102299|sp|P9WNY3.1|Y770_MYCTU RecName: Full=Uncharacterized oxidoreductase Rv0770 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WNY2</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.91108e-11</Hsp_evalue>
+      <Hsp_query-from>1400</Hsp_query-from>
+      <Hsp_query-to>1577</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MSAETYT-QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDILNGVRDGLA-----GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSL</Hsp_qseq>
+      <Hsp_hseq>MTAHPETPRLGYIGLGNQGAPMAKRLLDWPGGLTVFDVRVEAMAPFVEGGATAAASVSDVAEA-DIISITVFDDAQVSSVITA-DNGLATHAKPGTIVAIHSTIADTTAVDLAEKLKPQGIHIVDAPVSGGAAAAAKGELAVMVGADDEAFQRIKEPFSRWASLLIHAGEPGAGTRMKLARNML</Hsp_hseq>
+      <Hsp_midline>M+A   T ++G++GLG  G PM  RLLD    + V++   +  AP    GA    S +++  A  +I + V D A V  ++    +GLA     G I+   STI+ T  + +   ++  G    +APVSG    A  G L ++ G  +     +++ FS       H G+ G G+  KL  N L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1723179|sp|P44979.1|Y1010_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized oxidoreductase HI_1010 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44979</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.02324e-10</Hsp_evalue>
+      <Hsp_query-from>1400</Hsp_query-from>
+      <Hsp_query-to>1681</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MSAETYTQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTA-ELVRACPVIFLMVSDYAAVCDIL---NGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGD-VGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDLNLAVKELEQAGNTLPAVETVAASYRKAVEAGYGEQDVSGV</Hsp_qseq>
+      <Hsp_hseq>MENQNYS-VAVIGLGSMGMGAAVSCINAGLTTYGIDLNPVALEKLKAAGAKAVAANGYDFAHELDAVVILVVNAAQANAVLFGENGIAKKLKAGTAVMVSSTMAAQDAQIISQKLTELGLIMLDAPVSGGAAKALKGEMTVMASGSKQAFELLQPVLDATAAKVYNIGEEIGLGATVKIVHQLLAGVHIAAGAEAMALASKAGIPLDVMYDVVTNAAGNSWMFENRMKHVVEGDYTPLSMVDIFVKDLGLVNDTAKSLHFPLHLASTAYSMFTEASNAGYGKEDDSAV</Hsp_hseq>
+      <Hsp_midline>M  + Y+ +  +GLG MG+      ++ G+     + +P     + A GAK   +   +       + ++V + A    +L   NG+   L AG  ++  ST++  +   +   +   G    +APVSG    A  G + ++  GS+     LQ +      K ++ G+ +G G+  K+V   L G+   A +EAM +A + GI  D + + +  +A +S MF+ +       ++ P   +    KDL L     +     L    T  + + +A  AGYG++D S V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|75262226|sp|Q9C991.1|3HID2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable 3-hydroxyisobutyrate dehydrogenase-like 2, mitochondrial; Short=HIBADH-like [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9C991</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>2.58235e-10</Hsp_evalue>
+      <Hsp_query-from>1413</Hsp_query-from>
+      <Hsp_query-to>1641</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>LGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMVSDYAAVCDIL---NGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLNSLLGIFGEAYSEAMLMARQFGIDTDTIVEAIGGSAMDSPMFQTKKSLWANREFPPAFALKHASKDL</Hsp_qseq>
+      <Hsp_hseq>IGIMGSAMVSHILAAGYSVTVYARDLRKTKDLQTKGGRTANSPKELGEMSDVVFTIVGNSNDVRSLLLGDDGVLSGLKPGGVTVDMTSSKPGLAREIYAEARRRDCWAVDAPVSGGDAGAREGKLTIFAGGDSEIVEWLAPVMKTMGIVRF-MGGAGSGQSCKIGNQICVGSNMIGLAEGIVFAEKAGLDPVKWLEAVKDGAAGSAVMRLFGEMMAVRDYKATGFAEYMVKDL</Hsp_hseq>
+      <Hsp_midline>+G MG  MV+ +L  G  V VY R   KT  +  KG +   S  EL     V+F +V +   V  +L   +GV  GL  G + V+M++  P     + A          +APVSG    A  G L I  GG   ++  L  +   +G   F  G  G G   K+     +G      +E ++ A + G+D    +EA+   A  S + +    + A R++      ++  KDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|146325737|sp|Q658P3.2|STEA3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Metalloreductase STEAP3; AltName: Full=Dudulin-2; AltName: Full=Six-transmembrane epithelial antigen of prostate 3; AltName: Full=Tumor suppressor-activated pathway protein 6; Short=hTSAP6; AltName: Full=pHyde; Short=hpHyde [Homo sapiens]</Hit_def>
+  <Hit_accession>Q658P3</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.000443846</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1503</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMV--SDYAAVCDILNGVRDGLAGKIIVNMSTISPTENL</Hsp_qseq>
+      <Hsp_hseq>KVGILGSGDFARSLATRLVGSGFKVVVGSRNPKRTARLFPSAAQV-TFQEEAVSSPEVIFVAVFREHYSSLCSL----SDQLAGKILVDVSNPTEQEHL</Hsp_hseq>
+      <Hsp_midline>++G +G G     + TRL+  G +V V +R+P +TA +    A+V     E V +  VIF+ V    Y+++C +     D LAGKI+V++S  +  E+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81900480|sp|Q8CI59.1|STEA3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Metalloreductase STEAP3; AltName: Full=Dudulin-2; AltName: Full=Protein nm1054; AltName: Full=Six-transmembrane epithelial antigen of prostate 3; AltName: Full=Tumor suppressor-activated pathway protein 6 [Mus musculus]</Hit_def>
+  <Hit_accession>Q8CI59</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.00220547</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1503</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMV--SDYAAVCDILNGVRDGLAGKIIVNMSTISPTENL</Hsp_qseq>
+      <Hsp_hseq>KVGILGSGDFARSLATRLVGSGFSVVVGSRNPKRTAGLFPSLAQV-TFQEEAVSSPEVIFVAVFREHYSSLCSL----ADQLAGKILVDVSNPTEKEHL</Hsp_hseq>
+      <Hsp_midline>++G +G G     + TRL+  G  V V +R+P +TA +    A+V     E V +  VIF+ V    Y+++C +     D LAGKI+V++S  +  E+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81883408|sp|Q5RKL5.1|STEA3_RAT</Hit_id>
+  <Hit_def>RecName: Full=Metalloreductase STEAP3; AltName: Full=Six-transmembrane epithelial antigen of prostate 3; AltName: Full=pHyde [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5RKL5</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00264032</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1501</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRACPVIFLMV--SDYAAVCDILNGVRDGLAGKIIVNMSTISPTE</Hsp_qseq>
+      <Hsp_hseq>KVGILGSGDFARSLATRLVGSGFSVVVGSRNPKRTAGLFPSLAQV-TFQEEAVSSPEVIFVAVFREHYSSLCSL----ADQLAGKILVDVS--NPTE</Hsp_hseq>
+      <Hsp_midline>++G +G G     + TRL+  G  V V +R+P +TA +    A+V     E V +  VIF+ V    Y+++C +     D LAGKI+V++S  +PTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2506088|sp|P41576.2|6PGD_KLEPN</Hit_id>
+  <Hit_def>RecName: Full=6-phosphogluconate dehydrogenase, decarboxylating [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P41576</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0137297</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1586</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAK--GAKV--YGSTAELVRACPV---IFLMVSDYAAVCDILNGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEA--VLNPLQKIFSLVGKK----TFHFGDVGKGSGAKLVLNSL----LGIFGEAYS</Hsp_qseq>
+      <Hsp_hseq>QIGVVGMAVMGRNLALNIESRGYTVSVFNRSREKTEEVIAENTGKKLVPYYTVQEFVESLETPRRILLMVKAGAGTDSAIDSLKPYLDKGDIIIDGGNTFFQDTIRRNRELSAEGFNFIGTGVSGGEEGALKGPSIMPGGQKEAYELVAPILKQIAAVAEDGEPCVTYIGADGAGHYVKMVHNGIEYGDMQLIAEAYA</Hsp_hseq>
+      <Hsp_midline>QIG VG+  MG  +   +   G  V V+NRS +KT  + A+  G K+  Y +  E V +      I LMV   A     ++ ++  L  G II++       + +     + A G  F    VSG    A  G  ++  G  EA  ++ P+ K  + V +       + G  G G   K+V N +    + +  EAY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1730976|sp|P54448.1|YQEC_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative 6-phosphogluconate dehydrogenase YqeC [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54448</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0149272</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1602</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAKGAKVYGSTAELVRAC--PVIFLMVSDYAAVCDILNGVRDGLA-GKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEA--VLNPLQKIFSLVGKKTFHFGDVGKGSGAKLVLN----SLLGIFGEAYSEAMLMARQFGIDTDTI</Hsp_qseq>
+      <Hsp_hseq>KIGLIGLGKMGINIGKQFIDRNHQVVGYDVNQAAVDELKAYGAEGTTNLKEFISLLHPPRILWVMVPHGIVDAVLRDVSPLLSKGDMIIEAGNSHYKESIRRYNQMKEAGIHYLDAGTSGGMEGARHGACFMVGGDHEAWEIVEPLFRD-TAVENGYLYAGEAGSGHFLKMIHNGIEYGMMAAIGEGFE--VLENSQFDFDYEKV</Hsp_hseq>
+      <Hsp_midline>+IG +GLG+MG+ +  + +D   +V  Y+ +      + A GA+   +  E +     P I  ++  +  V  +L  V   L+ G +I+        E++     ++ AG  + +A  SG +  A +G   ++ G  EA  ++ PL +  + V     + G+ G G   K++ N     ++   GE +   +L   QF  D + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|5902692|sp|O83351.1|6PGD_TREPA</Hit_id>
+  <Hit_def>RecName: Full=6-phosphogluconate dehydrogenase, decarboxylating [Treponema pallidum subsp. pallidum str. Nichols]</Hit_def>
+  <Hit_accession>O83351</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0217118</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1585</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSP---DKTAPISAKGAKVYG--STAELVR--ACP-VIFLMVSDYAAVCDILNGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEAVLNPLQKIFSLVGKKTFH-------FGDVGKGSGAKLVLNSL----LGIFGEAY</Hsp_qseq>
+      <Hsp_hseq>IGFIGLAVMGENLVLNIERNGFSVAVFNRTTTVVDRFLAGRAHGKRITGAHSIAELVSLLARPRKIMLMVKAGSAVDAVIDQILPLLEKGDLVIDGGNSHYQDTIRRMHALEAAGIHFIGTGVSGGEEGALRGPSL-MPGGSAQAWPLVSPIFCAIAAKADDGTPCCDWVGSDGAGHYVKMIHNGIEYGDMQIIAEGY</Hsp_hseq>
+      <Hsp_midline>IG++GL  MG  +V  +   G  V V+NR+    D+     A G ++ G  S AELV   A P  I LMV   +AV  +++ +   L  G ++++       + +     +EAAG  F    VSG    A  G  L + GGS      +  IF  +  K           G  G G   K++ N +    + I  E Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|6831430|sp|Q9Z8I3.1|6PGD_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=6-phosphogluconate dehydrogenase, decarboxylating [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z8I3</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.0310918</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1441</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>TQIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKT</Hsp_qseq>
+      <Hsp_hseq>TNIGLIGLAVMGKNLVLNMIDHGFSVSVYNRTPEKT</Hsp_hseq>
+      <Hsp_midline>T IG +GL  MG  +V  ++D G  V VYNR+P+KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|584686|sp|P37754.1|6PGD9_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=6-phosphogluconate dehydrogenase, decarboxylating [Escherichia coli]</Hit_def>
+  <Hit_accession>P37754</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.039069</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1586</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>QIGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKTAPISAK--GAKV--YGSTAELVRACPV---IFLMVSDYAAVCDILNGVRDGL-AGKIIVNMSTISPTENLAVKALVEAAGGQFAEAPVSGSVGPATNGTLLILFGGSEA--VLNPLQKIFSLVGKK----TFHFGDVGKGSGAKLVLNSL----LGIFGEAYS</Hsp_qseq>
+      <Hsp_hseq>QIGVVGMAVMGRNLALNIESRGYTVSVFNRSREKTEEVIAENPGKKLVPYYTVQEFVESLETPRRILLMVKAGSGTDSAIDSLKPYLDKGDIIIDGGNTFFQDTIRRNRELSAEGFNFIGTGVSGGEEGALKGPSIMPGGQKEAYELVAPILKQIAAVAEDGEPCVTYIGADGAGHYVKMVHNGIEYGDMQLIAEAYA</Hsp_hseq>
+      <Hsp_midline>QIG VG+  MG  +   +   G  V V+NRS +KT  + A+  G K+  Y +  E V +      I LMV   +     ++ ++  L  G II++       + +     + A G  F    VSG    A  G  ++  G  EA  ++ P+ K  + V +       + G  G G   K+V N +    + +  EAY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|14194422|sp|Q9PKX7.1|6PGD_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=6-phosphogluconate dehydrogenase, decarboxylating [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PKX7</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0707358</Hsp_evalue>
+      <Hsp_query-from>1408</Hsp_query-from>
+      <Hsp_query-to>1441</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>39</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>IGWVGLGQMGLPMVTRLLDGGIEVGVYNRSPDKT</Hsp_qseq>
+      <Hsp_hseq>IGLIGLAVMGKNLVLNMIDHGFAVSVYNRSPEKT</Hsp_hseq>
+      <Hsp_midline>IG +GL  MG  +V  ++D G  V VYNRSP+KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 49, 64, 66, 70, 83, 93, 108, 111, 123, 138, 143, 144, 158, 160, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

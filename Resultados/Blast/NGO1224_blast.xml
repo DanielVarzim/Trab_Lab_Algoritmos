@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>63541</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1751</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>63541</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1751</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|131621|sp|P08179.1|PUR3_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P08179</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.14285e-56</Hsp_evalue>
+      <Hsp_query-from>1546</Hsp_query-from>
+      <Hsp_query-to>1735</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>NIVILISGRGSNMQAIVNAAIPNV---RIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGN</Hsp_qseq>
+      <Hsp_hseq>NIVVLISGNGSNLQAIIDACKTNKIKGTVRAVFSNKADAFGLERARQAGIATHTLIASAFDSREAYDRELIHEIDMYAPDVVVLAGFMRILSPAFVSHYAGRLLNIHPSLLPKYPGLHTHRQALENGDEEHGTSVHFVTDELDGGPVILQAKVPVFAGDSEDDITARVQTQEHAIYPLVISWFADGRLKMHEN</Hsp_hseq>
+      <Hsp_midline>NIV+LISG GSN+QAI++A   N     + AV SN   A GL+ A + GI T +L    F+SR A+D  ++ +ID Y PD+VVLAGFMRIL+P F +HY GRL+NIHPS+LP + GLHTH +ALE G    G ++HFVT ELD GP++ Q  VP+  GD+ DD+ ARV   EH +YP  ++  A GRL +  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1172753|sp|P43846.1|PUR3_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43846</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.3314e-43</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1735</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIVNAA----IPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGN</Hsp_qseq>
+      <Hsp_hseq>MKKIAVLISGQGTNLQTIIDACHSGDIP-AKIACVISNKADAYGLVRAKQAQIPQAVFLRKNFSNNLEMDDAIGDYLQSLAVDLIVLAGYMKILTPKFTQRFAGKILNIHPSLLPKYAGLNTYQRAIEAGDNEHGTTVHFVNEEVDGGAIVLQAKVPIFPEDSIEEVEARTREQEYQIYPLVIKWFTEGRLRLKDN</Hsp_hseq>
+      <Hsp_midline>MK I +LISG+G+N+Q I++A     IP  +IA V+SN   A GL  A +  IP      KNF + L  D A+ + + +   DL+VLAG+M+ILTP+F   + G+++NIHPS+LP + GL+T++RA+EAG    G T+HFV  E+D G IV Q  VPI   D+ ++V AR    E+++YP  +     GRL ++ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|75040086|sp|Q59A32.1|PUR2_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional purine biosynthetic protein adenosine-3; Includes: RecName: Full=Phosphoribosylamine--glycine ligase; AltName: Full=Glycinamide ribonucleotide synthetase; Short=GARS; AltName: Full=Phosphoribosylglycinamide synthetase; Includes: RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase; AltName: Full=AIR synthase; Short=AIRS; AltName: Full=Phosphoribosyl-aminoimidazole synthetase; Includes: RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Bos taurus]</Hit_def>
+  <Hit_accession>Q59A32</Hit_accession>
+  <Hit_len>1010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>1.50366e-42</Hsp_evalue>
+      <Hsp_query-from>1547</Hsp_query-from>
+      <Hsp_query-to>1728</Hsp_query-to>
+      <Hsp_hit-from>810</Hsp_hit-from>
+      <Hsp_hit-to>994</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>IVILISGRGSNMQAIVNAAI-PN--VRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAG</Hsp_qseq>
+      <Hsp_hseq>VAVLISGTGSNLQALIDSTREPSSLAHIVIVISNKAAVAGLDKAEKAGIPTRVINHKLYKNRAAFDTAIDEVLEEFSTDIVCLAGFMRILSGPFVRKWNGKMLNIHPSLLPSFKGSNAHEQVLDAGVTVTGCTVHFVAEDVDAGQIILQEAVPVKRGDTVETLSERVKLAEHKIFPSALQLVASG</Hsp_hseq>
+      <Hsp_midline>+ +LISG GSN+QA++++   P+    I  V+SN    AGL  A + GIPT  +NHK +++R AFDTA+ E ++ +  D+V LAGFMRIL+  F   + G+++NIHPS+LPSF G + HE+ L+AG  V GCT+HFV  ++D G I+ Q  VP+  GDT + ++ RV   EHK++P A+  VA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|131616|sp|P22102.1|PUR2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional purine biosynthetic protein adenosine-3; Includes: RecName: Full=Phosphoribosylamine--glycine ligase; AltName: Full=Glycinamide ribonucleotide synthetase; Short=GARS; AltName: Full=Phosphoribosylglycinamide synthetase; Includes: RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase; AltName: Full=AIR synthase; Short=AIRS; AltName: Full=Phosphoribosyl-aminoimidazole synthetase; Includes: RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Homo sapiens]</Hit_def>
+  <Hit_accession>P22102</Hit_accession>
+  <Hit_len>1010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>2.90453e-41</Hsp_evalue>
+      <Hsp_query-from>1547</Hsp_query-from>
+      <Hsp_query-to>1728</Hsp_query-to>
+      <Hsp_hit-from>810</Hsp_hit-from>
+      <Hsp_hit-to>994</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>IVILISGRGSNMQAIVNAAI-PN--VRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAG</Hsp_qseq>
+      <Hsp_hseq>VAVLISGTGSNLQALIDSTREPNSSAQIDIVISNKAAVAGLDKAERAGIPTRVINHKLYKNRVEFDSAIDLVLEEFSIDIVCLAGFMRILSGPFVQKWNGKMLNIHPSLLPSFKGSNAHEQALETGVTVTGCTVHFVAEDVDAGQIILQEAVPVKRGDTVATLSERVKLAEHKIFPAALQLVASG</Hsp_hseq>
+      <Hsp_midline>+ +LISG GSN+QA++++   PN   +I  V+SN    AGL  A   GIPT  +NHK +++R+ FD+A+   ++ +  D+V LAGFMRIL+  F   + G+++NIHPS+LPSF G + HE+ALE G  V GCT+HFV  ++D G I+ Q  VP+  GDT   ++ RV   EHK++P A+  VA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|341942173|sp|Q64737.3|PUR2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional purine biosynthetic protein adenosine-3; Includes: RecName: Full=Phosphoribosylamine--glycine ligase; AltName: Full=Glycinamide ribonucleotide synthetase; Short=GARS; AltName: Full=Phosphoribosylglycinamide synthetase; Includes: RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase; AltName: Full=AIR synthase; Short=AIRS; AltName: Full=Phosphoribosyl-aminoimidazole synthetase; Includes: RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Mus musculus]</Hit_def>
+  <Hit_accession>Q64737</Hit_accession>
+  <Hit_len>1010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>1.37691e-40</Hsp_evalue>
+      <Hsp_query-from>1547</Hsp_query-from>
+      <Hsp_query-to>1728</Hsp_query-to>
+      <Hsp_hit-from>810</Hsp_hit-from>
+      <Hsp_hit-to>994</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>IVILISGRGSNMQAIVNA---AIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAG</Hsp_qseq>
+      <Hsp_hseq>VAVLISGTGSNLQALIDSTRDPKSSSHIVLVISNKAAVAGLDRAERAGIPTRVINHKLYKNRVEFDNAVDHVLEEFSVDIVCLAGFMRILSGPFVRKWDGKMLNIHPSLLPSFKGSNAHEQVLEAGVTITGCTVHFVAEDVDAGQIILQEAVPVRRGDTVATLSERVKVAEHKIFPAALQLVASG</Hsp_hseq>
+      <Hsp_midline>+ +LISG GSN+QA++++      +  I  V+SN    AGL  A   GIPT  +NHK +++R+ FD A+   ++ +  D+V LAGFMRIL+  F   ++G+++NIHPS+LPSF G + HE+ LEAG  + GCT+HFV  ++D G I+ Q  VP+  GDT   ++ RV   EHK++P A+  VA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|131612|sp|P21872.1|PUR2_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional purine biosynthetic protein adenosine-3; Includes: RecName: Full=Phosphoribosylamine--glycine ligase; AltName: Full=Glycinamide ribonucleotide synthetase; Short=GARS; AltName: Full=Phosphoribosylglycinamide synthetase; Includes: RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase; AltName: Full=AIR synthase; Short=AIRS; AltName: Full=Phosphoribosyl-aminoimidazole synthetase; Includes: RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Gallus gallus]</Hit_def>
+  <Hit_accession>P21872</Hit_accession>
+  <Hit_len>1003</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>2.24719e-40</Hsp_evalue>
+      <Hsp_query-from>1539</Hsp_query-from>
+      <Hsp_query-to>1728</Hsp_query-to>
+      <Hsp_hit-from>798</Hsp_hit-from>
+      <Hsp_hit-to>990</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RIGINMKNIVILISGRGSNMQAIVNA---AIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAG</Hsp_qseq>
+      <Hsp_hseq>KIQTNKVKVAVLISGTGTNLEALINSTKKPTSFAEIVLVVSNKAGVEGLRKAERAGIPTRVIDHKQYGSRTEFDSAVDRVLEEFSVELICLAGFMRILSGPFVKKWEGKILNIHPSLLPSFKGANAHKLVLEAGVRVTGCTVHFVAEEVDAGAIIFQEAVPVKIGDTVETLSERVKEAEHRAFPAALQLVASG</Hsp_hseq>
+      <Hsp_midline>+I  N   + +LISG G+N++A++N+         I  V+SN     GL+ A   GIPT  ++HK + SR  FD+A+   ++ +  +L+ LAGFMRIL+  F   +EG+++NIHPS+LPSF G + H+  LEAG RV GCT+HFV  E+D G I+ Q  VP+  GDT + ++ RV   EH+ +P A+  VA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|131613|sp|P00967.2|PUR2_DROME</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional purine biosynthetic protein adenosine-3; Includes: RecName: Full=Phosphoribosylamine--glycine ligase; AltName: Full=Glycinamide ribonucleotide synthetase; Short=GARS; AltName: Full=Phosphoribosylglycinamide synthetase; Includes: RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase; AltName: Full=AIR synthase; Short=AIRS; AltName: Full=Phosphoribosyl-aminoimidazole synthetase; Includes: RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>P00967</Hit_accession>
+  <Hit_len>1353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>7.59666e-39</Hsp_evalue>
+      <Hsp_query-from>1545</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1154</Hsp_hit-from>
+      <Hsp_hit-to>1346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>KNIVILISGRGSNMQAIVNAAIPNVR-----IAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLII</Hsp_qseq>
+      <Hsp_hseq>KRVAVLISGTGSNLQALIDATRDSAQGIHADVVLVISNKPGVLGLQRATQAGIPSLVISHKDFASREVYDAELTRNLKAARVDLICLAGFMRVLSAPFVREWRGRLVNIHPSLLPKYPGLHVQKQALEAGEKESGCTVHFVDEGVDTGAIIVQAAVPILPDDDEDSLTQRIHKAEHWAFPRALAMLVNGTALI</Hsp_hseq>
+      <Hsp_midline>K + +LISG GSN+QA+++A   + +     +  V+SN     GLQ A + GIP+  ++HK+F SR  +D  +   + A + DL+ LAGFMR+L+  F   + GRL+NIHPS+LP + GLH  ++ALEAG + +GCT+HFV   +D G I+ Q  VPIL  D  D +  R+   EH  +P+A+A +  G  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2500002|sp|Q26255.1|PUR2_CHITE</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional purine biosynthetic protein adenosine-3; Includes: RecName: Full=Phosphoribosylamine--glycine ligase; AltName: Full=Glycinamide ribonucleotide synthetase; Short=GARS; AltName: Full=Phosphoribosylglycinamide synthetase; Includes: RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase; AltName: Full=AIR synthase; Short=AIRS; AltName: Full=Phosphoribosyl-aminoimidazole synthetase; Includes: RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Chironomus tentans]</Hit_def>
+  <Hit_accession>Q26255</Hit_accession>
+  <Hit_len>1371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>1.29036e-36</Hsp_evalue>
+      <Hsp_query-from>1540</Hsp_query-from>
+      <Hsp_query-to>1730</Hsp_query-to>
+      <Hsp_hit-from>1165</Hsp_hit-from>
+      <Hsp_hit-to>1360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>IGINMKNIVILISGRGSNMQAIVNAAIPN-----VRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRL</Hsp_qseq>
+      <Hsp_hseq>LSIPKKRVGVLISGSGSNLQALIDATKSTNMGMCSEIVFVLSNKAGIFGLERAAKANIPSTVISNKDYATREAFDVALHNELIKHNVEIICLAGFMRILTPCFVNKWKGKLLNIHPSLLPKYKGITAQKDALESGDNESGCTVHFVDENVDTGAIIVQEIVPIFENDTVESLTERIHVAEHIAFPKALRLVASGYV</Hsp_hseq>
+      <Hsp_midline>+ I  K + +LISG GSN+QA+++A           I  VLSN     GL+ AA+  IP+  +++K++ +R AFD A+  ++  +  +++ LAGFMRILTP F   ++G+L+NIHPS+LP + G+   + ALE+G   +GCT+HFV   +D G I+ Q IVPI + DT + +  R+   EH  +PKA+  VA+G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|109940129|sp|P16340.2|PUR2_DROPS</Hit_id>
+  <Hit_def>RecName: Full=Trifunctional purine biosynthetic protein adenosine-3; Includes: RecName: Full=Phosphoribosylamine--glycine ligase; AltName: Full=Glycinamide ribonucleotide synthetase; Short=GARS; AltName: Full=Phosphoribosylglycinamide synthetase; Includes: RecName: Full=Phosphoribosylformylglycinamidine cyclo-ligase; AltName: Full=AIR synthase; Short=AIRS; AltName: Full=Phosphoribosyl-aminoimidazole synthetase; Includes: RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Drosophila pseudoobscura pseudoobscura]</Hit_def>
+  <Hit_accession>P16340</Hit_accession>
+  <Hit_len>1364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>5.66716e-36</Hsp_evalue>
+      <Hsp_query-from>1545</Hsp_query-from>
+      <Hsp_query-to>1720</Hsp_query-to>
+      <Hsp_hit-from>1156</Hsp_hit-from>
+      <Hsp_hit-to>1336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>KNIVILISGRGSNMQAIVNAAIPNVR-----IAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPK</Hsp_qseq>
+      <Hsp_hseq>KRVAVLISGKGSNLQALIDAIRDSAQGVYAEIVLVISNKAGVLGLERAAKAGIPSMVISHKDFPSREVYDVELTRHLKTARVEFICLAGFMRILSVPFVREWRGRLINIHPSLLPKFPGLHVQKQALEAGETESGCTVHYVDEGVDTGAIIVQAAVPILPGDDEETLTQRIHYAEHWAFPR</Hsp_hseq>
+      <Hsp_midline>K + +LISG+GSN+QA+++A   + +     I  V+SN     GL+ AA+ GIP+  ++HK+F SR  +D  +   +   + + + LAGFMRIL+  F   + GRL+NIHPS+LP F GLH  ++ALEAG   +GCT+H+V   +D G I+ Q  VPIL GD  + +  R+   EH  +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|614115271|sp|P9WHM4.1|PUR3_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Mycobacterium tuberculosis CDC1551] &gt;gi|614115275|sp|P9WHM5.1|PUR3_MYCTU RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WHM4</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>4.65883e-33</Hsp_evalue>
+      <Hsp_query-from>1547</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>IVILISGRGSNMQAIVNAAIPN--VRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHK</Hsp_qseq>
+      <Hsp_hseq>LVVLASGTGSLLRSLLDAAVGDYPARVVAVGVDRECRAA-EIAAEASVPVFTVRLADHPSRDAWDVAITAATAAHEPDLVVSAGFMRILGPQFLSRFYGRTLNTHPALLPAFPGTHGVADALAYGVKVTGATVHLVDAGTDTGPILAQQPVPVLDGDDEETLHERIKVTERR</Hsp_hseq>
+      <Hsp_midline>+V+L SG GS ++++++AA+ +   R+ AV  + E  A  + AAE  +P  ++   +  SR A+D A+     A++PDLVV AGFMRIL P+F + + GR +N HP++LP+F G H    AL  G +V G T+H V A  D GPI++Q  VP+LDGD  + +  R+   E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|251757313|sp|P12040.2|PUR3_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P12040</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>9.87746e-31</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1722</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIVNAAIP---NVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAV</Hsp_qseq>
+      <Hsp_hseq>MKKFAVFASGNGSNFEAIVTRLKEENWDASAALLVCDKPQAKVIERAEAFHIPSFAFEPKSYENKAAFEQAIIEQLRLHEVELIALAGYMRLIGDTLLQAYGGKIINIHPSLLPAFPGIDAVGQAFRAGVKVAGITVHYVDEGMDTGPIIAQKAIEIDEHDTLETIEQRIHKLEHKWYPSVI</Hsp_hseq>
+      <Hsp_midline>MK   +  SG GSN +AIV        +   A ++ +   A  ++ A    IP+ +   K++E++ AF+ A++E++  ++ +L+ LAG+MR++       Y G+++NIHPS+LP+F G+    +A  AG +VAG T+H+V   +D GPI++Q  + I + DT + +  R+  +EHK YP  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|38605284|sp|Q8CT28.1|PUR3_STAES</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus epidermidis ATCC 12228] &gt;gi|81675011|sp|Q5HQ98.1|PUR3_STAEQ RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CT28</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>5.79994e-29</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIV----NAAIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADV</Hsp_qseq>
+      <Hsp_hseq>MTNIAIFASGSGSNFENIVKHIQTGQLSGINVTALYTDNEGVPCIDRAKNLNIPIHINKPKDFSSKSLYEQHLLKLLSSEEVQWIVLAGYMRLVGQDLLQAYEGRILNIHPSLLPKFKGLDAIGQALESGDTVTGSTVHYVDSGMDTGEIIEQQQCDIKPDDTKEQLEDRVKHLEYELYPRVIAKI</Hsp_hseq>
+      <Hsp_midline>M NI I  SG GSN + IV       +  + + A+ +++E    +  A    IP      K+F S+  ++  +++ + + +   +VLAG+MR++  +    YEGR++NIHPS+LP F GL    +ALE+G  V G T+H+V + +D G I+ Q    I   DT + +  RV  +E++LYP+ +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|61230079|sp|P0A440.1|PURU_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Escherichia coli CFT073] &gt;gi|61230080|sp|P0A441.1|PURU_SHIFL RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0A440</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.06898e-28</Hsp_evalue>
+      <Hsp_query-from>1545</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>KNIVILISGRGSNMQAIV---NAAIPNVRIAAVLSNSETAAGLQWAAER-GIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>RRIVILVTKEAHCLGDLLMKANYGGLDVEIAAVIGNHDTLRSL---VERFDIPFELVSHEGL-SRNEHDQKMADAIDAYQPDYVVLAKYMRVLTPEFVARFPNKIINIHHSFLPAFIGARPYHQAYERGVKIIGATAHYVNDNLDEGPIIMQDVIHVDHTYTAEDMMRAGRDVEKNVLSRALYKVLAQRVFVYGNR</Hsp_hseq>
+      <Hsp_midline>+ IVIL++     +  ++   N    +V IAAV+ N +T   L    ER  IP + ++H+   SR   D  M + IDAYQPD VVLA +MR+LTPEF A +  +++NIH S LP+F G   + +A E G ++ G T H+V   LD GPI+ Q ++ +    TA+D+      VE  +  +A+  V A R+ + GNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|548645|sp|P37051.1|PURU_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37051</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>2.35961e-28</Hsp_evalue>
+      <Hsp_query-from>1545</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>KNIVILISGRGSNMQAIV---NAAIPNVRIAAVLSNSETAAGLQWAAER-GIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>RRIVILVTKEAHCLGDLLMKANYGGLDVEIAAVIGNHDTLRSL---VERFDIPFELVSHEGL-TRNEHDQKMADAIDAYQPDYVVLAKYMRVLTPEFVARFPNKIINIHHSFLPAFIGARPYHQAYERGVKIIGATAHYVNDNLDEGPIIMQDVIHVDHTYTAEDMMRAGRDVEKNVLSRALYKVLAQRVFVYGNR</Hsp_hseq>
+      <Hsp_midline>+ IVIL++     +  ++   N    +V IAAV+ N +T   L    ER  IP + ++H+   +R   D  M + IDAYQPD VVLA +MR+LTPEF A +  +++NIH S LP+F G   + +A E G ++ G T H+V   LD GPI+ Q ++ +    TA+D+      VE  +  +A+  V A R+ + GNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|12644307|sp|P52423.2|PUR3_VIGUN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase, chloroplastic; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART; Flags: Precursor [Vigna unguiculata]</Hit_def>
+  <Hit_accession>P52423</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>5.88587e-27</Hsp_evalue>
+      <Hsp_query-from>1539</Hsp_query-from>
+      <Hsp_query-to>1731</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>RIGINMKNIVILISGRGSNMQAIVNAAIPNV---RIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTG-----LHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLI</Hsp_qseq>
+      <Hsp_hseq>QVTVRRKKLAVFVSGGGSNFRSIHEASKKGSLHGDVTVLVTNKSECGGAQYARNNGIPVILFPKAKDEPKGLSPCDLVDTLRKFEVDFVLLAGYLKLIPVELIRAFERSIFNIHPSLLPAFGGKGYYGMKVHKAVIASGARFSGPTIHFVDEHYDTGRILAQRVVPVLANDTAEELAARVLNEEHQLYVEVVEALCEERIV</Hsp_hseq>
+      <Hsp_midline>++ +  K + + +SG GSN ++I  A+        +  +++N     G Q+A   GIP         E +      +++ +  ++ D V+LAG+++++  E    +E  + NIHPS+LP+F G     +  H+  + +G R +G TIHFV    D G I++Q +VP+L  DTA+++AARVL  EH+LY + V  +   R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81694773|sp|Q5HH12.1|PUR3_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q5HH12</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.37082e-26</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIV----NAAIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADV</Hsp_qseq>
+      <Hsp_hseq>MVKIAIFASGSGSNFENIVEHVESGKLENIEVTALYTDHQNAFCIDRAKKHDIPVYINEPKQFDSKAAYEQHLVTLLNEDKVEWIILAGYMRLIGPDLLASFEGKILNIHPSLLPKYKGIDAIGQAYHSGDTITGSTVHYVDSGMDTGEIIEQRKCDIRPDDSKEQLEEKVKKLEYELYPSVIAKI</Hsp_hseq>
+      <Hsp_midline>M  I I  SG GSN + IV    +  + N+ + A+ ++ + A  +  A +  IP      K F+S+ A++  ++  ++  + + ++LAG+MR++ P+  A +EG+++NIHPS+LP + G+    +A  +G  + G T+H+V + +D G I+ Q    I   D+ + +  +V  +E++LYP  +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|54038921|sp|P99162.1|PUR3_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus aureus subsp. aureus N315] &gt;gi|54041755|sp|P65897.1|PUR3_STAAM RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>P99162</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.87492e-26</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIV----NAAIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADV</Hsp_qseq>
+      <Hsp_hseq>MVKIAIFASGSGSNFENIVEHVESGKLENIEVTALYTDHQNAFCIDRAKKHDIPVYINEPKQFDSKAAYEQHLVTLLNKDKVEWIILAGYMRLIGPDLLASFEGKILNIHPSLLPKYKGIDAIGQAYHSGDTITGSTVHYVDCGMDTGEIIEQRQCDIRPDDSKEQLEEKVKKLEYELYPSVIAKI</Hsp_hseq>
+      <Hsp_midline>M  I I  SG GSN + IV    +  + N+ + A+ ++ + A  +  A +  IP      K F+S+ A++  ++  ++  + + ++LAG+MR++ P+  A +EG+++NIHPS+LP + G+    +A  +G  + G T+H+V   +D G I+ Q    I   D+ + +  +V  +E++LYP  +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|38605355|sp|Q8NX89.1|PUR3_STAAW</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81649525|sp|Q6GAE1.1|PUR3_STAAS RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>Q8NX89</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>2.2667e-26</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIV----NAAIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADV</Hsp_qseq>
+      <Hsp_hseq>MVKIAIFASGSGSNFENIVEHVESGKLENIEVTALYTDHQNAFCIDRAKKHDIPVYINEPKQFDSKAAYEQHLVSLLNEDKVEWIILAGYMRLIGPDLLASFEGKILNIHPSLLPKYKGIDAIGQAYHSGDTITGSTVHYVDCGMDTGEIIEQRQCDIRPDDSKEQLEEKVKKLEYELYPSVIAKI</Hsp_hseq>
+      <Hsp_midline>M  I I  SG GSN + IV    +  + N+ + A+ ++ + A  +  A +  IP      K F+S+ A++  ++  ++  + + ++LAG+MR++ P+  A +EG+++NIHPS+LP + G+    +A  +G  + G T+H+V   +D G I+ Q    I   D+ + +  +V  +E++LYP  +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81651369|sp|Q6GI12.1|PUR3_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GI12</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>3.64236e-26</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIV----NAAIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADV</Hsp_qseq>
+      <Hsp_hseq>MVKIAIFASGSGSNFENIVEHVESGKLENIEVTALYTDHQNAFCIDRAKKHDIPVYINEPKQFGSKAAYEQHLVTLLNEDKVEWIILAGYMRLIGPDLLASFEGKILNIHPSLLPKYKGIDAIGQAYHSGDTITGSTVHYVDSGMDTGEIIEQRQCDIRPDDSKEQLEEKVKKLEYELYPSVIAKI</Hsp_hseq>
+      <Hsp_midline>M  I I  SG GSN + IV    +  + N+ + A+ ++ + A  +  A +  IP      K F S+ A++  ++  ++  + + ++LAG+MR++ P+  A +EG+++NIHPS+LP + G+    +A  +G  + G T+H+V + +D G I+ Q    I   D+ + +  +V  +E++LYP  +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|21542210|sp|Q9UUK7.1|PUR3_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9UUK7</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>8.91469e-26</Hsp_evalue>
+      <Hsp_query-from>1546</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>NIVILISGRGSNMQAIVNAAIPNV-----RIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFES-------RLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGR---LMNIHPSILPSFTGLHTHERALEAGCR----VAGCTIHFVTAELDCG-PIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADV</Hsp_qseq>
+      <Hsp_hseq>SLVVLISGSGSNLQAIIDATLNGVLKGEAAVTHVLSNRKNAYGLERAAKAGIPTSLHTLLPYKKEYGPEIGRKKYDAELAEKIIKLQPSLVVCAGWMHILSPEVLIPLETNKIGIINLHPALPGAFNGIHAIERAFEAAQQGKITHTGAMVHWVIAAVDEGKPIIVQE-VPILSTDSIEALEEKIHAAEHVILVQAIHQI</Hsp_hseq>
+      <Hsp_midline>++V+LISG GSN+QAI++A +  V      +  VLSN + A GL+ AA+ GIPT       ++        R  +D  + EKI   QP LVV AG+M IL+PE     E     ++N+HP++  +F G+H  ERA EA  +      G  +H+V A +D G PI+ Q  VPIL  D+ + +  ++ A EH +  +A+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1172771|sp|Q03432.2|PURU_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>Q03432</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.98175e-25</Hsp_evalue>
+      <Hsp_query-from>1540</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>IGINMKNIVILISGRGSNMQAIVNA---AIPNVRIAAVLSNSETAAGLQWAAER-GIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>IGTQRKRIVILVTKEAHCLGDILMKNYYGALDVEIAAVIGNHDN---LRELVERFNIPFHLVSHENL-TRVEHDKLLAEKIDEYTPDYIVLAKYMRVLNPEFVARYPNRVINIHHSFLPAFIGAKPYQQAYKRGVKIIGATAHFINNELDQGPIIMQNVINVDHTYNAEAMMRAGRDVEKTVLSRALDLALHDRIFVYKNK</Hsp_hseq>
+      <Hsp_midline>IG   K IVIL++     +  I+        +V IAAV+ N +    L+   ER  IP   ++H+N  +R+  D  + EKID Y PD +VLA +MR+L PEF A Y  R++NIH S LP+F G   +++A + G ++ G T HF+  ELD GPI+ Q ++ +     A+ +      VE  +  +A+      R+ +  N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|14917033|sp|P52422.2|PUR3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase, chloroplastic; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P52422</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>7.17944e-25</Hsp_evalue>
+      <Hsp_query-from>1545</Hsp_query-from>
+      <Hsp_query-to>1744</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KNIVILISGRGSNMQAI---VNAAIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFD-TAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTG-----LHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNRV---RNSENAD</Hsp_qseq>
+      <Hsp_hseq>KKLAVFVSGGGSNFRKIHEGCSDGSVNGDVVLLVTNKKDCGGAEYARSNGIPVLVFPKAKREPSDGLSPSELVDVLRKYGVDFVLLAGYLKLIPVELVQAFPKRILNIHPALLPAFGGKGLYGIKVHKAVLESGARYSGPTIHFVNEEYDTGRILAQSAVRVIANDTPEELAKRVLHEEHKLYVEVVGAICEERIKWREDGVPLIQNKQNPD</Hsp_hseq>
+      <Hsp_midline>K + + +SG GSN + I    +    N  +  +++N +   G ++A   GIP         E       + +++ +  Y  D V+LAG+++++  E    +  R++NIHP++LP+F G     +  H+  LE+G R +G TIHFV  E D G I++Q  V ++  DT +++A RVL  EHKLY + V  +   R+    + V   +N +N D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|239938685|sp|O34990.2|PURU_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34990</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>7.22757e-20</Hsp_evalue>
+      <Hsp_query-from>1571</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IAAVLSNSETAAGLQWAAER-GIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>IAVVISNHEEAREL---VERLNIPFHYMK-ANKDIRAEVEKKQLELLEQYDVDVIVLARYMQILTPDFVSAHPNRIINIHHSFLPAFIGANPYKRAYERGVKLIGATSHYVTNDLDEGPIIEQDIERVDHRDNAEALKNIGRTIERSVLARAVKWHLEDRVIVHENK</Hsp_hseq>
+      <Hsp_midline>IA V+SN E A  L    ER  IP   +   N + R   +   +E ++ Y  D++VLA +M+ILTP+F + +  R++NIH S LP+F G + ++RA E G ++ G T H+VT +LD GPI+ Q I  +   D A+ +      +E  +  +AV      R+I+  N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2500008|sp|Q55135.1|PURU_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55135</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.69577e-19</Hsp_evalue>
+      <Hsp_query-from>1603</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>ESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>ENKLAQETAELALLKQYQIDLVVLAKYLQILTTDFVVQFPN-IINIHHSFLPAFPGANPYHRAHERGVKIIGATAHYATAQLDEGPIIEQDVVRVSHRDNVDDLIRKGRDLERVVLARAVRLHLQHRILVYDNR</Hsp_hseq>
+      <Hsp_midline>E++LA +TA +  +  YQ DLVVLA +++ILT +F   +   ++NIH S LP+F G + + RA E G ++ G T H+ TA+LD GPI+ Q +V +   D  DD+  +   +E  +  +AV      R+++  NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|74852394|sp|Q54I60.1|PUR3_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54I60</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.53621e-18</Hsp_evalue>
+      <Hsp_query-from>1546</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>NIVILISGRGSNMQAIVNA---AIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNF-------ESRLAFDTAMMEKIDAYQP-DLVVLAGFMRILTPEFCAHYEGR-----LMNIHPSILPSFTGLHTHERAL----EAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHK</Hsp_qseq>
+      <Hsp_hseq>NICVLISGNGTNLQAIIDAIESKYLNVCIKVVISNKETAYGLERAKKASIETRVFSLQKYLKQDPINNTRSTYGLELAKIIREYSSIDLIVLAGWMIILPATFLKEFTDNKPTIDIINLHPALPGQYPGAHAIERAFNDFKENKIKHSGIMIHKVIEEVDAGEVILTKEIPILPTDTLESLEERFHQQEHK</Hsp_hseq>
+      <Hsp_midline>NI +LISG G+N+QAI++A      NV I  V+SN ETA GL+ A +  I T   + + +        +R  +   + + I  Y   DL+VLAG+M IL   F   +        ++N+HP++   + G H  ERA     E   + +G  IH V  E+D G ++    +PIL  DT + +  R    EHK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2500006|sp|Q46339.1|PURU_CORS1</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Corynebacterium sp. P-1]</Hit_def>
+  <Hit_accession>Q46339</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>6.41296e-17</Hsp_evalue>
+      <Hsp_query-from>1609</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>DTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>EAALLELIDQTGAELVVLARYMQVLSDHLASELTGKTINIHHSFLPSFKGAKPYHQAWERGVKTVGATAHYVNSELDEGPIIAQQVVEVDHTYGPQDLVAAGRDSECKALSNAVRWHCEGRVFLYGNR</Hsp_hseq>
+      <Hsp_midline>+ A++E ID    +LVVLA +M++L+    +   G+ +NIH S LPSF G   + +A E G +  G T H+V +ELD GPI++Q +V +       D+ A     E K    AV     GR+ + GNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|61230089|sp|P0A5T7.1|PURU_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Mycobacterium bovis AF2122/97] &gt;gi|614115426|sp|P9WHM2.1|PURU_MYCTO RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Mycobacterium tuberculosis CDC1551] &gt;gi|614115430|sp|P9WHM3.1|PURU_MYCTU RecName: Full=Formyltetrahydrofolate deformylase; AltName: Full=Formyl-FH(4) hydrolase [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P0A5T7</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>9.3751e-16</Hsp_evalue>
+      <Hsp_query-from>1622</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>DLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>DLVVLARYMQILSPGFLEAIGCPLINIHHSFLPAFTGAAPYQRARERGVKLIGATAHYVTEVLDEGPIIEQDVVRVDHTHTVDDLVRVGADVERAVLSRAVLWHCQDRVIVHHNQ</Hsp_hseq>
+      <Hsp_midline>DLVVLA +M+IL+P F       L+NIH S LP+FTG   ++RA E G ++ G T H+VT  LD GPI+ Q +V +    T DD+      VE  +  +AV      R+I+  N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|12229915|sp|Q42805.1|PUR3_SOYBN</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase, chloroplastic; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART; AltName: Full=GMpurN; Flags: Precursor [Glycine max]</Hit_def>
+  <Hit_accession>Q42805</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.06216e-14</Hsp_evalue>
+      <Hsp_query-from>1539</Hsp_query-from>
+      <Hsp_query-to>1747</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>RIGINMKNIVILISGRGSNMQAIVNAAIPNV---RIAAVLSNSETAAGLQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPS------FTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNRV---RNSENADAAR</Hsp_qseq>
+      <Hsp_hseq>QVTVRRKKLGVFVSGGGTNFRAIHEATKRGSLHGDVLVLVTNKSDCGGAEYARNNGIPVILYHISKDESN---GSDLVDTLRKFEVDFILLAGYLNLY--QWNDPSLQKIYIQHSSITSSSFWRQGIHGMKVHKAVIASGARFSGPTIHFVDEHYDTGRILAQRVVPVQANDTVEELAARVLKEEHQLYVEVVEALCEERVVWRQDGVPLIQSKENPNEFR</Hsp_hseq>
+      <Hsp_midline>++ +  K + + +SG G+N +AI  A         +  +++N     G ++A   GIP    +    ES     + +++ +  ++ D ++LAG++ +   ++      ++   H SI  S        G+  H+  + +G R +G TIHFV    D G I++Q +VP+   DT +++AARVL  EH+LY + V  +   R++   + V   ++ EN +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|131622|sp|P04161.1|PUR3_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Phosphoribosylglycinamide formyltransferase; AltName: Full=5&apos;-phosphoribosylglycinamide transformylase; AltName: Full=GAR transformylase; Short=GART [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P04161</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.98824e-14</Hsp_evalue>
+      <Hsp_query-from>1544</Hsp_query-from>
+      <Hsp_query-to>1715</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MKNIVILISGRGSNMQAIVNAAI-----PNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHKNF-------------ESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEG-RLMNIHPSILPSFTGLHTHERALEAGCR---------VAGCTIHFVTAELDCG-PIVSQGIVPILDGDTADDVAARVLAVEH</Hsp_qseq>
+      <Hsp_hseq>MARIVVLISGSGSNLQALIDAQKQGQLGEDAHIVSVISSSKKAYGLTRAADNNIPTKVCSLYPYTKGIAKEDKAARAKARSQFENDLAKLVLEEKPDVIICAGWLLILGSTFLSQLQSVPILNLHPALPGCFDGT-TH--AIEMAWRKCQDENKPLTAGCMVHYVIEEVDKGEPLVVKKLEIIPGEETLEQYEQRVHDAEH</Hsp_hseq>
+      <Hsp_midline>M  IV+LISG GSN+QA+++A        +  I +V+S+S+ A GL  AA+  IPT   +   +             ++R  F+  + + +   +PD+++ AG++ IL   F +  +   ++N+HP++   F G  TH  A+E   R          AGC +H+V  E+D G P+V + +  I   +T +    RV   EH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|75163645|sp|Q93YQ3.1|PURU1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase 1, mitochondrial; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q93YQ3</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>6.17949e-14</Hsp_evalue>
+      <Hsp_query-from>1569</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VRIAAVLSNSETAAG---LQWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEG</Hsp_qseq>
+      <Hsp_hseq>VDITCVISNHERASNTHVMRFLERHGIPYHYVSTTKENKR---EDDILELVK--DTDFLVLARYMQILSGNFLKGYGKDVINIHHGLLPSFKGGYPAKQAFDAGVKLIGATSHFVTEELDSGPIIEQMVESVSHRDNLRSFVQKSEDLEKKCLTRAIKSYCELRVLPYG</Hsp_hseq>
+      <Hsp_midline>V I  V+SN E A+    +++    GIP   ++      R   +  ++E +     D +VLA +M+IL+  F   Y   ++NIH  +LPSF G +  ++A +AG ++ G T HFVT ELD GPI+ Q +  +   D       +   +E K   +A+      R++  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|558446002|sp|F4JP46.1|PURU2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Formyltetrahydrofolate deformylase 2, mitochondrial; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>F4JP46</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>2.22567e-12</Hsp_evalue>
+      <Hsp_query-from>1622</Hsp_query-from>
+      <Hsp_query-to>1736</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>DLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNR</Hsp_qseq>
+      <Hsp_hseq>DFLVLARYMQLLSGNFLKGYGKDVINIHHGLLPSFKGRNPVKQAFDAGVKLIGATTHFVTEELDSGPIIEQMVERVSHRDNLRSFVQKSEDLEKKCLMKAIKSYCELRVLPYGTQ</Hsp_hseq>
+      <Hsp_midline>D +VLA +M++L+  F   Y   ++NIH  +LPSF G +  ++A +AG ++ G T HFVT ELD GPI+ Q +  +   D       +   +E K   KA+      R++  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|226704302|sp|A9B2Z9.1|FMT_HERA2</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Herpetosiphon aurantiacus DSM 785]</Hit_def>
+  <Hit_accession>A9B2Z9</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.15378e-11</Hsp_evalue>
+      <Hsp_query-from>1577</Hsp_query-from>
+      <Hsp_query-to>1730</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>NSETAAGLQWAAER-GIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRL</Hsp_qseq>
+      <Hsp_hseq>NVLTAPPVKLAAERLGIPV-------FQPETLKDPAAVARLRAFEPEVGVVAAYGEILRKQVLAIPALGYLNIHPSILPLYRGPAPVTGAILAGDDLVGVSIIKLTAKMDAGPILGQMVMPLANDARAGEWTAQLMRQGGELLAQVLPAYAAGQI</Hsp_hseq>
+      <Hsp_midline>N  TA  ++ AAER GIP        F+     D A + ++ A++P++ V+A +  IL  +  A      +NIHPSILP + G      A+ AG  + G +I  +TA++D GPI+ Q ++P+ +   A +  A+++    +L  + +   AAG++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|254789378|sp|B9KBC2.1|FMT_THENN</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Thermotoga neapolitana DSM 4359]</Hit_def>
+  <Hit_accession>B9KBC2</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>5.12068e-10</Hsp_evalue>
+      <Hsp_query-from>1587</Hsp_query-from>
+      <Hsp_query-to>1717</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>AAERGIPT---DSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKL</Hsp_qseq>
+      <Hsp_hseq>AEEKGLPCIQPESINRKE----------ALEFLHSVNPDVLIVASYGKILGEKVLSLPKHGCYNIHPSLLPKYRGASPIQRALENGEKKTGVTIYRMVKELDAGPIALQREVNIDPFETFDQLEKRLIELSKEM</Hsp_hseq>
+      <Hsp_midline>A E+G+P    +S+N K            +E + +  PD++++A + +IL  +  +  +    NIHPS+LP + G    +RALE G +  G TI+ +  ELD GPI  Q  V I   +T D +  R++ +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|39931220|sp|Q7UHZ6.1|FMT_RHOBA</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Rhodopirellula baltica SH 1]</Hit_def>
+  <Hit_accession>Q7UHZ6</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>9.05634e-10</Hsp_evalue>
+      <Hsp_query-from>1585</Hsp_query-from>
+      <Hsp_query-to>1710</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>QWAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRL--MNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARV</Hsp_qseq>
+      <Hsp_hseq>EWAESHGLPVDAPASIN-------DPETIASLTELNADLLVVCDYGQILKPD--ALQSARLGGINLHGSLLPAYRGAAPVQRALLSGDRETGVSVIHMTPRLDGGPIVASRTTPIRDDETSGELEVRL</Hsp_hseq>
+      <Hsp_midline>+WA   G+P D+    N       D   +  +     DL+V+  + +IL P+  A    RL  +N+H S+LP++ G    +RAL +G R  G ++  +T  LD GPIV+    PI D +T+ ++  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|20138134|sp|Q9K9Y6.1|FMT_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K9Y6</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.71996e-09</Hsp_evalue>
+      <Hsp_query-from>1609</Hsp_query-from>
+      <Hsp_query-to>1730</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>DTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRL</Hsp_qseq>
+      <Hsp_hseq>DEAELERLFSFEPDLIVTAAFGQILPNALLEYPKHGCINVHASLLPKYRGGAPIHQAIIDGEKETGITIMYMAEKLDAGDILTQVTVPIADDDHVGSLHNKLSEAGAALLAKTIPPLIKGEL</Hsp_hseq>
+      <Hsp_midline>D A +E++ +++PDL+V A F +IL      + +   +N+H S+LP + G     +A+  G +  G TI ++  +LD G I++Q  VPI D D    +  ++      L  K +  +  G L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|123753707|sp|Q2SQX2.1|FMT_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SQX2</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>2.08354e-09</Hsp_evalue>
+      <Hsp_query-from>1555</Hsp_query-from>
+      <Hsp_query-to>1733</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>GSNMQAIVNAAIPNVRIAAVLSNSETAAGL----------QWAAERGIPTDS-LNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIE</Hsp_qseq>
+      <Hsp_hseq>ASALQALLDA---NYQIVAVYTQPDRPAGRGNKLLPGPVKQLALKHTIPVEQPLNFKNEEDR--------QQLRDYEADVMVVAAYGIILPQAVLDAPKRGCLNIHASLLPRWRGAAPIQRAIIAGDQESGITIMQMEAGLDTGPMLLKTVTPISADDTGRTLHDRLAQMGGEAIVKALALLQEDKLQAE</Hsp_hseq>
+      <Hsp_midline> S +QA+++A   N +I AV +  +  AG           Q A +  IP +  LN KN E R        +++  Y+ D++V+A +  IL        +   +NIH S+LP + G    +RA+ AG + +G TI  + A LD GP++ + + PI   DT   +  R+  +  +   KA+A +   +L  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|189044568|sp|A4SFP1.1|FMT_PROVI</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Chlorobium phaeovibrioides DSM 265]</Hit_def>
+  <Hit_accession>A4SFP1</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.49991e-09</Hsp_evalue>
+      <Hsp_query-from>1557</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>NMQAIVNAAIPNVRIAAVLSNSETAAGLQWAAERGIPTDSLNHK----NFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEG</Hsp_qseq>
+      <Hsp_hseq>SLQAIVDASLP-VEVVQVVTAPDRPRRKKNAEAEPTPVKSLALQLGLPVLEVEDVKDPGFAEAVRRLQPDVIVVAAF-RILPPAVYGAARLGAFNLHASLLPAYRGAAPINHALIEGERESGVTTFFLQRQVDTGNIILKKSTPINSMENATQLAERLSQI------GAEAVVETLRLIAEG</Hsp_hseq>
+      <Hsp_midline>++QAIV+A++P V +  V++  +     + A     P  SL  +      E     D    E +   QPD++V+A F RIL P           N+H S+LP++ G      AL  G R +G T  F+  ++D G I+ +   PI   + A  +A R+  +       A A V   RLI EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|73919381|sp|Q662V0.1|FMT_BORGA</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Borrelia garinii PBi]</Hit_def>
+  <Hit_accession>Q662V0</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.64497e-08</Hsp_evalue>
+      <Hsp_query-from>1606</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>LAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLII</Hsp_qseq>
+      <Hsp_hseq>LILDNNTLNSIRDLNPDLMLVFSYGKIFKKEFLDIFRMGCINVHPSLLPKYRGVSPIQSAILNGDCVSGITIQSMALEMDSGNILVQKKFKIRSYDTSYDISKLVSSLSPSLVLEALEKISKGFLGI</Hsp_hseq>
+      <Hsp_midline>L  D   +  I    PDL+++  + +I   EF   +    +N+HPS+LP + G+   + A+  G  V+G TI  +  E+D G I+ Q    I   DT+ D++  V ++   L  +A+  ++ G L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|6685429|sp|O51091.1|FMT_BORBU</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Borrelia burgdorferi B31] &gt;gi|226704291|sp|B7J100.1|FMT_BORBZ RecName: Full=Methionyl-tRNA formyltransferase [Borrelia burgdorferi ZS7]</Hit_def>
+  <Hit_accession>O51091</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.14093e-08</Hsp_evalue>
+      <Hsp_query-from>1606</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>LAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLII</Hsp_qseq>
+      <Hsp_hseq>LILDDNVLNLVRDLNPDLMLVFSYGKIFKKEFLDLFPKGCINVHPSLLPKYRGVSPIQSAILNGDCVSGVTIQSMALEMDSGNILVQKNFKIRSYDTSHDISKLVSSLSPSLVLEALEKISKGFLGI</Hsp_hseq>
+      <Hsp_midline>L  D  ++  +    PDL+++  + +I   EF   +    +N+HPS+LP + G+   + A+  G  V+G TI  +  E+D G I+ Q    I   DT+ D++  V ++   L  +A+  ++ G L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|259646036|sp|C5D8R6.1|FMT_GEOSW</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Geobacillus sp. WCH70]</Hit_def>
+  <Hit_accession>C5D8R6</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.17016e-08</Hsp_evalue>
+      <Hsp_query-from>1614</Hsp_query-from>
+      <Hsp_query-to>1730</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>EKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRL</Hsp_qseq>
+      <Hsp_hseq>EQVLAFKPDLIVTAAFGQILPKALLDAPKYGCINVHASLLPELRGGAPIHYAILQGKTKTGVTIMYMVEKLDAGDILTQVEVPITETDTVGTLHDKLSIAGAKLLSETIPQLVAGKL</Hsp_hseq>
+      <Hsp_midline>E++ A++PDL+V A F +IL        +   +N+H S+LP   G      A+  G    G TI ++  +LD G I++Q  VPI + DT   +  ++     KL  + +  + AG+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|6685431|sp|Q9WYZ8.1|FMT_THEMA</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Thermotoga maritima MSB8]</Hit_def>
+  <Hit_accession>Q9WYZ8</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>4.99375e-08</Hsp_evalue>
+      <Hsp_query-from>1613</Hsp_query-from>
+      <Hsp_query-to>1730</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRL</Hsp_qseq>
+      <Hsp_hseq>LEFLRSVRPDVIIVASYGKILGEKVLSLPRLGCYNIHPSLLPKYRGASPIQRVLENGEERTGVTIYKMVKELDAGPIALQKEISVDPFETFDQLEKRLIELSKEMLIEFLEKLKTGNI</Hsp_hseq>
+      <Hsp_midline>+E + + +PD++++A + +IL  +  +       NIHPS+LP + G    +R LE G    G TI+ +  ELD GPI  Q  + +   +T D +  R++ +  ++  + +  +  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|6016039|sp|O83737.1|FMT_TREPA</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Treponema pallidum subsp. pallidum str. Nichols] &gt;gi|229487571|sp|B2S3Z5.1|FMT_TREPS RecName: Full=Methionyl-tRNA formyltransferase [Treponema pallidum subsp. pallidum SS14]</Hit_def>
+  <Hit_accession>O83737</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>6.89671e-08</Hsp_evalue>
+      <Hsp_query-from>1608</Hsp_query-from>
+      <Hsp_query-to>1728</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>FDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAG</Hsp_qseq>
+      <Hsp_hseq>LDRAFYDAVEALRPDVLVCFAYGKIFGPRFLALFPRGAINVHPSLLPRWRGSTPVPAAILAGDCETGVTLQYIGEEMDAGDILAQSRVQLDGTETTGALLSRLSLVAADL----VDDVLVG</Hsp_hseq>
+      <Hsp_midline> D A  + ++A +PD++V   + +I  P F A +    +N+HPS+LP + G      A+ AG    G T+ ++  E+D G I++Q  V +   +T   + +R+  V   L    V DV  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|166215525|sp|A5IJP6.1|FMT_THEP1</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Thermotoga petrophila RKU-1]</Hit_def>
+  <Hit_accession>A5IJP6</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.44026e-07</Hsp_evalue>
+      <Hsp_query-from>1613</Hsp_query-from>
+      <Hsp_query-to>1717</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKL</Hsp_qseq>
+      <Hsp_hseq>LEFLRSVGPDVIIVASYGKILGEKVLSLPSLGCYNIHPSLLPKYRGASPIQRVLENGEERTGVTIYKMVRELDAGPIALQREISIDPFETFDQLEKRLIELSKEM</Hsp_hseq>
+      <Hsp_midline>+E + +  PD++++A + +IL  +  +       NIHPS+LP + G    +R LE G    G TI+ +  ELD GPI  Q  + I   +T D +  R++ +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|229487569|sp|B1L8W7.1|FMT_THESQ</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Thermotoga sp. RQ2]</Hit_def>
+  <Hit_accession>B1L8W7</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.44026e-07</Hsp_evalue>
+      <Hsp_query-from>1613</Hsp_query-from>
+      <Hsp_query-to>1717</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>MEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKL</Hsp_qseq>
+      <Hsp_hseq>LEFLRSVGPDVIIVASYGKILGEKVLSLPSLGCYNIHPSLLPKYRGASPIQRVLENGEERTGVTIYKMVRELDAGPIALQREISIDPFETFDQLEKRLIELSKEM</Hsp_hseq>
+      <Hsp_midline>+E + +  PD++++A + +IL  +  +       NIHPS+LP + G    +R LE G    G TI+ +  ELD GPI  Q  + I   +T D +  R++ +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|123047076|sp|Q0SPA1.1|FMT_BORAP</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Borrelia afzelii PKo]</Hit_def>
+  <Hit_accession>Q0SPA1</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.61154e-07</Hsp_evalue>
+      <Hsp_query-from>1606</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>LAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLII</Hsp_qseq>
+      <Hsp_hseq>LILDDNILNLIRDLNPDLMLVFSYGKIFKKEFLDIFPKGCINVHPSLLPKYRGVSPIQSAILNGDCVSGITIQNMALKMDSGNILVQKNFKIKSCDTSYDISKLVSSLSPNLVLEALEKIGKGFLGI</Hsp_hseq>
+      <Hsp_midline>L  D  ++  I    PDL+++  + +I   EF   +    +N+HPS+LP + G+   + A+  G  V+G TI  +  ++D G I+ Q    I   DT+ D++  V ++   L  +A+  +  G L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166988368|sp|A6UX80.1|FMT_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6UX80</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.71666e-07</Hsp_evalue>
+      <Hsp_query-from>1587</Hsp_query-from>
+      <Hsp_query-to>1730</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>AAERGIPT---DSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRL</Hsp_qseq>
+      <Hsp_hseq>ALEHGLPVIQPPSLRSADAQAELA----------ALRPDLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPIQRAVEAGDAQSGVTVMQMEAGLDTGPMLLKVATPIAADDSGGSLHDRLAALGPKAVVEAIAGLAAGTL</Hsp_hseq>
+      <Hsp_midline>A E G+P     SL   + ++ LA          A +PDL+V+  +  IL            +N H S+LP + G    +RA+EAG   +G T+  + A LD GP++ +   PI   D+   +  R+ A+  K   +A+A +AAG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|229487505|sp|B4RDU2.1|FMT_PHEZH</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Phenylobacterium zucineum HLK1]</Hit_def>
+  <Hit_accession>B4RDU2</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.78513e-07</Hsp_evalue>
+      <Hsp_query-from>1586</Hsp_query-from>
+      <Hsp_query-to>1731</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>WAAERGIPTDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLI</Hsp_qseq>
+      <Hsp_hseq>YAESRGIPVRTPASMR-------DPAEIEAFRALGLDAAVVVAFGQILPREVLEAPRLGSFNVHASLLPRWRGAAPIQRAIMAGDAVTGVQVMRMTEGLDEGPVLSTATVRIDALETAATLHDRLAAAGAGLIVETLAQIAAGRAV</Hsp_hseq>
+      <Hsp_midline>+A  RGIP  +            D A +E   A   D  V+  F +IL  E          N+H S+LP + G    +RA+ AG  V G  +  +T  LD GP++S   V I   +TA  +  R+ A    L  + +A +AAGR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|166988363|sp|A1BHJ9.1|FMT_CHLPD</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Chlorobium phaeobacteroides DSM 266]</Hit_def>
+  <Hit_accession>A1BHJ9</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.87594e-07</Hsp_evalue>
+      <Hsp_query-from>1594</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>TDSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEG</Hsp_qseq>
+      <Hsp_hseq>TDDVSSSDFLSVVA-DSA---------PDVIVVAAF-RILPPEVYGQAKLGAFNLHASLLPAYRGAAPINWAIINGEKESGVTTFFLQKTVDTGNVIMQEKIPVLPDDNASILSVKLSHLGAELVVKTLRSIQAGTVEVQA</Hsp_hseq>
+      <Hsp_midline>TD ++  +F S +A D+A         PD++V+A F RIL PE     +    N+H S+LP++ G      A+  G + +G T  F+   +D G ++ Q  +P+L  D A  ++ ++  +  +L  K +  + AG + ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|73919406|sp|Q603G2.1|FMT_METCA</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Methylococcus capsulatus str. Bath]</Hit_def>
+  <Hit_accession>Q603G2</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.07933e-07</Hsp_evalue>
+      <Hsp_query-from>1585</Hsp_query-from>
+      <Hsp_query-to>1733</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>QWAAERGIPT-DSLNHKNFESRLAFDTAMMEKIDAYQPDLVVLAGFMRIL-TPEFCAHYEGRLMNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIE</Hsp_qseq>
+      <Hsp_hseq>QLAIEHGLPVFQPASLKGPEER--------ERLVALEPDLMVVVAYGLILPTPVLTVPRFG-CVNIHASLLPRWRGAAPIQRAILAGDRETGVTLMRIEPRLDAGPMLGKRSCSIGDDDTTASLHDRLAGLGAEMLIELLPGLAADRLTGE</Hsp_hseq>
+      <Hsp_midline>Q A E G+P     + K  E R        E++ A +PDL+V+  +  IL TP       G  +NIH S+LP + G    +RA+ AG R  G T+  +   LD GP++ +    I D DT   +  R+  +  ++  + +  +AA RL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|229464466|sp|B3EPG6.1|FMT_CHLPB</Hit_id>
+  <Hit_def>RecName: Full=Methionyl-tRNA formyltransferase [Chlorobium phaeobacteroides BS1]</Hit_def>
+  <Hit_accession>B3EPG6</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.7892e-07</Hsp_evalue>
+      <Hsp_query-from>1609</Hsp_query-from>
+      <Hsp_query-to>1741</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DTAMMEKIDAYQPDLVVLAGFMRILTPEFCAHYE-GRL--MNIHPSILPSFTGLHTHERALEAGCRVAGCTIHFVTAELDCGPIVSQGIVPILDGDTADDVAARVLAVEHKLYPKAVADVAAGRLIIEGNRVRNSE</Hsp_qseq>
+      <Hsp_hseq>DARFADTIARYRPDVIVVAAF-RILPP---AVYELARLGSFNLHASLLPRYRGAAPVNWTIINGDRETGVTTFFLGRKVDTGNIILQQRTPVAPEETAGELTER------------LADIGAGVVLKTLKRIRDGE</Hsp_hseq>
+      <Hsp_midline>D    + I  Y+PD++V+A F RIL P   A YE  RL   N+H S+LP + G       +  G R  G T  F+  ++D G I+ Q   P+   +TA ++  R            +AD+ AG ++    R+R+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 36, 40, 44, 65, 83, 85, 89, 102, 112, 127, 130, 142, 157, 162, 163, 177,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

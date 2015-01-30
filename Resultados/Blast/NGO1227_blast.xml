@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>58333</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>2141</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>58333</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>2141</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|25008114|sp|Q9JTI8.1|AMPA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JTI8</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.55</Hsp_bit-score>
+      <Hsp_score>2139</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1674</Hsp_query-from>
+      <Hsp_query-to>2141</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>456</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>MEFSTKTEILQEQQAGAQLFVCADKAPEHNTAAHALFSALEEGQNFSDTKIPTDNGLQAVAVVRLEKTDRAALNKAAAEAAKWAQNQETVNVDVHAFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYLRNL</Hsp_qseq>
+      <Hsp_hseq>MEFSTKTEILQEQQAGAQLFVCTEEAQLNHPTALALLSSLEEGQNFADTKIPTGNGLQAVAVCCLKSTGRAALNKAAAEAAKWAQNQETVNVDVHAFEEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAKFAEAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAVVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLVDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLLNYLRNL</Hsp_hseq>
+      <Hsp_midline>MEFSTKTEILQEQQAGAQLFVC ++A  ++  A AL S+LEEGQNF+DTKIPT NGLQAVAV  L+ T RAALNKAAAEAAKWAQNQETVNVDVHAF+EAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAKF++AVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIA+VATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDL+DSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLL+NYLRNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|238057775|sp|A9AHG9.1|AMPA_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>A9AHG9</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.713</Hsp_bit-score>
+      <Hsp_score>1101</Hsp_score>
+      <Hsp_evalue>9.06004e-132</Hsp_evalue>
+      <Hsp_query-from>1724</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>IPTDNGLQAVAVVRLEKTDRAALNKAA---AEAAKWAQNQETVNVDVH------AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVF--HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>LPEVSGIGASRVLLVGLGKQDAFNQKAYNDAVTAAWRALLATKVVQVTFTLAQLPVDERGSDWGVRAAILALRNETYRFTQMKSKPEPVSHTLKRVVFSVEPADEKAAKVAVKQAVALANGMDLTRDLGNLPGNVCTPTYLANTAKQLAKDWGMKAEVLGLKQIQALKMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPIVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAGSVLGTIRAVAEMGLKLNVVGIIPTCENMPGGNATKPGDVVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDIATLTGACIIALGHHNSGLFSKDDALAGELLDASREANDPAWRLPLDDEYQDQLKSNFADLANIGGRPAGSVTAACFLSRFTENYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>+P  +G+ A  V+ +    + A N+ A   A  A W     T  V V         DE  +     A  +A  N  YRF + K + +P      + VF    A E A K A++ A A   G  L RDLGN   N CTP +LA TAK  A+  G  A+++    I+   MGSF SVA+ SVE P  + L Y GAA K AAP+VLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L +N++ I+ TCENMP G A KPGDVV SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVID+ATLTGACI+ALGH  SG+   +  L   LL AS   +D AW+LPL + Y+DQLKSNFAD+ NIG   AG++TAA FLS FTE YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|238057773|sp|B1JWV2.1|AMPA_BURCC</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia cenocepacia MC0-3]</Hit_def>
+  <Hit_accession>B1JWV2</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>1.2811e-131</Hsp_evalue>
+      <Hsp_query-from>1724</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>IPTDNGLQA--VAVVRLEKTD---RAALNKAAAEAAKWAQNQETVNVDVH----AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>LPEVSGIGASRVLLVGLGKQDAFNQKAYNDAATAAWRALLATKVVQVTFSLAQLPVDERSSDWGVRAAILALRNETYRFTQMKSKPEPASHTLKRVVFSVDPADEKAAKVAIKQAVALANGMDLTRDLGNLPGNVCTPTYLGNTAKKIAKDWGLKAEVLGLKQIQALKMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAGSVLGTIRAVAEMGLKINVVAIVPTCENMPGGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACVIALGGHNSGLFSTNDALAGELLDASREANDPAWRMPLDDEYQDQLKSNFADLANIGGRPAGAVTAACFLSRFTESYPWAHLDIAGTAWKGGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>+P  +G+ A  V +V L K D   + A N AA  A +     + V V         DE  +     A  +A  N  YRF + K + +PA     + VF    A E A K A++ A A   G  L RDLGN   N CTP +L  TAK  A+  G  A+++    I+   MGSF SVA+ SVE P  + L Y GAA K AAPVVLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGAC++ALG   SG+   N  L   LL AS   +D AW++PL + Y+DQLKSNFAD+ NIG   AG +TAA FLS FTE YPWAHLDIAGTAWK GA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122978764|sp|Q1BUE7.1|AMPA_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia cenocepacia AU 1054] &gt;gi|166198341|sp|A0K9N9.1|AMPA_BURCH RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia cenocepacia HI2424]</Hit_def>
+  <Hit_accession>Q1BUE7</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.557</Hsp_bit-score>
+      <Hsp_score>1098</Hsp_score>
+      <Hsp_evalue>2.91267e-131</Hsp_evalue>
+      <Hsp_query-from>1729</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>422</Hsp_align-len>
+      <Hsp_qseq>GLQAVAVVRLEKTD---RAALNKAAAEAAKWAQNQETVNVDVH----AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GASRVLLVGLGKQDAFNQKAYNDAATTAWRALLATKVVQVTFSLAQLPVDERSSDWGVRAAILALRNETYRFTQMKSKPEPASHTLKRVVFSVDPADEKAAKVAIKQAVALANGMDLTRDLGNLPGNVCTPIYLGNTAKKIAKDWGLKAEVLGLKQIQALKMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAGSVLGTMRAVAEMGLKINVVAIVPTCENMPGGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACVIALGGHNSGLFSTNDALAGELLDASREANDPAWRMPLDDEYQDQLKSNFADLANIGGRPAGAVTAACFLSRFTESYPWAHLDIAGTAWKGGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G   V +V L K D   + A N AA  A +     + V V         DE  +     A  +A  N  YRF + K + +PA     + VF    A E A K A++ A A   G  L RDLGN   N CTP +L  TAK  A+  G  A+++    I+   MGSF SVA+ SVE P  + L Y GAA K AAPVVLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGAC++ALG   SG+   N  L   LL AS   +D AW++PL + Y+DQLKSNFAD+ NIG   AG +TAA FLS FTE YPWAHLDIAGTAWK GA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|238057774|sp|B4E8G9.1|AMPA_BURCJ</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>B4E8G9</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>5.76419e-131</Hsp_evalue>
+      <Hsp_query-from>1729</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>GLQAVAVVRLEKTDRAALNKAA---AEAAKWAQNQETVNVDVH------AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GASRVLLVGLGKQD--AFNQKAYNDAVTAAWRALLATKVVQVTFSLAQLPVDERSSDWGVRAAILALRNETYRFTQMKSKPEPASHTLKRVVFSVDPADEKAAKVAVKQAVALANGMDLTRDLGNLPGNVCTPTYLGNTAKKIAKDWGLKAEVLGLKQIQALKMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAGSVLGTIRAVAEMGLKINVVAIVPTCENMPGGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACVIALGGHNSGLFSTNDALAGELLDASREANDPAWRMPLDDEYQDQLKSNFADLANIGGRPAGAVTAACFLSRFTESYPWAHLDIAGTAWKGGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G   V +V L K D  A N+ A   A  A W     T  V V         DE  +     A  +A  N  YRF + K + +PA     + VF    A E A K A++ A A   G  L RDLGN   N CTP +L  TAK  A+  G  A+++    I+   MGSF SVA+ SVE P  + L Y GAA K AAPVVLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGAC++ALG   SG+   N  L   LL AS   +D AW++PL + Y+DQLKSNFAD+ NIG   AG +TAA FLS FTE YPWAHLDIAGTAWK GA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|238057772|sp|B1YUW5.1|AMPA_BURA4</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>B1YUW5</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.402</Hsp_bit-score>
+      <Hsp_score>1095</Hsp_score>
+      <Hsp_evalue>5.99682e-131</Hsp_evalue>
+      <Hsp_query-from>1729</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>GLQAVAVVRLEKTDRAALNKAA---AEAAKWAQNQETVNVDVH------AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GASRVLLVGLGKQD--AFNQKAYTDAVTAAWRALLSTKIVQVTFTLAQLPVDERSSDWGVRAAILALRNETYRFTQMKSKPEPASHTLKRVVFSVDPADEKAAKLAVKQAVALANGMDLTRDLGNLPGNVCTPTYLGNTAKKIAKDWGLKAEVLGLKQIQALNMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDTGGISLKPGEAMDEMKYDMCGAGSVLGTMRAVAEMGLKINVVAIVPTCENMPGGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACVIALGAHNSGLFSKDDALAGELLDASREANDPAWRMPLDDEYQDQLKSNFADIANIGGRPAGAVTAACFLSRFTDSYPWAHLDIAGTAWKGGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G   V +V L K D  A N+ A   A  A W     T  V V         DE  +     A  +A  N  YRF + K + +PA     + VF    A E A K A++ A A   G  L RDLGN   N CTP +L  TAK  A+  G  A+++    I+  NMGSF SVA+ SVE P  + L Y GAA K AAPVVLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGAC++ALG   SG+   +  L   LL AS   +D AW++PL + Y+DQLKSNFADI NIG   AG +TAA FLS FT+ YPWAHLDIAGTAWK GA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|8927977|sp|O68822.1|AMPA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas aeruginosa PAO1] &gt;gi|226722547|sp|B7UVT6.1|AMPA_PSEA8 RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>O68822</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.476</Hsp_bit-score>
+      <Hsp_score>1090</Hsp_score>
+      <Hsp_evalue>2.46971e-130</Hsp_evalue>
+      <Hsp_query-from>1775</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AAAVAEAFAIAFGNAAYRFDRYK-KEAKPAKFSQAVFHS--AHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKL-GAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>AHAKARLLVETLADGLYVFDRYKSQKAEPLKLKKLTLLADKADSAAVEQGSKEAQAIANGMALTRDLGNLPPNVCHPTFLGEQAKGLAKEFKGLKVEVLDEKKLRELGMGSFLAVAQGSDQPPRLIVLQYNGA-KKDQAPHVLVGKGITFDTGGISLKPGLGMDEMKFDMCGAASVFGTFRAVLELQLPINLVGLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYAERFKPQSVIDIATLTGACIVALGSNTSGLMGNNEALVRQLLKAGEFADDRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAGCFLSRFAKKYHWAHLDIAGTAWISGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>A A A        +  Y FDRYK ++A+P K  +    +  A  AAV++  + A+A   G +L RDLGN  PN C P FL   AK  A++  G   +++++  ++E  MGSF +VA+GS + P L+ L Y GA  K+ AP VLVGKGITFDTGGISLKPGL MDEMKFDMCGAA+V  TF A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCDALTYAE+FKP++VID+ATLTGACIVALG + SG+MGNN+ L+  LL A    DD+AWQLPLF+ Y++QL S FADI NIG P AGTITA  FLS F + Y WAHLDIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|122322460|sp|Q0BCQ2.1|AMPA_BURCM</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia ambifaria AMMD]</Hit_def>
+  <Hit_accession>Q0BCQ2</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.861</Hsp_bit-score>
+      <Hsp_score>1091</Hsp_score>
+      <Hsp_evalue>2.54026e-130</Hsp_evalue>
+      <Hsp_query-from>1729</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>GLQAVAVVRLEKTDRAALNKAA---AEAAKWAQNQETVNVDVH------AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GASRVLLVGLGKQD--AFNQKAYTDAVTAAWRALLSTKIVQVTFTLAQLPVDERSSDWGVRAAILALRNETYRFTQMKSKPEPASHTLKRVVFSVDPVDEKAAKLAVKQAVALANGMDLTRDLGNLPGNVCTPTYLGNTAKKIAKDWGLKAEVLGLKQIQALNMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDTGGISLKPGEAMDEMKYDMCGAGSVLGTMRAVAEMGLKINVVAIVPTCENMPGGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACVIALGTHNSGLFSKDDALAGELLDASREANDPAWRMPLDDEYQDQLKSNFADIANIGGRPAGAVTAACFLSRFTDSYPWAHLDIAGTAWKGGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G   V +V L K D  A N+ A   A  A W     T  V V         DE  +     A  +A  N  YRF + K + +PA     + VF      E A K A++ A A   G  L RDLGN   N CTP +L  TAK  A+  G  A+++    I+  NMGSF SVA+ SVE P  + L Y GAA K AAPVVLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGAC++ALG   SG+   +  L   LL AS   +D AW++PL + Y+DQLKSNFADI NIG   AG +TAA FLS FT+ YPWAHLDIAGTAWK GA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166215795|sp|A6V0T2.1|AMPA_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6V0T2</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>3.89152e-130</Hsp_evalue>
+      <Hsp_query-from>1775</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AAAVAEAFAIAFGNAAYRFDRYK-KEAKPAKFSQAVFHS--AHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKL-GAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>AHAKARLLVETLADGLYVFDRYKSQKAEPLKLKKLTLLADKADSAAVEQGSKEAQAIANGMALTRDLGNLPPNVCHPTFLGEQAKALAKEFKGLKVEVHDEQKLRELGMGSFLAVAQGSEQPPRLIVLQYNGA-KKDQAPHVLVGKGITFDTGGISLKPGLGMDEMKFDMCGAASVFGTFRAVLELQLPINLVGLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYAERFKPQSVVDIATLTGACIVALGSNTSGLMGNNEALVRQLLKAGEFADDRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAGCFLSRFAKKYHWAHLDIAGTAWISGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>A A A        +  Y FDRYK ++A+P K  +    +  A  AAV++  + A+A   G +L RDLGN  PN C P FL   AKA A++  G   ++ ++  ++E  MGSF +VA+GS + P L+ L Y GA  K+ AP VLVGKGITFDTGGISLKPGL MDEMKFDMCGAA+V  TF A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCDALTYAE+FKP++V+D+ATLTGACIVALG + SG+MGNN+ L+  LL A    DD+AWQLPLF+ Y++QL S FADI NIG P AGTITA  FLS F + Y WAHLDIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123567844|sp|Q39DS5.1|AMPA_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39DS5</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>6.4953e-130</Hsp_evalue>
+      <Hsp_query-from>1729</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>GLQAVAVVRLEKTDRAALNKAA---AEAAKWAQNQETVNVDVH------AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GASRVLLVGLGKQD--AFNQKAYNDAVTAAWRALLATKVVQVTFTLAQLPVDERSSDWGVRAAILALRNETYRFTQMKSKPEPASHTLKRVVFSVDPSDEKAAKVAVKQAVALANGMDLTRDLGNLPGNVCTPTYLGNTAKKIAKDWGLKAEVLGLKQIQALKMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAGSVLGTMRAVAEMGLKINVVAIVPTCENMPGGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACVIALGGHNSGLFSTDDALAGELLDASREANDPAWRMPLDDEYQDQLKSNFADLANIGGRPAGAVTAACFLSRFTESYPWAHLDIAGTAWKGGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G   V +V L K D  A N+ A   A  A W     T  V V         DE  +     A  +A  N  YRF + K + +PA     + VF    + E A K A++ A A   G  L RDLGN   N CTP +L  TAK  A+  G  A+++    I+   MGSF SVA+ SVE P  + L Y GAA K AAPVVLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGAC++ALG   SG+   +  L   LL AS   +D AW++PL + Y+DQLKSNFAD+ NIG   AG +TAA FLS FTE YPWAHLDIAGTAWK GA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|122261006|sp|Q02RY8.1|AMPA_PSEAB</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas aeruginosa UCBPP-PA14]</Hit_def>
+  <Hit_accession>Q02RY8</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.165</Hsp_bit-score>
+      <Hsp_score>1084</Hsp_score>
+      <Hsp_evalue>1.50656e-129</Hsp_evalue>
+      <Hsp_query-from>1775</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>AAAVAEAFAIAFGNAAYRFDRYK-KEAKPAKFSQAVFHS--AHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>AHAKARLLVETLADGLYVFDRYKSQKAEPLKLKKLTLLADKADSAAVEQGSKEAQAIANGMALTRDLGNLPPNVCHPTFLGEQAKGLAKEFKSLKVEVLDEKKLRELGMGSFLAVAQGSDQPPRLIILQYNGA-KKDQAPHVLVGKGITFDTGGISLKPGLGMDEMKFDMCGAASVFGTFRAVLELQLPINLVGLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYAERFKPQSVIDIATLTGACIVALGSNTSGLMGNNEALVRQLLKAGEFADDRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAGCFLSRFAKKYHWAHLDIAGTAWISGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>A A A        +  Y FDRYK ++A+P K  +    +  A  AAV++  + A+A   G +L RDLGN  PN C P FL   AK  A++  +   +++++  ++E  MGSF +VA+GS + P L+ L Y GA  K+ AP VLVGKGITFDTGGISLKPGL MDEMKFDMCGAA+V  TF A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCDALTYAE+FKP++VID+ATLTGACIVALG + SG+MGNN+ L+  LL A    DD+AWQLPLF+ Y++QL S FADI NIG P AGTITA  FLS F + Y WAHLDIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123078985|sp|Q1H4U4.1|AMPA_METFK</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H4U4</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>4.54454e-128</Hsp_evalue>
+      <Hsp_query-from>1769</Hsp_query-from>
+      <Hsp_query-to>2139</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>AFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAKFSQAV----FHSAHEAAVKEA---LRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYI-KENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYLR</Hsp_qseq>
+      <Hsp_hseq>AWRVAQVVEIAE-------DSTYRFDRFK--SKPANGKKGIAKLQVHVTRRSDVAEGEKGLRQGKALAAGVSFAKDLGNLAPNYCTPSYLAEQAEALSDSHGLQVEVLEKEDIEKLGMGSFLGVTKGSVQPPKLIVLQH-RKGKKSQKPVVLVGKGITFDTGGISLKPGADMDEMKYDMCGAASVLGTFKAIAELDLPLNVVGIIPTCENMPDGNATRPGDVLTSMSGQTIEVLNTDAEGRLILCDALTYAERFEPQAVVDVATLTGACVIALGHHASGLFSNKDSLAEELLDAGNEAYDRAWRLPLWDDYQSQLDSNFADMANIGGRAGGSITAACFLSRFAKKYDWAHLDIAGTAWKSGKEKGATGRPVPLLTEFLK</Hsp_hseq>
+      <Hsp_midline>A+  AQ   +AE       ++ YRFDR+K  +KPA   + +     H    + V E    LR  +A   G S  +DLGN APN CTP +LA  A+A ++  G   +++EK+ I K  MGSF  V KGSV+ P L+ L +     K   PVVLVGKGITFDTGGISLKPG +MDEMK+DMCGAA+V+ TF A  +L LP+N++ I+ TCENMP G A +PGDV+ SM G TIEVLNTDAEGRLILCDALTYAE+F+P+AV+DVATLTGAC++ALGH  SG+  N   L + LL A     D+AW+LPL++ Y+ QL SNFAD+ NIG    G+ITAA FLS F + Y WAHLDIAGTAWKSG EKGATGRPVPLL  +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|166198347|sp|A4JGZ2.1|AMPA_BURVG</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia vietnamiensis G4]</Hit_def>
+  <Hit_accession>A4JGZ2</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>6.5804e-128</Hsp_evalue>
+      <Hsp_query-from>1724</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>429</Hsp_align-len>
+      <Hsp_qseq>IPTDNGLQAVAVVRLEKTDRAALNKAA---AEAAKWAQ------NQETVNVDVHAFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAK--FSQAVFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>LPEVSGIGASRVLLVGLGKQDAFNQKAYNDAATAAWRALLATKVGQVTFTLAQLPVDERGSDWGVRAAILALRNETYRFTQMKSKPEPASHALKRVVFSVDPSDEKAAKLAAKQAVALANGMDLTRDLGNLPGNVCTPTYLGNTAKKLAKDWGLKAEVLGLKQIQALKMGSFLSVARASVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAGSVLGTMRAVAEMGLKINVVAIVPTCENMPGGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACVIALGGHNSGLFSKDDALAGELLDASREANDAAWRMPLDDEYQDQLKSNFADIANIGGRPAGAVTAACFLSRFTESYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>+P  +G+ A  V+ +    + A N+ A   A  A W         Q T  +     DE  +     A  +A  N  YRF + K + +PA     + VF    + E A K A + A A   G  L RDLGN   N CTP +L  TAK  A+  G  A+++    I+   MGSF SVA+ SVE P  + L Y GAA K AAPVVLVGKGITFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGAC++ALG   SG+   +  L   LL AS   +D AW++PL + Y+DQLKSNFADI NIG   AG +TAA FLS FTE YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123599962|sp|Q3JV16.1|AMPA_BURP1</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia pseudomallei 1710b]</Hit_def>
+  <Hit_accession>Q3JV16</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>1.05565e-125</Hsp_evalue>
+      <Hsp_query-from>1831</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>GQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GMDLTRDLGNLPGNVCTPTYLANTAKKIAKDWGLKVDVLGLKQIQALKMGSFLSVAKGSVEPPQFIVLQYRGAAAK-AAPVVLVGKGITFDSGGISLKPGEGMDEMKYDMCGAGSVLGTMRAVAEMGLKINVVAIVPTCENMPAGNANKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACIIALGHHNTGLFSKDDALAGELLDASREAGDPAWRLPLDDEYQDQLKSNFADLANIGGRPAGSVTAACFLSRFAENYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G  L RDLGN   N CTP +LA TAK  A+  G    ++    I+   MGSF SVAKGSVE P  + L Y GAA K AAPVVLVGKGITFD+GGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP+G ANKPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGACI+ALGH  +G+   +  L   LL AS    D AW+LPL + Y+DQLKSNFAD+ NIG   AG++TAA FLS F E YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122401997|sp|Q1I5F9.1|AMPA_PSEE4</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas entomophila L48]</Hit_def>
+  <Hit_accession>Q1I5F9</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>1.39984e-125</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYKKEAKPAKFSQAVFHSAHEAAVKEALRV---AEAQVYGQSLCRDLGNAAPNECTPEFLARTAKA--EAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DSDYVFDRYKSQKAEPRALKKITLLADKAGLAEAERAVKHASAIATGMAFTRDLGNLPPNVCHPSFLAEQAKGLGKAHK-GLKVEVLDEKKIKELGMGAFYAVGQGSDQPPRLIVLNYQGGKKSEK-PFVLVGKGITFDTGGISLKPGAGMDEMKYDMCGAASVFGTLRAVLELQLPINLVCLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDTLTYAERFKPQAVIDIATLTGACIVALGSHTSGLMGNNDELVGQLLDAGKRADDRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAGCFLSRFAKAYNWAHLDIAGTAWISGGKDKGASGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>++ Y FDRYK +    +  + +   A +A + EA R    A A   G +  RDLGN  PN C P FLA  AK   +A K G   +++++  IKE  MG+F++V +GS + P L+ L+Y G    E  P VLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V  T  A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCD LTYAE+FKP+AVID+ATLTGACIVALG   SG+MGNN +L+  LL A    DD+AWQLPLF+ Y++QL S FADI NIG P AGTITA  FLS F + Y WAHLDIAGTAW SG  +KGA+GRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|56404471|sp|Q63WC3.1|AMPA_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia pseudomallei K96243] &gt;gi|166198345|sp|A3NSI1.1|AMPA_BURP0 RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia pseudomallei 1106a] &gt;gi|166198346|sp|A3N6U4.1|AMPA_BURP6 RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>Q63WC3</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>1.74229e-125</Hsp_evalue>
+      <Hsp_query-from>1831</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>GQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GMDLTRDLGNLPGNVCTPTYLANTAKKIAKDWGLKVDVLGLKQIQALKMGSFLSVAKGSVEPPQFIVLQYRGAAAK-AAPVVLVGKGITFDSGGISLKPGEGMDEMKYDMCGAGSVLGTMRAVAEMGLKVNVVAIVPTCENMPAGNANKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACIIALGHHNTGLFSKDDALAGELLDASREAGDPAWRLPLDDEYQDQLKSNFADLANIGGRPAGSVTAACFLSRFAENYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G  L RDLGN   N CTP +LA TAK  A+  G    ++    I+   MGSF SVAKGSVE P  + L Y GAA K AAPVVLVGKGITFD+GGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L +N++AIV TCENMP+G ANKPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGACI+ALGH  +G+   +  L   LL AS    D AW+LPL + Y+DQLKSNFAD+ NIG   AG++TAA FLS F E YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81605360|sp|Q62LH2.1|AMPA_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia mallei ATCC 23344] &gt;gi|166198342|sp|A3MLR1.1|AMPA_BURM7 RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia mallei NCTC 10247] &gt;gi|166198343|sp|A2SAC2.1|AMPA_BURM9 RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia mallei NCTC 10229] &gt;gi|166198344|sp|A1V5Z5.1|AMPA_BURMS RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia mallei SAVP1]</Hit_def>
+  <Hit_accession>Q62LH2</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>1.74229e-125</Hsp_evalue>
+      <Hsp_query-from>1831</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>GQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GMDLTRDLGNLPGNVCTPTYLANTAKKIAKDWGLKVDVLGLKQIQALKMGSFLSVAKGSVEPPQFIVLQYRGAAAK-AAPVVLVGKGITFDSGGISLKPGEGMDEMKYDMCGAGSVLGTMRAVAEMGLKVNVVAIVPTCENMPAGNANKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACIIALGHHNTGLFSKDDALAGELLDASREAGDPAWRLPLDDEYQDQLKSNFADLANIGGRPAGSVTAACFLSRFAENYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G  L RDLGN   N CTP +LA TAK  A+  G    ++    I+   MGSF SVAKGSVE P  + L Y GAA K AAPVVLVGKGITFD+GGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L +N++AIV TCENMP+G ANKPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGACI+ALGH  +G+   +  L   LL AS    D AW+LPL + Y+DQLKSNFAD+ NIG   AG++TAA FLS F E YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|189027402|sp|B0KQK8.1|AMPA_PSEPG</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas putida GB-1]</Hit_def>
+  <Hit_accession>B0KQK8</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>2.01345e-125</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYK-KEAKPAKFSQAVF--HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAK--AEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGA--ADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DGEYVFDRFKSQKAEPRALKKVTLLADKAGQAEVERAVKHASAIATGMAFTRDLGNLPPNLCHPSFLAEQAKDLGKAHK-GLKVEVLDEKKIKDLGMGAFYAVGQGSDQPPRLIVLNYQGGKKADK---PFVLVGKGITFDTGGISLKPGAGMDEMKYDMCGAASVFGTLRAVLELQLPINLVCLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDTLTYAERFKPQAVIDIATLTGACIVALGSHTSGLMGNNDDLVGQLLDAGKRADDRAWQLPLFDEYQEQLDSPFADMGNIGGPKAGTITAGCFLSRFAKAYNWAHMDIAGTAWVSGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>+  Y FDR+K ++A+P    +       A +A V+ A++ A A   G +  RDLGN  PN C P FLA  AK   +A K G   +++++  IK+  MG+F++V +GS + P L+ L+Y G   ADK   P VLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V  T  A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCD LTYAE+FKP+AVID+ATLTGACIVALG   SG+MGNN DL+  LL A    DD+AWQLPLF+ Y++QL S FAD+ NIG P AGTITA  FLS F + Y WAH+DIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|123537811|sp|Q2T0C0.1|AMPA_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2T0C0</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>2.63193e-125</Hsp_evalue>
+      <Hsp_query-from>1831</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>GQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GMDLTRDLGNLPGNVCTPTYLANTAKKLAKDWGLKADVLGLKQIQALKMSSFLSVAKGSVEPPQFIVLHYQGAAAK-AAPVVLVGKGITFDSGGISLKPGEGMDEMKYDMCGAGSVLGTIRAVAEMGLKINVVAIVPTCENMPAGNANKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDVATLTGACIIALGHHNTGLFSKDDALAGELLDASREAGDPAWRLPLDDEYQDQLKSNFADLANIGGRPAGSVTAACFLSRFAENYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G  L RDLGN   N CTP +LA TAK  A+  G  A ++    I+   M SF SVAKGSVE P  + L Y GAA K AAPVVLVGKGITFD+GGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++AIV TCENMP+G ANKPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVIDVATLTGACI+ALGH  +G+   +  L   LL AS    D AW+LPL + Y+DQLKSNFAD+ NIG   AG++TAA FLS F E YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|238057776|sp|B2JET5.1|AMPA_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JET5</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.068</Hsp_bit-score>
+      <Hsp_score>1050</Hsp_score>
+      <Hsp_evalue>8.71817e-125</Hsp_evalue>
+      <Hsp_query-from>1781</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>AFAIAFGNAAYRFDRYKKEAKPAKFSQA----VFH--SAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>AAILALRELTYKFTQMK--SKPDTSTRALKRIVFSVDAADEKLAKVAVKQGVALANGMDLTKDLGNLPGNVCTPTYLGNTAKKLAKDWKLKVEVLGQKQIEALKMGSFLAVTQGSVEPPQFIVLQYQGGAAK-AAPVVLVGKGITFDTGGISLKPGDSMDEMKYDMCGAGSVLGTLRAVAEMGLKLNVVGIIPTCENMPAGNATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDIATLTGACIIALGHHNSGLFSKDDALAGELLDASKEASDPAWRLPLDDEYQDQLKSNFADIANIGGRPAGSVTAACFLSRFTEAYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>A  +A     Y+F + K  +KP   ++A    VF   +A E   K A++   A   G  L +DLGN   N CTP +L  TAK  A+      +++ +  I+   MGSF +V +GSVE P  + L Y G A K AAPVVLVGKGITFDTGGISLKPG +MDEMK+DMCGA +V+ T  A  ++ L +N++ I+ TCENMP+G A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVID+ATLTGACI+ALGH  SG+   +  L   LL AS    D AW+LPL + Y+DQLKSNFADI NIG   AG++TAA FLS FTE YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|166215796|sp|A5VZ69.1|AMPA_PSEP1</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas putida F1]</Hit_def>
+  <Hit_accession>A5VZ69</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.683</Hsp_bit-score>
+      <Hsp_score>1049</Hsp_score>
+      <Hsp_evalue>1.10054e-124</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYK-KEAKPAKFSQAVF--HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGA--ADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DGEYVFDRFKSQKAEPRALKKVTLLADKAGQAEVERAVKHASAIASGMAFTRDLGNLPPNLCHPSFLAEQAKELGKAHKALKVEVLDEKKIKDLGMGAFYAVGQGSDQPPRLIMLNYQGGKKADK---PFVLVGKGITFDTGGISLKPGAGMDEMKYDMCGAASVFGTLRAVLELQLPINLVCLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDTLTYAERFKPQAVIDIATLTGACIVALGSHTSGLMGNNDDLVGQLLDAGKRADDRAWQLPLFDEYQEQLDSPFADMGNIGGPKAGTITAGCFLSRFAKAYNWAHMDIAGTAWVSGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>+  Y FDR+K ++A+P    +       A +A V+ A++ A A   G +  RDLGN  PN C P FLA  AK   +   A   +++++  IK+  MG+F++V +GS + P L+ L+Y G   ADK   P VLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V  T  A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCD LTYAE+FKP+AVID+ATLTGACIVALG   SG+MGNN DL+  LL A    DD+AWQLPLF+ Y++QL S FAD+ NIG P AGTITA  FLS F + Y WAH+DIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|38257495|sp|Q88P73.1|AMPA_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88P73</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.683</Hsp_bit-score>
+      <Hsp_score>1049</Hsp_score>
+      <Hsp_evalue>1.15589e-124</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYK-KEAKPAKFSQAVF--HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGA--ADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DGEYVFDRFKSQKAEPRALKKVTLLADKAGQAEVERAVKHASAIASGMAFTRDLGNLPPNLCHPSYLAEQAKELGKAHKALKVEVLDEKKIKDLGMGAFYAVGQGSDQPPRLIVLNYQGGKKADK---PFVLVGKGITFDTGGISLKPGAGMDEMKYDMCGAASVFGTLRAVLELQLPINLVCLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDTLTYAERFKPQAVIDIATLTGACIVALGSHTSGLMGNNDDLVGQLLDAGKRADDRAWQLPLFEEYQEQLDSPFADMGNIGGPKAGTITAGCFLSRFAKAYNWAHMDIAGTAWVSGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>+  Y FDR+K ++A+P    +       A +A V+ A++ A A   G +  RDLGN  PN C P +LA  AK   +   A   +++++  IK+  MG+F++V +GS + P L+ L+Y G   ADK   P VLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V  T  A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCD LTYAE+FKP+AVID+ATLTGACIVALG   SG+MGNN DL+  LL A    DD+AWQLPLFE Y++QL S FAD+ NIG P AGTITA  FLS F + Y WAH+DIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|259710081|sp|C1DPG2.1|AMPA_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DPG2</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.683</Hsp_bit-score>
+      <Hsp_score>1049</Hsp_score>
+      <Hsp_evalue>1.22339e-124</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYKKEAKPAKFSQAVF---HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DATYAFDRFKSEKASAPVLKKLVLLCDKAGQAEVERAASHAQAIVDGMALTRDLGNLPPNLCHPTSLASEAKALAKTYDTLKVEVLDEKKLKELGMGAFLAVAQGSDQPPRLIVLDYQGG-KKDEQPFVLVGKGITFDSGGISLKPGSGMDEMKYDMCGAASVLGTFRALLELALPINVVGLLACAENMPSGGATRPGDIVTSMSGQTVEILNTDAEGRLVLCDALTYAERFKPQAVIDIATLTGACITALGTQASGLMGNDDDLIRQVLEAGEHAADRAWQLPLFEEYQEQLDSPFADMANIGGPKAGTITAACFLSRFAKNYHWAHLDIAGTAWISGGKEKGATGRPVPLLTQFL</Hsp_hseq>
+      <Hsp_midline>+A Y FDR+K E   A   + +      A +A V+ A   A+A V G +L RDLGN  PN C P  LA  AKA A+       +++++  +KE  MG+F +VA+GS + P L+ L Y G   K+  P VLVGKGITFD+GGISLKPG  MDEMK+DMCGAA+V+ TF A ++L LPIN++ ++A  ENMPSG A +PGD+V SM G T+E+LNTDAEGRL+LCDALTYAE+FKP+AVID+ATLTGACI ALG   SG+MGN+ DLI  +L A  +  D+AWQLPLFE Y++QL S FAD+ NIG P AGTITAA FLS F + Y WAHLDIAGTAW SG  EKGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|229892177|sp|B1JBA9.1|AMPA_PSEPW</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas putida W619]</Hit_def>
+  <Hit_accession>B1JBA9</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>2.71389e-124</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYKKEAKPAKFSQAVFHSAHEAAVKE---ALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAK--AEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DGEYVFDRFKSQKAEPRALKKITLLADKAGLTEVERAARHATAIATGMAFTRDLGNLPPNLCHPSYLAEQAKELGKAHK-GLKVEVFDEKKIKDLGMGAFYAVGQGSEQPPRLIVLQYQGA-KKSDKPFVLVGKGITFDTGGISLKPGAGMDEMKYDMCGAASVFGTLRAVLELKLPINLVCILACAENMPSGNATRPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYAERFKPQAVIDIATLTGACIVALGSHTAGLLGNNDELIGQLLDAGKRADDRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAACFLSRFAKAYNWAHLDIAGTAWVSGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>+  Y FDR+K +    +  + +   A +A + E   A R A A   G +  RDLGN  PN C P +LA  AK   +A K G   ++ ++  IK+  MG+F++V +GS + P L+ L Y GA  K   P VLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V  T  A ++L+LPINL+ I+A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCDALTYAE+FKP+AVID+ATLTGACIVALG   +G++GNN +LI  LL A    DD+AWQLPLF+ Y++QL S FADI NIG P AGTITAA FLS F + Y WAHLDIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|259710099|sp|C3K6G5.1|AMPA_PSEFS</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas fluorescens SBW25]</Hit_def>
+  <Hit_accession>C3K6G5</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.142</Hsp_bit-score>
+      <Hsp_score>1045</Hsp_score>
+      <Hsp_evalue>3.52924e-124</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYK-KEAKPAKFSQAVFHS--AHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKL-GAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DGGYIFDEFKSQKAEPRALKKITLLTIKAAQAEVERAVTHAQAIANGMSFTRDLGNLPPNICHPTFLGEQAKALGKEFKGLKVEVLDEKKIKELGMGSFYAVGQGSDQPPRLIVMQYNGGKKSEK-PYALVGKGITFDTGGISLKPGLGMDEMKYDMGGAASVFGTLRAVLELKLPINLVCILACAENMPSGGATRPGDIVTTLSGQTVEILNTDAEGRLVLCDALTYAERFKPQAVIDIATLTGACIVALGSHTSGLLGNSDELIEQLLSAGKAADDRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAACFLSRFAKNFNWAHLDIAGTAWTSGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>+  Y FD +K ++A+P    +    +  A +A V+ A+  A+A   G S  RDLGN  PN C P FL   AKA  ++  G   +++++  IKE  MGSF++V +GS + P L+ + Y G    E  P  LVGKGITFDTGGISLKPGL MDEMK+DM GAA+V  T  A ++L+LPINL+ I+A  ENMPSG A +PGD+V ++ G T+E+LNTDAEGRL+LCDALTYAE+FKP+AVID+ATLTGACIVALG   SG++GN+ +LI+ LL+A    DD+AWQLPLF+ Y++QL S FADI NIG P AGTITAA FLS F + + WAHLDIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|38257475|sp|Q887M0.1|AMPA_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q887M0</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>8.04181e-124</Hsp_evalue>
+      <Hsp_query-from>1779</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>AEAFAIAFGNAAYRFDRYKK---EAKPAKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKII-----EKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>ARLFVEALADGEYVFDRFKTQKAEVRPLKKITLLTDKVSVADVERAANHAQAIATGMALTRDLGNLPPNICHPTYLGEEAKALGK---AHKNLKVEIHDEKKLAELGMGSFLAVAQGSAQPPRLIVMNYQGG-KKGDKPFVLVGKGITFDTGGISIKPAAGMDEMKFDMCGAASVFGTLRAVLELKLPINVVCILACAENMPSGTATRPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYAERFKPQAVIDIATLTGACVVALGGHTSGLLGNNDALINQLLDAGKLADDRAWQLPLFDEYQEQLDSPFADIANIGGPKGGTITAACFLSRFTKAYEWAHLDIAGTAWLSGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>A  F  A  +  Y FDR+K    E +P K    +      A V+ A   A+A   G +L RDLGN  PN C P +L   AKA  +   AH  +      EK   +  MGSF +VA+GS + P L+ ++Y G   K   P VLVGKGITFDTGGIS+KP   MDEMKFDMCGAA+V  T  A ++L+LPIN++ I+A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCDALTYAE+FKP+AVID+ATLTGAC+VALG   SG++GNN  LI+ LL A    DD+AWQLPLF+ Y++QL S FADI NIG P  GTITAA FLS FT+ Y WAHLDIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|8927980|sp|O86436.1|AMPA_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas putida]</Hit_def>
+  <Hit_accession>O86436</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>1.83551e-123</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYKK---EAKPAKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGA--ADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DGEYVFDRFKSQKVEPRALKKVTLLADKAGQAEVERAVKHASAIATGMAFTRDLGNLPPNLCHPSFLAEQAKELGKAHKALKVEVLDEKKIKDLGMGAFYAVGQGSDQPPRLIVLNYQGGKKADK---PFVLVGKGITFDTGGISLKPGAGMDEMKYDMCGAASVFGTLRAVLELQLPVNLVCLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDTLTYAERFKPQAVIDIATLTGACIVALGSHTTGLMGNNDDLVGQLLDAGKRADDRAWQLPLFDEYQEQLDSPFADMGNIGGPKAGTITAGCFLSRFAKAYNWAHMDIAGTAWISGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>+  Y FDR+K    E +  K    +   A +A V+ A++ A A   G +  RDLGN  PN C P FLA  AK   +   A   +++++  IK+  MG+F++V +GS + P L+ L+Y G   ADK   P VLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V  T  A ++LQLP+NL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCD LTYAE+FKP+AVID+ATLTGACIVALG   +G+MGNN DL+  LL A    DD+AWQLPLF+ Y++QL S FAD+ NIG P AGTITA  FLS F + Y WAH+DIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|75503204|sp|Q4ZXH7.1|AMPA_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZXH7</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>7.72838e-123</Hsp_evalue>
+      <Hsp_query-from>1777</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>AVAEAFAIAFGNAAYRFDRYKK---EAKPAKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKII-----EKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GMARLLVEALADGEYVFDRFKTQKAEVRALKKITLLTDKVKAADVERASTHAQAIATGMALTRDLGNLPPNICHPTYLGEEAKALGK---AHKNLKVEVHDEKKLADLGMGSFLAVAQGSAQPPRLIVMNYQGG-KKGDQPFVLVGKGITFDTGGISIKPASGMDEMKFDMCGAASVFGTLRAVLELKLPINLVCILACAENMPSGTATRPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYAERFKPQAVIDIATLTGACVVALGGHTSGLLGNNDALINQLLDAGKQADDRAWQLPLFDEYQEQLDSPFADIANIGGPKGGTITAACFLSRFTKAYHWAHLDIAGTAWLSGGKEKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline> +A     A  +  Y FDR+K    E +  K    +      A V+ A   A+A   G +L RDLGN  PN C P +L   AKA  +   AH  +      EK      MGSF +VA+GS + P L+ ++Y G   K   P VLVGKGITFDTGGIS+KP   MDEMKFDMCGAA+V  T  A ++L+LPINL+ I+A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCDALTYAE+FKP+AVID+ATLTGAC+VALG   SG++GNN  LI+ LL A    DD+AWQLPLF+ Y++QL S FADI NIG P  GTITAA FLS FT+ Y WAHLDIAGTAW SG  EKGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|238057777|sp|B2T146.1|AMPA_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2T146</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>3.63947e-122</Hsp_evalue>
+      <Hsp_query-from>1729</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>GLQAVAVVRLEKTDRAALNKAA---AEAAKWAQNQETVNVDVHAFDEAQAAAV-------AEAFAIAFGNAAYRFDRYKKEAKPAKFSQAV------FHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKII-EKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>GASRVLLVGLGKQD--AFNQKAYGDAVRAAWRALLGTKIVQV-TFTLAQAPILERTADWGVRAAILALRELTYKFTQMK--SKPENAARALKRIVFSVNTGDEKAAKLAAKQGAALANGMDLTRDLGNLPSNVCTPTYLANTAKKLAKDWKLKVEVLGEKQCEALKMGSFLSVTAGSVEPAQFIVLQYQGGAAK-AAPVVLVGKGVTFDTGGISLKPGEGMDEMKYDMCGAGSVLGTLRAVAEMGLKLNVVGIIPAVENMPSATATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDIATLTGACIIALGHHNSGLFSKDDALAGELLDASREASDPAWRLPLDDEYQDQLKSNFADLANIGGRPAGSVTAACFLSRFTDAYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>G   V +V L K D  A N+ A   A  A W     T  V V  F  AQA  +         A  +A     Y+F + K  +KP   ++A+       ++  E A K A +   A   G  L RDLGN   N CTP +LA TAK  A+      +++ EK      MGSF SV  GSVE    + L Y G A K AAPVVLVGKG+TFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L +N++ I+   ENMPS  A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVID+ATLTGACI+ALGH  SG+   +  L   LL AS    D AW+LPL + Y+DQLKSNFAD+ NIG   AG++TAA FLS FT+ YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|166215797|sp|A4VNZ7.1|AMPA_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VNZ7</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>4.67726e-122</Hsp_evalue>
+      <Hsp_query-from>1787</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>GNAAYRFDRYK-KEAKPAKFSQAVF--HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKL-GAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>ADGQYVFDQFKSKKAEPRALQKIILLCDKAEQAGVERAAREASAIATGMAFTRDLGNLPPNVCHPTFLADQARQLSKAYKGVKLDVLDEKKLRELGAGAFLAVSQGSDQPGCIIVLQYNGG-KKGDKPYALVGKGITFDTGGISLKPGLGMDEMKYDMGGGASVLGTLKAVLELQLPINLVCLLACAENMPSGGATRPGDIVTTMSGQTVEILNTDAEGRLVLCDTLTYAERFEPRAVVDVATLTGACIVALGSNTSGLLGNNDELIQQLLQAGESAADRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAACFLSRFTKKYPWAHLDIAGTAWTSGGKEKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline> +  Y FD++K K+A+P    + +     A +A V+ A R A A   G +  RDLGN  PN C P FLA  A+  ++   G    ++++  ++E   G+F +V++GS +   ++ L Y G   K   P  LVGKGITFDTGGISLKPGL MDEMK+DM G A+V+ T  A ++LQLPINL+ ++A  ENMPSG A +PGD+V +M G T+E+LNTDAEGRL+LCD LTYAE+F+P+AV+DVATLTGACIVALG + SG++GNN +LI  LL A  +  D+AWQLPLF+ Y++QL S FADI NIG P AGTITAA FLS FT+ YPWAHLDIAGTAW SG  EKGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123168889|sp|Q143Y9.1|AMPA_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q143Y9</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>4.73914e-122</Hsp_evalue>
+      <Hsp_query-from>1772</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>EAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAKFSQAV------FHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKII-EKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>ERSADWAVRAAILALRELTYKFTQMK--SKPDTSARALKRIVFSVNTGDEKAAKLAAKQGAALANGMDLTRDLGNLPSNVCTPTYLANTAKKLAKDWKLKVEVLGEKQCEALKMGSFLSVTAGSVEPAQFIVLQYQGGAAK-AAPVVLVGKGVTFDTGGISLKPGEGMDEMKYDMCGAGSVLGTLRAVAEMGLKINVVGIIPAVENMPSATATKPGDIVTSMKGLTIEVLNTDAEGRLILCDALTYAERFKPAAVIDIATLTGACIIALGHHNSGLFSKDDALAGELLDASREASDPAWRMPLDDEYQDQLKSNFADLANIGGRPAGSVTAACFLSRFTEAYPWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>E  A     A  +A     Y+F + K  +KP   ++A+       ++  E A K A +   A   G  L RDLGN   N CTP +LA TAK  A+      +++ EK      MGSF SV  GSVE    + L Y G A K AAPVVLVGKG+TFDTGGISLKPG  MDEMK+DMCGA +V+ T  A  ++ L IN++ I+   ENMPS  A KPGD+V SMKGLTIEVLNTDAEGRLILCDALTYAE+FKP AVID+ATLTGACI+ALGH  SG+   +  L   LL AS    D AW++PL + Y+DQLKSNFAD+ NIG   AG++TAA FLS FTE YPWAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|56404567|sp|Q7NTY9.1|AMPA_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NTY9</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>1.10092e-121</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2140</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYKKEA-----KPAKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYLRN</Hsp_qseq>
+      <Hsp_hseq>DALYRFDRFKSKQDESVREPRKLTLAVPRRSDLADGEKGLQRGLAIGNGMKLAKDLGNLPGNVCTPSYLGEEARKVAETFGAEAEILGPREIAELGMHSFLSVAKGSAEEARLIVLKHHGAKDKNDKPIVLVGKGITFDSGGISLKPGEGMDEMKYDMCGAATVLGAFRAAVEMNLPLNVIAIVPTCENMPNGNAVKPGDIVTSMSGQTIEILNTDAEGRLILCDALTYAERFSPATVIDVATLTGACVIALGHIATGLYSNQDSLARELLAAGEEVADRAWHMPMWDEYQEMLKSPFADMANIGGRPGGSVTAACFLSRFAKAYDWAHLDIAGTAWKGGKDKGATARPVPLLVQFLQD</Hsp_hseq>
+      <Hsp_midline>+A YRFDR+K +      +P K + AV   +  A  ++ L+   A   G  L +DLGN   N CTP +L   A+  AE  GA A+I+    I E  M SF SVAKGS E+  L+ L + GA DK   P+VLVGKGITFD+GGISLKPG  MDEMK+DMCGAATV+  F AAV++ LP+N+IAIV TCENMP+G A KPGD+V SM G TIE+LNTDAEGRLILCDALTYAE+F P  VIDVATLTGAC++ALGH  +G+  N   L   LLAA   V D+AW +P+++ Y++ LKS FAD+ NIG    G++TAA FLS F + Y WAHLDIAGTAWK G +KGAT RPVPLL+ +L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123544907|sp|Q2YB18.1|AMPA_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2YB18</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>1.42648e-121</Hsp_evalue>
+      <Hsp_query-from>1780</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>EAFAIAFG--NAAYRFDRYK---KEAKPA--KFSQAVFHSAHE---AAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIE-KDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>KVLQIAVGGLESMYRFDRLKSKVEEAEPKLQKITLGIIKSLTEEEQTASEEALQQGLAVGDGMSLAKDLGNLAPNICTPTYLAEQAMNMAKTYKLKVTVLEQKDMEDLGMGALLAVARGSRQPPKLIALEYWGGA-KKGKPVVLVGKGVTFDTGGISLKPAGEMDEMKYDMCGAASVLGTVHAVAKMGLPINVVGIIPATENMPGGNATKPGDVVTSMSGQTIEILNTDAEGRLILCDALAYTERYEPEAVIDIATLTGACVIALGHVASGLLSNDDELARELLDASERAVDRAWRLPLFDEYQEQLKSNFADVANIGGRAAGTITAACFLARFTKKYRWAHLDIAGTAWKSGKEKGATGRPVPLLTQFL</Hsp_hseq>
+      <Hsp_midline>+   IA G   + YRFDR K   +EA+P   K +  +  S  E    A +EAL+   A   G SL +DLGN APN CTP +LA  A   A+       ++E KD     MG+  +VA+GS + P L+ L Y+G A K+  PVVLVGKG+TFDTGGISLKP   MDEMK+DMCGAA+V+ T  A  K+ LPIN++ I+   ENMP G A KPGDVV SM G TIE+LNTDAEGRLILCDAL Y E+++P+AVID+ATLTGAC++ALGH  SG++ N+ +L   LL AS    D+AW+LPLF+ Y++QLKSNFAD+ NIG   AGTITAA FL+ FT+ Y WAHLDIAGTAWKSG EKGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|259710103|sp|C5BMG6.1|AMPA_TERTT</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Teredinibacter turnerae T7901]</Hit_def>
+  <Hit_accession>C5BMG6</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>2.33525e-121</Hsp_evalue>
+      <Hsp_query-from>1768</Hsp_query-from>
+      <Hsp_query-to>2140</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>HAFDEAQAAAVAEAFAIAFGNAAYRFDRYKKEAKPAKFSQAVFHSAHEA----AVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAK---AEAEKLGAHAKIIEKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYLRN</Hsp_qseq>
+      <Hsp_hseq>HFGEPADASWVAEQMAKLFVTASYRYTETFSKPEPAPALGKVTYASDDATRTRAVKSALLKGAAIGEGMNLTRQLGNLPGNICTPAYLVEQAKQLAAACPKLTTKS-LNEKQIEKLGMGAFHSVAKGSDLDAQLIIMEYKGAGGAKSQPHVLVGKGITFDTGGISLKPGANMDEMKFDMGGAASVFGAMKALIEMDAKVHVIGVIAAAENMPSGRASKPGDIVTSMSGQTIEILNTDAEGRLVLCDTLTYVERFKPKSVVDIATLTGACVIALGNHATGLYSNEQALADKLLAAGVGANDRAWQMPLWDDYQKQLDSNFADMANIGGPAGGSVTAACFLSRFTKSYPWAHLDIAGTAWQSGAKKGSTGRPVSLLVNYLLN</Hsp_hseq>
+      <Hsp_midline>H  + A A+ VAE  A  F  A+YR+     + +PA     V +++ +A    AVK AL    A   G +L R LGN   N CTP +L   AK   A   KL   + + EK   K  MG+F SVAKGS  D  L+ + Y GA   ++ P VLVGKGITFDTGGISLKPG NMDEMKFDM GAA+V     A +++   +++I ++A  ENMPSG A+KPGD+V SM G TIE+LNTDAEGRL+LCD LTY E+FKPK+V+D+ATLTGAC++ALG+  +G+  N Q L D LLAA    +D+AWQ+PL++ Y+ QL SNFAD+ NIG P  G++TAA FLS FT+ YPWAHLDIAGTAW+SGA+KG+TGRPV LL+NYL N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|123624243|sp|Q46XT9.1|AMPA_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46XT9</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>4.08212e-121</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>NAAYRF-DRY----KKEAKPAKFSQAVFHS------AHEA-AVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DAGYRLLERHPGLKRANGKPGAADKATLRKVVLAVDANDAKAATQAVVRGTAIANGMELTRDLGNLPSNICTPTYLANTARAIAKRHKLKVEVLGRKQIEALNMGSFLAVTKGSVEPPQFIVLRYDGAGAKQA-PVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAASVLGTLQAVAEMGLKLNVIAVVPTCENMPSGVATKPGDVVTSMSGQTIEILNTDAEGRLILCDALTYVERFKPAAVVDVATLTGACIIALGHINTGLYARSDMLADQLLQAGRKSMDTAWRMPLDDEYQDQLKSNFADMANIGGRPAGSVTAACFLARFTEKYDWAHLDIAGTAWKSGAAKGATGRPVPLLTQFL</Hsp_hseq>
+      <Hsp_midline>+A YR  +R+    +   KP    +A          A++A A  +A+    A   G  L RDLGN   N CTP +LA TA+A A++     +++ +  I+  NMGSF +V KGSVE P  + L Y GA  K+A PVVLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V+ T  A  ++ L +N+IA+V TCENMPSG A KPGDVV SM G TIE+LNTDAEGRLILCDALTY E+FKP AV+DVATLTGACI+ALGH  +G+   +  L D LL A     D AW++PL + Y+DQLKSNFAD+ NIG   AG++TAA FL+ FTE Y WAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|56404590|sp|Q82X54.1|AMPA_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82X54</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>4.30967e-121</Hsp_evalue>
+      <Hsp_query-from>1789</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>AAYRFDRYK-----KEAKPAKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIE-KDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>SAYRFDRLKSKPEGRQPSLAKVDIGITDTSTAAAVETALQQGLAIAHGMKVTKDLGNLAPNICTPSYLAGQAEEMARTFNLKFSVLEEKDMEELGMGALLAVARGSHQPAKLIVLEYHGGKDSEK-PVALVGKGVTFDAGGISLKPAAEMDEMKYDMGGAASVFGTLTAVAELKLPINVIGVIPTTENLPGGNATKPGDVVTSLSGQTIEILNTDAEGRLILCDALAYTERYDPEVVVDIATLTGACVVALGHVVSGVMGNDEPLVQELLQAGEQTYDRAWHLPLFDEYQEQLKSNFADTANIGSRWGGAITAACFLSRFTKKFRWAHLDIAGTAWKSGKEKGATGRPVPLLTQFL</Hsp_hseq>
+      <Hsp_midline>+AYRFDR K     ++   AK    +  ++  AAV+ AL+   A  +G  + +DLGN APN CTP +LA  A+  A        ++E KD  +  MG+  +VA+GS +   L+ L Y G  D E  PV LVGKG+TFD GGISLKP   MDEMK+DM GAA+V  T  A  +L+LPIN+I ++ T EN+P G A KPGDVV S+ G TIE+LNTDAEGRLILCDAL Y E++ P+ V+D+ATLTGAC+VALGH VSGVMGN++ L+  LL A     D+AW LPLF+ Y++QLKSNFAD  NIG+   G ITAA FLS FT+ + WAHLDIAGTAWKSG EKGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|166215784|sp|A4G7P5.1|AMPA_HERAR</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Herminiimonas arsenicoxydans]</Hit_def>
+  <Hit_accession>A4G7P5</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>5.14638e-121</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>NAAYRFD--RYKKEAKPAKFSQAVF--HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQD----LIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DASYRFDSLKSKKEPAPAGVKKIVFAVSAASTAIAKDAIAQAVAQANGIDLTKDLGNLPANVCTPTYLANTAKKMAKEFKLQVEVLDRKQLQALKMGSFLSVTNGSVEPPKFIVLKHMGGKAKDA-PVVLVGKGITFDSGGISLKPGAAMDEMKYDMGGAASVLGTMRAIAELKLKLNVIVVIPTCENMPSGSATKPGDIVTSMSGQTIEVLNTDAEGRLVLCDALTYVERFKPAAVIDVATLTGACITALGHHNSGLFTRSDDAHDALANELLAAGKASGDTAWRMPIEDSYQEQLKSNFADMANIGGPAGGAVTAACFLERYTKKYTWAHLDIAGTAWKSGAAKGSTGRPVPLLTSFL</Hsp_hseq>
+      <Hsp_midline>+A+YRFD  + KKE  PA   + VF   +A  A  K+A+  A AQ  G  L +DLGN   N CTP +LA TAK  A++     +++++  ++   MGSF SV  GSVE P  + L + G   K+A PVVLVGKGITFD+GGISLKPG  MDEMK+DM GAA+V+ T  A  +L+L +N+I ++ TCENMPSG+A KPGD+V SM G TIEVLNTDAEGRL+LCDALTY E+FKP AVIDVATLTGACI ALGH  SG+   + D    L + LLAA     D AW++P+ ++Y++QLKSNFAD+ NIG P  G +TAA FL  +T+ Y WAHLDIAGTAWKSGA KG+TGRPVPLL ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|123605862|sp|Q3KHM4.1|AMPA_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3KHM4</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>6.94146e-121</Hsp_evalue>
+      <Hsp_query-from>1788</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>NAAYRFDRYK-KEAKPAKFSQAVFHS--AHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKL-GAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGA-EKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>DGEYTFDQFKSQKAEPRALKKITLLTIKAAQAEVQRAVNHATAIANGMAFTRNLGNLPPNICHPTFLGEQAKNLGKEFKDLKVEVLDEKKIKSLGMGSFYAVGQGSAQPPRLIVMQYNGGKKSEK-PYALVGKGITFDTGGISLKPGAGMDEMKYDMGGAASVFGTLRAVLELKLPINLVCILACAENMPSGTASRPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYSERFKPQAVIDIATLTGACVVALGAHTSGLLGNNDELIEQLLSAGKAADDRAWQLPLFDEYQEQLDSPFADIANIGGPKAGTITAACFLSRFTKNLNWAHLDIAGTAWTSGGKDKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>+  Y FD++K ++A+P    +    +  A +A V+ A+  A A   G +  R+LGN  PN C P FL   AK   ++      +++++  IK   MGSF++V +GS + P L+ + Y G    E  P  LVGKGITFDTGGISLKPG  MDEMK+DM GAA+V  T  A ++L+LPINL+ I+A  ENMPSG A++PGD+V +M G T+E+LNTDAEGRL+LCDALTY+E+FKP+AVID+ATLTGAC+VALG   SG++GNN +LI+ LL+A    DD+AWQLPLF+ Y++QL S FADI NIG P AGTITAA FLS FT+   WAHLDIAGTAW SG  +KGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|166215799|sp|Q1LJJ6.1|AMPA_RALME</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LJJ6</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>8.65786e-121</Hsp_evalue>
+      <Hsp_query-from>1815</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>EAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>KAASQAAVR-GTAIANGMELTRDLGNLPSNICTPTYLANTARGIAKRHKLKVEILGRKQIEALNMGAFLAVTKGSVEPPQFIVLRYDGASAKQA-PVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAASVLGTIQAVAEMGLKQNVIAVVPTCENMPSGIATKPGDVVTSMSGQTIEILNTDAEGRLILCDALTYVERFKPAAVIDVATLTGACIIALGHVNSGLYARSDALADQLLGAGRKAMDTAWRLPLDDDYQDQLKSNFADMANIGGRPAGSVTAACFLARYTEKYDWAHLDIAGTAWKSGAAKGATGRPVPLLTQFL</Hsp_hseq>
+      <Hsp_midline>+AA + A+R   A   G  L RDLGN   N CTP +LA TA+  A++     +I+ +  I+  NMG+F +V KGSVE P  + L Y GA+ K+A PVVLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V+ T  A  ++ L  N+IA+V TCENMPSG A KPGDVV SM G TIE+LNTDAEGRLILCDALTY E+FKP AVIDVATLTGACI+ALGH  SG+   +  L D LL A     D AW+LPL + Y+DQLKSNFAD+ NIG   AG++TAA FL+ +TE Y WAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|123328948|sp|Q0K7F5.1|AMPA_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0K7F5</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>3.98107e-120</Hsp_evalue>
+      <Hsp_query-from>1817</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>AVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>AATQAVVRGTAIANGMELTRDLGNLPSNICTPTYLANTARGIAKRHKLKAEVLGRKQIEALNMGAFLAVTKGSEEPPQFIVLRYDGAGAKQA-PVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAASVLGTIQAVAEMGLKLNVIAVVPTCENMPSGIATKPGDVVTSMSGQTIEILNTDAEGRLILCDALTYVERFKPAAVIDVATLTGACIIALGHINSGLYARSDALADALLQAGRRAMDTAWRMPLDDEYQDQLKSNFADMGNIGGRPAGSVTAACFLSRFTEKYDWAHLDIAGTAWKSGAAKGATGRPVPLLAQFL</Hsp_hseq>
+      <Hsp_midline>A  +A+    A   G  L RDLGN   N CTP +LA TA+  A++    A+++ +  I+  NMG+F +V KGS E P  + L Y GA  K+A PVVLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V+ T  A  ++ L +N+IA+V TCENMPSG A KPGDVV SM G TIE+LNTDAEGRLILCDALTY E+FKP AVIDVATLTGACI+ALGH  SG+   +  L D+LL A     D AW++PL + Y+DQLKSNFAD+ NIG   AG++TAA FLS FTE Y WAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|238057781|sp|B3R663.1|AMPA_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B3R663</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>7.85259e-120</Hsp_evalue>
+      <Hsp_query-from>1816</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>AAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>AATQAAVR-GTAIANGMELTRDLGNLPSNICTPTYLANTARSIAKRHKLKAEILGRKQIEALNMGAFLAVTKGSAEPPQFIVLRYDGGGARQA-PVVLVGKGITFDTGGISLKPGEGMDEMKYDMCGAASVLGTIQAVAEMGLKLNVVAVVPTCENMPSGVATKPGDVVTSMSGQTIEILNTDAEGRLILCDALTYVERFKPAAVIDVATLTGACIIALGHVNSGLYARSDALADALLQAGRRAMDTAWRMPLDDEYQDQLKSNFADMGNIGGRPAGSVTAACFLARFTEKYDWAHLDIAGTAWKSGAAKGATGRPVPLLTQFL</Hsp_hseq>
+      <Hsp_midline>AA + A+R   A   G  L RDLGN   N CTP +LA TA++ A++    A+I+ +  I+  NMG+F +V KGS E P  + L Y G   ++A PVVLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V+ T  A  ++ L +N++A+V TCENMPSG A KPGDVV SM G TIE+LNTDAEGRLILCDALTY E+FKP AVIDVATLTGACI+ALGH  SG+   +  L D+LL A     D AW++PL + Y+DQLKSNFAD+ NIG   AG++TAA FL+ FTE Y WAHLDIAGTAWKSGA KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|166198335|sp|A1K9L5.1|AMPA_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K9L5</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.275</Hsp_bit-score>
+      <Hsp_score>1009</Hsp_score>
+      <Hsp_evalue>3.78218e-119</Hsp_evalue>
+      <Hsp_query-from>1787</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>GNAAYRFDRYKKEAKPAKFSQAV----------FHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEK-DYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>ADGAYRFDAPKAGAKDAKKERGARKITLLIGDKVSDELEAAVRRGQAVAE----GMALAKDLGNLPGNVCTPAYLADTAEALGKQFKFDVEVLERADMEKLGMGSLLSVAKGSHIPPKFIVMHYKGGKSK-AKPVVLVGKGITFDTGGISLKPGAEMDEMKYDMCGAASVLGTFKAIARMALPLNVVGIVPATENMPGGNATRPGDVVTSMSGQTIEILNTDAEGRLILCDALTYAERFKPACVIDIATLTGACVVALGKIPSGLLANDDDLAAELLKRGTESGDRAWQLPLWDEYQDLLKSNFADMANIGGRYGGTITAACFLARFTKAYKWAHLDIAGTAWVSGDAKGATGRPVPLLAEFL</Hsp_hseq>
+      <Hsp_midline> + AYRFD  K  AK AK  +                 EAAV+    VAE    G +L +DLGN   N CTP +LA TA+A  ++     +++E+ D  K  MGS  SVAKGS   P  + + Y G   K A PVVLVGKGITFDTGGISLKPG  MDEMK+DMCGAA+V+ TF A  ++ LP+N++ IV   ENMP G A +PGDVV SM G TIE+LNTDAEGRLILCDALTYAE+FKP  VID+ATLTGAC+VALG   SG++ N+ DL   LL       D+AWQLPL++ Y+D LKSNFAD+ NIG    GTITAA FL+ FT+ Y WAHLDIAGTAW SG  KGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|122314392|sp|Q0AIF5.1|AMPA_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AIF5</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>9.311e-119</Hsp_evalue>
+      <Hsp_query-from>1789</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>AAYRFDRYK--KEAKPAKFSQAVFHSAHEAA---VKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIE-KDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>SVYRFDRLKSKREERQPSLQKIIFLIGDEAARAGAEQAFKQGAAIACGMNVTKDLGNLAPNICTPTYLAEQAGEMAKTYNLKLSVLEEKDMEALGMGALLAVARGSHQPAKLIVLEYHGREGIEK-PVVLVGKGVTFDTGGISLKPAVDLDEMKYDMGGAASVFGTLTAVAEMKLPINVTAIIPTTENMPGGNATKPGDVVTSLSGQTIEILNTDAEGRLILCDALTYAERYNPDVVIDIATLTGACVVALGHVVSGLMGTDEPLVQELLQAGEKASDRAWQLPLGEEYQELLKSNFADMANIGGRWGGAITAACFLSRFTRKYRWAHLDIAGTAWKSGKEKGATGRPVPLLTQFL</Hsp_hseq>
+      <Hsp_midline>+ YRFDR K  +E +     + +F    EAA    ++A +   A   G ++ +DLGN APN CTP +LA  A   A+       ++E KD     MG+  +VA+GS +   L+ L Y G    E  PVVLVGKG+TFDTGGISLKP +++DEMK+DM GAA+V  T  A  +++LPIN+ AI+ T ENMP G A KPGDVV S+ G TIE+LNTDAEGRLILCDALTYAE++ P  VID+ATLTGAC+VALGH VSG+MG ++ L+  LL A     D+AWQLPL E Y++ LKSNFAD+ NIG    G ITAA FLS FT  Y WAHLDIAGTAWKSG EKGATGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|123533953|sp|Q2SKR0.1|AMPA_HAHCH</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Hahella chejuensis KCTC 2396]</Hit_def>
+  <Hit_accession>Q2SKR0</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>3.03922e-118</Hsp_evalue>
+      <Hsp_query-from>1725</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>488</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>PTDNGLQAVAVVRLEKT---DRAALNKAAAEA----AKWAQNQETVNVDVHAFDEAQAAAVAEAFAIAFGNAAYRFDRYKKE-AKPAKFSQAVF--HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKA---EAEKLGAHAKIIEKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>PQEGGVKRLLFVGLGKEKELSEAGFRKAAKSVMQSLSKSGAANAVVALSSLTLNSLKAGWATEQLVIALESACYTFDNMKSEKATPTKVSQVKVAGDKRDKSAIEAAIAKASAVAKGMSLTKDLGNLPGNVCTPDYLAKQAKALAKEYKSLKAEA-LGEKEMKELGMGSFLSVSAGSDQPARLIVIEYKGGDDKQKNHV-LVGKGITFDSGGISLKPGEGMDEMKYDMCGAASVFGTLLALAEMKAPVNVVGVIAAAENMPSGKATKPGDIVTTMSGQTVEILNTDAEGRLVLCDALTYCERFKPETVVDIATLTGACIIALGNHATGLLANDDKLADALLAAGESTGDRAWRLPLWDEYQTQLDSNFADMQNIGGRPAGTITAACFLSRFTKKYRWAHLDIAGVAWTSGKDKGASGRPVPLLTEYL</Hsp_hseq>
+      <Hsp_midline>P + G++ +  V L K      A   KAA       +K       V +     +  +A    E   IA  +A Y FD  K E A P K SQ         ++A++ A+  A A   G SL +DLGN   N CTP++LA+ AKA   E + L A A + EK+  +  MGSF SV+ GS +   L+ + Y G  DK+   V LVGKGITFD+GGISLKPG  MDEMK+DMCGAA+V  T  A  +++ P+N++ ++A  ENMPSG A KPGD+V +M G T+E+LNTDAEGRL+LCDALTY E+FKP+ V+D+ATLTGACI+ALG+  +G++ N+  L D+LLAA  +  D+AW+LPL++ Y+ QL SNFAD+ NIG   AGTITAA FLS FT+ Y WAHLDIAG AW SG +KGA+GRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|123595114|sp|Q3JEC8.1|AMPA_NITOC</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Nitrosococcus oceani ATCC 19707]</Hit_def>
+  <Hit_accession>Q3JEC8</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.423</Hsp_bit-score>
+      <Hsp_score>999</Hsp_score>
+      <Hsp_evalue>9.15722e-118</Hsp_evalue>
+      <Hsp_query-from>1789</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>AAYRFD--RYKKEA--KP-AKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYI-KENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>ALYRYEHTKSKKESLKKPLAKLTLLLDQRSQQPLAEQGIQQGQAIAKGVNLARDLGNLPGNICTPTYLADEARRLAKEYKSLKAKILEQAEMEKLGLGALLAVSRGSRQPPKLITLEYKGAPGKQK-PIVLVGKGLTFDAGGISIKPGERMDEMKYDMCGGAGVLGTMQACAELELPLNVIAVVPSSENLPDGAANKPGDVLTSLSGQTIEVLNTDAEGRLILCDALTYSKRYRPDVVIDVATLTGACVIALGAHASGLLSNDQSLAEHLLAAGQTSDDRAWQLPLWDDYQQQLDSNFADMANIGGRGAGTITAACFLARFTEEFRWAHLDIAGTAWLSGKEKGATGRPVPLLTQYL</Hsp_hseq>
+      <Hsp_midline>A YR++  + KKE+  KP AK +  +   + +   ++ ++  +A   G +L RDLGN   N CTP +LA  A+  A++  +  AKI+E+  + K  +G+  +V++GS + P L+ L Y GA  K+  P+VLVGKG+TFD GGIS+KPG  MDEMK+DMCG A V+ T  A  +L+LP+N+IA+V + EN+P GAANKPGDV+ S+ G TIEVLNTDAEGRLILCDALTY+++++P  VIDVATLTGAC++ALG   SG++ N+Q L + LLAA    DD+AWQLPL++ Y+ QL SNFAD+ NIG  GAGTITAA FL+ FTE + WAHLDIAGTAW SG EKGATGRPVPLL  YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|56404579|sp|Q7W5K6.1|AMPA_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>Q7W5K6</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>9.3963e-118</Hsp_evalue>
+      <Hsp_query-from>1793</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>FDRYKKEAKP--AKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFG--AADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>FGKANRDARPRLKKIVQVVDRAA-SAQTQLGLREGAAIAHGMELTRTLGNLPGNVCTPAYLGNTAKKLAREFKSLKVEVLERKQVEALGMGSFLSVARGSEEPLRFIVLRHAGKPAKKDKAGPVVLVGKGITFDAGGISLKPAATMDEMKYDMCGAASVLGTFRALAELELPLDVVGLIAACENLPSGKANKPGDVVTSMSGQTIEILNTDAEGRLVLCDALTYAERFKPAAVIDIATLTGACVVALGNVNSGLFSKDDALADALLAASRQSLDPAWRLPLDDAYQDQLKSNFADIANIGGPPAGAVTAACFLSRFTKAYPWAHLDIAGTAWRGGKDKGATGRPVPLLMQYL</Hsp_hseq>
+      <Hsp_midline>F +  ++A+P   K  Q V  +A  A  +  LR   A  +G  L R LGN   N CTP +L  TAK  A +  +   +++E+  ++   MGSF SVA+GS E    + L + G  A   +A PVVLVGKGITFD GGISLKP   MDEMK+DMCGAA+V+ TF A  +L+LP++++ ++A CEN+PSG ANKPGDVV SM G TIE+LNTDAEGRL+LCDALTYAE+FKP AVID+ATLTGAC+VALG+  SG+   +  L D+LLAAS    D AW+LPL + Y+DQLKSNFADI NIG P AG +TAA FLS FT+ YPWAHLDIAGTAW+ G +KGATGRPVPLLM YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|56404578|sp|Q7VW48.1|AMPA_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Bordetella pertussis Tohama I] &gt;gi|56404580|sp|Q7WD42.1|AMPA_BORBR RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7VW48</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>9.86493e-118</Hsp_evalue>
+      <Hsp_query-from>1793</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>FDRYKKEAKP--AKFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGA-HAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFG--AADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>FGKANRDARPRLKKIVQVVDRAA-SAQAQLGLREGAAIAHGMELTRTLGNLPGNVCTPAYLGNTAKKLAREFKSLKVEVLERKQVEALGMGSFLSVARGSEEPLRFIVLRHAGKPAKKDKAGPVVLVGKGITFDAGGISLKPAATMDEMKYDMCGAASVLGTFRALAELELPLDVVGLIAACENLPSGKANKPGDVVTSMSGQTIEILNTDAEGRLVLCDALTYAERFKPAAVIDIATLTGACVVALGNVNSGLFSKDDALADALLAASRQSLDPAWRLPLDDAYQDQLKSNFADIANIGGPPAGAVTAACFLSRFTKAYPWAHLDIAGTAWRGGKDKGATGRPVPLLMQYL</Hsp_hseq>
+      <Hsp_midline>F +  ++A+P   K  Q V  +A  A  +  LR   A  +G  L R LGN   N CTP +L  TAK  A +  +   +++E+  ++   MGSF SVA+GS E    + L + G  A   +A PVVLVGKGITFD GGISLKP   MDEMK+DMCGAA+V+ TF A  +L+LP++++ ++A CEN+PSG ANKPGDVV SM G TIE+LNTDAEGRL+LCDALTYAE+FKP AVID+ATLTGAC+VALG+  SG+   +  L D+LLAAS    D AW+LPL + Y+DQLKSNFADI NIG P AG +TAA FLS FT+ YPWAHLDIAGTAW+ G +KGATGRPVPLLM YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|123277306|sp|Q21KZ5.1|AMPA_SACD2</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Saccharophagus degradans 2-40]</Hit_def>
+  <Hit_accession>Q21KZ5</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>1.40286e-117</Hsp_evalue>
+      <Hsp_query-from>1770</Hsp_query-from>
+      <Hsp_query-to>2140</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>FDEAQAAA-------VAEAFAIAFGNAAYRFD-RYKKEAKPAKFSQAVF---HSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAK---AEAEKLGAHAKIIEKDYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYLRN</Hsp_qseq>
+      <Hsp_hseq>FDSALPASGDCTLEKLAHTLALEIERASYRFSLKAGTKNTPATLKKVVFVATNSAETKTLRNGANTGSAMGKGINAARELGNLPGNICTPNYLAEQAKQLAAGCKKLTSKA-LGEKQMERLGMGAFLSVSKGSDQEGKLILLEYKGAAANKA-PHVLVGKGVTFDTGGISLKPGANMDEMKFDMCGAASVLGTFKALVELDAKVNVVGIIAAAENMPSGGASKPGDVVTSMSGQTIEILNTDAEGRLVLCDALTYAERYKPKSVVDIATLTGACVVALGNHAAGLYSNTQSVADALLKAGEETHDRAWQMPLWDDYQRQLDSNFADMGNIGGMPGGSITAACFLSRYTKKYPWAHLDIAGVAWHSGAKKGATGRPVSLLVNYLLN</Hsp_hseq>
+      <Hsp_midline>FD A  A+       +A   A+    A+YRF  +   +  PA   + VF   +SA    ++       A   G +  R+LGN   N CTP +LA  AK   A  +KL + A + EK   +  MG+F SV+KGS ++  L+ L Y GAA  +A P VLVGKG+TFDTGGISLKPG NMDEMKFDMCGAA+V+ TF A V+L   +N++ I+A  ENMPSG A+KPGDVV SM G TIE+LNTDAEGRL+LCDALTYAE++KPK+V+D+ATLTGAC+VALG+  +G+  N Q + D+LL A     D+AWQ+PL++ Y+ QL SNFAD+ NIG    G+ITAA FLS +T+ YPWAHLDIAG AW SGA+KGATGRPV LL+NYL N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166215785|sp|A6T0V4.1|AMPA_JANMA</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6T0V4</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>1.52658e-117</Hsp_evalue>
+      <Hsp_query-from>1789</Hsp_query-from>
+      <Hsp_query-to>2138</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>AAYRFDRYKKEAKPA-----KFSQAVFHSAHEAAVKEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTAKAEAEKLGAHAKIIEKDYIKE-NMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQD----LIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYL</Hsp_qseq>
+      <Hsp_hseq>AAYRFDSLKSKKEPTASGVKKIAFAVPAAAVNSA-REAVTQAVAVANGIDLTKDLGNFPANVCTPTYLANTAKKMAKEFKLEVEVLDRKQLQALKMGSFLSVTNGSVEPPKFIVLKHNGGKAKDA-PTVLVGKGITFDSGGISLKPGAAMDEMKYDMGGAASVLGTMRAIAELKLKLNVIVVIPTCENMPSGSATKPGDIVTSMSGQTIEVLNTDAEGRLVLCDALTYVERFKPAAVVDVATLTGACIVALGHHNSGLFTRNDDAHDALANELLTAGKVAGDTAWRMPIEESYQEQLKSNFADMANIGGPAAGSVTAACFLERYTKKYTWAHLDIAGTAWKSGAAKGSTGRPVPLLTTFL</Hsp_hseq>
+      <Hsp_midline>AAYRFD  K + +P      K + AV  +A  +A +EA+  A A   G  L +DLGN   N CTP +LA TAK  A++     +++++  ++   MGSF SV  GSVE P  + L + G   K+A P VLVGKGITFD+GGISLKPG  MDEMK+DM GAA+V+ T  A  +L+L +N+I ++ TCENMPSG+A KPGD+V SM G TIEVLNTDAEGRL+LCDALTY E+FKP AV+DVATLTGACIVALGH  SG+   N D    L + LL A     D AW++P+ E+Y++QLKSNFAD+ NIG P AG++TAA FL  +T+ Y WAHLDIAGTAWKSGA KG+TGRPVPLL  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|254802503|sp|B8GTX6.1|AMPA_THISH</Hit_id>
+  <Hit_def>RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase [Thioalkalivibrio sulfidiphilus HL-EbGr7]</Hit_def>
+  <Hit_accession>B8GTX6</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.882</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>2.5471e-117</Hsp_evalue>
+      <Hsp_query-from>1819</Hsp_query-from>
+      <Hsp_query-to>2140</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>KEALRVAEAQVYGQSLCRDLGNAAPNECTPEFLARTA-KAEAEKLGAHAKIIEK-DYIKENMGSFWSVAKGSVEDPYLVELSYFGAADKEAAPVVLVGKGITFDTGGISLKPGLNMDEMKFDMCGAATVISTFCAAVKLQLPINLIAIVATCENMPSGAANKPGDVVKSMKGLTIEVLNTDAEGRLILCDALTYAEQFKPKAVIDVATLTGACIVALGHDVSGVMGNNQDLIDSLLAASYNVDDKAWQLPLFETYKDQLKSNFADIPNIGTPGAGTITAATFLSYFTEGYPWAHLDIAGTAWKSGAEKGATGRPVPLLMNYLRN</Hsp_qseq>
+      <Hsp_hseq>EDAVRVATAISVGTKLTRDLANLPGNICNPTYLAEQALQLKKTYKGLKVEILEEADMEKLGMGALLSVSRGSEQPAKLITLEYRGGR-KDAKPVVLVGKGITFDTGGISLKPGAEMDEMKFDMCGAASVLGVMKAVAEMMLPINLVGVVAAAENMPDGKATRPGDVVTSMSGQTIEILNTDAEGRLVLCDALSYVERFDPDVVIDIATLTGACIIALGHQATGLLSNHSPLANDLLGAGKQSYDRAWELPLWDEYQEQLKSNFADMANIGGRPAGTITAACFLSRFTKKYKWAHLDIAGVAWKSGKEKGATGRPVPLLMQYLLN</Hsp_hseq>
+      <Hsp_midline>++A+RVA A   G  L RDL N   N C P +LA  A + +    G   +I+E+ D  K  MG+  SV++GS +   L+ L Y G   K+A PVVLVGKGITFDTGGISLKPG  MDEMKFDMCGAA+V+    A  ++ LPINL+ +VA  ENMP G A +PGDVV SM G TIE+LNTDAEGRL+LCDAL+Y E+F P  VID+ATLTGACI+ALGH  +G++ N+  L + LL A     D+AW+LPL++ Y++QLKSNFAD+ NIG   AGTITAA FLS FT+ Y WAHLDIAG AWKSG EKGATGRPVPLLM YL N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 59, 61, 65, 78, 88, 103, 106, 118, 133, 138, 139, 153, 155, 159, 165,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

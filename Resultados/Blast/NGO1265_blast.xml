@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>26247</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1768</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>26247</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1768</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3914235|sp|P75330.1|P30_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=P30 adhesin; AltName: Full=30 kDa adhesin-related protein; AltName: Full=Cytadhesin P30 [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75330</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.410514</Hsp_evalue>
+      <Hsp_query-from>1546</Hsp_query-from>
+      <Hsp_query-to>1646</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>VNMGPVTDRNGNPVQVAATFGRDAQGNTTADVQVIPRPDLTPASAEAPHAQPLPEVSPAENPANNPDPDENPGTRPNPEPDPDLNPDANPDTDGQPGTSPD</Hsp_qseq>
+      <Hsp_hseq>INFGP---RTGFPPQP----GMAPRPGMPPHPGMAPRPGFPPQPGMAPRPGMPPHPGMAPRPGFPPQPGMAP--RPGMPPHPGMAP--RPGFPPQPGMAPR</Hsp_hseq>
+      <Hsp_midline>+N GP   R G P Q     G   +        + PRP   P    AP     P    A  P   P P   P  RP   P P + P   P    QPG +P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|378522303|sp|E9PUL5.1|PRRT2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Proline-rich transmembrane protein 2; AltName: Full=Dispanin subfamily B member 3; Short=DSPB3 [Mus musculus]</Hit_def>
+  <Hit_accession>E9PUL5</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.77844</Hsp_evalue>
+      <Hsp_query-from>1549</Hsp_query-from>
+      <Hsp_query-to>1652</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>GPVTDRNG-NPVQVAATFGRDAQ------GNTTADVQVIPRPDLTPASAEAPHAQPLPEVSPAENPANNPDPDEN---PGTRPNPEPDPDLNPDANPDTDGQPGTSPDSPAVPD</Hsp_qseq>
+      <Hsp_hseq>GPRHSEEGLGPVQVVAEIPDQPEALQPGPGITAAPVDSGPKAELAPETTETP--VETPETVQATDLSLNPEEGSKASPSPSPSEARQEPASKPDVNRETAAEEGSEPQSTAPPE</Hsp_hseq>
+      <Hsp_midline>GP     G  PVQV A      +      G T A V   P+ +L P + E P     PE   A + + NP+         +      +P   PD N +T  + G+ P S A P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|74962183|sp|Q17460.1|COL10_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Cuticle collagen 10; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q17460</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>3.80974</Hsp_evalue>
+      <Hsp_query-from>1549</Hsp_query-from>
+      <Hsp_query-to>1642</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GPVTDRNGNPVQVAATFGRDAQGNTTADVQVIPRPDLTPASAEAPHAQPLPEVSPAENPANNPDPDENPGTRPNPEPDPDLNPDANPDTDGQPG</Hsp_qseq>
+      <Hsp_hseq>GPKGDDN------TATFAPLTCAPVSQDCVKCPEGPAGPAGPEGPAGPAGPDGQPGA-----PGNAGNPGSDGQPGAPGDNGQDGAPGQDGQPG</Hsp_hseq>
+      <Hsp_midline>GP  D N       ATF        + D    P     PA  E P     P+  P       P    NPG+   P    D   D  P  DGQPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|251757418|sp|Q9NW07.2|ZN358_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger protein 358 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9NW07</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>6.46361</Hsp_evalue>
+      <Hsp_query-from>1583</Hsp_query-from>
+      <Hsp_query-to>1651</Hsp_query-to>
+      <Hsp_hit-from>422</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PDLTPASAEAPHAQPL--PE----------VSPAENPANNPDPDENPGTRPNPEPDPDLNPDANPDTDGQPGTSPDSPAVP</Hsp_qseq>
+      <Hsp_hseq>PGLSPASMMRPGQVSLLGPDAVSVLGSGLGLSPGTSSGRNPDPGSGPGTLPDPSSKP------LPGSRSTPSPTPVESSDP</Hsp_hseq>
+      <Hsp_midline>P L+PAS   P    L  P+          +SP  +   NPDP   PGT P+P   P       P +   P  +P   + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 44, 59, 61, 65, 78, 88, 103, 106, 118, 133, 138, 139, 153, 155, 159, 165,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

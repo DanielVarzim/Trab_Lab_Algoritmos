@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>54685</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>2176</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>54685</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>2176</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|12231026|sp|Q00934.2|PILR_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Type 4 fimbriae expression regulatory protein PilR [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q00934</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>6.72556e-60</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNN--RPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>FGHKKGSFTGAIEDKQGLFQAASGGTLFLDEVADLPMAMQVKLLRAIQEKAVRAVGGQQEVAVDVRILCATHKDLAAEVGAGRFRQDLYYRLNVIELRVPPLRERREDIPLLAERILKRLAGDTGLPAARLTGDAQEKLKNYRFPGNVRELENMLERAYTLCEDDQIQPHDLRLAD--------------APGASQEGAASLSEI-------DNLEDYLEDIERKLIMQALEETRWNRTAAAQRLGLTFRSMRYRLKKLGID</Hsp_hseq>
+      <Hsp_midline> G    +    I +     + A GGTLFLDEVADLP++MQVKLLRAIQEKAVR +G   E  VDVRI+CATHK+L A V +G FRQDLYYRLNV+ L +P LRE RE++ L    +L + + +       L+  AQ+ L NY +PGN RELEN+LERA  LC    +Q  DL++ D              A     E AA+ S +         ++DYL+ IER +I Q L++T  NRT AA+RLG++FRSMRYR+++L ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20141026|sp|Q9APD9.1|ZRAR_KLEOX</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein ZraR [Klebsiella oxytoca]</Hit_def>
+  <Hit_accession>Q9APD9</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.58012e-45</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2172</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYT--LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMER</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGDISPLMQVRLLRAIQEREVQRVGSNQTLSVDVRLIAATHRDLAEEVSAGRFRQDLYYRLNVVTIDMPPLRHRREDIPPLARYFLQRYAERNRKAVQGFTPQAMDLLIHYAWPGNIRELENAVERAVVLLTGEYISERELPL---------AITGTPVADA-------------PHGDDSIQP---LVEVEKEAILAALERTGGNKTEAARRLGITRKTLLAKLSR</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ D+   MQV+LLRAIQE+ V+R+G      VDVR++ ATH++L   V +G FRQDLYYRLNVV+++MP LR  RE++     Y L +++  NR      +P A  +L++Y++PGN RELEN +ERAV L  G  +   +L +           T  PVAD              P   D++Q    L ++E++ I   L++T GN+T+AA+RLGI+ +++  ++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20141880|sp|P25852.2|ZRAR_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein ZraR [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P25852</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>5.22919e-45</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2172</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYT--LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMER</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGDISPLMQVRLLRAIQEREVQRVGSNQTISVDVRLIAATHRDLAEEVSAGRFRQDLYYRLNVVAIEMPSLRQRREDIPLLADHFLRRFAERNRKVVKGFTPQAMDLLIHYDWPGNIRELENAIERAVVLLTGEYI----------------SERELPLA------IAATPIK----TEYSGEIQPLVD-VEKEVILAALEKTGGNKTEAARQLGITRKTLLAKLSR</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ D+   MQV+LLRAIQE+ V+R+G      VDVR++ ATH++L   V +G FRQDLYYRLNVV++ MPSLR+ RE++ L   + L + +  NR      +P A  +L++Y +PGN RELEN +ERAV L  G  +                +E  +P+A      IAA P +       + +IQ  +D +E+++I   L++T GN+T+AA++LGI+ +++  ++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20140998|sp|Q8Z333.1|ZRAR_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein ZraR [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z333</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>2.12489e-44</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2172</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYT--LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMER</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGDISPLMQVRLLRAIQEREVQRVGSNQTISVDVWLIAATHRDLAEEVSAGRFRQDLYYRLNVVAIEMPSLRQRREDIPLLADHFLRRFAERNRKAVKGFTPQAMDLLIHYDWPGNIRELENAIERAVVLLTGEYI----------------SERELPLA------IAATPIKA----ENSAEIQPLVD-VEKEVILAALEKTGGNKTEAARQLGITRKTLLAKLSR</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ D+   MQV+LLRAIQE+ V+R+G      VDV ++ ATH++L   V +G FRQDLYYRLNVV++ MPSLR+ RE++ L   + L + +  NR      +P A  +L++Y +PGN RELEN +ERAV L  G  +                +E  +P+A      IAA P +      ++ +IQ  +D +E+++I   L++T GN+T+AA++LGI+ +++  ++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|417166|sp|P14375.2|ZRAR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein ZraR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P14375</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>4.94246e-44</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2172</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYT--LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDY--LDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMER</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGDISPMMQVRLLRAIQEREVQRVGSNQIISVDVRLIAATHRDLAAEVNAGRFRQDLYYRLNVVAIEVPSLRQRREDIPLLAGHFLQRFAERNRKAVKGFTPQAMDLLIHYDWPGNIRELENAVERAVVLLTGEYI----------------SERELPLA------IASTP---IPLG----QSQDIQPLVEVEKEVILAALEKTGGNKTEAARQLGITRKTLLAKLSR</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ D+   MQV+LLRAIQE+ V+R+G      VDVR++ ATH++L A V +G FRQDLYYRLNVV++ +PSLR+ RE++ L   + L + +  NR      +P A  +L++Y +PGN RELEN +ERAV L  G  +                +E  +P+A      IA+ P   +P      Q QD   L ++E+++I   L++T GN+T+AA++LGI+ +++  ++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20140981|sp|Q8X613.1|ZRAR_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein ZraR [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X613</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>1.26043e-43</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2172</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYT--LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMER</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGDISPMMLVRLLRAIQEREVQRVGSNQTISVDVRLIAATHRDLAAEVNAGRFRQDLYYRLNVVAIEVPSLRQRREDIPLLAGHFLQRFAERNRKAVKGFTPQAMDLLIHYDWPGNIRELENAVERAVVLLTGEYI----------------SERELPLA------IASTPIPL----AQSLDIQP-LVEVEKEVILAALEKTGGNKTEAARQLGITRKTLLAKLSR</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ D+   M V+LLRAIQE+ V+R+G      VDVR++ ATH++L A V +G FRQDLYYRLNVV++ +PSLR+ RE++ L   + L + +  NR      +P A  +L++Y +PGN RELEN +ERAV L  G  +                +E  +P+A      IA+ P  L      ++ IQ  L ++E+++I   L++T GN+T+AA++LGI+ +++  ++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1168553|sp|Q06065.2|ATOC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Acetoacetate metabolism regulatory protein AtoC; AltName: Full=Ornithine decarboxylase antizyme; AltName: Full=Ornithine/arginine decarboxylase inhibitor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>Q06065</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>3.50572e-42</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRP--YTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>ANEGTLLLDEIGEMPLVLQAKLLRILQEREFERIGGHQTIKVDIRIIAATNRDLQAMVKEGTFREDLFYRLNVIHLILPPLRDRREDISLLANHFLQKFSSENQRDIIDIDPMAMSLLTAWSWPGNIRELSNVIERAVVMNSGPIIFSEDLPPQ------IRQ----PVCNA--GEVKTAPV-------GERNLKEEIKRVEKRIIMEVLEQQEGNRTRTALMLGISRRALMYKLQEYGID</Hsp_hseq>
+      <Hsp_midline>A+ GTL LDE+ ++PL +Q KLLR +QE+   RIG      VD+RI+ AT+++L+A+V+ G FR+DL+YRLNV+ L +P LR+ RE++ L   + L K S  N+     + P A  +L  +S+PGN REL N++ERAV +  G  +  +DL  Q      +R     PV +    E+  AP            +++ + ++E+ II +VL+Q EGNRT+ A  LGIS R++ Y+++   ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75343706|sp|O85057.1|LIHY_GEOSE</Hit_id>
+  <Hit_def>RecName: Full=Limonene hydroxylase; AltName: Full=(S)-limonene 6-monooxygenase; AltName: Full=(S)-limonene 7-monooxygenase; AltName: Full=Carveol dehydrogenase; AltName: Full=Perillyl-alcohol dehydrogenase [Geobacillus stearothermophilus]</Hit_def>
+  <Hit_accession>O85057</Hit_accession>
+  <Hit_len>543</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.16129e-38</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2169</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNL-EALVESGAFRQDLYYRLNVVSLNMPSLREMRENLK-LPTPYLLYKHSHNNRPYT--LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYR</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGDMPLELQVNLLRVLEERKVIRIGDHKERPINVRVIAATNRNLKEEIAYRGSFRSDLYYRLNVFTIHIPPLRDRKEDIETLSLQFLKNFHQHYCGKGTCHLSNSALQLLQSYNWPGNIRELRNVIERA------FLLAIDEPEILPIH---------------LPEEIQNANCAIPPSSVNNLK------DVEKKMIEQALKESK-SLTEAAKKLGIT-RSTLYR</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ D+PL +QV LLR ++E+ V RIGD  E+P++VR++ AT++NL E +   G+FR DLYYRLNV ++++P LR+ +E+++ L   +L   H H     T  LS +A Q+L +Y++PGN REL N++ERA      + + ID+ +I  +H               LP EI  A   + P   + ++       +E+ +I Q LK+++ + T+AAK+LGI+ RS  YR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2500745|sp|P71229.1|HYFR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Hydrogenase-4 transcriptional activator [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P71229</Hit_accession>
+  <Hit_len>670</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>8.46637e-37</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>438</Hsp_hit-from>
+      <Hsp_hit-to>664</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHS-HNNRPYTLSPA-AQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEG---NRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGDLPLELQPKLLRVLQEREIERLGGSRTIPVNVRVIAATNRDLWQMVEDRQFRSDLFYRLNVFPLELPPLRDRPEDIPLLAKHFTQKMARHMNRAIDAIPTEALRQLMSWDWPGNVRELENVIERAVLLTRGNSLNL---------HLNVRQSRLLPTLNEDSALRSSMAQLLHPTTPEN-------DEEERQRIVQVLRETNGIVAGPRGAATRLGMKRTTLLSRMQRLGI</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ DLPL +Q KLLR +QE+ + R+G +   PV+VR++ AT+++L  +VE   FR DL+YRLNV  L +P LR+  E++ L   +   K + H NR     P  A + L+++ +PGN RELEN++ERAV L  G ++ +         H  VR    +P  +   +  ++    L P  P+        D+ ER  I QVL++T G       AA RLG+   ++  RM+RL I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|33300963|sp|Q88AQ2.1|ALGB_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Alginate biosynthesis transcriptional regulatory protein AlgB [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q88AQ2</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.86858e-36</Hsp_evalue>
+      <Hsp_query-from>1932</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMREN-LKLPTPYLLYKHSHNNRP-YTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>LGRVNQADGGTLFLDEIGDFPLTLQPKLLRFIQDKEYERVGDPVTRRADVRILAATNLNLEDMVRSGRFREDLLYRLNVITLHLPALRERSEDILTLADRFLARFVKEYARPARGFSEEARAALLNYRWPGNIRELRNVIERASIICPQERVEVSHLGMAE---QP---------ANNAP-RVGAALS---------------LDELEKAHIGAVLATSE-TLDQAAKTLGIDASTLYRKRKQYNL</Hsp_hseq>
+      <Hsp_midline>+  +  ADGGTLFLDE+ D PL++Q KLLR IQ+K   R+GD   +  DVRI+ AT+ NLE +V SG FR+DL YRLNV++L++P+LRE  E+ L L   +L        RP    S  A+  LLNY +PGN REL N++ERA  +C    V++  L + +   +P         A+  P  + AA S               LD++E+  IG VL  +E    QAAK LGI   ++  + ++ N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|124028541|sp|P28614.2|ACOR_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Acetoin catabolism regulatory protein [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>P28614</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.89919e-36</Hsp_evalue>
+      <Hsp_query-from>1929</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>424</Hsp_hit-from>
+      <Hsp_hit-to>653</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>RNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>RGKRGLIQEADGGTLFLDEIGDMPRELQSRLLRVLAEGEVLPVGAARPVPVRLRVISATHHSLEQLVADGRFREDLYYRLNGARFTLPPLRA-RTDLDWLVRKLLQEGSAEGSEITLSPAARERLHRHRWPGNLRELRNVLEYARAVCADGYIDVPDL--------PDSLAGPAPSA-ALPQPGPAQSPAAAPFDPHQLPPEGML-------LMQYLRASGWNLSAVARQIGVSRMTLYRRMERYGI</Hsp_hseq>
+      <Hsp_midline>R     I+ ADGGTLFLDE+ D+P  +Q +LLR + E  V  +G A   PV +R++ ATH +LE LV  G FR+DLYYRLN     +P LR  R +L      LL + S      TLSPAA++ L  + +PGN REL N+LE A A+C    + + DL        P       P A  LP    A      PFDP  +  +  L       + Q L+ +  N +  A+++G+S  ++  RMER  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1709272|sp|P54930.1|NIFA_ENTAG</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Pantoea agglomerans]</Hit_def>
+  <Hit_accession>P54930</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.39599e-35</Hsp_evalue>
+      <Hsp_query-from>1928</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>IRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHS-HNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>IRTRKGRFELADGGTLFLDEIGESSASFQAKLLRILQEGEMERVGGDTTLKVDVRIIAATNRNLEEEVRAGNFREDLYYRLNVMPVSLPALRERLDDIADLAPFLVKKIALRQGRELRISDGAVRLLMTYSWPGNVRELENCLERASVMTDEGLIDRDVILFN--HHES-------PALSVKPG---------LPLATDESWLDQELDERQRVI--AALEKTGWVQAKAARLLGMTPRQIAYRIQIMDIN</Hsp_hseq>
+      <Hsp_midline>IR        ADGGTLFLDE+ +   S Q KLLR +QE  + R+G  T   VDVRI+ AT++NLE  V +G FR+DLYYRLNV+ +++P+LRE  +++    P+L+ K +    R   +S  A ++L+ YS+PGN RELEN LERA  +     +  D +     HH+        P     P          LP   D   +   LD+ +R I    L++T   + +AA+ LG++ R + YR++ ++I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|33300975|sp|Q88RJ6.1|ALGB_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Alginate biosynthesis transcriptional regulatory protein AlgB [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88RJ6</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>6.71602e-35</Hsp_evalue>
+      <Hsp_query-from>1932</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMREN-LKLPTPYLLYKHSHNNRP-YTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>LGRVSQADGGTLFLDEIGDFPLTLQPKLLRFIQDKEYERVGDPVTRRADVRILAATNLNLEEMVRESRFREDLLYRLNVITLHLPPLRERSEDILILADRFLARFVKEYSRPARGFSDEARTALLNYRWPGNIRELRNVVERASIICPQERVEISHLGMGE---QP---------AGSAP-RVGAALS---------------LDELERAHIGAVLAASD-TLDQAAKTLGIDASTLYRKRKQYNL</Hsp_hseq>
+      <Hsp_midline>+  +  ADGGTLFLDE+ D PL++Q KLLR IQ+K   R+GD   +  DVRI+ AT+ NLE +V    FR+DL YRLNV++L++P LRE  E+ L L   +L       +RP    S  A+  LLNY +PGN REL N++ERA  +C    V+I  L + +   +P         A + P  + AA S               LD++ER  IG VL  ++    QAAK LGI   ++  + ++ N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1171795|sp|P45671.1|NTRC_AZOBR</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen assimilation regulatory protein [Azospirillum brasilense]</Hit_def>
+  <Hit_accession>P45671</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>9.83401e-35</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPY-TLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDK----IERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>QAQGGTLFLDEIGDMPLEAQTRLLRVLQEGEYTTVGGRTPIKTDVRIVAATHRDLRTLIRQGLFREDLFYRLCVVPIRLPPLRERTEDVPLLVRHFLNQCSAQGLPVKSIDQPAMDRLKRYRWPGNVRELENLVRRLAALYSQEVIGLDVVEAELADTTPAAQPVEEPQGEGLSAAVERHLKDYFAAHKDGMPSNGLYDRVLREVERPLISLSLSATRGNQIKAAQLLGLNRNTLRKKIRDLDI</Hsp_hseq>
+      <Hsp_midline> A GGTLFLDE+ D+PL  Q +LLR +QE     +G  T    DVRIV ATH++L  L+  G FR+DL+YRL VV + +P LRE  E++ L   + L + S    P  ++   A   L  Y +PGN RELEN++ R  AL     + +D ++ +     P       P  + L + +            D M      D+    +ER +I   L  T GN+ +AA+ LG++  ++R ++  L+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|113833|sp|P12626.1|ANFA_AZOVI</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen fixation protein AnfA [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>P12626</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>3.68339e-34</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>524</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYT--LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>QADGGTIFLDEVGELSPTVQAKLVRVLQNRTFERVGGSKPVKVDVRIIAATNRNLVEMVEQGTFREDLYYRLNVFPITVPPLRERGSDVIALADHFVSAFSRENGKNVKRISTPALNMLMSYHWPGNVRELENVMERAVILS-------DD----DVIH-----------SYNLPPSLQTSKESGTAFG---LTLEEKIKAVECEMIVEALKNSSGHIGEAAKELGLARRMLGVRMERYGI</Hsp_hseq>
+      <Hsp_midline> ADGGT+FLDEV +L  ++Q KL+R +Q +   R+G +    VDVRI+ AT++NL  +VE G FR+DLYYRLNV  + +P LRE   ++     + +   S  N      +S  A  ML++Y +PGN RELEN++ERAV L        DD    DV H           +  LP  +  +      F    + +++ +  +E ++I + LK + G+  +AAK LG++ R +  RMER  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|113629|sp|P23747.1|ALGB_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Alginate biosynthesis transcriptional regulatory protein AlgB [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P23747</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>7.30558e-34</Hsp_evalue>
+      <Hsp_query-from>1900</Hsp_query-from>
+      <Hsp_query-to>2086</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>RPQSEIQAEALSVKLAA---LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMREN-LKLPTPYLLYKHSHNNRPYT-LSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDL</Hsp_qseq>
+      <Hsp_hseq>KPQVTINCPSLTAELMESELFGHSRGAFTGATESTLGRVSQADGGTLFLDEIGDFPLTLQPKLLRFIQDKEYERVGDPVTRRADVRILAATNRDLGAMVAQGQFREDLLYRLNVIVLNLPPLRERAEDILGLAERFLARFVKDYGRPARGFSEAAREAMRQYPWPGNVRELRNVIERASIICNQELVDVDHL</Hsp_hseq>
+      <Hsp_midline>+PQ  I   +L+ +L      G           + +  +  ADGGTLFLDE+ D PL++Q KLLR IQ+K   R+GD   +  DVRI+ AT+++L A+V  G FR+DL YRLNV+ LN+P LRE  E+ L L   +L        RP    S AA++ +  Y +PGN REL N++ERA  +C    V +D L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|57015362|sp|P29267.2|HOXA_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Hydrogenase transcriptional regulatory protein HoxA [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>P29267</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.1571e-33</Hsp_evalue>
+      <Hsp_query-from>1936</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>RHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHN-NRP-YTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>QRANGGTIFLDEIGDTSPAFQVKLLRVLQEGEVRPVGSPRWIPVDVRVIAATHCNLESDVHAGRFREDLYYRIAGVTISMPPLRERSGDLQPIAAKLLEQVAQELARPGLYFGGDALAAMMAYPWPGNIRELRNEIYRAVALSSGEEIRAQLFSRKVLHGQPGTVKRG-PHVQTFPQ---------------SGTLQERLDAIEAVVLKEALLRHRWNKTHAAKELGLSRVGLRQKLLRFGLE</Hsp_hseq>
+      <Hsp_midline>+ A+GGT+FLDE+ D   + QVKLLR +QE  VR +G     PVDVR++ ATH NLE+ V +G FR+DLYYR+  V+++MP LRE   +L+     LL + +    RP       A   ++ Y +PGN REL N + RAVAL  G  ++      + +H +P   +   P   T P                +  +Q+ LD IE  ++ + L +   N+T AAK LG+S   +R ++ R  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1346014|sp|P17899.2|FLBD_CAUCR</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein FlbD [Caulobacter crescentus CB15]</Hit_def>
+  <Hit_accession>P17899</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>1.68114e-33</Hsp_evalue>
+      <Hsp_query-from>1918</Hsp_query-from>
+      <Hsp_query-to>2171</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>GQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNN--RPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAA-APSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRME</Hsp_qseq>
+      <Hsp_hseq>GAFTGAMARRI----GKFEEADGGTLLLDEISEMDVRLQAKLLRAIQEREIDRVGGSKPVKVNIRILATSNRDLAQAVKDGTFREDLLYRLNVVNLRLPPLRERPADVISLCEFFVKKYSAANGIEEKPISAEAKRRLIAHRWPGNVRELENAMHRAVLLSAG--PEIEEFAIRLPDGQPMAPAPDVAVARG--AQMAADAASRAF--------VGSTVAEVEQQLIIDTLEHCLGNRTHAANILGISIRTLRNKLK</Hsp_hseq>
+      <Hsp_midline>G  T  +A  I         ADGGTL LDE++++ + +Q KLLRAIQE+ + R+G +    V++RI+  ++++L   V+ G FR+DL YRLNVV+L +P LRE   ++     + + K+S  N      +S  A++ L+ + +PGN RELEN + RAV L  G   +I++  I+    +P+     V VA    +++AA A SR          +   + ++E+ +I   L+   GNRT AA  LGIS R++R +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|128219|sp|P09570.1|NIFA_AZOVI</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>P09570</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>2.22498e-33</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYK-HSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>QADGGTLFLDEIGEISPMFQAKLLRVLQEGEFERVGGNQTVRVNVRIVAATNRDLESEVEKGKFREDLYYRLNVMAIRIPPLRERTADIPELAEFLLGKIGRQQGRPLTVTDSAIRLLMSHRWPGNVRELENCLERSAIMSEDGTITRDVVSLTGVDNE------SPPLAAPLP-EVNLA--------------DETLDDRERVI--AALEQAGWVQAKAARLLGMTPRQIAYRIQTLNI</Hsp_hseq>
+      <Hsp_midline> ADGGTLFLDE+ ++    Q KLLR +QE    R+G      V+VRIV AT+++LE+ VE G FR+DLYYRLNV+++ +P LRE   ++     +LL K      RP T++ +A ++L+++ +PGN RELEN LER+  +    T+  D + +  V ++      + P+A  LP E+  A               + LD  ER I    L+Q    + +AA+ LG++ R + YR++ LNI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|34395962|sp|P38022.2|ROCR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Arginine utilization regulatory protein RocR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P38022</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>5.2314e-33</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2174</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSH--NNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLN</Hsp_qseq>
+      <Hsp_hseq>QAHGGTLLLDEINSLNLSLQAKLLRALQERKIRRIGSTKDTPIDVRIIATMNEDPIDAIAGERMRKDLYYRLSVVTLIIPPLRERKEDILLLASEFIQKNNHLFQMNVEHISDDVKQFFLSYDWPGNIRELEHMIEGAMNF-------MTDEQTITASHLPYQYRMKIKPADI--------PEPETPRHQPAADLKEKMESFEKYVIENVLRKHGHNISKAAQELGISRQSLQYRLKKFS</Hsp_hseq>
+      <Hsp_midline> A GGTL LDE+  L LS+Q KLLRA+QE+ +RRIG   + P+DVRI+   +++    +     R+DLYYRL+VV+L +P LRE +E++ L     + K++H        +S   +Q  L+Y +PGN RELE+++E A+         + D Q     H P +    +  AD         P    P       +++ ++  E+ +I  VL++   N ++AA+ LGIS +S++YR+++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|128221|sp|P27713.1|NIFA_HERSE</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Herbaspirillum seropedicae]</Hit_def>
+  <Hit_accession>P27713</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>8.78318e-33</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>538</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRP--YTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQD------VHHKPVRTETAVPVADTLPSEIAAAP--SRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>AHGGTLFLDEIGEISPAFQAKLLRVLQEREFERVGGSRSIKVDVRLVTATNRDLEKAVAKGEFRADLYYRINVVSIFIPPLRERREDIPYLVEHFLEKFRVENQRAMVAMSPQAMKVMMNCYWPGNVRELENCVERTATMMRGDLITEVHFSCQQNKCLTKVLHEPGQQQPVVVV----PLERISAPYGAIFAEWDGQGQATGAAPPTSERERLIWAMEQCGWVQAKAARALNISPRQMGYALQKFNIE</Hsp_hseq>
+      <Hsp_midline>A GGTLFLDE+ ++  + Q KLLR +QE+   R+G +    VDVR+V AT+++LE  V  G FR DLYYR+NVVS+ +P LRE RE++     + L K    N+     +SP A ++++N  +PGN RELEN +ER   +  G  +       Q       V H+P + +  V V    P E  +AP  +    +D             ER+ +   ++Q    + +AA+ L IS R M Y +++ NI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2500746|sp|Q53206.2|NIFA_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>Q53206</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>3.44253e-32</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>589</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENL-KLPTPYLLYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQD----------VHHKPVRTET--AVPVADTLPSEIAAAPSRL-LPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>ADGGTLLLDEIGEISPAFQAKLLRVLQEGELERVGGTKTLKVDVRLICATNKDLETAVAEGEFRADLYYRINVVPLFLPPLRERNGDIPRLAKVFLDRFNRENNRNLEFTPAALEILSRCKFPGNVRELENCVRRTATLARSATIVPSDFSCQNDQCFSSMLGKTADRPLGSHSLNGLAMSKRLPVE---SPASLGYPAGPGGLTVAPHLS--DRELLISAMEKAGWVQAKAARILGLTPRQVGYALRRHHI</Hsp_hseq>
+      <Hsp_midline>ADGGTL LDE+ ++  + Q KLLR +QE  + R+G      VDVR++CAT+K+LE  V  G FR DLYYR+NVV L +P LRE   ++ +L   +L   +  NNR    +PAA ++L    +PGN RELEN + R   L    T+   D   Q+             +P+ + +   + ++  LP E   +P+ L  P  P  + +  +L   +R+++   +++    + +AA+ LG++ R + Y + R +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|138884|sp|P12627.1|VNFA_AZOVI</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen fixation protein VnfA [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>P12627</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>3.54523e-32</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHN-----NRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>AAGGTIFLDEVGEMSLTTQAKLLRVLQERSFERVGGNTTIHVDLRVIAATNRNLAEMVADGTFAEDLYYRLNVFPITIPPLRERGSDIITLADHFVSRFSREMGIEVNR---ISTPRLNMLQSYQWPGNVRELENVIERAMLLS-------EDGVIHGYHLPP--SLQAPVVGDS------EAP-------PDGLEAR--LGAIEYELIVEALKLHHGNMTEAATHLGLTARVLGLRMGKYNLN</Hsp_hseq>
+      <Hsp_midline>A GGT+FLDEV ++ L+ Q KLLR +QE++  R+G  T   VD+R++ AT++NL  +V  G F +DLYYRLNV  + +P LRE   ++     + + + S       NR   +S     ML +Y +PGN RELEN++ERA+ L        +D  I   H  P  +  A  V D+       AP       PD ++ +  L  IE ++I + LK   GN T+AA  LG++ R +  RM + N++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|81637511|sp|O31551.1|ACOR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Acetoin dehydrogenase operon transcriptional activator AcoR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O31551</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>4.55628e-32</Hsp_evalue>
+      <Hsp_query-from>1933</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>601</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>SAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPS--EIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>GAFQKANQGTLFLDEIGEISHSMQVALLRVLQERKITPIGGTKEIPVDIRVIAATHCDLRELAENGKIREDLFYRLHVYPIELPPLRDRTED--IPDLFEYYKQK-NHWPGDLPSDFCNVLKQWKWPGNIRELFNVFER-------LSIRFPDGRLRD---------------ESLPALLEAAGLPASSAEKKPAAAGVLTFREQIQKDMMIKALESAKGNVSQAAKISGIPRSTFYKRLKKFNL</Hsp_hseq>
+      <Hsp_midline> A + A+ GTLFLDE+ ++  SMQV LLR +QE+ +  IG   E PVD+R++ ATH +L  L E+G  R+DL+YRL+V  + +P LR+  E+  +P  +  YK   N+ P  L      +L  + +PGN REL N+ ER        +++  D +++D               ++LP+  E A  P+      P    +  + ++I++D++ + L+  +GN +QAAK  GI   +   R+++ N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1709880|sp|P37344.2|PSPF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Psp operon transcriptional activator; AltName: Full=Phage shock protein F [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37344</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>5.35246e-32</Hsp_evalue>
+      <Hsp_query-from>1929</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>RNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPYTLSPA----AQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>RHP-GRFERADGGTLFLDELATAPMMVQEKLLRVIEYGELERVGGSQPLQVNVRLVCATNADLPAMVNEGTFRADLLDRLAFDVVQLPPLRERESDIMLMAEYFAIQMCREIK-LPLFPGFTERARETLLNYRWPGNIRELKNVVERSVYRHGTSDYPLDDIIIDPFKRRPPEDAIAVSETTSLPT---------LPLDLREFQMQQ-----EKELLQLSLQQGKYNQKRAAELLGLTYHQFRALLKKHQI</Hsp_hseq>
+      <Hsp_midline>R+P      ADGGTLFLDE+A  P+ +Q KLLR I+   + R+G +    V+VR+VCAT+ +L A+V  G FR DL  RL    + +P LRE   ++ L   Y   +     +   L P     A++ LLNY +PGN REL+N++ER+V         +DD+ I     +P     AV    +LP+         LP D    Q+Q      E++++   L+Q + N+ +AA+ LG+++   R  +++  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|84027935|sp|P0AFU5.1|QSEF_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein QseF; AltName: Full=Quorum-sensing regulator protein F [Escherichia coli O157:H7] &gt;gi|84027936|sp|P0AFU4.1|GLRR_ECOLI RecName: Full=Transcriptional regulatory protein GlrR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AFU5</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>5.8914e-32</Hsp_evalue>
+      <Hsp_query-from>1928</Hsp_query-from>
+      <Hsp_query-to>2160</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>IRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPY--TLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLG</Hsp_qseq>
+      <Hsp_hseq>VSNREGLFQAAEGGTLFLDEIGDMPAPLQVKLLRVLQERKVRPLGSNRDIDINVRIISATHRDLPKAMARGEFREDLYYRLNVVSLKIPALAERTEDIPLLANHLLRQAAERHKPFVRAFSTDAMKRLMTASWPGNVRQLVNVIEQCVALT----------------SSPVISDALVEQA--LEGENTALPTFV-----------EARNQFELNYLRKLLQITKGNVTHAARMAG</Hsp_hseq>
+      <Hsp_midline>+ N     + A+GGTLFLDE+ D+P  +QVKLLR +QE+ VR +G   +  ++VRI+ ATH++L   +  G FR+DLYYRLNVVSL +P+L E  E++ L   +LL + +  ++P+    S  A + L+  S+PGN R+L N++E+ VAL                   PV ++  V  A  L  E  A P+ +           +  ++ E + + ++L+ T+GN T AA+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|84028723|sp|P0AFB9.1|NTRC_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulation protein NR(I) [Escherichia coli O157:H7] &gt;gi|84028724|sp|P0AFB8.1|NTRC_ECOLI RecName: Full=Nitrogen regulation protein NR(I) [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AFB9</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>9.0628e-32</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENL-KLPTPYL-LYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>QADGGTLFLDEIGDMPLDVQTRLLRVLADGQFYRVGGYAPVKVDVRIIAATHQNLEQRVQEGKFREDLFHRLNVIRVHLPPLRERREDIPRLARHFLQVAARELGVEAKLLHPETEAALTRLAWPGNVRQLENTCRWLTVMAAGQEVLIQDLP-GELFESTVAESTSQMQPDSWATLLAQWADRALRSGHQNL-LSEAQPELERTLLTTALRHTQGHKQEAARLLGWGRNTLTRKLKELGME</Hsp_hseq>
+      <Hsp_midline> ADGGTLFLDE+ D+PL +Q +LLR + +    R+G      VDVRI+ ATH+NLE  V+ G FR+DL++RLNV+ +++P LRE RE++ +L   +L +           L P  +  L   ++PGN R+LEN       +  G  V I DL   ++    V   T+    D+  + +A    R L      + + +   ++ER ++   L+ T+G++ +AA+ LG    ++  +++ L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|20141558|sp|P41789.2|NTRC_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen regulation protein NR(I) [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P41789</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.1962e-31</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENL-KLPTPYL-LYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>QADGGTLFLDEIGDMPLDVQTRLLRVLADGQFYRVGGYAPVKVDVRIIAATHQNLERRVQEGKFREDLFHRLNVIRIHLPPLRERREDIPRLARHFLQVAARELGVEAKLLHPETETALTRLAWPGNVRQLENTCRWLTVMAAGQEVLIQDLPGELFEASTPDSPSHLP-PDSWATLLAQWADRALRSGHQNL-LSEAQPELERTLLTTALRHTQGHKQEAARLLGWGRNTLTRKLKELGME</Hsp_hseq>
+      <Hsp_midline> ADGGTLFLDE+ D+PL +Q +LLR + +    R+G      VDVRI+ ATH+NLE  V+ G FR+DL++RLNV+ +++P LRE RE++ +L   +L +           L P  +  L   ++PGN R+LEN       +  G  V I DL  +        + + +P  D+  + +A    R L      + + +   ++ER ++   L+ T+G++ +AA+ LG    ++  +++ L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1731060|sp|P54529.1|YQIR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Putative sigma L-dependent transcriptional regulator YqiR [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P54529</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>2.7815e-31</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>460</Hsp_hit-from>
+      <Hsp_hit-to>686</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPY-----TLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYT--VQIDDLQIQDVHHKPVRTE--TAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>ANNGSIFLDEIGELTQNMQAKLLRVLQEKEIVRVGGTKAIPVNVRVIAATNVNIEKAMADGTFREDLYYRINRYPISIPPLRQRLEDIEALSVRLIQK---INRDYGRNVKGLSQQALRALSAYHWPGNVRELENVLGRAMIFLNPHMEWIEKDHLPVFELEQKENDTDQGTGFDFPDIEGEKLSVA-----------------VEKFEAHLIQQTLEKHHFNRTKTAKALGVSIRNLYYKMDKYGL</Hsp_hseq>
+      <Hsp_midline>A+ G++FLDE+ +L  +MQ KLLR +QEK + R+G     PV+VR++ AT+ N+E  +  G FR+DLYYR+N   +++P LR+  E+++  +  L+ K    NR Y      LS  A + L  Y +PGN RELEN+L RA+     +   ++ D L + ++  K   T+  T     D    +++ A                 ++K E  +I Q L++   NRT+ AK LG+S R++ Y+M++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|128601|sp|P03029.1|NTRC_KLEPN</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen assimilation regulatory protein [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P03029</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.01404e-30</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENL-KLPTPYL-LYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVP------VADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>QADGGTLFLDEIGDMPLDVQTRLLRVLADGQFYRVGGYAPVKVDVRIIAATHQNLELRVQEGKFREDLFHRLNVIRVHLPPLRERREDIPRLARHFLQIAARELGVEAKQLHPETEMALTRLAWPGNVRQLENTCRWLTVMAAGQEVLTQDLPSE-------LFETAIPDNPTQMLPDSWATLLGQWADRALRSGHQNL-LSEAQPEMERTLLTTALRHTQGHKQEAARLLGWGRNTLTRKLKELGME</Hsp_hseq>
+      <Hsp_midline> ADGGTLFLDE+ D+PL +Q +LLR + +    R+G      VDVRI+ ATH+NLE  V+ G FR+DL++RLNV+ +++P LRE RE++ +L   +L +           L P  +  L   ++PGN R+LEN       +  G  V   DL  +         ETA+P      + D+  + +     R L      + + +   ++ER ++   L+ T+G++ +AA+ LG    ++  +++ L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|139857|sp|P06519.1|XYLR_PSEPU</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein XylR; AltName: Full=67 kDa protein [Pseudomonas putida]</Hit_def>
+  <Hit_accession>P06519</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>2.10149e-30</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2174</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKH--SHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVP-VADTLPSEIAAAPSRLLPFDPDT--MQIQDY---LDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLN</Hsp_qseq>
+      <Hsp_hseq>ANGGTIFLDEVIELTPRAQATLLRVLQEGELERVGGDRTRKVDVRLITATNENLEEAVKMGRFRADLFFRLNVFPVHIPPLRERVEDIPLLVEHFLRRHHKEYGKKTLGLSDRAMEACLHYQWPGNIRELENALERGVILTES--------------NESINVESLFPGLATATEGDRLSSEGRLEEESGDSWFRQIIDQGVSLEDLEAGLMRTAMDRCGQNISQAARLLGLTRPAMAYRLKKLD</Hsp_hseq>
+      <Hsp_midline>A+GGT+FLDEV +L    Q  LLR +QE  + R+G    + VDVR++ AT++NLE  V+ G FR DL++RLNV  +++P LRE  E++ L   + L +H   +  +   LS  A +  L+Y +PGN RELEN LER V L                 ++ +  E+  P +A     +  ++  RL     D+   QI D    L+ +E  ++   + +   N +QAA+ LG++  +M YR+++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|30179736|sp|P05407.4|NIFA_BRADU</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>P05407</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>2.284e-30</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYK-HSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQD--------------------VHHKPVRTETAVPVADTLPSEIAAA-PSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>ADKGTLFLDEIGEISPPFQAKLLRVLQEQEFERVGSNHTIKVDVRVIAATNRNLEEAVARSEFRADLYYRISVVPLLLPPLRERRSDIPLLAREFLRKFNSENGRSLTLEASAIDVLMSCKFPGNVRELENCIERTATLSAGTSIVRSDFACSQGQCLSTTLWKSTSYGKTDPAAPMQPVPAKSIIPLAETAPPPQAVCEPGSLAPSGTVLVSGARMAD---RERVVAAMEKSGWVQAKAARLLGLTPRQVGYALRKYGIE</Hsp_hseq>
+      <Hsp_midline>AD GTLFLDE+ ++    Q KLLR +QE+   R+G      VDVR++ AT++NLE  V    FR DLYYR++VV L +P LRE R ++ L     L K +S N R  TL  +A  +L++  +PGN RELEN +ER   L  G ++   D                            +PV  ++ +P+A+T P   A   P  L P     +      D   R+ +   ++++   + +AA+ LG++ R + Y + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|172046081|sp|Q04848.2|NTRC_AZOC5</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen assimilation regulatory protein NtrC [Azorhizobium caulinodans ORS 571]</Hit_def>
+  <Hit_accession>Q04848</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.45363e-30</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPY-TLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDI----IGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>QAEGGTLFLDEIGDMPMEAQTRLLRVLQQGEYTTVGGRTPIKTDVRIIAATNKDLRTLIQQGLFREDLFFRLNVVPLRLPPLRERSEDVPDLVRHFFLQAEREGLPAKQVDSAALDRLKRYRWPGNVRELENLVRRLAALYPQEIITPSIIEAELSEPAPSALSEDGPVDATLGASVERHLNGYFSGFGEDLPPPGLYHRILRDVEYPLLSAALAATRGNQIKAAELLGLNRNTLRKKIRDLDI</Hsp_hseq>
+      <Hsp_midline> A+GGTLFLDE+ D+P+  Q +LLR +Q+     +G  T    DVRI+ AT+K+L  L++ G FR+DL++RLNVV L +P LRE  E++     +   +      P   +  AA   L  Y +PGN RELEN++ R  AL     +    ++ +     P       PV  TL + +    +       + +       +I RD+    +   L  T GN+ +AA+ LG++  ++R ++  L+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|41017480|sp|Q7MFY9.1|NORR_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MFY9</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>9.63043e-30</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHS-----HNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQID-DLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>FGHIKGAFTGAISHRKGKFEQADGGTLFLDEVGELSLELQAKLLRALQYGDIQRVGDDRHIRVNTRIVAATNRVLHEEVKAGRFRADLYHRLSVFPLHVPPLREREEDVILLAGFFAEQVRGKLGLHSVR---LSPSLVAELREYHWPGNVRELEHVIKRAAVLAKARTPQMDIELISQDFDIK-------TPTSPMMPTVAASQAQHEIHVD---IGLKQATDAFQKQLILRALESNQGNWAATARQLELDSGNLHRLAKRLGI</Hsp_hseq>
+      <Hsp_midline> G +       I +       ADGGTLFLDEV +L L +Q KLLRA+Q   ++R+GD     V+ RIV AT++ L   V++G FR DLY+RL+V  L++P LRE  E++ L   +   +       H+ R   LSP+    L  Y +PGN RELE++++RA  L    T Q+D +L  QD   K        P +  +P+  A+     +  D   + ++   D  ++ +I + L+  +GN    A++L +   ++    +RL I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|128225|sp|P03028.1|NIFA_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>P03028</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.01241e-29</Hsp_evalue>
+      <Hsp_query-from>1918</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>537</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYK-HSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQ-----------DVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>GAFTGAIAQRV----GRFESANGGTLLLDEIGEIPPAFQAKLLRVIQEGEFERVGGTKTLKVDVRLIFATNKDLEMAVQNGEFREDLYYRISGVPLILPPLRHRDGDIPLLARAFLQRFNEENGRDLHFAPSALDHLSKCKFPGNVRELENCVRRTATLARSKTITSSDFACQTDQCFSSRLWKGVHCSHGHIEIDAP-AGTTPL-LGAPANDVPPKEPGSAGVASNL--IERDRLISALEEAGWNQAKAARILEKTPRQVGYALRRHGVD</Hsp_hseq>
+      <Hsp_midline>G  T  +A  +         A+GGTL LDE+ ++P + Q KLLR IQE    R+G      VDVR++ AT+K+LE  V++G FR+DLYYR++ V L +P LR    ++ L     L + +  N R    +P+A   L    +PGN RELEN + R   L    T+   D   Q            VH      E   P A T P  + A  + + P +P +  +   L  IERD +   L++   N+ +AA+ L  + R + Y + R  +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|120053|sp|P19323.1|FHLA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Formate hydrogenlyase transcriptional activator [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P19323</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.19879e-29</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2176</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHN-NRPYTLSPA-AQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEG---NRTQAAKRLGISFRSMRYRMERLNID</Hsp_qseq>
+      <Hsp_hseq>ADKSSLFLDEVGDMPLELQPKLLRVLQEQEFERLGSNKIIQTDVRLIAATNRDLKKMVADREFRSDLYYRLNVFPIHLPPLRERPEDIPLLAKAFTFKIARRLGRNIDSIPAETLRTLSNMEWPGNVRELENVIERAVLLTRGNVLQ---LSLPDI---------VLPEPETPPAATVVA-----------LEGED-----EYQLIVRVLKETNGVVAGPKGAAQRLGLKRTTLLSRMKRLGID</Hsp_hseq>
+      <Hsp_midline>AD  +LFLDEV D+PL +Q KLLR +QE+   R+G       DVR++ AT+++L+ +V    FR DLYYRLNV  +++P LRE  E++ L      +K +    R     PA   + L N  +PGN RELEN++ERAV L  G  +Q   L + D+          +P  +T P+    A           ++ +D     E  +I +VLK+T G       AA+RLG+   ++  RM+RL ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|128599|sp|P10576.1|NTRC_BRASR</Hit_id>
+  <Hit_def>RecName: Full=Nitrogen assimilation regulatory protein [Bradyrhizobium sp. RP501]</Hit_def>
+  <Hit_accession>P10576</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.42942e-29</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENL-KLPTPYLLYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKP---VRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQ----IQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>QAEGGTLFLDEIGDMPMEAQTRLLRVLQQGEYTTVGGRTPIKTDVRIVAASNKDLRILIQQGLFREDLFFRLNVVPLRVPPLRERIEDLPDLIRHFFSLAEKDGLPPKKLDAQALERLKQHRWPGNVRELENLARRLAAL---YPQDVITASVIDGELAPPAVTSGSTATVGVDNLGGAVEAYLSSHFSGFPNGVPPPGLYHRILKEIEIPLLTAALAATRGNQIRAADLLGLNRNTLRKKIRDLDI</Hsp_hseq>
+      <Hsp_midline> A+GGTLFLDE+ D+P+  Q +LLR +Q+     +G  T    DVRIV A++K+L  L++ G FR+DL++RLNVV L +P LRE  E+L  L   +          P  L   A + L  + +PGN RELEN+  R  AL   Y   +    + D    P       TA    D L   + A  S      P+ +         L +IE  ++   L  T GN+ +AA  LG++  ++R ++  L+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|128222|sp|P03027.1|NIFA_KLEPN</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P03027</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.55916e-29</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>519</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHN-NRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGESSASFQAKLLRILQEGEMERVGGDETLRVNVRIIAATNRHLEEEVRLGHFREDLYYRLNVMPIALPPLRERQEDIAELAHFLVRKIAHSQGRTLRISDGAIRLLMEYSWPGNVRELENCLERSAVLSESGLIDRDVILFNHRDNPPKALASSGPAEDGW--------------------LDNSLDERQRLIAA--LEKAGWVQAKAARLLGMTPRQVAYRIQIMDI</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ +   S Q KLLR +QE  + R+G      V+VRI+ AT+++LE  V  G FR+DLYYRLNV+ + +P LRE +E++     +L+ K +H+  R   +S  A ++L+ YS+PGN RELEN LER+  L     +  D +      + P    ++ P  D                      + + LD+ +R I    L++    + +AA+ LG++ R + YR++ ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|29336643|sp|Q8D4F9.1|NORR_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8D4F9</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.71006e-29</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHS-----HNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQID-DLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>FGHIKGAFTGAISHRKGKFEQADGGTLFLDEVGELSLELQAKLLRALQYGDIQRVGDDRHIRVNTRIVAATNRVLHEEVKAGRFRADLYHRLSVFPLHVPPLREREEDVILLAGFFAEQVRGKLGLHSVR---LSPSLVAELREYHWPGNVRELEHVIKRAAVLAKARTPQMDIELISQDFDIK-------TPTSPMMPTVAASQAQHEIHSD---IGLKQATDAFQKKLILRALESNQGNWAATARQLELDSGNLHRLAKRLGI</Hsp_hseq>
+      <Hsp_midline> G +       I +       ADGGTLFLDEV +L L +Q KLLRA+Q   ++R+GD     V+ RIV AT++ L   V++G FR DLY+RL+V  L++P LRE  E++ L   +   +       H+ R   LSP+    L  Y +PGN RELE++++RA  L    T Q+D +L  QD   K        P +  +P+  A+     +  D   + ++   D  ++ +I + L+  +GN    A++L +   ++    +RL I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|3024194|sp|P56266.1|NIFA_KLEOX</Hit_id>
+  <Hit_def>RecName: Full=Nif-specific regulatory protein [Klebsiella oxytoca]</Hit_def>
+  <Hit_accession>P56266</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.92341e-29</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>519</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHN-NRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEIGESSASFQAKLLRILQEGEMERVGGDETLRVNVRIIAATNRHLEEEVRLGHFREDLYYRLNVMPIALPPLRERQEDIAELAHFLVRKIAHSQGRTLRISDGAIRLLMEYSWPGNVRELENCLERSAVLSESGLIDRDVILFNHRDNPPKALASSGPAEDGW--------------------LDNSLDERQRLIAA--LEKAGWVQAKAARLLGMTPRQVAYRIQIMDI</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDE+ +   S Q KLLR +QE  + R+G      V+VRI+ AT+++LE  V  G FR+DLYYRLNV+ + +P LRE +E++     +L+ K +H+  R   +S  A ++L+ YS+PGN RELEN LER+  L     +  D +      + P    ++ P  D                      + + LD+ +R I    L++    + +AA+ LG++ R + YR++ ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|226733267|sp|B5FSZ0.1|NORR_SALDC</Hit_id>
+  <Hit_def>RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853]</Hit_def>
+  <Hit_accession>B5FSZ0</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>2.12136e-29</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLY--KHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>FGHVKGAFTGAISNRSGKFEMADNGTLFLDEIGELSLALQAKLLRVLQYGDIQRVGDDRSLRVDVRVLAATNRDLREEVLTGRFRADLFHRLSVFPLFVPPLRERGDDVVLLAGYFCEQCRLRLGLSRVVLSPDARRHLLNYGWPGNVRELEHAIHRAVVL--ARATRAGDEVILEAQH------FALP-EDVLP----APPAESFLALPTCRNLRESTENFQREMIRQALAQNNHNWAASARALETDVANLHRLAKRLGL</Hsp_hseq>
+      <Hsp_midline> G +       I N       AD GTLFLDE+ +L L++Q KLLR +Q   ++R+GD     VDVR++ AT+++L   V +G FR DL++RL+V  L +P LRE  +++ L   Y     +         LSP A++ LLNY +PGN RELE+ + RAV L      +  D  I +  H       A+P  D LP    A P+      P    +++  +  +R++I Q L Q   N   +A+ L     ++    +RL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|254767666|sp|C0PWN2.1|NORR_SALPC</Hit_id>
+  <Hit_def>RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>C0PWN2</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>2.23502e-29</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLY--KHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>FGHVKGAFTGAISNRSGKFEMADNGTLFLDEIGELSLALQAKLLRVLQYGDIQRVGDDRSLRVDVRVLAATNRDLREEVLAGRFRADLFYRLSVFPLFVPPLRERGDDVVLLAGYFCEQCRLRLGLSRVVLSPGARRHLLNYGWPGNVRELEHAIHRAVVLARA-TRAGDEVVLEEQHFALSE--------DVLPAPSAESFLAL----PACRNLRESTENFQREMIRQALAQNNHNWAASARALETDVANLHRLAKRLGL</Hsp_hseq>
+      <Hsp_midline> G +       I N       AD GTLFLDE+ +L L++Q KLLR +Q   ++R+GD     VDVR++ AT+++L   V +G FR DL+YRL+V  L +P LRE  +++ L   Y     +         LSP A++ LLNY +PGN RELE+ + RAV L    T   D++ +++ H             D LP+  A +   L    P    +++  +  +R++I Q L Q   N   +A+ L     ++    +RL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|61248975|sp|P0A2D7.1|TYRR_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Transcriptional regulatory protein TyrR [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61248976|sp|P0A2D8.1|TYRR_SALTI RecName: Full=Transcriptional regulatory protein TyrR [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A2D7</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>2.52503e-29</Hsp_evalue>
+      <Hsp_query-from>1937</Hsp_query-from>
+      <Hsp_query-to>2170</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>HADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNN---RPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQ--IQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRM</Hsp_qseq>
+      <Hsp_hseq>QANGGSVLLDEIGEMSPRMQAKLLRFLNDGTFRRVGEDHEIHVDVRVICATQKNLVELVQKGLFREDLYYRLNVLTLNLPPLRDCPQDIMPLTELFVARFADEQGVPRP-KLSADLSTVLTRYGWPGNVRQLKNAIYRALTQLEGY-----ELRPQDI---------------LLPDYDAAT----VAVGEDAMEGSLDDITSRFERSVLTQLYRSYPSTR-KLAKRLGVSHTAIANKL</Hsp_hseq>
+      <Hsp_midline> A+GG++ LDE+ ++   MQ KLLR + +   RR+G+  E  VDVR++CAT KNL  LV+ G FR+DLYYRLNV++LN+P LR+  +++   T   + + +      RP  LS     +L  Y +PGN R+L+N + RA+    GY     +L+ QD+                LP   AA     +    D M+  + D   + ER ++ Q+ +     R + AKRLG+S  ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|190359907|sp|A8ANR6.1|NORR_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8ANR6</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>2.54659e-29</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLY--KHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>FGHVKGAFTGAISNRSGKFEMADNGTLFLDEIGELSLALQAKLLRVLQYGDIQRVGDDRSLRVDVRVLAATNRDLREEVLAGRFRADLFHRLSVFPLSVPPLRERGEDVVLLAGYFCEQCRLRLGLSRVVLSPGARSHLLSYGWPGNVRELEHAIHRAVVL--ARATRAGDEVVLEAQHFALQEEVS-----------PALPDDSTPTLPANHNLRDATEAFQREMIRRALAQNNHNWAACARALETDVANLHRLAKRLGL</Hsp_hseq>
+      <Hsp_midline> G +       I N       AD GTLFLDE+ +L L++Q KLLR +Q   ++R+GD     VDVR++ AT+++L   V +G FR DL++RL+V  L++P LRE  E++ L   Y     +         LSP A+  LL+Y +PGN RELE+ + RAV L      +  D  + +  H  ++ E +            A P    P  P    ++D  +  +R++I + L Q   N    A+ L     ++    +RL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2500748|sp|P74839.1|PRPR_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Propionate catabolism operon regulatory protein [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P74839</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>3.12964e-29</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2171</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>532</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMREN-LKLPTPYLLYKHSHNNRPYTLS-----PAAQQMLLNYSYPGNFRELENILER-AVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRME</Hsp_qseq>
+      <Hsp_hseq>AHGGTLFLDEIGEMPLPLQTRLLRVLEEKAVTRVGGHQPIPVDVRVISATHCDLDREIMQGRFRPDLFYRLSILRLTLPPLRERQADILPLAESFLKQSLAAMEIPFTESIRHGLTQCQPLLLAWRWPGNIRELRNMMERLALFLSVDPAPTLDRQFMRQL----------------LP-ELMVNTAELTPSTVDANALQD------------VLARFKGDKTAAARYLGISRTTLWRRLK</Hsp_hseq>
+      <Hsp_midline>A GGTLFLDE+ ++PL +Q +LLR ++EKAV R+G     PVDVR++ ATH +L+  +  G FR DL+YRL+++ L +P LRE + + L L   +L    +    P+T S        Q +LL + +PGN REL N++ER A+ L V     +D   ++ +                LP E+    + L P   D   +QD            VL + +G++T AA+ LGIS  ++  R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|418451|sp|Q01265.1|YHYA_PSESN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein in HyuA 5&apos;region; AltName: Full=ORF1, partial [Pseudomonas sp. NS671]</Hit_def>
+  <Hit_accession>Q01265</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>3.17196e-29</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2086</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLYKHSHNNRPY-TLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDL</Hsp_qseq>
+      <Hsp_hseq>AHNGTLFLDEIGELPLNLQAKLLQLLNEKQFTPLGEIKPVQVDVRFIAATNRNLEDMVREGTFREDLYYRLFVIPITIPSLSERREDIPFLINHFLETFNHKYKLYKTIDKEVVQFFIDYEWKGNVRELQNTIERLVLISSAQQIELSDL</Hsp_hseq>
+      <Hsp_midline>A  GTLFLDE+ +LPL++Q KLL+ + EK    +G+     VDVR + AT++NLE +V  G FR+DLYYRL V+ + +PSL E RE++     + L   +H  + Y T+     Q  ++Y + GN REL+N +ER V +     +++ DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2500747|sp|P77743.1|PRPR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Propionate catabolism operon regulatory protein [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P77743</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>3.21806e-29</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2171</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>527</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLRE-MRENLKLPTPYLLYKHSHNNRPYTLS-----PAAQQMLLNYSYPGNFRELENILER-AVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRME</Hsp_qseq>
+      <Hsp_hseq>AHGGTLFLDEIGEMPLPLQTRLLRVLEEKEVTRVGGHQPVPVDVRVISATHCNLEEDMQQGRFRRDLFYRLSILRLQLPPLRERVADILPLAESFLKVSLAALSAPFSAALRQGLQASETVLLHYDWPGNIRELRNMMERLALFLSVEPTPDLTPQFMQLLLPELARESAKTP-----------APRLLTP--------------------QQALEKFNGDKTAAANYLGISRTTFWRRLK</Hsp_hseq>
+      <Hsp_midline>A GGTLFLDE+ ++PL +Q +LLR ++EK V R+G     PVDVR++ ATH NLE  ++ G FR+DL+YRL+++ L +P LRE + + L L   +L    +  + P++ +      A++ +LL+Y +PGN REL N++ER A+ L V  T  +    +Q +  +  R     P           AP  L P                     Q L++  G++T AA  LGIS  +   R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|29336865|sp|Q8ZMJ8.1|NORR_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|226733272|sp|B4TT16.1|NORR_SALSV RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633]</Hit_def>
+  <Hit_accession>Q8ZMJ8</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>3.63875e-29</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLY--KHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>FGHVKGAFTGAISNRSGKFEMADNGTLFLDEIGELSLALQAKLLRVLQYGDIQRVGDDRSLRVDVRVLAATNRDLREEVLAGRFRADLFHRLSVFPLFVPPLRERGDDVVLLAGYFCEQCRLRLGLSRVVLSPGARRHLLNYGWPGNVRELEHAIHRAVVL--ARATRAGDEVILEAQHFALS-------EDVLP----APPAESFLALPTCRNLRESTENFQREMIRQALAQNNHNWAASARALETDVANLHRLAKRLGL</Hsp_hseq>
+      <Hsp_midline> G +       I N       AD GTLFLDE+ +L L++Q KLLR +Q   ++R+GD     VDVR++ AT+++L   V +G FR DL++RL+V  L +P LRE  +++ L   Y     +         LSP A++ LLNY +PGN RELE+ + RAV L      +  D  I +  H  +         D LP    A P+      P    +++  +  +R++I Q L Q   N   +A+ L     ++    +RL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|190359988|sp|A9MFX7.2|NORR_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Anaerobic nitric oxide reductase transcription regulator NorR [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MFX7</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>4.48469e-29</Hsp_evalue>
+      <Hsp_query-from>1917</Hsp_query-from>
+      <Hsp_query-to>2175</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>LGQLTANLAHEIRNPMSAIRHADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMRENLKLPTPYLLY--KHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTETAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERLNI</Hsp_qseq>
+      <Hsp_hseq>FGHVKGAFTGAISNRSGKFEMADNGTLFLDEIGELSLALQAKLLRVLQYGDIQRVGDDRSLRVDVRVLAATNRDLREEVLAGRFRADLFHRLSVFPLFVPPLRERGNDVVLLAGYFCEQCRLRLGLSRVVLSPGARRHLLNYGWPGNVRELEHAIHRAVVL--ARATRAGDEVILEAQHFALS-------EDVLP----APPAESFLALPNCRNLRESTENFQRELIRQALAQNHHNWAASARALETDVANLHRLAKRLGL</Hsp_hseq>
+      <Hsp_midline> G +       I N       AD GTLFLDE+ +L L++Q KLLR +Q   ++R+GD     VDVR++ AT+++L   V +G FR DL++RL+V  L +P LRE   ++ L   Y     +         LSP A++ LLNY +PGN RELE+ + RAV L      +  D  I +  H  +         D LP    A P+      P+   +++  +  +R++I Q L Q   N   +A+ L     ++    +RL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|124106286|sp|Q9K4U8.2|NORR2_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Nitric oxide reductase transcription regulator NorR2 [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q9K4U8</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>5.04044e-29</Hsp_evalue>
+      <Hsp_query-from>1938</Hsp_query-from>
+      <Hsp_query-to>2173</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>518</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ADGGTLFLDEVADLPLSMQVKLLRAIQEKAVRRIGDATEQPVDVRIVCATHKNLEALVESGAFRQDLYYRLNVVSLNMPSLREMREN-LKLPTPYL-LYKHSHNNRPYTLSPAAQQMLLNYSYPGNFRELENILERAVALCVGYTVQIDDLQIQDVHHKPVRTE-TAVPVADTLPSEIAAAPSRLLPFDPDTMQIQDYLDKIERDIIGQVLKQTEGNRTQAAKRLGISFRSMRYRMERL</Hsp_qseq>
+      <Hsp_hseq>ADGGTLFLDEVGELPLAIQAKLLRTLQNGEIQRLGSDRPRRVNVRVIAATNRNLREHVRDGSFRADLYHRLSVYPIPIPPLRERGNDVLLLAGRFLELNRARLGLRSLRLSGGAQDALRSYRWPGNVRELEHVISRAALRAVSRGAGRNDI----VTLEPELLDLDGLEVPAAHHAGAGMASAFAAPALAAGITLRDAVEQTQRACIEQALKDQGGNWAQAARQLGIDASNLHKLARRL</Hsp_hseq>
+      <Hsp_midline>ADGGTLFLDEV +LPL++Q KLLR +Q   ++R+G    + V+VR++ AT++NL   V  G+FR DLY+RL+V  + +P LRE   + L L   +L L +     R   LS  AQ  L +Y +PGN RELE+++ RA    V      +D+    V  +P   +   + V     +    A +   P     + ++D +++ +R  I Q LK   GN  QAA++LGI   ++     RL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 45, 52, 56, 68, 70, 74, 87, 97, 112, 115, 127, 142, 147, 148, 162, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
