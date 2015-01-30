@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>64385</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1805</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>64385</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1805</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|418524|sp|P32425.1|YIN1_STRAM</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator in unstable DNA locus; AltName: Full=ORF 1 [Streptomyces ambofaciens]</Hit_def>
+  <Hit_accession>P32425</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>3.09547e-06</Hsp_evalue>
+      <Hsp_query-from>1610</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LLPGKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMILNILAGLPDLETRLKP-LYAMIRCEEEASGRG--DRVGWNRLSNAFHVELARLVGNDVLFDIMNTLCARSSLIVAVAGVHREKKHAINTHTH-------SEHREILDLLLAGRRNRVVKILRRHLGNCMERLEK</Hsp_qseq>
+      <Hsp_hseq>LAPGAALSENELAASMGVSRTPVRESLILLAQEGLVQVFPKIGSFVSRVDPARVAD---AQFLREAVELGSLDALP---AELDPAVVGELRDNLVRQGRKDLDLEEFFGLDEAFHQGLMRLSGHGNVWT-----------TVAAAKGHLDRARRLGLHENVSPAVFVAQHREIFDAVTEGDVPLARTAMRTHLRAVFDDIER</Hsp_hseq>
+      <Hsp_midline>L PG  L+E+EL   M  SR  VR +L LLA + +V + P  G+FV   D   + D   A+   E + L  L  LP     L P +   +R      GR   D   +  L  AFH  L RL G+  ++             VA A  H ++   +  H +       ++HREI D +  G        +R HL    + +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|4033500|sp|P70790.1|YTUX_AGRVI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator in the TAR-I ttuE-ttuC&apos; intergenic region; AltName: Full=ORFX [Agrobacterium vitis]</Hit_def>
+  <Hit_accession>P70790</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00214886</Hsp_evalue>
+      <Hsp_query-from>1598</Hsp_query-from>
+      <Hsp_query-to>1724</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>YALILDGITDQVLLPGKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMILNILAGLPDLETRLKPLYAMIRCEEEAS----GRGDRVGWNRLSNAFHVEL</Hsp_qseq>
+      <Hsp_hseq>YHAIRNAIRTNVFPPGYQAAEIEIARQLGMSRTPVHEAMARLQEDGLVRILPKKGIIICALSPADIEEIYEVTIALEGAAASRLA-MIDAPVKAE-VVALLRDATEAMVAALERNDLPGWAAADERFHETL</Hsp_hseq>
+      <Hsp_midline>Y  I + I   V  PG +  E E+ RQ+  SR  V  A++ L  D +V + P +G  +      ++++++   I +E    + LA + D   + + + A++R   EA      R D  GW      FH  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1169985|sp|P46833.1|GNTR_BACLI</Hit_id>
+  <Hit_def>RecName: Full=Gluconate operon transcriptional repressor; AltName: Full=P28 protein [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>P46833</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00791241</Hsp_evalue>
+      <Hsp_query-from>1613</Hsp_query-from>
+      <Hsp_query-to>1699</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMILNIL--AGLPDLETRLKPLYAMIR</Hsp_qseq>
+      <Hsp_hseq>GTILSENKLAAEFSVSRSPIREALKILASEKIIRLE-RMGAVVIGLTEKEIGEIYDVRLVMETFVFERLGRANVDELVTDLSKILEMMK</Hsp_hseq>
+      <Hsp_midline>G  L+E++L  +   SR+ +R AL +LA +KI+ L+   GA V     KE+ ++++ R+ MET +   L  A + +L T L  +  M++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|586491|sp|P37335.1|BPHR_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator BphR [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>P37335</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0323847</Hsp_evalue>
+      <Hsp_query-from>1605</Hsp_query-from>
+      <Hsp_query-to>1792</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ITDQVLLPGKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMIL--NILAGLPDLETRLKPLYAMIRCEEEASGRGDRV----GWNRLSNAFHVELARLVGNDVLFDIMNTLCARSSLIVAVAGVHREKKHAINTHTHSEHREILDLLLAGRRNRVVKILRRHL</Hsp_qseq>
+      <Hsp_hseq>IVEGRLAAGSRLAIEDLKSRYEVSGGTVREALSLLVANNLVQTQAQRGFHVTPMSLDDMRDLAATRIALECEALRQSVLNGDAEWEARVVSSYHRLSLLDERTMR-DPVHLFNQWEQANRDFHEALISACSSAWTQRFLSILYLQMERYRRLTAMHNRPARNV----HEEHLALRDSALARDAERCTELLRMHI</Hsp_hseq>
+      <Hsp_midline>I +  L  G +L   +L  +   S  TVR ALSLL  + +V  Q  RG  V    L +M+D+   RI +E   L  ++L G  + E R+   Y  +   +E + R D V     W + +  FH  L     +      ++ L  +      +  +H      +    H EH  + D  LA    R  ++LR H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|3915562|sp|O32152.1|YURK_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YurK [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32152</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.10112</Hsp_evalue>
+      <Hsp_query-from>1600</Hsp_query-from>
+      <Hsp_query-to>1661</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>LILDGITDQVLLPGKKL-TESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLK</Hsp_qseq>
+      <Hsp_hseq>IITDDIKKGVYSPTAKLPTENELCTKYNVSRITVRKAILDLVEEGYLIRQQGKGTFVKSPKLK</Hsp_hseq>
+      <Hsp_midline>+I D I   V  P  KL TE+ELC +   SR TVR A+  L  +  +  Q  +G FV  P LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2506558|sp|P37338.2|CSIR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional repressor CsiR; AltName: Full=Carbon starvation induced regulator [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37338</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.106291</Hsp_evalue>
+      <Hsp_query-from>1612</Hsp_query-from>
+      <Hsp_query-to>1792</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>PGKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMILNILAGLPDLETRLKPLY-AMIRCEEEASGRGDRV--GWNRLSNAFHVELARLVGNDVLFDI---MNTLCARSSLIVAVAGVHREKKHAINTHTHSEHREILDLLLAGRRNRVVKILRRHL</Hsp_qseq>
+      <Hsp_hseq>PDEKLRMSLLTSRYALGVGPLREALSQLVAERLVTVVNQKGYRVASMSEQELLDIFDARANMEAMLVSLAIARGGDEWEADVLAKAHLLSKLEACDASEKMLDEWDLRHQAFHTAIVAGCGSHYLLQMRERLFDLAARYRFIWLRRTVLSVE---MLEDKHDQHQTLTAAVLARDTARASELMRQHL</Hsp_hseq>
+      <Hsp_midline>P +KL  S L  +       +R ALS L  +++V +   +G  V     +E+ D+F+AR  ME M++++       E     L  A +  + EA    +++   W+    AFH  +    G+  L  +   +  L AR   I     V   +   +    H +H+ +   +LA    R  +++R+HL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2506556|sp|P54988.2|NTRA_AMIAI</Hit_id>
+  <Hit_def>RecName: Full=Nta operon transcriptional regulator [Aminobacter aminovorans]</Hit_def>
+  <Hit_accession>P54988</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.131342</Hsp_evalue>
+      <Hsp_query-from>1612</Hsp_query-from>
+      <Hsp_query-to>1797</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PGKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMILNILAGLPDLETRLKPLYAMIRCEEEASGRGDRVGWNRLSNAFHVELARLVGNDVLFDIMNTLCARSSLIVAVAGVHREKKHAINTHTHSEHREILDLLLAGRRNR-----VVKILRRHLGNCME</Hsp_qseq>
+      <Hsp_hseq>PGERINEVELAAQLKVSRTPLREALNRLTTEGFLTTTANKGFFARVLEANTLFDLYELRAFLEQSAVR-LACQRATDQEIAVLRDFL-LEQDESGEISAGEMLKLDEEFHFRLVGLSQNEELLKTVRSISERIRFARWIDWQSRRLSHEQHLHITS--------LLADRKEDECAAFVLAHIQKHFDQILE</Hsp_hseq>
+      <Hsp_midline>PG+++ E EL  Q+  SR  +R AL+ L  +  +    N+G F  V +   + D++  R  +E   +  LA     +  +  L   +  E++ SG        +L   FH  L  L  N+ L   + ++  R      +    R   H  + H  S        LLA R+       V+  +++H    +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|75498289|sp|O07007.1|LUTR_BACSU</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator LutR; AltName: Full=L-lactate utilization operon repressor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O07007</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.33522</Hsp_evalue>
+      <Hsp_query-from>1605</Hsp_query-from>
+      <Hsp_query-to>1805</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>ITDQVLLPGKKLTESE-LCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETM-ILNILAGLPDLETRLKPLYAMIRCE-----------EEASGRGDRVGWNRLSNAFHVELARLVGNDVLFDIMNTLCARSSLIVAVAGVHRE-----KKHAINTHTHSEHREILDLLLAGRRNRVVKILRRHLGNCMERLEKTLED</Hsp_qseq>
+      <Hsp_hseq>IKNGELKPGDKLDSVQALAESFQVSRSAVREALSALKAMGLVEMKQGEGTYLKEFELNQISQPLSAALLMKKEDVKQLLEVRKLLEIGVASLAAEKRTEADLERIQDALKEMGSIEADGELGEKADFAFHLALADASQNELLKHLMNHV---SSLLLETMRETRKIWLFSKKTSVQ-RLYEEHERIYNAVAAGNGAQAEAAMLAHLTNVEDVLSGYFEE</Hsp_hseq>
+      <Hsp_midline>I +  L PG KL   + L      SR+ VR ALS L    +V+++   G ++   +L ++    +A + M+   +  +L     LE  +  L A  R E           E  S   D     +   AFH+ LA    N++L  +MN +   SSL++      R+     KK ++    + EH  I + + AG   +    +  HL N  + L    E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|38503330|sp|Q8FHD1.1|YDFH_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YdfH [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FHD1</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.387555</Hsp_evalue>
+      <Hsp_query-from>1596</Hsp_query-from>
+      <Hsp_query-to>1742</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>RVYALILDGITDQVLLPGKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMILNILAGLPDLETRLKPLYAMIRCEEEASGRGDRVGWNRLSNAFHVELARLVGNDVLFDIMNTLCA</Hsp_qseq>
+      <Hsp_hseq>QIYRILRRDIVHCLIAPGTPLSEKEVSVRFNVSRQPVREAFIKLAENGLIQIRPQRGSYVNKISMAQVRNGSFIRQAIECAVARRAASMIT-ESQCYQLEQNLHQQRIAIERKQLDDFFELDDNFHQLLTQIADCQLAWDTIENLKA</Hsp_hseq>
+      <Hsp_midline>++Y ++   I   ++ PG  L+E E+  +   SR  VR A   LA + ++ ++P RG++V+   + ++++    R  +E  +    A +   E++   L   +  +  A  R     +  L + FH  L ++    + +D +  L A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|82583765|sp|P0ACM3.1|YDFH_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized HTH-type transcriptional regulator YdfH [Escherichia coli O157:H7] &gt;gi|82583766|sp|P0ACM2.1|YDFH_ECOLI RecName: Full=Uncharacterized HTH-type transcriptional regulator YdfH [Escherichia coli K-12] &gt;gi|82583767|sp|P0ACM4.1|YDFH_SHIFL RecName: Full=Uncharacterized HTH-type transcriptional regulator YdfH [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ACM3</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.412427</Hsp_evalue>
+      <Hsp_query-from>1596</Hsp_query-from>
+      <Hsp_query-to>1742</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>RVYALILDGITDQVLLPGKKLTESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVHVPDLKEMQDVFNARIEMETMILNILAGLPDLETRLKPLYAMIRCEEEASGRGDRVGWNRLSNAFHVELARLVGNDVLFDIMNTLCA</Hsp_qseq>
+      <Hsp_hseq>QIYRILRRDIVHCLIAPGTPLSEKEVSVRFNVSRQPVREAFIKLAENGLIQIRPQRGSYVNKISMAQVRNGSFIRQAIECAVARRAASMIT-ESQCYQLEQNLHQQRIAIERKQLDDFFELDDNFHQLLTQIADCQLAWDTIENLKA</Hsp_hseq>
+      <Hsp_midline>++Y ++   I   ++ PG  L+E E+  +   SR  VR A   LA + ++ ++P RG++V+   + ++++    R  +E  +    A +   E++   L   +  +  A  R     +  L + FH  L ++    + +D +  L A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|54040791|sp|P31460.4|DGOR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Galactonate operon transcriptional repressor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P31460</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.486265</Hsp_evalue>
+      <Hsp_query-from>1611</Hsp_query-from>
+      <Hsp_query-to>1655</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>LPGKKL-TESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFV</Hsp_qseq>
+      <Hsp_hseq>VPGSPLPAEAELCEEFATSRNIIREVFRSLMAKRLIEMKRYRGAFV</Hsp_hseq>
+      <Hsp_midline>+PG  L  E+ELC +   SRN +R     L   ++++++  RGAFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1174929|sp|P44487.1|UXUR_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uxu operon regulator [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44487</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.617118</Hsp_evalue>
+      <Hsp_query-from>1596</Hsp_query-from>
+      <Hsp_query-to>1799</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>RVYALILDGITDQVLLPGKKL-TESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFV-HVPDLKEMQ----------DVFNARIEMETMILNILAGLPDLETRLKPLYAMIRCEEEASGRGDRVGWNRLSNAFHVELARLVGNDVLFDIMNTLCARSSLIVAVAGVHREKKHAINTHTH---SEHREILDLLLAGRRNRVVKILRRHLGNCMERL</Hsp_qseq>
+      <Hsp_hseq>RIGQLLKQDISQGIYSIGDKLPTEREISEKFGVSRTIVREAMVMLEVEKLVEVKKGSGVYVVRTPESIHMEHSDLPDVGPFELLQARQLLESSIAEFAALQATKKDILNLKQILNREKELLTQNQDDYSADK---DFHLALAEITQNDVLVKLQEQLWQYRFNSAMWAQLH--SRILQNDYHHLWIEDHQTILSAIQKKNANEARKAMWQHLENVKVKL</Hsp_hseq>
+      <Hsp_midline>R+  L+   I+  +   G KL TE E+  +   SR  VR A+ +L  +K+V+++   G +V   P+   M+          ++  AR  +E+ I    A     +  L     + R +E  +   D    ++    FH+ LA +  NDVL  +   L          A +H   +   N + H    +H+ IL  +     N   K + +HL N   +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|3916015|sp|P45544.2|FRLR_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator FrlR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P45544</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.777102</Hsp_evalue>
+      <Hsp_query-from>1601</Hsp_query-from>
+      <Hsp_query-to>1656</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>ILDGITDQVLLPGKKL-TESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVH</Hsp_qseq>
+      <Hsp_hseq>LLDDIAQGVYQAGQQIPTENELCTQYNVSRITIRKAISDLVADGVLIRWQGKGTFVQ</Hsp_hseq>
+      <Hsp_midline>+LD I   V   G+++ TE+ELC Q   SR T+R A+S L  D ++     +G FV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|37999728|sp|Q8X835.2|FRLR_ECO57</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator FrlR [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X835</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.797971</Hsp_evalue>
+      <Hsp_query-from>1601</Hsp_query-from>
+      <Hsp_query-to>1656</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>ILDGITDQVLLPGKKL-TESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVH</Hsp_qseq>
+      <Hsp_hseq>LLDDIAQGVYQAGQQIPTENELCTQYNVSRITIRKAISDLVADGVLIRWQGKGTFVQ</Hsp_hseq>
+      <Hsp_midline>+LD I   V   G+++ TE+ELC Q   SR T+R A+S L  D ++     +G FV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|37999541|sp|Q83PX4.2|FRLR_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=HTH-type transcriptional regulator FrlR [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83PX4</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.797971</Hsp_evalue>
+      <Hsp_query-from>1601</Hsp_query-from>
+      <Hsp_query-to>1656</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>ILDGITDQVLLPGKKL-TESELCRQMVCSRNTVRGALSLLAHDKIVDLQPNRGAFVH</Hsp_qseq>
+      <Hsp_hseq>LLDDIAQGVYQAGQQIPTENELCTQYNVSRITIRKAISDLVADGVLIRWQGKGTFVQ</Hsp_hseq>
+      <Hsp_midline>+LD I   V   G+++ TE+ELC Q   SR T+R A+S L  D ++     +G FV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 55, 62, 66, 78, 80, 84, 97, 107, 122, 125, 137, 152, 157, 158, 172, 174,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

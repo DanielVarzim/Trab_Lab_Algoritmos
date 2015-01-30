@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>259803</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1534</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>259803</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1534</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|14549155|sp|P75826.2|YBJE_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YbjE [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P75826</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>1.24082e-56</Hsp_evalue>
+      <Hsp_query-from>1241</Hsp_query-from>
+      <Hsp_query-to>1531</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>LFSVLVPMFAGFFIRV-PKPYLPASDKVLSVLVYAVLLLIGVSLSRVEDLGSRLGDM----ALTVLWLFVCTVGANLLALAVLGKLSPWRIGGKGKGVSVGVSGSVRQL---GCVLLGFVSGKLMCDIWMPSENAGMYCLMLLVFLIGVQLKSSGVSLRQVLLNRRGIRLSVWFILSSLSGGLLFAASADGVSWTKGLAMASGFGWYSLSGLVMTEAYGAVWGSIMLLNDLARELFALAFIPLLMKRFPDAAVGVGGATSMDFTLPVIQGAGGLEVVPVAVSFGVVVNIAAPFLMVVFS</Hsp_qseq>
+      <Hsp_hseq>LLIILVPLIVGYLIPLRQQAALKVINQLLSWMVYLILFFMGISLAFLDNLASNLLAILHYSAVSITVILLC----NIAALMWLERGLPWRNHHQQEKLPSRIAMALESLKLCGVVVIGFAIGLSGLAFLQHATEASEYTLILLLFLVGIQLRNNGMTLKQIVLNRRGMIVAVVVVVSSLIGGLINAFILD-LPINTALAMASGFGWYSLSGILLTESFGPVIGSAAFFNDLARELIAIMLIPGLIRRSRSTALGLCGATSMDFTLPVLQRTGGLDMVPAAIVHGFILSLLVPILIAFFS</Hsp_hseq>
+      <Hsp_midline>L  +LVP+  G+ I +  +  L   +++LS +VY +L  +G+SL+ +++L S L  +    A+++  + +C    N+ AL  L +  PWR   + + +   ++ ++  L   G V++GF  G         +  A  Y L+LL+FL+G+QL+++G++L+Q++LNRRG+ ++V  ++SSL GGL+ A   D +     LAMASGFGWYSLSG+++TE++G V GS    NDLAREL A+  IP L++R    A+G+ GATSMDFTLPV+Q  GGL++VP A+  G ++++  P L+  FS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1175805|sp|P44201.1|Y1452_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1452 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44201</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>4.10235e-48</Hsp_evalue>
+      <Hsp_query-from>1344</Hsp_query-from>
+      <Hsp_query-to>1533</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>LGCVLLGFVSGKLMCDIWMPSEN-AGMYCLMLLVFLIGVQLKSSGVSLRQVLLNRRGIRLSVWFILSSLSGGLLFAASADGVSWTKGLAMASGFGWYSLSGLVMTEAYGAVWGSIMLLNDLARELFALAFIPLLMKRFPDAAVGVGGATSMDFTLPVIQGAGGLEVVPVAVSFGVVVNIAAPFLMVVFSTL</Hsp_qseq>
+      <Hsp_hseq>LSAVIIGIVLGWL-CKDWLHFPNGSNLYVLITLIFFVGIQLRNNGISLKEVLLNKQGLMMGAIFTLSSLIGGVI-SAFFLSMPITQGLAFSSGFGWYSLSSVVLTNAWGPMQGSIAFFNDLSREILSLFLIPLFMQHYRSTAIEITGATALDCTLPIIQKSGGIEVTPIAISFGMVTNLLPPLLLVFFSSF</Hsp_hseq>
+      <Hsp_midline>L  V++G V G L C  W+   N + +Y L+ L+F +G+QL+++G+SL++VLLN++G+ +   F LSSL GG++ +A    +  T+GLA +SGFGWYSLS +V+T A+G + GSI   NDL+RE+ +L  IPL M+ +   A+ + GAT++D TLP+IQ +GG+EV P+A+SFG+V N+  P L+V FS+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123134475|sp|Q0KER8.1|COXX_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Protoheme IX farnesyltransferase; AltName: Full=Heme B farnesyltransferase; AltName: Full=Heme O synthase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0KER8</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>7.31078</Hsp_evalue>
+      <Hsp_query-from>1283</Hsp_query-from>
+      <Hsp_query-to>1450</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>LSRVEDLGSRLGDMA---LTVLWLFVCTVGANLLALAVLGKLSPWR--IGGKGKGVSVGVSGSVRQLGCVLLGFVSGKLMCDIWMPSENAGMYCLMLLVFLIGVQLKSSGVSLRQVLLNRRGIRLSVWFILSSLSGG------LLFAASADGVSWTKGL--AMASGFGWYSLSGLVMTEAY</Hsp_qseq>
+      <Hsp_hseq>LSRIRHLARQYAALTKPRVTQLAVFCAIIG---MFLATPG-MVPWRVLIGGAA-GIWL-LAGAAFAINCLVEQKIDALMRRTAWRPSATGEITTPQTLVF--SAILGGAGMWLLHVYAND----LTMWLTFATFLGYAVVYTILLKPATPQNIV-IGGLSGAMPPALGWAAVAGEVPAEAW</Hsp_hseq>
+      <Hsp_midline>LSR+  L  +   +    +T L +F   +G   + LA  G + PWR  IGG   G+ + ++G+   + C++   +   +    W PS    +     LVF     L  +G+ L  V  N     L++W   ++  G       LL  A+   +    GL  AM    GW +++G V  EA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20455264|sp|Q9F1Q3.1|RUVA_THET8</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvA [Thermus thermophilus HB8] &gt;gi|81405352|sp|Q72GZ9.1|RUVA_THET2 RecName: Full=Holliday junction ATP-dependent DNA helicase RuvA [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>Q9F1Q3</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>7.69603</Hsp_evalue>
+      <Hsp_query-from>1244</Hsp_query-from>
+      <Hsp_query-to>1323</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VLVPMFAGFFIRVPKPYLPASDKVLSVLVYAVLLLI--GVSLSRVEDLGSRLGDMALTVLWLFVCTVGANLLALAVLGKLSP</Hsp_qseq>
+      <Hsp_hseq>VLLAGGVGFFLQAPTPFLQALEEGKEVGVHTHLLLKEEGLSLYGFPD----EENLALFELLLSVSGVGPK-VALALLSALPP</Hsp_hseq>
+      <Hsp_midline>VL+    GFF++ P P+L A ++   V V+  LLL   G+SL    D      ++AL  L L V  VG   +ALA+L  L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 38, 49, 64, 66, 70, 83, 93, 108, 111, 123, 138, 143, 144, 158, 160, 164,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

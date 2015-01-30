@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>6855</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1575</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>6855</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1575</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81540289|sp|Q9HY23.1|KDGL_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HY23</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.35657e-27</Hsp_evalue>
+      <Hsp_query-from>1449</Hsp_query-from>
+      <Hsp_query-to>1575</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>MEPSSYAAEKKGKSGIRRVINAFGYSIDGIAAAYRYEVAFRQVLWLNALLVCAAFFWVSETAVRLPLIIASFVSVIVELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQLVAMLMLAAVWLSALFG</Hsp_qseq>
+      <Hsp_hseq>MSPSPF----KGQTGLKRILNATGYSLAGFLAAFRGEAAFRQLVLLNVVLIPVAFLLDVSRGERALMIAVCLLALIVELLNSAIEATVDRVSLERHPLSKNAKDMGSAAQFVALTVITVTWATILLG</Hsp_hseq>
+      <Hsp_midline>M PS +    KG++G++R++NA GYS+ G  AA+R E AFRQ++ LN +L+  AF        R  +I    +++IVEL N+A+EA VD  S E+H L+K AKD GSAAQ VA+ ++   W + L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1170635|sp|P44424.1|KDGL_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44424</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>3.31935e-19</Hsp_evalue>
+      <Hsp_query-from>1462</Hsp_query-from>
+      <Hsp_query-to>1574</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>SGIRRVINAFGYSIDGIAAAYRYEVAFRQVLWLNALLVCAAFFWVSETAVRLPLIIASFVSVI-VELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQLVAMLMLAAVWLSALF</Hsp_qseq>
+      <Hsp_hseq>TGLTHLINSTKYSLQGLKSAFKNETAFRHECFLACILIPLTFF-LGETKIEIILMISSVLLVMALELLNSAVETVVDRIGTERHELSGRAKDQGSASVFIALCIVGIVWGGILF</Hsp_hseq>
+      <Hsp_midline>+G+  +IN+  YS+ G+ +A++ E AFR   +L  +L+   FF + ET + + L+I+S + V+ +EL N+AVE  VD   TE+HEL+ RAKD GSA+  +A+ ++  VW   LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|11386959|sp|Q9ZLE0.1|KDGL_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZLE0</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>4.51951e-18</Hsp_evalue>
+      <Hsp_query-from>1452</Hsp_query-from>
+      <Hsp_query-to>1569</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>SSYAAEKKGKSGIRRVINAFGYSIDGIAAAYRYEVAFRQVLWLNALLVCAAFFWVSETAVRLPLIIASFVSVIVELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQLVAMLMLAAVW</Hsp_qseq>
+      <Hsp_hseq>SDFKVPPKAK-GFKRLFKALFYSKDGLKCAWAEESAFRQIVILALFCIVLASYLTKDFLEWGLLILPCFLSVVIELINSSIEKAVDFTGTEFHPLAKKAKDMASSAQLIGLIFWAFIW</Hsp_hseq>
+      <Hsp_midline>S +    K K G +R+  A  YS DG+  A+  E AFRQ++ L    +  A +   +      LI+  F+SV++EL N+++E AVD T TE H LAK+AKD  S+AQL+ ++  A +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|3024059|sp|P56411.1|KDGL_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>P56411</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>6.361e-18</Hsp_evalue>
+      <Hsp_query-from>1452</Hsp_query-from>
+      <Hsp_query-to>1569</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>SSYAAEKKGKSGIRRVINAFGYSIDGIAAAYRYEVAFRQVLWLNALLVCAAFFWVSETAVRLPLIIASFVSVIVELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQLVAMLMLAAVW</Hsp_qseq>
+      <Hsp_hseq>SDFEVPPKAK-GFKRLFKALFYSKDGLKCAWIEESAFRQIVILALFCIVLASYLAKDFLEWGLLILPCFLSVVVELINSSIEKAVDFTGTEFHPLAKKAKDMASAAQLIGLIFWTLIW</Hsp_hseq>
+      <Hsp_midline>S +    K K G +R+  A  YS DG+  A+  E AFRQ++ L    +  A +   +      LI+  F+SV+VEL N+++E AVD T TE H LAK+AKD  SAAQL+ ++    +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81170921|sp|P0ABN3.2|KDGL_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Escherichia coli O157:H7] &gt;gi|81170922|sp|P0ABN2.2|KDGL_ECOL6 RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Escherichia coli CFT073] &gt;gi|81170923|sp|P0ABN1.2|KDGL_ECOLI RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Escherichia coli K-12] &gt;gi|81170924|sp|P0ABN4.2|KDGL_SHIFL RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0ABN3</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>1.91593e-16</Hsp_evalue>
+      <Hsp_query-from>1462</Hsp_query-from>
+      <Hsp_query-to>1569</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>SGIRRVINAFGYSIDGIAAAYRYEVAFRQ---VLWLNALLVCAAFFWVSETAVRLPLIIASFVSV-IVELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQLVAMLMLAAVW</Hsp_qseq>
+      <Hsp_hseq>TGFTRIIKAAGYSWKGLRAAWINEAAFRQEGVAVLLAVVIAC----WLDVDAITRVLLISSVMLVMIVEILNSAIEAVVDRIGSEYHELSGRAKDMGSAAVLIAIIVAVITW</Hsp_hseq>
+      <Hsp_midline>+G  R+I A GYS  G+ AA+  E AFRQ    + L  ++ C    W+   A+   L+I+S + V IVE+ N+A+EA VD   +E HEL+ RAKD GSAA L+A+++    W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|462437|sp|Q06119.1|KDGL_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q06119</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>4.73241e-06</Hsp_evalue>
+      <Hsp_query-from>1455</Hsp_query-from>
+      <Hsp_query-to>1574</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AAEKKGKSGIRRVINAFGYSIDGIA-----AAYRYEVAFRQVLWLNALLVCAAFFWVSETAVRLPLIIASFVSVIVELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQLVAMLMLAAVWLSALF</Hsp_qseq>
+      <Hsp_hseq>AAPVHKHRGIRHLFAAASYSFGGAKRLIGEAAFRHELIAFAVAMVAFMIVGANLFQYVAMAILFLLMMA------FEAINTAIEEIVDRVSPEISEMGRNAKDLGSFACLCLILANAAYALYVIF</Hsp_hseq>
+      <Hsp_midline>AA      GIR +  A  YS  G       AA+R+E+    V  +  ++V A  F     A+   L++A       E  NTA+E  VD  S E  E+ + AKD GS A L  +L  AA  L  +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|267466|sp|P29945.1|KDGL_PSEDE</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Pseudomonas denitrificans]</Hit_def>
+  <Hit_accession>P29945</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.5086e-05</Hsp_evalue>
+      <Hsp_query-from>1438</Hsp_query-from>
+      <Hsp_query-to>1559</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>AGNGOORIGINMEPSSYAAEKKGKSGIRRVINAFGYSIDGIA-----AAYRYEVAFRQVLWLNALLVCAAFFWVSETAVRLPLIIASFVSVIVELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQL</Hsp_qseq>
+      <Hsp_hseq>AKNTTHRIG-----QTGPVEKQ--TGIRHLFAAASYSLGGAKRLIGEAAFRHELIAFAAAMIAFIIVGATFFQYVAMAILFLLMMA------FEAINTAIEEIVDRVSPEISEMGKNAKDLGSFACL</Hsp_hseq>
+      <Hsp_midline>A N   RIG      +   EK+  +GIR +  A  YS+ G       AA+R+E+       +  ++V A FF     A+   L++A       E  NTA+E  VD  S E  E+ K AKD GS A L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2494035|sp|Q55143.1|KDGL_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Probable diacylglycerol kinase; Short=DAGK; AltName: Full=Diglyceride kinase; Short=DGK [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55143</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00356127</Hsp_evalue>
+      <Hsp_query-from>1470</Hsp_query-from>
+      <Hsp_query-to>1552</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>AFGYSIDGIAAAYRYEVAFRQVLWLNALLVCAAFFWVSETAVRLPLIIASFVSVIVELFNTAVEAAVDHTSTEK-HELAKRAKD</Hsp_qseq>
+      <Hsp_hseq>SFRYAWAGVSYAFATQRNFRIHTFTGVAVITAASLLHLEAIAVAVLALTSCLVMILELLNTALESVVDLTVGQSYHELAKIAKD</Hsp_hseq>
+      <Hsp_midline>+F Y+  G++ A+  +  FR   +    ++ AA     E      L + S + +I+EL NTA+E+ VD T  +  HELAK AKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|205831090|sp|A5PJF4.1|TM218_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Transmembrane protein 218 [Bos taurus]</Hit_def>
+  <Hit_accession>A5PJF4</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.47891</Hsp_evalue>
+      <Hsp_query-from>1491</Hsp_query-from>
+      <Hsp_query-to>1574</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>VLWLNALLVCAAFFWVSETAVRLPLII----ASFVSVIVELFNTAVEAAVDHTSTEKHELAKRAKDAGSAAQLVAMLMLAAVWLSALF</Hsp_qseq>
+      <Hsp_hseq>LLWVSVLLLCALLFRAS-GAARFSVIFVFLGALIVTAILLLFPRASDAPAPEAET-------KIVDAFFIGRYVLLAFLTAVFLGSLF</Hsp_hseq>
+      <Hsp_midline>+LW++ LL+CA  F  S  A R  +I     A  V+ I+ LF  A +A      T       +  DA    + V +  L AV+L +LF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 46, 64, 66, 70, 83, 93, 108, 111, 123, 138, 143, 144, 158, 160, 164, 170,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

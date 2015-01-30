@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>248193</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1738</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>248193</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1738</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20138363|sp|Q9JYJ3.1|GSHB_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JYJ3</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>619.772</Hsp_bit-score>
+      <Hsp_score>1597</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1738</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>304</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAAWSVR</Hsp_qseq>
+      <Hsp_hseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFLGAKNDDDHAWFKSADKVQTALEAFDAVIMRTDPPFDMQYLYATQLLTLAEQQGAKVFNSGQAMRDFNEKLAILNFSRFIAPTLVTTRSADVRTFLKEHGDIIIKPLDGMGGMGIFRLTEKDPNIGSILETLMQLDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELGGRDREIAETLAPELKRRGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKGFDVAAMFADAVAAWSVR</Hsp_hseq>
+      <Hsp_midline>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEF GAKNDDDH WFK+ADKVQTAL+ FDAVIMRTDPPFDMQYLY+TQLLTLAEQQGAKVFNSG+AMRDFNEKLAILNFSRF APTLVTTRSADVR FLKEHGDII+KPLDGMGGMGIFRLTEKDPNIGSILETLM+ DSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQEL GRDREIAETLAPELKR GILLAGLDVIGSNLTEVNVTSPTGFQEIMKQK FDVAAMFADAVAAWSVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|20138362|sp|Q9JTJ6.1|GSHB_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JTJ6</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>619.002</Hsp_bit-score>
+      <Hsp_score>1595</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1738</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAAWSVR</Hsp_qseq>
+      <Hsp_hseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVKNGLVVADASAFEFLGAQDDHDKNWFAAADKVQTALKAFDAVIMRTDPPFDMQYLYATQLLTLAEQQGAKVFNSGQAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIIKPLDGMGGMGIFRLTEKDPNIGSILETLMQLDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELSERDREIAETLAPELKRRGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKGFDVAAMFADAVAEWSVR</Hsp_hseq>
+      <Hsp_midline>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSV  GLV A ASAFEF GA++D D  WF AADKVQTALK FDAVIMRTDPPFDMQYLY+TQLLTLAEQQGAKVFNSG+AMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDII+KPLDGMGGMGIFRLTEKDPNIGSILETLM+ DSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQEL  RDREIAETLAPELKR GILLAGLDVIGSNLTEVNVTSPTGFQEIMKQK FDVAAMFADAVA WSVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|39931350|sp|Q7NQ65.1|GSHB_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NQ65</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>2.36713e-113</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MRILFIADPLEHFKIYKDTTFAMMEEAHRRGHAISFAEAHQLSVEGGRLQVDACDL----AVTDERPDWYKLGPKLRQPLTAFSAVVMRKDPPFDMEYLYASQLFTLAEAQGVKVFTSGQALRDFNEKLAILHFPELISPTLISGEAHRLRAFVNQHQDVILKPLDSMGGDSIFRVKPDDPNLSVIIETITWRGKRTVMAQRYIPEIRDGDKRILVIDGVPVDHCLARIPAAGETRGNLAAGGRGEARPLSARDREIAETVGPELKKRGILLAGLDVIGNYLTEVNVTSPTCFREIMDQTGVNVAGLYIDAL</Hsp_hseq>
+      <Hsp_midline>M++LFIADP+  FK YKDTT+AMM E  +RG  +    + +LSV GG +   A       A  D+  +W+K   K++  L  F AV+MR DPPFDM+YLY++QL TLAE QG KVF SG+A+RDFNEKLAIL+F    +PTL++  +  +RAF+ +H D+I+KPLD MGG  IFR+   DPN+  I+ET+     RT+MAQRYIPEI  GDKRIL+I G  V + LARIP  GETRGNLAAGGRG A+ L  RDREIAET+ PELK+ GILLAGLDVIG+ LTEVNVTSPT F+EIM Q   +VA ++ DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20138175|sp|P58579.1|GSHB_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>P58579</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.918</Hsp_bit-score>
+      <Hsp_score>925</Hsp_score>
+      <Hsp_evalue>5.7211e-111</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MRILFIVDPLSTFKIYKDSTFAMMREAAARGYAIYTCQQSQLTLSGNVVETVATPLALTG----DEHDWYRSGDPRLLPLTGFDAVLMRKDPPFDMEYVTSTWLLEIAERQGARVFNKPQAIRDHSEKLAIAQFREFTAPTIVTRDAKRLREFHAEQGDVIFKPLDGMGGAGIFRVGADGMNLGSVIETLTHNGTRTVMAQQYIPAIRDGDKRILLIGGSPVPHALARVPMAGEVRGNLAAGGTGRAQLLSERDQVIAHALAPVLWQRGLLLVGLDVIGDYLTEVNVTSPTCFQEITQQTGFNVAGMFIDAL</Hsp_hseq>
+      <Hsp_midline>M++LFI DP+++FK YKD+T+AMMRE A RG+ ++     +L+++G +V   A+    +G    D+H+W+++ D     L  FDAV+MR DPPFDM+Y+ ST LL +AE+QGA+VFN  +A+RD +EKLAI  F  FTAPT+VT  +  +R F  E GD+I KPLDGMGG GIFR+     N+GS++ETL    +RT+MAQ+YIP I  GDKRIL+IGG  VP+ALAR+P  GE RGNLAAGG G AQ L  RD+ IA  LAP L + G+LL GLDVIG  LTEVNVTSPT FQEI +Q  F+VA MF DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|39931444|sp|Q7W910.1|GSHB_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Bordetella parapertussis 12822] &gt;gi|39931456|sp|Q7WKF5.1|GSHB_BORBR RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7W910</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>4.17457e-108</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFK---AADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MHVLFIIDPLPLLKAYKDSSVAMMQALQARGHTLSVALQGDLYIDAGEVRTRFAPIALRDGADLHGHDWWRETGAAD--EAPLARFDAVVMRKDPPFDMEYVYSTHLLEYAQQQGARVFNSGAAIRNHPEKLAITEFPDLTTPTLVTRDMGRIRAFHAAQGDVIVKPLDGMGGTGIFRLQRSEPNLNAILETLTDNGTRTIMAQRYIPEIVKGDKRILLIGGEPVPYSLARIPLAGETRGNLAAGGRGVAQPLSERDLHLARTVADRLAGRGLLLVGLDVIGDYITEVNVTSPTCFVEITEQTGFNVPEMFAVALES</Hsp_hseq>
+      <Hsp_midline>M VLFI DP+   K YKD++ AMM+ +  RG  L   L G+L ++ G V  + +        +   H+W++   AAD  +  L  FDAV+MR DPPFDM+Y+YST LL  A+QQGA+VFNSG A+R+  EKLAI  F   T PTLVT     +RAF    GD+IVKPLDGMGG GIFRL   +PN+ +ILETL    +RTIMAQRYIPEIV GDKRIL+IGGE VPY+LARIP  GETRGNLAAGGRGVAQ L  RD  +A T+A  L   G+LL GLDVIG  +TEVNVTSPT F EI +Q  F+V  MFA A+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|39931432|sp|Q7VY62.1|GSHB_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VY62</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.132</Hsp_bit-score>
+      <Hsp_score>897</Hsp_score>
+      <Hsp_evalue>3.63173e-107</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFK---AADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MHVLFIIDPLPLLKAYKDSSVAMMQALQARGHTLSVALQGDLYIDAGEVRTRFAPIALRDGADLHGHDWWRETGAAD--EAPLARFDAVVMRKDPPFDMEYVYSTHLLEYAQQQGARVFNSGAAIRNHPEKLAITEFPDLTTPTLVTRDMARIRAFHAAQGDVIVKPLDDMGGTGIFRLQRSEPNLNAILETLTDNGTRTIMAQRYIPEIVKGDKRILLIGGEPMPYSLARIPLAGETRGNLAAGGRGVAQPLSERDLHLARTVADRLAGRGLLLVGLDVIGDYITEVNVTSPTCFVEITEQTGFNVPEMFAVALES</Hsp_hseq>
+      <Hsp_midline>M VLFI DP+   K YKD++ AMM+ +  RG  L   L G+L ++ G V  + +        +   H+W++   AAD  +  L  FDAV+MR DPPFDM+Y+YST LL  A+QQGA+VFNSG A+R+  EKLAI  F   T PTLVT   A +RAF    GD+IVKPLD MGG GIFRL   +PN+ +ILETL    +RTIMAQRYIPEIV GDKRIL+IGGE +PY+LARIP  GETRGNLAAGGRGVAQ L  RD  +A T+A  L   G+LL GLDVIG  +TEVNVTSPT F EI +Q  F+V  MFA A+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|39931494|sp|Q82V16.1|GSHB_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82V16</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>3.62561e-102</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MKLAFILDPLDSIKIGKDSSYAMMREAAVRHHQLYTLQQNDLAWKDHQVIGFARPLTLLDPP-EGDHRWYEEGAIEEIPLSGFDAVLMRKDPPFDTEYIYSTYLLELAERQGAYVVNSPRGIRDHNEKLAITEFPRFTPPSLVTSQEQLILEFLAEHEDIILKPLDGMGGAGIFRIQNTDHNIGVIIETLTRYGTRTIMAQRFLPEIREGDKRILLIAGRPVDYALARIPKPGETRGNLAAGGTGVARPLSARDREIAEELGQILYARGLMLVGLDVIGNHLTEINVTSPTGMREISDQTGTNVAGLMIDAL</Hsp_hseq>
+      <Hsp_midline>MK+ FI DP+ S K  KD++YAMMRE A R  +L+     +L+     V   A          + DH W++     +  L  FDAV+MR DPPFD +Y+YST LL LAE+QGA V NS R +RD NEKLAI  F RFT P+LVT++   +  FL EH DII+KPLDGMGG GIFR+   D NIG I+ETL R+ +RTIMAQR++PEI  GDKRIL+I G  V YALARIP+ GETRGNLAAGG GVA+ L  RDREIAE L   L   G++L GLDVIG++LTE+NVTSPTG +EI  Q   +VA +  DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|29611762|sp|Q8EIK8.1|GSHB_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EIK8</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>2.1832e-92</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPISEINIKKDSSFAMLMAAQERGYQLFYMEMADLAIVNGVAMGNMRPLK---VMNDANH-WFELGEAKDTPLSELNVVLMRKDPPFDTEYIYATYMLERAEEQGVLIVNKPQSLRDANEKLFTAWFSEFTPETIVTRDANRIRAFHQAKGDIILKPLDGMGGTSIFRVKQDDPNLGVIIETLTQYGNQYAMAQAFIPEITKGDKRILVVDGEPVPYALARIPKKGETRGNLAAGGSGVAQPLSDSDWKIARAIGPELKKRGLIFVGLDVIGDKLTEINVTSPTCIREIQAAFDVDITGMLFDAI</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP++     KD+++AM+    +RG++LF+    +L++  G+        +     ND +H WF+  +   T L E + V+MR DPPFD +Y+Y+T +L  AE+QG  + N  +++RD NEKL    FS FT  T+VT  +  +RAF +  GDII+KPLDGMGG  IFR+ + DPN+G I+ETL ++ ++  MAQ +IPEI  GDKRIL++ GE VPYALARIP+ GETRGNLAAGG GVAQ L   D +IA  + PELK+ G++  GLDVIG  LTE+NVTSPT  +EI      D+  M  DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|20138354|sp|Q9I697.1|GSHB_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9I697</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>6.7769e-88</Hsp_evalue>
+      <Hsp_query-from>1415</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>RIGINMMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>RLGIVM-------DPIARINFKKDSSLAMLLAAQARGWSLFYMEQQDLYQKAGVARGRMRPLKVF----NDASRWFELEAESDQPLHELDVILMRKDPPFDNEFVYSTYLLEQAERAGALVVNRPQSLRDCNEKFFATQFTQCTPPTMVSRRSDILREFAAEHRDIILKPLDGMGGSSIFRHREGDPNLSVILETLTQHGSQQIMAQRYLPEIKDGDKRILMIDGEPVPYCLARIPAQGETRGNLAAGGRGVAQPLSERDRWIAAEVGPHLRERGLLFVGLDVIGDYLTEINVTSPTCIREIDQAFDTRIGDKLMDAIAA</Hsp_hseq>
+      <Hsp_midline>R+GI M       DP+A     KD++ AM+     RGW LF+    +L    G+   +    +      +D   WF+   +    L E D ++MR DPPFD +++YST LL  AE+ GA V N  +++RD NEK     F++ T PT+V+ RS  +R F  EH DII+KPLDGMGG  IFR  E DPN+  ILETL +  S+ IMAQRY+PEI  GDKRIL+I GE VPY LARIP  GETRGNLAAGGRGVAQ L  RDR IA  + P L+  G+L  GLDVIG  LTE+NVTSPT  +EI +     +     DA+AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20138178|sp|P58582.1|GSHB_YERPE</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Yersinia pestis]</Hit_def>
+  <Hit_accession>P58582</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>2.91593e-86</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQ-KSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPISSINIKKDTSFAMLLEAQRRGWELHYMEMGDLYMRGGDGRARTRRLN---VKQDKDN-WFSFGAEQDLPLYDLDVILMRKDPPFDTEFIYATYILERAEDKGTLVVNKPQSLRDCNEKLFTAWFPELTPDTLVSRSKDHIRKFHQEHGDIILKPLDGMGGTSIFRVKQDDPNLSVIIETLTELSSRFCMAQNFLPAIKEGDKRVLVVDGEPVPYCLARIPAQGETRGNLAAGGRGEARPLSESDWEIARTVAPILKQKGLIFVGLDIIGDRLTEINVTSPTCVREIEAAFPEISITGMLMDAI</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP++S    KDT++AM+ E  +RGW L +   G+L + GG   A+         K D D+ WF    +    L + D ++MR DPPFD +++Y+T +L  AE +G  V N  +++RD NEKL    F   T  TLV+     +R F +EHGDII+KPLDGMGG  IFR+ + DPN+  I+ETL    SR  MAQ ++P I  GDKR+L++ GE VPY LARIP  GETRGNLAAGGRG A+ L   D EIA T+AP LK+ G++  GLD+IG  LTE+NVTSPT  +EI        +  M  DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|25008522|sp|Q8PHZ5.1|GSHB_XANAC</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Xanthomonas axonopodis pv. citri str. 306]</Hit_def>
+  <Hit_accession>Q8PHZ5</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>6.88167e-86</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>LDVVVVMDPIASIKIAKDTTFAMLLEAQRRGHRLHYVRPGGLSLREGRAVAQVAPLSV----REDKTSWFTLGEFAELAFGPGQVVLMRKDPPVDAEFVYDTQVLSVAQRAGAQIVNDPQGLRDYNEKLAALLFPQCCPPTLVSRDAAALKAFVLEHGQAVLKPLDGMGGRSIFRSGSGDPNLNVILETLTDGNRKLTLAQRFIPDITAGDKRILLVDGLPVDYCLARIPQGDEFRGNLAAGGRGEGRPLSERDRWIAAQVGPEMRRRGMRFVGLDVIGDYLTEVNVTSPTCVRELDAQFGLNIAGLLFDAIEA</Hsp_hseq>
+      <Hsp_midline>+ V+ + DP+AS K  KDTT+AM+ E  +RG RL +   G LS+  G   AQ +         +D   WF   +  + A      V+MR DPP D +++Y TQ+L++A++ GA++ N  + +RD+NEKLA L F +   PTLV+  +A ++AF+ EHG  ++KPLDGMGG  IFR    DPN+  ILETL   + +  +AQR+IP+I  GDKRIL++ G  V Y LARIPQ  E RGNLAAGGRG  + L  RDR IA  + PE++R G+   GLDVIG  LTEVNVTSPT  +E+  Q   ++A +  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|20138176|sp|P58580.1|GSHB_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P58580</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.02297e-85</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPIAHINIKKDTSFAMLLEAQRRGYELHYMEMADLYLING--EARARTRTLSVEQNYD--KWYEFGSEQEIKLADLDVILMRKDPPFDTEFIYATYILERAEEEGTLIVNKPQSLRDCNEKLYTAWFADLTPETLVTRNKAQLKAFWEKHGDIIMKPLDGMGGASIFRVKEGDPNIGVIAETLTELGNRYCMAQNYLPAIKDGDKRVLVVDGEPVPYCLARIPQGGETRGNLAAGGRGEPRPLSESDWEIARRVGPTLKAKGLIFVGLDIIGDRLTEINVTSPTCVREIEAEYPISITGMLMDAIEA</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP+A     KDT++AM+ E  +RG+ L +    +L +  G   A+A     S  +N D  +W++   + +  L + D ++MR DPPFD +++Y+T +L  AE++G  + N  +++RD NEKL    F+  T  TLVT   A ++AF ++HGDII+KPLDGMGG  IFR+ E DPNIG I ETL    +R  MAQ Y+P I  GDKR+L++ GE VPY LARIPQ GETRGNLAAGGRG  + L   D EIA  + P LK  G++  GLD+IG  LTE+NVTSPT  +EI  +    +  M  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|20138177|sp|P58581.1|GSHB_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P58581</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.12747e-85</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPIAHINIKKDTSFAMLLEAQRRGYELHYMEMADLYLING--EARACTRTLSVEQNYD--KWYEFGSEQEIKLADLDVILMRKDPPFDTEFIYATYILERAEEEGTLIVNKPQSLRDCNEKLYTAWFADLTPETLVTRNKAQLKAFWEKHGDIIMKPLDGMGGASIFRVKEGDPNIGVIAETLTELGNRYCMAQNYLPAIKDGDKRVLVVDGEPVPYCLARIPQGGETRGNLAAGGRGEPRPLSESDWEIARRVGPTLKAKGLIFVGLDIIGDRLTEINVTSPTCVREIEAEYPISITGMLMDAIEA</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP+A     KDT++AM+ E  +RG+ L +    +L +  G   A+A     S  +N D  +W++   + +  L + D ++MR DPPFD +++Y+T +L  AE++G  + N  +++RD NEKL    F+  T  TLVT   A ++AF ++HGDII+KPLDGMGG  IFR+ E DPNIG I ETL    +R  MAQ Y+P I  GDKR+L++ GE VPY LARIPQ GETRGNLAAGGRG  + L   D EIA  + P LK  G++  GLD+IG  LTE+NVTSPT  +EI  +    +  M  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|25008521|sp|Q8P6P1.1|GSHB_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Xanthomonas campestris pv. campestris str. ATCC 33913]</Hit_def>
+  <Hit_accession>Q8P6P1</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>3.29418e-85</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>LDVVVVMDPIASIKIAKDTTFAMLLEAQRRGHRLHYVRPGGLSLHEGRAVAQVAPLSV----REDKASWFTLGAFTELVFGPGQVVLMRKDPPVDAEFIYDTQVLAVAQRAGAQVVNDPQGLRDYNEKLAALLFPQCCPPTLVSRDAAALKAFVLAHGQAVLKPLDGMGGRSIFRSGTGDPNLNVILETLTDGGRKLTLAQRFIPDITAGDKRILLVDGEPVDYCLARIPQGDEFRGNLAAGGRGEGRPLSERDRWIAAQVGPEMKRRGMRFVGLDVIGDYLTEVNVTSPTCVRELDAQFGLNIAGLLFDAIEA</Hsp_hseq>
+      <Hsp_midline>+ V+ + DP+AS K  KDTT+AM+ E  +RG RL +   G LS++ G   AQ +         +D   WF      +        V+MR DPP D +++Y TQ+L +A++ GA+V N  + +RD+NEKLA L F +   PTLV+  +A ++AF+  HG  ++KPLDGMGG  IFR    DPN+  ILETL     +  +AQR+IP+I  GDKRIL++ GE V Y LARIPQ  E RGNLAAGGRG  + L  RDR IA  + PE+KR G+   GLDVIG  LTEVNVTSPT  +E+  Q   ++A +  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|121663|sp|P04425.1|GSHB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P04425</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>4.86036e-85</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPIANINIKKDSSFAMLLEAQRRGYELHYMEMGDLY----LINGEARAHTRTLNVKQNYEEWFSFVGEQDLPLADLDVILMRKDPPFDTEFIYATYILERAEEKGTLIVNKPQSLRDCNEKLFTAWFSDLTPETLVTRNKAQLKAFWEKHSDIILKPLDGMGGASIFRVKEGDPNLGVIAETLTEHGTRYCMAQNYLPAIKDGDKRVLVVDGEPVPYCLARIPQGGETRGNLAAGGRGEPRPLTESDWKIARQIGPTLKEKGLIFVGLDIIGDRLTEINVTSPTCIREIEAEFPVSITGMLMDAIEA</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP+A+    KD+++AM+ E  +RG+ L +   G+L     L+  +A A   +     +  EWF    +    L + D ++MR DPPFD +++Y+T +L  AE++G  + N  +++RD NEKL    FS  T  TLVT   A ++AF ++H DII+KPLDGMGG  IFR+ E DPN+G I ETL    +R  MAQ Y+P I  GDKR+L++ GE VPY LARIPQ GETRGNLAAGGRG  + L   D +IA  + P LK  G++  GLD+IG  LTE+NVTSPT  +EI  +    +  M  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|20138379|sp|Q9KUP7.1|GSHB_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KUP7</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>5.27764e-85</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPIASINIKKDSSFAMMLEAQRRGYEIHYMEMNDLHLEQGVALADTKVVEL----KEDPSGWYQFKSEQTIALSELDAILMRKDPPFDTEYIYATYILERAEDEGVLVVNKPQSLRDCNEKLFTAWFPELTPITMVTRKAEKIKAFREQHGDVILKPLDGMGGASIFRVKEGDPNLSVIIETLTNHGQNYCMAQTFVPDISNGDKRILVVDGEPMPYCLARIPAKGETRGNLAAGGRGEPRPLSETDKKIALAVAPTLKEKGLLFVGLDVIGDKLTEINVTSPTCIREIEAAYDISITGKLMDAI</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP+AS    KD+++AMM E  +RG+ + +    +L +  G+  A     E      +D   W++   +   AL E DA++MR DPPFD +Y+Y+T +L  AE +G  V N  +++RD NEKL    F   T  T+VT ++  ++AF ++HGD+I+KPLDGMGG  IFR+ E DPN+  I+ETL        MAQ ++P+I +GDKRIL++ GE +PY LARIP  GETRGNLAAGGRG  + L   D++IA  +AP LK  G+L  GLDVIG  LTE+NVTSPT  +EI       +     DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|20138174|sp|P58578.1|GSHB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>P58578</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>5.55624e-85</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPIANINIKKDSSFAMLLEAQRRGYELHYMEMGDLY----LINGEARAHTRTLNVKQNYEEWFSFVGEQDLPLADLDVILMRKDPPFDTEFIYATYILERAEEKGTLIVNKPQSLRDCNEKLFTAWFSDLTPETLVTRNKAQLKAFWEKHSDIILKPLDGMGGASIFRVKEGDPNLGVIAETLTEHGTRYCMAQNYLPAIKDGDKRVLVVDGEPVPYCLARIPQGGETRGNLAAGGRGEPRPLTESDWKIARQIGPTLKEKGLIFVGLDIIGDRLTEINVTSPTCIREIEAEFPVSITGMLMDAIEA</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP+A+    KD+++AM+ E  +RG+ L +   G+L     L+  +A A   +     +  EWF    +    L + D ++MR DPPFD +++Y+T +L  AE++G  + N  +++RD NEKL    FS  T  TLVT   A ++AF ++H DII+KPLDGMGG  IFR+ E DPN+G I ETL    +R  MAQ Y+P I  GDKR+L++ GE VPY LARIPQ GETRGNLAAGGRG  + L   D +IA  + P LK  G++  GLD+IG  LTE+NVTSPT  +EI  +    +  M  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|29611742|sp|Q8DCA9.1|GSHB_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DCA9</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>1.91859e-84</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPISSINIKKDSSFAMMLEAQRRGWEIHYMEMNDLHLDQGIAIADTKVVQL----KEDPNGWYEFTSEQTIELAELDAVLMRKDPPFDTEYIYATYILERAEEQGTLIVNKPQSLRDCNEKLFTAWFPELTPTTIVTRKAEKIKAFRQEHGDIILKPLDGMGGASIFRVKENDPNVSVIIETLTNHGQNYAMAQTFVPDISNGDKRILVVDGEPMPYCLARIPAKGETRGNLAAGGSGEPRPLSETDLKIANAVAPTLKEKGLIFVGLDVIGDKLTEINVTSPTCIREIEAAFDISITGKLMDAI</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP++S    KD+++AMM E  +RGW + +    +L ++ G+  A     +      +D + W++   +    L E DAV+MR DPPFD +Y+Y+T +L  AE+QG  + N  +++RD NEKL    F   T  T+VT ++  ++AF +EHGDII+KPLDGMGG  IFR+ E DPN+  I+ETL        MAQ ++P+I +GDKRIL++ GE +PY LARIP  GETRGNLAAGG G  + L   D +IA  +AP LK  G++  GLDVIG  LTE+NVTSPT  +EI       +     DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|39931323|sp|Q7MHK1.1|GSHB_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MHK1</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>2.07836e-84</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPISSINIKKDSSFAMMLEAQRRGWEIHYMEMNDLHLDQGVAIADTKVVQL----KEDPNGWYEFTSEQTIELSELDAVLMRKDPPFDTEYIYATYILERAEEQGTLIVNKPQSLRDCNEKLFTAWFPELTPTTIVTRKAEKIKAFRQEHGDIILKPLDGMGGASIFRVKENDPNVSVIIETLTNHGQNYAMAQTFVPDISNGDKRILVVDGEPMPYCLARIPAKGETRGNLAAGGSGEPRPLSETDLKIANAVAPTLKEKGLIFVGLDVIGDKLTEINVTSPTCIREIEAAFDISITGKLMDAI</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP++S    KD+++AMM E  +RGW + +    +L ++ G+  A     +      +D + W++   +    L E DAV+MR DPPFD +Y+Y+T +L  AE+QG  + N  +++RD NEKL    F   T  T+VT ++  ++AF +EHGDII+KPLDGMGG  IFR+ E DPN+  I+ETL        MAQ ++P+I +GDKRIL++ GE +PY LARIP  GETRGNLAAGG G  + L   D +IA  +AP LK  G++  GLDVIG  LTE+NVTSPT  +EI       +     DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|31076673|sp|Q87LK1.1|GSHB_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87LK1</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>2.58745e-84</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPISSINIKKDSSFAMMLEAQRRGYEIHYMEMNDLHLDQGKAIADTKVVEL----KEDPNGWYEFKSEQMIELSELDAVLMRKDPPFDTEYIYATYILERAEEQGALIVNKPQSLRDCNEKLFTAWFPELTPTTIVTRKAEKIKAFREEHGDVILKPLDGMGGASIFRVKENDPNVSVIIETLTNHGQNYAMAQTFVPDISNGDKRILVVDGEPMPYCLARIPAKGETRGNLAAGGTGEARPLSETDMKIAQAVAPTLKEKGLIFVGLDVIGDKLTEINVTSPTCIREIEAAFDISITGKLMDAI</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP++S    KD+++AMM E  +RG+ + +    +L ++ G   A     E      +D + W++   +    L E DAV+MR DPPFD +Y+Y+T +L  AE+QGA + N  +++RD NEKL    F   T  T+VT ++  ++AF +EHGD+I+KPLDGMGG  IFR+ E DPN+  I+ETL        MAQ ++P+I +GDKRIL++ GE +PY LARIP  GETRGNLAAGG G A+ L   D +IA+ +AP LK  G++  GLDVIG  LTE+NVTSPT  +EI       +     DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|29611769|sp|Q8FE30.1|GSHB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FE30</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>6.08581e-84</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPIANINIKKDSSFAMLLEAQRRGYELHYMEMADLYLING--EARARTRTLSVEQNYD--KWYEFTGEQDLPLADLDVILMRKDPPFDTEFIYSTYILERAEDKGTLIVNKPQSLRDCNEKLFTAWFSDLTPETLVTRNKAQLKAFWEKHSDIILKPLDGMGGASIFRVKEGDPNLGVIAETLTEHGTRYCMAQNYLPAIKDGDKRVLVVDGEPVPYCLARIPQGGETRGNLAAGGRGEPRPLTESDWKIARQIGPTLKEKGLIFVGLDIIGDRLTEINVTSPTCIREIEAEFPVSITGMLMDAIEA</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP+A+    KD+++AM+ E  +RG+ L +    +L +  G   A+A     S  +N D  +W++   +    L + D ++MR DPPFD +++YST +L  AE +G  + N  +++RD NEKL    FS  T  TLVT   A ++AF ++H DII+KPLDGMGG  IFR+ E DPN+G I ETL    +R  MAQ Y+P I  GDKR+L++ GE VPY LARIPQ GETRGNLAAGGRG  + L   D +IA  + P LK  G++  GLD+IG  LTE+NVTSPT  +EI  +    +  M  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|39931516|sp|Q83Q91.1|GSHB_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83Q91</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.14456e-83</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPIANINIKKDSSFAMLLEAQRRGYELHYMEMGDLY----LINGEARAHTRTLNVKQNYEEWFSFVGEQDLPLADLDVILMRKDPPFDTEFIYATYILERAEEKGTLIVNKPQSLRDCNEKLFTAWFSDLTPETLVTRNKAQLKAFWEKHSDIILKPLDGMGGASIFRVKEGDPNLGVIAETLTEHGTCYCMAQNYLPAIKDGDKRVLVVDGEPVPYCLARIPQGGETRGNLAAGGRGEPRPLTESDWKIARQIGPTLKEKGLIFVGLDIIGDRLTEINVTSPTCIREIEAEFPVSITGMLMDAIEA</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP+A+    KD+++AM+ E  +RG+ L +   G+L     L+  +A A   +     +  EWF    +    L + D ++MR DPPFD +++Y+T +L  AE++G  + N  +++RD NEKL    FS  T  TLVT   A ++AF ++H DII+KPLDGMGG  IFR+ E DPN+G I ETL    +   MAQ Y+P I  GDKR+L++ GE VPY LARIPQ GETRGNLAAGGRG  + L   D +IA  + P LK  G++  GLD+IG  LTE+NVTSPT  +EI  +    +  M  DA+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|38257460|sp|Q87VA4.1|GSHB_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q87VA4</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.1746e-83</Hsp_evalue>
+      <Hsp_query-from>1415</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>RIGINMMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>RLGIVM-------DPIERISYKKDSSLAMLLAAQDRGWTLFYMEQKDLYQNAGQARARMKPLKVFA----DPAKWFEFEAEIDAGLDDLDVILMRKDPPFDMEFIYTTYLLEQAESAGVLVVNKPQSLRDCNEKLFATLFPQCTPPTLVSRRADILREFAEQQGDVILKPLDGMGGASIFRHRAGDPNLSVILETLTAHGTQQIMAQGYLPAIKDGDKRILMVDGEPVPYCLARIPAAGETRGNLAAGGRGEARPLSDKDRWIAEQIGPTLREKGLLFVGLDVIGEHLTEINVTSPTCIREIDNAFGTNIGGLLMDAI</Hsp_hseq>
+      <Hsp_midline>R+GI M       DP+      KD++ AM+     RGW LF+    +L  N G   A+    +       D  +WF+   ++   L + D ++MR DPPFDM+++Y+T LL  AE  G  V N  +++RD NEKL    F + T PTLV+ R+  +R F ++ GD+I+KPLDGMGG  IFR    DPN+  ILETL    ++ IMAQ Y+P I  GDKRIL++ GE VPY LARIP  GETRGNLAAGGRG A+ L  +DR IAE + P L+  G+L  GLDVIG +LTE+NVTSPT  +EI      ++  +  DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|38257479|sp|Q88D35.1|GSHB_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88D35</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>4.05601e-83</Hsp_evalue>
+      <Hsp_query-from>1415</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>RIGINMMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>RLGIVM-------DPIASISYKKDSSLAMLLAAQARGWSLFYMEQQDLYQGEGKARARMRPLKVFA----DPARWFELGEEQDSPLAELDVILMRKDPPFDMEFVYSTYLLEQAENDGVLVVNRPQSLRDCNEKMFATLFPQCTTPTLVSRRPDIIREFTAKHADVILKPLDGMGGTSIFRHRAGDPNLSVILETLTALGTQQIMAQAYLPAIKDGDKRILMIDGEPVDYCLARIPASGETRGNLAAGGRGEARPLTERDRWIAAQVGPTLREKGLLFVGLDVIGDYLTEINVTSPTCIREIDAAYNTDIGGKLMDAI</Hsp_hseq>
+      <Hsp_midline>R+GI M       DP+AS    KD++ AM+     RGW LF+    +L    G   A+    +       D   WF+  ++  + L E D ++MR DPPFDM+++YST LL  AE  G  V N  +++RD NEK+    F + T PTLV+ R   +R F  +H D+I+KPLDGMGG  IFR    DPN+  ILETL    ++ IMAQ Y+P I  GDKRIL+I GE V Y LARIP +GETRGNLAAGGRG A+ L  RDR IA  + P L+  G+L  GLDVIG  LTE+NVTSPT  +EI    + D+     DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|25008516|sp|Q8K931.1|GSHB_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>Q8K931</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>1.14862e-80</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>LKIGIVMDSITLINIKKDSSFAILLEAQKRQHEIYYMEMNDLYLRKGQSYATTKSIEIQKNQNN----YFKFIQKKDISLNELDAILMRKDPPFNTEFIYATYILERAEEKGVLVINKPKSLRDCNEKIFISWFSRFTTDTLVTRKLSKIHNFWKEKNDIILKPLDAMGGKGVFRIKKDDPNFSVIVETLTNYEKKYCMIQTYLPEVQFGDKRILIVNGKPIPWSLTRIPKHGETRANLAVGGEGRVQKLNDKDWEIANYLAPILKKRGLILVGLDVIGDKLTEINVTSPTCICEIEEKKNISITGILIDYI</Hsp_hseq>
+      <Hsp_midline>+K+  + D +      KD+++A++ E  KR   +++    +L +  G   A   + E    +N+    +FK   K   +L E DA++MR DPPF+ +++Y+T +L  AE++G  V N  +++RD NEK+ I  FSRFT  TLVT + + +  F KE  DII+KPLD MGG G+FR+ + DPN   I+ETL  ++ +  M Q Y+PE+  GDKRILI+ G+ +P++L RIP++GETR NLA GG G  Q+L+ +D EIA  LAP LK+ G++L GLDVIG  LTE+NVTSPT   EI ++K+  +  +  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|39931315|sp|Q7M7H8.1|GSHB_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7M7H8</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>1.61677e-80</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MIKLGIVMDPISSINIKKDTSFAMLLEAQRRSWELHYMEMSDLYLHQGEARARTRLLQV----ENHPQQWYQFDREQDLALETLDVILMRKDPPFDTEYIYATYILERAEEKGTLIVNKPQSLRDCNEKLFTAWFPELTPDTLVTRNAAHLREFHQKHGDVIFKPLDGMGGASIFRLKKDDPNVGVIIETLTEHGNRFCMAQNFLPAIKEGDKRVLIVDGEPVPYCLARIPAQGETRGNLAAGGRGEARPLSESDWAIARAVAPTLQEKGLIFVGLDIIGDKLTEINVTSPTCAREI</Hsp_hseq>
+      <Hsp_midline>M+K+  + DP++S    KDT++AM+ E  +R W L +    +L ++ G   A+    +      +   +W++   +   AL+  D ++MR DPPFD +Y+Y+T +L  AE++G  + N  +++RD NEKL    F   T  TLVT  +A +R F ++HGD+I KPLDGMGG  IFRL + DPN+G I+ETL    +R  MAQ ++P I  GDKR+LI+ GE VPY LARIP  GETRGNLAAGGRG A+ L   D  IA  +AP L+  G++  GLD+IG  LTE+NVTSPT  +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|32129570|sp|Q87D42.1|GSHB_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Xylella fastidiosa Temecula1]</Hit_def>
+  <Hit_accession>Q87D42</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>2.41589e-76</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>LDVVVVMDPITGIKIAKDTTFALLLEAQRRSHRLHYVHPGSLSLNEGRTFAQTAPLQVRDNKTD----WYTLGEFSETQLGQGQIILMRKDPPVNAEFIYDTQLLSIAQAAGAQVINHPQGLRDLNEKIAAQLFPQCCPPTLISRDMRALKMFVQKQEQAILKPLDGMGGHSIFRSSNGDPNLNVILETLTDGGRTLAIAQRYLQQIIEGDKRILLIDGVPIDHCLARIPQGDEFRGNMAAGGRGESRPLNERDRWIAAQVGPEMRRRGMRFVGIDVIGDYLTEINVTSPTCLRELDAQCGLNIAGQLFDAI</Hsp_hseq>
+      <Hsp_midline>+ V+ + DP+   K  KDTT+A++ E  +R  RL +   G LS+N G   AQ +  +    K D    W+   +  +T L +   ++MR DPP + +++Y TQLL++A+  GA+V N  + +RD NEK+A   F +   PTL++     ++ F+++    I+KPLDGMGG  IFR +  DPN+  ILETL        +AQRY+ +I+ GDKRIL+I G  + + LARIPQ  E RGN+AAGGRG ++ L+ RDR IA  + PE++R G+   G+DVIG  LTE+NVTSPT  +E+  Q   ++A    DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|39931504|sp|Q83AL0.1|GSHB_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>Q83AL0</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>6.00209e-76</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1728</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMF</Hsp_qseq>
+      <Hsp_hseq>LKVGVLMDPIANIAIHKDTTFAMLLALQARQHEVYYLEPADIFLRNEKILGSMRRLQVA----DDPSQWFNLSESEIKPLHALDVLLMRKDPPFNMSYVYLTYLLELAEKQGLFVVNKPASLRDANEKLFTGWFPHCTPKTLVTSRKAILQEFIREQKEVVIKPLGAMAGESIFYLTVNDPNIPVVIETMTANGHQLVMAQRFIPEVKSGDKRIILIDGEPIPYTLARIPPKGDFRGNLARGAKGEGRELTDRDRWICEQVGPTLRKKGLWFVGLDIIGDYLTEINVTSPTGVRELQAQFDVDIAGQF</Hsp_hseq>
+      <Hsp_midline>+KV  + DP+A+   +KDTT+AM+  +  R   +++    ++ +    +       + +    DD  +WF  ++     L   D ++MR DPPF+M Y+Y T LL LAE+QG  V N   ++RD NEKL    F   T  TLVT+R A ++ F++E  ++++KPL  M G  IF LT  DPNI  ++ET+     + +MAQR+IPE+  GDKRI++I GE +PY LARIP  G+ RGNLA G +G  +EL  RDR I E + P L++ G+   GLD+IG  LTE+NVTSPTG +E+  Q   D+A  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|20138406|sp|Q9PC29.1|GSHB_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PC29</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>2.09248e-75</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>LDVVVVMDPITGIKIAKDTTFALLLEGQRRSHRLHYVHPGSLSLNEGRTFAQIAPLQVRDNKTD----WYTLGEFSETQLGQGQIILMRKDPPVNAEFIYDTQLLSIAQAAGAQVINHPQGLRDLNEKLAAQLFPQCCPPTLISRDMRALKMFVQKQEQAILKPLDGMGGHSIFRSSNGDPNLNVILETLTDGGRTLAIAQRYLQQIIEGDKRILLIDGVPIDHCLARIPQGDEFRGNMAAGGRGESRPLNEHDRWIAAQVGPEMRRRGMRFVGIDVIGDYLTEINVTSPTCLRELDAQCGLNIAGQLFDAI</Hsp_hseq>
+      <Hsp_midline>+ V+ + DP+   K  KDTT+A++ E  +R  RL +   G LS+N G   AQ +  +    K D    W+   +  +T L +   ++MR DPP + +++Y TQLL++A+  GA+V N  + +RD NEKLA   F +   PTL++     ++ F+++    I+KPLDGMGG  IFR +  DPN+  ILETL        +AQRY+ +I+ GDKRIL+I G  + + LARIPQ  E RGN+AAGGRG ++ L+  DR IA  + PE++R G+   G+DVIG  LTE+NVTSPT  +E+  Q   ++A    DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|11386819|sp|P57612.1|GSHB_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57612</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>1.04507e-68</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>LKIGILMDSIESINIKKDSSFAILLEAQKRNHIIHYMEMNDLYLRKEQAFARTRLIKL--IKNT--QKWYQFIKQQSISLSELDVILMRKDPPFNTEFIYSTYILERAEETGVLIINKPKSLRDCNEKIFTSWFPDLITDTLVTRNIFQIRQFWEKYQDIIIKPLDAMGGANIFRIKKNDPNFSVIVENMTNYERKYCMVQNYLPEIKLGDKRILIINGKPIPWCVARIARIGETRANLAAGGEGKIQSLSETDWKIANYLSPTLKKRGLILVGLDVIGDKLTEINVTSPTCICEIESQKNISITGMLLDYI</Hsp_hseq>
+      <Hsp_midline>+K+  + D + S    KD+++A++ E  KR   + +    +L +      A+    +    KN    +W++   +   +L E D ++MR DPPF+ +++YST +L  AE+ G  + N  +++RD NEK+    F      TLVT     +R F +++ DII+KPLD MGG  IFR+ + DPN   I+E +  ++ +  M Q Y+PEI  GDKRILII G+ +P+ +ARI + GETR NLAAGG G  Q L   D +IA  L+P LK+ G++L GLDVIG  LTE+NVTSPT   EI  QK+  +  M  D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|29611723|sp|P59495.1|GSHB_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>P59495</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>5.07673e-66</Hsp_evalue>
+      <Hsp_query-from>1426</Hsp_query-from>
+      <Hsp_query-to>1730</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>IADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKL-AILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFAD</Hsp_qseq>
+      <Hsp_hseq>IMDPISSINIKKDSSFAILLEAQNRKYKIYYMELKDLYLKDNKPYSHTKLLRIKNNKK----QWFTLEQQKDVSLSNLDVILMRKNPPINRAYIYATYILEQAERNGSYIINKPSSLRSYNEKLFTTTHFPQYIPKTLITSNSTKIHNFIKTYKDIIIKPLHGMAGLSIFRIKEHDPNTSVIIETMTKYETIPCISQNYITDIQKGDKRILIINGIPFPWCLARIPKKHENRGNLSIGGYGNTQKLSKNDWEIALSIAPTLNKKGIFFAGIDIIGTKLTEINITSPTCIQEIEQDTGISISTIILD</Hsp_hseq>
+      <Hsp_midline>I DP++S    KD+++A++ E   R +++++    +L +      +          K     +WF    +   +L   D ++MR +PP +  Y+Y+T +L  AE+ G+ + N   ++R +NEKL    +F ++   TL+T+ S  +  F+K + DII+KPL GM G+ IFR+ E DPN   I+ET+ ++++   ++Q YI +I  GDKRILII G   P+ LARIP+  E RGNL+ GG G  Q+L   D EIA ++AP L + GI  AG+D+IG+ LTE+N+TSPT  QEI +     ++ +  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|41019513|sp|Q8D335.2|GSHB_WIGBR</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Wigglesworthia glossinidia endosymbiont of Glossina brevipalpis]</Hit_def>
+  <Hit_accession>Q8D335</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>3.83412e-65</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>MIKLGIIMDPISSIKIKKDTSFSIMLEAQKRNYFLYYIEMKDIYYEVGEVYANSYLISVKY----DEKKWYSFKKKYTINLKELDVILMRKDPPFDIEFLYITYILEHIENFGVLIINKPKSLRDYNEKISTLSF-KYSPKTLISCSKKAIYSFQEKFGDIILKPINKMGGDSVFYVKKNDPNVSVIIDQLTNYGNSFCLIQEYIKEILNGDRRIIMINGSPLPYCLVRIPNDKEIRGNLAAGASFDILPLRKIDYEISNNISSFLKDKGLIFVGLDIIGNYLTEINITSPTGINEIESVYKVSISGILLDSI</Hsp_hseq>
+      <Hsp_midline>M+K+  I DP++S K  KDT++++M E  KR + L++    ++    G V A +           D+ +W+    K    LKE D ++MR DPPFD+++LY T +L   E  G  + N  +++RD+NEK++ L+F +++  TL++     + +F ++ GDII+KP++ MGG  +F + + DPN+  I++ L  + +   + Q YI EI++GD+RI++I G  +PY L RIP + E RGNLAAG       L   D EI+  ++  LK  G++  GLD+IG+ LTE+N+TSPTG  EI       ++ +  D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|39931372|sp|Q7U3W8.1|GSHB_SYNPX</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Synechococcus sp. WH 8102]</Hit_def>
+  <Hit_accession>Q7U3W8</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>1.10478e-64</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1718</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMK</Hsp_qseq>
+      <Hsp_hseq>MRQLFVLDPLSQIRPEKDSTAALMQAAQRAGDDIWSCTPSDLIARGDEPMAVALPVT--------PDPWIAVGAPERQSLAGFDVIWMRKDPPVDEAYLYATHLLEVAERAGVRVLNRPSALRAWNEKLGALRFSRWMAPTLVAGRVSELMAFAREQGDVVLKPLGGRAGLGVIRVQAEAPGLKALLELVTEQERLPVMAQRFLPDVTEGDKRILLVDGDPLG-AVNRRPSEGEFRSNLAVGGQAEATELSEPERQICAALAPALRAEGLFFVGIDVIGGMLSEINVTSPTGVREVER</Hsp_hseq>
+      <Hsp_midline>M+ LF+ DP++  +  KD+T A+M+   + G  ++     +L   G    A A               W       + +L  FD + MR DPP D  YLY+T LL +AE+ G +V N   A+R +NEKL  L FSR+ APTLV  R +++ AF +E GD+++KPL G  G+G+ R+  + P + ++LE +   +   +MAQR++P++  GDKRIL++ G+ +  A+ R P  GE R NLA GG+  A EL   +R+I   LAP L+  G+   G+DVIG  L+E+NVTSPTG +E+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|39931366|sp|Q7TVB0.1|GSHB_PROMA</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Prochlorococcus marinus subsp. marinus str. CCMP1375]</Hit_def>
+  <Hit_accession>Q7TVB0</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>6.70582e-62</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVA</Hsp_qseq>
+      <Hsp_hseq>MKQLFILDPIELINPAKDSSAALMQAAHRASLDIWVCTPADLQAKG----AKARVV----AKTIVPEPWKSLGEAQNLSLNEFHCIWMRKDPPVDEAFLYATHLLEVAERAGVLVLNKPASLRAWNEKLGALRFSKLMAPTLVASRVNELKEFAKEQGEVVLKPLGGKGGQGVIRVADAALGLDALLELVTSQEQMPVMMQKFLPKVIEGDKRILLVNGEPLG-AINRLPKCGDFRSNLALGGQAEATNLSKREKEICEELGPSLKSEGLFFVGIDVIGGMLSEINVTSPTGVREVEKLMNIPLA</Hsp_hseq>
+      <Hsp_midline>MK LFI DP+      KD++ A+M+   +    ++     +L   G    A+A       AK      W    +    +L EF  + MR DPP D  +LY+T LL +AE+ G  V N   ++R +NEKL  L FS+  APTLV +R  +++ F KE G++++KPL G GG G+ R+ +    + ++LE +   +   +M Q+++P+++ GDKRIL++ GE +  A+ R+P+ G+ R NLA GG+  A  L  R++EI E L P LK  G+   G+DVIG  L+E+NVTSPTG +E+ K  +  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|20138305|sp|Q98DE8.1|GSHB_RHILO</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Mesorhizobium loti MAFF303099]</Hit_def>
+  <Hit_accession>Q98DE8</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>9.7381e-62</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>LKIAVQMDHISTVSIAGDTSFALSLEAQRRGHQLFHYTPDRLSLRDGKVFARIEEMQV----RDEKGSHYSLGEKVRTDLSEMDVVLLRQDPPFDMNYITTTHILERIHPK-TLVVNDPAWVRNSPEKIFVTEFADLMPDTLITKDPLEVAAFRKEFGDIIVKPLYGNGGAGIFHLHEADRNLASLLEMFGQLFREPYIVQRYLKDVRKGDKRIILIDGEPVG-AINRVPAEHDSRSNMHVGGRAEKTELTEREREICARIGPSLRERGFILVGIDVIGDYMTEINVTSPTGVREVQRFGGADIASLFWDAV</Hsp_hseq>
+      <Hsp_midline>+K+    D +++     DT++A+  E  +RG +LFH     LS+  G V A+    +      D+    +   +KV+T L E D V++R DPPFDM Y+ +T +L     +   V N    +R+  EK+ +  F+     TL+T    +V AF KE GDIIVKPL G GG GIF L E D N+ S+LE   +      + QRY+ ++  GDKRI++I GE V  A+ R+P   ++R N+  GGR    EL  R+REI   + P L+  G +L G+DVIG  +TE+NVTSPTG +E+ +    D+A++F DAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|29611773|sp|Q8FXW6.1|GSHB_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Brucella suis 1330]</Hit_def>
+  <Hit_accession>Q8FXW6</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.98395e-61</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>LKVAVQMDHISTVNITGDTTFALSLEAQKRGHELFHYAPDRLSMRDGVVSARVEKMEVRDVKGDH----YTLGEPVRRDLTEMDVILLRQDPPFDMNYITTTHLLERIHPK-TLVVNDPAWVRNSPEKIFVTEFPDLMPETLITKDPQEVMDFRREFGDIILKPLYGNGGAGVFHLADGDRNLTSLLEMFGQLFREPFIAQRYLKDVRAGDKRIILIDGEPVG-ALNRVPSETDARSNMHVGGRPEQSKLTPREREICARIGPSLKERGFILVGIDVIGDYMTEINVTSPTGIREIERFDGTNIAALFWDAVEA</Hsp_hseq>
+      <Hsp_midline>+KV    D +++     DTT+A+  E  KRG  LFH     LS+  G+V+A+    E    K D     +   + V+  L E D +++R DPPFDM Y+ +T LL     +   V N    +R+  EK+ +  F      TL+T    +V  F +E GDII+KPL G GG G+F L + D N+ S+LE   +      +AQRY+ ++  GDKRI++I GE V  AL R+P   + R N+  GGR    +L  R+REI   + P LK  G +L G+DVIG  +TE+NVTSPTG +EI +    ++AA+F DAV A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|25008524|sp|Q8YE82.1|GSHB_BRUME</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>Q8YE82</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>3.5653e-61</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>LKVAVQMDHISTVNITGDTTFALSLEAQKRGHELFHYTPDWLSMRDGVVSARVEKMEVRDVKGDH----YTLGEPVRRDLTEMDVILLRQDPPFDMNYITTTHLLERIHPK-TLVVNDPTWVRNSPEKIFVTEFPDLMPETLITKDPQEVMDFRREFGDIILKPLYGNGGAGVFHLADGDRNLTSLLEMFGQLFREPFIAQRYLKDVRAGDKRIILIDGEPVG-ALNRVPSETDARSNMHVGGRPEQSKLTPREREICARIGPSLKERGFILVGIDVIGDYMTEINVTSPTGIREIERFDGTNIAALFWDAVEA</Hsp_hseq>
+      <Hsp_midline>+KV    D +++     DTT+A+  E  KRG  LFH     LS+  G+V+A+    E    K D     +   + V+  L E D +++R DPPFDM Y+ +T LL     +   V N    +R+  EK+ +  F      TL+T    +V  F +E GDII+KPL G GG G+F L + D N+ S+LE   +      +AQRY+ ++  GDKRI++I GE V  AL R+P   + R N+  GGR    +L  R+REI   + P LK  G +L G+DVIG  +TE+NVTSPTG +EI +    ++AA+F DAV A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|39931360|sp|Q7TUG9.1|GSHB_PROMP</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Prochlorococcus marinus subsp. pastoris str. CCMP1986]</Hit_def>
+  <Hit_accession>Q7TUG9</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>8.59562e-60</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MKFLFVVDPIKNINPLKDSSAALMQASSKKKIEVWICTPQDLEARGDEVWASSWRAEVC--------PWVSFKENKCIPLAEFNCIWMRKDPPVNEGYLYATHLLEVAERKGVKVINKPSSLRAWNEKLGALRYSHLMAPTIVASKVKDLINFAQINHDVVVKPLGGKGGQGVIRLTKDSPGIKAMIELITSQEQLPVMMQKFIPEVKEGDKRIIIVNGEPIG-SINRIPQGGDFRSNLAMGGKAEKTNLTAKEKKICTELSQHFKDEGLFFVGIDVINEMLSEINVTSPTGLREI</Hsp_hseq>
+      <Hsp_midline>MK LF+ DP+ +    KD++ A+M+  +K+   ++     +L   G  V A +   E           W    +     L EF+ + MR DPP +  YLY+T LL +AE++G KV N   ++R +NEKL  L +S   APT+V ++  D+  F + + D++VKPL G GG G+ RLT+  P I +++E +   +   +M Q++IPE+  GDKRI+I+ GE +  ++ RIPQ G+ R NLA GG+     L  ++++I   L+   K  G+   G+DVI   L+E+NVTSPTG +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|29611754|sp|Q8DKF1.1|GSHB_THEEB</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Thermosynechococcus elongatus BP-1]</Hit_def>
+  <Hit_accession>Q8DKF1</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>1.06283e-59</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDH-----EWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MDIAFIIDPIASLDPGHDTSVALMEAAQAAGARVWVTEISQLLIREGQVWAALTPIQLSPVQLVDGQWQIPQPWFELGALEWRPLNTFRAVWMRKDPPVNTAYLYATYCLDLVDPQTTLVLNSPAGLRHANEKMYALQFTSVIPKTIVTADKQRIREFVQQQGMAVLKPLGGKGGEGILFLQAGDRNLNSMIEISTQRGQLPVMLQEYLPAAKEGDKRIILLNGEPIG-AVNRIPTGDEFRGNMATGGRVAAAEITERDRQICQTLAPALRRDGLYFVGIDVIGGYLTEVNVTSPTGVREI</Hsp_hseq>
+      <Hsp_midline>M + FI DP+AS     DT+ A+M      G R++ T   +L +  G V A  +  + S  +  D        WF+        L  F AV MR DPP +  YLY+T  L L + Q   V NS   +R  NEK+  L F+     T+VT     +R F+++ G  ++KPL G GG GI  L   D N+ S++E   +     +M Q Y+P    GDKRI+++ GE +  A+ RIP   E RGN+A GGR  A E+  RDR+I +TLAP L+R G+   G+DVIG  LTEVNVTSPTG +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|8134483|sp|O32463.1|GSHB_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>O32463</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>3.31065e-59</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGG-----LVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MKLAFLIDPIAALDPTHDSTVALMEAAQLRGHEIWIGEISDLSVHVGEPLGLLRPLKIEPVQWLGDRWQVANPWFTAGEAKRRSLHDFAAVFMRKDPPVTTAYLYATYLLDLVDPKKTRVVNSPEGLRHANEKMYALQFQSVVPRTLVSSNKAEIRAFLDELRAAVLKPLGGKAGEGILFLDPGDRNFNSLVEISTQQGQLPVMVQQYLPEAKDGDKRIILVNGEPLG-AVNRVPTGREFRGNMAVGGRVEAVPITDRDREICAAVAPRLRQDGLFFVGIDVIGGYLTEVNVTSPTGIREI</Hsp_hseq>
+      <Hsp_midline>MK+ F+ DP+A+     D+T A+M     RG  ++     +LSV+ G     L   +    ++ G +    + WF A +  + +L +F AV MR DPP    YLY+T LL L + +  +V NS   +R  NEK+  L F      TLV++  A++RAFL E    ++KPL G  G GI  L   D N  S++E   +     +M Q+Y+PE   GDKRI+++ GE +  A+ R+P   E RGN+A GGR  A  +  RDREI   +AP L++ G+   G+DVIG  LTEVNVTSPTG +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|47605581|sp|P61396.1|GSHB_RHOPA</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Rhodopseudomonas palustris CGA009]</Hit_def>
+  <Hit_accession>P61396</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>4.13161e-59</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1734</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAVAA</Hsp_qseq>
+      <Hsp_hseq>LKVAVQMDPIARINIRGDSTFALLLEAQARGHAISYFTPDKLSLRGNDVVASVQSLKV----RDQEGDHFTLGEPARVDMRSYDVVLLRQDPPFDLAYITSTHLLERI-HPATLVVNNPASVRNAPEKLFVMDFTELMPPTLISRDKDEINAFRAEHGAVVMKPLHGHGGAAVFRVLPQDINFGSLYDMFAVTFREPWVIQRFLPEVKHGDKRIILVDGEFAG-AVNRVPAEDDLRSNMVRGGAAAATELSPREREICATLGPKLRERGLLFVGIDVIDGYLTEINVTSPTGIRAVARLGGPDIAAKIWDVIEA</Hsp_hseq>
+      <Hsp_midline>+KV    DP+A      D+T+A++ E   RG  + +    +LS+ G  V A   + +      D + + F   +  +  ++ +D V++R DPPFD+ Y+ ST LL         V N+  ++R+  EKL +++F+    PTL++    ++ AF  EHG +++KPL G GG  +FR+  +D N GS+ +          + QR++PE+ HGDKRI+++ GE    A+ R+P   + R N+  GG   A EL  R+REI  TL P+L+  G+L  G+DVI   LTE+NVTSPTG + + +    D+AA   D + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|20138273|sp|Q92SN3.1|GSHB_RHIME</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Sinorhizobium meliloti 1021]</Hit_def>
+  <Hit_accession>Q92SN3</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>4.20381e-59</Hsp_evalue>
+      <Hsp_query-from>1412</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>GOORIGINMMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>GIVNVGVQM-------DHVSGITIAGDSTFAMSLEAQARGYRLFHYTPDKLSLRDGRVYATAQQMQLRDVRGDH----FTLGEDERIDLSTMDVILLRQDPPFDMAYITSTHLLERLHPK-TLVVNDPAWVRNSPEKIFVTEFPDLMPKTLITRDPDEIARFRQEMGDIILKPLYGNGGAGVFHSARDDRNFSSLLEMFAQMFREPYIAQEYLPAVRKGDKRILLVDGEPVG-AINRVPAEHDSRSNMHVGGRAEATDLTAREREICTRIGPALKERGFLFVGIDVIGDYLTEINVTSPTGIREVKKFGGADVASLLWDAI</Hsp_hseq>
+      <Hsp_midline>G   +G+ M       D ++      D+T+AM  E   RG+RLFH    +LS+  G V A A   +    + D     F   +  +  L   D +++R DPPFDM Y+ ST LL     +   V N    +R+  EK+ +  F      TL+T    ++  F +E GDII+KPL G GG G+F     D N  S+LE   +      +AQ Y+P +  GDKRIL++ GE V  A+ R+P   ++R N+  GGR  A +L  R+REI   + P LK  G L  G+DVIG  LTE+NVTSPTG +E+ K    DVA++  DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|39931361|sp|Q7TUK9.2|GSHB_PROMM</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Prochlorococcus marinus str. MIT 9313]</Hit_def>
+  <Hit_accession>Q7TUK9</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>7.17062e-59</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1725</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVA</Hsp_qseq>
+      <Hsp_hseq>MRQLFVLDPLQCIQPAKDSSAALMQAAQRASIEVWACTPADLQARGDQLSAIAVPVV--------AEPWISTGEPRSLPLTDFACIWMRKDPPVDEGYLYATHLLELAERAGVCVLNRPAALRAWNEKLGALRFNNLMAPTLVASRVSELAAFAREQEEVVLKPLGGRAGQGLVRVAGAAPGLEALLELVTDQEQLPVMVQRFLPAVIEGDKRILLVDGEPLG-AVNRRPKAGDFRSNLAMGGRPEPTELDSRELQICAELAPVLREQGLFFVGIDVIDGLLSEINVTSPTGIREVERLKGVPLA</Hsp_hseq>
+      <Hsp_midline>M+ LF+ DP+   +  KD++ A+M+   +    ++     +L   G  ++A A               W    +     L +F  + MR DPP D  YLY+T LL LAE+ G  V N   A+R +NEKL  L F+   APTLV +R +++ AF +E  ++++KPL G  G G+ R+    P + ++LE +   +   +M QR++P ++ GDKRIL++ GE +  A+ R P+ G+ R NLA GGR    ELD R+ +I   LAP L+  G+   G+DVI   L+E+NVTSPTG +E+ + K   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|20138320|sp|Q9ABS9.1|GSHB_CAUCR</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Caulobacter crescentus CB15]</Hit_def>
+  <Hit_accession>Q9ABS9</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>2.52189e-58</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1728</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKE-FDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMF</Hsp_qseq>
+      <Hsp_hseq>LRVAVQMDPILGINIDTDTSFLMMMEAQSRGHKLWFYTPDKLSQEDGRVFARAQPVEVFADKGAHA----RLGETVMLDMKDDIDVVLMRQDPPFDMAYITATHFLEKVHPH-TLVVNNPAEVRNAPEKLFVTDFPGVQPPTLITSDHEAIYDFRARHGDIVLKPLYGGGGSGVARLLADDPNLDALLELHAMIGREQVIAQKFVPAVSKGDKRVLLVDGEPVG-AINRVPASGQVRSNLRVGGRAEAVELTARDLELCKIIAPELKRRGLLFVGIDVIGEYLTEINVTSPTGAQQLKRFTGVNAAEVL</Hsp_hseq>
+      <Hsp_midline>++V    DP+       DT++ MM E   RG +L+     +LS   G V A+A   E    K        +  + V   +K+  D V+MR DPPFDM Y+ +T  L         V N+   +R+  EKL + +F     PTL+T+    +  F   HGDI++KPL G GG G+ RL   DPN+ ++LE         ++AQ+++P +  GDKR+L++ GE V  A+ R+P +G+ R NL  GGR  A EL  RD E+ + +APELKR G+L  G+DVIG  LTE+NVTSPTG Q++ +    + A + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|39931339|sp|Q7NF44.1|GSHB_GLOVI</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Gloeobacter violaceus PCC 7421]</Hit_def>
+  <Hit_accession>Q7NF44</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>3.95927e-58</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQ-TALKEFDAVIMRTDPPFDMQYLYSTQLLTL-----AEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MKILFIVDPLETLKPGHDTSVALMQAAARRGHSVWAAEVGDLQVHHHRAAAQVRTLTIHPGRTP-----FYTVEAVGFYPLSEADVIWMRKDPPVTSAYLWATQVLDLVNAGRGDGRTTFVLNRPSGLRNDNEKLYALHFPDLVPETRVCTHRQDILDFVDIHGRAVIKPLDGKGGEGIFLLARADRNLNAIIEASTAYGTRHVMVQRYLEESRQGDKRIVLLAGEPIG-ALLRVPREDDVRGNMAAGGRVVKTTLTERDREICRVVGPRLVADGHYFVGIDVIGAYLTEINVTSPTGICEI</Hsp_hseq>
+      <Hsp_midline>MK+LFI DP+ + K   DT+ A+M+  A+RG  ++    G+L V+     AQ         +       F   + V    L E D + MR DPP    YL++TQ+L L      + +   V N    +R+ NEKL  L+F      T V T   D+  F+  HG  ++KPLDG GG GIF L   D N+ +I+E    + +R +M QRY+ E   GDKRI+++ GE +  AL R+P+  + RGN+AAGGR V   L  RDREI   + P L   G    G+DVIG+ LTE+NVTSPTG  EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|8134484|sp|P73493.1|GSHB_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P73493</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>4.29818e-58</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDH-----EWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MKLAFIIDPLEKLDPGHDSTVAIMEAAQKLGHEVFVTSVGDLAVINGQAWAKLAAVRLQPVILVDGHWQVSQPWSELSKSQWMALTECQAVFMRKDPPVTVQYLYATFILELLAPTKTMVINSPQGLREANEKMYTLQFAAVMPPTVVSLDKGLIRQFLEEHGAAVLKPLGGKAGEGILFLDPGDRNFNSLVEISTQHGKEPVMVQRFLPEAKEGDKRIILLDGDPIG-AVNRIPSGAEFRGNMAVGGQVAPTTITSREIEICALLKPKLQADGLYFVGIDVIGGYLTEVNVTSPTGIREI</Hsp_hseq>
+      <Hsp_midline>MK+ FI DP+       D+T A+M    K G  +F T  G+L+V  G   A+ +A         D H      W + +     AL E  AV MR DPP  +QYLY+T +L L       V NS + +R+ NEK+  L F+    PT+V+     +R FL+EHG  ++KPL G  G GI  L   D N  S++E   +     +M QR++PE   GDKRI+++ G+ +  A+ RIP   E RGN+A GG+     +  R+ EI   L P+L+  G+   G+DVIG  LTEVNVTSPTG +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|39931539|sp|Q89WL0.1|GSHB_BRADU</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Bradyrhizobium diazoefficiens USDA 110]</Hit_def>
+  <Hit_accession>Q89WL0</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>1.5761e-56</Hsp_evalue>
+      <Hsp_query-from>1428</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>DPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>DPIARINIKGDSTFALLLEAQKRGHGLSYYTPDKLSMIGEELVAPVQLLTV----RDEPGDHFTLGEPKREALNGFDVVLLRQDPPFDLAYITSTHFLERIHPK-TLVVNDPASVRNAPEKLFVMNFPQLMPPTLISRDLDEINAFRDKHGAVVMKPLHGHGGAAVFRVMPQDMNFGSLFDMFTVTFKEPWVIQQFIPEVKHGDKRIILVNGEFAG-AVNRVPAADDLRSNMVRGGAAQETELTPREREICATVGPALRERGLLFVGIDVINGNLTEINVTSPTGIRAIARLGGPDVAAKVWDTI</Hsp_hseq>
+      <Hsp_midline>DP+A      D+T+A++ E  KRG  L +    +LS+ G  + A            D+  + F   +  + AL  FD V++R DPPFD+ Y+ ST  L     +   V N   ++R+  EKL ++NF +   PTL++    ++ AF  +HG +++KPL G GG  +FR+  +D N GS+ +          + Q++IPE+ HGDKRI+++ GE    A+ R+P   + R N+  GG     EL  R+REI  T+ P L+  G+L  G+DVI  NLTE+NVTSPTG + I +    DVAA   D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|25008523|sp|Q8UII5.2|GSHB_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>Q8UII5</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>1.40131e-55</Hsp_evalue>
+      <Hsp_query-from>1428</Hsp_query-from>
+      <Hsp_query-to>1732</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>DPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEIMKQKSFDVAAMFADAV</Hsp_qseq>
+      <Hsp_hseq>DHVSGINIAGDSTFAISLEAQARGYRLFHYTPERLSMRDGKIYATVEQMELRDIKGDH----FSLSEPERVDLSTMDVIHLRQDPPFDMAYITSTHLLERIHPK-TLVVNDPAWVRNSPEKIFVTEFADLMPKTLITKDVSEIARFRNEMGDIILKPLYGNGGAGVFHSARDDRNFSSLLEMFGQMFREPYIAQEYLPDVRKGDKRILLVDGEPVG-AINRVPAENDARSNMHAGGRPEPTELTAREQEICRRIGPALRERGFLFVGIDVIGDYMTEINVTSPTGIREVRKFGGADVASLLWDAI</Hsp_hseq>
+      <Hsp_midline>D ++      D+T+A+  E   RG+RLFH     LS+  G + A     E    K D     F  ++  +  L   D + +R DPPFDM Y+ ST LL     +   V N    +R+  EK+ +  F+     TL+T   +++  F  E GDII+KPL G GG G+F     D N  S+LE   +      +AQ Y+P++  GDKRIL++ GE V  A+ R+P   + R N+ AGGR    EL  R++EI   + P L+  G L  G+DVIG  +TE+NVTSPTG +E+ K    DVA++  DA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|20141389|sp|P45480.2|GSHB_NOSS1</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Nostoc sp. PCC 7120]</Hit_def>
+  <Hit_accession>P45480</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>5.67331e-47</Hsp_evalue>
+      <Hsp_query-from>1421</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDH-----EWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MKLAFIIDPIHQLDPCHDTSVALMEAAQILGHEVWVTQANWLSVVDSKAWAILQQVELVPVQLIDGRWVAASPWYTLNTRSFSSLETMDAVFMRTDPPVNDAYLYATYVLDYVDQRKTLVINNPNGIRGANEKMYALQFTKAIPETIVSADKDFIRQFVEAKGATVLKPLGNKAGEGILFLQAGDRNFNSIVELSTQQGRLPVMVQTYLPEAKEGDKRIILLNGEPIG-ALNRLASGSDFRNNMATGGTVAKTEITPREEEICSQIAANLRQDGLIFVGIDVIGGYLTEVNVTSPTGIREI</Hsp_hseq>
+      <Hsp_midline>MK+ FI DP+       DT+ A+M      G  ++ T +  LSV      A     E    +  D        W+    +  ++L+  DAV MRTDPP +  YLY+T +L   +Q+   V N+   +R  NEK+  L F++    T+V+     +R F++  G  ++KPL    G GI  L   D N  SI+E   +     +M Q Y+PE   GDKRI+++ GE +  AL R+    + R N+A GG     E+  R+ EI   +A  L++ G++  G+DVIG  LTEVNVTSPTG +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|544429|sp|P35667.1|GSHB_ANACE</Hit_id>
+  <Hit_def>RecName: Full=Glutathione synthetase; AltName: Full=GSH synthetase; Short=GSH-S; Short=GSHase; AltName: Full=Glutathione synthase [Anaplasma centrale]</Hit_def>
+  <Hit_accession>P35667</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.28677e-41</Hsp_evalue>
+      <Hsp_query-from>1420</Hsp_query-from>
+      <Hsp_query-to>1716</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>MMKVLFIADPMASFKTYKDTTYAMMREMAKRGWRLFHTLSGELSVNGGLVTAQASAFEFSGAKNDDDHEWFKAADKVQTALKEFDAVIMRTDPPFDMQYLYSTQLLTLAEQQGAKVFNSGRAMRDFNEKLAILNFSRFTAPTLVTTRSADVRAFLKEHGDIIVKPLDGMGGMGIFRLTEKDPNIGSILETLMRFDSRTIMAQRYIPEIVHGDKRILIIGGEVVPYALARIPQNGETRGNLAAGGRGVAQELDGRDREIAETLAPELKRSGILLAGLDVIGSNLTEVNVTSPTGFQEI</Hsp_qseq>
+      <Hsp_hseq>MLKVAFQMD--EDVVVGRDVSVKLVEEAQRRGHEVFFYRPTSLAFVCGELVAEAFSVRV-GADSLHFH------DKTRLPLGKLDMLFVRQNPPFDMRYVTTTYLL---ERLDILMINNPKAIRDHPEKLLPLSFPKFIPPTLITESVSEISAFYAEYGDIVLKPLYDYGGNGVCRICGR-ADVGAISSAMVERYEAPLVAQQFIDDI-SSDKRVVLLGGRPIGAVRRKVTAMGEIRTNLRVGATPEATELSDREREICHDVGMLLSSVDILFAGIDILGGHLIEVNVTSPCGILEI</Hsp_hseq>
+      <Hsp_midline>M+KV F  D        +D +  ++ E  +RG  +F      L+   G + A+A +    GA +   H      DK +  L + D + +R +PPFDM+Y+ +T LL   E+    + N+ +A+RD  EKL  L+F +F  PTL+T   +++ AF  E+GDI++KPL   GG G+ R+  +  ++G+I   ++      ++AQ++I +I   DKR++++GG  +     ++   GE R NL  G    A EL  R+REI   +   L    IL AG+D++G +L EVNVTSP G  EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 1, 3, 24, 27, 36, 42, 65, 67, 71, 84, 94, 109, 112, 124, 139, 144, 145, 159, 161, 165,... (only first 20 shown)</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
