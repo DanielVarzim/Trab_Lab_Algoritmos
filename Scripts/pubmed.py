@@ -13,7 +13,7 @@ import shutil#moving files
 import os.path
 
 
-def ProcurarArtigos(nome):
+def NumeroArtigos(nome):
     # Função que faz procura no PubMed de todos os artigos que contêm informações acerca da Neisseria gonorrhoeae
     Entrez.email = "joaosilva1993@live.com.pt"     
     handle = Entrez.egquery(term = nome)
@@ -83,14 +83,29 @@ def ProcuraAutor(records):
         if search_author in record["AU"]:
             print ("Autor %s encontrado: %s" % (search_author, record["SO"]))
             
-            
+
+def Abstract(Titulo):                                                   #Gera o abstract de um artigo a partir do seu Titulo
+    Entrez.email = "pg27662@alunos.uminho.pt"
+    handle = Entrez.esearch(db = "pubmed", term = Titulo, retmax = 1)
+    result= Entrez.read(handle)
+    handle.close
+    idlist=result["IdList"]
+    handle2 = Entrez.efetch(db="pubmed", id=idlist, rettype="medline", retmode="text")
+    result2 = Medline.parse(handle2)
+    for record in result2:
+        print(record["AB"])
+    handle2.close()
+              
+                   
 def teste():
-    ProcurarArtigos("Neisseria gonorrhoeae")                    #diz-nos quantos artigos existem com o nome "neisseria gonorrhaeae"
-    lista = DownloadArtigosIDs("Neisseria gonorrhoeae", 11146)  #faz download dos ids de todos os artigos com o nome "neissseria gonorrhaeae"
-    registos = ObterRegistos(lista)
-    GuardarRegistos("Neisseria gonorrhoeae", registos)          #Guarda alguma info(Titulo, Autor e Source) de todos os artigos encontrados num ficheiro
-    #VerRegistos(registos)
-    #ProcuraTitulo(registos)
+    #NumeroArtigos("Neisseria gonorrhoeae")                      #diz-nos quantos artigos existem com o nome "neisseria gonorrhaeae"
+    #lista = DownloadArtigosIDs("Neisseria gonorrhoeae", 11146)  #faz download dos ids de todos os artigos com o nome "neissseria gonorrhaeae"
+    #registos = ObterRegistos(lista)
+    #GuardarRegistos("Neisseria gonorrhoeae", registos)         #Guarda alguma info(Titulo, Autor e Source) de todos os artigos encontrados num ficheiro
+    #VerRegistos(registos)                        
+    #ProcuraTitulo(registos)                                     #Procura todos os artigos que contenham aquelas palavras no titulo  
+    Titulo = input("Introduza o titulo a procurar:")            #Titulo desejado
+    print(Abstract(Titulo))                                     #Faz print do abstract com o titulo inserido
     #ProcuraAutor(registos)
 
         
