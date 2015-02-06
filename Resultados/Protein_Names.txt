@@ -1,0 +1,225 @@
+putative long-chain-fatty-acid--CoA-ligase [Neisseria gonorrhoeae FA 1090].
+putative tRNA methyltransferase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative diacylglycerol kinase [Neisseria gonorrhoeae FA 1090].
+putative glutathione synthetase [Neisseria gonorrhoeae FA 1090].
+putative glutaminyl-tRNA synthetase [Neisseria gonorrhoeae FA 1090].
+putative DeoR-family transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative GntR-family transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative phosphoribosylglycinamidetransformylase [Neisseria gonorrhoeae FA 1090].
+putative peptidyl-prolylisomerase [Neisseria gonorrhoeae FA 1090].
+putative DNA polymerase III chi subunit [Neisseria gonorrhoeae FA 1090].
+putative aminopeptidase A [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1230 [Neisseria gonorrhoeae FA 1090].
+putative aconitate hydratase 2 [Neisseria gonorrhoeae FA 1090].
+ornithine carbamoyltransferase [Neisseria gonorrhoeae FA 1090].
+putative ketol-acid reductoisomerase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative acetolactatesynthase isozyme III small subunit [Neisseria gonorrhoeae FA 1090].
+putative acetolactate synthase isozyme III large subunit [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative ATP phosphoribosyltransferase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative histidinol dehydrogenase [Neisseria gonorrhoeae FA 1090].
+putative histidinol-phosphate aminotransferase [Neisseria gonorrhoeae FA 1090].
+putative imidazoleglycerol-phosphate dehydratase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative MarR-family transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative serine protease [Neisseria gonorrhoeae FA 1090].
+putative CDP-diacylglycerol transferase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+mtrCDE transcriptional regulator, activator [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative ABC transporter, periplasmic binding protein, polyamine [Neisseria gonorrhoeae FA 1090].
+putative alanyl-tRNA synthetase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative insertion element IS1016 transposase [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1257 [Neisseria gonorrhoeae FA 1090].
+putative phosphoglycerate mutase [Neisseria gonorrhoeae FA 1090].
+DNA topoisomerase IV subunit A [Neisseria gonorrhoeae FA 1090].
+putative transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative invertase related gene 5, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+putative TspB-like protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative nitric oxide reductase [Neisseria gonorrhoeae FA 1090].
+nitrite reductase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative phosphoserine aminotransferase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative N utilisation substance protein A [Neisseria gonorrhoeae FA 1090].
+putative translation initiation factor IF-2 [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative amino-acid transporter, sodium/alanine symporter [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative disulfide bond formation protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1293 [Neisseria gonorrhoeae FA 1090].
+putative AsnC-family transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+putative alanine racemase [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1296 [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1301 [Neisseria gonorrhoeae FA 1090].
+putative insertion element IS1016 transposase [Neisseria gonorrhoeae FA 1090].
+DNA-binding competence protein 2 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1306 [Neisseria gonorrhoeae FA 1090].
+putative flavoprotein [Neisseria gonorrhoeae FA 1090].
+putative guanosine-3',5'-bis(diphosphate)3'-pyrophosphohydrolase [Neisseria gonorrhoeae FA 1090].
+putative RNA polymerase, omega subunit [Neisseria gonorrhoeae FA 1090].
+putative guanylate kinase [Neisseria gonorrhoeae FA 1090].
+putative adenine phosphoribosyltransferase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative protease [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative insertion element IS1016 transposase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative paraquot-inducible protein A [Neisseria gonorrhoeae FA 1090].
+putative paraquat-inducible protein B [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative DNA-3-methyladenineglycosylase I [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative glycine dehydrogenase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative cytochrome [Neisseria gonorrhoeae FA 1090].
+putative amino acid aminotransferase [Neisseria gonorrhoeae FA 1090].
+putative tRNA (uracil-5-)-methyltransferase [Neisseria gonorrhoeae FA 1090].
+putative chorismate synthase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative DNA topoisomerase IV subunit B [Neisseria gonorrhoeae FA 1090].
+putative invasion protein [Neisseria gonorrhoeae FA 1090].
+putative seryl-tRNA synthetase [Neisseria gonorrhoeae FA 1090].
+putative dehydrogenase, lactate [Neisseria gonorrhoeae FA 1090].
+putative peptide chain release factor I [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative L-asparaginase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative phosphoglucomutase protein [Neisseria gonorrhoeae FA 1090].
+putative dihydropteroate synthase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1348 [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1350 [Neisseria gonorrhoeae FA 1090].
+putative 3-oxoacyl-(acyl-carrier-protein) synthase [Neisseria gonorrhoeae FA 1090].
+putative beta-1,4-glucosyltransferase [Neisseria gonorrhoeae FA 1090].
+putative alpha-1,2-N-acetylglucosamine transferase [Neisseria gonorrhoeae FA 1090].
+putative sodium dependent ion transport protein [Neisseria gonorrhoeae FA 1090].
+putative thymidylate synthase B [Neisseria gonorrhoeae FA 1090].
+putative glutamate dehydrogenase [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1359 [Neisseria gonorrhoeae FA 1090].
+putative GntR-family transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+multidrug efflux pump channel protein [Neisseria gonorrhoeae FA 1090].
+antibiotic resistance efflux pump component [Neisseria gonorrhoeae FA 1090].
+antibiotic resistance efflux pump component [Neisseria gonorrhoeae FA 1090].
+mtrCDE transcriptional regulator, repressor [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+antibiotic resistance efflux pump component [Neisseria gonorrhoeae FA 1090].
+putative exodeoxyribonuclease V [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative cytochrome c oxidase subunit [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative cytochrome c oxidase subunit [Neisseria gonorrhoeae FA 1090].
+putative cytochrome c oxidase subunit [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+transport protein [Neisseria gonorrhoeae FA 1090].
+transport protein [Neisseria gonorrhoeae FA 1090].
+TonB [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative glutaredoxin 2 [Neisseria gonorrhoeae FA 1090].
+putative GTP pyrophosphokinase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1387 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1388 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1389 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1390 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1391 [Neisseria gonorrhoeae FA 1090].
+putative MafB-like protein [Neisseria gonorrhoeae FA 1090].
+putative MafA-like protein [Neisseria gonorrhoeae FA 1090].
+putative insertion element IS1016 transposase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative electron transfer flavoprotein-ubiquinone oxidoreductase [Neisseria gonorrhoeae FA 1090].
+putative dissimilatory nitrous oxide reduction protein, lipoprotein [Neisseria gonorrhoeae FA 1090].
+putative dissimilatory nitrous oxide reduction protein, membrane protein [Neisseria gonorrhoeae FA 1090].
+putative ABC transporter, ATP-binding protein [Neisseria gonorrhoeae FA 1090].
+putative glutamyl-tRNA reductase [Neisseria gonorrhoeae FA 1090].
+putative glycine cleavage system component H [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1405 [Neisseria gonorrhoeae FA 1090].
+putative aminomethyltransferase [Neisseria gonorrhoeae FA 1090].
+putative AsnC-family transcriptional regulator [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative insertion element IS1016 transposase [Neisseria gonorrhoeae FA 1090].
+putative Na(+)-translocating NADH-ubiquinone reductase subunit A [Neisseria gonorrhoeae FA 1090].
+putative Na(+)-translocating NADH-ubiquinone reductase subunit B [Neisseria gonorrhoeae FA 1090].
+putative Na(+)-translocating NADH-ubiquinone reductase subunit C [Neisseria gonorrhoeae FA 1090].
+putative Na(+)-translocating NADH-ubiquinone reductase subunit D [Neisseria gonorrhoeae FA 1090].
+putative Na(+)-translocating NADH-ubiquinone reductase subunit E [Neisseria gonorrhoeae FA 1090].
+putative Na(+)-translocating NADH-ubiquinone reductase subunit F [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1419 [Neisseria gonorrhoeae FA 1090].
+putative thiamine biosynthesis protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative heat shock protein [Neisseria gonorrhoeae FA 1090].
+putative serine O-acetyltransferase [Neisseria gonorrhoeae FA 1090].
+putative ubiquinone biosynthesis protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative transcriptional regulator, repressor [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative heat shock protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1430 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1431 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1432 [Neisseria gonorrhoeae FA 1090].
+putative ABC transporter, permease protein [Neisseria gonorrhoeae FA 1090].
+putative ABC transporter, ATP-binding protein [Neisseria gonorrhoeae FA 1090].
+putative cadmium resistance protein [Neisseria gonorrhoeae FA 1090].
+putative primosomal protein N' [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative ABC transporter, ATP-binding protein [Neisseria gonorrhoeae FA 1090].
+putative ABC transporter, periplasmic protein [Neisseria gonorrhoeae FA 1090].
+putative type IV pilin protein [Neisseria gonorrhoeae FA 1090].
+putative alcohol dehydrogenase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1444 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1445 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1446 [Neisseria gonorrhoeae FA 1090].
+hypothetical protein NGO1447 [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative L-lactate permease [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+putative aspartate aminotransferase [Neisseria gonorrhoeae FA 1090].
+putative lysyl-tRNA synthetase [Neisseria gonorrhoeae FA 1090].
+conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
