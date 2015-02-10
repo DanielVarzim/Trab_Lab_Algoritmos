@@ -69,8 +69,29 @@ def Save_Gen_Lenght():
     save_file.close
 
 
+def Get_Gene_Location():
+    path = "C:/Users/Daniel Varzim/Documents/GitHub/Trab_Lab_Algoritmos/Resultados/gb records/"
+    Location=[]
+    for filename in os.listdir(path):
+        result_handle= open(path+filename)
+        record = SeqIO.read(result_handle, format="genbank")
+        for i in range(len(record.features)):
+            mylocation = record.features[i]
+            if mylocation.type == "CDS":
+                Location.append(mylocation.qualifiers["coded_by"][0])
+        result_handle.close
+    
+    return Location
 
-   
+
+def Save_Gene_Location():
+    Locations= Get_Gene_Location()
+    save_file = open("Gene_Location.txt", "w+")
+    for location in Locations:
+        save_file.write(str(location)+"\n")
+    save_file.close
+    
+
 if __name__ == '__main__':
     #print(Get_IDs())
     #Save_IDs()
@@ -79,4 +100,6 @@ if __name__ == '__main__':
     #Save_Protein_Names()
     #print(Get_Gene_lenght())
     #Save_Gen_Lenght()
-   
+    #print(Get_Gene_Location())
+    Save_Gene_Location()
+    pass
