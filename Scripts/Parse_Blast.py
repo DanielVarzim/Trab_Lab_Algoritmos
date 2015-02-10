@@ -10,7 +10,7 @@ from Bio.Blast import NCBIXML
 def parsing_blast(filename):
     result_handle= open(filename+".xml")
     blast_record = NCBIXML.read(result_handle)
-    E_VALUE_THRESH = 0.04
+    E_VALUE_THRESH = 0.05
     for alignment in blast_record.alignments:
         for hsp in alignment.hsps:
             if hsp.expect < E_VALUE_THRESH:
@@ -21,6 +21,7 @@ def parsing_blast(filename):
                 print(hsp.query[0:75] + '...')
                 print(hsp.match[0:75] + '...')
                 print(hsp.sbjct[0:75] + '...')
+                print("")
     result_handle.close()
     
 
