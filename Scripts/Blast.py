@@ -14,7 +14,8 @@ import os.path
 #help(NCBIWWW.qblast)
 
 
-def blast(record,filename):
+def blast(filename):
+    record = SeqIO.read(filename+".gb", format="genbank")
     result_handle = NCBIWWW.qblast("blastp", "swissprot", record.format("genbank"))
     save_file = open(filename+"_blast.xml", "w")
     save_file.write(result_handle.read())
@@ -55,7 +56,6 @@ def teste1():
     #Efectua o blast de um único ficheiro gb gerado, por exemplo:
     #C:\Users\Daniel Varzim\Documents\GitHub\Trab_Lab_Algoritmos\Resultados\gb records\NGO1213
     #filename= input("Introduza o nome do ficheiro a efectuar o blast:")
-    #record = SeqIO.read(filename+".gb", format="genbank")
     #blast(record, filename)
     
 
