@@ -90,7 +90,35 @@ def Save_Gene_Location():
     for location in Locations:
         save_file.write(str(location)+"\n")
     save_file.close
-    
+
+def Get_CDD():
+    path = "C:/Users/Daniel Varzim/Documents/GitHub/Trab_Lab_Algoritmos/Resultados/gb records/"
+    CDD=[]
+    for i in range(225):
+        CDD.append([])
+    i=0
+    for filename in os.listdir(path):
+
+        result_handle= open(path+filename)
+        record = SeqIO.read(result_handle, format="genbank")
+        CDD.append([])
+        for j in range(len(record.features)):
+            my_cdd = record.features[j]
+            if my_cdd.type == "Region" or my_cdd.type == "Site":
+                if "db_xref" in my_cdd.qualifiers:
+                    CDD[i].append(my_cdd.qualifiers["db_xref"][0])
+        i+=1
+        result_handle.close
+        
+    return CDD    
+
+def Save_CDD():
+    CDD= Get_CDD()
+    save_file = open("Gene_CDD.txt", "w+")
+    for cdd in CDD:
+        save_file.write(str(cdd)+"\n")
+    save_file.close
+
 
 if __name__ == '__main__':
     #print(Get_IDs())
@@ -101,5 +129,7 @@ if __name__ == '__main__':
     #print(Get_Gene_lenght())
     #Save_Gen_Lenght()
     #print(Get_Gene_Location())
-    Save_Gene_Location()
+    #Save_Gene_Location()
+    #print(Get_CDD())
+    Save_CDD()
     pass
